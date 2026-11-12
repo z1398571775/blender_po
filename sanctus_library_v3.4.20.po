@@ -1,0 +1,3773 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-08 12:17+0800\n"
+"PO-Revision-Date: 2026-11-08 12:17+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "This module contains functionality about importing assets from the source files. It only interfaces with library and library_manager objects"
+msgstr ""
+"本模块包含从源文件导入资产的功能。它仅与库和库管理器对象进行交互|||~|||删除拥有零 ID 使用者的库条目。\n"
+"当提供导入文件路径时，仅删除匹配该特定文件的库——绝"
+
+msgid "texts"
+msgstr "不影响其他库（例如 Blender 5.1 内置的 geometry_nodes_essentials.blend）。|||~|||无法在源文件 \"{file}\" 中找到资产 \"{name}\"（类型："
+
+msgid ""
+"Remove library entries that have zero ID users.\n"
+"When an imported_file path is provided, only remove the library\n"
+"that matches that specific file — never touch other libraries\n"
+"(e.g. Blender 5.1's built-in geometry_nodes_essentials.blend)."
+msgstr ""
+"\"{asset_type.value}\"）|||~|||将所有基于文件图像打包为无路径文件。\n"
+"\n"
+"这些是嵌入导入的 .blend 文件中（没有磁盘上的文件）的图像。如果不进行打包，"
+
+msgid "Asset \"{name}\" not in \"{asset_type.value}\" of source file \"{file}\""
+msgstr "Cycles 渲染模式会尝试从磁盘读取 ''，提示「图像文件不存在」+「加载失败：1 个图像文件」。打包成本很低（仅在 .blend 导入后运行，且仅处理确实缺少路径的图像）。"
+
+msgid ""
+"Pack every file-based Image with an empty filepath.\n"
+"\n"
+"These are images that arrived embedded in an imported .blend (no on-disk\n"
+"file). Without packing, Cycles tries to read '' from disk in Rendered\n"
+"Mode → \"Image file does not exist\" + \"Failed to load 1 image files\".\n"
+"Packing is cheap (only runs right after a .blend import, and only\n"
+"touches images that actually lack a filepath)."
+msgstr ""
+"|||~|||将图像文件加载到 bpy.data.images.Image，同时处理 BIP 缩略图。\n"
+"\n"
+"bpy.data.images.load() 无法解码 BIP 文件，"
+
+msgid ""
+"Load an image file into a bpy.data.images.Image, handling BIP thumbnails.\n"
+"\n"
+"bpy.data.images.load() cannot decode BIP files, so BIP is decoded via\n"
+"t3dn_bip.utils.load_file() and written into a new Image datablock. Regular\n"
+"images (JPG/PNG) use Blender's native loader. Returns the Image or None."
+msgstr "因此通过 t3dn_bip.utils.load_file() 进行解码并写入新的 Image 数据块。常规图像（JPG/PNG）使用 Blender 原生加载器。返回图像或 None。"
+
+msgid ""
+"takes in an asset instance path and an asset type. Its main use is to load the asset from the assets external file or get an asset if it is already available in the\n"
+"current blend file"
+msgstr "|||~|||接受资产实例路径和资产类型。其主要用途是从外部文件加载资产，或获取当前 blend 文件中已存在的资产 |||~|||无法加载资产 '{asset_in"
+
+msgid "Could not load asset '{asset_instance.asset.asset_name}': source file missing or unreadable{f' ({missing})' if missing else ''}"
+msgstr "stance.asset.asset_name}'：源文件缺失或无法读取{f' ({missing})' if missing else ''}|||~|||包含 blend 文件中资产实例的元数据。"
+
+msgid ""
+"has meta data on instances of assets within the blend file. When for example a material is imported into a user file, some meta data is being attached to it which\n"
+"can be used to determin further import behavior. Keep in mind this feature was added recently and some users might still use the addon without this feature."
+msgstr "例如当材质导入到用户文件时，会附加一些元数据，可用于进一步确定导入行为。请注意该功能是最近添加的，有些用户可能尚未启用此功能。|||~|||以下是定义 Sanctus"
+
+msgid "Here are some basic base classes for defining default bahaviors for Operators of the Sanctus Library addon."
+msgstr "Library 插件中 Operator 默认行为的类基类。"
+
+msgid ""
+"[CONTEXT Verified]\n"
+"Standardized execution flow for Sanctus Core operators.\n"
+"Ensures internal logic runs, the Depsgraph stays synced, and the HUD\n"
+"is notified of memory changes to prevent access violations."
+msgstr ""
+"[已验证]\n"
+"Sanctus Core 操作符的标准化执行流程。\n"
+"确保内部逻辑运行、依赖图保持同步，并在发生内存变化时通知 HUD 以防止访问违规."
+
+msgid "Use Existing"
+msgstr "使用现有"
+
+msgid "Reimport Asset"
+msgstr "重新导入资产"
+
+msgid "Switching to {compatible_engines_text} is recommended."
+msgstr "建议切换至 {compatible_engines_text}。"
+
+msgid ""
+"⚠️ CRITICAL EXCEPTION - MANUAL REGISTRATION ⚠️\n"
+"This operator bypasses al.register_operator to prevent property renaming\n"
+"(text -> bpe_prop_text) which would break node_utils.py UI calls."
+msgstr ""
+"⚠️ 关键异常 - 手动注册 ⚠️\n"
+"此操作符绕过 al.register_operator，防止属性重命名（text -> bpe_prop_text），从而避免破坏 node_utils.py 中的 UI 调用."
+
+msgid "Socket Information"
+msgstr "插座信息"
+
+msgid "Information"
+msgstr "信息"
+
+msgid ""
+"Blender Version Compatibility Layer\n"
+"------------------------------------\n"
+"Provides helpers to abstract over API changes across Blender versions.\n"
+"Currently addresses the Blender 5.2+ change where NodesModifier no longer\n"
+"supports IDProperties (mod[key] / key in mod).\n"
+"\n"
+"In Blender 5.2+, the modifier stores input values in:\n"
+"    mod.properties.inputs.{identifier}.value\n"
+"\n"
+"Per the official 5.2 release notes:\n"
+"    # Before (4.x)\n"
+"    modifier[\"identifier\"] = 5.0\n"
+"    # After (5.2+)\n"
+"    modifier.properties.inputs.identifier.value = 5.0\n"
+"\n"
+"Usage:\n"
+"    from .blender_compat import mod_get, mod_set, mod_contains"
+msgstr ""
+"Blender 版本兼容性层\n"
+"------------------------------------\n"
+"提供辅助工具，以在不同 Blender 版本之间的 API 变更上进行抽象。\n"
+"目前解决了 Blender 5.2+ 中的变化：NodesModifier 不再支持 IDProperties（mod[key] / key in mod）。\n"
+"\n"
+"在 Blender 5.2+ 中，修饰器将输入值存储在:\n"
+"    mod.properties.inputs.{identifier}.value\n"
+"\n"
+"根据官方 5.2 发布说明：\n"
+"    # 之前 (4.x)\n"
+"    modifier['identifier'] = 5.0\n"
+"    # 之后 (5.2+)\n"
+"    modifier.properties.inputs.identifier.value = 5.0\n"
+"\n"
+"用法:\n"
+"    from .blender_compat import mod_get, mod_set, mod_contains"
+
+msgid "Find an interface item by identifier from the modifier's node group."
+msgstr "根据标识符从修饰器的节点组中查找接口项。"
+
+msgid "Find an interface item by display name (fallback for 5.2+)."
+msgstr "根据显示名称查找接口项（5.2+ 的备用方案）。"
+
+msgid ""
+"Set a modifier input value, compatible with all Blender versions.\n"
+"\n"
+"In Blender 5.2+, uses the official API:\n"
+"    mod.properties.inputs.{identifier}.value = value\n"
+"\n"
+"Args:\n"
+"    mod: The NodesModifier\n"
+"    identifier: The socket identifier (e.g. 'Input_9')\n"
+"    value: The value to set\n"
+"    name: Optional fallback name to search by if identifier not found (5.2+)"
+msgstr ""
+"设置修改器输入值，与所有 Blender 版本兼容。\n"
+"\n"
+"在 Blender 5.2+ 中，使用官方 API：\n"
+"    mod.properties.inputs.{identifier}.value = value\n"
+"\n"
+"参数:\n"
+"    mod: The NodesModifier\n"
+"    identifier: The socket identifier (e.g. 'Input_9')\n"
+"    value: The value to set\n"
+"    name: Optional fallback name to search by if identifier not found (5.2+)"
+
+msgid "Get a modifier input value, compatible with all Blender versions."
+msgstr "Get a modifier input value, compatible with all Blender versions."
+
+msgid "Check if a modifier has a given input, compatible with all Blender versions."
+msgstr "Check if a modifier has a given input, compatible with all Blender versions."
+
+msgid ""
+"Toggle between VALUE and ATTRIBUTE mode for a modifier input socket.\n"
+"\n"
+"Compatible with all Blender versions.\n"
+"In 5.2+, uses mod.properties.inputs.{id}.type (enum: VALUE/ATTRIBUTE).\n"
+"In 4.x, uses mod[\"{id}_use_attribute\"] (IDProperty int/bool)."
+msgstr ""
+"Toggle between VALUE and ATTRIBUTE mode for a modifier input socket.\n"
+"\n"
+"Compatible with all Blender versions.\n"
+"In 5.2+, uses mod.properties.inputs.{id}.type (enum: VALUE/ATTRIBUTE).\n"
+"In 4.x, uses mod[\"{id}_use_attribute\"] (IDProperty int/bool)."
+
+msgid ""
+"Check if a modifier input is in ATTRIBUTE mode.\n"
+"\n"
+"Returns True if attribute mode is enabled, False otherwise.\n"
+"Compatible with all Blender versions."
+msgstr ""
+"Check if a modifier input is in ATTRIBUTE mode.\n"
+"\n"
+"Returns True if attribute mode is enabled, False otherwise.\n"
+"Compatible with all Blender versions."
+
+msgid ""
+"Sync default values from the node group interface to the modifier inputs.\n"
+"\n"
+"In Blender 5.2+, when a new NodesModifier is created and assigned a node_group,\n"
+"primitive socket types (float, int, bool, etc.) inherit their default_value\n"
+"automatically. However, datablock socket types (Material, Object, Collection)\n"
+"start at None and must be synced explicitly.\n"
+"\n"
+"This function only syncs datablock sockets that are currently None,\n"
+"to avoid overwriting user-set values.\n"
+"\n"
+"Safe to call on any Blender version — no-op on 4.x and below."
+msgstr ""
+"Sync default values from the node group interface to the modifier inputs.\n"
+"\n"
+"In Blender 5.2+, when a new NodesModifier is created and assigned a node_group,\n"
+"primitive socket types (float, int, bool, etc.) inherit their default_value\n"
+"automatically. However, datablock socket types (Material, Object, Collection)\n"
+"start at None and must be synced explicitly.\n"
+"\n"
+"This function only syncs datablock sockets that are currently None,\n"
+"to avoid overwriting user-set values.\n"
+"\n"
+"Safe to call on any Blender version — no-op on 4.x and below."
+
+msgid "Metaclass to enable dynamic class properties"
+msgstr "Metaclass to enable dynamic class properties"
+
+msgid "Safety Net: Defaults for missing feature flags"
+msgstr "Safety Net: Defaults for missing feature flags"
+
+msgid "Config has no attribute {name}"
+msgstr "Config has no attribute {name}"
+
+msgid ""
+"Central Configuration Manager.\n"
+"Inherits Identity from sv_config.py and adds Runtime Logic."
+msgstr ""
+"Central Configuration Manager.\n"
+"Inherits Identity from sv_config.py and adds Runtime Logic."
+
+msgid "Returns True if the current install is the Starter/Lite version"
+msgstr "Returns True if the current install is the Starter/Lite version"
+
+msgid "Returns True if this product *has* a starter version available market-wise"
+msgstr "Returns True if this product *has* a starter version available market-wise"
+
+msgid ""
+"Retrieves a formatted UI string. \n"
+"Note: This requires importing ui_template which might cause circular imports \n"
+"if not handled carefully. Ideally used inside operators."
+msgstr "Retrieves a formatted UI string. Note: This requires importing ui_template which might cause circular imports if not handled carefully. Ideally used inside operators."
+
+msgid ""
+"Return True if this addon is in Expansion Mode (discoverable by Sanctus Library).\n"
+"\n"
+"Only relevant for clones with ENABLE_EXPANSIONS=False (e.g. Sanctus Viz).\n"
+"When True, the addon's panels/tools are suppressed and only its assets\n"
+"are exposed to Sanctus Library.\n"
+"\n"
+"This is read at register() time. It checks the PERSISTENT sentinel file\n"
+"(stored via bpy.utils.extension_path_user) rather than the preference,\n"
+"because Blender restores preferences AFTER register() runs. The sentinel\n"
+"is written when the user toggles Expansion Mode ON in the preferences,\n"
+"and survives Blender restarts — so register() can reliably detect the\n"
+"mode without depending on preference-restore timing."
+msgstr "Return True if this addon is in Expansion Mode (discoverable by Sanctus Library). Only relevant for clones with ENABLE_EXPANSIONS=False (e.g. Sanctus Viz). When True, the addon's panels/tools are suppressed and only its assets are exposed to Sanctus Library. This is read at register() time. It checks the PERSISTENT sentinel file (stored via bpy.utils.extension_path_user) rather than the preference, because Blender restores preferences AFTER register() runs. The sentinel is written when the user toggles Expansion Mode ON in the preferences, and survives Blender restarts — so register() can reliably detect the mode without depending on preference-restore timing."
+
+msgid ""
+"Decal settings exist on all instance of bpy.types.Object but is_decal is only True for objects added as decals by the addon.\n"
+"The module contains some utility functions and constants for doing operations with decals and the SanctusDecalSettings property group\n"
+"can be used to access the decal's specific modifier stack and materials"
+msgstr "Decal settings exist on all instances of bpy.types.Object but is_decal is only True for objects added as decals by the addon. The module contains some utility functions and constants for doing operations with decals, and the SanctusDecalSettings property group can be used to access the decal's specific modifier stack and materials."
+
+msgid "Target Object"
+msgstr "Target Object"
+
+msgid ""
+"Dependency management for Sanctus Core.\n"
+"\n"
+"This module contains ALL dependency install/repair logic (Pillow, resvg-py).\n"
+"\n"
+"It is deliberately kept FREE of any import of `t3dn_bip` (or anything that\n"
+"transitively imports PIL/resvg). That is critical: `__init__.py` must call\n"
+"`_prepare_syspath()` BEFORE any module that imports PIL/resvg is loaded, so\n"
+"that `sanctus_deps` is on `sys.path` before `t3dn_bip` tries to import PIL.\n"
+"\n"
+"If these helpers lived in `operators/library.py`, importing them would pull in\n"
+"`t3dn_bip.ops` (which imports PIL) BEFORE `_prepare_syspath` ran, producing a\n"
+"cascade of \"No module named 'PIL'\" errors for every icon."
+msgstr "Dependency management for Sanctus Core. This module contains ALL dependency install/repair logic (Pillow, resvg-py). It is deliberately kept FREE of any import of `t3dn_bip` (or anything that transitively imports PIL/resvg). That is critical: `__init__.py` must call `_prepare_syspath()` BEFORE any module that imports PIL/resvg is loaded, so that `sanctus_deps` is on `sys.path` before `t3dn_bip` tries to import PIL. If these helpers lived in `operators/library.py`, importing them would pull in `t3dn_bip.ops` (which imports PIL) BEFORE `_prepare_syspath` ran, producing a cascade of \"No module named 'PIL'\" errors for every icon."
+
+msgid "Return the dedicated user-writable install folder for dependencies."
+msgstr "Return the dedicated user-writable install folder for dependencies."
+
+msgid ""
+"Return a real Python interpreter path for pip installs.\n"
+"\n"
+"- On Windows, Blender's ``sys.executable`` IS the bundled python.exe.\n"
+"- On macOS/Linux it can be the Blender binary itself, which cannot run\n"
+"  ``-m pip``. ``bpy.app.binary_path_python`` was REMOVED in Blender 5.2\n"
+"  (verified: AttributeError), so we locate the bundled interpreter next\n"
+"  to the Blender binary using the standard layout:\n"
+"    macOS:   <Blender.app>/Contents/Resources/<ver>/python/bin/python3.x\n"
+"    Linux:   <blender_dir>/<ver>/python/bin/python3.x"
+msgstr "Return a real Python interpreter path for pip installs. - On Windows, Blender's ``sys.executable`` IS the bundled python.exe. - On macOS/Linux it can be the Blender binary itself, which cannot run ``-m pip``. ``bpy.app.binary_path_python`` was REMOVED in Blender 5.2 (verified: AttributeError), so we locate the bundled interpreter next to the Blender binary using the standard layout: macOS:   <Blender.app>/Contents/Resources/<ver>/python/bin/python3.x Linux:   <blender_dir>/<ver>/python/bin/python3.x"
+
+msgid "Return the importable module name for a pip package name."
+msgstr "Return the importable module name for a pip package name."
+
+msgid "Path of the pointer file that records the active dir for a module."
+msgstr "指针文件的完整路径，该文件记录模块的活跃目录。"
+
+msgid "Return the active version dir name for a module, or None."
+msgstr "返回模块的活跃版本目录名，或 None。"
+
+msgid "Atomically set the active version dir for a module."
+msgstr "原子性地设置模块的活跃版本目录。"
+
+msgid "Return the absolute path of the active version dir, or None."
+msgstr "返回活跃版本目录的绝对路径，或 None。"
+
+msgid ""
+"Point sys.path at the ACTIVE version dirs, keeping the user site as fallback.\n"
+"\n"
+"We add the ACTIVE versioned dirs (e.g. deps_dir/PIL-<ts>) to the FRONT of\n"
+"sys.path so they take priority. We do NOT remove the shared --user\n"
+"site-packages: it is a legitimate fallback where PIL/resvg may already be\n"
+"installed (e.g. a previous manual `pip install --user`). Removing it would\n"
+"break installs that rely on it and cause a cascade of \"No module named\n"
+"'PIL'\" errors. Our deps_dir dirs simply shadow it when present.\n"
+"\n"
+"CRITICAL: we ALSO add the user site-packages to sys.path if it is not\n"
+"already there. Blender does NOT put the user site on sys.path at startup\n"
+"(ENABLE_USER_SITE is False in some builds, and even when enabled the user\n"
+"site is not always present). If PIL/resvg are installed in the user site\n"
+"(e.g. a previous `pip install --user`), they would be invisible until\n"
+"t3dn_bip.utils adds the user site — which happens too late, AFTER the\n"
+"icon-loading threads have already started failing. Adding it here, at\n"
+"startup, prevents the flood of \"No module named 'PIL'\" errors."
+msgstr ""
+"将 sys.path 指向活跃的版目录，以用户站点为后备方案。\n"
+"\n"
+"我们将活跃的版目录（例如 deps_dir/PIL-<ts>）添加到\n"
+"sys.path 的前面，这样它们会优先被查找。我们不会删除共享的 --user\n"
+"site-packages：它是一个合法的后备方案，其中 PIL/resvg 可能已经被安装\n"
+"（例如之前的 `pip install --user`）。如果删除它，会破坏依赖于此方案的安装，\n"
+"并导致一连串\"No module named 'PIL'\"错误。我们的 deps_dir 目录只是在其存在时覆盖它。\n"
+"\n"
+"关键：我们也将用户 site-packages 添加到 sys.path 中，如果它还没有的话。\n"
+"Blender 不会在启动时将用户站点添加到 sys.path（ENABLE_USER_SITE 在某些构建中被设为 False，即使启用也不总是存在）。如果 PIL/resvg 已安装到用户站点（例如之前的 `pip install --user`），它们将只有在 t3dn_bip.utils 添加用户站点后才变得可见——这太晚了，在图标加载线程已经失败之后。在这里、在启动时添加它，可以防止\"No module named 'PIL'\"错误的大量出现。"
+
+msgid ""
+"True if a real, complete package is ACTIVE in deps_dir.\n"
+"\n"
+"Checks files on disk WITHOUT importing the module. Importing a native\n"
+"package (.pyd/.so) locks the file on Windows, which then prevents pip from\n"
+"overwriting it during an install/upgrade. So we only verify that the\n"
+"active package folder has both __init__.py and at least one native\n"
+"binary for the CURRENT platform (.pyd on Windows, .so/.dylib on\n"
+"macOS/Linux). Pure-Python packages (no native binary) fall back to\n"
+"requiring an extra .py module beyond __init__.py, so an empty/partial\n"
+"install is never reported as installed."
+msgstr ""
+"如果 deps_dir 中有一个真实的、完整的包则为 True。\n"
+"\n"
+"检查磁盘上的文件而无需导入模块。导入原生包（.pyd/.so）会在 Windows\n"
+"上锁定该文件，这会阻止 pip 在安装/升级时覆盖它。因此我们只验证\n"
+"活跃的包文件夹同时包含__init__.py和至少一个当前平台的原生二进制文件\n"
+"（Windows 上是.pyd，macOS/Linux 上是.so/.dylib）。纯 Python 包（没有原生二进\n"
+"制文件）会回退到需要__init__.py以外的额外的.py 模块，因此空安装或部分安装从不\n"
+"会被报告为已安装。"
+
+msgid ""
+"True only if the module imports as a real package (not a namespace pkg).\n"
+"\n"
+"NOTE: this imports the module, which locks a native .pyd on Windows. It is\n"
+"only called AFTER a successful pip install (to confirm the result), never\n"
+"before/during an install, so it does not block pip."
+msgstr ""
+"仅当模块导入为一个真实的包（而非命名空间包）时才为 True。\n"
+"\n"
+"注意：这会导入模块，这在 Windows 上会锁定原生.pyd。它仅在成功的 pip install\n"
+"之后调用（以确认结果），从未在安装之前或期间调用，因此它不会阻止 pip。"
+
+msgid ""
+"Verify a package imports correctly, in a SEPARATE Python process.\n"
+"\n"
+"Returns True if the package at `folder` imports as a real module.\n"
+"\n"
+"We verify in a subprocess (not in Blender's process) so that importing the\n"
+"new .pyd does NOT lock it inside Blender. If we imported it in-process, the\n"
+".pyd would be locked and pip couldn't overwrite it later — and it would\n"
+"also shadow the old module in sys.modules.\n"
+"\n"
+"NOTE: resvg-py ships a buggy __init__.py that raises NameError on a plain\n"
+"`import resvg_py` (it does `from .resvg_py import *` then\n"
+"`__doc__ = resvg_py.__doc__`, but `*` doesn't bring the `resvg_py` name).\n"
+"So for resvg_py we import the native submodule directly, which is what our\n"
+"sanctus_resvg wrapper does at runtime."
+msgstr ""
+"在一个单独的 Python 进程中验证包的导入是否正确。\n"
+"\n"
+"如果 `folder` 中的包能够作为真实模块导入，则返回 True。\n"
+"\n"
+"我们在一个子进程中（而非 Blender 的进程）进行验证，这样导入新的.pyd\n"
+"就不会在 Blender 内部锁定它。如果在进程中导入，.pyd会被锁定，pip 就无法稍后覆盖它——而且它会同时覆盖 sys.modules中的旧模块。\n"
+"\n"
+"注意：resvg-py 分发的__init__.py有缺陷，对单纯的`import resvg_py`会抛出 NameError（它执行`from .resvg_py import *`然后`__doc__ = resvg_py.__doc__`，但*不会带入resvg_py名称）。因此对于resvg_py我们直接导入原生子模块，这正是我们的sanctus_resvg wrapper在运行时做的。"
+
+msgid ""
+"Install a pip package into a NEW versioned dir and flip the pointer.\n"
+"\n"
+"Returns (ok, message).\n"
+"\n"
+"This is the standard pipx / venv / conda pattern: we NEVER overwrite a\n"
+"package in place. A native .pyd loaded by Blender is locked on Windows\n"
+"(WinError 5) and cannot be replaced. Instead:\n"
+"\n"
+"  1. pip installs the new version into a NEW dir: <mod>-<timestamp>\n"
+"  2. we verify it imports, in a SEPARATE subprocess (so we don't lock the\n"
+"     new .pyd inside Blender)\n"
+"  3. we atomically flip the pointer file to the new dir\n"
+"  4. the OLD dir (whose .pyd is locked) stays on disk until Blender\n"
+"     closes, then gets cleaned up\n"
+"\n"
+"No restart is needed: the very next import resolves to the new dir because\n"
+"sys.path points at the active dir.\n"
+"\n"
+"Crash-robustness:\n"
+"  - Crash mid-install: the new dir is incomplete but the pointer still\n"
+"    points at the OLD working dir -> safe.\n"
+"  - Active dir is corrupt: it FAILED to import, so it is NOT locked -> pip\n"
+"    can overwrite it directly (we install a new dir and flip the pointer)."
+msgstr ""
+"将包安装到一个新的版目录中并翻转指针。\n"
+"\n"
+"返回(ok, message)。\n"
+"\n"
+"这是标准的 pipx / venv / conda 模式：我们从不原地替换包。Blender 加载的原生.pyd在Windows上被锁定（WinError 5）且无法被替换。相反：\n"
+"\n"
+"  1. pip 将新版本安装到一个新的目录中：<mod>-<timestamp>\n"
+"  2. 我们在一个单独的子进程中验证它能导入（这样不会在 Blender 内部锁定新的.pyd）\n"
+"  3. 原子性地翻转指针文件指向新目录\n"
+"  4. 旧目录（其.pyd被锁定）保留在磁盘上，直到 Blender 关闭后才会被清理\n"
+"\n"
+"无需重启：下一次导入会解析到新版本目录，因为 sys.path 已经指向了活跃目录。\n"
+"\n"
+"崩溃鲁棒性：\n"
+"  - 安装中途崩溃：新目录不完整但指针仍指向旧的工作目录 -> 安全。\n"
+"  - 活跃目录已损坏：它导入失败，因此不会被锁定 -> pip 可以直接覆盖它（我们安装一个新目录并翻转指针）。"
+
+msgid "Could not create install folder for {pkg}."
+msgstr "无法为{pkg}创建安装目录。"
+
+msgid "Timeout installing (pip took too long)."
+msgstr "安装超时（pip 耗时过长。）"
+
+msgid "Downloaded {pkg} but it failed to import. The current install was left untouched. Try again or check your internet connection."
+msgstr "已下载 {pkg}，但导入失败。当前安装未受影响。请重试或检查网络连接。"
+
+msgid "{pkg} updated to a new versioned install."
+msgstr "{pkg} 更新为新版本安装。"
+
+msgid ""
+"Remove old version dirs for a module, keeping only the active one.\n"
+"\n"
+"The active dir's .pyd may be locked by Blender, so we skip it. Retired\n"
+"dirs that are not locked are removed. Locked ones are left for a later\n"
+"start (when Blender is closed) — _cleanup_retired is also called at\n"
+"startup in cold state, so they get removed then."
+msgstr ""
+"删除模块的旧版本目录，保留仅激活的那个。\n"
+"\n"
+"激活目录的.pyd 可能被 Blender 锁定，因此我们跳过它。未被锁定的退役目录会被移除。被锁定的目录会保留到稍后启动（当 Blender 关闭时）——_cleanup_retired 也会在冷启动状态下调用，所以它们那时也会被移除。"
+
+msgid ""
+"Clean up retired version dirs in COLD state (nothing loaded yet).\n"
+"\n"
+"Called very early in addon startup, BEFORE any module imports PIL/resvg.\n"
+"At that point the .pyd files are not loaded, so any retired version dir\n"
+"that was locked by a previous Blender session can now be removed.\n"
+"\n"
+"With the versioned-dir pattern there is no folder swap to apply — the\n"
+"pointer already points at the active dir. This function only garbage-\n"
+"collects old version dirs that could not be removed while Blender was\n"
+"running (their .pyd was locked)."
+msgstr ""
+"在 COLD 状态清理退役版本目录（此时尚未加载任何内容）。\n"
+"\n"
+"在插件启动的非常早期调用，在任何模块导入 PIL/resvg 之前。\n"
+"\n"
+"此时.pyd 文件尚未加载，因此任何由上一个 Blender 会话锁定的退役版本目录现在都可以被移除。\n"
+"\n"
+"使用版本化目录模式无需进行文件夹切换——指针已经指向活动目录。此函数仅清理那些在 Blender 运行时无法移除的旧版本目录（其.pyd 被锁定）。"
+
+msgid "Install a single pip package into a new versioned dir. Returns (ok, msg)."
+msgstr "将单个 pip 包安装到新版本的目录中。返回(ok, msg)。"
+
+msgid "{pkg} already installed"
+msgstr "{pkg} 已安装"
+
+msgid "Failed to install {pkg}: {err}"
+msgstr "安装 {pkg} 失败：{err}"
+
+msgid "{pkg} installed but no package files were found in the Sanctus dependencies folder. If you're on macOS/Linux this may be a platform-detection issue — the package is probably fine."
+msgstr "{pkg} 已安装，但在 Sanctus 依赖文件夹中未找到任何包文件。如果您在 macOS/Linux 上运行此问题可能是平台检测问题——该包可能没问题。"
+
+msgid "{pkg} installed but Blender can't import it. Restart Blender and try again."
+msgstr "{pkg} 已安装但 Blender 无法导入它。重启 Blender 并再次尝试。"
+
+msgid "Successfully installed {pkg}"
+msgstr "成功安装 {pkg}"
+
+msgid ""
+"Repair a broken install of `pkg` by installing a fresh versioned dir.\n"
+"\n"
+"Returns (ok, message). A working package has its .pyd locked by Blender\n"
+"and cannot be deleted (WinError 5), so we never try to delete it. Instead\n"
+"we install a NEW versioned dir and flip the pointer — the corrupt active\n"
+"dir (which FAILED to import, so it is NOT locked) is simply retired and\n"
+"cleaned up."
+msgstr ""
+"通过安装一个全新的版本目录来修复损坏的 `pkg` 安装。\n"
+"\n"
+"返回 (ok, message)。一个工作正常的包会被 Blender 锁定其 .pyd 文件而无法删除（WinError 5），所以我们从不尝试删除它。相反，我们安装一个新的版本目录并翻转指针 — 损坏的当前活动目录（导入失败，因此未锁）会被标记为不再使用并清理。"
+
+msgid "{pkg} is working — nothing to repair"
+msgstr "{pkg} 工作正常 —— 无需修复"
+
+msgid "Successfully repaired {pkg}"
+msgstr "成功修复了 {pkg}"
+
+msgid "module {__name__} has no attribute {name}"
+msgstr "模块 {__name__} 没有属性 {name}"
+
+msgid "Ever so often, the sanctus library website is being scanned for discount codes. This is shown to starter version users. Nothing happens here for other users."
+msgstr "圣托斯 (Sanctus) 库网站偶尔会扫描折扣码。这仅向入门版用户显示。其他用户在此不会有任何动作发生。"
+
+msgid ""
+"Fetch discount codes from the website.\n"
+"Runs in the main thread initially to safely access preferences,\n"
+"then offloads the network request to a background thread."
+msgstr ""
+"从网站获取折扣码。\n"
+"初始在主线程中运行以安全地访问偏好设置，然后卸载网络请求到后台线程。"
+
+msgid ""
+"Expansion Loader — Lazy resolver for expansion extension IDs.\n"
+"\n"
+"Único punto de entrada para obtener EXPANSION_EXTENSION_IDS.\n"
+"Reemplaza el patrón importlib que estaba en los configs (causaba\n"
+"recursion errors en builds porque expansion_registry.py no existe en el ZIP).\n"
+"\n"
+"Uso:\n"
+"    from .expansion_loader import get_extension_ids\n"
+"    ids = get_extension_ids()  # -> {\"sanctus_liquid_works\": {...}, ...}"
+msgstr ""
+"扩展加载器 —— 用于解析扩展扩展 ID 的懒解析器\n"
+"\n"
+"唯一用于获取 EXPANSION_EXTENSION_IDS 的入口点。\n"
+"用 importlib 模式取代了之前的 config 配置（因为在构建时 expansion_registry.py 不在 ZIP 中，会导致递归错误）。\n"
+"\n"
+"用法：\n"
+"    from .expansion_loader import get_extension_ids\n"
+"    ids = get_extension_ids()  # -> {\"sanctus_liquid_works\": {...}, ...}"
+
+msgid ""
+"Retorna los extension IDs de todas las expansiones registradas.\n"
+"Lazy: solo importa expansion_registry cuando se llama.\n"
+"Si no está disponible (entorno sin expansion_registry.py), retorna {}."
+msgstr ""
+"返回所有已注册扩展的扩展 ID。\n"
+"懒加载：只有调用时才导入 expansion_registry。\n"
+"如果不可用（没有 expansion_registry.py），则返回 {}。"
+
+msgid ""
+"Users can filter library assets through the panel UI using different filter criteria.\n"
+"Whenever a filter is updated, some of the library building process is run again, which is the cause for the slight buffering after updating a filter.\n"
+"This module contains a lot of UI code but also the function that determines if an asset should be hidden based on the active filters. Currently only\n"
+"materials are being filtered."
+msgstr ""
+"用户可以在面板 UI 中使用不同的过滤条件筛选库资源。\n"
+"每当过滤器更新时，会重新运行部分库构建过程，这就是为什么在更新过滤器后会有轻微延迟的原因。\n"
+"该模块包含大量 UI 代码，也包含了根据活动过滤器确定应隐藏哪些资源的函数。目前仅对材质进行过滤。"
+
+msgid "filter_name"
+msgstr "过滤名称"
+
+msgid "use_filter_sort_reverse"
+msgstr "use_filter_sort_reverse"
+
+msgid ""
+"Return the active filters group, or None if it is not registered.\n"
+"\n"
+"The WindowManager property (``sanctus_library_sanctus_library_filters``)\n"
+"is created by the auto-load register manager at addon registration. If\n"
+"registration failed partway — e.g. some class fails to register on a given\n"
+"platform and RegisterManager's rollback deletes this property while the\n"
+"panels survive — every draw() that calls\n"
+"``SanctusLibraryFilters.get_from(wm)`` would crash with AttributeError.\n"
+"This helper keeps the UI alive and logs the problem once so the REAL\n"
+"registration failure (printed by RegisterManager as\n"
+"\"An Error occured while trying to register ...\") is what gets investigated."
+msgstr ""
+"返回当前过滤器组，或者未注册时返回 None。\n"
+"\n"
+"WindowManager 属性（``sanctus_library_sanctus_library_filters``）由自动加载注册管理器在插件注册时创建。如果注册中途失败——例如某个类在某些平台无法注册，RegisterManager 的回滚删除了该属性而面板仍然保留——那么每次调用 ``SanctusLibraryFilters.get_from(wm)`` 的 draw() 方法都会因 AttributeError 崩溃。此辅助函数保持 UI 存活并记录问题一次，从而让真正的注册失败（由 RegisterManager 打印为 \"An Error occured while trying to register ...\"）成为被调查的对象。"
+
+msgid "No Local Folders Found"
+msgstr "未找到本地文件夹"
+
+msgid "Add one in Preferences"
+msgstr "请在首选项中添加一个"
+
+msgid "No Icons Found"
+msgstr "未找到图标"
+
+msgid "Please run build_icons.py"
+msgstr "请运行 build_icons.py"
+
+msgid "Forged Decal"
+msgstr "锻造纹章"
+
+msgid "Forge decal to see the preview"
+msgstr "查看纹章预览以生成纹章"
+
+msgid "Simple container for searchable Forge assets."
+msgstr "Forge 可搜索资源的简单容器。"
+
+msgid "Base class for searchable Sanctus asset lists. Always hides native filter."
+msgstr "可搜索的圣徒资产列表的基类。始终隐藏原生过滤器."
+
+msgid "UIList for Icons: Thumbnail + Text."
+msgstr "图标 UI 列表：缩略图 + 文本."
+
+msgid "Theme"
+msgstr "主题"
+
+msgid "Random"
+msgstr "随机"
+
+msgid "Sci-Fi"
+msgstr "科幻"
+
+msgid "Hazard"
+msgstr "危险"
+
+msgid "Industrial"
+msgstr "工业"
+
+msgid "Military"
+msgstr "军事"
+
+msgid "Barcodes"
+msgstr "条形码"
+
+msgid "Layout"
+msgstr "布局"
+
+msgid "Pick a random layout structure"
+msgstr "选择随机布局结构"
+
+msgid "Rectangle"
+msgstr "矩形"
+
+msgid "Standard horizontal layout"
+msgstr "标准横向布局"
+
+msgid "Triangle"
+msgstr "三角形"
+
+msgid "Warning/Hazard triangle"
+msgstr "警告/危险三角"
+
+msgid "Circle"
+msgstr "圆形"
+
+msgid "Round badge/seal"
+msgstr "圆形徽章/印章"
+
+msgid "Square"
+msgstr "正方形"
+
+msgid "Boxy technical label"
+msgstr "方正技术标签"
+
+msgid "Octagon"
+msgstr "八角形"
+
+msgid "Stop/Regulatory sign"
+msgstr "停止/交通标志"
+
+msgid "Resolution"
+msgstr "分辨率"
+
+msgid "512 px"
+msgstr "512 像素"
+
+msgid "Fastest generation, optimized size"
+msgstr "生成速度最快，优化尺寸"
+
+msgid "1024 px"
+msgstr "1024 像素"
+
+msgid "Standard quality"
+msgstr "标准质量"
+
+msgid "2048 px"
+msgstr "2048 像素"
+
+msgid "High quality, slower generation"
+msgstr "高质量，生成较慢"
+
+msgid "Texture"
+msgstr "纹理"
+
+msgid "Random (Weighted)"
+msgstr "随机（加权）"
+
+msgid "Stripes"
+msgstr "条纹"
+
+msgid "Dots"
+msgstr "圆点"
+
+msgid "Checkers"
+msgstr "棋盘格"
+
+msgid "Custom Text"
+msgstr "自定义文本"
+
+msgid "Text"
+msgstr "文本"
+
+msgid "Custom Colors"
+msgstr "自定义颜色"
+
+msgid "Background"
+msgstr "背景"
+
+msgid "Icon"
+msgstr "图标"
+
+msgid "Border"
+msgstr "边框"
+
+msgid "Seed"
+msgstr "种子"
+
+msgid "Lock Seed"
+msgstr "锁定种子"
+
+msgid "Numbers Prob"
+msgstr "数字概率"
+
+msgid "Palette Prob"
+msgstr "调色板概率"
+
+msgid "Content Mode"
+msgstr "内容模式"
+
+msgid "Icon + Text"
+msgstr "图标加文字"
+
+msgid "Standard combination"
+msgstr "标准组合"
+
+msgid "Icon Only"
+msgstr "仅图标"
+
+msgid "Focus on the graphic element"
+msgstr "专注于图形元素"
+
+msgid "Random Mode"
+msgstr "随机模式"
+
+msgid "Let the engine decide"
+msgstr "由引擎决定"
+
+msgid "Icon Scale"
+msgstr "圖標縮放"
+
+msgid "Icon X"
+msgstr "圖標 X"
+
+msgid "Icon Y"
+msgstr "圖標 Y"
+
+msgid "Text Scale"
+msgstr "文字縮放"
+
+msgid "Text X"
+msgstr "文字 X"
+
+msgid "Text Y"
+msgstr "文字 Y"
+
+msgid "Border Style"
+msgstr "邊框樣式"
+
+msgid "Solid"
+msgstr "固體"
+
+msgid "Dashed"
+msgstr "虛線"
+
+msgid "Dotted"
+msgstr "點線"
+
+msgid "Double"
+msgstr "双 | 锻造模"
+
+msgid "Forge Mode"
+msgstr "式 | 显示高"
+
+msgid "Show Advanced Tuning"
+msgstr "级调优 | 自"
+
+msgid "Custom Font"
+msgstr "定义字体 |"
+
+msgid "Custom Icon"
+msgstr "自定义图标 |"
+
+msgid "Font"
+msgstr "字体 | 目"
+
+msgid "Target Library"
+msgstr "标库 | 选择"
+
+msgid "Select the local library folder where the decal will be stored"
+msgstr "将存放贴图的本"
+
+msgid "Forge Result"
+msgstr "地库文件夹 |"
+
+msgid "Search Icons"
+msgstr "锻造结果 | 搜索图标"
+
+msgid "Phase 7: Static Item Synchronization. Populates icon_items based on pre-rendered library PNGs."
+msgstr "Phase 7: Static Item Synchronization。Po"
+
+msgid "NONE"
+msgstr "pulates icon_items based on pre-rendere"
+
+msgid "No PNG Previews Found (Check forge/inputs/icons)"
+msgstr "d library PNGs.|||~|||NONE|||~|||未找到 PN"
+
+msgid "Returns the absolute path to the lib-common/forge directory."
+msgstr "G 预览（检查 forge/inputs/icons）|||~|||返回 li"
+
+msgid ""
+"Check if the Forge Engine (resvg-py) is usable.\n"
+"\n"
+"Only checks resvg-py. PIL is a separate dependency used elsewhere and\n"
+"must not gate the Forge Engine — a broken PIL would otherwise make the\n"
+"Engine report \"not installed\" even though resvg-py works fine."
+msgstr "b-common/forge 目录的绝对路径 |||~|||检查 Forge"
+
+msgctxt "Operator"
+msgid "Add Decal"
+msgstr "Engine (resvg-py) 是否可用。|||~|||仅检查 resvg-py。"
+
+msgid "No generated decal found. Please forge one first!"
+msgstr "PIL 是用于其他地方的独立依赖项，不应将引擎功能作为其条件——否则即使 resvg-py 正常工作，"
+
+msgid "Failed to transfer Decal: {e}"
+msgstr "引擎也会报告未安装.|||~|||添加拓印 |||~|||未找到生成的拓印。请先生成一个！"
+
+msgctxt "Operator"
+msgid "Store to Library"
+msgstr "|||~|||传输拓印失败：{e} |||~|||存储到库中 |||~|||将"
+
+msgid "Copy the current forged decal to the selected local library folder"
+msgstr "当前生成的拓印复制到选定的本地库文件夹"
+
+msgid "No local library folder selected! Add one in Preferences first."
+msgstr "未选择本地库文件夹！请首先在偏好设置中添加一个。"
+
+msgid "No generated decal found to store. Please Forge one first!"
+msgstr "未找到要存储的生成的徽章。请先生成一个！"
+
+msgid "Target folder does not exist: {target_folder}"
+msgstr "目标文件夹不存在：{target_folder}"
+
+msgid "Successfully stored to {dest_dir.name}: {dest_filename}"
+msgstr "成功保存至 {dest_dir.name}: {dest_filename}"
+
+msgid "Failed to store decal: {str(e)}"
+msgstr "未能保存徽章：{str(e)}"
+
+msgctxt "Operator"
+msgid "FORGE DECAL"
+msgstr "FORGE DECAL"
+
+msgid "Generate a procedural decal based on current settings"
+msgstr "根据当前设置生成程序化徽章"
+
+msgid "Already forging, please wait..."
+msgstr "正在生成中，请稍等..."
+
+msgid "Forge Error: {str(e)}"
+msgstr "Forge Error: {str(e)}"
+
+msgid ""
+"This module contains a lot of functions to operate on image pixels as numpy arrays. This is used to procedurally add icons to the thumbnails of assets shown in the UI\n"
+"when for example a user sets an asset instance as a favorite. Because this is run on the CPU, these functions are quite slow and therefore run in a separate thread.\n"
+"This is why it might take a while for dynamic thumbnail updates to be visible because they are sceduled in regular intervals and take some time to process."
+msgstr ""
+"该模块包含大量用于对图像像素进行 numpy 数组操作的函数。这些函数用于在 UI 中显示资产缩略图时，通过程序化方式添加图标（例如，当用户将资产实例设为收藏时）。因为这些函数是在 CPU 上运行的，所以速度较慢，因此它们会在单独的线程中运行。\n"
+"这就是为什么动态缩略图更新需要一段时间才能看到的原因，因为它们会按固定间隔调度并需要一些时间来处理。"
+
+msgid "Get the base shape of an image array"
+msgstr "获取图像数组的基础形状"
+
+msgid "Flip the base shape, reversing the tuples elements"
+msgstr "翻转基础形状，反转元组元素"
+
+msgid "Get the amounts of channels an ImageArray has. Assumes valid ImageArray"
+msgstr "获取图像数组拥有的通道数。假设有效的图像数组"
+
+msgid ""
+"Superpone la estrella sobre el icono del asset.\n"
+"Usa Pillow si está disponible (3ms) o NumPy como respaldo (400ms+)."
+msgstr "将星形叠加到资产图标上。如果可用则使用 Pillow(3 毫秒)，否则使用 NumPy 作为后备方案（400 毫秒以上）"
+
+msgid ""
+"This module implments image_processing on a higher level. This is mainly used to process previews to add dynamic icons to them.\n"
+"Some additional functionality on handling images in Blender can be found here as well"
+msgstr "此模块在更高层面上实现了图像处理功能。主要用于处理缩略图以添加动态图标。有关在 Blender 中处理图像的其他附加功能，请参见此处"
+
+msgid "A JSON Encoder that puts small containers on single lines."
+msgstr "将小容器放在单行上的 JSON 编码器"
+
+msgid "Encode JSON object *o* with respect to single line lists."
+msgstr "根据单行列式编码对象 *o*"
+
+msgid "{{', '.join((f'{self.encode(k)}: {self.encode(el)}' for k, el in o.items()))}}"
+msgstr "{{', '.join((f'{self.encode(k)}: {self.encode(el)}' for k, el in o.items()))}}"
+
+msgid "Required to also work with `json.dump`."
+msgstr "还需要支持 `json.dump`。"
+
+msgid "indent must either be of type int or str (is: {type(self.indent)})"
+msgstr "indent 必须是 int 或 str 类型（是：{type(self.indent)}）"
+
+msgid "This module contains all the definitions for library objects. pathlib.Path objects are used here as keys to find assets and navigate the graphs."
+msgstr "该模块包含所有库对象的定义。在此处使用 pathlib.Path 对象作为键来查找资产并导航图表。"
+
+msgid "container for everything to do with library management. Manages assets, asset instances and image files that are displayed as thumbnails."
+msgstr "用于一切与库管理相关的容器。管理资产、资产实例和显示为缩略图的图像文件。"
+
+msgid "Returns tuple with first element checking if the name is a preset name and the second element returning the base name"
+msgstr "返回一个元组，第一个元素检查名称是否为预设名，第二个元素返回基础名称。"
+
+msgid "a representation of the file structure on disk. Maps directories as strings to files as Paths"
+msgstr "表示磁盘上的文件结构。将目录映射为字符串，将文件映射为 Path 对象。"
+
+msgid ""
+"Re-hydrate a RawFileStructure from the build-time library manifest.\n"
+"\n"
+"The manifest is a nested dict mirroring the on-disk tree: category\n"
+"folders map to nested dicts, and leaf folders map to lists of file\n"
+"names. We re-join each file name to its parent directory (accumulated\n"
+"as we recurse) so the resulting Paths are identical to what a live scan\n"
+"would produce — but without globbing thousands of files at startup.\n"
+"\n"
+"Case-sensitivity: manifest KEYS are casefolded so runtime lookups are\n"
+"case-insensitive, but builds since the fix embed the REAL on-disk\n"
+"folder name under the reserved `__dirname` key of every folder node.\n"
+"That real name is used when joining paths, so case-sensitive\n"
+"filesystems (Linux) get the exact on-disk casing. Older manifests lack\n"
+"the marker — for those, when the casefolded path does not exist we\n"
+"resolve the true casing on disk via paths.resolve_case_insensitive.\n"
+"\n"
+"This is the \"pre-digested\" fast path used by shipped builds. It must\n"
+"produce a structure byte-for-byte equivalent to RawFileStructure(root)\n"
+"so the downstream pipeline (generate_assets, etc.) is unchanged."
+msgstr ""
+"从构建时的库清单中重新生成 RawFileStructure。\n"
+"\n"
+"清单是一个嵌套字典，镜像磁盘树：类别文件夹映射到嵌套字典，叶文件夹映射到文件名列表。我们将每个文件名重连到其父目录（递归时累积），因此产生的 Paths 与实时扫描生成的完全一致——但无需在启动时通配几千个文件。\n"
+"\n"
+"大小写敏感性：manifest KEYS 会被小写化（casefolded），以便运行时查找是大小写不敏感的，但自修复后的构建会将真实的磁盘文件夹名称嵌入每个文件夹节点的保留键 `__dirname` 下。该真实名称用于连接路径，因此区分大小的文件系统（Linux）可以获得与磁盘完全一致的格式。旧的清单缺少此标记——对于它们，当小写化路径不存在时，我们通过 paths.resolve_case_insensitive 在磁盘上解析正确的格式。\n"
+"\n"
+"这是已发布构建使用的“预消化”快速路径。它必须生成逐字节等效于 RawFileStructure(root) 的结构，因此下游管道（generate_assets 等）保持不变。"
+
+msgid "Key '{key}' not found in RawFileStructure"
+msgstr "RawFileStructure 中找不到键 '{key}'。"
+
+msgid "object describing a Sanctus Library Asset. Different uses of assets are documented in the addon __init__.py file"
+msgstr "描述 Sanctus Library Asset 的实例。资产的不同用途在插件 __init__.py 文件中说明。"
+
+msgid ""
+"Return the best icon file for the HUD.\n"
+"\n"
+"Defaults to BIP (fast, uncompressed, single-file) and falls back to\n"
+"JPG/PNG when no BIP exists. The HUD loader (load_gpu_texture) decodes\n"
+"BIP via t3dn_bip and loads JPG/PNG natively. Returns None only when\n"
+"the asset has no icons at all.\n"
+"\n"
+"icon_files may interleave BIP/JPG per preset (e.g. [stone_01.bip,\n"
+"stone_01.jpg, stone_02.bip, stone_02.jpg, ...]), so we resolve the\n"
+"preset by NAME (preset_names[preset]) and pick the matching BIP —\n"
+"never a different preset's file."
+msgstr ""
+"返回 HUD 的最佳图标文件。\n"
+"\n"
+"默认为 BIP（快速、未压缩的单文件），如果没有 BIP，则回退到 JPG/PNG。HUD 加载器 (load_gpu_texture) 通过 t3dn_bip 解码 BIP，并原生加载 JPG/PNG。仅在资产完全没有图标时返回 None。\n"
+"\n"
+"icon_files 可能按预设交错 BIP/JPG（例如 [stone_01.bip, stone_01.jpg, stone_02.bip, stone_02.jpg, ...]），因此我们通过名称（preset_names[preset]）解析预设，并选择匹配的 BIP——永远不会使用不同预设的文件。"
+
+msgid "Asset(name={asset_name}, path={str(self.asset_path)}, B={has_blend}, M={has_meta_file}, I={preset_count})"
+msgstr "Asset(name={asset_name}, path={str(self.asset_path)}, B={has_blend}, M={has_meta_file}, I={preset_count})"
+
+msgid "An instance of an asset using a specific preset. Assets without presets also have instances, but only one per asset"
+msgstr "一个使用特定预设的资产实例。没有预设的资产也有实例，但每个资产只有一个实例。"
+
+msgid "`dict` wrapper mapping Paths to Assets"
+msgstr ""
+"def get_path_to_asset_dict():\n"
+"    \"\"\"dict wrapper mapping Paths to Assets\"\"\"\n"
+"\n"
+"\n"
+"class PathToAssetDict(dict):\n"
+"    \"\"\"Key \"{str(path)}\" stores an Asset. Can only take part-paths.\"\"\"\n"
+"\n"
+"    def __init__(self, library_manage"
+
+msgid "Key \"{str(path)}\" stores an Asset. Can only take part-paths"
+msgstr ""
+"r: \"LibraryManager\") -> None:\n"
+"        \"\"\"This object inside the `LibraryManager` is dynamic and changes based on selected filters and other categories. Every time a filter is updated, this structure also gets updated."
+
+msgid ""
+"This object inside the `LibraryManager` is dynamic and changes based on selected filters and other categories. Every time a filter is updated, this structure\n"
+"also gets updated. This is used to lookup asset instances based on user interaction through the UI"
+msgstr ""
+"This is used to lookup asset instances based on user interaction through the UI.\"\"\"\n"
+"\n"
+"    def get(self) -> \"PathToAssetDict\":\n"
+"        \"\"\"Path \"{str(path)}\" does not follow through sub-hierarchies ONLY.\"\"\"\n"
+"\n"
+"\n"
+"class Libr"
+
+msgid "Path \"{str(path)}\" does not follow through sub-hierarchies ONLY."
+msgstr ""
+"aryManager:\n"
+"    \"\"\"Core Library Manager\"\"\"\n"
+"\n"
+"    @classmethod\n"
+"    def get_top_category(cls, icon_id: str) -> str:\n"
+"        \"\"\"Return the top-level category of an icon_id (e.g. \"materials\").\n"
+"\n"
+"        icon_id keys are str"
+
+msgid "Core Library Manager"
+msgstr ""
+"(pathlib.Path), so they use the OS-native separator\n"
+"        (backslash on Windows, slash on Linux). Normalize both so the category\n"
+"        split works across platforms. Categories are casefolded at the source.\"\"\""
+
+msgid ""
+"Return the top-level category of an icon_id (e.g. \"materials\").\n"
+"\n"
+"icon_id keys are str(pathlib.Path), so they use the OS-native separator\n"
+"(backslash on Windows, slash on Linux). Normalize both so the category\n"
+"split works across platforms. Categories are casefolded at the source."
+msgstr ""
+"@staticmethod\n"
+"    def enqueue_category_thumbnails(collection: \"IconCollection\", category: str) -> bool:\n"
+"        \"\"\"Enqueue a category's thumbnails into the icon collection. Idempotent.\n"
+"\n"
+"        Returns True when the"
+
+msgid ""
+"Enqueue a category's thumbnails into the icon collection. Idempotent.\n"
+"\n"
+"Returns True when the category was newly enqueued, False when it was\n"
+"already loaded (or the collection/category is unavailable). Called at\n"
+"startup for the active category and from process_loaded_images() on each\n"
+"timer tick to catch category switches (the early return makes the repeated\n"
+"per-tick call O(1) once a category is loaded)."
+msgstr ""
+"category was newly enqueued, False when it was\n"
+"        already loaded (or the collection/category is unavailable). Called at\n"
+"        startup for the active category and from process_loaded_images() on each\n"
+"        tim"
+
+msgid ""
+"Return an icon id, or 0 if the library isn't loaded yet.\n"
+"\n"
+"UI draw code must NEVER crash because the library is still building or is in\n"
+"degraded mode. This is the safe accessor for icon lookups in panels."
+msgstr ""
+"er tick to catch category switches (the early return makes the repeated\n"
+"        per-tick call O(1) once a category is loaded).\"\"\"\n"
+"\n"
+"    def get_icon_id(self, name: str) -> int:\n"
+"        \"\"\"Return an icon id, or 0 if the"
+
+msgid ""
+"Forces Blender to repaint all regions. \n"
+"Runs in a burst to catch asynchronous image loading."
+msgstr ""
+"library isn't loaded yet.\n"
+"\n"
+"        UI draw code must NEVER crash because the library is still building or is in\n"
+"        degraded mode. This is the safe accessor for icon lookups in panels.\"\"\"\n"
+"\n"
+"    def force_repaint(s"
+
+msgid "Returns the native addon script path for font preview storage."
+msgstr ""
+"elf):\n"
+"        \"\"\"Forces Blender to repaint all regions. Runs in a burst to catch asynchronous image loading.\"\"\"\n"
+"\n"
+"\n"
+"def get_font_preview_path() -> str:\n"
+"    \"\"\"Returns the native addon script path for font preview storage.\"\"\""
+
+msgid ""
+"Create the font cache dir, falling back to bpy.app.tempdir on failure.\n"
+"\n"
+"A permission error here must NEVER abort addon registration. If the native\n"
+"addon scripts dir is read-only (common on macOS managed installs), we fall\n"
+"back to the session temp dir so font previews still work for the session."
+msgstr ""
+"创建字体缓存目录，失败时回退到 bpy.app.tempdir。\n"
+"\n"
+"此处必须永远不要因权限错误而中断插件注册。如果原生插件脚本目录是只读的（macOS 管理安装时很常见），我们回退到会话临时目录，以便会话中的字体预览仍正常工作。"
+
+msgid ""
+"Deep Cleans the asset (removes junk properties) and injects Source Metadata + Signature.\n"
+"Recursively processes NodeTrees to ensure deep authorship tagging.\n"
+"\n"
+"CRITICAL SAFETY: Pre-existing node groups (those already in bpy.data.node_groups\n"
+"before this call) are NEVER touched. Only newly imported datablocks are cleaned.\n"
+"This prevents destroying linked libraries like Blender 5.1's geometry_nodes_essentials.blend."
+msgstr ""
+"深度清理资产（移除无用属性）并注入来源元数据 + 签名。\n"
+"递归处理节点树以确保进行深度的作者归属标记。\n"
+"\n"
+"关键安全：在此调用之前已存在于 bpy.data.node_groups 中的现有节点组将绝不会被触碰。仅清理新导入的数据块。这防止了破坏如 Blender 5.1 的 geometry_nodes_essentials.blend 这样链接的库."
+
+msgid "Return True if this block existed before the import."
+msgstr "如果该数据块在导入前已存在则返回 True."
+
+msgid ""
+"Ensures the Enum list is long enough to include the currently saved index,\n"
+"preventing 'matches no enum' RNA warnings."
+msgstr ""
+"确保枚举列表足够长以包含当前保存的索引，\n"
+"防止出现 'matches no enum' RNA 警告."
+
+msgid "Refrescando..."
+msgstr "正在刷新…"
+
+msgid "Item de seguridad interna"
+msgstr "内部安全项"
+
+msgid "Material Assets"
+msgstr "材质资产"
+
+msgid "GN Assets"
+msgstr "GN 资产"
+
+msgid "Geometry Node Assets"
+msgstr "几何节点资产"
+
+msgid "Decal Assets"
+msgstr "贴花资产"
+
+msgid "current_context"
+msgstr ""
+"Persistent favorites file outside the addon, so reinstalls don't wipe it.\n"
+"写入持久的 JSON 文件，因此重装不会清除收藏夹。|||~|||Write the current favorites dict to the persistent JSON file.\n"
+"将当前的收藏夹字典写入持久的 JSON 文件。|||~|||Restore favorites from the file when the addon prefs were wiped.\n"
+"当插件偏好设置被清除时，从文件中恢复收藏夹。|||~|||Only fills an EMPTY in-addon dict (never overwrites"
+
+msgid "Persistent favorites file outside the addon, so reinstalls don't wipe it."
+msgstr ""
+"existing data — that would fight a live session where the user just removed favorites).\n"
+"仅在内建插件字典中填充空数据（绝不会覆盖现有数据——这会与用户刚刚移除收藏夹的实时会话冲突）。|||~|||Returns True when favorites were restored, False otherwise.\n"
+"收藏夹恢复成功返回 True，否则返回 False。|||~|||Restore favorites from the backup file into the preferences dict.\n"
+"将收藏夹从备份文件恢复到偏好设置字典中。|||~|||SAFE TO CALL ANYW"
+
+msgid "Write the current favorites dict to the persistent JSON file."
+msgstr ""
+"HERE (including inside register()): only touches the preferences dict — it does NOT rebuild the runtime hierarchy or touch bpy classes.\n"
+"可在任何地方安全调用（包括在 register() 内部）：仅操作偏好设置字典——它不会重建运行时层级或接触 bpy 类。|||~|||If favorites were restored AND the library is already loaded, schedules the hierarchy/HUD refresh via a one-shot timer (runs OUTSIDE register"
+
+msgid ""
+"Restore favorites from the file when the addon prefs were wiped.\n"
+"\n"
+"Only fills an EMPTY in-addon dict (never overwrites existing data —\n"
+"that would fight a live session where the user just removed favorites).\n"
+"\n"
+"Returns True when favorites were restored, False otherwise."
+msgstr ""
+"(), so it's safe even when called from register() during a hot reload).\n"
+"如果收藏夹已恢复且库已经加载，则通过一个一次性定时器调度层级/HUD 刷新（在 register() 外部运行，因此即使在热重载期间从 register() 调用也安全）。|||~|||Returns True if favorites were restored.\n"
+"若收藏夹被恢复则返回 True。|||~|||Full refresh AFTER prefs are available (load_post context, safe).\n"
+"prefs 可用之后进行完整刷新（load_post 上下文，安全）。|||~|||Rebuilds"
+
+msgid ""
+"Restore favorites from the backup file into the preferences dict.\n"
+"\n"
+"SAFE TO CALL ANYWHERE (including inside register()): only touches the\n"
+"preferences dict — it does NOT rebuild the runtime hierarchy or touch\n"
+"bpy classes.\n"
+"\n"
+"If favorites were restored AND the library is already loaded, schedules\n"
+"the hierarchy/HUD refresh via a one-shot timer (runs OUTSIDE register(),\n"
+"so it's safe even when called from register() during a hot reload).\n"
+"\n"
+"Returns True if favorites were restored."
+msgstr ""
+"the \"My Favorites\" hierarchy and wakes the HUD so restored favorites show up. Never call this inside register().\n"
+"重建“我的收藏”层级并唤醒 HUD，使已恢复的收藏夹显示出来。切勿在 register() 内部调用此函数。|||~|||Idempotent & cheap when there is nothing to do: with no favorites in the prefs dict it returns immediately (nothing to rebuild).\n"
+"当无需做任何事时是幂等的且开销极小：如果 prefs 字典中没有收藏夹则立即返回（无可重建设）。"
+
+msgid ""
+"Full refresh AFTER prefs are available (load_post context, safe).\n"
+"\n"
+"Rebuilds the \"My Favorites\" hierarchy and wakes the HUD so restored\n"
+"favorites show up. Never call this inside register().\n"
+"\n"
+"Idempotent & cheap when there is nothing to do: with no favorites in the\n"
+"prefs dict it returns immediately (nothing to rebuild)."
+msgstr ""
+"|||~|||load_post handler: restore favorites + refresh after prefs load.\n"
+"load_post 处理器：加载偏好设置后恢复收藏夹并刷新界面。|||~|||Timing note: the library hierarchy (\"My Favorites\") is built during manager.register(True), when addon preferences are still None — so it never contains favorites. Blender restores the real preferences only after the first frame. By t"
+
+msgid ""
+"load_post handler: restore favorites + refresh after prefs load.\n"
+"\n"
+"Timing note: the library hierarchy (\"My Favorites\") is built during\n"
+"manager.register(True), when addon preferences are still None — so it\n"
+"never contains favorites. Blender restores the real preferences only\n"
+"after the first frame. By the time this timer runs, preferences ARE\n"
+"available, so we:\n"
+"  1. restore from the backup file if the dict is empty (reinstall case);\n"
+"  2. ALWAYS refresh the hierarchy/HUD when favorites exist — regardless\n"
+"     of whether they came from the backup or from Blender's own\n"
+"     userpref restore (the hierarchy was built without them either way)."
+msgstr ""
+"he time this timer runs, preferences ARE available, so we:\n"
+"  1. restore from the backup file if the dict is empty (reinstall case);\n"
+"  2. ALWAYS refresh the hierarchy/HUD when favorites exist — regardless of whether they came from the backup or from Blender's own userpref restore (the hierarchy was built without them either way).\n"
+"说明：库层级（“我的收藏”）"
+
+msgid "Register the load_post handler once (idempotent)."
+msgstr ""
+"是在 manager.register(True) 期间构建的，此时插件偏好设置仍为 None——因此它从不包含收藏夹。Blender 直到第一帧后才恢复真实的偏好设置。当此定时器运行时，偏好设置已经可用了，所以我们：\n"
+"  1. 如果字典为空则从备份文件中恢复（重装场景）；\n"
+"  2. 只要有收藏夹存在就 ALWAYS 刷新层级/HUD——无论收藏夹来自备份还是来自 Blender 自身的用户偏好恢复（层级无论如何都不会包含它们）。|||~|||Register the load_post handler once (idempotent).\n"
+"仅注册一次 load_post 处理器（幂等）。|||~|||Print a full favorites-persistence diagn"
+
+msgid ""
+"Print a full favorites-persistence diagnostic (paste in Blender console).\n"
+"\n"
+"IMPORTANT: do NOT import this module from the console — that re-runs\n"
+"register() and can hang Blender. Instead, get the ALREADY-LOADED module:\n"
+"\n"
+"    import sys\n"
+"    mod = [m for m in sys.modules if m.endswith('library_manager')]\n"
+"    if mod:\n"
+"        sys.modules[mod[0]].diagnostic_favorites()\n"
+"    else:\n"
+"        print('library_manager not loaded')\n"
+"\n"
+"Shows: prefs module, current favorites count, backup path + existence,\n"
+"backup contents, and whether the load_post handler is registered."
+msgstr ""
+"ostic (paste in Blender console).\n"
+"打印完整的收藏夹持久性诊断信息（粘贴到 Blender 控制台）。|||~|||IMPORTANT: do NOT import this module from the console — that re-runs register() and can hang Blender. Instead, get the ALREADY-LOADED module:\n"
+"\n"
+"    import sys\n"
+"    mod = [m for m in sys.modules if m.endswith('library_manager')]\n"
+"    if mod:\n"
+"        sys.modules[mod[0]].diagn"
+
+msgid "Bulletproof single thumbnail update with instant RAM overlay"
+msgstr ""
+"ostic_favorites()\n"
+"    else:\n"
+"        print('library_manager not loaded')\n"
+"重要提示：切勿从控制台导入此模块——那会重新运行 register() 并可能导致 Blender 卡死。相反，获取已经加载的模块即可。|||~|||Shows: prefs module, current favorites count, backup path + existence,\n"
+"backup contents, and whether the load_post handler is registered.\n"
+"显示：prefs 模块、当前收藏夹数量、备份路径及是否存在、备份内容以及 load_post 处理器是否已注册。"
+
+msgid "Updates the list of favorites in RAM without touching the Blender WindowManager (Zero Lag)"
+msgstr "将内存中的收藏夹列表更新，同时不触碰 Blender WindowManager（零延迟）"
+
+msgid "My Favorites"
+msgstr "我的收藏夹"
+
+msgid ""
+"Hydrate a RawFileStructure from a library_manifest.json, or None if invalid.\n"
+"\n"
+"Shared by the core library and expansions. The manifest's `structure` is\n"
+"always relative to `asset_root` (the folder the caller would otherwise scan),\n"
+"so the hydrated structure is byte-for-byte equivalent to a live scan.\n"
+"\n"
+"Returns None if the manifest is absent, corrupt, or has no usable structure —\n"
+"in which case the caller falls back to a live scan."
+msgstr ""
+"从 library_manifest.json 加载 RawFileStructure，如果无效则返回 None。\n"
+"\n"
+"由核心库和扩展包共享。manifest 的 `structure` 相对于 `asset_root`（调用者否则要扫描的文件夹）始终是相对的，因此填充后的结构在字节级别完全等价于实时扫描的结果。\n"
+"\n"
+"如果 manifest 不存在、损坏或没有可用的 structure，则返回 None —— 在这种情况下，调用者会回退到实时扫描。"
+
+msgid ""
+"Try to load the pre-digested core library manifest (shipped builds).\n"
+"\n"
+"Returns a RawFileStructure hydrated from library_manifest.json, or None if\n"
+"the manifest is absent, stale (version mismatch), or corrupt. In all those\n"
+"cases the caller falls back to a live scan.\n"
+"\n"
+"The manifest is generated at build time from the FINAL packed layout, so it\n"
+"already reflects the lib-sl -> lib rename and starter filtering. It only\n"
+"covers the static core library (lib/); lib-common support files, expansions,\n"
+"dev paths, and the runtime font cache are added separately by the caller."
+msgstr ""
+"尝试加载预消化的核心库清单（随分发构建捆绑）。\n"
+"\n"
+"从 library_manifest.json 填充并返回 RawFileStructure，或者在 manifest 缺失、过期（版本不匹配）或损坏时返回 None。在所有这些情况下，调用者都会回退到实时扫描。\n"
+"\n"
+"该清单是在构建时间从最终打包布局生成的，因此它已经反映了 lib-sl -> lib 的重命名和 starter 过滤。它只覆盖静态核心库 (lib/)；lib-common 支持文件、扩展包、开发路径以及运行时字体缓存则由调用者单独添加。"
+
+msgid ""
+"Add the runtime-only parts of the structure that are NOT in the manifest.\n"
+"\n"
+"These are genuinely dynamic and must always be computed at runtime:\n"
+"  - forge fonts (lib-common/forge/inputs/fonts)\n"
+"  - support-files (lib-common/support-files)\n"
+"  - user-installed expansions"
+msgstr ""
+"添加不在 manifest 中的结构部分（仅运行时）。\n"
+"\n"
+"这些确实是动态的，必须在运行时计算：\n"
+"  - forge 字体 (lib-common/forge/inputs/fonts)\n"
+"  - 支持文件 (lib-common/support-files)\n"
+"  - 用户安装的扩展包"
+
+msgid ""
+"Detect expansion packs installed as Blender extensions and load their assets.\n"
+"\n"
+"Scans bpy.context.preferences.extensions repos for known expansion extension IDs\n"
+"defined in Config.EXPANSION_EXTENSION_IDS. When found, loads the assets from\n"
+"the extension's directory into the library manager.\n"
+"\n"
+"Uses repo.directory (the actual filesystem path of each extension repo) to locate\n"
+"installed extensions, which is the correct approach for Blender 4.5+.\n"
+"\n"
+"Only loads assets from expansions that are currently enabled (via sentinel files)."
+msgstr ""
+"检测作为 Blender 扩展安装的扩展包并加载其资产。\n"
+"\n"
+"扫描 bpy.context.preferences.extensions 中的已知扩展扩展 ID（在 Config.EXPANSION_EXTENSION_IDS 中定义）。找到后，从扩展的目录加载资产到库管理器。\n"
+"\n"
+"使用 repo.directory（每个扩展仓库的实际文件系统路径）来定位已安装的扩展，这是 Blender 4.5+ 的正确方法。\n"
+"\n"
+"只加载当前启用的扩展中的资产（通过哨兵文件控制）。"
+
+msgid ""
+"Return {expansion_root_dir: expansion overlay icon} for installed expansions.\n"
+"\n"
+"Only enabled expansions (Expansion Mode + active) are considered.\n"
+"\n"
+"The overlay is a 250x250 transparent image with the logo pre-positioned\n"
+"in the bottom-left corner, applied as a direct alpha-composite. Lookup\n"
+"order:\n"
+"  1. icons/expansion_overlay.bip — the \"solo BIP\" build converts the PNG\n"
+"     to BIP and drops the PNG, so installed builds only have the BIP.\n"
+"  2. icons/expansion_overlay.png — the editable source (dev tree).\n"
+"If NEITHER exists, the expansion is OLD — no overlay at all (the legacy\n"
+"expansion.png is a centered/full logo that would cover the whole\n"
+"thumbnail, so it must never be used as an overlay).\n"
+"\n"
+"Clones (e.g. Sanctus Viz) keep their assets inside an asset_subfolder\n"
+"(\"lib\"), which is the equivalent of the ROOT of a normal expansion. The\n"
+"icon lookup and the returned directory key use that root, so the asset\n"
+"overlay matching works for clones too."
+msgstr ""
+"返回 {expansion_root_dir: expansion overlay icon}，对应已安装的扩展。\n"
+"\n"
+"仅考虑已启用的扩展（扩展模式 + 激活状态）。\n"
+"\n"
+"叠加层是带有预先定位在左下角的图标的 250x250 透明图像，以直接 alpha 合成方式应用。查找顺序：\n"
+"  1. icons/expansion_overlay.bip — \"solo BIP\" 构建会将 PNG 转换为 BIP 并丢弃 PNG，因此已安装的构建只有 BIP。\n"
+"  2. icons/expansion_overlay.png — 可编辑源（开发树）。\n"
+"如果两者都不存在，扩展包是旧的 —— 根本没有叠加层（legacy expansion.png 是一个居中的完整图标，会覆盖整个缩略图，因此绝不能用作叠加层）。\n"
+"\n"
+"克隆包（例如 Sanctus Viz）将其资产保留在 asset_subfolder (\"lib\") 中，这相当于正常扩展包的 ROOT。图标查找和返回的目录键使用此根目录，因此资产叠加匹配对克隆包也有效。"
+
+msgid ""
+"Build MANAGER.expansion_icon_map (icon_key -> expansion overlay file).\n"
+"\n"
+"MUST run in a SAFE context (the process_loaded_images timer), never\n"
+"during addon registration / Blender startup — it accesses\n"
+"bpy.context.preferences (extensions repos), which can hang Blender if\n"
+"called before preferences are fully restored.\n"
+"\n"
+"RETRY SEMANTICS (fixed the \"empty map cached forever\" bug):\n"
+"The map is NOT cached until it has at least one entry. If no expansions\n"
+"are detected yet (the timer can fire before Blender finishes loading\n"
+"extensions) or no expansion asset matched yet (library scan still in\n"
+"progress), _expansion_icon_map_built stays False and the next tick\n"
+"retries. Once built with entries, it is cached until invalidated by\n"
+"generate_image_file_list() (sets _expansion_icon_map_built = False)."
+msgstr ""
+"构建 MANAGER.expansion_icon_map（icon_key -> expansion overlay file）。\n"
+"\n"
+"必须在 SAFE 上下文中运行（process_loaded_images 定时器），绝不能在与附加组件注册或 Blender 启动期间运行 —— 它会访问 bpy.context.preferences（扩展库/仓库），如果在偏好设置完全恢复之前调用可能会挂起 Blender。\n"
+"\n"
+"重试语义（修复了\"空映射永久缓存”的 bug）：\n"
+"该映射只有在至少有一个条目时才会被缓存。如果尚未检测到任何扩展（定时器可能在 Blender 完成加载扩展之前就触发）或尚未匹配任何扩展资产（库扫描仍在进行中），_expansion_icon_map_built 保持 False，下一轮将重试。一旦带条目构建成功，它将直到被 generate_image_file_list() 使失效（设置 _expansion_icon_map_built = False）。"
+
+msgid ""
+"Queue the next batch of thumbnails. Returns True when all are queued.\n"
+"\n"
+"Called by the deferred build timer. Processes at most _THUMBNAILS_PER_TICK\n"
+"images per tick so the main thread never does thousands of previews.new()\n"
+"calls in a single frame."
+msgstr ""
+"安排下一批缩略图。返回 True 表示所有已排队。\n"
+"\n"
+"由 deferred build timer 调用。每个 tick 最多处理 _THUMBNAILS_PER_TICK 个图像，因此主线程不会在单个帧中执行数千次 previews.new() 调用。"
+
+msgid "Sanctus Assets"
+msgstr "Sanctus Assets"
+
+msgid ""
+"Return the ordered stages of a full library build.\n"
+"\n"
+"Each stage is a single callable that mutates MANAGER. The deferred build\n"
+"runs one stage per timer tick; reload_library() runs them all synchronously."
+msgstr ""
+"返回库的完整构建流程的各个阶段。\n"
+"\n"
+"每个阶段都是单个可调用对象，会修改 MANAGER。延迟构建会在每个定时器周期运行一个阶段；reload_library() 则会同步执行所有阶段."
+
+msgid ""
+"Run the full build synchronously.\n"
+"\n"
+"Never raises: on failure it enters degraded mode (MANAGER.loaded stays\n"
+"False) so the addon stays registered and the UI can show a Retry banner."
+msgstr ""
+"同步运行整个构建过程。\n"
+"\n"
+"不会抛出异常：在失败时进入降级模式（MANAGER.loaded 保持为 False），因此插件仍然注册，UI 可以显示重试横幅。"
+
+msgid "Create the empty MANAGER shell (no heavy work). Safe to call in register()."
+msgstr "创建空的 MANAGER 外壳（不做繁重工作）。可以在 register() 中安全调用。"
+
+msgid "Tear down the library (full or partial). Idempotent + degraded-safe."
+msgstr "拆除库（完整或部分）。可幂等 + 降级安全。"
+
+msgid "Kick off the chunked build. Idempotent — safe to call multiple times."
+msgstr "启动分块构建。可幂等——可以多次调用。"
+
+msgid ""
+"Kick off the deferred build once the main loop is running.\n"
+"\n"
+"Timers only fire AFTER Blender finishes registering every extension, so by\n"
+"the time this runs, detect_installed_expansions() can see the expansion\n"
+"extensions in bpy.context.preferences.addons. This is what fixes expansions\n"
+"\"disappearing\" after a restart."
+msgstr ""
+"启动延迟构建，等待主循环运行后执行。\n"
+"\n"
+"定时器仅在 Blender 完成所有扩展的注册后才触发，因此当此阶段运行时，detect_installed_expansions() 可以在 bpy.context.preferences.addons 中看到已安装的扩展模块。这就是为什么重启后\"消失\"的扩展会重新显示的原因。"
+
+msgid "Advance the deferred build by one stage per timer tick."
+msgstr "在延迟构建中推进一个阶段（每个定时器周期一个）。"
+
+msgid "Cancel any in-flight deferred build (timer + state)."
+msgstr "取消任何正在进行的延迟构建（定时器 + 状态）。"
+
+msgid "Synchronous full rebuild (user-initiated \"Reload Library\")."
+msgstr "同步完整重建（用户发起的“重载库”操作）。"
+
+msgid "Solid Indexing"
+msgstr "实体索引"
+
+msgid ""
+"Returns the Core Full count (Injected) for a given class.\n"
+"Does NOT include expansions (added separately in UI)."
+msgstr ""
+"返回给定类对应的核心完整计数（注入）。\n"
+"不包含扩展（在 UI 中单独添加的）。"
+
+msgid "SanctusMetaData can be loaded from and saved to disk. Each asset has specific tags and attributes used for filtering that are stored here. Meta data is being stored in .json format along-side assets."
+msgstr "SanctusMetaData 可以从中加载并保存到磁盘。每个资产都有用于过滤的特定标签和属性，存储在何处。元数据以 .json 格式与资产一同存储。"
+
+msgid "Wrapping functions that interface with node trees. This used to be more relevant when SL supported Blender versions before 4.0 when node trees worked differently in python."
+msgstr "封装与节点树交互的函数。当 SL 支持 Blender 4.0 之前的版本时，此更为相关，因为那时节点树在 Python 中的工作方式不同。"
+
+msgid "Input value \"{name}\" is not a category name"
+msgstr "输入值 \"{name}\" 不是类别名称"
+
+msgid "Material has no output node."
+msgstr "材质没有输出节点。"
+
+msgid "No nodes connected to output node."
+msgstr "未有任何节点连接到输出节点。"
+
+msgid "Extrae la descripción de un socket de forma pura y a prueba de errores"
+msgstr "纯且容错地获取 socket 的提示文本信息"
+
+msgid "Extrae la lógica de iconos y márgenes de Sanctus UI"
+msgstr "提取 Sanctus UI 图标逻辑及边距"
+
+msgctxt "Operator"
+msgid "{al.config.ADDON_PREFIX.lower()}.socket_info"
+msgstr "{al.config.ADDON_PREFIX.lower()}.socket_info"
+
+msgid "Genera el Header de Sanctus (Icono+Tooltip) y una columna alineada sin división 40/60"
+msgstr "生成 Sanctus 标题栏（图标 + 提示文字）以及一个未做 40/60 分割的对齐列"
+
+msgid "value"
+msgstr "值|||~|||默认值|||~|||返回用于在 NodeTree 上存储节点标签的自定义属性键。|||~|||使用克隆体的 SHORT_PREFIX，以避免不同 Sanctus 插件之间的冲突。"
+
+msgid "default_value"
+msgstr "|||~|||{core_config.Config.SHORT_PREFIX.lower()}_node_label|||~|||搜索所有现有的 node_groups，"
+
+msgid ""
+"Return the custom property key used to store the node label on a NodeTree.\n"
+"Uses the clone's SHORT_PREFIX to avoid conflicts between different Sanctus addons."
+msgstr "找到名称以 asset_name 开头且拥有给定自定义属性的组节点（ShaderNodeGroup、GeometryNodeGroup、CompositorNodeGroup），"
+
+msgid "{core_config.Config.SHORT_PREFIX.lower()}_node_label"
+msgstr ""
+"并返回其标签。\n"
+"\n"
+"这处理了重新导入创建了新副本（例如 sdf_3d_symetry.001）而原始节点（sdf_3d_symetry）仍保留存储的标签的情况。|"
+
+msgid ""
+"Search all existing node_groups for one whose name starts with asset_name\n"
+"and has the given custom property. This handles the case where a reimport\n"
+"creates a new copy (e.g. sdf_3d_symetry.001) while the original\n"
+"(sdf_3d_symetry) still has the stored label."
+msgstr "||~|||将探头插入源 .blend 文件的材质和 node_groups，查找引用给定 node_tree_name 的组节点（ShaderNodeGrou"
+
+msgid ""
+"Peek into a source .blend file's materials AND node_groups to find a\n"
+"Group node (ShaderNodeGroup, GeometryNodeGroup, CompositorNodeGroup)\n"
+"that references the given node_tree_name, and return its label.\n"
+"\n"
+"This covers all Sanctus tools:\n"
+"  - stools / smart modules  → label set inside a material\n"
+"  - gntools                 → label set inside a GeometryNodeTree\n"
+"  - compositor              → label set inside a CompositorNodeTree"
+msgstr ""
+"p、GeometryNodeGroup、CompositorNodeGroup），并返回其标签。\n"
+"\n"
+"这涵盖了所有 Sanctus 工具：\n"
+"  - stools"
+
+msgid "[OVERRIDE]{obj}.{attr}: {original} -> {override}"
+msgstr ""
+"/ smart modules → 标签设置在材质中\n"
+"  - gntools → 标签设置在 GeometryNodeTree 中\n"
+"  - compositor"
+
+msgid "allows for making temporary changes to the file. Instead of manually cleaning them up, this object takes care of restoring previous settings as long as `restore()` is called."
+msgstr "→ 标签设置在 CompositorNodeTree 中|||~|||[OVERRIDE]{obj}.{attr}: {original} -> {overr"
+
+msgid "This module contains all of the interface classes for the addon. Sanctus Library UI can be found in the 3D viewport, shader editor and compositor."
+msgstr "ide}|||~|||允许对文件进行临时更改。无需手动清理，该对象会在调用 `restore()` 时自动恢复之前的设置。|||~|||本模块包含插件的所有界面类。"
+
+msgid "Superhive"
+msgstr "Sanctus Library UI 可在 3D 视图、着色器和合成器中找到。|||~|||Superhive"
+
+msgid "Gumroad"
+msgstr "Gumroad"
+
+msgid "{core_config.Config.NAME} Starter"
+msgstr "{core_config.Config.NAME} Starter"
+
+msgid "Get full version"
+msgstr "获取完整版"
+
+msgctxt "Operator"
+msgid "Fav Deployer HUD"
+msgstr "Fav Deployer HUD"
+
+msgid "Shader Tools"
+msgstr "着色器工具"
+
+msgid "GN Tools"
+msgstr "GN Tools"
+
+msgid "Material Editor"
+msgstr "材质编辑器"
+
+msgid "Compositor Tools"
+msgstr "合成器工具"
+
+msgid "{core_config.Config.NAME} Group Tools"
+msgstr "{core_config.Config.NAME} Group 工具"
+
+msgid "Group"
+msgstr "Group"
+
+msgctxt "Operator"
+msgid "Auto-Fill Descriptions"
+msgstr ""
+"自动填充描述 || ~ || 全部设置为单个\n"
+"Sanctus Core 统一化的文件系统路径辅助工具。\n"
+"\n"
+"每个将 *逻辑* 库路径（不区分大小写的清单键）转换为 *实际* 磁盘路径的地方，都应经过本模块。它是唯一权威的数据源：\n"
+"\n"
+"- `RawFileStructure` 键是小写化处理的（不区分大小写的查找层）\n"
+"- `Raw"
+
+msgctxt "Operator"
+msgid "Set All to Single"
+msgstr ""
+"FileStructure` 值是真实的 `pathlib.Path` 对象（真正的字母顺序）\n"
+"- 清单文件夹节点携带 `__dirname`（磁盘上的确切文件夹名，由构建器在修复大小写问题后记录）\n"
+"- 文件系统现实：Windows 和默认 macOS 是不区分大小写的；Linux（以及以区分大小写 APFS 格式化的 ma"
+
+msgid ""
+"Centralized filesystem-path helpers for Sanctus Core.\n"
+"\n"
+"Every place that turns a *logical* library path (casefolded manifest keys,\n"
+"case-insensitive lookups) into a *real* on-disk path should go through this\n"
+"module. It is the single authority that knows:\n"
+"\n"
+"  - `RawFileStructure` KEYS are casefolded (case-insensitive lookup layer)\n"
+"  - `RawFileStructure` VALUES are real `pathlib.Path` objects (true casing)\n"
+"  - Manifest folder nodes carry `__dirname` (the exact on-disk folder name,\n"
+"    recorded by the builder since the case-sensitivity fix)\n"
+"  - Filesystem reality: Windows and default macOS are case-INSENSITIVE,\n"
+"    Linux (and a macOS volume formatted as case-sensitive APFS) is NOT\n"
+"  - Separators are normalized by pathlib — never build paths by string\n"
+"    concatenation (mixing \"/\" and \"\\\" only ever causes pain)\n"
+"\n"
+"Defense-in-depth: even if a caller builds a path with the wrong casing, the\n"
+"resolvers below recover the real file/dir on case-sensitive filesystems."
+msgstr ""
+"cOS 卷）则不是\n"
+"- 分隔符由 pathlib 标准化——永远不要通过字符串拼接来构建路径（混合 \"/\" 和 \"\\\" 只会带来麻烦）\n"
+"\n"
+"纵深防御：即使调用方构建了错误大小写的路径，下面的解析器也会在区分大小写的文件系统中恢复真实的文件或目录。|| ~ || 返回父级中名称小写化为 `name` 的条目。\n"
+"\n"
+"保留磁盘上的真实"
+
+msgid ""
+"Return the entry inside `parent` whose name casefolds to `name`.\n"
+"\n"
+"Preserves the real on-disk casing (essential on case-sensitive\n"
+"filesystems). Returns None when there is no match or the directory is\n"
+"unreadable. Only called when an exact join failed, so the common fast\n"
+"path never pays the iterdir() cost."
+msgstr ""
+"字母顺序（在区分大小写的文件系统上至关重要）。当找不到匹配项或目录无法读取时返回 None。仅在精确拼接失败后调用，因此快速路径无需付出 iterdir() 的成本。|| ~ || 将 `path` 解析为其实际的磁盘路径，容忍错误的大小写。\n"
+"\n"
+"从锚点开始向下遍历每个部分，不区分大小写地将其与应存放的目录进行匹配，返回精确字母顺序的 Path 对象。"
+
+msgid ""
+"Resolve `path` to its real on-disk path, tolerating wrong casing.\n"
+"\n"
+"Walks every part from the anchor downward, matching each part\n"
+"case-insensitively against the directory it should live in, and returns\n"
+"the exact-cased Path. Returns None if any part cannot be matched or the\n"
+"path is not absolute.\n"
+"\n"
+"This is the safety net for paths built from casefolded manifest keys on\n"
+"case-sensitive filesystems (Linux). For correctly-built paths it is an\n"
+"early return (one exists() check)."
+msgstr ""
+"如果任何部分无法匹配或路径不是绝对的，则返回 None。\n"
+"\n"
+"这是为在区分大小写的文件系统（Linux）上构建自不区分大小写清单键的路径提供的安全网。对于正确构建的路径它是一个早期返回（一次 exists() 检查）。|| ~ || 返回一个实际存在于磁盘上的文件路径字符串。\n"
+"\n"
+"如果 `filepath` 已存在则原样返回。否"
+
+msgid ""
+"Return a filepath string that actually exists on disk.\n"
+"\n"
+"If `filepath` exists as-is it is returned unchanged. Otherwise the path\n"
+"is resolved case-insensitively part-by-part (Linux-safe) and the real\n"
+"casing is returned. If nothing matches, the ORIGINAL string is returned\n"
+"so error messages still reference what the caller asked for.\n"
+"\n"
+"Use at read boundaries (preview loading, BIP decode, image load) so a\n"
+"wrong-cased path degrades gracefully instead of failing."
+msgstr ""
+"则按部分逐个不区分大小写地解析该路径（Linux 安全），并返回真实的字母顺序。如果没有匹配项，则返回原始字符串，以便错误消息仍然引用调用方请求的内容。\n"
+"\n"
+"在读取边界处使用（预览加载、BIP 解码、图像加载）——这样错误的字母顺序路径会优雅降级而不是失败。|| ~ || 将清单文件夹节点拼接到其真实目录路径。\n"
+"\n"
+"`marke"
+
+msgid ""
+"Join a manifest folder node to its real directory path.\n"
+"\n"
+"`marker` is the node's `__dirname` value — the exact on-disk folder name\n"
+"recorded by the builder — or None. Newer manifests always carry it, so\n"
+"the join is exact and costs no filesystem IO. Older manifests lack it:\n"
+"the (casefolded) key is used and, if the join does not exist on a\n"
+"case-sensitive filesystem, the real casing is resolved on disk.\n"
+"\n"
+"Used by RawFileStructure.from_manifest so hydrated file Paths always\n"
+"carry the true on-disk casing — the root cause of the Linux BIP\n"
+"\"File not found\" bug."
+msgstr ""
+"r` 是节点的 `__dirname` 值——由构建器记录的磁盘上的确切文件夹名，或为 None。较新的清单总是携带它，因此拼接是精确的且无需文件系统 I/O。较旧的清单缺少它：使用（小写化）键并在区分大小写的文件系统中找不到拼接结果时，会在磁盘上解析真实的字母顺序。\n"
+"\n"
+"由 RawFileStructure.from_manifest 调用，"
+
+msgid ""
+"Manages the preferences UI. Currently, all of the user preferences get saved to and loaded from an external file. I am not sure if that is super necessary...\n"
+"But it is also possible to export and import preferences in a similar fashion as the user."
+msgstr ""
+"使得水合后的文件路径始终携带真正的磁盘字母顺序——这正是 Linux BIP \"文件未找到\" 错误的根本原因。|| ~ || 管理首选项 UI。目前，所有用户首选项都保存到外部文件中加载。我不确定这是否真的必要……\n"
+"但也可能以与用户导入/导出相似的方式导出和导入首选项。|| ~ || 仅当模块是真正的完整包时返回 True。"
+
+msgid ""
+"Return True only if a module is a REAL, complete package.\n"
+"\n"
+"A namespace package (e.g. an empty folder left behind by a failed pip\n"
+"install) imports without raising ImportError, but has __file__ = None and\n"
+"__spec__.origin = None. We must treat those as NOT installed so the\n"
+"Install Dependencies operator actually reinstalls them."
+msgstr ""
+"命名空间包（例如因 pip 安装失败而遗留的空文件夹）会导入但不抛出 ImportError，但其 __file__ = None 且 __spec__.origin = None。我们必须将其视为未安装，以便“安装依赖项”操作符能真正重新安装它们。|| ~ || 刷新依赖项状态。安全地可在 draw() 或安装后调用。\n"
+"\n"
+"通过实际导入模块来验证，"
+
+msgid ""
+"Refresh dependency status. Safe to call from draw() or after install.\n"
+"\n"
+"Verifies by ACTUALLY importing the modules so we detect real usability\n"
+"(a folder with files can still be a broken install). Importing a native\n"
+".pyd locks the file on Windows, but that only matters when we then try to\n"
+"overwrite it with pip. A package that fails to import is NOT locked, so it\n"
+"can still be repaired. A package that imports fine is locked, but it also\n"
+"doesn't need repairing."
+msgstr "因此我们能检测真正的可用性（包含文件的文件夹仍然可能是损坏的安装）。导入原生.pyd 文件会在 Windows 上锁定该文件，但这仅在我们随后尝试用 pip 覆盖它时才有意义。无法导入的包不会被锁定，因此仍可进行修复。能正常导入的包已被锁定，但也无需修复。"
+
+msgid "stores a path to a library outside of the main addon library. Users are able to load their own images as decals and as of recently users can install expansion packs"
+msgstr "存储外部库的路径（不在主插件库内）。用户可以加载自己的图像作为贴图，并且最近用户还可以安装扩展包"
+
+msgid ""
+"The external library at path:\n"
+"{directory()} \n"
+"was unable to load.\n"
+"Please make sure the selected path exists\n"
+"or relocate the expansion by removing it and reinstalling using the correct path."
+msgstr ""
+"路径为：\n"
+"{directory()} \n"
+"无法加载。\n"
+"请确保所选路径存在\n"
+"或重新定位扩展并通过正确的路径卸载后重装"
+
+msgid "An Error occurred finding the expansion icon"
+msgstr "查找扩展图标时出错"
+
+msgid "Expansion could not be found"
+msgstr "未找到扩展"
+
+msgid "Remove Expansion"
+msgstr "移除扩展"
+
+msgid "Show Parameter Description Icons"
+msgstr "显示参数描述图标"
+
+msgid "Display an info icon next to parameters that have an available description"
+msgstr "在已有可用描述的参数旁显示信息图标"
+
+msgid "Show Button in Panel"
+msgstr "面板中显示按钮"
+
+msgid "Show Toggle Button in N-Panel"
+msgstr "N 面板中显示切换按钮"
+
+msgid "UI Text Scale"
+msgstr "UI 文本缩放"
+
+msgid "Scale the size of the text in the HUD"
+msgstr "缩放屏幕覆盖层的文字大小"
+
+msgid "Sort Order"
+msgstr "排序顺序"
+
+msgid "Choose how to order your favorites in the HUD"
+msgstr "选择如何在屏幕覆盖层中排序您的收藏项"
+
+msgid "HUD Accent Color"
+msgstr "屏幕覆盖层强调色"
+
+msgid "HUD Scale"
+msgstr "屏幕覆盖层缩放"
+
+msgid "Scale the HUD interface elements"
+msgstr "缩放到小屏幕覆盖层的界面元素"
+
+msgid "Show Viewport HUD"
+msgstr "显示视图覆盖层"
+
+msgid "Enable the Fav Deployer HUD for quick asset deployment"
+msgstr "启用快速部署收藏项覆盖层"
+
+msgid "Immediately clear HUD state when user disables it in preferences."
+msgstr "当用户在其首选项中禁用它时立即清除屏幕覆盖层状态."
+
+msgid "HUD Key"
+msgstr "屏幕覆盖层键"
+
+msgid "Ctrl"
+msgstr "Ctrl"
+
+msgid "Alt"
+msgstr "Alt"
+
+msgid "Shift"
+msgstr "Shift"
+
+msgid "About Expansions"
+msgstr "关于扩展"
+
+msgid "Reload Library"
+msgstr "重新加载库"
+
+msgid "Lazy-load dev_config. Returns None if unavailable (production build)."
+msgstr "懒加载 dev_config。如果不可用（生产构建）则返回 None。"
+
+msgid "Return the current expansion-mode state from the persistent sentinel."
+msgstr "从持久化哨兵中返回当前扩展模式状态。"
+
+msgid "Write/remove the persistent sentinel to match the toggle value."
+msgstr "写入/删除持久化哨兵以匹配切换值。"
+
+msgid "Main Core Library"
+msgstr "主核心库"
+
+msgid "Core library: {d.name}"
+msgstr "核心库：{d.name}"
+
+msgid "Expansion: {d.name}"
+msgstr "扩展：{d.name}"
+
+msgid "No libraries found"
+msgstr "未找到库"
+
+msgid "Active Library"
+msgstr "活动库"
+
+msgid "Select the library to load in Developer Mode"
+msgstr "选择要在开发者模式下加载的库"
+
+msgid "Pipeline Config"
+msgstr "流水线配置"
+
+msgid "Path to pipeline_config.json"
+msgstr "pipeline_config.json 的路径"
+
+msgid "Docs Output Root"
+msgstr "文档输出根目录"
+
+msgid "Root folder for MkDocs project"
+msgstr "MkDocs 项目的根文件夹"
+
+msgid "Context"
+msgstr "上下文"
+
+msgid "Current preferences tab"
+msgstr "当前偏好设置选项卡"
+
+msgid "Developer Mode"
+msgstr "开发者模式"
+
+msgid "Enables Developer Options. Do not touch!"
+msgstr "启用开发者选项。请勿操作！"
+
+msgid "Starter Mode"
+msgstr "新手模式"
+
+msgid "Toggle Starter Mode. (For debug and testing purposes only.)"
+msgstr "切换新手模式。（仅限调试和测试用途。）"
+
+msgid "Append to Scene"
+msgstr "附加至场景"
+
+msgid "Expose asset dependencies to the current scene"
+msgstr "将资产依赖暴露到当前场景中"
+
+msgid "Favorites"
+msgstr "收藏夹"
+
+msgid "Expansion Mode"
+msgstr "扩展模式"
+
+msgid "Let Sanctus Library discover this addon as an expansion pack. Requires a Blender restart to take effect."
+msgstr "让 Sanctus 库将此插件识别为扩展包。需要重启 Blender 才能生效。"
+
+msgid ""
+"When expansion_mode toggles, mark assets for reload.\n"
+"\n"
+"NOTE: The sentinel write/remove is handled by the property's `set`\n"
+"callback (_set_expansion_mode), which runs before this update. Here we\n"
+"only invalidate the library cache so Sanctus Library re-scans on the\n"
+"next reload. Toggling requires a Blender restart to take effect for\n"
+"the panels/keymaps/operators (suppressed only at register() time), but\n"
+"the sentinel is updated immediately so Sanctus Library sees the change."
+msgstr ""
+"当扩展模式切换时，标记资产以便重载。\n"
+"\n"
+"注意：哨兵写入/移除由属性的 `set` 回调（_set_expansion_mode）处理，该回调在调用本文更新之前运行。这里我们仅使库缓存失效，以便 Sanctus 库在下一次重载时重新扫描。切换扩展模式需要在 Blender 重启后才能对面板、键盘映射和操作符生效（注册时仍被抑制），但哨兵会立即更新，这样 Sanctus 库就能看到更改。"
+
+msgid "Repair Pillow"
+msgstr "修复 Pillow"
+
+msgid "Install Pillow"
+msgstr "安装 Pillow"
+
+msgid "Update Pillow"
+msgstr "更新 Pillow"
+
+msgid "Repair resvg-py"
+msgstr "修复 resvg-py"
+
+msgid "Install resvg-py"
+msgstr "安装 resvg-py"
+
+msgid "Update resvg-py"
+msgstr "更新 resvg-py"
+
+msgid "Floating Panel Shortcut ({core_config.Config.SHORT_PREFIX})"
+msgstr "浮动面板快捷键（{core_config.Config.SHORT_PREFIX}）"
+
+msgid "Toggle Fav Deployer HUD"
+msgstr "切换收藏夹部署器 HUD"
+
+msgid ""
+"Robust wrapper around the `resvg-py` package.\n"
+"\n"
+"The `resvg-py` package (v0.4.0) ships a buggy `__init__.py`:\n"
+"\n"
+"    from .resvg_py import *\n"
+"    __doc__ = resvg_py.__doc__\n"
+"\n"
+"`from .resvg_py import *` only imports the names listed in the submodule's\n"
+"`__all__` (which does NOT include `resvg_py` itself), so the second line raises\n"
+"`NameError: name 'resvg_py' is not defined` whenever the package is re-imported\n"
+"after being dropped from `sys.modules` (which our dependency checker does).\n"
+"\n"
+"Importing the native submodule directly (`resvg_py.resvg_py`) works reliably\n"
+"even when the package `__init__.py` is broken, because the submodule is loaded\n"
+"independently. This wrapper centralises that workaround so the rest of Sanctus\n"
+"never has to `import resvg_py` directly."
+msgstr ""
+"围绕 `resvg-py` 包构建的健壮封装。\n"
+"\n"
+"`resvg-py` 包（v0.4.0）附带一个有缺陷的 `__init__.py`:\n"
+"\n"
+"    from .resvg_py import *\n"
+"    __doc__ = resvg_py.__doc__\n"
+"\n"
+"`from .resvg_py import *` 仅导入子模块中列在 `__all__`中的名称（它不包括 `resvg_py` 本身），因此第二行会在包从 `sys.modules`被移除后重新导入时抛出 `NameError: name 'resvg_py' is not defined`错误。\n"
+"\n"
+"直接导入原生子模块（`resvg_py.resvg_py`）即使包`__init__.py`损坏也能可靠工作，因为子模块独立加载。该封装将此变通方案集中化，这样 Sanctus 的其他部分无需直接 `import resvg_py`。"
+
+msgid "Session-Persistent Shared UI State."
+msgstr "会话持久化的共享 UI 状态。"
+
+msgid "NO {active_type} FAVORITES FOUND."
+msgstr "未找到任何 {active_type} 收藏"
+
+msgid "Session-Global Rendering Trace."
+msgstr "会话 - 全局渲染轨迹"
+
+msgid "ADD NEW"
+msgstr "添加新"
+
+msgid "APPLY TO MESH"
+msgstr "应用到网格"
+
+msgid "APPLY TO CURVE"
+msgstr "应用到曲线"
+
+msgid "FREE DRAW"
+msgstr "自由绘制"
+
+msgid "DRAW ON SURFACE"
+msgstr "在曲面上绘制"
+
+msgid "PLACE ON SURFACE"
+msgstr "放置在曲面上"
+
+msgctxt "Operator"
+msgid "Sanctus HUD Background Modal"
+msgstr "Saint HUD 背景对话框"
+
+msgctxt "Operator"
+msgid "Toggle Viewport HUD"
+msgstr "切换视窗 HUD"
+
+msgid "Raycasts to find the object under specific region coordinates."
+msgstr "射线追踪以查找特定区域坐标下的对象。"
+
+msgid "High-Fidelity Origin-Radius Proximity Detection."
+msgstr "高保真原点半径邻近检测。"
+
+msgid "Centralized validation logic for HUD Drag."
+msgstr "HUD 拖拽的集中式验证逻辑。"
+
+msgid "REQUIRES MESH"
+msgstr "REQUIRES MESH"
+
+msgid "TARGET MESH"
+msgstr "TARGET MESH"
+
+msgid "REQUIRES CURVE"
+msgstr "REQUIRES CURVE"
+
+msgid "TARGET CURVE"
+msgstr "TARGET CURVE"
+
+msgid "MESH NEEDED"
+msgstr "MESH NEEDED"
+
+msgid "SURFACE NEEDED"
+msgstr "SURFACE NEEDED"
+
+msgid "ERROR: {f_name}"
+msgstr "ERROR: {f_name}"
+
+msgid "Short-lived modal for asset drag-and-drop & mode toggling."
+msgstr "用于资产拖放和模式切换的短暂模态窗口"
+
+msgctxt "Operator"
+msgid "HUD Asset Drag"
+msgstr "HUD 资产拖放"
+
+msgid "DEFAULT"
+msgstr "DEFAULT"
+
+msgctxt "Operator"
+msgid "HUD Click Interceptor"
+msgstr "HUD 点击拦截器"
+
+msgid "Revives the Modal automatically if Blender kills it when changing Workspace."
+msgstr "在切换工作区时，如果 Blender 关闭了模态窗口，则自动复活。"
+
+msgid "3D View"
+msgstr "3D 视图"
+
+msgid ".preferences"
+msgstr ".preferences"
+
+msgid ".sanctus_resvg"
+msgstr ".sanctus_resvg"
+
+msgid ".t3dn_bip"
+msgstr ".t3dn_bip"
+
+msgid ".meta_data"
+msgstr ".meta_data"
+
+msgid ""
+"Check if this addon is in Expansion Mode (discoverable by Sanctus Library).\n"
+"\n"
+"Only relevant for clones with ENABLE_EXPANSIONS=False (e.g. Sanctus Viz).\n"
+"When True, the addon's panels/tools are suppressed (via panel poll()\n"
+"methods) and only its assets are exposed to Sanctus Library. The full\n"
+"addon is still registered so the AddonPreferences UI remains available\n"
+"(allowing the user to toggle Expansion Mode back OFF).\n"
+"\n"
+"NOTE: This is read at register() time. Toggling Expansion Mode in the\n"
+"preferences requires a Blender restart to take effect (Blender restores\n"
+"preferences AFTER register(), so a mid-session toggle can't be applied\n"
+"dynamically without a full unregister/register cycle)."
+msgstr ""
+"检查该插件是否处于扩展模式（可通过 Sanctus Library 发现）。\n"
+"\n"
+"仅适用于设置 ENABLE_EXPANSIONS=False 的克隆版本（例如 Sanctus Viz）。"
+
+msgid ""
+"Reconcile the persistent sentinel with the current preference value.\n"
+"\n"
+"Called from a load_post handler (after preferences are restored). If the\n"
+"user has Expansion Mode ON but no sentinel exists (e.g. toggled with an\n"
+"older build), write it. If OFF but a sentinel exists, remove it.\n"
+"\n"
+"Returns True if the sentinel was written (meaning a restart is needed to\n"
+"actually enter expansion mode), False otherwise."
+msgstr ""
+"当设置为 True 时，会抑制插件的面板/工具（通过 panel poll() 方法），\n"
+"只将其资产暴露给 Sanctus Library。完整的插件仍然已注册，因此 A"
+
+msgid ""
+"load_post handler: sync sentinel with preference after startup.\n"
+"\n"
+"NOTE: At load_post time, Blender has NOT yet restored the addon\n"
+"preferences (bpy.context.preferences.addons[__package__].preferences is\n"
+"None). So we cannot read `expansion_mode` directly here. Instead we\n"
+"schedule a one-shot timer that runs after the first frame, by which point\n"
+"preferences ARE available. This is the standard Blender pattern for\n"
+"\"wait until preferences are restored\" — there is no dedicated handler for\n"
+"it (confirmed against bpy.app.handlers stubs)."
+msgstr ""
+"ddonPreferences UI\n"
+"仍然可用（允许用户将扩展模式切换回关闭状态）。\n"
+"\n"
+"注意：这是在 register() 时间读取的。在首选项中切换扩展模式需要重启 Bl"
+
+msgid "Sanctus Global Dev Mode"
+msgstr ""
+"ender 才能生效（Blender 在 register()\n"
+"之后才恢复首选项，所以会话中期的动态切换无法应用，除非执行完整的 unregister/register 循环）。"
+
+msgid "Creates an check for polling operators. When strict is set to False, exceptions will be ignored."
+msgstr ""
+"|||~|||将持久化哨兵与当前首选项值进行对齐。\n"
+"\n"
+"从 load_post 处理程序中调用（在首选项恢复之后）。如果用户已将扩展模式设置为 ON 但\n"
+"不存在哨兵（例如使用旧版本构建时切换的），"
+
+msgid "anonymous rquirement not met"
+msgstr ""
+"则写入它。如果 OFF 但存在哨兵，则删除它。\n"
+"\n"
+"返回 True 表示已写入哨兵（意味着需要重启才能实际上进入扩展模式），否则为 False。|||~|||load_post 处理程序："
+
+msgid "Not Implemented"
+msgstr ""
+"启动后同步哨兵与首选项。\n"
+"\n"
+"注意：在 load_post 时间，Blender 尚未恢复插件首选项\n"
+"(bpy.context.preferences.addons[__pa"
+
+msgid "Return a dynamic description string based on operator properties and context. Context Properties are not yet set and will return their default"
+msgstr "ckage__].preferences 为 None)。因此我们在此处无法直接读取 expansion_mode。相反，我们安排一个单帧定时器，在该运行之后，此时首选项是可用的。"
+
+msgid "Property Settings"
+msgstr "这是 Blender“等待首选项已恢复”的标准模式——对此没有专用的处理程序（已在 bpy.app.handlers stubs 中确认）。|||~|||Sanctus G"
+
+msgid "{super().__repr__()} [INVALID!]"
+msgstr ""
+"lobal Dev Mode\n"
+"---\n"
+"\n"
+"创建针对操作器轮询的检查。当严格设置为 False 时，异常将被忽略。"
+
+msgid "Property {attr_name} is readonly. To set the property value, access the \"value\" field from this object"
+msgstr "属性 {attr_name} 为只读。要设置此属性的值，请从该对象访问 \"value\" 字段"
+
+msgid "returns dictionaries with context and manual meta props"
+msgstr "返回带有上下文和手动元数据的字典"
+
+msgid "Property Access is incorrect"
+msgstr "属性访问不正确"
+
+msgid "Attribute of name \"{attr_name}\" in {obj} is not a property of type {cls}"
+msgstr "{obj} 中名称为 \"{attr_name}\" 的属性不是类型为 {cls} 的属性"
+
+msgid "Impossible State"
+msgstr "不可能的状态"
+
+msgid "use_filter_invert"
+msgstr "use_filter_invert"
+
+msgid "use_filter_sort_alpha"
+msgstr "use_filter_sort_alpha"
+
+msgid "Invalid type \"{type(element)}\". Collection contains objects of type \"{elememt_type}\""
+msgstr "类型 \"{type(element)}\" 无效。集合包含类型为 \"{elememt_type}\" 的对象"
+
+msgid "Dynamic Version of the Enum Property. Use \"fixed = true\" to immediately resolve the items using (None, None) as parameters"
+msgstr "枚举属性的动态版本。使用 \"fixed = true\" 并使用 (None, None) 作为参数立即解析项"
+
+msgid "Relative Path cannot be resolved. Blend File has to be saved or use another fallback type"
+msgstr "相对路径无法解析。Blender 文件必须已保存，或使用其他替代类型"
+
+msgid "Cannot make already absolute path absolute. Path property must be relative."
+msgstr "无法将已绝对化的路径设置为绝对路径。路径属性必须是相对的。"
+
+msgid "Identifier {identifier} does not match required enum type: {enum_cls}."
+msgstr "标识符 {identifier} 不匹配必需的枚举类型：{enum_cls}。"
+
+msgid "0s"
+msgstr "0 秒"
+
+msgid "Context Property \"{attr_name}\" got invalid or no value. Has to be bpy.types.AnyType."
+msgstr "Context Property \"{attr_name}\" 获取了无效值或无值。必须是 bpy.types.AnyType。"
+
+msgid "Property {cls} not registered to {obj.__class__}. Valid registrations: {[t for a, p, t in cls.prop_map]}"
+msgstr "属性 {cls} 未注册到 {obj.__class__}。有效注册：[...列表...]"
+
+msgid "Decorators for Properties"
+msgstr "属性装饰器"
+
+msgid ""
+"Remove module cache of entire package and subpackages of an addon.\n"
+"\n"
+"CRITICAL: modules that load NATIVE dependencies (.pyd / DLLs) must NOT be\n"
+"purged. Re-importing them forces Windows to reload the .pyd, which is very\n"
+"slow and causes progressive memory fragmentation across reload cycles\n"
+"(observed: preferences.py grew from 48ms to 4714ms, developer_tools from\n"
+"48ms to 18367ms). These modules are kept in sys.modules so their native\n"
+"deps stay loaded:\n"
+"  - preferences  (runs _check_dependencies() at import → pops+reloads resvg_py .pyd)\n"
+"  - deps         (dependency installer, manipulates sys.modules)\n"
+"  - sanctus_resvg (wrapper around the resvg_py native .pyd)\n"
+"  - t3dn_bip     (thumbnail loader, imports PIL)"
+msgstr ""
+"移除整个包及插件子包的模块缓存。\n"
+"\n"
+"⚠️ 警告：加载 NATIVE 依赖（.pyd / DLL）的模块不得被清除。重新导入它们会强制 Windows 重新加载 .pyd，这非常慢并会导致跨重载循环产生渐进式内存碎片（观察到 preferences.py 从 48ms 增长到 4714ms，developer_tools 从 48ms 增长到 18367ms）。这些模块保留在 sys.modules 中以便其原生依赖保持加载状态：\n"
+"  - preferences（导入时运行 _check_dependencies() → 触发 resvg_py .pyd 的弹出+重新加载）\n"
+"  - deps（依赖安装器，操作 sys.modules）\n"
+"  - sanctus_resvg（resvg_py 原生 .pyd 的包装器）\n"
+"  - t3dn_bip（缩略图加载器，导入 PIL）"
+
+msgid "Class {clss.__name__} does not have a member '{method_name}'"
+msgstr "Class {clss.__name__} 没有成员 '{method_name}'"
+
+msgid "Member '{method_name}' of class {clss.__name__} is not a function"
+msgstr "类 {clss.__name__} 的成员 '{method_name}' 不是函数。"
+
+msgid "Adds function or class to Global list for registration."
+msgstr "将函数或类添加到全局注册列表。"
+
+msgid "Init method of {cls} needs to accept a single \"self\" argument"
+msgstr "{cls} 的 __init__ 方法需要接受一个单个的'self'参数"
+
+msgid "Auto register a draw callback to a Blender menu or panel."
+msgstr "自动注册一个绘制回调到 Blender 菜单或面板。"
+
+msgid "Auto register a timer callback function"
+msgstr "自动注册定时器回调函数"
+
+msgid "register a callback function to a handler in the <bpy.app.handlers> module"
+msgstr "向<bpy.app.handlers>模块中的处理器注册一个回调函数"
+
+msgid "Define dependencies to determine a registration order for certain classes. Use as decorator."
+msgstr "定义依赖项以确定某些类的注册顺序。"
+
+msgid "For a class gets a list of all its dependencies going recursively through the inheritence stack."
+msgstr "用作装饰器。"
+
+msgid "Skip initializing the addon while"
+msgstr "对于一个类，递归遍历继承栈获取所有依赖项的列表。"
+
+msgid "Blender is a background process."
+msgstr "当 Blender 是一个后台进程时跳过初始化插件。"
+
+msgid "Set up register and unregister functions for the module. All imported modules will contribute to the register/unregister routine"
+msgstr "为模块设置注册和注销函数。所有导入的模块都将为注册/注销例程做出贡献"
+
+msgid "Find the shortcut in user keyconfig, falling back to addon keyconfig if needed."
+msgstr "在用户快捷键配置中查找快捷方式，如需要则回退到插件快捷键配置。"
+
+msgid "Shortcut '{name}' not found"
+msgstr "快捷键 '{name}' 未找到"
+
+msgid "type"
+msgstr "type"
+
+msgid ""
+"Remove stale keymap items from the addon keyconfig only.\n"
+"\n"
+"keyconfigs.addon exists in all Blender versions (2.80+). It is an\n"
+"isolated keyconfig that Blender manages separately from the user's\n"
+"keyconfig — it's safe to purge items there because they are\n"
+"auto-generated by the addon.\n"
+"\n"
+"We NEVER touch keyconfigs.user because that would delete the user's\n"
+"personal keymap customizations.\n"
+"\n"
+"If `names` is provided, only items whose .name matches one of the\n"
+"given names will be removed (in addition to matching bl_idname).\n"
+"This prevents purging keymap items from other addons that share\n"
+"the same operator (e.g. wm.call_panel).\n"
+"\n"
+"Call this BEFORE registering new shortcuts to ensure a clean slate\n"
+"in the addon keyconfig."
+msgstr ""
+"仅从附加插件的键位配置中清除过时的键位项。\n"
+"\n"
+"keyconfigs.addon 在所有 Blender 版本（2.80+）中都存在。它是 Blender 独立于用户键位配置管理的隔离键位配置——可以安全地从中清除项目，因为它们是由附加插件自动生成的。\n"
+"\n"
+"我们绝不会触碰 keyconfigs.user，否则将删除用户的个人键位自定义设置。\n"
+"\n"
+"如果提供了 `names` 参数，则只移除 .name 与给定名称匹配的项目（除了同时匹配 bl_idname）。\n"
+"这样可以避免清除其他附加插件中共享同一操作符的键位项（例如 wm.call_panel）。\n"
+"\n"
+"在注册新快捷键之前调用此函数，以确保附加插件键位配置中的初始状态干净。"
+
+msgid "Replaces all default arguments in init with _UIEmptyArgument instance but keeps the signature. Filters unused arguments out"
+msgstr "替换 init 中所有的默认参数为 _UIEmptyArgument 实例，但保留签名。过滤未使用的参数"
+
+msgid "Returns an UIOpionsProp instance with no text and a specific icon"
+msgstr "返回一个不带文本和特定图标的 UIOptionsProp 实例"
+
+msgid "Draw the builtin property as a dropdown. Returns the value of the property. Inverted if \"invert_value\" is True"
+msgstr "将内置属性绘制为下拉菜单。返回该属性的值。如果 \"invert_value\" 为 True 则反转。"
+
+msgid "Redraw every region in Blender."
+msgstr "重绘 Blender 中的所有区域。"
+
+msgid "A generic type annotation for the bpy.types.Object class with defined data type."
+msgstr "bpy.types.Object 类的通用类型注解，具有定义的数据类型。"
+
+msgid "A generic type annotation for the bpy.types.Context class with definied space_data type."
+msgstr "bpy.types.Context 类的通用类型注解，具有定义的 space_data 类型。"
+
+msgid "Add Mesh"
+msgstr "添加 Mesh"
+
+msgid "Add Curve"
+msgstr "添加曲線|||游戏引擎|||文本编辑器|||用户界面"
+
+msgid "Game Engine"
+msgstr "|||返回插件元数据为 BL_INFO 字典。在扩展中，"
+
+msgid "Text Editor"
+msgstr "bl_info 已被移除（被 blender_manifest.toml 替换）。"
+
+msgid "User Interface"
+msgstr "此函数读取清单以重建相关字段。|||返回枚举的 Bl"
+
+msgid ""
+"Returns addon metadata as a BL_INFO dict.\n"
+"Under extensions, bl_info is removed (replaced by blender_manifest.toml).\n"
+"This function reads the manifest to reconstruct the relevant fields."
+msgstr "ender 可读字符串名称|||将枚举转换为 Ble"
+
+msgid "Returns the blender-readable string name of the enum"
+msgstr "nder 可读的字符串|||键 \"{value}\"不"
+
+msgid "Convert Enum into a blender-readable string"
+msgstr "在{string_set}中|||值 {value}"
+
+msgid "Key \"{value}\" not in {string_set}"
+msgstr "在解析BStaticEnum {cls}时无效|||"
+
+msgid "Value {value} is invalid for parsing BStaticEnum {cls}"
+msgstr "索引{value}超出枚举{cls}（大小为{len"
+
+msgid "Index {value} out of bounds for enum {cls} of size {len(cls)}"
+msgstr "(cls)}）的范围"
+
+msgid "Input {value} cannot be interpreted as BStaticEnum {cls}"
+msgstr "{value}不能解释为BStaticEnum {cls}"
+
+msgid "File Browser"
+msgstr "文件浏览器"
+
+msgid "Graph Editor"
+msgstr "图表编辑器"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "INFO"
+msgstr "INFO"
+
+msgid "NLA Editor"
+msgstr "NLA编辑器"
+
+msgid "Node Editor"
+msgstr "节点编辑器"
+
+msgid "Property Editor"
+msgstr "属性编辑器"
+
+msgid "Spreadsheet Generic"
+msgstr "电子表格通用"
+
+msgid "File formats for Images. Use \"extension\" property to receive the appropriate file extension for each format."
+msgstr "为图像使用的文件格式。使用\"extension\"属性以获取每种格式的相应文件扩展名。"
+
+msgid ""
+"Expansion Registry — Fuente única de verdad para expansiones.\n"
+"\n"
+"Cada expansión se define AQUÍ con su ID de extensión, nombre, ruta de carpeta\n"
+"y metadatos. Todos los demás módulos (configs, builders, Hub) leen de acá.\n"
+"\n"
+"Cómo agregar una expansión nueva:\n"
+"  1. Agrega un entry a EXPANSIONS (sigue el formato de los existentes).\n"
+"  2. Crea blender_manifest.toml + __init__.py en la carpeta.\n"
+"  3. El build_satellites.py ya lo pickea automáticamente.\n"
+"  4. El Hub ya lo lee del catalog_clean.json (actualizar ahí también)."
+msgstr ""
+"扩展注册表 —— 扩展的唯一真实数据源。\n"
+"\n"
+"每个扩展都在这里定义其扩展 ID、名称、文件夹路径和元数据。所有其他模块（配置、构建器、Hub）都从这里读取信息。\n"
+"\n"
+"如何添加一个新的扩展：\n"
+"  1. 在 EXPANSIONS 中添加一个条目（遵循现有条目的格式）。\n"
+"  2. 在该文件夹中创建 blender_manifest.toml + __init__.py。\n"
+"  3. build_satellites.py 会自动处理它。\n"
+"  4. Hub 也会从 catalog_clean.json 读取信息（请在那里同步更新）。"
+
+msgid "Información de una expansión."
+msgstr "扩展信息."
+
+msgid "Sanctus Liquid Works"
+msgstr "Sanctus Liquid Works"
+
+msgid "Procedural shaders for liquids & fluids"
+msgstr "程序化液面与流体着色器"
+
+msgid "Sanctus Wood Works"
+msgstr "Sanctus Wood Works"
+
+msgid "Procedural 3D wood studio"
+msgstr "程序化3D木材工作室"
+
+msgid "Sanctus Viz"
+msgstr "Sanctus Viz"
+
+msgid "Archviz materials & geometry nodes library"
+msgstr "建筑可视化材质与几何节点库"
+
+msgid ""
+"Retorna solo los datos que necesita Config.EXPANSION_EXTENSION_IDS.\n"
+"Formato: { extension_id: { name, product_page } }"
+msgstr ""
+"仅返回 Config.EXPANSION_EXTENSION_IDS 所需的字段。\n"
+"格式：{ extension_id: { name, product_page } }"
+
+msgid ""
+"Retorna los targets para build_satellites.\n"
+"Formato: { \"Nombre Mostrar\": \"expansions/Nombre Carpeta\" }\n"
+"Excluye clones que se buildean desde sanctus_core/ (como sanctus_viz)."
+msgstr ""
+"为 build_satellites 返回目标列表。\n"
+"格式：{ \"显示名称\": \"扩展/文件夹名\" }\n"
+"排除通过 sanctus_core/构建的克隆（例如 sanctus_viz）。"
+
+msgid ""
+"Detect expansions that are ACTUALLY loaded by Blender.\n"
+"\n"
+"Source of truth: bpy.context.preferences.addons — Blender only lists\n"
+"extensions it has loaded and activated there. No disk scanning, no\n"
+"tomllib parsing of every repo, no repo crawling: if Blender didn't load\n"
+"it, it does not exist for this session. This eliminates:\n"
+"  - false positives from orphaned folders left on disk (uninstalled /\n"
+"    disabled copies),\n"
+"  - the multi-repo mess (the same extension in user_default AND a\n"
+"    remote repo) — Blender loads exactly ONE instance and reports it\n"
+"    in preferences.addons,\n"
+"  - startup hangs from scanning every repo's filesystem during addon\n"
+"    registration.\n"
+"\n"
+"Args:\n"
+"    only_enabled: when True, also require the expansion to be in\n"
+"        Expansion Mode (persistent sentinel) — see expansion_tracker.\n"
+"\n"
+"Returns: { extension_id: { name, version, folder, source_repo,\n"
+"                            package_name, package_path, manifest_path,\n"
+"                            enabled, asset_subfolder } }"
+msgstr ""
+"检测 Blender 实际加载的扩展。\n"
+"\n"
+"真相来源：bpy.context.preferences.addons — Blender 只在此处列出已加载并启用的扩展。它不进行磁盘扫描，不解析每个仓库的 tomllib，也不爬取仓库：如果 Blender 没有加载它，那么在本次会话中该扩展就不存在。这消除了以下问题：\n"
+"  - 由磁盘上遗留的孤儿文件夹导致的误报（未安装/已禁用的副本），\n"
+"  - 多仓库混乱（同一个扩展存在于 user_default 和远程仓库）——Blender 精确地只加载一个实例，并在 preferences.addons 中报告它，\n"
+"  - addon 注册期间扫描每个仓库文件系统导致的启动挂起。\n"
+"\n"
+"参数：\n"
+"    only_enabled: 当为 True 时，还需要该扩展处于 扩展模式（持久化哨兵）——参见 expansion_tracker。\n"
+"\n"
+"返回：{ extension_id: { name, version, folder, source_repo, package_name, package_path, manifest_path, enabled, asset_subfolder } }"
+
+msgid ""
+"Expansion Tracker — Sentinel file mechanism for enabled/disabled detection.\n"
+"\n"
+"Each expansion writes a sentinel file when its register() is called (meaning\n"
+"Blender has loaded and enabled it). Sanctus Core reads these sentinels to\n"
+"determine which expansions are currently active.\n"
+"\n"
+"This avoids relying on undocumented Blender APIs like enabled_extensions.\n"
+"\n"
+"How it works:\n"
+"  1. Each expansion calls mark_enabled(ext_id) in its register().\n"
+"  2. Each expansion calls mark_disabled(ext_id) in its unregister().\n"
+"  3. Sanctus Core calls get_enabled_extensions() to get the set of active IDs.\n"
+"\n"
+"The sentinel files are stored in the extension's persistent user directory\n"
+"(via bpy.utils.extension_path_user), which survives Blender restarts and is\n"
+"kept between upgrades. This is the official Blender way to store per-extension\n"
+"user data — see https://docs.blender.org/manual/en/latest/advanced/extensions/addons.html\n"
+"(\"Local Storage\" section)."
+msgstr ""
+"扩展跟踪器 —— 用于启用/禁用检测的哨兵文件机制。\n"
+"\n"
+"每个扩展在其 register() 被调用时（即 Blender 已加载并启用了它）写入一个哨兵文件。Sanctus Core 读取这些哨兵文件以确定哪些扩展当前处于活动状态。\n"
+"\n"
+"这避免了依赖 undocumented Blender API（如 enabled_extensions）。\n"
+"\n"
+"工作原理：\n"
+"  1. 每个扩展在其 register() 中调用 mark_enabled(ext_id)。\n"
+"  2. 每个扩展在其 unregister() 中调用 mark_disabled(ext_id)。\n"
+"  3. Sanctus Core 调用 get_enabled_extensions() 获取活动 ID 集合。\n"
+"\n"
+"哨兵文件存储在扩展的持久化用户目录中（通过 bpy.utils.extension_path_user），该目录可抵御 Blender 重启，并在升级之间保留。如果扩展被卸载，则该目录会被删除。这是官方 Blender 存储每扩展用户数据的方式——见 https://docs.blender.org/manual/en/latest/advanced/extensions/addons.html（\"Local Storage\"部分）。"
+
+msgid ""
+"Return the ROOT package of this extension (e.g. 'bl_ext.user_default.sanctus_viz').\n"
+"\n"
+"CRITICAL: bpy.utils.extension_path_user() requires the ROOT package of the\n"
+"extension, NOT a submodule package. This module lives in the 'configs'\n"
+"subpackage, so __package__ is 'bl_ext.user_default.sanctus_viz.configs'.\n"
+"We must strip the trailing '.configs' to get the root package, otherwise\n"
+"the sentinel is written to a DIFFERENT directory than the one that\n"
+"detect_installed_expansions() reads (which uses the root package), and\n"
+"Sanctus Library would never find the sentinel."
+msgstr ""
+"返回此扩展的根包（例如 'bl_ext.user_default.sanctus_viz'）。\n"
+"\n"
+"⚠️ 关键：bpy.utils.extension_path_user() 需要的是扩展的 ROOT 包，而不是子模块包。该模块位于 'configs' 子包中，因此 __package__ 是 'bl_ext.user_default.sanctus_viz.configs'。我们必须剥离末尾 '.configs' 以获取根包，否则哨兵将被写入与 detect_installed_expansions() 读取的不同目录（后者使用根包），Sanctus Library 将永远找不到该哨兵文件。"
+
+msgid ""
+"Return the persistent user directory for this extension.\n"
+"\n"
+"Uses the official bpy.utils.extension_path_user() API so the sentinel\n"
+"survives Blender restarts (unlike bpy.app.tempdir, which is wiped each\n"
+"session). The directory is kept between upgrades but removed if the\n"
+"extension is uninstalled."
+msgstr ""
+"返回此扩展的持久化用户目录。\n"
+"\n"
+"使用官方 bpy.utils.extension_path_user() API，因此哨兵可抵御 Blender 重启（不同于 bpy.app.tempdir，它每次会话都会被清空）。该目录在升级之间保留，但如果扩展被卸载则会被删除。"
+
+msgid "Get the sentinel file path for a given extension ID."
+msgstr "获取给定扩展 ID 的哨兵文件路径。"
+
+msgid "Called by an expansion's register() to signal it is enabled."
+msgstr "由扩展的 register() 调用，用于通知其已启用。"
+
+msgid "Called by an expansion's unregister() to signal it is disabled."
+msgstr "由扩展的 unregister() 调用，用于通知其已禁用。"
+
+msgid ""
+"Return the set of extension IDs that have sentinel files.\n"
+"\n"
+"Scans the persistent user directory of THIS extension. For Sanctus Core\n"
+"(the discoverer), this only finds sentinels written by Core itself. To\n"
+"discover sentinels written by OTHER extensions (e.g. Sanctus Viz), use\n"
+"is_enabled(ext_id, package) with each extension's package, or scan the\n"
+"extension repos directly (see expansion_registry.detect_installed_expansions)."
+msgstr ""
+"返回拥有哨兵文件的扩展 ID 集合。\n"
+"\n"
+"扫描此扩展的持久化用户目录。对于 Sanctus Core（发现者），这只会找到 Core 自己写入的哨兵。要发现其他扩展（例如 Sanctus Viz）写下的哨兵，请使用 is_enabled(ext_id, package) 并传入每个扩展的包，或直接扫描扩展仓库（参见 expansion_registry.detect_installed_expansions）。"
+
+msgid ""
+"Check if a specific extension is enabled by sentinel presence.\n"
+"\n"
+"Checks BOTH the persistent user directory (bpy.utils.extension_path_user)\n"
+"and the legacy bpy.app.tempdir location. The persistent directory is used\n"
+"by Sanctus clones (e.g. Sanctus Viz) so the sentinel survives restarts.\n"
+"The tempdir location is still used by standalone expansions (e.g. Sanctus\n"
+"Liquid Works, Sanctus Wood Works) which write their sentinel unconditionally\n"
+"in register() and re-write it every startup.\n"
+"\n"
+"Args:\n"
+"    ext_id: The extension ID (e.g. \"sanctus_viz\").\n"
+"    package: The extension's __package__ (e.g. \"bl_ext.user_default.sanctus_viz\").\n"
+"             Defaults to this extension's own package."
+msgstr ""
+"检查特定扩展是否通过哨兵的存在处于启用状态。\n"
+"\n"
+"同时检查持久化用户目录（bpy.utils.extension_path_user）和旧版 bpy.app.tempdir 位置。持久化目录由 Sanctus 克隆使用（例如 Sanctus Viz），因此哨兵可抵御重启。tempdir 位置仍由独立扩展（例如 Sanctus Liquid Works, Sanctus Wood Works）使用，它们在 register() 中无条件写入哨兵，并在每次启动时重写它。\n"
+"\n"
+"参数：\n"
+"    ext_id: 扩展 ID（例如 \"sanctus_viz\"）。\n"
+"    package: 扩展的 __package__（例如 \"bl_ext.user_default.sanctus_viz\"）。默认为该扩展自己的包。"
+
+msgid "Geometry Nodes"
+msgstr "几何节点"
+
+msgid "Sanctus Material Library"
+msgstr "圣徒材质库|||~|||视图 3D > 侧边栏 > S"
+
+msgid "Sanctus"
+msgstr "Library|||~|||从本地文件夹中提取扩展文件。"
+
+msgid "View3D > Sidebar > SLibrary"
+msgstr ""
+"点击“安装扩展”按钮，然后导航到扩展文件夹。\n"
+"在根目"
+
+msgid ""
+"Extract the expansion files on a local folder.\n"
+"Press the \"Install Expansion\" button and navigate to the expansion folder.\n"
+"Select the *.expansion file in the root folder and press \"Install\" in the file browser."
+msgstr "录中选中*.expansion 文件并在文件浏览器中点击“安装”。"
+
+msgid ""
+"MAESTRO DE TEXTOS UI - {addon_name}\n"
+"Instrucciones: Usa {addon_name} para el nombre del addon y {asset_name} para nombres de assets."
+msgstr ""
+"|||~|||文本大师 UI - {addon_name}\n"
+"说明："
+
+msgid "Apply Decal"
+msgstr "使用{addon_name}作为Addon名称，{asset_name}用于资产名称。"
+
+msgid "Apply decal to selected object"
+msgstr "|||~|||应用贴花|||~|||将贴花应用到选中的"
+
+msgid "Apply Custom"
+msgstr "对象上|||~|||应用自定义|||~|||从本地驱动"
+
+msgid "Apply an image from your local drive as a decal to the selected object"
+msgstr "器加载图像作为贴花应用到选中的对象上|||~|||切换"
+
+msgid "Swap Image"
+msgstr "图像"
+
+msgid "Swap current decals image from the one in the panel without losing position or parameters"
+msgstr "从面板中交换当前 decals 图像，而不会丢失位置或参数"
+
+msgid "Toggle Normal Edit"
+msgstr "切换法线编辑"
+
+msgid "Toggle Normal Edit to check which one has better shading"
+msgstr "切换法线编辑以检查哪一个具有更好的阴影效果"
+
+msgid "Reposition Decal"
+msgstr "重新定位 decals"
+
+msgid "Re applies the selected decal onto another surface or object without losing parameters"
+msgstr "将选定的 decals 应用到另一个表面或对象上，而不会丢失参数"
+
+msgid "Confirm Decal: [Left Click]      Cancel Placement: [Esc]     Resize Decal: [Shift + Mouse Wheel]     Rotate Decal: [Ctrl + Mouse Wheel]"
+msgstr "确认 decals：[左键点击]     取消放置：[Esc]     调整 decals 大小：[Shift+滚轮]     旋转 decals：[Ctrl+滚轮]"
+
+msgid "Watch Decal Tool Demo"
+msgstr "观看 decals 工具演示"
+
+msgid "Switches the enum for a given library in the given direction"
+msgstr "在给定方向中切换给定库的枚举"
+
+msgid "Set the current library item as favorite. Favorites will get sorted to the front"
+msgstr "将当前库项设为收藏夹。收藏夹会按顺序排在前面"
+
+msgid "Reload the entire library"
+msgstr "重新加载整个库"
+
+msgid "Removes currently viewed material from object"
+msgstr "从对象中移除当前查看的材质"
+
+msgid "Appends material to the current object, so that it becomes accessible in the Shader Editor"
+msgstr "将材质附加到当前对象，使其在着色器编辑器中可访问"
+
+msgid "Expand"
+msgstr "展开"
+
+msgid "Filters:"
+msgstr "滤镜："
+
+msgid "Filters..."
+msgstr "过滤器..."
+
+msgid "Engine"
+msgstr "引擎"
+
+msgid "Complexity"
+msgstr "复杂度"
+
+msgid "Filter Displacement"
+msgstr "置换滤波器"
+
+msgid "Filter UVs"
+msgstr "UV 滤镜"
+
+msgid "Pillow Installed"
+msgstr "枕头已安装"
+
+msgid "Uninstall"
+msgstr "卸载"
+
+msgid "{addon_name} Preferences"
+msgstr "{addon_name} 首选项"
+
+msgid "Toggle the panel on the right side of the 3D View"
+msgstr "在 3D 视图右侧切换面板"
+
+msgid "Use Filters for organizing {addon_name} Assets"
+msgstr "使用过滤器组织 {addon_name} 资产"
+
+msgid "Display Material Slots"
+msgstr "显示材质槽位"
+
+msgid "Display a UI element for the active material of the active object in the Material Panel"
+msgstr "在材质面板中为活动对象的活动材质显示 UI 元素"
+
+msgid "When using the interactive decal or GN asset gizmos, your mouse gets centered when enabled"
+msgstr "使用交互式贴纸或 GN 资产工具时，启用后鼠标会居中"
+
+msgid "Folder location where user decal images are stored"
+msgstr "用户贴图图片存储的位置"
+
+msgid "Name of the custom decals category that is displayed in the UI"
+msgstr "在 UI 中显示的自定义贴纸类别名称"
+
+msgid "Apply Material"
+msgstr "应用材质"
+
+msgid "Apply {asset_name} to selected objects"
+msgstr "应用 {名称} | 到选定对象"
+
+msgid "Documentation"
+msgstr "文档"
+
+msgid "Open Documentation for {addon_name}"
+msgstr "打开 {软件组件名称} 的文档页面"
+
+msgid "Open Documentation for {asset_name}"
+msgstr "为 {资产名称} 打开文档页面"
+
+msgid "Join Community"
+msgstr "加入社区"
+
+msgid "Join the official {addon_name} Discord Server"
+msgstr "加入官方 Discord 服务器"
+
+msgid "Support Development"
+msgstr "支持开发"
+
+msgid "Support {addon_name} on Patreon"
+msgstr "在 Patreon 上支持 {软件组件名称}"
+
+msgid "Incompatible Engine"
+msgstr "不兼容引擎"
+
+msgid "Incompatible render engines info"
+msgstr "不兼容渲染引擎信息"
+
+msgid "How to use Shader Tools"
+msgstr "如何正确使用 Shader Tools"
+
+msgid "Open the official {addon_name} Shader Tools Guide"
+msgstr "打开官方 {addon_name} Shader Tools 指南"
+
+msgid "Master procedural engine for high-volume decal generation (Phase 40)."
+msgstr "适用于大规模贴图生成的主过程引擎（阶段 40）。"
+
+msgid "Creates a deterministic string or integer from the master seed + specific salt."
+msgstr "从主种子 + 特定盐值生成确定性字符串或整数。"
+
+msgid "Calculates relative luminance to determine contrast needs."
+msgstr "计算相对亮度以确定对比度需求。"
+
+msgid ""
+"Resolves colors using either theme presets OR UI advanced pools.\n"
+"match_overrides: {'border': bool, 'text': bool}"
+msgstr ""
+"使用主题预设或 UI 高级池解析颜色。\n"
+"match_overrides: {'border': bool, 'text': bool}"
+
+msgid "Selects random phrases based on theme and complexity."
+msgstr "根据主题和复杂度选择随机短语。"
+
+msgid "SYSTEM OK"
+msgstr "系统正常"
+
+msgid "Orchestrates the creation of multiple decal variations variations (Legacy)."
+msgstr "协调创建多个贴图变体 (Legacy)。"
+
+msgid "Processes a single decal generation request from the Blender UI."
+msgstr "从 Blender UI 处理单个贴图生成请求。"
+
+msgid "High-level entry point for Flask/UI requests."
+msgstr "Flask/UI 请求的高级入口点。"
+
+msgid "Universal Vector Engine Phase 32 Correction: Absolute Precision."
+msgstr "通用矢量引擎第 32 阶段修正：绝对精度。"
+
+msgid "Walks through subdirectories to find a specific file."
+msgstr "遍历子目录以查找特定文件。"
+
+msgid "Hybrid Font Discovery: Hardcoded overrides for rebellious fonts + PIL for the rest."
+msgstr "混合字体发现：针对叛逆字体使用硬编码覆盖，其余使用 Pillow。"
+
+msgid "Dynamic Font Loading: Lists fonts in inputs/fonts/{theme_name}/ at runtime."
+msgstr "动态字体加载：在运行时列出 inputs/fonts/{theme_name}/中的字体。"
+
+msgid "Returns (font_family_string, absolute_font_path) for layout measuring."
+msgstr "返回 (font_family_string, absolute_font_path) 用于布局测量。"
+
+msgid "0 0 256 256"
+msgstr "0 0 256 256"
+
+msgid "Standard entry point for theme-based generation."
+msgstr "基于主题的生成标准入口点。"
+
+msgid "Advanced entry point for Bulk Generator with full decoupling."
+msgstr "批量生成器的先进入口点，实现完全解耦。"
+
+msgid "DANGER HIGH VOLTAGE"
+msgstr "危险：高压"
+
+msgid "DANGER: HIGH RADIATION AREA"
+msgstr "危险：高辐射区域"
+
+msgid ""
+"Safe ImageFont loader with fallback for macOS Pillow builds\n"
+"that may lack ImageFont support (e.g. installed without freetype/libraqm).\n"
+"\n"
+"Usage:\n"
+"    from _imagefont import ImageFont"
+msgstr ""
+"适用于 macOS Pillow 构建的 Safe ImageFont 加载器（某些版本可能缺少 ImageFont 支持，例如未安装 freetype/libraqm）。\n"
+"\n"
+"用法：\n"
+"    from _imagefont import ImageFont"
+
+msgid "Minimal ImageFont stub using PIL._imagingft directly."
+msgstr "直接使用 PIL._imagingft 的最小 ImageFont 实现。"
+
+msgid "Sanctus Decal Forge Engine — Sub-package for procedural decal generation."
+msgstr "Sanctus Decal Forge Engine — 用于程序化贴花生成的子模块。"
+
+msgid "Strategy for 1000x1000 Circle decals (Phase 48: Offset & Scale)."
+msgstr "1000x1000 圆形贴花策略（阶段 48：偏移 & 缩放）。"
+
+msgid "Strategy for 1000x1000 Octagon decals (Phase 48: Offset & Scale)."
+msgstr "1000x1000 八角形贴花策略（阶段 48：偏移 & 缩放）。"
+
+msgid "Strategy for 1000x300 Rectangle decals (Phase 48: Offset & Scale)."
+msgstr "1000x300 矩形贴花策略（阶段 48：偏移 & 缩放）。"
+
+msgid "TEXT_REQUIRED_FOR_RECTANGLE"
+msgstr "TEXT_REQUIRED_FOR_RECTANGLE"
+
+msgid "Could not load font file: {font_path}"
+msgstr "无法加载字体文件：{font_path}"
+
+msgid "Strategy for 1000x1000 Square decals (Phase 48: Offset & Scale)."
+msgstr "适用于 1000x1000 方形贴花的策略（阶段 48：偏移 & 缩放）。"
+
+msgid "Strategy for 1000x866 Triangle decals (Phase 48: Offset & Scale)."
+msgstr "1000x866 三角形贴图策略（第 48 阶段：偏移与缩放）。"
+
+msgid "Layout strategies for the Decal Forge Engine."
+msgstr "Decal Forge Engine 布局策略。"
+
+msgid "Creates a 128x128 preview for a font file."
+msgstr "为字体文件创建 128x128 预览图。"
+
+msgid "Ag"
+msgstr "Ag"
+
+msgid "Creates a 128x128 preview for an SVG icon using resvg."
+msgstr "使用 resvg 为 SVG 图标创建 128x128 预览图。"
+
+msgid "No fonts found for theme {theme_name} in {theme_font_dir}"
+msgstr "在 {theme_font_dir}中未找到用于主题{theme_name}的字体"
+
+msgid "{image.name} SL Material"
+msgstr "{image.name} SL 材质"
+
+msgid "The context is incorrect. For context.space_data expected a SpaceView3D type, not {type(space_view_3d)}"
+msgstr "上下文不正确。对于 context.space_data，预期为 SpaceView3D 类型，而非{type(space_view_3d)}。"
+
+msgid "Context was changed, cancelled execution of \"{bl_label}\" operator."
+msgstr "上下文已更改，取消了操作符\"{bl_label}\"的执行。"
+
+msgid "Confirm: [Left Click]  |  Cancel: [Esc]  |  Resize: [Shift + Mouse Wheel]  |  Rotate: [Ctrl + Mouse Wheel]"
+msgstr "确认：[左键点击] | 取消：[Esc] | 调整大小：[Shift + 滚轮] | 旋转：[Ctrl + 滚轮]"
+
+msgid "No decal selected to reposition."
+msgstr "未选择要重新定位的贴图."
+
+msgid "Select an image as a custom decal."
+msgstr "选择一个图像作为自定义贴图."
+
+msgid "Decal Normal Transfer Modifier not found."
+msgstr "未找到 Decal Normal Transfer 修改器."
+
+msgid "Busca un NodeGroup existente con el mismo nombre y versión."
+msgstr "搜索与相同名称和版本相同的 NodeGroup."
+
+msgid "Aplica la deduplicación a un NodeGroup o a todos los modificadores de un Objeto."
+msgstr "将去重应用到 NodeGroup 或对象的所有修改器上."
+
+msgid ""
+"Base class providing interactive modal placement logic for GN assets.\n"
+"Provides surface snapping, real-time transformations, raycasting, and Machinegun mode."
+msgstr ""
+"为 GN 资产提供交互式模态定位逻辑的基础类。\n"
+"支持表面吸附、实时变换、射线投射和机枪模式."
+
+msgid "Confirm: [Left Click]  |  Cancel: [Esc]  |  [M] Machinegun: {mg_state}  |  Resize: [Shift + Wheel]  |  Rotate: [Ctrl + Wheel]"
+msgstr "确认：[左键单击] | 取消：[Esc] | [M] 机枪模式：{mg_state} | 调整大小：[Shift + 滚轮] | 旋转：[Ctrl + 滚轮]"
+
+msgctxt "Operator"
+msgid "Apply"
+msgstr "应用."
+
+msgid "There's already a hair asset applied."
+msgstr "已经应用了毛发资产."
+
+msgid "Do you want to replace it?"
+msgstr "您想替换它吗？"
+
+msgid "Curves Material"
+msgstr "曲线路径材质"
+
+msgid "[CONTEXT Verified] UI Overlay to guide user out of Draw Mode."
+msgstr "[上下文已验证] UI 叠加层，用于引导用户退出绘制模式。"
+
+msgid "DRAW MODE ACTIVE  |  [TAB] : EXIT DRAW MODE"
+msgstr "绘制模式中 | [TAB] : 退出绘制模式"
+
+msgid "DRAW MODE ACTIVE (SURFACE)  |  [TAB] : EXIT DRAW MODE"
+msgstr "绘制模式 (曲面) 中 | [TAB] : 退出绘制模式"
+
+msgid "Toggle between fixed value and attribute input for a geometry nodes modifier socket"
+msgstr "在几何节点修改器插孔的固定值和属性输入之间切换"
+
+msgctxt "Operator"
+msgid "Input Attribute Toggle"
+msgstr "输入属性切换开关"
+
+msgid "Toggle between fixed value and attribute/vertex group input"
+msgstr "在固定值和属性/顶点组输入之间切换"
+
+msgid "Modifier Name"
+msgstr "修改器名称"
+
+msgid "Name of the NodesModifier to toggle"
+msgstr "要切换的节点修改器的名称"
+
+msgid "Socket Identifier"
+msgstr "插孔标识符"
+
+msgid "Identifier of the socket to toggle attribute mode for"
+msgstr "需要切换属性模式的接口的标识符"
+
+msgid "Is Hair Asset"
+msgstr "是发丝资产"
+
+msgid "Select the asset as the current element in the Material panel"
+msgstr "在材质面板中选择该资产作为当前元素"
+
+msgctxt "Operator"
+msgid "How to use the Material Editor"
+msgstr "如何使用材质编辑器"
+
+msgid "Open a weblink to the official Sanctus Library Material Editor Guide"
+msgstr "打开指向官方 Sanctus Library 材质编辑器指南的超链接"
+
+msgid "Open the preferences for the {core_config.Config.NAME} addon"
+msgstr "打开 {core_config.Config.NAME} 插件的设置"
+
+msgid "Install the Pillow python library. Makes loading the addon much faster"
+msgstr "安装 Pillow Python 库。可使加载该插件更快"
+
+msgid "No internet connection..."
+msgstr "没有网络连接..."
+
+msgid "Internet connection timeout..."
+msgstr "网络连接超时..."
+
+msgid "An unknown error has occured. Please report this!"
+msgstr "发生了一个未知错误。请报告此问题！"
+
+msgid "Refresh dependency status globals and force a UI redraw."
+msgstr "刷新依赖项状态全局变量并强制重新绘制界面。|||~|||清除画布预览中缓存的 PIL 检测状态。"
+
+msgid ""
+"Invalidate the HUD preview's cached PIL check.\n"
+"\n"
+"Called after any Pillow install/repair: the preview caches PIL\n"
+"availability once per session (no polling), so it must be told when PIL\n"
+"becomes available at runtime. The actual import test happens lazily —\n"
+"we just reset the cache to unknown; the next request() re-checks."
+msgstr "在安装/修复 Pillow 之后调用：预览会按会话仅缓存一次 PIL 可用性（不轮询），"
+
+msgid "Install the Pillow (PIL) dependency."
+msgstr "因此需要告知运行时何时 PIL 可用。实际的导入测试是延迟执行的——我们只是将缓存重置为未知；"
+
+msgctxt "Operator"
+msgid "Install Pillow"
+msgstr "下一次 request() 会重新检查。|||~|||安装 Pillow (PIL) 依赖项。"
+
+msgid "Install Pillow (PIL). Makes loading the addon much faster and enables image processing."
+msgstr "|||~|||安装 Pillow|||~|||安装 Pillow(PIL)。"
+
+msgid "Force Update"
+msgstr "使加载插件更快并启用图像处理功能。|||~|||强制更新|||~|||"
+
+msgid "Reinstall with --upgrade even if already installed"
+msgstr "即使已安装也要使用 --upgrade 参数重新安装 |||~|||安装 resvg-py 依赖项。"
+
+msgid "Install the resvg-py dependency."
+msgstr "|||~|||安装 resvg-py。启用 Forge Engine（SVG 渲染器）。"
+
+msgctxt "Operator"
+msgid "Install resvg-py"
+msgstr ""
+
+msgid "Install resvg-py. Enables the Forge Engine (SVG rendering)."
+msgstr ""
+
+msgid "Repair a broken Pillow install."
+msgstr "修复损坏的 Pillow 安装。"
+
+msgctxt "Operator"
+msgid "Repair Pillow"
+msgstr "修复 Pillow"
+
+msgid "Delete a broken Pillow install and reinstall it cleanly. Close other Blender windows first."
+msgstr "删除损坏的 Pillow 安装并干净地重新安装它。先关闭其他 Blender 窗口。"
+
+msgid "Repair a broken resvg-py install."
+msgstr "修复损坏的 resvg-py 安装。"
+
+msgctxt "Operator"
+msgid "Repair resvg-py"
+msgstr "修复 resvg-py"
+
+msgid "Delete a broken resvg-py install and reinstall it cleanly. Close other Blender windows first."
+msgstr "删除损坏的 resvg-py 安装并干净地重新安装它。先关闭其他 Blender 窗口。"
+
+msgid "Install all required Python dependencies (Pillow, resvg-py)"
+msgstr "安装所有所需的 Python 依赖项（Pillow、resvg-py）。"
+
+msgctxt "Operator"
+msgid "Install Dependencies"
+msgstr "安装依赖项"
+
+msgid "Install Pillow and resvg-py. Makes loading the addon much faster and enables the Forge Engine."
+msgstr "安装 Pillow 和 resvg-py。使加载插件更快，并使 Forge Engine 可用。"
+
+msgid "Dependencies installed and active."
+msgstr "依赖项已安装并处于活动状态。"
+
+msgid "All dependencies are already installed and working."
+msgstr "所有依赖项已安装并正常运行。||| 删除损坏的依赖文件夹并重新安装。"
+
+msgid "Remove corrupt dependency folders and reinstall cleanly."
+msgstr "||| 修复依赖项 ||| 删除损坏的依赖文件夹并重新安装它们。"
+
+msgctxt "Operator"
+msgid "Repair Dependencies"
+msgstr "先关闭其他 Blender 窗口。 ||| 未找到损坏的依赖项——无需修复。"
+
+msgid "Delete broken dependency folders and reinstall them cleanly. Close other Blender windows first."
+msgstr "||| 依赖项已修复且激活。 ||| 已复制到剪贴板："
+
+msgid "No broken dependencies found — nothing to repair."
+msgstr "{text()} ||| 隐藏的操作符以切"
+
+msgid "Dependencies repaired and active."
+msgstr "换开发模式 ||| {core_confi"
+
+msgid "Copied to clipboard: {text()}"
+msgstr "g.Config.NAME}: 切换开发者"
+
+msgid "Hidden Operator to Toggle Dev Mode"
+msgstr "模式 ||| 开发者模式 {state}"
+
+msgctxt "Operator"
+msgid "{core_config.Config.NAME}: Toggle Developer Mode"
+msgstr ""
+
+msgid "Developer Mode {state}"
+msgstr ""
+
+msgid "Add the selected {core_config.Config.NAME} Material to the selected objects."
+msgstr "将选定的 {core_config."
+
+msgid "Imports Material asset from library into file"
+msgstr "Config.NAME} 材质添加到所选对象中。"
+
+msgid "Only material in use, cannot be removed."
+msgstr "|||从库中导入材质素材到文件中|||仅当材质正被使用时，"
+
+msgid "Material is used by object's geometry, cannot be removed."
+msgstr "无法将其移除。|||材质的几何体正在使用中，"
+
+msgid "Set Meta Data on the selected {core_config.Config.NAME} Item"
+msgstr "无法将其移除。|||在选定的 {co"
+
+msgid "GN Type"
+msgstr "re_config.Config.NAME} 项上设置元数据。"
+
+msgid "Use Displacement"
+msgstr "|||GN 类型|||使用置换|||"
+
+msgid "Require UVs"
+msgstr "需要 UV|||匹配材质|||可附加"
+
+msgid "Match Materials"
+msgstr "依赖"
+
+msgid "Appendable Dependencies"
+msgstr ""
+
+msgid "Always Append NodeGroup"
+msgstr "Always Append NodeGroup"
+
+msgid "Starter"
+msgstr "Starter"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "AO Strength"
+msgstr "AO Strength"
+
+msgid "Gain"
+msgstr "Gain"
+
+msgid "Transparent"
+msgstr "Transparent"
+
+msgid "Thumbnail Properties"
+msgstr "Thumbnail Properties"
+
+msgid "Found invalid meta data. Check console for details!"
+msgstr "Found invalid meta data. Check console for details!"
+
+msgid "All meta data is valid."
+msgstr "All meta data is valid."
+
+msgctxt "Operator"
+msgid "Remove Modifier"
+msgstr "Remove Modifier"
+
+msgid "Remove this modifier (Safety Check)"
+msgstr "移除此修改器 (安全检查)|||~|||"
+
+msgctxt "Operator"
+msgid "Add Group Node"
+msgstr "添加组节点|||~|||向当前活动节点树"
+
+msgid "Add group node to the active node tree"
+msgstr "添加组节点|||~|||添加智能模块|||~|||连接模块："
+
+msgctxt "Operator"
+msgid "Add Smart Module"
+msgstr "根据节点位置确定顺序|||~|||无法在"
+
+msgctxt "Operator"
+msgid "Connect Modules"
+msgstr "模块之间找到有效连接|||~|||安装|||~|||未识别扩展！"
+
+msgid "Connect Smart Module sockets. The order is determined through node locations"
+msgstr "文件不存在。'{str(expansio"
+
+msgid "No valid connections found between modules"
+msgstr "n_meta_file)}'|||~|||未识别扩展！"
+
+msgctxt "Operator"
+msgid "Install"
+msgstr "选择的路径不是文件。'{str(expa"
+
+msgid "Expansion not recognized! File does not exit. '{str(expansion_meta_file)}'"
+msgstr "nsion_meta_file)}'"
+
+msgid "Expansion not recognized! Selected path is not a file. '{str(expansion_meta_file)}'"
+msgstr ""
+
+msgid "Expansion already installed! '{str(expansion_folder)}'"
+msgstr "已安装扩展！'{str(expansion_folder)}'"
+
+msgid "BIP format info."
+msgstr "BIP 格式信息."
+
+msgid "PIL format info."
+msgstr "PIL 格式信息."
+
+msgid "Try a test image with Pillow."
+msgstr "尝试使用 Pillow 测试图片."
+
+msgid "Test which formats are supported by Pillow."
+msgstr "测试 Pillow 支持哪些格式."
+
+msgid "Get the names of unsupported formats."
+msgstr "获取不支持的格式的列表."
+
+msgid ""
+"Base class for an operator that installs Pillow.\n"
+"\n"
+"Usage:\n"
+"-   Inherit bpy.types.Operator and InstallPillow.\n"
+"-   Make sure to set bl_idname, it must be unique."
+msgstr ""
+"安装 Pillow 的操作符基类。\n"
+"\n"
+"用法：\n"
+"-   继承 bpy.types.Operator 和 InstallPillow。\n"
+"-   务必设置 bl_idname，它必须是唯一的."
+
+msgid "Install the Python Imaging Library"
+msgstr "安装 Python 图像处理库 Pillow"
+
+msgid "This could take a few minutes"
+msgstr "这可能需要几分钟时间"
+
+msgid "Successfully installed Pillow"
+msgstr "成功安装了 Pillow"
+
+msgid "Failed to install Pillow"
+msgstr "安装 Pillow 失败"
+
+msgid "Dictionary-like class of previews."
+msgstr "预看的字典类."
+
+msgid "Create collection and start internal timer."
+msgstr "创建集合并启动内部计时器."
+
+msgid "Return the amount of previews in the collection."
+msgstr "返回集合中的预览数量."
+
+msgid "Return an iterator for the names in the collection."
+msgstr "返回集合中名称的迭代器."
+
+msgid "Return whether preview name is in collection."
+msgstr "返回预览是否在集合中."
+
+msgid "Return preview with the given name."
+msgstr "返回指定名称的预览."
+
+msgid "Support deletion via del pcoll[key]."
+msgstr "支持通过 del pcoll[key] 进行删除."
+
+msgid "Remove preview with the given name and return it."
+msgstr "移除指定名称的预览并返回它."
+
+msgid "Return preview with the given name, or default."
+msgstr "返回指定名称的预览，否则返回默认值。"
+
+msgid "Return preview names."
+msgstr "返回预览名称.|||~|||"
+
+msgid "Return previews."
+msgstr "返回预览.|||~|||返回"
+
+msgid "Return pairs of name and preview."
+msgstr "名称和预览的配对.|||~|"
+
+msgid "Generate a new empty preview or return existing."
+msgstr "||生成一个新的空预览或返回"
+
+msgid "Generate a new empty preview."
+msgstr "已有的.|||~|||从给定"
+
+msgid "Generate a new preview from the given filepath or return existing."
+msgstr "的文件路径生成一个新的预览."
+
+msgid "Generate a new preview from the given filepath."
+msgstr "|||~|||使用 Blen"
+
+msgid "Load preview using Blender's standard method."
+msgstr "der 的标准方法加载预览."
+
+msgid "Load image contents from file and load preview."
+msgstr "|||~|||从文件中读取图"
+
+msgid "Clear all previews."
+msgstr "像内容并加载预览.|||~|||清除所有预览。"
+
+msgid "Close the collection and clear all previews."
+msgstr "关闭集合并清除所有预览。"
+
+msgid "Get the abort signal, make one if necesssary."
+msgstr "获取中止信号，如果必要则创建一个。"
+
+msgid "Set the abort signal, then remove the reference."
+msgstr "设置中止信号，然后删除引用。"
+
+msgid "Return a new preview collection."
+msgstr "返回一个新的预览集合。"
+
+msgid "Remove the specified preview collection."
+msgstr "删除指定的预览集合。"
+
+msgid "Surgically remove ALL active collections to prevent ResourceWarning."
+msgstr "彻底移除所有活动集合以防止资源警告。"
+
+msgid "Read image data in the background."
+msgstr "在后台读取图像数据。"
+
+msgid "Emplaces pixels into the preview object. Runs on the main thread."
+msgstr "将像素填充到预览对象中。在主线程上运行。"
+
+msgid "Load image asynchronously. Needs to be called on the main thread."
+msgstr "异步加载图像。必须在主线程上调用。"
+
+msgid "Import Pillow and test which formats are supported."
+msgstr "导入 Pillow 并测试支持哪些格式。"
+
+msgid "Check whether Pillow is installed."
+msgstr "检查 Pillow 是否已安装。"
+
+msgid "Install Pillow and import the Image module."
+msgstr "安装 Pillow 并导入 Image 模块。"
+
+msgid "PIL"
+msgstr "PIL"
+
+msgid "resvg_py"
+msgstr "resvg_py"
+
+msgid "Return whether an image can be loaded."
+msgstr "返回图像是否可以加载。"
+
+msgid "Load image preview data from file."
+msgstr "从文件加载图像预览数据。"
+
+msgid "Check whether width or height is greater than maximum."
+msgstr "检查宽度或高度是否大于最大值。"
+
+msgid "Resize image to fit inside maximum."
+msgstr "将图像调整为适合最大尺寸的大小。"
+
+msgid "Load image previews in parallel and in any resolution. Supports BIP files."
+msgstr "并行加载任何分辨率的图像预览。支持 BIP 文件。"
+
+msgid ""
+"HUD hover preview — large documentation images fetched from the internet.\n"
+"\n"
+"On hover over a HUD asset the addon builds the documentation image URL:\n"
+"\n"
+"    https://sanctusnodes.com/documentation/main/en/img/{type}/{category}/{name}.jpg\n"
+"    (falling back to .png)\n"
+"\n"
+"and downloads it in a daemon thread. Downloaded bytes are cached in memory and\n"
+"turned into a GPU texture on the MAIN thread by the HUD draw callback (GPU\n"
+"objects are main-thread only).\n"
+"\n"
+"The rule (user-defined, verified against the deployed docs):\n"
+"  - name      = thumbnail stem (e.g. ``anti_slip_01``) — the same name as the\n"
+"                BIP/JPG thumbnail of the hovered preset.\n"
+"  - type      = asset type folder (``material``, ``geometry_nodes``,\n"
+"                ``nodetree``, ``decal``) derived from the asset_path.\n"
+"  - category  = the library root: ``lib-sl`` (core SL), ``lib-viz`` (Viz), or\n"
+"                the expansion slug (``liquid-works``, ``wood-works``).\n"
+"\n"
+"No connection or missing image => nothing is shown (no bad UX). The 1024px\n"
+"previews are never shipped inside the addon zip."
+msgstr ""
+"HUD 悬停预览 —— 从互联网获取的大型文档图像。\n"
+"\n"
+"鼠标悬停在 HUD 资产上时，该插件构建文档图像的 URL：\n"
+"\n"
+"    https://sanctusnodes.com/documentation/main/en/img/{type}/{category}/{name}.jpg\n"
+"    (回退为 .png)\n"
+"\n"
+"并在后台线程中下载。下载的字节数据缓存在内存中，并通过 HUD 绘制回调（GPU 对象仅限主线程）将其转换为 GPU 纹理。\n"
+"\n"
+"规则（用户自定义，与已部署文档比对验证）：\n"
+"- name = 缩略图前缀（例如 `anti_slip_01`）——与悬停预设的 BIP/JPG 缩略图名称相同。\n"
+"- type = 资产类型文件夹（`material`、`geometry_nodes`、`nodetree`、`decal`），源自 asset_path。\n"
+"- category = 库根目录：`lib-sl`（核心 SL）、`lib-viz`（Viz）或扩展 slug（如 `liquid-works`、`wood-works`）。\n"
+"\n"
+"没有连接或找不到图像则不显示任何内容（避免不良用户体验）。1024px 预览不会打包在插件 zip 中。"
+
+msgid "liquid-works"
+msgstr "液体工坊"
+
+msgid "wood-works"
+msgstr "木材工坊"
+
+msgid "lib-viz"
+msgstr "lib-viz"
+
+msgid ""
+"Invalidate/reset the cached PIL check (call after deps install).\n"
+"\n"
+"Pass True/False to FORCE a known state, or None to reset to \"unknown\"\n"
+"(re-checked lazily on the next request — the recommended call after an\n"
+"install, so we re-test the actual import instead of trusting the caller)."
+msgstr ""
+"清除/重置缓存的 PIL 可用性检查（依赖安装后调用）。\n"
+"\n"
+"传 True/False 以强制指定已知状态，或 None 以重置为“未知”（下次请求时惰性重新检查——推荐在依赖安装后调用，这样会重新测试实际的导入，而不是相信调用者的声明）。"
+
+msgid ""
+"True if PIL can be imported. Checked once, then cached.\n"
+"\n"
+"Never polled: the value is fixed for the session unless\n"
+"set_pil_available() invalidates it (successful deps install) or the\n"
+"module reloads (Blender restart)."
+msgstr ""
+"True，如果 PIL 可以被导入。仅检查一次，然后缓存。\n"
+"\n"
+"不会轮询：该值在会话期间固定，除非 set_pil_available() 使其失效（成功的依赖安装）或模块重新加载（Blender 重启）。"
+
+msgid ""
+"Async downloader + caches for hover previews.\n"
+"\n"
+"Design notes (deterministic — no fragile flag juggling):\n"
+"\n"
+"  - ``request()`` starts a download for a NEW url and keeps the previous\n"
+"    texture visible while it loads (no blink when switching assets).\n"
+"  - ``poll_pending()`` (every draw frame) consumes two thread signals:\n"
+"      * ``_pending_status (url, ok)`` — HTTP headers received (diagnostic\n"
+"        only; the spinner no longer waits for it).\n"
+"      * ``_pending (url, data)`` — body finished; texture built or failed.\n"
+"  - ``is_active()`` is the ONLY gate the HUD modal uses to decide whether\n"
+"    to keep redrawing. It is True whenever anything is on screen or in\n"
+"    flight: texture visible, fade in/out running, spinner showing, or a\n"
+"    download in progress. This guarantees the draw callback keeps running\n"
+"    (and polling) for as long as the preview has something to do — no\n"
+"    dead spinner, no preview that never appears.\n"
+"  - The spinner shows IMMEDIATELY when a download starts — the user sees\n"
+"    instant feedback instead of an empty box while the image loads. If\n"
+"    the image turns out to be missing / no connection, the download\n"
+"    fails, the box disappears, and the URL joins ``failed`` (no retry)."
+msgstr ""
+"异步下载器 + 悬停预览缓存。\n"
+"\n"
+"设计说明（确定性——避免脆弱的标志拼接）：\n"
+"\n"
+"- ``request()`` 会为新的 URL 启动下载，并在纹理加载期间保留之前的纹理可见（切换资产时无闪烁）。\n"
+"- ``poll_pending()`` （每帧绘制时）消费两个线程信号：\n"
+"    * ``_pending_status (url, ok)`` — HTTP 头信息已接收（仅用于诊断；旋转动画不再等待它）。\n"
+"    * ``_pending (url, data)`` — 数据体完成；纹理构建成功或失败。\n"
+"- ``is_active()`` 是 HUD 模态框决定是否继续重绘的**唯一**门禁。只要屏幕上有任何内容或在途，它就返回 True：纹理可见、淡出/淡入运行中、旋转动画显示，或下载进行中。这保证了绘制回调会持续运行（并轮询），只要预览还有事可做——不会留下僵死的加载指示器，不会出现永远不显示的预览。\n"
+"- 当下载开始时，旋转动画**立即**显示——用户能看到即时反馈，而不是在图片加载中看到空框。如果图片缺失/无法连接，下载失败，框消失，URL 加入 ``failed``（不会重试）。"
+
+msgid ""
+"Ask for the preview of ``url``. Idempotent — safe to call per frame.\n"
+"\n"
+"If PIL is not installed the preview is completely disabled: no box,\n"
+"no spinner, no download. PIL availability is cached once per session\n"
+"and invalidated by EVENT (successful deps install -> set_pil_available,\n"
+"or Blender restart -> fresh module). If PIL is removed mid-session,\n"
+"the texture build fails and self-heals: it invalidates the cache, so\n"
+"the next hover re-tests and disables the preview instead of showing\n"
+"a dead spinner."
+msgstr ""
+"请求 ``url`` 的预览。幂等——每帧调用都安全。\n"
+"\n"
+"如果 PIL 未安装，预览完全禁用：无框、无旋转动画、无下载。PIL 可用性在每次会话中缓存一次，并通过事件使其失效（成功的依赖安装 -> set_pil_available，或 Blender 重启 -> 模块全新加载）。如果在会话期间 PIL 被移除，纹理构建失败并自我修复：它使缓存失效，因此下次悬停会重新测试并禁用预览，而不是显示僵死的旋转动画。"
+
+msgid "No hover: start the fade-out of the current preview."
+msgstr "无悬停：启动当前预览的淡出效果。"
+
+msgid "Drop any in-progress fade (hover resumed)."
+msgstr "中断任何已开始的淡入过程（悬停恢复）。"
+
+msgid ""
+"Current draw alpha for the preview.\n"
+"\n"
+"While fading out: 1 → 0 over _FADE_OUT_TIME.\n"
+"Otherwise (fade-in): 0 → 1 over _FADE_IN_TIME after the texture\n"
+"appeared. Returns a value in [0, 1]."
+msgstr ""
+"当前用于预览的绘制透明度。\n"
+"\n"
+"淡出时：从 1 → 0，历时 _FADE_OUT_TIME。\n"
+"否则（淡入）：纹理出现后从 0 → 1，历时 _FADE_IN_TIME。返回 [0, 1] 范围内的值。"
+
+msgid "True while the preview is still fading IN (needs redraws)."
+msgstr "True while the preview is still fading IN (needs redraws).|||~|||True while the current asset's image is being fetched.|||~|||True when the spinner should render.|||"
+
+msgid "True while the current asset's image is being fetched."
+msgstr "~|||Shows IMMEDIATELY when a download starts (no waiting for HTTP headers — headers can take seconds on a slow connection, and by then the body is almost done, so th"
+
+msgid ""
+"True when the spinner should render.\n"
+"\n"
+"Shows IMMEDIATELY when a download starts (no waiting for HTTP\n"
+"headers — headers can take seconds on a slow connection, and by then\n"
+"the body is almost done, so the spinner would never be seen). Hidden\n"
+"the moment the image arrives. If the image is missing / there is no\n"
+"connection, the download fails, the box disappears, and the URL is\n"
+"marked failed (no retry this session)."
+msgstr "e spinner would never be seen). Hidden the moment the image arrives. If the image is missing / there is no connection, the download fails, the box disappears, and th"
+
+msgid ""
+"True whenever the preview needs the HUD to keep redrawing.\n"
+"\n"
+"This is the single gate the modal uses. Covers: texture on screen,\n"
+"fade in/out in progress, spinner showing, any download in flight (so\n"
+"the draw callback keeps polling until the image arrives or fails),\n"
+"and un-consumed thread signals (guarantees at least one more redraw\n"
+"to pick up a finished download — otherwise a completed request with\n"
+"no texture yet would freeze the box forever)."
+msgstr "e URL is marked failed (no retry this session).|||~|||True whenever the preview needs the HUD to keep redrawing.|||~|||This is the single gate the modal uses. Covers"
+
+msgid ""
+"Main thread: consume thread signals and build textures.\n"
+"\n"
+"Returns True when state changed (caller should tag redraw)."
+msgstr ": texture on screen, fade in/out in progress, spinner showing, any download in flight (so the draw callback keeps polling until the image arrives or fails), and un-c"
+
+msgid "Free all GPU textures (addon unload / GPU context reset)."
+msgstr "onsumed thread signals (guarantees at least one more redraw to pick up a finished download — otherwise a completed request with no texture yet would freeze the box f"
+
+msgid "Try .jpg first, fall back to .png (docs may ship either)."
+msgstr "orever).|||~|||Main thread: consume thread signals and build textures.|||~|||Returns True when state changed (caller should tag redraw).|||~|||Free all GPU textures"
+
+msgid "Build the docs preview URL for an asset instance, or None if unknown."
+msgstr "(addon unload / GPU context reset).|||~|||Try .jpg first, fall back to .png (docs may ship either).|||~|||Build the docs preview URL for an asset instance, or None i"
+
+msgid ""
+"Decode JPEG/PNG bytes into a GPU texture (main thread only).\n"
+"\n"
+"MUST be called OUTSIDE a draw handler (e.g. from a modal timer) —\n"
+"creating bpy.data images / GPU textures inside a draw callback breaks\n"
+"on macOS Metal and fails silently."
+msgstr "f unknown.|||~|||Decode JPEG/PNG bytes into a GPU texture (main thread only).|||~|||MUST be called OUTSIDE a draw handler (e.g. from a modal timer) — creating bpy.da"
+
+msgid "HUD is a per-product feature flag. Only enabled for products that opt in."
+msgstr "ta images / GPU textures inside a draw callback breaks on macOS Metal and fails silently.|||~|||HUD is a per-product feature flag. Only enabled for products that opt in."
+
+msgid "Draws a solid rectangle. (Double-linearization bug removed)"
+msgstr ""
+"绘制一个实心矩形。（已修复双线化错误）|||~|||使用多边形近似绘制圆角矩形。\n"
+"（已修复双线化错误）|||~|||平滑旋转弧形指示器（立即模式）。"
+
+msgid "Draws a rounded rectangle using polygon approximation. (Double-linearization bug removed)"
+msgstr ""
+"绘制一个新月形的环形段子（约 100° 扫角，带间隙），\n"
+"持续旋转——比离散的八点指示器平滑得多。\n"
+"``t``是时间值（秒）；"
+
+msgid ""
+"Smooth rotating arc spinner (immediate mode).\n"
+"\n"
+"Draws a crescent-shaped ring segment (~100° sweep with a gap) that\n"
+"rotates CONTINUOUSLY — much smoother than a discrete 8-dot spinner.\n"
+"``t`` is a time value (seconds); one full turn per ~1.2s feels calm.\n"
+"``thickness`` is the ring width."
+msgstr ""
+"每约 1.2 秒一转感觉很平静。\n"
+"``thickness``是环的宽度。\n"
+"\n"
+"最终通用架构。适用于所有版本和后端的原生硬件直通。"
+
+msgid "Definitive Universal Architecture. Pure Hardware Passthrough for ALL versions and backends."
+msgstr "|||~|||void main() { gl_Position = ModelViewProjectionMatrix"
+
+msgid "void main() { gl_Position = ModelViewProjectionMatrix * vec4(pos, 0.0, 1.0); uv = texCoord; }"
+msgstr "* vec4(pos, 0.0, 1.0); uv = texCoord; }|||~|||void main() {"
+
+msgid "void main() { fragColor = texture(image, uv) * color; }"
+msgstr "fragColor = texture(image, uv) * color; }|||~|||在给定范围内绘制纹理并保留其宽高比。"
+
+msgid "Draws a texture while preserving its aspect ratio within the given bounds."
+msgstr ""
+"标准：模态操作器的浮动帮助栏。\n"
+"与 Fav Deployer HUD 兼容。|||~|||统一防漏图标加载器。\n"
+"\n"
+"支"
+
+msgid ""
+"Standard: Floating Help Bar for modal operators.\n"
+"Compatible with Fav Deployer HUD."
+msgstr ""
+"持普通图片（通过 bpy.data.images.load 加载 JPG/PNG）和 BIP\n"
+"缩略图（通过 t3dn_b"
+
+msgid ""
+"Unified leak-proof icon loader.\n"
+"\n"
+"Supports both regular images (JPG/PNG via bpy.data.images.load) and BIP\n"
+"thumbnails (decoded via t3dn_bip.utils.load_file, since bpy.data.images\n"
+"cannot decode BIP). Returns a GPU texture or None on failure."
+msgstr "ip.utils.load_file 解码，因为 bpy.data.images 无法解码 BIP）。返回 GPU 纹理或失败时的 None。"
+
+msgid "HUD_TMP_{img.name}"
+msgstr "HUD_TMP_{img.name}"
+
+msgid "Drop all cached BIP pixel bytes (e.g. on addon unload)."
+msgstr "清除所有缓存的 BIP 像素数据（例如在插件卸载时）。"
+
+msgid ""
+"Decode a BIP thumbnail and build a GPU texture from its pixels.\n"
+"\n"
+"bpy.data.images.load() cannot decode BIP, so we reuse t3dn_bip's decoder\n"
+"(which returns raw RGBA pixel data) and feed it into a temporary Image.\n"
+"Decoded bytes are cached so switching categories back and forth doesn't\n"
+"re-decompress the BIP files."
+msgstr "解码一个 BIP 缩略图并基于其像素构建 GPU 纹理。bpy.data.images.load() 无法解码 BIP，因此我们复用 t3dn_bip 的解码器（它返回原始 RGBA 像素数据），并将其输入到一个临时图像中。解码后的字节会被缓存，这样在类别之间来回切换时不会重新解压 BIP 文件。"
+
+msgctxt "Operator"
+msgid "Source"
+msgstr "来源"
+
+msgctxt "Operator"
+msgid "Gen Doc"
+msgstr "生成文档"
+
+msgctxt "Operator"
+msgid "Auto URL"
+msgstr "自动 URL"
+
+msgid "No Assets"
+msgstr "无资产"
+
+msgid "Modifier Extras"
+msgstr "修改器附加参数"
+
+msgid "use_pin_to_last"
+msgstr "use_pin_to_last"
+
+msgid "Test"
+msgstr "测试"
+
+msgid "description of test"
+msgstr "测试描述"
+
+msgid "Properties Expanded"
+msgstr ""
+
+msgid "Material Slots Expanded"
+msgstr ""
+
+msgid "Active Material Properties Expanded"
+msgstr ""
+
+msgid "Geometry Nodes Expanded"
+msgstr ""
+
+msgid "Decals Expanded"
+msgstr ""
+
+msgid ""
+"UI Section for DECALS.\n"
+"Decals are technically Geometry Node assets, so they share drawing logic\n"
+"but have unique operators for placement and manipulation."
+msgstr ""
+
+msgid "Decals"
+msgstr ""
+
+msgid "Override main draw_ui to hijack the panel for Forge Mode."
+msgstr ""
+
+msgid "EXIT FORGE MODE"
+msgstr ""
+
+msgid "FORGE MODE"
+msgstr ""
+
+msgid "Forge Engine Required"
+msgstr ""
+
+msgid "To forge custom decals, a small background"
+msgstr ""
+
+msgid "rendering module needs to be installed once."
+msgstr ""
+
+msgid "Open Preferences to Install"
+msgstr ""
+
+msgctxt "Operator"
+msgid "Apply Decal"
+msgstr ""
+
+msgid "FORGING..."
+msgstr ""
+
+msgid "FORGE DECAL"
+msgstr ""
+
+msgid "Basic Options"
+msgstr ""
+
+msgid "Overrides"
+msgstr ""
+
+msgid "Override Text"
+msgstr ""
+
+msgid "Override Icon"
+msgstr ""
+
+msgid "Override Font"
+msgstr ""
+
+msgid "Override Colors"
+msgstr ""
+
+msgid "Border Options"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Advanced Tuning"
+msgstr ""
+
+msgid "Icon Transforms:"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Text Transforms:"
+msgstr ""
+
+msgid "Content Probabilities:"
+msgstr ""
+
+msgid "Number Icons"
+msgstr ""
+
+msgid "Monochrome Palette"
+msgstr ""
+
+msgid "Library Export"
+msgstr ""
+
+msgid "No Local Folders found."
+msgstr ""
+
+msgid "Draws specific Decal operators (Bypassed in Forge Mode)."
+msgstr ""
+
+msgid ""
+"Draws the inputs of the active Decal.\n"
+"It uses a helper method from the 'decals' module to identify if the object is a valid decal."
+msgstr ""
+
+msgid "Bridge to the GN section drawing logic."
+msgstr ""
+
+msgid "Dependencies:"
+msgstr ""
+
+msgid "name"
+msgstr ""
+
+msgid "Sanctus Custom Parameter"
+msgstr ""
+
+msgid "Pequeño helper para llamar a la función modularizada de node_utils"
+msgstr ""
+
+msgid "Modifier has no input parameters."
+msgstr ""
+
+msgid "Materials"
+msgstr ""
+
+msgid "displacement_method"
+msgstr ""
+
+msgid "Material Slots"
+msgstr ""
+
+msgid "Active Material Properties"
+msgstr ""
+
+msgid "UI Section for SHADER TOOLS (Node Groups for Shader Editor)."
+msgstr ""
+
+msgid ""
+"UI Section for GN TOOLS.\n"
+"Note: These are tools to be added inside a Node Tree, distinct from 'GN Assets'."
+msgstr ""
+
+msgid "UI Section for COMPOSITOR TOOLS."
+msgstr ""
+
+msgid "UI Section for SMART MODULES (Material Editor)."
+msgstr ""

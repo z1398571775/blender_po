@@ -1,0 +1,3556 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-10-26 15:21+0800\n"
+"PO-Revision-Date: 2026-10-26 15:21+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Cursor Bookmarks"
+msgstr "光标书签"
+
+msgid "Snapping Combos"
+msgstr "吸附组合"
+
+msgctxt "Operator"
+msgid "Export Combos"
+msgstr "导出组合"
+
+msgid "Export Combos"
+msgstr "导出组合"
+
+msgctxt "Operator"
+msgid "Import Combos"
+msgstr "导入组合"
+
+msgid "Import Combos"
+msgstr "导入组合"
+
+msgctxt "Operator"
+msgid "Export OPCs"
+msgstr "导出OPC"
+
+msgid "Export OPCs"
+msgstr "导出OPC"
+
+msgctxt "Operator"
+msgid "Import OPCs"
+msgstr "导入OPC"
+
+msgid "Import OPCs"
+msgstr "导入OPC"
+
+msgid "Name:"
+msgstr "名称："
+
+msgid "Modifier Presets"
+msgstr "修改器预设"
+
+msgid "View Bookmarks"
+msgstr "查看书签"
+
+msgctxt "Operator"
+msgid "Cycle View Bookmarks"
+msgstr "循环视图书签"
+
+msgid "Cycle View Bookmarks"
+msgstr "循环视图书签"
+
+msgid "Clean-Up Tools"
+msgstr "清理工具"
+
+msgid "Macro Mesh Clean"
+msgstr "宏网格清理"
+
+msgid "Selection Tools"
+msgstr "选择工具"
+
+msgid "Select Elements by Vert Count:"
+msgstr "按顶点数量选择元素："
+
+msgid "Context Tools"
+msgstr "上下文工具"
+
+msgctxt "Operator"
+msgid "Local By Dist."
+msgstr "本地按距离。"
+
+msgid "Local By Dist."
+msgstr "按距离分"
+
+msgctxt "Operator"
+msgid "Unr.Dupe"
+msgstr "无损复制"
+
+msgid "Unr.Dupe"
+msgstr "无损复制"
+
+msgctxt "Operator"
+msgid "Ground or Center"
+msgstr "地面或中心"
+
+msgid "Ground or Center"
+msgstr "地面或中心"
+
+msgctxt "Operator"
+msgid "Merge to Mouse"
+msgstr "合并到鼠标"
+
+msgid "Merge to Mouse"
+msgstr "合并至鼠标"
+
+msgctxt "Operator"
+msgid "Merge Near Selected"
+msgstr "合并选中附近"
+
+msgid "Merge Near Selected"
+msgstr "合并最近选择的"
+
+msgctxt "Operator"
+msgid "ZeroScale Auto"
+msgstr "零缩放自动"
+
+msgid "ZeroScale Auto"
+msgstr "零缩放自动"
+
+msgctxt "Operator"
+msgid "Radial Array"
+msgstr "径向数组"
+
+msgid "Radial Array"
+msgstr "径向阵列"
+
+msgctxt "Operator"
+msgid "Radial Array Cursor"
+msgstr "径向数组光标"
+
+msgid "Radial Array Cursor"
+msgstr "径向数组光标"
+
+msgctxt "Operator"
+msgid "Solo PreC"
+msgstr "单人预渲染"
+
+msgid "Solo PreC"
+msgstr "单人预渲染"
+
+msgctxt "Operator"
+msgid "Flat/Smooth Toggle"
+msgstr "平/光滑切换"
+
+msgid "Flat/Smooth Toggle"
+msgstr "平面/平滑切换"
+
+msgctxt "Operator"
+msgid "Toggle Bevel Weight"
+msgstr "切换倒角权重"
+
+msgid "Toggle Bevel Weight"
+msgstr "切换倒角厚度"
+
+msgctxt "Operator"
+msgid "Toggle Crease Weight"
+msgstr "切换crease权重"
+
+msgid "Toggle Crease Weight"
+msgstr "切换折面权重"
+
+msgid "SubD Tools"
+msgstr "细分表面工具"
+
+msgctxt "Operator"
+msgid "Step VP Lv -1"
+msgstr ""
+
+msgid "Step VP Lv -1"
+msgstr ""
+
+msgctxt "Operator"
+msgid "Set VP Lv"
+msgstr ""
+
+msgid "Set VP Lv"
+msgstr ""
+
+msgctxt "Operator"
+msgid "Set Render Lv"
+msgstr "设置渲染级别"
+
+msgid "Set Render Lv"
+msgstr "设置渲染级别"
+
+msgctxt "Operator"
+msgid "SubD Toggle"
+msgstr "子细分开关"
+
+msgid "SubD Toggle"
+msgstr "细分切换"
+
+msgid "Pie Menus"
+msgstr "饼状菜单"
+
+msgctxt "Operator"
+msgid "Modifier Presets"
+msgstr "修饰器预设"
+
+msgid "Modifier Presets N/A"
+msgstr "修改器预设 未指定"
+
+msgid "keSnapping N/A"
+msgstr ""
+
+msgid "keStepRotate N/A"
+msgstr "keStepRotate 不适用"
+
+msgid "keFit2Grid N/A"
+msgstr "keFit2Grid N/A"
+
+msgid "keOrientPivot N/A"
+msgstr ""
+
+msgid "keSnapAlign N/A"
+msgstr "keSnapAlign 未指定"
+
+msgid "keFitPrim N/A"
+msgstr "keFitPrim 无用"
+
+msgid "Modifiers N/A"
+msgstr "修改器 N/A"
+
+msgid "keMaterials N/A"
+msgstr "keMaterials 不适用"
+
+msgid "keMultiCut N/A"
+msgstr "keMultiCut 不适用"
+
+msgctxt "Operator"
+msgid "Bool Tool"
+msgstr "布尔工具"
+
+msgid "Bool Tool"
+msgstr "布尔工具"
+
+msgid "List cutters that are used by specified canvases"
+msgstr "列出由指定画布使用的切割工具"
+
+msgctxt "Operator"
+msgid "Nice Project"
+msgstr "不错的项目"
+
+msgid "Nice Project"
+msgstr "不错项目"
+
+msgid "BoolTool Add-on not activated"
+msgstr "布尔工具扩展未激活"
+
+msgid "Cutter/Brush Object"
+msgstr "裁切器/画笔对象"
+
+msgid "Boolean Adjustment"
+msgstr "布尔调整"
+
+msgid "N/A - Select Brush or Canvas"
+msgstr "未指定 - 选择画笔或画布"
+
+msgctxt "Operator"
+msgid "1 µm"
+msgstr "1 微米"
+
+msgid "1 µm"
+msgstr "1微米"
+
+msgctxt "Operator"
+msgid "2.5 µm"
+msgstr "2.5 微米"
+
+msgid "2.5 µm"
+msgstr "2.5 微米"
+
+msgctxt "Operator"
+msgid "5 µm"
+msgstr "5 微米"
+
+msgid "5 µm"
+msgstr "5 微米"
+
+msgctxt "Operator"
+msgid "1 mm"
+msgstr "1 毫米"
+
+msgid "1 mm"
+msgstr "1毫米"
+
+msgctxt "Operator"
+msgid "1.5 mm"
+msgstr "1.5毫米"
+
+msgid "1.5 mm"
+msgstr "1.5毫米"
+
+msgctxt "Operator"
+msgid "2 mm"
+msgstr "2 毫米"
+
+msgid "2 mm"
+msgstr "2毫米"
+
+msgctxt "Operator"
+msgid "2.5 mm"
+msgstr "2.5 mm"
+
+msgid "2.5 mm"
+msgstr "2.5 毫米"
+
+msgctxt "Operator"
+msgid "5 mm"
+msgstr "5 毫米"
+
+msgid "5 mm"
+msgstr "5 毫米"
+
+msgctxt "Operator"
+msgid "1 cm"
+msgstr "1 厘米"
+
+msgid "1 cm"
+msgstr "1 厘米"
+
+msgctxt "Operator"
+msgid "2.5 cm"
+msgstr "2.5 厘米"
+
+msgid "2.5 cm"
+msgstr "2.5 cm"
+
+msgctxt "Operator"
+msgid "5 cm"
+msgstr "5 厘米"
+
+msgid "5 cm"
+msgstr "5厘米"
+
+msgctxt "Operator"
+msgid "10 cm"
+msgstr "10厘米"
+
+msgid "10 cm"
+msgstr "10 厘米"
+
+msgctxt "Operator"
+msgid "15 cm"
+msgstr "15 厘米"
+
+msgid "15 cm"
+msgstr "15厘米"
+
+msgctxt "Operator"
+msgid "25 cm"
+msgstr "25 厘米"
+
+msgid "25 cm"
+msgstr "25厘米"
+
+msgctxt "Operator"
+msgid "50 cm"
+msgstr "50厘米"
+
+msgid "50 cm"
+msgstr "50 厘米"
+
+msgctxt "Operator"
+msgid "1 m"
+msgstr "1米"
+
+msgid "1 m"
+msgstr "1 米"
+
+msgid "ke.fit_prim"
+msgstr "ke.fit_prim"
+
+msgctxt "Operator"
+msgid "Cylinder Obj"
+msgstr "圆柱体对象"
+
+msgid "Cylinder Obj"
+msgstr "圆柱体"
+
+msgctxt "Operator"
+msgid "Cube Obj"
+msgstr "立方体对象"
+
+msgid "Cube Obj"
+msgstr "立方体对象"
+
+msgctxt "Operator"
+msgid "Sphere Obj"
+msgstr "球体对象文件"
+
+msgid "Sphere Obj"
+msgstr "球体对象"
+
+msgctxt "Operator"
+msgid "QuadSphere Obj"
+msgstr "四边形球体对象"
+
+msgid "QuadSphere Obj"
+msgstr "四边形球体对象"
+
+msgctxt "Operator"
+msgid "Empty Obj"
+msgstr "空对象"
+
+msgid "Empty Obj"
+msgstr "空对象"
+
+msgctxt "Operator"
+msgid "Plane Obj"
+msgstr "平面对象"
+
+msgid "Plane Obj"
+msgstr "平面对象"
+
+msgid "Assign ID Material"
+msgstr "分配材质ID"
+
+msgctxt "Operator"
+msgid "Copy Active to Others"
+msgstr "复制当前到其他"
+
+msgid "Copy Active to Others"
+msgstr "复制当前对象"
+
+msgctxt "Operator"
+msgid "Replace Material"
+msgstr "替换材质"
+
+msgid "Replace Material"
+msgstr "更换材质"
+
+msgctxt "Operator"
+msgid "Set Fake User"
+msgstr "设置假用户"
+
+msgid "Set Fake User"
+msgstr "设置假用户"
+
+msgctxt "Operator"
+msgid "Change Material Link"
+msgstr "更改材质链接"
+
+msgid "Change Material Link"
+msgstr "更改材质链接"
+
+msgid "Material Utils Add-on Not Enabled"
+msgstr "材质工具包扩展未启用"
+
+msgid "ke.misc"
+msgstr "ke.misc"
+
+msgctxt "Operator"
+msgid "Space Evenly"
+msgstr "均匀分布"
+
+msgid "Space Evenly"
+msgstr "空间均匀分布"
+
+msgctxt "Operator"
+msgid "Shrink/Fatten"
+msgstr "缩小/变薄"
+
+msgid "Shrink/Fatten"
+msgstr ""
+
+msgctxt "Operator"
+msgid "զսick pipe"
+msgstr "快速流水线"
+
+msgid "զսick pipe"
+msgstr "快速流水线"
+
+msgctxt "Operator"
+msgid "RND Transforms"
+msgstr "RND变换"
+
+msgid "RND Transforms"
+msgstr "RND变换"
+
+msgid "keKit Bookmarks N/A"
+msgstr "keKit 书签 N/A"
+
+msgid "N/A-Exp.Only"
+msgstr "不适用-实验仅"
+
+msgid "EditMesh Tools N/A"
+msgstr "编辑网格工具 未指定"
+
+msgctxt "Operator"
+msgid "Offset Edges"
+msgstr "偏移边"
+
+msgid "Offset Edges"
+msgstr "偏移边缘"
+
+msgctxt "Operator"
+msgid "Vertex Chamfer"
+msgstr "顶点倒角"
+
+msgid "Vertex Chamfer"
+msgstr "顶点倒角"
+
+msgctxt "Operator"
+msgid "Fillet Edges"
+msgstr "倒圆角边缘"
+
+msgid "Fillet Edges"
+msgstr "倒圆角边缘"
+
+msgctxt "Operator"
+msgid "Face Inset Fillet"
+msgstr "面部内嵌圆角"
+
+msgid "Face Inset Fillet"
+msgstr "面内圆角"
+
+msgctxt "Operator"
+msgid "Multi Extrude"
+msgstr "多挤出"
+
+msgid "Multi Extrude"
+msgstr "多挤出"
+
+msgctxt "Operator"
+msgid "Split Solidify"
+msgstr "拆分固化"
+
+msgid "Split Solidify"
+msgstr "分割固化器"
+
+msgctxt "Operator"
+msgid "Random Vertices"
+msgstr "随机顶点"
+
+msgid "Random Vertices"
+msgstr "随机顶点"
+
+msgctxt "Operator"
+msgid "Set Edge Length"
+msgstr "设置边长"
+
+msgid "Set Edge Length"
+msgstr "设置边长"
+
+msgctxt "Operator"
+msgid "Edges Floor Plan"
+msgstr "边缘平面图"
+
+msgid "Edges Floor Plan"
+msgstr "边 平面图"
+
+msgctxt "Operator"
+msgid "Edge Roundify"
+msgstr "边圆角化"
+
+msgid "Edge Roundify"
+msgstr "边缘圆润化"
+
+msgctxt "Operator"
+msgid "Relationship Lines"
+msgstr "关系线"
+
+msgid "Relationship Lines"
+msgstr "关联线"
+
+msgctxt "Operator"
+msgid "Object Wireframes"
+msgstr "对象线框"
+
+msgid "Object Wireframes"
+msgstr "对象线框"
+
+msgctxt "Operator"
+msgid "Select Outline"
+msgstr "选择轮廓"
+
+msgid "Select Outline"
+msgstr "选择轮廓"
+
+msgctxt "Operator"
+msgid "Object Outline"
+msgstr "对象轮廓"
+
+msgid "Object Outline"
+msgstr "对象轮廓"
+
+msgctxt "Operator"
+msgid "Edge Seams"
+msgstr "边缘接缝"
+
+msgid "Edge Seams"
+msgstr "边缘接缝"
+
+msgctxt "Operator"
+msgid "Edge Sharp"
+msgstr "边缘锐化"
+
+msgid "Edge Sharp"
+msgstr "边缘锐利"
+
+msgctxt "Operator"
+msgid "Edge Crease"
+msgstr "边缘折痕"
+
+msgid "Edge Crease"
+msgstr "边缘折断"
+
+msgctxt "Operator"
+msgid "Edge Bevel Weight"
+msgstr "边倒角权重"
+
+msgid "Edge Bevel Weight"
+msgstr "边缘倒角权重"
+
+msgctxt "Operator"
+msgid "All Edge Overlays"
+msgstr "所有边缘覆盖"
+
+msgid "All Edge Overlays"
+msgstr "所有边缘覆盖"
+
+msgctxt "Operator"
+msgid "Vertex Normals"
+msgstr "顶点法线"
+
+msgid "Vertex Normals"
+msgstr "顶点法线"
+
+msgctxt "Operator"
+msgid "Split Normals"
+msgstr "分割法线"
+
+msgid "Split Normals"
+msgstr "分割法线"
+
+msgctxt "Operator"
+msgid "Face Normals"
+msgstr "面法向量"
+
+msgid "Face Normals"
+msgstr "面法线"
+
+msgctxt "Operator"
+msgid "Vertex Weights"
+msgstr "顶点权重"
+
+msgid "Vertex Weights"
+msgstr "顶点权重"
+
+msgid "Grid Scale:"
+msgstr "网格缩放："
+
+msgid "Show Active Object:"
+msgstr "显示当前对象"
+
+msgid "Texture Space"
+msgstr "纹理空间"
+
+msgid "In Front"
+msgstr "前方"
+
+msgid "No Active Object"
+msgstr "无当前活跃对象"
+
+msgctxt "Operator"
+msgid "All Overlays"
+msgstr "全部叠加层"
+
+msgid "All Overlays"
+msgstr "全部覆盖层"
+
+msgctxt "Operator"
+msgid "Edge Lengths"
+msgstr "边缘长度"
+
+msgid "Edge Lengths"
+msgstr "边缘长度"
+
+msgid "BG sync N/A"
+msgstr "背景同步 未适用"
+
+msgid "Disable Studio Light Edit"
+msgstr "禁用工作室灯光编辑"
+
+msgid "World Space Lighting"
+msgstr "世界空间光照"
+
+msgid "Rot Disabled"
+msgstr "旋转禁用"
+
+msgctxt "Operator"
+msgid "H ZeroScale"
+msgstr "H 零缩放"
+
+msgid "H ZeroScale"
+msgstr "H 零缩放"
+
+msgctxt "Operator"
+msgid "Cursor ZeroScale"
+msgstr "光标零缩放"
+
+msgid "Cursor ZeroScale"
+msgstr "鼠标零缩放"
+
+msgctxt "Operator"
+msgid "V ZeroScale"
+msgstr "V 零缩放"
+
+msgid "V ZeroScale"
+msgstr "V 零缩放"
+
+msgctxt "Operator"
+msgid "Տelection to Grid"
+msgstr "选定网格"
+
+msgid "Տelection to Grid"
+msgstr "选择到网格"
+
+msgctxt "Operator"
+msgid "Տelection to Cursor"
+msgstr "选择光标"
+
+msgid "Տelection to Cursor"
+msgstr "选择光标"
+
+msgctxt "Operator"
+msgid "Տel.to Cursor Offset"
+msgstr "光标偏移"
+
+msgid "Տel.to Cursor Offset"
+msgstr "光标偏移"
+
+msgctxt "Operator"
+msgid "Տelection to Аctive"
+msgstr "选择区转为活动项"
+
+msgid "Տelection to Аctive"
+msgstr "选择区转为活动项"
+
+msgctxt "Operator"
+msgid "Normal ZeroScale"
+msgstr "正常零缩放"
+
+msgid "Normal ZeroScale"
+msgstr "正常零缩放"
+
+msgctxt "Operator"
+msgid "Cursor to World Origin"
+msgstr "光标到世界原点"
+
+msgid "Cursor to World Origin"
+msgstr "光标到世界原点"
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "光标到选中对象"
+
+msgid "Cursor to Selected"
+msgstr "光标到选中对象"
+
+msgctxt "Operator"
+msgid "Cursor to Active"
+msgstr "光标至活跃视图"
+
+msgid "Cursor to Active"
+msgstr "光标至活跃视图"
+
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "鼠标到网格"
+
+msgid "Cursor to Grid"
+msgstr "鼠标到网格"
+
+msgctxt "Operator"
+msgid "Align Origin To Selected"
+msgstr "将原点对齐到选中对象"
+
+msgid "Align Origin To Selected"
+msgstr "将原点对齐至选定的"
+
+msgctxt "Operator"
+msgid "Origin To Selection Loc"
+msgstr "原点 到 选择 位置"
+
+msgid "Origin To Selection Loc"
+msgstr "原点 到 选择 位置"
+
+msgctxt "Operator"
+msgid "Swap Places"
+msgstr "交换位置"
+
+msgid "Swap Places"
+msgstr "位置互换"
+
+msgid "Align Rotation"
+msgstr "对齐旋转"
+
+msgid "Backface Culling"
+msgstr "背面剔除"
+
+msgid "Peel Object"
+msgstr "剥离物体"
+
+msgctxt "Operator"
+msgid "X Clear"
+msgstr "X Clear"
+
+msgid "X Clear"
+msgstr "X Clear"
+
+msgctxt "Operator"
+msgid "Y Clear"
+msgstr "Y Clear"
+
+msgid "Y Clear"
+msgstr "Y Clear"
+
+msgctxt "Operator"
+msgid "Z Clear"
+msgstr "Z Clear"
+
+msgid "Z Clear"
+msgstr "Z Clear"
+
+msgctxt "Operator"
+msgid "Straighten Object"
+msgstr "直立物体"
+
+msgid "Straighten Object"
+msgstr "直线化对象"
+
+msgid "Scale Applied"
+msgstr "缩放已应用"
+
+msgid "Scale Not Applied"
+msgstr "缩放未应用"
+
+msgctxt "Operator"
+msgid "-45"
+msgstr "-45"
+
+msgid "-45"
+msgstr "-45"
+
+msgctxt "Operator"
+msgid "Crease Tool"
+msgstr "折边工具"
+
+msgid "Crease Tool"
+msgstr "褶皱工具"
+
+msgctxt "Operator"
+msgid "Տet Crease 1"
+msgstr "切口1"
+
+msgid "Տet Crease 1"
+msgstr "切口1"
+
+msgctxt "Operator"
+msgid "Տet Crease -1"
+msgstr "切口-1"
+
+msgid "Տet Crease -1"
+msgstr "切口-1"
+
+msgctxt "Operator"
+msgid "Τoggle Crease"
+msgstr "Toggle Crease"
+
+msgid "Τoggle Crease"
+msgstr "切换分形线"
+
+msgctxt "Operator"
+msgid "Bevel Weight Tool"
+msgstr "倒角权重工具"
+
+msgid "Bevel Weight Tool"
+msgstr "倒角权重工具"
+
+msgctxt "Operator"
+msgid "Տet Bevel Weight 1"
+msgstr "倒角厚度 1"
+
+msgid "Տet Bevel Weight 1"
+msgstr "切角厚度 1"
+
+msgctxt "Operator"
+msgid "Տet Bevel Weight -1"
+msgstr "倒角厚度 -1"
+
+msgid "Տet Bevel Weight -1"
+msgstr "倒角厚度 -1"
+
+msgctxt "Operator"
+msgid "Toggle Weight"
+msgstr "切换权重"
+
+msgid "Toggle Weight"
+msgstr "切换权重"
+
+msgid "Subd Toggle N/A"
+msgstr "细分曲面切换 N/A"
+
+msgid "Mirror XYZ"
+msgstr "镜像XYZ"
+
+msgid "Bisect XYZ"
+msgstr "XYZ二分法"
+
+msgid "Flip XYZ"
+msgstr "XYZ 翻转"
+
+msgid "Use World Origo"
+msgstr "使用世界原点"
+
+msgid "Only Rim"
+msgstr "只有边缘"
+
+msgctxt "Operator"
+msgid "Add Solidify"
+msgstr "添加固化"
+
+msgid "Add Solidify"
+msgstr "添加固化"
+
+msgid "Mod Presets"
+msgstr "模组预设"
+
+msgid "Add-Mode"
+msgstr "添加模式"
+
+msgid "No Modifier Presets found"
+msgstr "未找到任何修改器预设"
+
+msgctxt "Operator"
+msgid "New Edge Attr.Group"
+msgstr "新边属性组"
+
+msgid "New Edge Attr.Group"
+msgstr "新边缘属性组"
+
+msgctxt "Operator"
+msgid "New Vertex Group"
+msgstr "新顶点组"
+
+msgid "New Vertex Group"
+msgstr "新的顶点组"
+
+msgctxt "Operator"
+msgid "Add Weight Bevel"
+msgstr "添加权重倒角"
+
+msgid "Add Weight Bevel"
+msgstr "增加重量倒角"
+
+msgctxt "Operator"
+msgid "Add Angle Bevel"
+msgstr "添加角度倒角"
+
+msgid "Add Angle Bevel"
+msgstr "添加角度倒角"
+
+msgid "Remove selected from:"
+msgstr "移除已选择:"
+
+msgid "N / A"
+msgstr "N / A"
+
+msgid "Add selected to:"
+msgstr "将选中添加到："
+
+msgid "Add to:"
+msgstr "添加到："
+
+msgctxt "Operator"
+msgid "New Edge Group Bevel"
+msgstr "新边组倒角"
+
+msgid "New Edge Group Bevel"
+msgstr "新边缘分组倒角"
+
+msgid "Add or Replace"
+msgstr "增加或替换"
+
+msgid "Toggle Attributes:"
+msgstr "切换属性："
+
+msgid "ID Materials"
+msgstr "材质"
+
+msgid "Use/Customize:"
+msgstr "使用/自定义："
+
+msgctxt "Operator"
+msgid "StepRotate 90"
+msgstr "步骤旋转90度"
+
+msgid "StepRotate 90"
+msgstr "步骤旋转90度"
+
+msgctxt "Operator"
+msgid "StepRotate -90"
+msgstr "步骤旋转 -90"
+
+msgid "StepRotate -90"
+msgstr "步骤旋转 -90"
+
+msgctxt "Operator"
+msgid "View Align Toggle Cursor"
+msgstr "查看对齐切换光标"
+
+msgid "View Align Toggle Cursor"
+msgstr "视图对齐 切换光标"
+
+msgctxt "Operator"
+msgid "Frame All or Selected"
+msgstr "全选或选中"
+
+msgid "Frame All or Selected"
+msgstr "框选全部或所选物体"
+
+msgctxt "Operator"
+msgid "QOM AutoAxis"
+msgstr "自动锁定轴"
+
+msgid "QOM AutoAxis"
+msgstr "自动锁定轴"
+
+msgctxt "Operator"
+msgid "L.Unsel"
+msgstr "列出未绑定快捷键"
+
+msgid "L.Unsel"
+msgstr "列出未绑定快捷键"
+
+msgid "Select by Display Type"
+msgstr "按显示类型选择"
+
+msgid "Select Objects with Display Type:"
+msgstr "按显示类型选择对象："
+
+msgid "Specific Bounds Display Type:"
+msgstr "特定边界显示类型："
+
+msgctxt "Operator"
+msgid "Set Active Collection"
+msgstr "设置活动集合"
+
+msgctxt "Operator"
+msgid "Show in Outliner"
+msgstr "显示在视图树中"
+
+msgid "Nothing selected? / Outliner not found?"
+msgstr "未选择任何对象？ / 找不到出图器？"
+
+msgctxt "Operator"
+msgid "Clear Cursor Rotation"
+msgstr "清除光标旋转"
+
+msgid "Transform Tools"
+msgstr "变换工具"
+
+msgid "TT Modes"
+msgstr "临时模式"
+
+msgctxt "Operator"
+msgid "TT Cycle"
+msgstr "TT循环周期"
+
+msgid "TT Cycle"
+msgstr "TT循环"
+
+msgid "Mouse Axis:"
+msgstr "鼠标轴："
+
+msgctxt "Operator"
+msgid "Move Duplicate"
+msgstr "移动复制"
+
+msgid "Move Duplicate"
+msgstr "移动复制"
+
+msgid "View Plane:"
+msgstr "视图平面:"
+
+msgctxt "Operator"
+msgid "VP Duplicate"
+msgstr "副总裁重复"
+
+msgid "VP Duplicate"
+msgstr "视图重复"
+
+msgctxt "Operator"
+msgid "keKit Property Toggle"
+msgstr "keKit 属性切换"
+
+msgid "Name of the keKit bool-property to toggle"
+msgstr "用于切换的keKit布尔属性的名称"
+
+msgid "Rename Bookmark"
+msgstr "重命名书签"
+
+msgid "Cursor Axis"
+msgstr "光标轴"
+
+msgid "5°"
+msgstr "5°"
+
+msgid "15°"
+msgstr "15度"
+
+msgid "45°"
+msgstr "45°"
+
+msgid "90°"
+msgstr "90度"
+
+msgid "Step Presets"
+msgstr "步骤预设"
+
+msgid "Preset rotation values for step-rotate"
+msgstr "预设旋转值用于逐步旋转"
+
+msgid "Custom Step"
+msgstr "自定义步骤"
+
+msgid "Rename Preset"
+msgstr "重命名预设"
+
+msgid "Tab Category"
+msgstr "标签类别"
+
+msgid "SnapCombos N-Panel Only"
+msgstr "吸附组合仅 N 面板"
+
+msgid "Object Context Menu"
+msgstr "对象上下文菜单"
+
+msgid "Cursor Menu"
+msgstr "鼠标菜单"
+
+msgid "Outliner Buttons"
+msgstr "列表按钮"
+
+msgid ""
+"Adds extra buttons in Outliner header for:\n"
+"'Show Active', 'Show One Level' and 'Hide One Level'"
+msgstr "为Outliner头部添加额外按钮："
+
+msgid "Sync Material Button"
+msgstr "同步材质按钮"
+
+msgid ""
+"Toggle properties/features that work - but has some quirks\n"
+"See keKit Wiki for details."
+msgstr "切换功能/特性——但有些小怪癖。详情请参阅keKit Wiki。"
+
+msgid "Display Direct Select Mode"
+msgstr "显示直接选择模式"
+
+msgid "Display Direct Select Mode row of buttons in keKit Panel"
+msgstr "显示 keKit 面板中的按钮行"
+
+msgid "Direct Select Mode MousePick"
+msgstr "直接选择模式 鼠标选择"
+
+msgid "Picks object under mouse before switching mode"
+msgstr "鼠标选择对象后再切换模式"
+
+msgid "Direct Select Mode Toggle"
+msgstr "直接选择模式切换"
+
+msgid "Toggle the Edit Mode with Object Mode"
+msgstr "切换编辑模式至对象模式"
+
+msgid "TT Icons"
+msgstr "TT 图标"
+
+msgid "1: Geometry"
+msgstr "1: 几何体"
+
+msgid "3: Bookmarks"
+msgstr "3:书签"
+
+msgid "5: Modeling"
+msgstr "5: 建模"
+
+msgid "6: Modifiers"
+msgstr "6: 修饰器"
+
+msgid "7: Context Tools"
+msgstr "7: 上下文工具"
+
+msgid "8: Transform Tools"
+msgstr "8: 变换工具"
+
+msgid "9: Clean-Up Tools"
+msgstr "清理工具"
+
+msgid "10: Pie Menus"
+msgstr "10: 饼状菜单"
+
+msgid "Select Edit Result"
+msgstr "选择 编辑结果"
+
+msgid "FPCylinder Default Count"
+msgstr "默认数量"
+
+msgid "Default modal cylinder FitPrim variant segment count"
+msgstr "默认模态圆柱体 FitPrim 变体段数"
+
+msgid "Toggles Object Mode modal surface snapping"
+msgstr "切换对象模式模态表面吸附"
+
+msgid "Duplicated Objects will not be data-linked"
+msgstr "重复的对象不会进行数据链接"
+
+msgid "Randomize Z-axis rotation when duplicating"
+msgstr "随机化Z轴旋转"
+
+msgid "Median Point"
+msgstr "中点"
+
+msgid "Bounding Box Center"
+msgstr "边界框中心"
+
+msgid "Individual Origins"
+msgstr "个体起源"
+
+msgid "Active Element"
+msgstr "活跃元素"
+
+msgid "Name OPC1"
+msgstr "名称OPC1"
+
+msgid "Name OPC2"
+msgstr "名称 OPC2"
+
+msgid "Name OPC3"
+msgstr "名称 OPC3"
+
+msgid "Name OPC4"
+msgstr "名称 OPC4"
+
+msgid "Name OPC5"
+msgstr "名称 OPC5"
+
+msgid "Name OPC6"
+msgstr "名称 OPC6"
+
+msgid "Sets Global orientation. Overrides GOT options"
+msgstr "设置全局朝向。覆盖GOT选项"
+
+msgid "Grab GlobalOrTool"
+msgstr "抓取全局或工具"
+
+msgid "Rotate GlobalOrTool"
+msgstr "旋转全局或工具"
+
+msgid "Scale GlobalOrTool"
+msgstr "缩放全局"
+
+msgid "Double Geo"
+msgstr "双重几何"
+
+msgid "Double Geo Distance"
+msgstr "双重地理距离"
+
+msgid "Loose Verts/Edges"
+msgstr "松散顶点/边缘"
+
+msgid "Verts/Edges not attached to faces"
+msgstr "顶点和边未附着于面"
+
+msgid "Interior Faces"
+msgstr "内部面"
+
+msgid "Faces where all edges have more than 2 face users"
+msgstr "所有边都有多于两个面用户的面"
+
+msgid "Degenerate Geo"
+msgstr "退化的几何体"
+
+msgid "Tiny Edges"
+msgstr "微小边"
+
+msgid ""
+"Edges that are shorter than the Tiny-Edge Value set\n"
+"Selection only - will select also in Clean Mode"
+msgstr "短于微小边值设定的边 仅选中——在清理模"
+
+msgid "Tiny Edge Limit"
+msgstr "微小边缘限制"
+
+msgid "Shortest allowed Edge length for Tiny Edge Selection"
+msgstr "允许的最短边长，用于小边选择"
+
+msgid "Collinear Verts"
+msgstr "共线的顶点"
+
+msgid "Collinear Tolerance"
+msgstr "共线公差"
+
+msgid ""
+"Increase to catch larger angle differences\n"
+"Note: There is a very small tolerance even at 0"
+msgstr "增大以捕获更大的角度差异"
+
+msgid "Set ID color also to Object Viewport Display"
+msgstr "将对象视图显示的颜色也设置为物体ID颜色。"
+
+msgid "Set ID color also to Material Viewport Display"
+msgstr "将ID颜色也设置为材质视图显示。"
+
+msgid "Viewport Levels to be used"
+msgstr "使用的视口层级"
+
+msgid "Render Levels to be used"
+msgstr "可用的渲染级别"
+
+msgid "Set Flat Shading when Subd visibility is off"
+msgstr "在细分表面可见性关闭时设置平面色彩。"
+
+msgid "Preserve Corners"
+msgstr "保留角落"
+
+msgid "Controls how open boundaries are smoothed"
+msgstr "控制开放边界的平滑程度。"
+
+msgid "Use Limit Surface"
+msgstr "使用限表面"
+
+msgid "Use Optimal Display"
+msgstr "使用最佳显示"
+
+msgid "Edit-Mode Visibility"
+msgstr "编辑模式可见性"
+
+msgid "On Cage"
+msgstr "在笼中"
+
+msgid "Show On Edit Cage"
+msgstr "在编辑时显示"
+
+msgid "Autosmooth Toggle"
+msgstr "自动平滑开关"
+
+msgid "Snapping Combo 1 Name"
+msgstr ""
+
+msgid "Snapping Combo 2 Name"
+msgstr "吸附组合2名称"
+
+msgid "Snapping Combo 3 Name"
+msgstr "吸附组合名称3"
+
+msgid "Snapping Combo 4 Name"
+msgstr "拉取组合 4 名"
+
+msgid "Snapping Combo 5 Name"
+msgstr "吸附组合5名称"
+
+msgid "Snapping Combo 6 Name"
+msgstr "吸附组合6名称"
+
+msgid "Auto-Activate Snap"
+msgstr "自动激活吸附功能"
+
+msgid "Auto activate snapping mode when using snap combo"
+msgstr "自动使用组合吸附时激活吸附模式"
+
+msgid "Hierarchy Delete"
+msgstr "删除层级"
+
+msgid "Smart Dissolve"
+msgstr "智能融合"
+
+msgid "Dissolve Verts and Edges instead of deleting them. Faces are deleted."
+msgstr "将顶点与边溶解而不是删除它们。面会被删除。"
+
+msgid "Toggles between default transform tools, MouseAxis or VP"
+msgstr "在默认变换工具之间切换，鼠标轴或VP"
+
+msgid "Use TT Mode for transform: Default, MouseAxis and VP, except faces"
+msgstr "使用TT模式进行变换：默认、鼠标轴和VP"
+
+msgid "Render Slot Cycle"
+msgstr "渲染槽循环"
+
+msgid "Render Slot Full-Wrap"
+msgstr "渲染槽全包裹"
+
+msgid "Back to 1st slot when full and cycle step fwd, or stop and notify"
+msgstr "满时回到第一槽并向前循环，或停止并通知"
+
+msgid "Relative Offset from endpoint. Mirrored automatically to the other end point."
+msgstr "端点相对偏移。自动镜像到另一端点。"
+
+msgid "Fixed Offset from endpoint. Mirrored automatically to the other end point."
+msgstr "从端点固定的偏移量。自动在另一端点进行镜像。"
+
+msgid "Center Cut. 1 or 0 for none."
+msgstr "中心切割。1表示启用，0表示禁用。"
+
+msgid "MultiCut Preset 1"
+msgstr "多切割预设1"
+
+msgid "MultiCut Preset 2"
+msgstr "多切割预设2"
+
+msgid "MultiCut Preset 3"
+msgstr "多切口预设3"
+
+msgid "MultiCut Preset 4"
+msgstr "多切口预设4"
+
+msgid "MultiCut Preset 5"
+msgstr "多切割预设5"
+
+msgid "MultiCut Preset 6"
+msgstr "MultiCut 预设6"
+
+msgid "MultiCut Preset 7"
+msgstr "多切面预设7"
+
+msgid "MultiCut Preset 8"
+msgstr "多切面预设8"
+
+msgid "Selection Only"
+msgstr "仅选择"
+
+msgid "Flat Shading Triangulate"
+msgstr "平面着色三角化"
+
+msgid "Geo Only"
+msgstr "几何仅"
+
+msgid "Flat Profile Bevels"
+msgstr "平面倒角"
+
+msgid "Context Bevel Segments"
+msgstr "上下文倒角段"
+
+msgid "Auto-Apply Scale"
+msgstr "自动应用缩放"
+
+msgid "Active Collection Only"
+msgstr "仅限活跃集合"
+
+msgid "Select by display type in active collection only"
+msgstr "仅在活动集合中按显示类型选择"
+
+msgid "Unbevel Auto-EdgeRing"
+msgstr "自动边缘环消除功能"
+
+msgid "Runs Edge-Ring selection before Unbevel"
+msgstr "在执行Unbevel操作之前执行Edge-Ring选择"
+
+msgid "Full Hierarchy Select"
+msgstr "选择"
+
+msgid "Vertex Mode Behaviour"
+msgstr "顶点模式行为"
+
+msgid ""
+"On - Selects open boundaries, if any, in connected geo\n"
+"Off - Selects connected geo"
+msgstr "打开 - 选择已连接的地理边界，如果存在的话。关闭 - 选择已连接的地理区域。"
+
+msgid "Collection Select"
+msgstr "集合 选择"
+
+msgid "No Constrain Over"
+msgstr "无约束"
+
+msgid "keKit Modules"
+msgstr "keKit模块"
+
+msgid "keKit Settings"
+msgstr "keKit 设置"
+
+msgid "keKit Shortcut Tools"
+msgstr "keKit 快捷工具"
+
+msgid "keKit Shortcuts/Ops"
+msgstr "keKit快捷键/操作"
+
+msgid "Find Useless"
+msgstr "寻找无用的"
+
+msgid "Find Unset"
+msgstr "查找未设置"
+
+msgid "Find Unset Dupes"
+msgstr "查找未设置的重复对象"
+
+msgid "Toggle All Same"
+msgstr "全部切换相同"
+
+msgid "Edge Mode Behaviour"
+msgstr "边缘模式行为"
+
+msgid "Object Mode Auto-Seam"
+msgstr "对象模式自动缝合"
+
+msgid ""
+"In Object Mode, always ON\n"
+"In Edit Mode, always OFF"
+msgstr "在对象模式下，始终开启；在编辑模式下，始终关闭。"
+
+msgid "Remove Unused Materials/Slots"
+msgstr "移除未使用的材质/槽位"
+
+msgid "Auto Bevel Tweaker"
+msgstr "自动倒角调节器"
+
+msgid ""
+"Bevel Pie Menu behaviour for BT:\n"
+"Run BT automatically after adding a new Bevel Group"
+msgstr "在BT中，圆角菜单的行为：添加新的圆角组后自动运行BT。"
+
+msgid "Edit Mode Pie Menu"
+msgstr "编辑模式饼图菜单"
+
+msgid ""
+"Open Bevel Manager Pie Menu in Edit Mode\n"
+"instead of Bevel Tweaker's standard Edit Mode"
+msgstr "在编辑模式下打开倒角管理器主菜单，而不是使用倒角调整器的标准编辑模式"
+
+msgid "Bevel Tweaker Multiplier"
+msgstr "倒角调节器乘数"
+
+msgid "Bevel Tweaker Precision Multiplier"
+msgstr "倒角微调精度倍增器"
+
+msgid "Grid Scales"
+msgstr "网格缩放"
+
+msgid "1K"
+msgstr "1千"
+
+msgid "2K"
+msgstr "2K"
+
+msgid "4K"
+msgstr "4K"
+
+msgid "8K"
+msgstr "8K"
+
+msgid "Texel Density"
+msgstr "纹理密度"
+
+msgid "Image Size"
+msgstr "图像尺寸"
+
+msgid "Skip Tools"
+msgstr "跳过工具"
+
+msgid "User Only"
+msgstr "仅限用户使用"
+
+msgid "Active Only"
+msgstr "仅活跃"
+
+msgid "Use Arrows"
+msgstr "使用箭头"
+
+msgid "Display arrows at the end of bbox lines"
+msgstr "显示 bbox 线条末端的箭头"
+
+msgctxt "Operator"
+msgid "Snap Combo IO"
+msgstr "吸附组合IO"
+
+msgid "Preset file not found"
+msgstr "预设文件未找到"
+
+msgctxt "Operator"
+msgid "Orientation/Pivot Combos IO"
+msgstr "朝向/枢轴组合IO"
+
+msgctxt "Operator"
+msgid "Modifier Preset"
+msgstr "修改器预设"
+
+msgid "LOAD / SAVE / DELETE the Active Object's modifiers as a preset. See Wiki for full info."
+msgstr "加载/保存/删除当前对象的修改器为预设。参见Wiki获取完整信息。"
+
+msgid "Modifier Presets: JSON file failed to update!"
+msgstr "预设：JSON文件更新失败！"
+
+msgid "Smooth by Angle"
+msgstr "按角度平滑"
+
+msgid "EXPORT ALL View Bookmarks to JSON file for backup/transfer"
+msgstr "将所有视图书签导出为JSON文件以进行备份/转移"
+
+msgid "No View-Bookmarks found to export!"
+msgstr "未找到可导出的视图书签！"
+
+msgid "Failed to load file"
+msgstr "文件加载失败"
+
+msgctxt "Operator"
+msgid "Export keKit Prefs"
+msgstr "导出keKit设置"
+
+msgid "Open a filebrowser to export all keKit prefs to JSON file"
+msgstr "打开文件浏览器将所有 keKit 设置"
+
+msgid "keKit Preferences Exported!"
+msgstr "keKit 偏好设置已导出！"
+
+msgctxt "Operator"
+msgid "Import keKit Prefs"
+msgstr "导入keKit偏好"
+
+msgid "Import keKit Preferences: Path/JSON File not found/Invalid"
+msgstr "导入 keKit 偏好设置：路径/JSON 文件未找到/无效"
+
+msgid "keKit Preferences Imported!"
+msgstr "keKit 偏好设置导入！"
+
+msgctxt "Operator"
+msgid "Reload keKit"
+msgstr "重新加载keKit"
+
+msgid "Reload keKit and all keKit modules"
+msgstr "重新加载 keKit 和所有 keKit 模块"
+
+msgid "keKit Main Panel"
+msgstr "keKit 主面板"
+
+msgid "Reload keKit"
+msgstr "刷新keKit"
+
+msgid "TT Icons:"
+msgstr "TT 图标："
+
+msgid "keKit Modal Settings:"
+msgstr "keKit 模式设置："
+
+msgid "Note: Some shortcuts can only be removed in Prefs/Keymap"
+msgstr "注意：某些快捷方式只能在设置/键位表中移除。"
+
+msgid "Options:"
+msgstr "选项："
+
+msgid "3D View Tool:"
+msgstr "三维视图工具："
+
+msgid "Node Tool:"
+msgstr "节点工具："
+
+msgid "Preview Tool:"
+msgstr "预览工具："
+
+msgid "Image Editor Tool:"
+msgstr "图像编辑器工具："
+
+msgid "Sequencer Tool:"
+msgstr "序列器工具:"
+
+msgctxt "Operator"
+msgid "Find Unset"
+msgstr "定位未设置状态"
+
+msgctxt "Operator"
+msgid "Find Unset Duplicates"
+msgstr "查找未设置的重复项"
+
+msgctxt "Operator"
+msgid "Collapse Shortcuts"
+msgstr "折叠快捷键"
+
+msgid "keKit Cursor Menu"
+msgstr "keKit 鼠标菜单"
+
+msgctxt "Operator"
+msgid "Align Cursor To View"
+msgstr "将光标对齐到视图"
+
+msgid "Align Cursor To View"
+msgstr "对齐光标到视图"
+
+msgid "Step Rotate"
+msgstr "步骤 旋转"
+
+msgctxt "Operator"
+msgid "Step Rotate"
+msgstr "旋转步进"
+
+msgid "Target Object"
+msgstr "目标物体"
+
+msgctxt "Operator"
+msgid "Point To Obj"
+msgstr "指向对象"
+
+msgid "Point To Obj"
+msgstr "指向对象"
+
+msgctxt "Operator"
+msgid "Copy Obj Rot"
+msgstr "复制对象旋转"
+
+msgid "Copy Obj Rot"
+msgstr "复制物体旋转"
+
+msgid "Snap Cursor To"
+msgstr "吸附光标到"
+
+msgctxt "Operator"
+msgid "Sel."
+msgstr ""
+
+msgid "Sel."
+msgstr ""
+
+msgid "Cursor Location"
+msgstr "光标位置"
+
+msgctxt "Operator"
+msgid "Clear Loc"
+msgstr "清除位置"
+
+msgid "Clear Loc"
+msgstr "清除位置"
+
+msgid "Cursor Rotation"
+msgstr "光标旋转"
+
+msgctxt "Operator"
+msgid "Clear Rot"
+msgstr "清除旋转"
+
+msgid "Clear Rot"
+msgstr "清除旋转"
+
+msgctxt "Operator"
+msgid "Reset Cursor"
+msgstr "重置光标"
+
+msgid "Reset Cursor"
+msgstr "重置光标"
+
+msgid "Transform Toggle Menu"
+msgstr "变换切换菜单"
+
+msgid "Show in Outliner"
+msgstr "显示在列表中"
+
+msgid "Set Active Collection"
+msgstr "设置当前集合"
+
+msgid "Redraw everything!"
+msgstr "重新绘制全部！"
+
+msgid "Sort verts from list of vert pairs"
+msgstr "从顶点列表中排序顶点对。"
+
+msgid "Get Boundary/Selection-Border Edges from face-selection"
+msgstr "获取面选择边界/选择-边界边的边界"
+
+msgid "µm"
+msgstr "微米"
+
+msgctxt "Operator"
+msgid "Context Bevel"
+msgstr "上下文倒角"
+
+msgid ""
+"Vert Mode: Vertex Bevel Tool\n"
+"Edge Mode: Edge Bevel Tool\n"
+"Face Mode: Inset Faces Tool"
+msgstr "顶点模式：顶点倒角工具"
+
+msgctxt "Operator"
+msgid "Context Extrude"
+msgstr "上下文挤出"
+
+msgctxt "Operator"
+msgid "Context Delete"
+msgstr "上下文删除"
+
+msgctxt "Operator"
+msgid "Context Dissolve"
+msgstr "上下文溶解"
+
+msgctxt "Operator"
+msgid "Context Select"
+msgstr "上下文选择"
+
+msgctxt "Operator"
+msgid "Context Select Extend"
+msgstr "上下文 选择 扩展"
+
+msgctxt "Operator"
+msgid "Context Select Subtract"
+msgstr "上下文 选择 减去"
+
+msgctxt "Operator"
+msgid "Context Slide"
+msgstr "上下文滑块"
+
+msgid "Alternative one-click for double-G slide."
+msgstr "替代一键操作用于双G滑动。"
+
+msgctxt "Operator"
+msgid "Context Select Sharp Edges"
+msgstr "上下文选择锐利边缘"
+
+msgctxt "Operator"
+msgid "Active Slice"
+msgstr "活跃切片"
+
+msgid "Cut Direction"
+msgstr "切割方向"
+
+msgid "Cuts geo along the cutter plane"
+msgstr "沿裁剪平面切割几何体"
+
+msgid "Delete Outer Side"
+msgstr "删除外表面"
+
+msgid "Removes geo on the positive side of the cutter plane normal"
+msgstr "移除切割平面法线的正侧几何"
+
+msgid "Delete Inner Side"
+msgstr "删除内侧面"
+
+msgid "Removes geo on the negative side of the cutter plane normal"
+msgstr "移除切割平面的负法线方向上的几何体"
+
+msgid "Cut Type"
+msgstr "切割类型"
+
+msgid "Edge Face Toggle"
+msgstr "边面切换"
+
+msgid "Select Result"
+msgstr "选择结果"
+
+msgid "Invalid selection"
+msgstr "无效的选取"
+
+msgid "Invalid Selection / View Angle / Plane Not Intersecting"
+msgstr "无效选择 / 视角角度 / 平面未相交"
+
+msgid "Op Cancelled: Invalid Selection."
+msgstr "操作取消：无效选择。"
+
+msgctxt "Operator"
+msgid "Align Origin to Selected"
+msgstr "将对齐原点到选中"
+
+msgid "Invert Z-Axis"
+msgstr "反转Z轴"
+
+msgid "Invert the Z-Axis on Mesh Object"
+msgstr "反转网格对象的Z轴"
+
+msgctxt "Operator"
+msgid "Apply Array Separated"
+msgstr "分隔数组"
+
+msgid "Select Active Mesh Object Only!"
+msgstr "仅选择活跃的网格对象！"
+
+msgid "GN Array Modifier not found!"
+msgstr "阵列修改器未找到！"
+
+msgid "GN Array Count Insufficient!"
+msgstr "几何节点数组计数不足！"
+
+msgid "GN Array must have 'Realize Instances' enabled!"
+msgstr "GN Array 必须启用 实例化 选项！"
+
+msgctxt "Operator"
+msgid "Match Active Bounding Box"
+msgstr "匹配当前包围盒"
+
+msgid "All Axis"
+msgstr "全部轴"
+
+msgid "X Only"
+msgstr "仅限X"
+
+msgid "Y Only"
+msgstr "只Y"
+
+msgid "Z Only"
+msgstr "仅Z"
+
+msgid "Choose which Bounding Box Axis to scale with"
+msgstr "选择要缩放哪个边界框轴。"
+
+msgctxt "Operator"
+msgid "Bevel Tweaker"
+msgstr "倒角调节器"
+
+msgid "Extrude Curve"
+msgstr "挤出曲线"
+
+msgid "Offset Curve"
+msgstr "偏移曲线"
+
+msgid "No Context Object!"
+msgstr "没有上下文对象！"
+
+msgid "No Bevel Modifiers found!"
+msgstr "未找到任何倒角修改器！"
+
+msgid "No Mesh Element Selected!"
+msgstr "未选择任何网格元素！"
+
+msgid "No Object Mesh Surface found!"
+msgstr "未找到对象网格表面！"
+
+msgctxt "Operator"
+msgid "BG Sync"
+msgstr "背景同步"
+
+msgid "BG Sync: Viewport not in Preview or Rendered mode"
+msgstr "背景同步：视口不在预览或渲染模式"
+
+msgctxt "Operator"
+msgid "Bool Knife"
+msgstr ""
+
+msgid "Cutter Handling"
+msgstr "切割操作"
+
+msgid "Need 2 objects selected!"
+msgstr "需要选择两个对象！"
+
+msgid "No objects selected to use as cutter?"
+msgstr "未选择任何对象作为切割器？"
+
+msgid "No face elements selected to use as cutter?"
+msgstr "没有选择任何面元素作为切割器？"
+
+msgctxt "Operator"
+msgid "Bridge or Fill"
+msgstr "桥或填充"
+
+msgid "Nothing selected?"
+msgstr "没有选中任何对象？"
+
+msgid "F2 not found - Ext/Add-on not installed/enabled?"
+msgstr "F2未找到 - 扩展/附加组件未安装/启用？"
+
+msgctxt "Operator"
+msgid "Convert to CBO"
+msgstr "转换为CBO"
+
+msgid "Flip Shape Direction"
+msgstr "翻转形状方向"
+
+msgid "Flip Path Direction"
+msgstr "反转路径方向"
+
+msgid "Cap Ends"
+msgstr "帽端"
+
+msgid "Keep Mesh Shape"
+msgstr "保持网格形状"
+
+msgid "Bezier or polyline curve"
+msgstr "贝塞尔或多段线曲线"
+
+msgid "Closed Loop"
+msgstr "闭合环"
+
+msgid "Invalid Selection: Mesh object in edit mode expected"
+msgstr "无效的选择：在编辑模式下期望选择网格对象"
+
+msgid "Invalid Selection: No edges selected?"
+msgstr "无效选择：没有边被选中？"
+
+msgid "Invalid Selection: No active element"
+msgstr "无效选择：没有激活的元素"
+
+msgid "Invalid Selection: Minimum 2 edge loops expected"
+msgstr "无效选择：预期至少需要2个边循环。"
+
+msgctxt "Operator"
+msgid "Check Origin at Vert"
+msgstr "检查顶点原点"
+
+msgctxt "Operator"
+msgid "Check Snapping"
+msgstr "检查吸附"
+
+msgid "Select at least 2 Mesh Objects!"
+msgstr "请至少选择两个网格对象！"
+
+msgctxt "Operator"
+msgid "Macro Mesh Cleaner"
+msgstr "宏网格清理器"
+
+msgctxt "Operator"
+msgid "Clean Dupe Materials"
+msgstr "清理重复材质"
+
+msgid "Clean Dupe Materials:"
+msgstr "清理重复材质："
+
+msgctxt "Operator"
+msgid "Create Collision Object"
+msgstr "创建碰撞物体"
+
+msgid ""
+"Creates BOX or CONVEX HULL collision-style object from Element or Object selection\n"
+"Multi-Object Edit-Mode support."
+msgstr "创建从元素或对象选择生成的BOX或凸包碰撞风格物体"
+
+msgid "Convex Hull"
+msgstr "凸包"
+
+msgid "Collision Type"
+msgstr "碰撞类型"
+
+msgid "Separate Objects"
+msgstr "分离物体"
+
+msgid "Object Mode: Collision object for each selected, or one combined"
+msgstr "对象模式：每个选定的或一个组合的碰撞物体"
+
+msgid "Collision Style Shading"
+msgstr "碰撞样式着色"
+
+msgid "Reference Style Shading"
+msgstr "参考风格着色"
+
+msgid "Default Material"
+msgstr "默认材质"
+
+msgid "Cancelled: Nothing Selected?"
+msgstr "已取消：未选中任何对象？"
+
+msgctxt "Operator"
+msgid "Context Connect"
+msgstr "上下文连接"
+
+msgid "Edge Cuts"
+msgstr "边缘切割"
+
+msgid "Square Corners"
+msgstr "正方形角落"
+
+msgid "No objects selected!"
+msgstr "没有选中任何对象！"
+
+msgid "No mesh geometry selected?"
+msgstr "没有选中网格几何体？"
+
+msgid "No objects selected?"
+msgstr "没有选择任何对象？"
+
+msgctxt "Operator"
+msgid "Align Cursor Rotation"
+msgstr "对齐光标旋转"
+
+msgid ""
+"Aligns the 3D Cursors rotation to a mouse-over element\n"
+"or resets if mouse is over nothing"
+msgstr "将3D鼠标指针的旋转对齐到鼠标悬停的元素，或者在鼠标没有悬停在任何元素上时重置。"
+
+msgctxt "Operator"
+msgid "Cursor Bookmarks"
+msgstr "光标书签"
+
+msgid "Set Cursor Slot 1"
+msgstr "设置光标槽1"
+
+msgid "Set Cursor Slot 2"
+msgstr "设置光标槽2"
+
+msgid "Set Cursor Slot 3"
+msgstr "设置光标槽3"
+
+msgid "Set Cursor Slot 4"
+msgstr "设置光标槽4"
+
+msgid "Set Cursor Slot 5"
+msgstr "设置光标槽5"
+
+msgid "Set Cursor Slot 6"
+msgstr "设置光标槽6"
+
+msgid "Use Cursor Slot 1"
+msgstr "使用光标槽1"
+
+msgid "Use Cursor Slot 2"
+msgstr "使用光标槽2"
+
+msgid "Use Cursor Slot 3"
+msgstr "使用光标槽3"
+
+msgid "Use Cursor Slot 4"
+msgstr "使用鼠标槽位4"
+
+msgid "Use Cursor Slot 5"
+msgstr "使用鼠标槽位5"
+
+msgid "Use Cursor Slot 6"
+msgstr "使用鼠标槽位6"
+
+msgid "Cursor Mode is not Euler: Not supported - Aborted."
+msgstr "光标模式不是欧拉角：不支持 - 中止。"
+
+msgid "Object Scale is not applied"
+msgstr "对象缩放未应用"
+
+msgctxt "Operator"
+msgid "Cursor Otho Snap"
+msgstr "光标奥图吸附"
+
+msgctxt "Operator"
+msgid "Cursor Rotation"
+msgstr "鼠标旋转"
+
+msgid "Align To View"
+msgstr "对齐视图"
+
+msgid "Point To Object"
+msgstr "指向对象"
+
+msgid "Match Object Rot"
+msgstr "匹配对象旋转"
+
+msgid "No Object Selected"
+msgstr "未选择任何对象"
+
+msgctxt "Operator"
+msgid "Cycles Images Reload"
+msgstr "Cycles图像重载"
+
+msgid "Reload ALL materials' images, not just the active mat"
+msgstr "重新加载所有材质图像，不仅限于当前激活的材质。"
+
+msgid "Vertex Insert"
+msgstr "顶点插入"
+
+msgid "Cancelled: No quad faces selected"
+msgstr "取消：未选择任何四边形面"
+
+msgid "Edge selection failed/invalid - Cancelled"
+msgstr "边选择失败/无效 - 取消"
+
+msgid "EmptyParent selected Objects"
+msgstr "空的父级选定的对象"
+
+msgid "EmptyParent at Active Obj Origin"
+msgstr "空父对象在活动对象原点处"
+
+msgid "EmptyParent at Cursor"
+msgstr "空父节点于光标"
+
+msgid "Use Rotation"
+msgstr "应用旋转"
+
+msgid "Plain Axes"
+msgstr "普通轴"
+
+msgid "Single Arrow"
+msgstr "单向箭头"
+
+msgid "Display Type"
+msgstr "显示类型"
+
+msgid "Selected objects are parented to EmptyParent"
+msgstr "已选对象被挂载到EmptyParent"
+
+msgid "Keep Transform"
+msgstr "保持变换"
+
+msgid "No Inverse"
+msgstr "无逆反"
+
+msgid "Override Depth"
+msgstr "覆盖深度"
+
+msgid "Override depth - instead of edge length - if not zero"
+msgstr "深度覆盖 - 而不是边长 - 如果不为零"
+
+msgid "Override Offset"
+msgstr "覆盖偏移量"
+
+msgid "Override offset distance from source mesh - instead of edge length - if not zero"
+msgstr "覆盖源网格的偏移距离——而不是边长——如果为零的话。"
+
+msgid "Open Borders"
+msgstr "开放边界"
+
+msgid "Does not cap the 'bottom' faces"
+msgstr "不封顶底面"
+
+msgid "Longest Edge"
+msgstr "最长边缘"
+
+msgid "Uses shortest edge by default"
+msgstr "默认使用最短边"
+
+msgid "Selects new geo"
+msgstr "选择新的地理"
+
+msgid "Make New Object"
+msgstr "创建新对象"
+
+msgid "Select faces"
+msgstr "选择面"
+
+msgid "Select Connected"
+msgstr "选择已连接"
+
+msgid "Nothing Selected?"
+msgstr "未选择任何物体？"
+
+msgctxt "Operator"
+msgid "Extrude Along Edges"
+msgstr "沿边挤出"
+
+msgid "Flip Face Normals"
+msgstr "翻转面法线"
+
+msgid "Flip Direction"
+msgstr "翻转方向"
+
+msgid "Edge Lines Only"
+msgstr "边缘线"
+
+msgid "Remove Collinear Verts"
+msgstr "移除共线顶点"
+
+msgid "Note: Object Scale is not applied"
+msgstr "注意：对象缩放未应用"
+
+msgid "Invalid Selection: No Active Element in selection"
+msgstr "无效选择：未选中任何元素"
+
+msgid "Invalid Selection: No edges selected"
+msgstr "无效选择：未选中任何边"
+
+msgid "Invalid Selection: Shape selection is not a loop"
+msgstr "无效选择：形状选择不是循环。"
+
+msgctxt "Operator"
+msgid "Scale From Face"
+msgstr "从面部缩放"
+
+msgid "Target Object has no selected face?"
+msgstr "目标对象没有选择的面？"
+
+msgid "Zero Division Error. Invalid geometry?"
+msgstr "除零错误。无效几何体？"
+
+msgid ""
+"Quantization\n"
+"EDIT MODE: Snaps each vert in selected VERTS/EDGES/FACES to nearest set world grid value\n"
+"OBJECT MODE: Snaps Object Location to nearest Grid value"
+msgstr "量化"
+
+msgid "Grid Value"
+msgstr "网格数值"
+
+msgid "Nearest Grid value in internal Blender Units / meters"
+msgstr "内部Blender单位/米的最近网格值"
+
+msgid "On grid - All good!"
+msgstr "在网格上 - 一切正常！"
+
+msgid "Invalid object type or mode - Aborted"
+msgstr "无效对象类型或模式 - 已中止"
+
+msgid "Returning: multiobj-mode, voidmode, bm, selverts, bm2, selverts2"
+msgstr "返回：multiobj-mode, vo"
+
+msgid "2Vertmode failed: Invalid selection?"
+msgstr "2顶点模式失败：无效选择？"
+
+msgid "UV Sphere"
+msgstr "UV球体"
+
+msgid "Pie-Slot Mouse Offset"
+msgstr "圆角槽鼠标偏移量"
+
+msgid "Cube Factor"
+msgstr "立方体因子"
+
+msgid "Void Size"
+msgstr "虚空大小"
+
+msgid "VertMode Size"
+msgstr "顶点模式大小"
+
+msgid "EM Object"
+msgstr "EM 对象"
+
+msgid "Make new object also from Edit mode"
+msgstr "在编辑模式下也能创建新对象"
+
+msgid "Cancelled: Invalid selection"
+msgstr "已取消：无效选择"
+
+msgctxt "Operator"
+msgid "FitPrim Cylinder"
+msgstr "匹配圆柱体"
+
+msgid "2V Size"
+msgstr "2V尺寸"
+
+msgid "Circle Mode"
+msgstr "圆圈模式"
+
+msgid "Plane Mode"
+msgstr "平面模式"
+
+msgid "Frame Selection, or everything if nothing is selected."
+msgstr "选择帧，或者如果未选择任何内容则全部选择。"
+
+msgid "Variant that switches to object under mouse pointer EXTENDING Edit Mode, from Object or Edit Mode"
+msgstr "切换到鼠标光标所指对象的变体，EXTENDING编辑模式，从对象或编辑模式转换"
+
+msgid "Samples material under mouse pointer and applies it to the selection"
+msgstr "鼠标指针下方的材质被采样并应用于选择"
+
+msgid "GetSetMaterial: Invalid Object Selection"
+msgstr "获取设置材质：无效的对象选择"
+
+msgid "GetSetMaterial: Invalid Object Type Selected"
+msgstr "获取材质: 无效的对象类型"
+
+msgid "GetSetMaterial: No Material found"
+msgstr "获取材质：未找到材质"
+
+msgctxt "Operator"
+msgid "Grid Slice"
+msgstr "切片网格"
+
+msgid "Scale has not been applied - May not work as expected!"
+msgstr "缩放未应用 - 可能无法按预期工作！"
+
+msgid "No faces found?!"
+msgstr "没有找到面?!"
+
+msgid "No Snapping"
+msgstr "无吸附"
+
+msgctxt "Operator"
+msgid "Grid Scale Toggle"
+msgstr "网格缩放切换"
+
+msgid "Ground Midpoint"
+msgstr "地面中点"
+
+msgid "Center XYZ"
+msgstr "中心XYZ"
+
+msgid "Under-Ground"
+msgstr "地下"
+
+msgid "Process each selected object/vertex separately"
+msgstr "分别处理每个选中的对象/顶点"
+
+msgid "Group Averaged"
+msgstr "分组均值化"
+
+msgid "Average center of selection as group center."
+msgstr "平均选中区域中心为组中心。"
+
+msgid "Group Active"
+msgstr "组激活"
+
+msgid "Active object/element in selection as group center"
+msgstr "选中对象/元素作为分组中心"
+
+msgid "Loose Parts"
+msgstr "松散部件"
+
+msgid "Ignore Selected"
+msgstr "忽略选中的"
+
+msgid "Ground: Selection Error?"
+msgstr "地面：选择错误？"
+
+msgid "Ground: 'Use Origin' option is Object Mode only"
+msgstr "地面：使用原点选项仅在对象模式下可用"
+
+msgctxt "Operator"
+msgid "ID Material"
+msgstr "材质ID"
+
+msgctxt "Operator"
+msgid "Instance Collection"
+msgstr "实例集合"
+
+msgid "Active Object"
+msgstr "当前活动对象"
+
+msgid "Pick source for the instance center location"
+msgstr "选择实例的中心位置源"
+
+msgid "Use selected collection"
+msgstr "使用所选集合"
+
+msgid "instead of the Active Object's collection'"
+msgstr "而不是激活物体的集合。"
+
+msgid "Invalid collection"
+msgstr "无效集合"
+
+msgctxt "Operator"
+msgid "Invert Value"
+msgstr "取反值"
+
+msgid "Convert to Instances"
+msgstr "实例转换"
+
+msgid "Applies modifier and makes array linked mesh objects automatically"
+msgstr "自动应用修改器，并将数组关联的网格对象保"
+
+msgid "No valid Object selected?"
+msgstr "未选择有效的对象？"
+
+msgid "builtin.select"
+msgstr "内置选择"
+
+msgid "Num.Input Count 0-9"
+msgstr "数字输入数量 0-9"
+
+msgid "Snap Presets"
+msgstr "吸附预设"
+
+msgid "Clear Snap"
+msgstr "清除捕捉"
+
+msgid "Toggle Axis Lock"
+msgstr "切换轴锁定"
+
+msgid "Toggle Help"
+msgstr "切换帮助"
+
+msgctxt "Operator"
+msgid "Linear Array"
+msgstr "直线阵列"
+
+msgid "Snapping Preset Steps"
+msgstr "对齐预设步骤"
+
+msgid "Snap Enabled"
+msgstr "吸附已启用"
+
+msgid "Input Time"
+msgstr "输入时间"
+
+msgid "Linear Array"
+msgstr "线性数组"
+
+msgid "Could not assign GN Array Modifier!"
+msgstr "无法分配GN数组修改器！"
+
+msgid "Exit Modal"
+msgstr "退出模态框"
+
+msgctxt "Operator"
+msgid "Local Mode by Distance"
+msgstr "距离模式"
+
+msgid "Include objects in Local Mode by distance to selected object"
+msgstr "通过距离选中对象将物体包含在局部模式中"
+
+msgid "Same Type Only"
+msgstr "仅相同类型"
+
+msgid "Invert Range"
+msgstr "反转范围"
+
+msgid "Frame View"
+msgstr "帧视图"
+
+msgid "Lock Unselected"
+msgstr "锁定未选中"
+
+msgid "Distance from each vert to merge linked verts from"
+msgstr "从每个顶点到合并相邻顶点的距离"
+
+msgid "Link Level"
+msgstr "层级"
+
+msgid "Remove Collinear"
+msgstr "移除共线"
+
+msgid "Remove left-over collinear verts"
+msgstr "移除多余的共线顶点"
+
+msgid "Scale is not applied - Results may be unpredictable"
+msgstr "缩放未应用 - 结果可能不可预测"
+
+msgid "No elements selected?"
+msgstr "没有选择任何元素？"
+
+msgctxt "Operator"
+msgid "Mod Order"
+msgstr "模组顺序"
+
+msgctxt "Operator"
+msgid "Toggle Modifier Visibility"
+msgstr "切换修改器可见性"
+
+msgctxt "Operator"
+msgid "Mouse Axis"
+msgstr "鼠标轴"
+
+msgid "Duplicate Unlinked"
+msgstr "重复未链接"
+
+msgid "Duplicate Linked"
+msgstr "重复链接"
+
+msgid "No valid objects selected"
+msgstr "未选择有效对象"
+
+msgid "Gimbal Orientation not supported"
+msgstr "云台方向未支持"
+
+msgid "No elements selected"
+msgstr "没有选中元素"
+
+msgid "Unsupported Orientation Mode"
+msgstr "不支持的朝向模式"
+
+msgid "No Active Element?"
+msgstr "没有活动元素？"
+
+msgctxt "Operator"
+msgid "Mouse Mirror"
+msgstr "鼠标镜像"
+
+msgid "Temporarily change Orientation to Global"
+msgstr "暂时更改方向为全局"
+
+msgid "Temporarily change Orientation to Local"
+msgstr "暂时将方向改为局部"
+
+msgid "Temporarily change Orientation to Cursor"
+msgstr "暂时将方向调整为鼠标位置"
+
+msgid "Orient.Override"
+msgstr "朝向.覆盖"
+
+msgid "Linked Duplicate"
+msgstr "关联重复"
+
+msgid ""
+"Object Mode only\n"
+"Note: Mirrored linked duplicates will have negative scale"
+msgstr "对象模式仅限"
+
+msgctxt "Operator"
+msgid "Mouse Flip"
+msgstr "鼠标翻转"
+
+msgctxt "Operator"
+msgid "Mouse Side of Active"
+msgstr "活跃鼠标的侧面"
+
+msgid "Side of Active, but with active vert, edge or face and mouse position to calculate which side of the active element to select"
+msgstr "活跃状态的，但可以选择具有激活顶点、边或面以及鼠标位置来计算要选择哪个侧面的激活元素"
+
+msgid "Mouse Pick"
+msgstr "鼠标拾取"
+
+msgid "Axis Mode"
+msgstr "轴模式"
+
+msgid "Positive Axis"
+msgstr "正轴方向"
+
+msgid "Negative Axis"
+msgstr "负轴"
+
+msgid "Aligned Axis"
+msgstr "对齐轴"
+
+msgid "Axis Sign"
+msgstr "Axis Sign"
+
+msgid "Extend selection / New selection"
+msgstr "扩展选择 / 新选择"
+
+msgid "No active element selected"
+msgstr "未选中任何元素"
+
+msgctxt "Operator"
+msgid "Mouse Select Mirror"
+msgstr "鼠标选择镜像"
+
+msgid "Select Mirror, but using active vert, edge or face with mouse positionto calculate which side of the active element to mirror select"
+msgstr "选择镜像，使用鼠标位置选取活跃顶点、边或面，以确定要镜像的活跃元素的哪一侧进行选择"
+
+msgid "New:"
+msgstr "新增："
+
+msgid "Manual Rename"
+msgstr "手动重命名"
+
+msgctxt "Operator"
+msgid "Store Preset"
+msgstr "保存预设"
+
+msgid "Center Cuts"
+msgstr "中心裁切"
+
+msgid "Relative Offset"
+msgstr "相对偏移"
+
+msgid "Fixed Offset"
+msgstr "固定偏移"
+
+msgid "Center Cut"
+msgstr "中心切割"
+
+msgid "Cut Through"
+msgstr "切出"
+
+msgid "Keep Cutter Geo"
+msgstr "保持切割几何体"
+
+msgid "Keep Cutter Selected"
+msgstr "保持选中状态"
+
+msgid "Use All Edges"
+msgstr "使用所有边"
+
+msgid "Use ALL edges in Cutter as boundary edges to cut with"
+msgstr "使用Cutter中的所有边作为边界边进行切割。"
+
+msgid "Note: Redo requires unchanged viewport"
+msgstr "注意：撤销需要视口保持不变"
+
+msgid "Invalid Selection"
+msgstr "无效选择"
+
+msgctxt "Operator"
+msgid "Align Object to Cursor"
+msgstr "将对象对齐到光标"
+
+msgctxt "Operator"
+msgid "Orientation and Pivot Combo"
+msgstr "方向与枢轴组合"
+
+msgid "Orientation and Pivot Combo"
+msgstr "方向与枢轴组合"
+
+msgctxt "Operator"
+msgid "Orientation and Pivot Combo 1"
+msgstr "方向和枢轴组合 1"
+
+msgid "Orientation and Pivot Combo 1"
+msgstr "方向和枢轴组合 1"
+
+msgctxt "Operator"
+msgid "Orientation and Pivot Combo 2"
+msgstr "方向与枢轴组合 2"
+
+msgid "Orientation and Pivot Combo 2"
+msgstr "方向与枢轴组合 2"
+
+msgctxt "Operator"
+msgid "Orientation and Pivot Combo 3"
+msgstr "方向与枢轴点组合 3"
+
+msgid "Orientation and Pivot Combo 3"
+msgstr "方向与对齐点组合三"
+
+msgctxt "Operator"
+msgid "Orientation and Pivot Combo 4"
+msgstr "方向与枢轴组合 4"
+
+msgid "Orientation and Pivot Combo 4"
+msgstr "朝向与中心点组合4"
+
+msgctxt "Operator"
+msgid "Orientation and Pivot Combo 5"
+msgstr "朝向与枢轴组合 5"
+
+msgid "Orientation and Pivot Combo 5"
+msgstr "朝向与枢轴组合 5"
+
+msgctxt "Operator"
+msgid "Orientation and Pivot Combo 6"
+msgstr "方向与枢轴组合6"
+
+msgid "Orientation and Pivot Combo 6"
+msgstr "朝向与枢轴组合 6"
+
+msgctxt "Operator"
+msgid "Align Origin to Cursor"
+msgstr "将原点对齐到光标"
+
+msgid "Location Only"
+msgstr "位置仅"
+
+msgid "Rotation Only"
+msgstr "旋转只"
+
+msgid "No object selected?"
+msgstr "未选择任何对象？"
+
+msgctxt "Operator"
+msgid "Origin Location to Selected"
+msgstr "从原点位置到选定"
+
+msgctxt "Operator"
+msgid "Ortho Snap"
+msgstr "正交吸附"
+
+msgid "Box Width"
+msgstr "盒子宽度"
+
+msgid "Box Height"
+msgstr "盒子高度"
+
+msgid "Box Depth"
+msgstr "盒子深度"
+
+msgid "Object Layers"
+msgstr "对象层级"
+
+msgid "Align the new object to the world"
+msgstr "将新对象对齐到世界"
+
+msgid "Align the new object to the view"
+msgstr "将新物体对齐到视图"
+
+msgid "3D Cursor"
+msgstr "三维光标"
+
+msgid "Use the 3D cursor orientation for the new object"
+msgstr "使用新对象的3D光标方向。"
+
+msgctxt "Operator"
+msgid "Purge Unused Data"
+msgstr "清理无用数据"
+
+msgid ""
+"Purge specific unused data blocks\n"
+"Note: Deleted meshes will still 'use' materials: Purge meshes first"
+msgstr "清理特定未使用的数据块"
+
+msgid "Purge Data"
+msgstr "清理数据"
+
+msgid "x: 0"
+msgstr "x: 0"
+
+msgid "ʏ: 0"
+msgstr "ʏ: 0"
+
+msgid "ᴢ: 0"
+msgstr "ᴢ: 0"
+
+msgid "Sel.Mode"
+msgstr "选择模式"
+
+msgid "Cycle QM Mode"
+msgstr "循环量子模式"
+
+msgid "Clear Sel."
+msgstr ""
+
+msgid "Sel.Freeze"
+msgstr ""
+
+msgid "Fast Bounds Calc"
+msgstr "快速包围盒计算"
+
+msgid "Cycle Area Axis"
+msgstr "区域轴循环"
+
+msgid "Exit QM"
+msgstr ""
+
+msgid "QM Cancelled: Unsupported Mode - Use 'Object' or 'Edit Mesh'"
+msgstr "QM取消：不支持模式 - 使用对象或编辑网格"
+
+msgctxt "Operator"
+msgid "Quick Scale"
+msgstr "快速缩放"
+
+msgid "Each object uses its own Local Transform"
+msgstr "每个物体使用其自己的局部变换"
+
+msgid "Process Objects"
+msgstr "处理对象"
+
+msgid "Unit Size"
+msgstr "单位大小"
+
+msgid "Unit Size: Scales all axis as needed for selected axis to be desired size"
+msgstr "单位大小：根据需要缩放所有轴，使选定轴达到期望的大小"
+
+msgid "Cancelled: Zero dimension on selected axis"
+msgstr "取消：所选轴线上为零维度。"
+
+msgctxt "Operator"
+msgid "Quick Origin Move"
+msgstr "快速移动原点"
+
+msgid "Starting Count"
+msgstr "计数开始"
+
+msgid "Use Cursor"
+msgstr "使用光标"
+
+msgid "Start operator in Cursor Modal or Regular Modal"
+msgstr "鼠标模式或标准模式下的启动操作"
+
+msgid "Toggle Radius Lock"
+msgstr "切换半径锁定"
+
+msgid "Toggle Axis"
+msgstr "切换轴"
+
+msgctxt "Operator"
+msgid "Radial Array Regular"
+msgstr "径向阵列 常规"
+
+msgctxt "Operator"
+msgid "Radial Instances"
+msgstr "径向实例"
+
+msgid ""
+"Modal circular linked-duplication with re-activation feature\n"
+"Place CURSOR as center. 'Hub' axis is the SELECTED OBJECT axis facing you/view"
+msgstr "模态圆形链接复制并具有重新激活功能"
+
+msgid "Initial nr of linked duplicates"
+msgstr "初始链接的重复数量"
+
+msgid "Step Degrees"
+msgstr ""
+
+msgid "Step to increase/decrease degrees limit in modal"
+msgstr "在模态界面中调整/改变角度限制的步骤"
+
+msgid "Auto-Align"
+msgstr "自动对齐"
+
+msgid "Empty-Parent"
+msgstr "Empty-Parent"
+
+msgid ""
+"Parent instances to an Empty as center-hub group control where the Cursor is placed\n"
+"NOTE: 'Adjustment Mode' is NOT possible without the Empty"
+msgstr "将父级实例到空对象中作为中心枢纽组控制，其中鼠标放置的位置"
+
+msgid "Objects Only"
+msgstr "仅限对象"
+
+msgid "Post-Op Selection"
+msgstr "后处理选择"
+
+msgid "Invalid Radial Instances Setup"
+msgstr "无效的径向实例设置"
+
+msgid "Fail: Object origin at same place as cursor!"
+msgstr "失败：对象原点与光标位置相同！"
+
+msgid "Limit Degrees"
+msgstr "限制角度"
+
+msgid "Toggle Auto-Align"
+msgstr "切换自动对齐"
+
+msgid "Toggle Align 2D/3D"
+msgstr "切换 对齐 2D/3D"
+
+msgid "Automatically rotate Object towards center prior to radial"
+msgstr "自动将对象朝向中心，在径向之前。"
+
+msgid "Invalid Radial Array Object. Array/Empty removed/remain?"
+msgstr "无效的径向数组对象。数组/空删除/保留？"
+
+msgid "Num.Input"
+msgstr "数字输入"
+
+msgid "Z Offset / Reset"
+msgstr "Z偏移 / 重置"
+
+msgid "Adj.Level"
+msgstr "邻接级别"
+
+msgid "Axis Lock"
+msgstr "轴锁定"
+
+msgctxt "Operator"
+msgid "Render Slot Cycle"
+msgstr "渲染队列循环"
+
+msgid "Render Image to the first empty render slot"
+msgstr "将图像渲染到第一个空闲的渲染槽"
+
+msgid "No Cameras found?"
+msgstr "没有找到相机？"
+
+msgid "Render Slot Cycle FW: New cycle starting on slot 1"
+msgstr "渲染槽循环FW：新循环从槽位1开始"
+
+msgid "Render Slot Cycle: All Render Slots are full!"
+msgstr "渲染通道已满！所有渲染通道均已满。"
+
+msgid "Not ready: Another render still in progress."
+msgstr "未就绪: 另一个渲染仍在进行中。"
+
+msgctxt "Operator"
+msgid "Render Visible"
+msgstr "渲染可见"
+
+msgid "Render only what is currently visible in the viewport - Regardless of outliner settings"
+msgstr "仅渲染当前视口中可见的内容——无论Outliner设置如何"
+
+msgid "SC: All Render Slots are full!"
+msgstr "SC: 全渲染槽位已满！"
+
+msgctxt "Operator"
+msgid "Selection to Origin"
+msgstr "选择原点"
+
+msgid "Geometry to Origin"
+msgstr "几何体到原点"
+
+msgid "Origin to Geometry"
+msgstr "原点到几何体"
+
+msgid "Origin to 3D Cursor"
+msgstr "原点到三维光标"
+
+msgid "Median Center"
+msgstr "中点中心"
+
+msgid "Bounds Center"
+msgstr "边界中心"
+
+msgctxt "Operator"
+msgid "Select by Display Type"
+msgstr "按显示类型选择"
+
+msgid "Select objects in scene by viewport display type"
+msgstr "通过视口的显示类型选择场景中的对象"
+
+msgctxt "Operator"
+msgid "Select Collinear Verts"
+msgstr "选择共线顶点"
+
+msgid "Selects Collinear Vertices"
+msgstr "选择共线顶点"
+
+msgid "No Collinear Verts Found"
+msgstr "未找到共线顶点"
+
+msgctxt "Operator"
+msgid "Select Flipped Normal Faces"
+msgstr "选择翻转法线面"
+
+msgid "Invert Selection"
+msgstr "反转选择"
+
+msgctxt "Operator"
+msgid "Select Invert Linked"
+msgstr "选择 反转 关联"
+
+msgid ""
+"Inverts selection only on connected/linked mesh geo\n"
+"If selection is already fully linked, vanilla invert is used"
+msgstr "仅对连接/关联的网格几何体进行反转。如果选择已完全关联，则使用原生反转。"
+
+msgid "Same As Selected Only"
+msgstr "仅限选中项"
+
+msgid "All types of Objects"
+msgstr "所有类型的物体"
+
+msgid "Same DisplayType Only"
+msgstr "仅相同显示类型"
+
+msgid "Same Collection Only"
+msgstr "仅限同一集合"
+
+msgctxt "Operator"
+msgid "Select Objects with Verts Selected"
+msgstr "选择顶点已选中对象"
+
+msgid ""
+"In Multi-Object Edit Mode:\n"
+"Selects only objects that have vertices selected, and set object mode"
+msgstr "在多对象编辑模式下："
+
+msgctxt "Operator"
+msgid "Select Occluded Verts"
+msgstr "选择被遮挡的顶点"
+
+msgctxt "Operator"
+msgid "Select Unapplied"
+msgstr "选择未应用"
+
+msgctxt "Operator"
+msgid "Direct Select Mode"
+msgstr "直接选择模式"
+
+msgid "Extend Mouse Pick"
+msgstr "扩展鼠标拾取"
+
+msgid "Req. Mouse Pick option toggled ON"
+msgstr "鼠标选择功能已开启"
+
+msgid "Could not select an Object"
+msgstr "无法选择对象"
+
+msgid "view3d.ke_selmode"
+msgstr "查看3D的键盘选中模式"
+
+msgctxt "Operator"
+msgid "Shading Toggle"
+msgstr "着色切换开关"
+
+msgid "Invalid Object selected for Smooth/Flat Shading Toggle - Cancelled"
+msgstr "未选择有效对象用于平滑/平面贴图切换 - 已取消"
+
+msgid "Triangulate Shading"
+msgstr "三角化着色"
+
+msgctxt "Operator"
+msgid "Show Cutter Modifier"
+msgstr "显示切割修改器"
+
+msgid "No Properties panel found in UI"
+msgstr "在UI中未找到属性面板"
+
+msgctxt "Operator"
+msgid "Snapping Setting Combos"
+msgstr "捕捉设置组合"
+
+msgctxt "Operator"
+msgid "Solo Cutter"
+msgstr "单体切割器"
+
+msgid "Invalid object type selected?"
+msgstr "未选择有效的对象类型？"
+
+msgid "Not a Cutter: Selected obj is not used in any boolean modifier?"
+msgstr "不是切割器：选中的对象未用于任何布尔修改器？"
+
+msgid "Degree Snap"
+msgstr "度吸附"
+
+msgid "Incorrect Selection: Select 2 objects."
+msgstr "错误的选中：请选择2个对象。"
+
+msgid "Base Color"
+msgstr "基础颜色"
+
+msgctxt "Operator"
+msgid "Triple-Connect-Spin"
+msgstr "三连通旋转"
+
+msgid "Vertex Path"
+msgstr "顶点路径"
+
+msgid "Vertex Pair"
+msgstr "顶点对"
+
+msgid "Selected To Active"
+msgstr "已选择为激活"
+
+msgid "Vertex Connect"
+msgstr "顶点连接"
+
+msgid "Counter Clockwise"
+msgstr "逆时针"
+
+msgid "Edge Spin"
+msgstr "边缘旋转"
+
+msgid "Beauty Method"
+msgstr "美丽方法"
+
+msgid "Fixed/Clip Method"
+msgstr "固定/剪裁方法"
+
+msgid "Face Triangulation"
+msgstr "三角形划分"
+
+msgid "TripleConnectSpin: Invalid Edge Selection?"
+msgstr "TripleConnectSpin: 无效的边选择？"
+
+msgid "builtin.move"
+msgstr "内置移动"
+
+msgid "builtin.rotate"
+msgstr "内置旋转"
+
+msgid "builtin.scale"
+msgstr "内置缩放"
+
+msgctxt "Operator"
+msgid "TT Toggle"
+msgstr ""
+
+msgid "TT Default"
+msgstr "TT默认"
+
+msgid "TT Mouse Axis"
+msgstr "TT 鼠标轴"
+
+msgid "TT View Plane"
+msgstr "TT 视图平面"
+
+msgid "TT Cycle Modes"
+msgstr "循环模式"
+
+msgid "TT Reverse Cycle Modes"
+msgstr "TT逆向循环模式"
+
+msgid "Toggle Mode"
+msgstr "切换模式"
+
+msgctxt "Operator"
+msgid "TT Toggle Linked"
+msgstr "TT 切换链接"
+
+msgctxt "Operator"
+msgid "TT Move"
+msgstr "TT移动"
+
+msgid "TT Move - toggle between regular Grab, MouseAxis Move or VP Transform Move"
+msgstr "TT移动 - 切换常规抓取、鼠标轴移动或VP变换移动模式"
+
+msgctxt "Operator"
+msgid "TT Rotate"
+msgstr "旋转"
+
+msgid "TT Rotate - toggle between regular Rotate, MouseAxis Rotate or VP Transform Rotate"
+msgstr "TT旋转 - 切换常规旋转、鼠标轴旋转或VP变换旋转"
+
+msgctxt "Operator"
+msgid "TT Scale"
+msgstr "TT缩放"
+
+msgid "TT Rotate - toggle between regular Resize, MouseAxis Scale or VP Transform Scale"
+msgstr "TT 旋转 - 在普通缩放、鼠标轴缩放或顶点变换缩放之间切换"
+
+msgctxt "Operator"
+msgid "TT Duplicate"
+msgstr "复制"
+
+msgid ""
+"Duplicate linked is toggled with 'TT Toggle Linked'\n"
+"when duplicating with the current TT Move Op"
+msgstr "复制链接状态通过 TT Toggle Linked 切换，在使用当前 TT Move Op 进行复制时。"
+
+msgctxt "Operator"
+msgid "TT Link Duplicate"
+msgstr "TT 链接重复"
+
+msgid "Keep Width"
+msgstr "保持宽度"
+
+msgid "Rebevel Count"
+msgstr "倒角数量"
+
+msgid "Rebevel Profile"
+msgstr "倒角轮廓"
+
+msgid "Rebevel Merge UVs"
+msgstr "UV缝合并修正倾斜"
+
+msgid "You rarely want this"
+msgstr "你很少想要这个"
+
+msgid "Auto Ring Select"
+msgstr "自动环形选择"
+
+msgctxt "Operator"
+msgid "Unhide or Local Off"
+msgstr "隐藏或局部关闭"
+
+msgid "Unrotator Options"
+msgstr "旋转器选项"
+
+msgid "Rotation Offset"
+msgstr "旋转偏移量"
+
+msgid "Face Center"
+msgstr "面中心"
+
+msgid "Randomize Dupe Z"
+msgstr "随机化重复Z"
+
+msgid "Auto-Select Linked"
+msgstr "自动选择关联对象"
+
+msgid "Invert Rotation"
+msgstr "反转旋转"
+
+msgid "Center on Face"
+msgstr "聚焦于面"
+
+msgid "Unrotator: No Active Object?"
+msgstr "旋转器：没有活跃对象？"
+
+msgid "Unrotator: Selection Error - Incorrect/No geo Selected? Active Element?"
+msgstr "旋转器：选择错误 - 未选择正确的/没有几何体？活动元素？"
+
+msgid "Apply on Face Center"
+msgstr "应用于面中心"
+
+msgctxt "Operator"
+msgid "Unwrap Macro"
+msgstr "解包宏"
+
+msgid "Common UV-unwrapping tasks - all wrapped into one op/click"
+msgstr "常见的UV解包任务——全部合并到一个操作/点击中。"
+
+msgid "Auto-Pack"
+msgstr "自动打包"
+
+msgid "Pack UV's"
+msgstr "打包纹理坐标"
+
+msgid "Use Same UDIM"
+msgstr "使用相同的UDIM"
+
+msgid "Pack Margin"
+msgstr "打包边距"
+
+msgid "Allow Rotation"
+msgstr "允许旋转"
+
+msgid "Auto-Seam"
+msgstr "自动缝合"
+
+msgid "Seam Angle"
+msgstr "接缝角度"
+
+msgid "Canvas Align"
+msgstr "画布对齐"
+
+msgid "Top Left"
+msgstr "左上角"
+
+msgid "Top Right"
+msgstr "右上角"
+
+msgid "Bottom Left"
+msgstr "左下角"
+
+msgid "Bottom Right"
+msgstr "右下角"
+
+msgid "Texel Override"
+msgstr "纹理覆盖"
+
+msgid "Cancelled: TexTools Add-on not found"
+msgstr "已取消：TexTools 插件未找到"
+
+msgid "Aborted: Non-nodes material found - TexTools needs nodes"
+msgstr "中止：发现非节点材质 - TexTools 需要节点"
+
+msgid "Note: Report is also printed in console window"
+msgstr "注意：报告也会在控制台窗口打印。"
+
+msgid "UV Usage Report"
+msgstr "UV使用报告"
+
+msgctxt "Operator"
+msgid "UV Usage"
+msgstr "UV使用"
+
+msgid ""
+"Calculate and evaluate usage of 0-1 UV area,:\n"
+"by Selected UVs in Edit Mode or All UVs in Object Mode"
+msgstr "计算并评估0-1 UV区域的使用情况："
+
+msgid "UV 0-1 Overlap: Usage estimate invalid"
+msgstr "UV 0-1重叠：使用估计值无效"
+
+msgctxt "Operator"
+msgid "Vert Count Select"
+msgstr "顶点数量选择"
+
+msgid "Loose Vert"
+msgstr "松散顶点"
+
+msgid "Loose Edge"
+msgstr "松散边缘"
+
+msgid "2 Edges"
+msgstr "2 个边缘"
+
+msgid "Select Geo by Vert Count"
+msgstr "按顶点数量选择几何体"
+
+msgid "Object must be selected!"
+msgstr "对象必须被选中！"
+
+msgctxt "Operator"
+msgid "View Align Selected"
+msgstr "查看对齐选定"
+
+msgid "Align View to Active Face or 3 vertices."
+msgstr "将视图对齐至当前面或3个顶点。"
+
+msgctxt "Operator"
+msgid "View Align Toggle"
+msgstr "视图对齐切换"
+
+msgid "View Align Mode"
+msgstr "视图对齐模式"
+
+msgctxt "Operator"
+msgid "View Bookmarks"
+msgstr "查看书签"
+
+msgid "Function moved to unique operator - re-assign shortcut"
+msgstr "函数移至独立运算符 - 重分配快捷键"
+
+msgid "Cycle stored Viewport Bookmarks"
+msgstr "循环存储的视口书签"
+
+msgid "Get Viewpos"
+msgstr "获取视图位置"
+
+msgid "Set Viewpos"
+msgstr "设置视图坐标"
+
+msgctxt "Operator"
+msgid "VP-Transform"
+msgstr "顶点变换"
+
+msgid "Runs Grab,Rotate or Scale with View Planes auto-locked based on your viewport rotation."
+msgstr "基于视图旋转，自动锁定视口平面以运行Grab、旋转或缩放。"
+
+msgid "No objects selected"
+msgstr "未选择任何对象"
+
+msgctxt "Operator"
+msgid "VP Flip"
+msgstr "视图翻转"
+
+msgctxt "Operator"
+msgid "VP Step Rotate"
+msgstr "视图步骤旋转"
+
+msgid "No Context Object?"
+msgstr "没有上下文物体？"
+
+msgid "Toggles specified weighting on or off on selected elements"
+msgstr "切换所选元素指定权重开关状态"
+
+msgid "Edge Group"
+msgstr "边缘组"
+
+msgid "Bevel Weight"
+msgstr "倒角权重"
+
+msgid "Crease Weight"
+msgstr "褶皱权重"
+
+msgid "Weight Type"
+msgstr "权重类型"
+
+msgid "Invalid selection mode - use Edge/Face mode."
+msgstr "无效的模式选择 - 使用边/面模式。"
+
+msgid "Per Object"
+msgstr "逐个对象"
+
+msgid "Random transform applied per Object as Shape Key"
+msgstr "每物体应用随机变换作为形状关键"
+
+msgid "Per Part"
+msgstr "分部分"
+
+msgid "Per Vert"
+msgstr "按顶点"
+
+msgid "Shape Key Value"
+msgstr "形状键值"
+
+msgid "Override Wonk-factor"
+msgstr "覆盖歪曲因子"
+
+msgid "Replace Wonkify SK"
+msgstr "替换 Wonkify SK"
+
+msgid "Use Delta TF"
+msgstr "使用Delta TF"
+
+msgid "Non-mesh Objects: Use Delta Transform instead of regular Tf"
+msgstr "非网格物体：使用Delta变换代替常规Tf"
+
+msgid "Wonk Factor"
+msgstr "Wonk Factor"
+
+msgid "Set Wonk-factor for non-mesh objects"
+msgstr "设置非网格物体的稳定性因子"
+
+msgid "Non-Mesh Mode:"
+msgstr "非网格模式："
+
+msgctxt "Operator"
+msgid "Zero Local"
+msgstr ""
+
+msgctxt "Operator"
+msgid "ZeroScale H"
+msgstr "ZeroScale H"
+
+msgid "Zero-scale selected elements to horizontal axis on the screen"
+msgstr "将选中的元素在屏幕上水平轴上零缩放。"
+
+msgid "No Elements Selected?"
+msgstr "未选中任何元素？"
+
+msgctxt "Operator"
+msgid "ZeroScale V"
+msgstr ""
+
+msgid "Zero-scale selected elements to the vertical axis on the screen"
+msgstr "将选定的元素在屏幕上缩放到垂直轴上。"
+
+msgctxt "Operator"
+msgid "ZeroScale Normal"
+msgstr ""
+
+msgctxt "Operator"
+msgid "ZeroScale Cursor"
+msgstr ""
+
+msgctxt "Operator"
+msgid "Pie Operators"
+msgstr "饼图操作器"
+
+msgctxt "Operator"
+msgid "Object Control"
+msgstr "对象控制"
+
+msgid "Show Wireframe"
+msgstr "显示线框"
+
+msgid "Show Extras"
+msgstr "显示额外"
+
+msgid "Show Edge Seams"
+msgstr "显示边缘接缝"
+
+msgid "Show Edge Sharp"
+msgstr "显示边缘锐利"
+
+msgid "Show Edge Crease"
+msgstr "显示边缘折角"
+
+msgid "Show Edge Bevel Weight"
+msgstr "显示边倒角权重"
+
+msgid "Show Face Orientation"
+msgstr "显示面朝向"
+
+msgid "Show Indices"
+msgstr "显示索引"
+
+msgid "Toggle Edit Overlays"
+msgstr "切换编辑覆盖层"
+
+msgid "Toggle Overlays"
+msgstr "切换覆盖层"
+
+msgid "Show Origins"
+msgstr "展示起源"
+
+msgid "Show Cursor"
+msgstr "显示光标"
+
+msgid "Show Selection Outline"
+msgstr "显示选择轮廓"
+
+msgid "Show Object Wireframes"
+msgstr "显示物体线框"
+
+msgid "Show Object Outline"
+msgstr "显示对象轮廓"
+
+msgid "Show Vertex Weights"
+msgstr "显示顶点权重"
+
+msgid "Show Bones"
+msgstr "显示骨骼"
+
+msgid "Show Stats"
+msgstr "显示统计信息"
+
+msgid "Show Ortho Grid"
+msgstr "显示正交网格"
+
+msgid "Show Lengths"
+msgstr "显示长度"
+
+msgid "Overlay Type"
+msgstr "覆盖类型"
+
+msgctxt "Operator"
+msgid "Modifier Focus"
+msgstr "修饰器焦点"
+
+msgid "SubD Toggle Options"
+msgstr "子表面切换选项"
+
+msgid "VP Lv"
+msgstr ""
+
+msgid "Render Lv"
+msgstr "渲染场景"
+
+msgid "Flat Shade when off"
+msgstr "关闭时为平面色"
+
+msgctxt "Operator"
+msgid "Toggle/Set Subd Levels"
+msgstr "切换/设置细分曲面级别"
+
+msgid "Toggle Subd"
+msgstr "切换细分曲面"
+
+msgid "Set Viewport Levels"
+msgstr "设置视口层级"
+
+msgid "Set Render Levels"
+msgstr "设置渲染级别"
+
+msgid "Level Mode"
+msgstr "层级模式"
+
+msgctxt "Operator"
+msgid "Step Subd Levels"
+msgstr "细分层级"
+
+msgid "Invalid Type Selection"
+msgstr "无效的类型选择"

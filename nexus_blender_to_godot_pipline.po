@@ -1,0 +1,4035 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-11 15:00+0800\n"
+"PO-Revision-Date: 2026-11-11 15:00+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Strip Name"
+msgstr "条带名称"
+
+msgid "Armature Name"
+msgstr "骨骼名称"
+
+msgid "Loop Type"
+msgstr "循环类型"
+
+msgid "Defines how this animation strip should behave in Godot."
+msgstr "定义该动画条带在 Godot 中的行为。"
+
+msgid "Use Root Motion"
+msgstr "使用根运动"
+
+msgid "Tags this animation to use Root Motion in Godot (e.g. for AnimationTree)."
+msgstr "将此动画标记为在 Godot 中使用根运动（例如用于 AnimationTree）。"
+
+msgid "Export Strip"
+msgstr "导出条带"
+
+msgid "Include this NLA strip in the glTF export."
+msgstr "将 NLA 条带包含在 glTF 导出中。"
+
+msgctxt "Operator"
+msgid "Initialize Animation Settings"
+msgstr "初始化动画设置"
+
+msgid "Create persistent export settings for NLA strips on the active object."
+msgstr "为活动对象创建持久的 NLA 条带导出设置。"
+
+msgid "All strips are already initialized. No orphaned settings found."
+msgstr "所有条带已初始化。未找到孤立的设置项。"
+
+msgid "Settings for: {strip.name}"
+msgstr "设置：{strip.name}"
+
+msgid "No action linked (e.g. Meta strip). Strip will not be exported."
+msgstr "未链接任何动作（例如 Meta 条带）。该条带将不会被导出。"
+
+msgid "Root Motion"
+msgstr "根运动"
+
+msgid "This strip will be ignored during export."
+msgstr "此条带将在导出时被忽略。"
+
+msgid "Godot Animation Export"
+msgstr "Godot 动画导出"
+
+msgid "Select an NLA strip to see its settings."
+msgstr "选择一个 NLA 条带以查看其设置。"
+
+msgid "'{strip.name}' is not yet initialized."
+msgstr "'{strip.name}' 尚未初始化。"
+
+msgctxt "Operator"
+msgid "Initialize Missing Strip Settings"
+msgstr "初始化缺失的条带设置"
+
+msgctxt "Operator"
+msgid "Scan/Refresh All Strips"
+msgstr "扫描/刷新所有条带"
+
+msgctxt "Operator"
+msgid "Cancel Batch Export"
+msgstr "取消批量导出"
+
+msgctxt "Operator"
+msgid "Start Batch Export"
+msgstr "开始批量导出"
+
+msgid "Searches a root directory for .blend files and exports all marked assets in a background process."
+msgstr "在根目录中搜索.blend 文件，并在后台进程中导出所有已标记的资产。"
+
+msgid "Smart (changed only)"
+msgstr "智能（仅更改）"
+
+msgid "Force (all files)"
+msgstr "强制（所有文件）"
+
+msgid "Select files to export first"
+msgstr "先选择要导出的文件"
+
+msgid "Exports {count} file(s) in {mode_label} mode"
+msgstr "以 {mode_label} 模式导出 {count} 个文件"
+
+msgid "Project Root not set. Configure in Project Paths."
+msgstr "未设置项目根目录。请在“项目路径”中配置。"
+
+msgid "Target folder does not exist. Configure in Project Paths."
+msgstr "目标文件夹不存在。请在“项目路径”中配置。"
+
+msgid "Target folder is not a Godot project: {target_path}"
+msgstr "目标文件夹不是 Godot 项目：{target_path}"
+
+msgid "No files selected."
+msgstr "未选择文件。"
+
+msgid "Could not acquire batch export lock. Another batch may still be running in Godot."
+msgstr "无法获取批量导出锁。Godot 中可能仍有另一个批处理正在运行。"
+
+msgid "Batch export cancelled."
+msgstr "已取消批量导出。"
+
+msgid "{len(self._failed_files)} files failed."
+msgstr "{len(self._failed_files)} 个文件失败。"
+
+msgid "Batch export finished successfully."
+msgstr "批量导出成功完成。"
+
+msgctxt "Operator"
+msgid "Browse Root"
+msgstr "浏览根目录"
+
+msgctxt "Operator"
+msgid "Scan Directory"
+msgstr "扫描目录"
+
+msgid "Invalid Directory"
+msgstr "无效目录"
+
+msgid "Found {len(files)} files."
+msgstr "找到 {len(files)} 个文件。"
+
+msgctxt "Operator"
+msgid "Select All/None"
+msgstr "全选/取消全选"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Deselect"
+msgstr "取消选择"
+
+msgid "Could not import nexus addon submodule '{submodule}'"
+msgstr "无法导入 Nexus 插件子模块 '{submodule}'"
+
+msgid "NEXUS_HOOK_ERRORS"
+msgstr "NEXUS_HOOK 错误"
+
+msgid "Nexus Export Pipeline Metadata Extension"
+msgstr "Nexus 导出管线元数据扩展"
+
+msgid "NEXUS Pre-Export ({coll_name}): {type(e).__name__}: {e}"
+msgstr "NEXUS 导出前 ({coll_name})：{type(e).__name__}：{e}"
+
+msgid "NEXUS Post-Export ({coll_name}): {type(e).__name__}: {e}"
+msgstr "NEXUS 导出后 ({coll_name})：{type(e).__name__}：{e}"
+
+msgid "NEXUS gather_image_hook: {exc}"
+msgstr "NEXUS 收集图像钩子：{exc}"
+
+msgid "Non-terminated string"
+msgstr "未终止的字符串"
+
+msgid "Unexpected token when parsing type value: {scene[i]}"
+msgstr "解析类型值时遇到意外的标记：{scene[i]}"
+
+msgid "Unexpected token when parsing key: {scene[idx]}"
+msgstr "解析键时遇到意外标记：{scene[idx]}"
+
+msgid "Unexpected token when parsing object: {scene[i]}"
+msgstr "解析对象时遇到意外的标记：{scene[i]}"
+
+msgid "Unexpected token when parsing array: {scene[i]}"
+msgstr "解析数组时遇到意外的标记：{scene[i]}"
+
+msgid "Unexpected token when parsing inline object: {scene[i]}"
+msgstr "解析内联对象时出现意外的令牌：{scene[i]}"
+
+msgid "Unexpected token when parsing value: {scene[idx]}"
+msgstr "解析值时遇到意外的标记：{scene[idx]}"
+
+msgid "Unexpected token when parsing key value pairs: {scene[i]}"
+msgstr "解析键值对时出现意外的标记：{scene[i]}"
+
+msgid "Unexpected token when parsing gd_scene header: {scene[i]}"
+msgstr "解析 gd_scene 头时遇到意外的标记：{scene[i]}"
+
+msgid "Unexpected token when parsing connection header: {scene[i]}"
+msgstr "解析连接头时遇到意外令牌：{scene[i]}"
+
+msgid "Missing signal attribute in connection header"
+msgstr "连接头中缺少信号属性"
+
+msgid "Unexpected token when parsing sub_resource header: {scene[i]}"
+msgstr "解析子资源头时遇到意外的令牌：{scene[i]}"
+
+msgid "Missing id attribute in sub_resource header"
+msgstr "子资源头中缺少 id 属性"
+
+msgid "Unexpected token when parsing ext_resource header: {scene[i]}"
+msgstr "解析 ext_resource 头时出现意外的 token：{scene[i]}"
+
+msgid "Missing id attribute in ext_resource header"
+msgstr "ext_resource 头中缺少 id 属性"
+
+msgid "Unexpected token when parsing node header: {scene[i]}"
+msgstr "解析 node 头时出现意外的 token：{scene[i]}"
+
+msgid "Missing name attribute in node header"
+msgstr "node 头中缺少 name 属性"
+
+msgid "Unknown header type: {def_type}"
+msgstr "未知的头类型：{def_type}"
+
+msgid "Scene file not found: {scene_path}"
+msgstr "未找到场景文件：{scene_path}"
+
+msgid "Unexpected token when parsing scene: {scene[i]}"
+msgstr "解析场景时出现意外的 token：{scene[i]}"
+
+msgid "NEXUS_TEMP_FALLBACK"
+msgstr "NEXUS_TEMP_FALLBACK"
+
+msgid "{orig.name}_dup_{index}"
+msgstr "{orig.name}_dup_{index}"
+
+msgid "nexus_icons"
+msgstr "nexus 图标"
+
+msgid "Ctrl+MMB to resize sidebar"
+msgstr "Ctrl + MMB 调整侧边栏大小"
+
+msgid "omni_panorama_required"
+msgstr "全景图所需"
+
+msgid "unsupported_gobo_graph"
+msgstr "不支持的图块图"
+
+msgid "gobo_image_file_missing"
+msgstr "gobo 图像文件缺失"
+
+msgid "No supported gobo texture (Image Texture -> Emission -> Light Output)."
+msgstr "不支持的遮罩贴图（图像纹理 -> 发光 -> 灯光输出）。"
+
+msgid "Enable Use Nodes and wire Image Texture to Emission for gobo export."
+msgstr "启用使用节点并将图像纹理连接到发射器，用于 gob 导出。"
+
+msgid "Gobo: {image_name} ({mode})"
+msgstr "遮罩：{image_name}（{mode}）"
+
+msgid "Directional light energy {energy} exceeds Godot import cap {DIRECTIONAL_ENERGY_CAP}; Blender watts restored without cap."
+msgstr "方向光能量 {energy} 超过 Godot 导入限制 {DIRECTIONAL_ENERGY_CAP}；Blender 瓦特已恢复且无限制。"
+
+msgid "Synced {len(result.synced)} light(s) from {result.scene_style} scene."
+msgstr "同步了来自 {result.scene_style} 场景的 {len(result.synced)} 个光源。"
+
+msgid "{entry['name']}  |  {block_count} blocks  |  {entry['filepath']}"
+msgstr "{entry['name']}  |  {block_count} 个块  |  {entry['filepath']}"
+
+msgctxt "Operator"
+msgid "Relink Moved Materials"
+msgstr "重新链接已移动的材质"
+
+msgid "Successfully relinked {count} materials."
+msgstr "成功重新链接了 {count} 个材质。"
+
+msgid "No materials were relinked. Check System Console."
+msgstr "没有材质被重新链接。检查系统控制台。"
+
+msgctxt "Operator"
+msgid "Locate Missing Library"
+msgstr "查找缺失的库文件"
+
+msgid "Could not read selected library file."
+msgstr "无法读取选定的库文件。"
+
+msgid "Repathed {repathed} libraries to {Path(self.filepath).name}."
+msgstr "已将 {repathed} 个库文件的路径更新为 {Path(self.filepath).name}。"
+
+msgid "Selected file does not contain the missing data-blocks."
+msgstr "所选文件不包含缺失的数据块。"
+
+msgctxt "Operator"
+msgid "Refresh Missing Libraries"
+msgstr "刷新缺失的库文件"
+
+msgid "{count} missing linked libraries."
+msgstr "{count} 个链接的库文件已丢失。"
+
+msgid "All linked libraries resolve."
+msgstr "所有链接库已解析。"
+
+msgctxt "Operator"
+msgid "Assign Missing Material IDs"
+msgstr "分配缺失的材质 ID"
+
+msgid "{assigned_count} new Material IDs assigned."
+msgstr "已分配 {assigned_count} 个新材质 ID。"
+
+msgctxt "Operator"
+msgid "Validate Material Index"
+msgstr "验证材质索引"
+
+msgid "Material index is consistent."
+msgstr "材质索引一致。"
+
+msgid "Index issues found: {', '.join(msg)}"
+msgstr "发现索引问题：{', '.join(msg)}"
+
+msgctxt "Operator"
+msgid "Cleanup Orphaned Material Index Entries"
+msgstr "清理孤立的材质索引条目"
+
+msgid "{removed} orphaned entries removed from the material index."
+msgstr "已从材质索引中移除 {removed} 个孤立条目。"
+
+msgid "Material Index is clean or missing."
+msgstr "材质索引已清洁或不存在。"
+
+msgctxt "Operator"
+msgid "Validate Project Health"
+msgstr "验证项目健康状态"
+
+msgid "Project health check complete."
+msgstr "项目健康检查完成。"
+
+msgctxt "Operator"
+msgid "Validate Asset Index"
+msgstr "验证资产索引"
+
+msgctxt "Operator"
+msgid "Cleanup Orphaned Index Entries"
+msgstr "清理孤立的索引条目"
+
+msgctxt "Operator"
+msgid "Cleanup Orphaned Entries"
+msgstr "清理孤立的条目"
+
+msgctxt "Operator"
+msgid "Remove Orphaned Entry"
+msgstr "删除孤立条目"
+
+msgid "Asset"
+msgstr "资产"
+
+msgid "Material"
+msgstr "材质"
+
+msgid "This removes the index entry. The file path will no longer be tracked."
+msgstr "这将移除索引条目。文件路径将不再被跟踪。"
+
+msgctxt "Operator"
+msgid "Register Unindexed File"
+msgstr "注册未索引的文件"
+
+msgctxt "Operator"
+msgid "Delete Unindexed Files"
+msgstr "删除未索引的文件"
+
+msgctxt "Operator"
+msgid "Delete Unindexed File"
+msgstr "删除未索引的文件"
+
+msgid "PLAIN_AXES"
+msgstr "PLAIN_AXES"
+
+msgid "SINGLE_ARROW"
+msgstr "SINGLE_ARROW"
+
+msgctxt "Operator"
+msgid "Apply to Selected Objects"
+msgstr "应用到选定对象"
+
+msgctxt "Operator"
+msgid "Pick Bone"
+msgstr "选择骨骼"
+
+msgid "Switch to armature Pose mode, then click a bone to attach the selected object"
+msgstr "切换到骨架姿态模式，然后点击一个骨骼以将选定的对象绑定到该骨骼"
+
+msgid "No armature in collection"
+msgstr "集合中没有骨架"
+
+msgid "Click on a bone (Esc to cancel)"
+msgstr "点击一个骨骼（按 Esc 取消）"
+
+msgid "Attached to bone '{bone_name}'"
+msgstr "已绑定到骨骼 '{bone_name}'"
+
+msgid "No bone selected"
+msgstr "未选择骨骼"
+
+msgctxt "Operator"
+msgid "Clear Bone"
+msgstr "清除骨骼"
+
+msgid "Remove attachment to bone (unparent from armature bone)"
+msgstr "移除与骨骼的连接（从骨架中解绑）"
+
+msgid "Bone link cleared"
+msgstr "骨骼链接已清除"
+
+msgctxt "Operator"
+msgid "Add Metadata"
+msgstr "添加元数据"
+
+msgctxt "Operator"
+msgid "Remove Metadata"
+msgstr "移除元数据"
+
+msgctxt "Operator"
+msgid "Select Resonance Material"
+msgstr "选择共振材质"
+
+msgid "__index_{index}"
+msgstr "__index_{index}"
+
+msgid "Could not read glTF JSON from '{gltf_path}'"
+msgstr "无法从 '{gltf_path}' 读取 glTF JSON"
+
+msgid "extras block missing"
+msgstr "缺少 extras 块"
+
+msgid "Could not read optimized GLB JSON chunk."
+msgstr "无法读取优化的 GLB JSON 块。"
+
+msgid "Nexus metadata or parity check failed after gltfpack: {preview}"
+msgstr "Nexus 元数据或一致性检查在 gltfpack 后失败：{preview}"
+
+msgid "Could not write optimized GLB."
+msgstr "无法写入优化的 GLB。"
+
+msgid "Could not read optimized glTF: {exc}"
+msgstr "无法读取优化的 glTF：{exc}"
+
+msgid "Could not patch optimized glTF."
+msgstr "无法修补优化的 glTF。"
+
+msgid "Could not backup original file before applying optimization."
+msgstr "在应用优化之前无法备份原始文件。"
+
+msgid "Could not backup original buffer before applying optimization."
+msgstr "在应用优化之前无法备份原始缓冲区。"
+
+msgid "Could not read optimized glTF before commit: {exc}"
+msgstr "在提交前无法读取优化的 glTF：{exc}"
+
+msgid "Could not patch optimized glTF before commit."
+msgstr "在提交前无法修补优化的 glTF。"
+
+msgid "Could not replace original with optimized file."
+msgstr "无法用优化后的文件替换原始文件。"
+
+msgid "Optimizer enabled but 'gltfpack' binary not found."
+msgstr "启用了优化器但未找到 'gltfpack' 二进制文件。"
+
+msgid "Optimizer does not support '{suffix}' exports."
+msgstr "优化器不支持 '{suffix}' 导出。"
+
+msgid "Could not read original metadata: {exc}"
+msgstr "无法读取原始元数据：{exc}"
+
+msgid "compressed (-cc)"
+msgstr "压缩 (-cc)"
+
+msgid "clean (-noq)"
+msgstr "清理 (-noq)"
+
+msgid "gltfpack failed (exit {exc.returncode})."
+msgstr "gltfpack 失败（退出码 {exc.returncode}）。"
+
+msgid "gltfpack run executed but did not produce an output file."
+msgstr "gltfpack run 已执行但未生成输出文件。"
+
+msgid "Optimized file ({opt_bytes} B) is not smaller than original ({orig_bytes} B)."
+msgstr "优化后的文件 ({opt_bytes} B) 不比原始文件 ({orig_bytes} B) 小。"
+
+msgid "{orig_bytes} -> {opt_bytes} B (-{saved_pct}%)"
+msgstr "{orig_bytes} -> {opt_bytes} B (-{saved_pct}%)"
+
+msgid "Optimized file ({opt_bytes} B) is significantly larger than original ({orig_bytes} B)."
+msgstr "优化后的文件 ({opt_bytes} B) 比原始文件 ({orig_bytes} B) 大得多。"
+
+msgid "{orig_bytes} -> {opt_bytes} B (no size change)"
+msgstr "{orig_bytes} -> {opt_bytes} B（无大小变化）"
+
+msgid "Best guess"
+msgstr "最佳猜测"
+
+msgid "Dedicated folder when a material is used in multiple export collections; otherwise next to asset"
+msgstr "当材质在多个导出集合中使用时，使用专用文件夹；否则放在资产旁边"
+
+msgid "Next to asset"
+msgstr "资产旁边"
+
+msgid "Materials and shaders beside each exported asset"
+msgstr "导出的每个资产旁边的材质和着色器"
+
+msgid "Dedicated folder"
+msgstr "专用文件夹"
+
+msgid "Per-material bundles under materials/{name}/ (shaders + components)"
+msgstr "在 materials/{name}/ 下的每材质捆绑包（着色器 + 组件）"
+
+msgid "Dedicated folder when the material is used in multiple export collections; otherwise next to asset"
+msgstr "当材质在多个导出集合中使用时，使用专用文件夹；否则放在资产旁边"
+
+msgid "Textures beside each exported asset"
+msgstr "导出的每个资产旁边的贴图"
+
+msgid "Shared textures/ folder under the resource base path"
+msgstr "资源基础路径下的 shared textures/ 文件夹"
+
+msgid "Materials, textures, and shaders beside each exported asset"
+msgstr "导出的每个资产旁边的材质、贴图和着色器"
+
+msgid "Per-material bundles under materials/{name}/ (shaders + components); shared textures/ folder"
+msgstr "材质/ {name}/ 下的材料捆绑包（着色器 + 组件）；共享纹理/ 文件夹"
+
+msgid "DEDICATED_FOLDER"
+msgstr "DEDICATED_FOLDER"
+
+msgid "Godot target path is not configured."
+msgstr "未配置 Godot 目标路径。"
+
+msgid "{stem}_{bake_suffix}_bake_{index}.png"
+msgstr "{stem}_{bake_suffix}_bake_{index}.png"
+
+msgid "{stem}_{bake_suffix}_bake.png"
+msgstr "{stem}_{bake_suffix}_bake.png"
+
+msgid "Godot Transform3D basis requires 9 floats"
+msgstr "Godot Transform3D basis 需要 9 个浮点数"
+
+msgid "glTF column-major matrix requires 16 floats"
+msgstr "glTF 列主矩阵需要 16 个浮点数"
+
+msgid "Blender matrix requires 4x4 rows"
+msgstr "Blender 矩阵需要 4x4 行"
+
+msgid "Godot Transform3D origin requires 3 floats"
+msgstr "Godot Transform3D origin 需要 3 个浮点数"
+
+msgid "No valid Assets detected."
+msgstr "未检测到有效的 Assets。"
+
+msgid "{invalid_count} invalid source(s) found."
+msgstr "{invalid_count} 个无效源对象已找到。"
+
+msgid "Could not switch to Object Mode."
+msgstr "无法切换到对象模式。"
+
+msgid "No active object found."
+msgstr "未找到活动对象。"
+
+msgid "No other objects selected."
+msgstr "未选择其他对象。"
+
+msgid "An error occurred: {e}"
+msgstr "发生错误：{e}"
+
+msgid "Operation applied to {len(target_objects)} objects."
+msgstr "操作已应用于 {len(target_objects)} 个对象。"
+
+msgid "Collection '{collection.name}' has painted vertex colors but '{gltf_path.name}' contains no COLOR_0 attribute. Enable 'Force Export' once and check the System Console."
+msgstr "集合 '{collection.name}' 包含绘制的顶点颜色，但 '{gltf_path.name}' 不包含 COLOR_0 属性。启用“强制导出”一次并检查系统控制台。"
+
+msgid "pick_canonical_collection requires at least one collection"
+msgstr "pick_canonical_collection 至少需要一个集合"
+
+msgctxt "Operator"
+msgid "Select Godot Script"
+msgstr "选择 Godot 脚本"
+
+msgctxt "Operator"
+msgid "Select Physics Material"
+msgstr "选择物理材质"
+
+msgctxt "Operator"
+msgid "Auto-Detect Target Asset"
+msgstr "自动检测目标资产"
+
+msgid "'Target Asset ID' set to '{target_asset_id}'."
+msgstr "'目标资产 ID' 已设置为 '{target_asset_id}'。"
+
+msgid "Could not detect an Asset ID. Please ensure the source collection has one."
+msgstr "无法检测到资产 ID。请确保源集合包含一个资产 ID。"
+
+msgctxt "Operator"
+msgid "Setup Linked Animation Target"
+msgstr "设置链接动画目标"
+
+msgid "Library Override created successfully."
+msgstr "库覆盖创建成功。"
+
+msgid "Failed to create override: {e}"
+msgstr "创建覆盖失败：{e}"
+
+msgctxt "Operator"
+msgid "Copy Asset ID"
+msgstr "复制资产 ID"
+
+msgid "Asset ID '{asset_id}' copied to clipboard."
+msgstr "资产 ID '{asset_id}' 已复制到剪贴板。"
+
+msgctxt "Operator"
+msgid "Regenerate Asset ID"
+msgstr "重新生成资产 ID"
+
+msgid "New ID '{coll_props.asset_id}' replaced old ID '{old_id}'."
+msgstr "新 ID '{coll_props.asset_id}' 替换了旧 ID '{old_id}'。"
+
+msgctxt "Operator"
+msgid "Identify Invalid Sources"
+msgstr "识别无效源"
+
+msgid "No invalid instances found."
+msgstr "未找到任何无效实例。"
+
+msgid "Validation error reported, but no specific invalid sources found."
+msgstr "报告验证错误，但未发现具体的无效源。"
+
+msgid "The following sources are not valid Assets:"
+msgstr "以下源不是有效的资产："
+
+msgid "Please set their Export Type to 'Asset' or 'Skeletal Asset'."
+msgstr "请将它们的导出类型设置为“资产”或“骨骼资产”。"
+
+msgid "Invalid MultiMesh Sources"
+msgstr "无效的 MultiMesh 源"
+
+msgctxt "Operator"
+msgid "Refresh MultiMesh Analysis"
+msgstr "刷新 MultiMesh 分析"
+
+msgid "MultiMesh analysis refreshed."
+msgstr "MultiMesh 分析已刷新。"
+
+msgctxt "Operator"
+msgid "Sync Lights"
+msgstr "同步灯光"
+
+msgctxt "Operator"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+msgid "Slot"
+msgstr "插槽"
+
+msgid "(Empty)"
+msgstr "(空)"
+
+msgid "No valid collections selected. (Scene root is excluded.)"
+msgstr "未选择有效的集合。（场景根被排除。）"
+
+msgid "No preset in this slot."
+msgstr "此插槽中无预设。"
+
+msgid "Invalid preset data."
+msgstr "无效的预设数据。"
+
+msgid "Applied preset '{preset.name}' to {count} collection{'s' if count != 1 else ''}."
+msgstr "已将预设 '{preset.name}' 应用到 {count} 个{'s' if count != 1 else ''} 集合。"
+
+msgctxt "Operator"
+msgid "Manage Collection Presets"
+msgstr "管理集合预设"
+
+msgctxt "Operator"
+msgid "Save Current"
+msgstr "保存当前"
+
+msgid "Preset {idx + 1}"
+msgstr "预设 {idx + 1}"
+
+msgid "Project paths not set. Presets saved to scene only."
+msgstr "未设置项目路径。仅保存到场景。"
+
+msgid "Saved to slot {idx + 1}: '{preset.name}'."
+msgstr "已保存到槽 {idx + 1}：'{preset.name}'。"
+
+msgctxt "Operator"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+msgctxt "Operator"
+msgid "Move Preset"
+msgstr "移动预设"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Up"
+msgstr "上"
+
+msgid "Down"
+msgstr "下"
+
+msgid "Node3D"
+msgstr "Node3D"
+
+msgid "The root node will be a simple Node3D. Use this for general assets and levels."
+msgstr "根节点将是一个简单的 Node3D。适用于通用资产和关卡。"
+
+msgid "StaticBody3D"
+msgstr "StaticBody3D"
+
+msgid "The root node will be a Godot StaticBody3D. Use for static world geometry."
+msgstr "根节点将是一个 Godot StaticBody3D。用于静态世界几何体。"
+
+msgid "RigidBody3D"
+msgstr "刚体 3D"
+
+msgid "The root node will be a Godot RigidBody3D. Use for physics objects."
+msgstr "根节点将是一个 Godot RigidBody3D。用于物理对象。"
+
+msgid "Area3D"
+msgstr "区域 3D"
+
+msgid "The root node will be a Godot Area3D. Use for triggers or detection volumes."
+msgstr "根节点将是一个 Godot Area3D。用于触发器或检测体积。"
+
+msgid "CharacterBody3D"
+msgstr "角色身体 3D"
+
+msgid "The root node will be a Godot CharacterBody3D. Recommended for skeletal assets."
+msgstr "根节点将是一个 Godot CharacterBody3D。推荐用于骨骼资产。"
+
+msgid "NavigationRegion3D"
+msgstr "导航区域 3D"
+
+msgid "The root node is a NavigationRegion3D. Use for defining walkable areas."
+msgstr "根节点是 NavigationRegion3D。用于定义可行走区域。"
+
+msgid "Animation Library '{coll.name}': glTF collection export failed."
+msgstr "动画库 '{coll.name}'：glTF 集合导出失败。"
+
+msgid "Animation Library '{coll.name}': glTF export produced no output file."
+msgstr "动画库 '{coll.name}'：glTF 导出未生成输出文件。"
+
+msgid "glTF: extracted {_prim_count} primitives"
+msgstr "glTF：提取了 {_prim_count} 个原语"
+
+msgid "Collection '{child_collection.name}' ({child_type}) is under Exclude collection '{exclude_collection.name}' and will not be exported. Use None or Folder for organizational grouping instead."
+msgstr "集合 '{child_collection.name}' ({child_type}) 位于排除集合 '{exclude_collection.name}' 之下，将不会被导出。请使用 None 或 Folder 进行组织分组。"
+
+msgid "Collection hierarchy error: folder '{folder_collection.name}' can only be nested under None, Exclude, or Folder collections, not under '{outer_collection.name}' ({_export_type(outer_collection).lower().replace('_', ' ')})."
+msgstr "集合层级错误：文件夹 '{folder_collection.name}' 只能嵌套在 None、Exclude 或 Folder 集合下，而不能嵌套在 '{outer_collection.name}' ({_export_type(outer_collection).lower().replace('_', ' ')} ) 之下。"
+
+msgid "Collection hierarchy error: {type_label} '{child_collection.name}' cannot be nested inside '{outer_collection.name}' ({outer_label}). {type_label.title()} collections must be placed under {allowed}."
+msgstr "集合层级错误：{type_label} '{child_collection.name}' 不能嵌套在 '{outer_collection.name}' ({outer_label}) 内部。{type_label.title()} 集合必须放置在 {allowed} 之下。"
+
+msgid "Collection hierarchy error: instance '{instance_object.name}' not allowed inside '{parent_collection.name}' ({_export_type(parent_collection).lower().replace('_', ' ')}). Use nested Asset/Skeletal, or place in Combined/Level/AnimLib/MultiMesh."
+msgstr "集合层级错误：实例 '{instance_object.name}' 不允许放在 '{parent_collection.name}' ({_export_type(parent_collection).lower().replace('_', ' ')} ) 内部。请使用嵌套的 Asset/Skeletal，或将它们放在 Combined/Level/AnimLib/MultiMesh 中。"
+
+msgid "Collection hierarchy error: '{inner_collection.name}' cannot be exported under folder '{folder_collection.name}' inside exportable collection '{outer_collection.name}'."
+msgstr "集合层级错误：'{inner_collection.name}' 不能作为文件夹 '{folder_collection.name}' 导出到可导出的集合 '{outer_collection.name}' 之下。"
+
+msgid "has no node list"
+msgstr "没有节点列表"
+
+msgid "has no instance marker nodes"
+msgstr "没有实例标记节点"
+
+msgid "Only external .bin buffers are supported"
+msgstr "仅支持外部 .bin 缓冲区"
+
+msgid "Missing buffer file: {bin_path}"
+msgstr "缺少缓冲文件：{bin_path}"
+
+msgid "Unsupported accessor for animation samples: {acc}"
+msgstr "不支持的动画样本访问器：{acc}"
+
+msgid "No animations in glTF"
+msgstr "glTF 中没有动画"
+
+msgid "Animation library exported with static poses only ({len(anims)} clip(s), 0 channels with motion). Check armature pose mode and NLA strips before export."
+msgstr "动画库仅导出了静态姿势（{len(anims)} 个剪辑，0 个通道带有运动）。在导出前检查绑定器姿势模式和 NLA 条带。"
+
+msgid "Composition glTF '{gltf_name}' is empty (no nodes). Collection '{collection_name}' has no exportable instance empties or inline geometry. Add collection instance empties for separately exported child collections, or inline mesh content."
+msgstr "组合 glTF '{gltf_name}' 为空（没有节点）。集合 '{collection_name}' 没有可导出的实例空对象或内联几何体。为单独导出的子集添加集合实例空对象，或将网格内容内联。"
+
+msgid "Composition glTF '{gltf_name}' has no exportable nodes/markers but collection '{collection_name}' still has exportable content"
+msgstr "组合 glTF '{gltf_name}' 没有可导出的节点/标记器，但集合 '{collection_name}' 仍然有可导出内容"
+
+msgid "Third-party glTF hooks detected: {', '.join(hook_names)}."
+msgstr "检测到第三方 glTF 钩子：{', '.join(hook_names)}。"
+
+msgid "A third-party glTF exporter extension may be mutating the scene during export."
+msgstr "第三方 glTF 导出器扩展可能会在导出期间修改场景。"
+
+msgid "Level '{collection.name}' exported with no glTF nodes but contains collection instances. Linked library assets may be missing in Godot.{hook_hint} Nexus disables known hooks automatically during export; for manual glTF export, turn off preprocessing in the glTF export dialog."
+msgstr "级别 '{collection.name}' 导出的 glTF 节点为空，但包含集合实例。关联库资产可能在 Godot 中缺失。{hook_hint} Nexus 会在导出时自动禁用已知钩子；对于手动 glTF 导出，请在 glTF 导出对话框中关闭预处理。"
+
+msgid "GeometryNodeObjectInfo"
+msgstr "GeometryNodeObjectInfo"
+
+msgid "GeometryNodeCollectionInfo"
+msgstr "GeometryNodeCollectionInfo"
+
+msgid "_NEXUS_DUP_PROBE"
+msgstr "_NEXUS_DUP_PROBE"
+
+msgid "Unsaved.blend"
+msgstr "未保存的.blend 文件"
+
+msgid "write failed"
+msgstr "写入失败"
+
+msgid "MultiMeshManifest"
+msgstr "MultiMeshManifest"
+
+msgid "Could not generate export path for MultiMesh '{coll.name}'"
+msgstr "无法为 MultiMesh '{coll.name}' 生成导出路径"
+
+msgid "MultiMesh '{coll.name}': {detail}"
+msgstr "MultiMesh '{coll.name}': {detail}"
+
+msgid "{message.rstrip('.')} Sources: {', '.join(invalid_names)}."
+msgstr "{message.rstrip('.')} 来源：{', '.join(invalid_names)}."
+
+msgid "MultiMesh '{coll.name}': no instances collected (check GeoNodes visibility and source assets)."
+msgstr "MultiMesh '{coll.name}': 未收集任何实例（请检查 GeoNodes 的可见性和源资产）。"
+
+msgid "Project Root or Target Folder not set! Please configure in Project Paths or Add-on Preferences."
+msgstr "项目根目录或目标文件夹未设置！请在“项目路径”或插件首选项中配置。"
+
+msgid "Target folder does not exist: {target_path}"
+msgstr "目标文件夹不存在：{target_path}"
+
+msgid "Target folder must be the Godot project root (containing project.godot). Check Addon Preferences: Target Folder should be 'game' or your Godot project folder."
+msgstr "目标文件夹必须是 Godot 项目根目录（包含 project.godot）。请检查插件偏好设置：目标文件夹应为 'game' 或您的 Godot 项目文件夹。"
+
+msgid "Could not switch to Object Mode automatically. Please switch manually."
+msgstr "无法自动切换到对象模式。请手动切换。"
+
+msgid "LOD Mismatch: '{obj.name}' is not at the same position as other '{base_name}' LODs/Shadows!"
+msgstr "LOD 不匹配：'{obj.name}' 与其他 '{base_name}' LOD/阴影的位置不一致！"
+
+msgid "{coll.name}: exported empty {export_type} (no objects)."
+msgstr "{coll.name}: 导出的空 {export_type}（无对象）。"
+
+msgid "All assets up-to-date ({skipped_unchanged} unchanged, Smart Export skipped)."
+msgstr "所有资产均为最新状态（{skipped_unchanged} 未更改，智能导出已跳过）。"
+
+msgid "All assets up-to-date. Export skipped."
+msgstr "所有资产均为最新状态。导出已跳过。"
+
+msgid "{skipped} queued collection(s) produced no geometry output. See System Console for NEXUS warnings."
+msgstr "{skipped} 个队列集合未产生几何输出。请在系统控制台查看 NEXUS 警告。"
+
+msgid "{folder_part}Exported {total_actual} collection(s); {skipped_unchanged} unchanged (Smart Export skipped)."
+msgstr "{folder_part}导出了 {total_actual} 个集合；{skipped_unchanged} 未更改（智能导出已跳过）。"
+
+msgid "Created {folder_writes} folder path(s)."
+msgstr "创建了 {folder_writes} 个文件夹路径。"
+
+msgid "{folder_part}Exported {total_exported} asset(s); {skipped_unchanged} unchanged (Smart Export skipped)."
+msgstr "{folder_part}导出了 {total_exported} 个资产；{skipped_unchanged} 未更改（智能导出已跳过）。"
+
+msgid "{scope_label}, {folder_count} folder(s)"
+msgstr "{scope_label}, {folder_count} 个文件夹"
+
+msgctxt "Operator"
+msgid "EXPORT SELECTED NOW"
+msgstr "立即导出选定内容"
+
+msgid "No active collection selected."
+msgstr "未选择任何活动集合。"
+
+msgid "No exportable collections found in scope."
+msgstr "在当前作用域中未找到可导出的集合。"
+
+msgid "Batch export is still running. Wait for it to finish before exporting."
+msgstr "批量导出仍在运行。请在完成前不要进行导出操作。"
+
+msgid "Could not acquire export lock. Another batch export may still be running."
+msgstr "无法获取导出锁。可能仍有另一个批量导出在运行。"
+
+msgid "Shader graph cannot be converted."
+msgstr "着色器图无法转换。"
+
+msgid "{message} Unsupported: {', '.join(unsupported)}."
+msgstr "不支持：{', '.join(unsupported)}。"
+
+msgid "No collections to export ({skipped_count} unchanged, Smart Export skipped)"
+msgstr "没有可导出的集合（{skipped_count} 个未更改，智能导出已跳过）"
+
+msgid "No exportable collections in current scope"
+msgstr "当前作用域中没有可导出的集合"
+
+msgid "Exports {count} {plural} ({scope_label})"
+msgstr "导出 {count} 个 {plural}（{scope_label}）"
+
+msgid ".material_pass"
+msgstr ".material_pass"
+
+msgid ".gltf_init"
+msgstr ".gltf_init"
+
+msgid ".scoped_context"
+msgstr ".scoped_context"
+
+msgid "module {__name__} has no attribute {name}"
+msgstr "模块 {__name__} 没有属性 {name}"
+
+msgid "Linked library material (read-only)"
+msgstr "链接库材质（只读）"
+
+msgid "Shared material ({material.users} users)"
+msgstr "共享材质（{material.users} 用户）"
+
+msgid "This material comes from a linked library and cannot be edited. Make a library override or make the data-block local in Blender first."
+msgstr "该材质来自链接的库，无法编辑。请先在 Blender 中创建库覆盖或使数据块变为本地。"
+
+msgid "No material selected."
+msgstr "未选择材质。"
+
+msgid "{action} ORM texture '{final_img.name}'."
+msgstr "执行 {action} ORM 纹理 '{final_img.name}'。"
+
+msgid "Packing failed: {exc}. {settings_hint}"
+msgstr "打包失败：{exc}。{settings_hint}"
+
+msgid "Shader graph supported{extra}."
+msgstr "支持着色器图{extra}。"
+
+msgid "Will bake fallback. Unsupported: {kinds}"
+msgstr "将烘焙备用方案。不支持：{kinds}"
+
+msgid "Unsupported nodes: {kinds}"
+msgstr "不支持的节点：{kinds}"
+
+msgctxt "Operator"
+msgid "Assign Material ID"
+msgstr "分配材质 ID"
+
+msgid "ID assigned to material '{mat.name}'."
+msgstr "ID 已分配给材质 '{mat.name}'。"
+
+msgctxt "Operator"
+msgid "Remove Material ID"
+msgstr "移除材质 ID"
+
+msgid "ID '{mat_id_val}' removed from material '{mat.name}'."
+msgstr "已从材质 '{mat.name}' 中移除 ID '{mat_id_val}'。"
+
+msgctxt "Operator"
+msgid "Regenerate Material ID"
+msgstr "重新生成材质 ID"
+
+msgid "New ID for '{mat.name}' created."
+msgstr "为 '{mat.name}' 创建了新的 ID。"
+
+msgctxt "Operator"
+msgid "Copy Material ID"
+msgstr "复制材质 ID"
+
+msgid "Copied '{mat_id}' to clipboard."
+msgstr "已复制到剪贴板 '{mat_id}'。"
+
+msgctxt "Operator"
+msgid "Select Godot Material"
+msgstr "选择 Godot 材质"
+
+msgctxt "Operator"
+msgid "Ingest External Textures"
+msgstr "导入外部纹理"
+
+msgid "Source path not set in Addon Preferences."
+msgstr "在插件首选项中未设置源路径。"
+
+msgid "No material to ingest textures for."
+msgstr "没有要导入纹理的材质。"
+
+msgid "Successfully ingested {ingested_textures} textures{tile_note}."
+msgstr "成功导入了 {ingested_textures} 个纹理{tile_note}。"
+
+msgid "No external textures found for the selected scope."
+msgstr "所选作用域中未找到外部纹理。"
+
+msgctxt "Operator"
+msgid "Validate Shader Graph"
+msgstr "验证着色器图元"
+
+msgid "No active material."
+msgstr "没有活动的材质。"
+
+msgctxt "Operator"
+msgid "Add ORM Bake Node"
+msgstr "添加 ORM 烘焙节点"
+
+msgid "Channel"
+msgstr "通道"
+
+msgid "Occlusion (R)"
+msgstr "遮蔽（R）"
+
+msgid "Red channel"
+msgstr "红色通道"
+
+msgid "Roughness (G)"
+msgstr "粗糙度（G）"
+
+msgid "Green channel"
+msgstr "绿色通道"
+
+msgid "Metallic (B)"
+msgstr "金属度（B）"
+
+msgid "Blue channel"
+msgstr "蓝色通道"
+
+msgid "Selected existing bake node '{existing.name}'."
+msgstr "已选定的现有烘焙节点 '{existing.name}'。"
+
+msgid "ORM {channel.title()}"
+msgstr "ORM {channel.title()}"
+
+msgid "Added ORM bake node for {channel}."
+msgstr "为 {channel} 添加了 ORM 烘焙节点。"
+
+msgctxt "Operator"
+msgid "Pack to ORM"
+msgstr "打包到 ORM"
+
+msgctxt "Operator"
+msgid "Pack/Convert to ORM"
+msgstr "打包/转换为 ORM"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Merge 3 Files"
+msgstr "合并三个文件"
+
+msgid "Combine three separate images into one ORM texture"
+msgstr "将三个独立的图像合并为一个 ORM 纹理"
+
+msgid "Convert Single File"
+msgstr "转换单个文件"
+
+msgid "Swizzle channels of an existing packed texture"
+msgstr "打乱现有打包纹理的通道"
+
+msgid "Bake From ORM Nodes"
+msgstr "从 ORM 节点烘焙"
+
+msgid "Pack using Nexus ORM Bake nodes in the shader tree"
+msgstr "使用 Nexus ORM 烘焙节点在着色器树中打包"
+
+msgid "Source Image"
+msgstr "源图像"
+
+msgid "Source Layout"
+msgstr "源布局"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "Source: R=AO, G=Rough, B=Met -> Target: Keep as is"
+msgstr "来源：R=AO，G=粗糙度，B=金属 → 目标：保持不变"
+
+msgid "RMA"
+msgstr "RMA"
+
+msgid "Source: R=Rough, G=Met, B=AO -> Target: R=AO, G=Rough, B=Met"
+msgstr "来源：R=粗糙度，G=金属，B=AO → 目标：R=AO，G=粗糙度，B=金属"
+
+msgid "MRA"
+msgstr "MRA"
+
+msgid "Source: R=Met, G=Rough, B=AO -> Target: R=AO, G=Rough, B=Met"
+msgstr "来源：R=金属，G=粗糙度，B=AO → 目标：R=AO，G=粗糙度，B=金属"
+
+msgid "MAR"
+msgstr "MAR"
+
+msgid "Source: R=Met, G=AO, B=Rough -> Target: R=AO, G=Rough, B=Met"
+msgstr "来源：R=金属，G=AO，B=粗糙度 → 目标：R=AO，G=粗糙度，B=金属"
+
+msgid "RAM"
+msgstr "RAM"
+
+msgid "Source: R=Rough, G=AO, B=Met -> Target: R=AO, G=Rough, B=Met"
+msgstr "来源：R=粗糙度，G=AO，B=金属 -> 目标：R=AO，G=粗糙度，B=金属"
+
+msgid "Leave empty to use White (1.0)"
+msgstr "留空则使用白色 (1.0)"
+
+msgid "Uses Nexus ORM Bake nodes assigned in the shader tree."
+msgstr "在着色器树中分配的 Nexus ORM Bake 节点。"
+
+msgid "Constants are filled without baking."
+msgstr "常量无需烘焙即可填充."
+
+msgid "Unknown ORM mode: {mode}"
+msgstr "未知的 ORM 模式：{mode}"
+
+msgid "Packed ORM texture '{final_img.name}'."
+msgstr "打包的 ORM 纹理 '{final_img.name}'."
+
+msgid "DUMMY_{material.name}_{mat_id[:4]}"
+msgstr "DUMMY_{material.name}_{mat_id[:4]}"
+
+msgid "<UDIM>"
+msgstr "<UDIM>"
+
+msgid "<udim>"
+msgstr "<udim>"
+
+msgid "<UVTILE>"
+msgstr "[UVTILE]"
+
+msgid "<uvtile>"
+msgstr "<uvtile>"
+
+msgid "active (index {uv_index})"
+msgstr "活动（索引 {uv_index}）"
+
+msgid "Material '{material.name}' has no ID."
+msgstr "材质 '{material.name}' 没有 ID。"
+
+msgid "Godot project path not set."
+msgstr "Godot 项目路径未设置。"
+
+msgid "Invalid reference path for '{material.name}'."
+msgstr "'{material.name}' 的引用路径无效。"
+
+msgid "Referenced material '{res_path}' not found in Godot project."
+msgstr "在 Godot 项目中找不到引用的材质 '{res_path}'。"
+
+msgid "Error writing file: {exc}"
+msgstr "写入文件时出错：{exc}"
+
+msgid "Material '{material.name}' {action_verb}."
+msgstr "材质 '{material.name}' {action_verb}。"
+
+msgid "[gd_resource type=\"{gd_type}\" load_steps={len(external_resources) + 1} format=3 uid=\"{tres_uid}\"]"
+msgstr "[gd_resource type=\"{gd_type}\" load_steps={len(external_resources) + 1} format=3 uid=\"{tres_uid}\"]"
+
+msgid ""
+"{'\\n'.join(header)}\n"
+"\n"
+"[resource]\n"
+"{'\\n'.join(final_lines)}\n"
+"{metadata}"
+msgstr ""
+"{\n"
+"    '\\n'.join(header)\n"
+"}\n"
+"\n"
+"[资源]\n"
+"{\n"
+"    '\\n'.join(final_lines)\n"
+"}\n"
+"{metadata}"
+
+msgid "{exc} (bake fallback disabled for this material)"
+msgstr "此材质禁用烘焙回退功能。"
+
+msgid "Shader conversion failed ({exc}). Texture baking needs the Cycles render engine (not available in this Blender build). Remove or replace unsupported nodes, or enable the Cycles add-on."
+msgstr "着色器转换失败（{exc}）。纹理烘焙需要 Cycles 渲染引擎（当前 Blender 版本不支持）。请移除或替换不支持的节点，或启用 Cycles 插件。"
+
+msgid "Shader conversion failed ({exc}). {bake_err}"
+msgstr "着色器转换失败（{exc}）。{bake_err}"
+
+msgid "Conversion failed: {exc}; bake fallback failed: {bake_err}"
+msgstr "转换失败：{exc}；烘焙回退失败：{bake_err}"
+
+msgid "Source project path is not set; cannot stage baked textures."
+msgstr "源项目路径未设置；无法阶段烘焙纹理。"
+
+msgid "metallic_texture = {token}"
+msgstr "metallic_texture = {token}"
+
+msgid "metallic = 1.0"
+msgstr "metallic = 1.0"
+
+msgid "metallic_texture_channel = 2"
+msgstr "metallic_texture_channel = 2"
+
+msgid "roughness_texture = {token}"
+msgstr "roughness_texture = {token}"
+
+msgid "roughness = 1.0"
+msgstr "粗糙度 = 1.0"
+
+msgid "roughness_texture_channel = 1"
+msgstr "粗糙度纹理通道 = 1"
+
+msgid "ao_enabled = true"
+msgstr "ao_enabled = true"
+
+msgid "ao_texture = {token}"
+msgstr "ao_texture = {token}"
+
+msgid "ao_texture_channel = 0"
+msgstr "ao_texture_channel = 0"
+
+msgid "normal_enabled = true"
+msgstr "normal_enabled = true"
+
+msgid "normal_texture = ExtResource(\"{ensure_ext(res_paths['normal'])}\")"
+msgstr "normal_texture = ExtResource(\"{ensure_ext(res_paths['normal'])}\")"
+
+msgid "emission_enabled = true"
+msgstr "emission_enabled = true"
+
+msgid "emission_texture = ExtResource(\"{ensure_ext(res_paths['emission'])}\")"
+msgstr "emission_texture = ExtResource(\"{ensure_ext(res_paths['emission'])}\")"
+
+msgid "emission = Color({tint[0]}, {tint[1]}, {tint[2]}, {tint[3]})"
+msgstr "emission = Color({tint[0]}, {tint[1]}, {tint[2]}, {tint[3]})"
+
+msgid "metadata/nexus_created = true"
+msgstr "metadata/nexus_created = true"
+
+msgid "metadata/nexus_material_id = \"{mat_id}\""
+msgstr "metadata/nexus_material_id = \"{mat_id}\""
+
+msgid "metadata/nexus_bake_fallback = true"
+msgstr "metadata/nexus_bake_fallback = true"
+
+msgid "[gd_resource type=\"StandardMaterial3D\" load_steps={len(ext_ids) + 1} format=3 uid=\"{tres_uid}\"]"
+msgstr "[gd_resource type=\"StandardMaterial3D\" load_steps={len(ext_ids) + 1} format=3 uid=\"{tres_uid}\"]"
+
+msgid ""
+"{'\\n'.join(header)}[resource]\n"
+"{'\\n'.join(body_lines)}"
+msgstr ""
+"{'\\n'.join(header)}[resource]\n"
+"{'\\n'.join(body_lines)}"
+
+msgid "Auto-ORM detector matched but tres generation failed for '{material.name}'."
+msgstr "Auto-ORM detector matched but tres generation failed for '{material.name}'."
+
+msgid "Failed to generate content for '{material.name}'."
+msgstr "Failed to generate content for '{material.name}'."
+
+msgid "Material '{material.name}' is unchanged."
+msgstr "Material '{material.name}' is unchanged."
+
+msgid "UDIM tile {tile.number} size mismatch between source images ({existing.width}x{existing.height} vs {tile.width}x{tile.height})."
+msgstr "UDIM tile {tile.number} size mismatch between source images ({existing.width}x{existing.height} vs {tile.width}x{tile.height})."
+
+msgid "All UDIM tiles in source images must share the same resolution."
+msgstr "All UDIM tiles in source images must share the same resolution."
+
+msgid "Image '{image.name}' has no readable data for UDIM tile {tile.number}."
+msgstr "图片 '{image.name}' 没有可读取的 UDIM 瓦片 {tile.number} 数据。"
+
+msgid "Non-Color Data"
+msgstr "非颜色数据"
+
+msgid "No ORM tiles to write."
+msgstr "没有要写入的 ORM 瓦片。"
+
+msgid "{image.name} (UDIM: {len(tiles)} tiles, {tiles[0].width}x{tiles[0].height})"
+msgstr "{image.name} (UDIM: {len(tiles)} 个瓦片，{tiles[0].width}x{tiles[0].height})"
+
+msgid "{image.name} ({tiles[0].width}x{tiles[0].height})"
+msgstr "{image.name} ({tiles[0].width}x{tiles[0].height})"
+
+msgid "Image '{image.name}' size {tuple(image.size)} does not match target {width}x{height}."
+msgstr "图片 '{image.name}' 尺寸 {tuple(image.size)} 与目标 {width}x{height} 不匹配。"
+
+msgid "No Nexus ORM Bake nodes in this material. Add bake nodes and connect the channels to pack."
+msgstr "此材质中没有 Nexus ORM Bake 节点。添加 bake 节点并将通道连接至 pack。"
+
+msgid "No bake node"
+msgstr "没有 bake 节点"
+
+msgid "Cycles render engine is not available. Enable Cycles to bake procedural channels."
+msgstr "Cycles 渲染引擎不可用。启用 Cycles 以烘焙程序化通道。"
+
+msgid "__nexus_orm_bake_{material.name}"
+msgstr "__nexus_orm_bake_{material.name}"
+
+msgid "Non-Color"
+msgstr "非颜色"
+
+msgid "{name[:-len(suffix)]}_ORM"
+msgstr "{name[:-len(suffix)]}_ORM"
+
+msgid "{name}_ORM"
+msgstr "{name}_ORM"
+
+msgid "No source images selected."
+msgstr "未选择源图像。"
+
+msgid "Unknown source layout: {source_format}"
+msgstr "未知的源布局：{source_format}"
+
+msgid "No source image selected."
+msgstr "未选择源图像。"
+
+msgid "Graph channel bake failed for UDIM tile {tile.number}. Check Cycles is enabled and the mesh has matching UV tiles."
+msgstr "UDIM 瓦片 {tile.number} 的图通道烘焙失败。请检查 Cycles 已启用且网格具有匹配的 UV 瓦片。"
+
+msgid "Image: {source.image.name}"
+msgstr "图像：{source.image.name}"
+
+msgid "Constant: {source.constant} (no bake)"
+msgstr "常量：{source.constant}（未烘焙）"
+
+msgid "Graph (bake)"
+msgstr "图（烘焙）"
+
+msgid "Missing"
+msgstr "缺失"
+
+msgid "missing package at {pkg_dir}"
+msgstr "{pkg_dir} 中缺少包"
+
+msgid "cannot build import spec for {init_py}"
+msgstr "无法为 {init_py} 构建导入规范"
+
+msgid "meshoptimizer import failed"
+msgstr "meshoptimizer 导入失败"
+
+msgid "{_IMPORT_ERROR} (tried: {tried})"
+msgstr "{_导入错误}（尝试：{tried}）"
+
+msgctxt "Operator"
+msgid "Preview Optimization"
+msgstr "预览优化"
+
+msgid "Collection"
+msgstr "集合"
+
+msgid "Preview disabled."
+msgstr "预览已禁用。"
+
+msgid "Preview enabled for '{collection.name}'."
+msgstr "预览已为“{collection.name}”启用。"
+
+msgid "Could not build preview for this collection."
+msgstr "无法为该集合生成预览。"
+
+msgctxt "Operator"
+msgid "Replace Meshes"
+msgstr "替换网格"
+
+msgid "Set Apply Mode to Destructive (replace) first."
+msgstr "首先将应用模式设置为破坏性（替换）。"
+
+msgid "Enable Optimizer on Export"
+msgstr "导出时启用优化器"
+
+msgid "Apply Mode"
+msgstr "应用模式"
+
+msgid "Non-destructive (export)"
+msgstr "非破坏性（导出）"
+
+msgid "Destructive (replace)"
+msgstr "破坏性（替换）"
+
+msgid "Optimizer Mode"
+msgstr "优化器模式"
+
+msgid "Clean"
+msgstr "清理"
+
+msgid "Compressed"
+msgstr "压缩"
+
+msgid "Keep Vertex Attributes"
+msgstr "保留顶点属性"
+
+msgid "Simplify Meshes"
+msgstr "简化网格"
+
+msgid "Enable Simplification"
+msgstr "启用简化"
+
+msgid "Simplify Ratio"
+msgstr "简化比率"
+
+msgid "Simplify Error"
+msgstr "简化误差"
+
+msgid "Permissive Simplification"
+msgstr "宽松简化"
+
+msgid "Lock Borders"
+msgstr "锁定边界"
+
+msgid "Voxel Remesh"
+msgstr "体素重拓扑"
+
+msgid "Remesh Resolution"
+msgstr "重拓扑分辨率"
+
+msgid "Remesh Surface Solve"
+msgstr "表面求解器"
+
+msgid "Preserve Folds"
+msgstr "保留折痕"
+
+msgid "Clamp Simplify Error"
+msgstr "钳制简化错误"
+
+msgid "Prune Small Pieces"
+msgstr "修剪小部件"
+
+msgid "Sloppy Simplify"
+msgstr "粗糙简化"
+
+msgid "Aggressive Simplify"
+msgstr "激进简化"
+
+msgid "Adjust Vertices"
+msgstr "调整顶点"
+
+msgid "Regenerate Normals"
+msgstr "重新生成法线"
+
+msgid "Normal Crease Angle"
+msgstr "法线折角角度"
+
+msgid "Normal Smoothing"
+msgstr "法线平滑"
+
+msgid "Mesh Instancing"
+msgstr "网格实例化"
+
+msgid "Generate Tangents"
+msgstr "生成切线"
+
+msgid "KTX2 Texture Compression"
+msgstr "KTX2 纹理压缩"
+
+msgid "Texture Quality"
+msgstr "纹理质量"
+
+msgid "gltfpack Path"
+msgstr "gltfpack 路径"
+
+msgid "Select a collection in the Outliner."
+msgstr "在 Outliner 中选择集合."
+
+msgid "Only Asset / Skeletal Asset collections."
+msgstr "仅资产/骨骼资产集合."
+
+msgid "NavigationRegion root collections are excluded."
+msgstr "导航区域根集合将被排除."
+
+msgid "{obj.name}{name_suffix}_fallback"
+msgstr "{obj.name}{name_suffix}_fallback"
+
+msgid "mat_{prim.material}"
+msgstr "mat_{prim.material}"
+
+msgid "GLB header is truncated"
+msgstr "GLB 头部被截断"
+
+msgid "GLB JSON chunk is invalid"
+msgstr "GLB JSON 块无效"
+
+msgid "GLB chunk is truncated"
+msgstr "GLB chunk 被截断"
+
+msgid "loop ids and corner normals must align"
+msgstr "循环 ID 和角法线必须对齐"
+
+msgid "mesh has no loops"
+msgstr "网格没有循环"
+
+msgid "loop id out of range"
+msgstr "循环 ID 超出范围"
+
+msgid "meshopt_generateNormals returned non-finite or zero normals"
+msgstr "meshopt_generateNormals 返回了非有限或零法线"
+
+msgid "{num_bytes} B"
+msgstr "{num_bytes} B"
+
+msgid "{num_bytes / 1024} KB"
+msgstr "{num_bytes / 1024} KB"
+
+msgid "{num_bytes / (1024 * 1024)} MB"
+msgstr "{num_bytes / (1024 * 1024)} MB"
+
+msgid "Collection is not eligible for mesh optimization."
+msgstr "集合不符合网格优化条件。"
+
+msgid "Enable the optimizer for this collection first."
+msgstr "首先启用该集合的优化器。"
+
+msgid "No meshes were updated (is gltfpack available?)."
+msgstr "未更新任何网格（是否安装了 gltfpack？）。"
+
+msgid "Replaced {updated} mesh(es)."
+msgstr "已替换 {updated} 个网格。"
+
+msgid "positions must have shape (vertex_count, 3)"
+msgstr "位置必须具有形状 (顶点数，3)"
+
+msgid "indices must contain complete triangles"
+msgstr "索引必须包含完整的三角形"
+
+msgid "corner normals must align with indices"
+msgstr "角点法线必须与索引对齐"
+
+msgid "indices reference positions outside the source domain"
+msgstr "索引引用了源域之外的位置"
+
+msgid "positions and normals must be finite"
+msgstr "位置和法线必须是有限值"
+
+msgid "corner UV layers must align with indices"
+msgstr "角点 UV 层必须与索引对齐"
+
+msgid "corner UV layers must be finite"
+msgstr "角点 UV 层必须是有限值"
+
+msgid "source_indices must contain complete triangles"
+msgstr "source_indices 必须包含完整的三角形"
+
+msgid "source UV and vertex buffers must align"
+msgstr "源 UV 和顶点缓冲区必须对齐"
+
+msgid "source_indices reference out-of-range vertices"
+msgstr "source_indices 引用了超出范围的顶点"
+
+msgid "UV reprojection workload too large for preview remesh"
+msgstr "UV 重投影工作负载过大，无法进行预览网格重建"
+
+msgid "corner UVs must align with source indices"
+msgstr "角点 UV 必须与源索引对齐"
+
+msgid "index buffers must contain complete triangles"
+msgstr "索引缓冲区必须包含完整的三角形"
+
+msgid "source and target indices must reference complete triangle buffers"
+msgstr "源和目标索引必须引用完整的三角形缓冲区"
+
+msgid "meshoptimizer not available"
+msgstr "meshoptimizer 不可用"
+
+msgid "gltfpack binary missing"
+msgstr "gltfpack 二进制文件缺失"
+
+msgctxt "Operator"
+msgid "Preview Optimization: ON"
+msgstr "预览优化：开启"
+
+msgctxt "Operator"
+msgid "Preview Optimization: OFF"
+msgstr "预览优化：关闭"
+
+msgid "Optimization Preview: {collection_name}"
+msgstr "优化预览：{collection_name}"
+
+msgid "Failed to decode vertex buffer: error code {result}"
+msgstr "无法解码顶点缓冲区：错误代码 {result}"
+
+msgid "Failed to decode index buffer: error code {result}"
+msgstr "无法解码索引缓冲区：错误代码 {result}"
+
+msgid "Failed to decode index sequence: error code {result}"
+msgstr "无法解码索引序列：错误代码 {result}"
+
+msgid "Failed to encode vertex buffer"
+msgstr "无法编码顶点缓冲区"
+
+msgid "Failed to encode index buffer"
+msgstr "无法编码索引缓冲区"
+
+msgid "Version must be 0 or 1"
+msgstr "版本必须是 0 或 1"
+
+msgid "Failed to encode index sequence"
+msgstr "无法编码索引序列"
+
+msgid "vertex_count must be non-negative, got {vertex_count}"
+msgstr "vertex_count 必须为非负数，得到 {vertex_count}"
+
+msgid "vertex_size must be positive, got {vertex_size}"
+msgstr "vertex_size 必须为正数，得到 {vertex_size}"
+
+msgid "vertex_size {vertex_size} exceeds maximum {MAX_VERTEX_SIZE}"
+msgstr "vertex_size {vertex_size} 超过了最大值 {MAX_VERTEX_SIZE}"
+
+msgid "vertex_size must be a multiple of 4, got {vertex_size}. Consider using a dtype with itemsize >= 4 (e.g., float32, int32, float64)."
+msgstr "vertex_size 必须是 4 的倍数，实际值为 {vertex_size}。建议使用 itemsize >= 4 的数据类型（例如 float32、int32、float64）。"
+
+msgid "vertex_count {vertex_count} exceeds maximum {MAX_VERTEX_COUNT}"
+msgstr "vertex_count {vertex_count} 超过了最大值 {MAX_VERTEX_COUNT}"
+
+msgid "Requested allocation {total_bytes} bytes exceeds limit {MAX_TOTAL_BYTES}"
+msgstr "请求分配的内存 {total_bytes} 字节超过了限制 {MAX_TOTAL_BYTES}"
+
+msgid "index_count must be non-negative, got {index_count}"
+msgstr "index_count 必须为非负数，实际值为 {index_count}"
+
+msgid "index_size must be 2 or 4, got {index_size}"
+msgstr "index_size 必须是 2 或 4，实际值为 {index_size}"
+
+msgid "index_count {index_count} exceeds maximum {MAX_INDEX_COUNT}"
+msgstr "index_count {index_count} 超过了最大值 {MAX_INDEX_COUNT}"
+
+msgid "vertex positions must have shape (vertex_count, 3+)"
+msgstr "vertex positions 的形状必须是 (vertex_count, 3+)"
+
+msgid "Could not find meshoptimizer library in {this_dir}"
+msgstr "在 {this_dir} 中未找到 meshoptimizer 库"
+
+msgid "Could not load meshoptimizer shared library: {e}"
+msgstr "无法加载 meshoptimizer 共享库：{e}"
+
+msgid "ASSET"
+msgstr "资产"
+
+msgid "STATIC"
+msgstr "静态"
+
+msgid "RIGID"
+msgstr "刚性"
+
+msgid "AREA"
+msgstr "区域"
+
+msgid "ANIMATABLE"
+msgstr "可动画化"
+
+msgid "SKELETAL_ASSET"
+msgstr "骨骼资产"
+
+msgid "CHARACTER_BODY"
+msgstr "角色身体"
+
+msgid "COMBINED_ASSET"
+msgstr "组合资产"
+
+msgid "VEHICLE"
+msgstr "车辆"
+
+msgid "Static Prop"
+msgstr "静态道具"
+
+msgid "Rigid Prop"
+msgstr "刚性物体"
+
+msgid "Area Trigger"
+msgstr "区域触发器"
+
+msgid "Animatable Prop"
+msgstr "可动画物体"
+
+msgctxt "Operator"
+msgid "Apply Project Preset"
+msgstr "应用项目预设"
+
+msgid "Could not access Nexus preferences."
+msgstr "无法访问 Nexus 偏好设置。"
+
+msgctxt "Operator"
+msgid "Manage Project Presets"
+msgstr "管理项目预设"
+
+msgctxt "Operator"
+msgid "Save Current Project Settings"
+msgstr "保存当前项目设置"
+
+msgctxt "Operator"
+msgid "Delete Project Preset"
+msgstr "删除项目预设"
+
+msgctxt "Operator"
+msgid "Move Project Preset"
+msgstr "移动项目预设"
+
+msgid "Project Settings"
+msgstr "项目设置"
+
+msgid "Wrapper"
+msgstr "包装器"
+
+msgid "Godot builds a standalone *_wrapper.tscn (baked scene). User edits live in the wrapper and propagate into combined-assets/levels."
+msgstr "Godot 会构建一个独立的 *_wrapper.tscn（烘焙后的场景）。用户在包装器中进行编辑，并将更改传播到 combined-assets/levels 目录中。"
+
+msgid "Inherited"
+msgstr "继承"
+
+msgid "Godot builds an *_inherited.tscn that inherits the glTF structure. User edits are local overrides on top of the imported glTF."
+msgstr "Godot 会构建一个 *_inherited.tscn，该文件继承 glTF 结构。用户的编辑是在导入的 glTF 之上的局部覆盖。"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "Godot does not auto-build a derived *_wrapper.tscn or *_inherited.tscn."
+msgstr "Godot 不会自动构建派生的 *_wrapper.tscn 或 *_inherited.tscn。"
+
+msgid "Target Path Organization:"
+msgstr "目标路径组织:"
+
+msgid "Configure Project Paths to edit export path organization."
+msgstr "配置项目路径以编辑导出路径的组织方式。"
+
+msgid "VehicleBody3D"
+msgstr "VehicleBody3D"
+
+msgid "AnimatableBody3D"
+msgstr "AnimatableBody3D"
+
+msgid "Level"
+msgstr "层级"
+
+msgid "MultiMesh"
+msgstr "多层网格"
+
+msgctxt "Operator"
+msgid "Project Settings"
+msgstr "项目设置"
+
+msgid "Preferred Scene Styles"
+msgstr "首选场景样式"
+
+msgid "Configure Source path to persist scene style defaults."
+msgstr "配置源路径以持久化场景样式默认值。"
+
+msgctxt "Operator"
+msgid "Revert Project Settings"
+msgstr "重置项目设置"
+
+msgid "Project settings reset to factory defaults."
+msgstr "将项目设置重置为出厂默认值。"
+
+msgid "Organizer only. Children may export; no extra Godot folder is created."
+msgstr "仅用于组织器。子项可以导出；不会创建额外的 Godot 文件夹。"
+
+msgid "Exclude"
+msgstr "排除"
+
+msgid "This collection and its entire subtree are excluded from export."
+msgstr "此集合及其整个子树将从导出中排除。"
+
+msgid "Folder"
+msgstr "文件夹"
+
+msgid "Creates a Godot folder for organization. No glTF export."
+msgstr "创建一个用于组织的 Godot 文件夹。不导出 glTF。"
+
+msgid "Export as a standalone asset scene (e.g., a prop)."
+msgstr "导出为独立资产场景（例如，一个道具）。"
+
+msgid "Animation Library"
+msgstr "动画库"
+
+msgid "Exports only animation data, targeting another asset."
+msgstr "仅导出动画数据，针对另一个资产。"
+
+msgid "Skeletal Asset"
+msgstr "骨骼资产"
+
+msgid "Exports an asset with an Armature/Skeleton hierarchy (e.g., a character)."
+msgstr "导出具有骨骼层级（例如角色）的资产。"
+
+msgid "Combined Asset"
+msgstr "组合资产"
+
+msgid "Exports a composited scene of instanced assets, indexable for use in levels."
+msgstr "导出实例化资产的合成场景，可用于关卡中索引使用。"
+
+msgid "Exports this Collection as a full level scene."
+msgstr "导出此集合为完整的场景。"
+
+msgid "Exports objects as Godot MultiMesh instances."
+msgstr "导出为 Godot MultiMesh 实例。"
+
+msgid "The root node will be a simple Node3D. Used for general assets."
+msgstr "根节点将是一个简单的 Node3D。适用于通用资产。"
+
+msgid "The root node will be a Godot StaticBody3D. Used for static environment geometry."
+msgstr "根节点将是一个 Godot StaticBody3D。用于静态环境几何体。"
+
+msgid "The root node will be a Godot RigidBody3D. Used for dynamic physics objects."
+msgstr "根节点将是一个 Godot RigidBody3D。用于动态物理对象。"
+
+msgid "The root node will be a Godot VehicleBody3D. Used for raycast vehicle physics."
+msgstr "根节点将是一个 Godot VehicleBody3D。用于射线车辆物理。"
+
+msgid "The root node will be a Godot Area3D. Used for detection volumes/triggers."
+msgstr "根节点将是一个 Godot Area3D。用于检测体积/触发器。"
+
+msgid "The root node is an AnimatableBody3D."
+msgstr "根节点是 AnimatableBody3D。"
+
+msgid "The root node is a NavigationRegion3D."
+msgstr "根节点是 NavigationRegion3D。"
+
+msgid "Static"
+msgstr "静态"
+
+msgid "Body behaves like a StaticBody (doesn't move)."
+msgstr "物体行为像 StaticBody（不移动）。"
+
+msgid "Kinematic"
+msgstr "运动学"
+
+msgid "Body moves only by script/animation (pushing others)."
+msgstr "仅通过脚本/动画移动（推挤其他物体）。"
+
+msgid "Asset ID"
+msgstr "资产 ID"
+
+msgid "Internal unique ID used by Nexus to track this asset. Re-rolled automatically when the collection is renamed to avoid duplicate ids across .blend files."
+msgstr "Nexus 用于跟踪该资产的内部唯一 ID。当集合重命名时会自动重新生成，以避免在不同 .blend 文件中出现重复的 ID。"
+
+msgid "File Type"
+msgstr "文件类型"
+
+msgid "Root Type"
+msgstr "根节点类型"
+
+msgid ""
+"Determines the class of the root node in Godot.\n"
+"\n"
+"• Node3D: Simple container.\n"
+"• StaticBody3D: For non-moving geometry (walls, floors).\n"
+"• RigidBody3D: For physics objects (crates, debris).\n"
+"• CharacterBody3D: For player/NPCs."
+msgstr ""
+"确定 Godot 中根节点的类。\n"
+"\n"
+"• Node3D：简单的容器。\n"
+"• StaticBody3D：用于非运动几何体（墙壁、地板）。\n"
+"• RigidBody3D：用于物理对象（箱子、碎片）。\n"
+"• CharacterBody3D：用于玩家/NPC。"
+
+msgid "Script Path (res://)"
+msgstr "脚本路径 (res://)"
+
+msgid "Optional: Path to a Godot script (.gd or .cs) that will be attached to the root node upon import."
+msgstr "可选：指向 Godot 脚本 (.gd 或 .cs) 的路径，导入时将附加到根节点。"
+
+msgid "Godot Group Name"
+msgstr "Godot 组名称"
+
+msgid ""
+"Automatically adds the imported root node to this Group in Godot.\n"
+"Useful for finding objects via code (e.g. 'Interactables', 'Enemies')."
+msgstr ""
+"自动将导入的根节点添加到此组中（Godot）。\n"
+"可用于通过代码查找对象（例如“可交互物体”、“敌人”）。"
+
+msgid "Preferred Scene Style"
+msgstr "首选场景样式"
+
+msgid ""
+"Which derived Godot scene to build and instance for this asset.\n"
+"\n"
+"• Wrapper: standalone baked scene (edits propagate to parents).\n"
+"• Inherited: inherits the glTF (edits are local overrides).\n"
+"• Disabled: no automatic derived scene is built."
+msgstr ""
+"为该资产构建和实例化的派生 Godot 场景。\n"
+"\n"
+"• Wrapper：独立的烘焙场景（编辑会传播到父级）。\n"
+"• Inherited：继承 glTF（编辑是本地覆盖）。\n"
+"• Disabled：不自动构建派生场景。"
+
+msgid "Collision Layer Value"
+msgstr "碰撞层值"
+
+msgid "Bitmask: Defines on which layers this object exists (What am I?)."
+msgstr "位掩码：定义该物体存在于哪些层级中（我是谁？）。"
+
+msgid "Collision Mask Value"
+msgstr "碰撞掩码值"
+
+msgid "Bitmask: Defines which layers this object can detect or collide with (What do I touch?)."
+msgstr "位掩码：定义该物体可以检测或与其发生碰撞的层级（我触碰什么？）。"
+
+msgid "Sleep on Start"
+msgstr "启动时休眠"
+
+msgid "If enabled, the body will not move until a collision occurs."
+msgstr "如果启用，则身体在发生碰撞前不会移动。"
+
+msgid "Lock Rotation"
+msgstr "锁定旋转"
+
+msgid "If enabled, the body cannot rotate."
+msgstr "如果启用，车身无法旋转。"
+
+msgid "Freeze"
+msgstr "冻结"
+
+msgid "Puts the body in a frozen state (useful for suspended traps or lights)."
+msgstr "将车身置于冻结状态（适用于悬停陷阱或灯光）。"
+
+msgid "Freeze Mode"
+msgstr "冻结模式"
+
+msgid "Defines behavior when frozen."
+msgstr "定义冻结时的行为。"
+
+msgid "Brake"
+msgstr "刹车"
+
+msgid "Initial braking force applied to the vehicle on import (Godot VehicleBody3D.brake)."
+msgstr "导入时施加到车辆上的初始制动力（Godot VehicleBody3D.brake）。"
+
+msgid "Engine Force"
+msgstr "引擎力"
+
+msgid "Initial engine force applied to the vehicle on import (Godot VehicleBody3D.engine_force)."
+msgstr "导入时施加到车辆上的初始引擎力（Godot VehicleBody3D.engine_force）。"
+
+msgid "Steering (deg)"
+msgstr "转向（度）"
+
+msgid "Initial steering angle in degrees on import (stored as radians in export metadata)."
+msgstr "导入时（以度为单位）的初始转向角度（导出元数据中存储为弧度）。"
+
+msgid "Mass"
+msgstr "质量"
+
+msgid "Vehicle mass in kg on import (Godot VehicleBody3D.mass)."
+msgstr "车辆质量（单位：千克）在导入时（Godot VehicleBody3D.mass）。"
+
+msgid "Sync to Physics"
+msgstr "同步到物理引擎"
+
+msgid "Synchronizes movement to physics frame. Enable for moving platforms with player; disable for keyframe-accurate animation (doors, decorative)."
+msgstr "与物理帧同步移动。为带有玩家的平台启用；为关键帧精确动画（门、装饰）禁用。"
+
+msgid "Physics Material"
+msgstr "物理材质"
+
+msgid ""
+"Path to a Godot PhysicsMaterial resource (.phymat or .tres).\n"
+"\n"
+"Defines physical surface properties like:\n"
+"• Friction (Slippery vs. Rough)\n"
+"• Bounce (Elasticity)\n"
+"• Absorbent"
+msgstr ""
+"Godot 物理材质资源 (.phymat 或.tres) 的路径。\n"
+"\n"
+"定义物理表面属性，例如：\n"
+"• 摩擦（光滑 vs. 粗糙）\n"
+"• 回弹（弹性）\n"
+"• 吸能"
+
+msgid "Metadata"
+msgstr "元数据"
+
+msgid "Custom metadata for Godot nodes (node.set_meta). Types: float, int, bool, string, StringName."
+msgstr "Godot 节点（node.set_meta）的自定义元数据。类型：float、int、bool、string、StringName。"
+
+msgid "Export Animations"
+msgstr "导出动画"
+
+msgid "If enabled, NLA tracks on the armature/objects in this collection will be exported as AnimationPlayer tracks."
+msgstr "如果启用，此集合中的骨骼/对象上的 NLA 轨道将导出为动画播放器轨道。"
+
+msgid "Add to Asset Library"
+msgstr "添加到资产库"
+
+msgid "Registers this Collection as an Asset in Blender's internal Asset Browser."
+msgstr "将此集合注册为 Blender 内部资产浏览器中的资产。"
+
+msgid "Asset Catalog"
+msgstr "资产目录"
+
+msgid "Path in the Asset Browser (e.g., 'Props/Furniture'). Leave empty for root."
+msgstr "在资产浏览器中的路径（例如 'Props/Furniture'）。留空表示根目录。"
+
+msgid "Target Asset ID"
+msgstr "目标资产 ID"
+
+msgid "The Asset ID of the Skeletal/Asset Collection that this Animation Library targets."
+msgstr "此动画库所针对的骨骼/资产集合的资产 ID。"
+
+msgid "MultiMesh Analysis Cache"
+msgstr "MultiMesh 分析缓存"
+
+msgid "Stores the result of the last MultiMesh analysis as a JSON string for UI display."
+msgstr "将上次 MultiMesh 分析的结果存储为 JSON 字符串，以便 UI 显示。"
+
+msgid "MultiMesh Cache is Dirty"
+msgstr "MultiMesh 缓存已修改"
+
+msgid "True if the MultiMesh collection has changed since the last analysis (requires refresh)."
+msgstr "如果多网格集合自上次分析以来已更改（需要刷新），则为真。"
+
+msgid "Generate Collisions"
+msgstr "生成碰撞体"
+
+msgid "WARNING: High Performance Cost! Creates physics bodies for every instance. Use only for large obstacles (Rocks, Trees), NOT for grass."
+msgstr "警告：高性能开销！为每个实例创建物理实体。仅用于大型障碍物（岩石、树木），不适用于草地。"
+
+msgid "Generate"
+msgstr "生成"
+
+msgid "Reference"
+msgstr "参考"
+
+msgid "Cull Back"
+msgstr "剔除背面"
+
+msgid "Cull Front"
+msgstr "剔除正面"
+
+msgid "Opaque"
+msgstr "不透明"
+
+msgid "Alpha Blend"
+msgstr "alpha 混合"
+
+msgid "Alpha Scissor"
+msgstr "alpha 裁剪"
+
+msgid "Alpha Hashed"
+msgstr "Alpha Hashed"
+
+msgid "Opaque Only"
+msgstr "仅不透明"
+
+msgid "Depth Prepass Alpha"
+msgstr "深度预通过 Alpha"
+
+msgid "Always"
+msgstr "总是"
+
+msgid "Never"
+msgstr "从不"
+
+msgid "Material ID"
+msgstr "材质 ID"
+
+msgid "Material Mode"
+msgstr "材质模式"
+
+msgid "Godot Material Type"
+msgstr "Godot 材质类型"
+
+msgid "Auto-Detect"
+msgstr "自动检测"
+
+msgid "StandardMaterial3D"
+msgstr "StandardMaterial3D"
+
+msgid "ORMMaterial3D"
+msgstr "ORMMaterial3D"
+
+msgid "ShaderMaterial"
+msgstr "ShaderMaterial"
+
+msgid "Target Path (res://)"
+msgstr "目标路径 (res://)"
+
+msgid "Cull Mode"
+msgstr "剔除模式"
+
+msgid "Transparency"
+msgstr "透明度"
+
+msgid "Scissor Threshold"
+msgstr "剪切阈值"
+
+msgid "Depth Draw"
+msgstr "深度绘制"
+
+msgid "Enable Texture Baking"
+msgstr "启用纹理烘焙"
+
+msgid "PBR Bake Samples"
+msgstr "PBR 烘焙采样数"
+
+msgid "Bake Resolution"
+msgstr "烘焙分辨率"
+
+msgid "Set Export Type to ORM"
+msgstr "设置导出类型为 ORM"
+
+msgid "AO Bake Fingerprint"
+msgstr "AO 烘焙指纹"
+
+msgid "AO Bake Paths"
+msgstr "AO 烘焙路径"
+
+msgid "Raycast Bake Fingerprint"
+msgstr "Raycast 烘焙指纹"
+
+msgid "Raycast Bake Paths"
+msgstr "Raycast 烘焙路径"
+
+msgid "Name (optional)"
+msgstr "名称（可选）"
+
+msgid "Folder (optional)"
+msgstr "文件夹（可选）"
+
+msgid "Float"
+msgstr "浮点数"
+
+msgid "Floating-point number"
+msgstr "浮点数字"
+
+msgid "Int"
+msgstr "Int"
+
+msgid "Integer number"
+msgstr "整数"
+
+msgid "Bool"
+msgstr "布尔值"
+
+msgid "Boolean (true/false)"
+msgstr "布尔（真/假）"
+
+msgid "String"
+msgstr "字符串"
+
+msgid "Text string"
+msgstr "文本字符串"
+
+msgid "StringName"
+msgstr "StringName"
+
+msgid "Optimized string identifier (Godot StringName)"
+msgstr "优化的字符串标识符（Godot StringName）"
+
+msgid "Key"
+msgstr "键"
+
+msgid "Metadata key (e.g. 'surface', 'damage_multiplier'). Access in Godot via node.get_meta('key')."
+msgstr "元数据键（例如 'surface'、'damage_multiplier'）。在 Godot 中通过 node.get_meta('key') 访问。"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Data type for the value."
+msgstr "值的类型。"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Value as text. For Bool: 'true', 'false', '1', '0', 'yes', 'no', 'on', 'off'."
+msgstr "作为文本的值。对于 Bool：'true', 'false', '1', '0', 'yes', 'no', 'on', 'off'。"
+
+msgid "No collision shape will be generated for this object."
+msgstr "不会为该对象生成碰撞形状。"
+
+msgid "Box"
+msgstr "Box"
+
+msgid "Generates a BoxShape3D based on the object's bounding box."
+msgstr "基于对象的边界框生成 BoxShape3D。"
+
+msgid "Cylinder"
+msgstr "Cylinder"
+
+msgid "Generates a CylinderShape3D based on the object's bounding box."
+msgstr "基于对象的边界框生成 CylinderShape3D。"
+
+msgid "Sphere"
+msgstr "Sphere"
+
+msgid "Generates a SphereShape3D based on the object's bounding box."
+msgstr "基于对象的边界框生成 SphereShape3D。"
+
+msgid "Capsule"
+msgstr "胶囊体"
+
+msgid "Generates a CapsuleShape3D based on the object's bounding box."
+msgstr "根据对象的边界框生成 CapsuleShape3D。"
+
+msgid "Trimesh"
+msgstr "三角网格"
+
+msgid "Generates a ConcavePolygonShape3D from the mesh geometry (detailed, static collision)."
+msgstr "从网格几何体（详细、静态碰撞）生成 ConcavePolygonShape3D。"
+
+msgid "Convex Hull"
+msgstr "凸包"
+
+msgid "Generates a ConvexPolygonShape3D from the mesh geometry (simplified, dynamic collision)."
+msgstr "从网格几何体（简化、动态碰撞）生成 ConvexPolygonShape3D。"
+
+msgid "World Boundary"
+msgstr "世界边界"
+
+msgid "Generates a WorldBoundaryShape3D."
+msgstr "生成 WorldBoundaryShape3D。"
+
+msgid "Resonance Geometry"
+msgstr "共振几何体"
+
+msgid "Export as ResonanceStaticGeometry or ResonanceDynamicGeometry for spatial audio."
+msgstr "导出为 ResonanceStaticGeometry 或 ResonanceDynamicGeometry，用于空间音频。"
+
+msgid "Separation Ray"
+msgstr "分离射线"
+
+msgid "Exports a SeparationRayShape3D from this Empty (Single Arrow display, size = ray length)."
+msgstr "从该空对象导出一个 SeparationRayShape3D（单箭头显示，大小 = 射线长度）。"
+
+msgid "ResonanceStaticGeometry for static environment geometry."
+msgstr "静态环境几何体的共振静态几何体。"
+
+msgid "Dynamic"
+msgstr "动态"
+
+msgid "ResonanceDynamicGeometry for moving/animated geometry."
+msgstr "移动/动画几何体的共振动态几何体。"
+
+msgid "Dual Paraboloid"
+msgstr "双抛物面"
+
+msgid "Standard. Faster but may have artifacts."
+msgstr "标准。更快但可能出现伪影。"
+
+msgid "Cubemap"
+msgstr "立方体贴图"
+
+msgid "Slower, but more accurate shadows (e.g., for important lights)."
+msgstr "更慢，但阴影更准确（例如，对于重要光源）。"
+
+msgid "Light is not baked in static/global illumination."
+msgstr "静态/全局光照中不会烘焙光线。"
+
+msgid "Baked as static light in global illumination."
+msgstr "作为全局光照中的静态光烘焙。"
+
+msgid "Baked as dynamic light in global illumination."
+msgstr "作为全局光照中的动态光烘焙。"
+
+msgid "Automatic"
+msgstr "自动"
+
+msgid "Area lights use area_texture; other types use light_projector."
+msgstr "区域灯光使用 area_texture；其他类型使用 light_projector。"
+
+msgid "Area Surface"
+msgstr "区域表面"
+
+msgid "Export gobo as Godot AreaLight3D area_texture."
+msgstr "将 gobo 导出为 Godot AreaLight3D area_texture。"
+
+msgid "Projector"
+msgstr "投影器"
+
+msgid "Export gobo as Godot light_projector (requires shadows)."
+msgstr "将 gobo 导出为 Godot light_projector（需要阴影）。"
+
+msgid "Do not export gobo texture."
+msgstr "不导出 gobo 纹理。"
+
+msgid "Object UUID"
+msgstr "对象 UUID"
+
+msgid "A unique, persistent ID for this object instance."
+msgstr "此对象实例的唯一持久 ID。"
+
+msgid "Collision Type"
+msgstr "碰撞类型"
+
+msgid "Set as Preview"
+msgstr "设置为预览"
+
+msgid "Blender viewport preview only. The object is excluded from the glTF export entirely."
+msgstr "仅 Blender 视口预览。该对象完全从 glTF 导出中排除。"
+
+msgid "Discard Mesh"
+msgstr "丢弃网格"
+
+msgid "Exports mesh geometry for collision, but removes the visual MeshInstance in Godot on import (collision-only)."
+msgstr "导出用于碰撞的网格几何体，但在导入到 Godot 时移除视觉 MeshInstance（仅碰撞）。"
+
+msgid "Collision Margin Multiplier"
+msgstr "碰撞边距乘数"
+
+msgid "Multiplier applied to the calculated primitive collision size (e.g., 1.0 means no change)."
+msgstr "应用于计算出的原形碰撞大小（例如，1.0 表示无变化）。"
+
+msgid "Apply Scale"
+msgstr "应用缩放"
+
+msgid "If enabled, scale will be applied to the object before export (like Ctrl+A)."
+msgstr "如果启用，导出前将对对象应用缩放（类似于 Ctrl+A）。"
+
+msgid "Preserve Origin"
+msgstr "保留原点"
+
+msgid "If disabled, the origin will be set to the center of the geometry bounds before export."
+msgstr "如果禁用，导出前将原点设置为几何体边界中心。"
+
+msgid "Size X"
+msgstr "X 尺寸"
+
+msgid "Size Y"
+msgstr "Y 尺寸"
+
+msgid "Size Z"
+msgstr "Z 尺寸"
+
+msgid "Radius"
+msgstr "半径"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Offset X"
+msgstr "X 偏移量"
+
+msgid "Offset Y"
+msgstr "Y 偏移量"
+
+msgid "Offset Z"
+msgstr "Z 偏移量"
+
+msgid "Separation Ray Length"
+msgstr "分离射线长度"
+
+msgid "Slide on Slope"
+msgstr "斜坡滑动"
+
+msgid "If enabled, the ray can slide on slopes (Godot SeparationRayShape3D.slide_on_slope)."
+msgstr "如果启用，射线可以在斜坡上滑动（Godot SeparationRayShape3D.slide_on_slope）。"
+
+msgid "Custom Solver Bias"
+msgstr "自定义求解器偏置"
+
+msgid "Custom contact separation bias for this shape (0 = project default)."
+msgstr "此形状的自定义接触分离偏置（0 = 使用默认值）。"
+
+msgid "Margin"
+msgstr "边距"
+
+msgid "Collision margin in meters (Godot Shape3D.margin)."
+msgstr "碰撞边距，单位为米（Godot Shape3D.margin）。"
+
+msgid "Saved Empty Display Type"
+msgstr "保存的空显示类型"
+
+msgid "Previous empty_display_type before switching to Separation Ray."
+msgstr "切换到分离射线之前的空显示类型。"
+
+msgid "Custom metadata overriding/extending Collection metadata for this object. Types: float, int, bool, string, StringName."
+msgstr "覆盖/扩展此对象的集合元数据。类型：float、int、bool、string、StringName。"
+
+msgid "Geometry Type"
+msgstr "几何类型"
+
+msgid "Static for non-moving geometry, Dynamic for animated/moving geometry."
+msgstr "静态用于非移动几何体，动态用于动画/移动的几何体。"
+
+msgid "Resonance Material"
+msgstr "esonanceMaterial.tres 文件（res://）。"
+
+msgid "Path to a ResonanceMaterial .tres file (res://) for spatial audio surface properties."
+msgstr "空间音频表面属性的共振材料.tres 文件路径（res://）。"
+
+msgid "Set as Animation Anchor"
+msgstr "设为动画锚点"
+
+msgid "Uses this object's pivot as the animation reference point. Godot retargets animation tracks to the asset root so all objects in the collection move together."
+msgstr "使用此对象的枢轴点作为动画参考点。Godot 将动画轨道重新目标化到资产根节点，因此集合中的所有对象会一起移动。"
+
+msgid "Set as Origin Pivot"
+msgstr "设置原点枢轴"
+
+msgid "Marks this object as the collection origin. On export, all collection contents are translated so this pivot sits at world center while keeping relative offsets."
+msgstr "将此对象标记为集合的原点。在导出时，所有集合内容都会被转换，使该枢轴点位于世界中心，同时保持相对偏移量。"
+
+msgid "Attach to Bone"
+msgstr "绑定到骨骼"
+
+msgid "Export this object as a Godot BoneAttachment3D node."
+msgstr "将此对象导出为 Godot BoneAttachment3D 节点。"
+
+msgid "Bone Name"
+msgstr "骨骼名称"
+
+msgid "The name of the bone to which this object will be attached."
+msgstr "要附加此对象的骨骼名称。"
+
+msgid "Max Distance"
+msgstr "最大距离"
+
+msgid "Distance in meters where the asset disappears completely."
+msgstr "资产完全消失的距离（米）。"
+
+msgid "Fade Transition"
+msgstr "淡入淡出过渡效果"
+
+msgid "Percentage of the distance used for cross-fading (0.1 = 10%)."
+msgstr "交叉淡入淡出所使用距离的百分比（0.1=10%）。"
+
+msgid "LOD Bias"
+msgstr "LOD 偏差"
+
+msgid "Distribution curve. 1.0 = Linear. >1.0 = Pushes LOD transitions further away."
+msgstr "分布曲线。1.0=线性。>1.0=将 LOD 过渡推得更远。"
+
+msgid "Is Godot Placeholder"
+msgstr "Godot 占位符"
+
+msgid "If enabled, this Empty will be replaced by a specific Godot Scene (.tscn) or Resource upon import."
+msgstr "如果启用，此空对象在导入时将替换为特定的 Godot 场景 (.tscn) 或资源。"
+
+msgid "The path to the Godot resource (e.g. res://actors/player.tscn)."
+msgstr "Godot 资源的路径（例如 res://actors/player.tscn）。"
+
+msgid "Export as Path3D"
+msgstr "导出为路径 3D"
+
+msgid "If enabled, this curve is exported as a Godot Path3D (Curve3D). If disabled, it is exported as visual geometry (Mesh)."
+msgstr "如果启用，此曲线将导出为 Godot 路径（Path3D）。如果禁用，它将导出为视觉几何体（网格）。"
+
+msgid "Physics Surface Override"
+msgstr "物理表面覆盖"
+
+msgid "Optional path to a Godot PhysicsMaterial (.phymat) to override collision surface properties for this object."
+msgstr "可选路径，指向一个 Godot 物理材质文件（.phymat），用于覆盖此对象的碰撞表面属性。"
+
+msgid "Shadow Mode"
+msgstr "阴影模式"
+
+msgid "The method Godot uses for calculating OmniLight shadows (Dual Paraboloid or Cubemap)."
+msgstr "Godot 用于计算全向灯光（双抛物面或立方体贴）阴影的方法。"
+
+msgid "Indirect Energy"
+msgstr "间接能量"
+
+msgid "Godot light_indirect_energy multiplier for global illumination."
+msgstr "Godot 全局光照的间接能量乘数。"
+
+msgid "Volumetric Fog Energy"
+msgstr "体积雾能量"
+
+msgid "Godot light_volumetric_fog_energy multiplier."
+msgstr "Godot 体积雾能量乘数。"
+
+msgid "Specular"
+msgstr "高光"
+
+msgid "Godot light_specular multiplier for specular highlights."
+msgstr "Godot 高光乘数，用于高光效果。"
+
+msgid "Bake Mode"
+msgstr "烘焙模式"
+
+msgid "Godot light_bake_mode for global illumination baking."
+msgstr "Godot light_bake_mode（全局光照烘焙）。"
+
+msgid "Cull Mask"
+msgstr "剔除掩码"
+
+msgid "Lower 20 bits of Godot light_cull_mask (visibility layers)."
+msgstr "Godot light_cull_mask 的低 20 位（可见性层）。"
+
+msgid "Caster Mask"
+msgstr "投射器掩码"
+
+msgid "Lower 20 bits of Godot shadow_caster_mask (layers that cast shadows)."
+msgstr "Godot shadow_caster_mask 的低 20 位（投射阴影的层）。"
+
+msgid "Angular Distance"
+msgstr "角度距离"
+
+msgid "Godot DirectionalLight3D light_angular_distance (soft shadow size)."
+msgstr "上帝之光 3D 光_角度距离（柔和阴影大小）。"
+
+msgid "Light Size"
+msgstr "光照尺寸"
+
+msgid "Godot DirectionalLight3D light_size for soft shadows."
+msgstr "上帝之光 3D light_size 用于柔和阴影。"
+
+msgid "Negative Light"
+msgstr "负光照"
+
+msgid "Godot light_negative subtracts light instead of adding it."
+msgstr "Godot light_negative 减去而非添加光照。"
+
+msgid "Reverse Cull Face"
+msgstr "反向剔除面"
+
+msgid "Godot shadow_reverse_cull_face flips shadow face culling for thin geometry."
+msgstr "Godot shadow_reverse_cull_face 翻转薄几何体的阴影剔除面。"
+
+msgid "Normal Bias"
+msgstr "法线偏移"
+
+msgid "Godot shadow_normal_bias offsets shadow lookup by surface normal."
+msgstr "Godot shadow_normal_bias 通过表面法线偏移阴影查找。"
+
+msgid "Transmittance Bias"
+msgstr "透射率偏移"
+
+msgid "Godot shadow_transmittance_bias for translucent shadow receivers."
+msgstr "Godot shadow_transmittance_bias 用于半透明阴影接收器。"
+
+msgid "Opacity"
+msgstr "不透明度"
+
+msgid "Godot shadow_opacity (1.0 = opaque shadows)."
+msgstr "Godot shadow_opacity（1.0 = 不透明阴影）。"
+
+msgid "Attenuation"
+msgstr "衰减"
+
+msgid "Godot OmniLight3D omni_attenuation."
+msgstr "Godot OmniLight3D omni_attenuation。"
+
+msgid "Godot SpotLight3D spot_attenuation."
+msgstr "Godot SpotLight3D spot_attenuation。"
+
+msgid "Angle Attenuation"
+msgstr "角度衰减"
+
+msgid "Godot spot_angle_attenuation (rim softness). Set below 0 to derive from Blender Beam Shape Blend on export. Not mapped to Beam Shape Blend because Blender uses inner/outer cones."
+msgstr "Godot spot_angle_attenuation（边缘柔化度）。设置低于 0 以导出时从 Blender Beam Shape Blend 推导。未映射到 Beam Shape Blend，因为 Blender 使用内/外圆锥。"
+
+msgid "Range"
+msgstr "范围"
+
+msgid "Godot AreaLight3D area_range in meters."
+msgstr "Godot AreaLight3D area_range（单位为米）。"
+
+msgid "Godot AreaLight3D area_attenuation (2.0 for physically accurate falloff)."
+msgstr "Godot AreaLight3D area_attenuation（2.0 用于物理准确的衰减）。"
+
+msgid "Normalize Energy"
+msgstr "Normalize Energy"
+
+msgid "Godot AreaLight3D area_normalize_energy keeps total output stable when resizing."
+msgstr "Godot AreaLight3D area_normalize_energy 在调整大小时保持总输出稳定。"
+
+msgid "Shadow Normal Bias"
+msgstr "Shadow Normal Bias"
+
+msgid "Godot AreaLight3D shadow_normal_bias."
+msgstr "Godot AreaLight3D shadow_normal_bias。"
+
+msgid "Gobo Export Mode"
+msgstr "Gobo Export Mode"
+
+msgid "How an Image Texture on the light node tree is exported to Godot."
+msgstr "图像纹理如何从灯光节点树导出到 Godot。"
+
+msgid "Cell Size"
+msgstr "Cell Size"
+
+msgid "The size of the raster cells used for NavMesh baking."
+msgstr "用于 NavMesh 烘焙的栅格单元格的大小。"
+
+msgid "Agent Height"
+msgstr "Agent Height"
+
+msgid "The minimum height an agent needs to pass through an area."
+msgstr "代理通过区域所需的最小高度。"
+
+msgid "Agent Radius"
+msgstr "代理半径"
+
+msgid "The radius of the navigating agent."
+msgstr "导航代理的半径。"
+
+msgid "Max Travel Cost"
+msgstr "最大旅行成本"
+
+msgid "The 'Travel Cost' value in Godot when the vertex color is fully Red (1.0)."
+msgstr "Godot 中顶点颜色为完全红色（1.0）时的“旅行成本”值。"
+
+msgctxt "Operator"
+msgid "Export Nexus Preferences"
+msgstr "导出 Nexus 首选项"
+
+msgid "Preferences exported to {path.name}"
+msgstr "已导出到 {path.name} 的首选项。"
+
+msgctxt "Operator"
+msgid "Import Nexus Preferences"
+msgstr "导入 Nexus 首选项"
+
+msgid "File not found: {path}"
+msgstr "未找到文件：{path}"
+
+msgid "Preferences imported from {path.name}"
+msgstr "已从 {path.name} 导入首选项"
+
+msgid "Invalid file: {e}"
+msgstr "无效文件：{e}"
+
+msgctxt "Operator"
+msgid "Reset Nexus Preferences"
+msgstr "重置 Nexus 偏好设置"
+
+msgid "Nexus preferences reset to defaults."
+msgstr "Nexus 偏好设置已重置为默认值。"
+
+msgid "Relative to project root"
+msgstr "相对于项目根目录"
+
+msgid "Absolute path"
+msgstr "绝对路径"
+
+msgid "glTF Separate"
+msgstr "glTF 分离"
+
+msgid "GLB Separate"
+msgstr "GLB 分离"
+
+msgid "GLB"
+msgstr "GLB"
+
+msgid "Project Root"
+msgstr "项目根目录"
+
+msgid "Source path"
+msgstr "源路径"
+
+msgid "Source subfolder"
+msgstr "子文件夹"
+
+msgid "Source folder (absolute)"
+msgstr "源文件夹（绝对路径）"
+
+msgid "Target path"
+msgstr "目标路径"
+
+msgid "Target subfolder"
+msgstr "目标子文件夹"
+
+msgid "Target folder (absolute)"
+msgstr "目标文件夹（绝对路径）"
+
+msgid "Use Master Folder"
+msgstr "使用主文件夹"
+
+msgid "Master Folder"
+msgstr "主文件夹"
+
+msgid "Sort by File Type"
+msgstr "按文件类型排序"
+
+msgid "Create Folder per Asset"
+msgstr "按资产创建文件夹"
+
+msgid "Material Layout"
+msgstr "材质布局"
+
+msgid "Material Extension"
+msgstr "材质扩展"
+
+msgid "Texture Layout"
+msgstr "纹理布局"
+
+msgid "Resource Layout"
+msgstr "资源布局"
+
+msgid "Resource Layout Split Migrated"
+msgstr "资源布局迁移"
+
+msgid "Geometry Container"
+msgstr "几何体容器"
+
+msgid "Export Path Settings Configured"
+msgstr "导出路径设置已配置"
+
+msgid "Active Project Preset"
+msgstr "活动项目预设"
+
+msgid "Sidebar Tab Name"
+msgstr "侧边栏标签名称"
+
+msgid "Global Project Path Settings"
+msgstr "全局项目路径设置"
+
+msgid "Source (Blender files, presets)"
+msgstr "源（Blender 文件、预设）"
+
+msgid "Target (Godot project root)"
+msgstr "目标（Godot 项目根目录）"
+
+msgid "Target export folder"
+msgstr "导出文件夹"
+
+msgid "Sidebar"
+msgstr "侧边栏"
+
+msgid "Backup & Reset"
+msgstr "备份与重置"
+
+msgctxt "Operator"
+msgid "Export to JSON"
+msgstr "导出为 JSON"
+
+msgctxt "Operator"
+msgid "Import from JSON"
+msgstr "从 JSON 导入"
+
+msgctxt "Operator"
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+msgid "Play Once"
+msgstr "播放一次"
+
+msgid "Loop"
+msgstr "循环"
+
+msgid "Ping-Pong"
+msgstr "Ping-Pong"
+
+msgid "ID or Path"
+msgstr "ID 或路径"
+
+msgid "Orphaned Material Index Entries"
+msgstr "孤立的材质索引条目"
+
+msgid "Unindexed Material Files"
+msgstr "未索引的材质文件"
+
+msgid "Active Orphan Material Index"
+msgstr "活动的孤立材质索引"
+
+msgid "Active Unindexed Material Index"
+msgstr "活动未索引材质索引"
+
+msgid "Moved Material Files"
+msgstr "已移动的材质文件"
+
+msgid "Active Moved Material Index"
+msgstr "活动已移动材质索引"
+
+msgid "Missing Linked Libraries"
+msgstr "缺失的链接库"
+
+msgid "Active Missing Library Index"
+msgstr "活动缺失库索引"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Full Path"
+msgstr "完整路径"
+
+msgid "Relative Path"
+msgstr "相对路径"
+
+msgid "Export"
+msgstr "导出"
+
+msgid "Preset Name"
+msgstr "预设名称"
+
+msgid "Preset Data"
+msgstr "预设数据"
+
+msgid "Project Paths"
+msgstr "项目路径"
+
+msgid "Collection Settings"
+msgstr "集合设置"
+
+msgid "Collision Layers"
+msgstr "碰撞层"
+
+msgid "Collision Masks"
+msgstr "碰撞遮罩"
+
+msgid "Light Cull Mask"
+msgstr "灯光剔除遮罩"
+
+msgid "Shadow Caster Mask"
+msgstr "阴影投射遮罩"
+
+msgid "Light Cull Mask Value"
+msgstr "光照剔除遮罩值"
+
+msgid "Shadow Caster Mask Value"
+msgstr "阴影投射遮罩值"
+
+msgid "Scene Style"
+msgstr "场景样式"
+
+msgid "Custom LOD"
+msgstr "自定义 LOD"
+
+msgid "Object Settings"
+msgstr "对象设置"
+
+msgid "Mesh Optimization"
+msgstr "网格优化"
+
+msgid "Material Settings"
+msgstr "材质设置"
+
+msgid "Include All Object Slots"
+msgstr "包含所有对象槽位"
+
+msgid "Project Maintenance"
+msgstr "项目管理"
+
+msgid "Export Options"
+msgstr "导出选项"
+
+msgid "Batch Export"
+msgstr "批量导出"
+
+msgid "Quick Export"
+msgstr "快速导出"
+
+msgid "Info Panel"
+msgstr "信息面板"
+
+msgid "Active Section"
+msgstr "活动区域"
+
+msgid "Section Multi Visible"
+msgstr "多显示区域"
+
+msgid "Pin"
+msgstr "固定"
+
+msgid "Collection Presets"
+msgstr "集合预设"
+
+msgid "Project Presets"
+msgstr "项目预设"
+
+msgid "Script Path"
+msgstr "脚本路径"
+
+msgid "Godot Group"
+msgstr "Godot 组"
+
+msgid "Collision Margin"
+msgstr "碰撞余量"
+
+msgid "Length"
+msgstr "长度"
+
+msgid "Target Path"
+msgstr "目标路径"
+
+msgid "Export Mode"
+msgstr "导出模式"
+
+msgid "Geo & Mat"
+msgstr "几何与材质"
+
+msgid "Mat Only"
+msgstr "仅材质"
+
+msgid "Geo Only"
+msgstr "仅几何体"
+
+msgid "Export Scope"
+msgstr "导出范围"
+
+msgid "Active"
+msgstr "活动"
+
+msgid "Children"
+msgstr "儿童"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Apply Modifiers"
+msgstr "应用修改器"
+
+msgid "Export Vertex Colors"
+msgstr "导出顶点颜色"
+
+msgid "Force Export"
+msgstr "强制导出"
+
+msgid "Block Export on Shader Errors"
+msgstr "着色器错误时阻止导出"
+
+msgid "Normalize Rig Scale (Skeletal / Anim Lib)"
+msgstr "归一化绑定比例（骨骼/动画库）"
+
+msgid "Export Timeline Markers"
+msgstr "导出时间线标记"
+
+msgid "Auto-Reload Linked Libraries"
+msgstr "自动重新加载链接库"
+
+msgid "Use Master Folder (Legacy)"
+msgstr "使用主文件夹（旧版）"
+
+msgid "Folder Name (Legacy)"
+msgstr "文件夹名称（旧版）"
+
+msgid "Sort by File Type (Legacy)"
+msgstr "按文件类型排序（旧版）"
+
+msgid "Create Folder for Each Asset (Legacy)"
+msgstr "为每个资产创建文件夹（旧版）"
+
+msgid "Geometry Container (Legacy)"
+msgstr "几何体容器（旧版）"
+
+msgid "Batch Scope"
+msgstr "批量范围"
+
+msgid "Smart"
+msgstr "智能"
+
+msgid "Force"
+msgstr "强制"
+
+msgid "Root Directory"
+msgstr "根目录"
+
+msgid "File Filter"
+msgstr "文件过滤器"
+
+msgid "Progress"
+msgstr "进度"
+
+msgid "Workers"
+msgstr "工人"
+
+msgid "Active File Index"
+msgstr "活动文件索引"
+
+msgid "Enable gltfpack (v1.3)"
+msgstr "启用 gltfpack (v1.3)"
+
+msgid "Compressed (Godot 4.8+)"
+msgstr "压缩（Godot 4.8+）"
+
+msgid "Texture Compression (KTX2)"
+msgstr "纹理压缩（KTX2）"
+
+msgid "Auto-Configure Light Baking"
+msgstr "自动配置光照烘焙"
+
+msgid "Layer {i}"
+msgstr "图层 {i}"
+
+msgid "Mask {i}"
+msgstr "遮罩 {i}"
+
+msgid "__nexus_ao_bake_{material.name}"
+msgstr "__nexus_ao_bake_{material.name}"
+
+msgid "Cycles render engine is not available. Enable the Cycles add-on in Blender Preferences, or simplify the shader graph so shader_convert can run."
+msgstr "Cycles 渲染引擎不可用。请在 Blender 首选项中启用 Cycles 插件，或简化着色器图以便 shader_convert 能够运行。"
+
+msgid "__nexus_bake_{mat_id}"
+msgstr "__nexus_bake_{mat_id}"
+
+msgid "Nexus: {message}"
+msgstr "Nexus: {message}"
+
+msgid "Godot project path is not configured; required for nexus_importer shader includes."
+msgstr "未配置 Godot 项目路径；这是 nexus_importer 着色器包含所必需的。"
+
+msgid "Unexpected error during shader precheck ({type(exc).__name__}: {exc}); see Blender console for traceback."
+msgstr "着色器预检查期间发生意外错误 ({type(exc).__name__}: {exc})；请在 Blender 控制台中查看回溯信息。"
+
+msgid "Shader graph precheck passed."
+msgstr "着色图预检查通过。"
+
+msgid "Material Output Surface input is not linked."
+msgstr "材质输出表面输入未连接。"
+
+msgid "Internal: principled topology missing principled node."
+msgstr "内部：principled 拓扑缺少 principled 节点。"
+
+msgid "Godot project path is not set in addon preferences."
+msgstr "在附加组件首选项中未设置 Godot 项目路径。"
+
+msgid "vec3({beautify_float(dv[0])}, {beautify_float(dv[1])}, {beautify_float(dv[2])})"
+msgstr "vec3({beautify_float(dv[0])}, {beautify_float(dv[1])}, {beautify_float(dv[2])})"
+
+msgid "vec3({beautify_float(c[0])}, {beautify_float(c[1])}, {beautify_float(c[2])})"
+msgstr "vec3({beautify_float(c[0])}, {beautify_float(c[1])}, {beautify_float(c[2])})"
+
+msgid ""
+"[gd_resource type=\"CurveTexture\" load_steps=2 format=3]\n"
+"\n"
+"{sub}\n"
+"\n"
+"[resource]\n"
+"curve = SubResource(\"Curve_c\")\n"
+"width = {width}"
+msgstr ""
+"[gd_resource 类型=\"曲线纹理\" 加载步骤=2 格式=3]\n"
+"\n"
+"{子资源}\n"
+"\n"
+"[资源]\n"
+"曲线 = \"SubResource(\\\"Curve_c\\\")\"\n"
+"宽度 = {宽度}"
+
+msgid ""
+"[gd_resource type=\"CurveXYZTexture\" load_steps=4 format=3]\n"
+"\n"
+"{sub_r}\n"
+"\n"
+"{sub_g}\n"
+"\n"
+"{sub_b}\n"
+"\n"
+"[resource]\n"
+"curve_x = SubResource(\"Curve_r\")\n"
+"curve_y = SubResource(\"Curve_g\")\n"
+"curve_z = SubResource(\"Curve_b\")\n"
+"width = {width}"
+msgstr ""
+"[gd_resource type=\"CurveXYZTexture\" load_steps=4 format=3]\n"
+"\n"
+"{sub_r}\n"
+"\n"
+"{sub_g}\n"
+"\n"
+"{sub_b}\n"
+"\n"
+"[resource]\n"
+"curve_x = SubResource(\"Curve_r\")\n"
+"curve_y = SubResource(\"Curve_g\")\n"
+"curve_z = SubResource(\"Curve_b\")\n"
+"width = {width}"
+
+msgid ""
+"[sub_resource type=\"Curve\" id=\"{curve_id}\"]\n"
+"_data = [{data}]\n"
+"point_count = {len(points)}"
+msgstr ""
+"[资源子类型“曲线”id=\"{curve_id}\"]\n"
+"_data = [{数据}]\n"
+"点数量 = {点的长度}\n"
+"---"
+
+msgid "Failed to write {label}: {out_path}"
+msgstr "写入失败：{label}：{out_path}"
+
+msgid "// This Godot 4.x spatial shader was generated by Nexus B2G Pipeline."
+msgstr "// 此 Godot 4.x 空间着色器由 Nexus B2G 管道生成。"
+
+msgid "shader_type spatial;"
+msgstr "shader_type 空间；"
+
+msgid "{label} path '{file_path}' is not under Godot project root '{godot_root}'."
+msgstr "{label} 路径 '{file_path}' 不在 Godot 项目根目录 '{godot_root}' 下。"
+
+msgid "[gd_resource type=\"ShaderMaterial\" load_steps={load_steps} format=3 uid=\"{tres_uid}\"]"
+msgstr "[gd_resource type=\"ShaderMaterial\" 加载步骤={load_steps} 格式=3 uid=\"{tres_uid}\"]"
+
+msgid "vec4({rgb_expr}, {alpha})"
+msgstr "vec4({rgb_expr}, {alpha})"
+
+msgid "// nexus_helper:{name}"
+msgstr "// nexus_helper:{name}"
+
+msgid "#include \"{include_res_path(include_file)}\""
+msgstr "#include \"{include_res_path(include_file)}"
+
+msgid "Unsupported vec length: {n}"
+msgstr "不支持的向量长度：{n}"
+
+msgid "Unsupported cast: {actual.name} -> {needed.name}"
+msgstr "不支持的类型转换：{actual.name} -> {needed.name}"
+
+msgid "Default (Project)"
+msgstr "默认（项目）"
+
+msgid "Use the default bake resolution from addon preferences"
+msgstr "使用插件首选项中设置的默认烘焙分辨率"
+
+msgid "Bake at {size}x{size} pixels"
+msgstr "以 {size}x{size} 像素进行烘焙"
+
+msgid "Internal: Mix Shader topology missing mix node."
+msgstr "内部：混合着色器拓扑缺少混合节点。"
+
+msgid "Mix Shader requires both shader inputs to be connected."
+msgstr "混合着色器需要两个着色器输入都连接。"
+
+msgid "normalize((VIEW_MATRIX * vec4({nexpr}, 0.0)).xyz)"
+msgstr "normalize((VIEW_MATRIX * vec4({nexpr}, 0.0)).xyz)"
+
+msgid "Base Color"
+msgstr "基础颜色"
+
+msgid "Emission Color"
+msgstr "发射颜色"
+
+msgid "Emission Strength"
+msgstr "发射强度"
+
+msgid "ao_map"
+msgstr "ao_map"
+
+msgid "ao_map_{index}"
+msgstr "ao_map_{index}"
+
+msgid "__nexus_raycast_bake_{source_material.name}_{kind}"
+msgstr "__nexus_raycast_bake_{source_material.name}_{kind}"
+
+msgid ": filter_linear_mipmap"
+msgstr ": filter_linear_mipmap"
+
+msgid "Curve component export requires a material for dedicated folder naming."
+msgstr "曲线组件导出需要专用文件夹命名的材质。"
+
+msgid "{mat_name}_{kind}_{index}.tres"
+msgstr "{mat_name}_{kind}_{index}.tres"
+
+msgid "Image Texture node has no image assigned."
+msgstr "图像纹理节点未分配图像。"
+
+msgid "Could not resolve texture file for image '{image.name}'."
+msgstr "无法解析图像 '{image.name}' 的纹理文件。"
+
+msgid "{not_found_label} not found: {abs_path}"
+msgstr "{not_found_label} 未找到：{abs_path}"
+
+msgid "Could not copy texture into Godot project: {abs_path}. Verify the Godot target path and resource export layout in addon preferences."
+msgstr "无法将纹理复制到 Godot 项目：{abs_path}。请检查附加组件首选项中的 Godot 目标路径和资源导出布局。"
+
+msgid "tex_{_counter}"
+msgstr "tex_{_counter}"
+
+msgid "_unnamed"
+msgstr "_unnamed"
+
+msgid "material"
+msgstr "材质"
+
+msgid "Shader socket is not connected."
+msgstr "着色器插座未连接。"
+
+msgid "Cannot resolve group shader passthrough on '{node.name}' without group context."
+msgstr "无法在没有组上下文的情况下解析 '{node.name}' 上的组着色器透传。"
+
+msgid "Group input index {idx} out of range for '{wrapper.name}'."
+msgstr "节点组输入索引 {idx} 超出 '{wrapper.name}' 的范围。"
+
+msgid "Group shader passthrough input '{parent_sock.name}' on '{wrapper.name}' is not connected."
+msgstr "'{parent_sock.name}'（在 '{wrapper.name}' 上）的组着色器透传输入未连接。"
+
+msgid "Nested node group depth exceeds {_MAX_SHADER_GROUP_DEPTH} in shader branch."
+msgstr "着色器分支中的嵌套节点组深度超过 {_MAX_SHADER_GROUP_DEPTH}。"
+
+msgid "Cyclic node group chain in shader branch."
+msgstr "着色器分支中的循环节点组链。"
+
+msgid "Node Group '{node.name}' has no Shader input."
+msgstr "节点组“{node.name}”没有着色器输入。"
+
+msgid "Node Group '{node.name}' shader passthrough input is not connected."
+msgstr "节点组“{node.name}”的着色器透传输入未连接。"
+
+msgid "Reroute in shader branch has no upstream connection."
+msgstr "着色器分支中的重路由没有上游连接。"
+
+msgid "Cannot map group interface socket '{getattr(from_socket, 'name', '?')}' on '{from_node.name}'."
+msgstr "无法将组接口插座'{getattr(from_socket, 'name', '?')}'映射到\"{from_node.name}\"。"
+
+msgid "Node Group '{group_node.name}' has no associated node tree."
+msgstr "节点组“{group_node.name}”没有关联的节点树。"
+
+msgid "Node Group '{group_node.name}' has no Shader output."
+msgstr "节点组“{group_node.name}”没有着色器输出。"
+
+msgid "Node Group '{group_node.name}' has no matching Group Output input for Shader."
+msgstr "节点组“{group_node.name}”没有匹配的组输出输入用于着色器。"
+
+msgid "Node Group '{group_node.name}' Shader output is not wired inside the group."
+msgstr "节点组“{group_node.name}”的着色器输出未在组内连接。"
+
+msgid "Node group has no Group Output node."
+msgstr "节点组没有组输出节点。"
+
+msgid ""
+"// Nexus B2G shared shader include.\n"
+"{body}"
+msgstr ""
+"// Nexus B2G 共享着色器包含文件。\n"
+"{body}"
+
+msgid "Missing nexus_importer shader includes in '{dest_dir}': {', '.join(missing)}. Install or update the nexus_importer addon (shader_inc folder)."
+msgstr "在 '{dest_dir}' 中缺少 nexus_importer 着色器包含文件：{', '.join(missing)}。安装或更新 nexus_importer 插件（shader_inc 文件夹）。"
+
+msgid "mix({left}, {right}, ({fac_expr}))"
+msgstr "mix({left}, {right}, ({fac_expr}))"
+
+msgid "Material has no node tree."
+msgstr "材质没有节点树。"
+
+msgid "Missing ShaderNodeOutputMaterial named \"Material Output\"."
+msgstr "缺少名为 \"Material Output\" 的 ShaderNodeOutputMaterial。"
+
+msgid "Add Shader requires both shader inputs to be connected."
+msgstr "添加着色器需要两个着色器输入都已连接。"
+
+msgid "Shader node '{node.name}' ({node.bl_idname}) is not supported as a shader branch."
+msgstr "着色器节点 '{node.name}' ({node.bl_idname}) 不支持作为着色器分支。"
+
+msgid "No shader terminator handler for '{node.bl_idname}'."
+msgstr "没有为 '{node.bl_idname}' 的着色器终结符处理器。"
+
+msgid "Internal: Principled BSDF state missing for shader branch."
+msgstr "内部错误：着色器分支缺少 Principled BSDF 状态。"
+
+msgid "terminator _FINALIZERS keys must match terminator_types.SUPPORTED_TERMINATORS (missing={missing}, extra={extra})."
+msgstr "terminator _FINALIZERS 键必须与 terminator_types.SUPPORTED_TERMINATORS 匹配（缺失={missing}，多余={extra}）。"
+
+msgid "Color({beautify_float(seq[0])}, {beautify_float(seq[1])}, {beautify_float(seq[2])}, {beautify_float(seq[3])})"
+msgstr "Color({beautify_float(seq[0])}, {beautify_float(seq[1])}, {beautify_float(seq[2])}, {beautify_float(seq[3])})"
+
+msgid "Unsupported expose param kind: {kind}"
+msgstr "不支持的暴露参数类型：{kind}"
+
+msgid ": source_color"
+msgstr ": source_color"
+
+msgid "Expected {n} components, got scalar."
+msgstr "期望 {n} 个分量，实际得到标量。"
+
+msgid "no linked mesh"
+msgstr "未链接网格"
+
+msgid "vec2(({shader_uv_expr}).x, 1.0 - ({shader_uv_expr}).y)"
+msgstr "vec2(({shader_uv_expr}).x, 1.0 - ({shader_uv_expr}).y)"
+
+msgid "vec3(_nexus_vertex_local.x, -_nexus_vertex_local.z, _nexus_vertex_local.y)"
+msgstr "vec3(_nexus_vertex_local.x, -_nexus_vertex_local.z, _nexus_vertex_local.y)"
+
+msgid "Material does not use nodes."
+msgstr "材质未使用节点。"
+
+msgid "Unsupported configuration on '{first.node_name}' ({first.bl_idname}): {first.detail}"
+msgstr "在 '{first.node_name}' ({first.bl_idname}) 上不支持的配置：{first.detail}"
+
+msgid "Material Output Surface must connect to Principled BSDF, Add Shader, Mix Shader, or a supported BSDF terminator (optionally wrapped in node groups)."
+msgstr "Material Output Surface 必须连接到 Principled BSDF、Add Shader、Mix Shader，或受支持的 BSDF terminator（可选地包裹在节点组中）。"
+
+msgid "Godot project path is not set."
+msgstr "Godot 项目路径未设置。"
+
+msgid "Shader graph is supported by the Nexus converter."
+msgstr "Nexus 转换器支持着色器图。"
+
+msgid "Unexpected error during shader validation ({type(exc).__name__}: {exc}); see Blender console for traceback."
+msgstr "着色器验证期间发生意外错误（{type(exc).__name__}: {exc}）；请在 Blender 控制台中查看回溯信息。"
+
+msgid "1d"
+msgstr "1d"
+
+msgid "2d"
+msgstr "2d"
+
+msgid "3d"
+msgstr "3d"
+
+msgid "4d"
+msgstr "4d"
+
+msgid "Unsupported shader branch terminator '{terminator.bl_idname}' on node '{terminator.name}'."
+msgstr "不支持的着色器分支终止符 '{terminator.bl_idname}'，节点为 '{terminator.name}'。"
+
+msgid "mat3 _nexus_m2w = mat3(INV_VIEW_MATRIX * MODELVIEW_MATRIX);"
+msgstr "mat3 _nexus_m2w = mat3(INV_VIEW_MATRIX * MODELVIEW_MATRIX);"
+
+msgid "mat3 _nexus_w2m = mat3(inverse(INV_VIEW_MATRIX * MODELVIEW_MATRIX));"
+msgstr "mat3 _nexus_w2m = mat3(inverse(INV_VIEW_MATRIX * MODELVIEW_MATRIX));"
+
+msgid "Node '{node.name}' ({node.bl_idname}) is not supported in the displacement (vertex) subgraph. Use Math, Value, Mapping, or UV nodes only."
+msgstr "节点 '{node.name}' ({node.bl_idname}) 不支持在置换（顶点）子图中使用。请使用 Math、Value、Mapping 或 UV 节点。"
+
+msgid "Internal: displacement subgraph did not produce a vertex-stage value."
+msgstr "内部错误：置换子图未产生顶点阶段值。"
+
+msgid "Internal: variable for '{from_node.name}'.'{from_socket.name}' not yet computed."
+msgstr "内部错误：变量 '{from_node.name}.{from_socket.name}' 尚未计算。"
+
+msgid "GroupInput '{from_node.name}' used outside an active node group context."
+msgstr "组输入 '{from_node.name}' 在非活动节点组上下文中使用。"
+
+msgid "GroupInput socket '{getattr(from_socket, 'name', '?')}' on '{from_node.name}' does not map to group '{group_node.name}' inputs."
+msgstr "组输入端口 '{getattr(from_socket, 'name', '?')}' 在 '{from_node.name}' 上未映射到组 '{group_node.name}' 的输入。"
+
+msgid "Unsupported socket type '{socket_type}' on '{socket.name}'."
+msgstr "不支持的端口类型 '{socket_type}'，位于 '{socket.name}'。"
+
+msgid "Unsupported vector size {size}."
+msgstr "不支持的向量大小 {size}。"
+
+msgid "Attribute type not supported; use GEOMETRY or OBJECT"
+msgstr "属性类型不受支持；请使用 GEOMETRY 或 OBJECT"
+
+msgid "Unknown geometry attribute; supported names: color layers (Col), UV layer names"
+msgstr "未知的几何体属性；支持的名称为：颜色层 (Col)、UV 层名称"
+
+msgid "Object attribute needs a property name"
+msgstr "对象属性需要属性名"
+
+msgid "vec3({e}, 0.0)"
+msgstr "vec3({e}, 0.0)"
+
+msgid "_nexus_vertex_color.rgb"
+msgstr "_nexus_vertex_color.rgb"
+
+msgid "_nexus_vertex_color.a"
+msgstr "_nexus_vertex_color.a"
+
+msgid "Camera Data output not supported"
+msgstr "不支持相机数据输出"
+
+msgid "Random per Island"
+msgstr "每个岛屿随机"
+
+msgid "Random Per Island"
+msgstr "每个岛屿随机"
+
+msgid "Geometry output not supported"
+msgstr "不支持几何体输出"
+
+msgid "Bevel output not supported"
+msgstr "不支持倒角输出"
+
+msgid "Node Group '{node.name}' has no associated node tree."
+msgstr "节点组 '{node.name}' 没有关联的节点树。"
+
+msgid "Node Group '{node.name}' has no GroupOutput node."
+msgstr "节点组 '{node.name}' 没有 GroupOutput 节点。"
+
+msgid "normalize((INV_VIEW_MATRIX * vec4(NORMAL, 0.0)).xyz)"
+msgstr "normalize((INV_VIEW_MATRIX * vec4(NORMAL, 0.0)).xyz)"
+
+msgid "Is Shadow Ray"
+msgstr "阴影射线"
+
+msgid "Is Reflection Ray"
+msgstr "反射射线"
+
+msgid "Is Transmission Ray"
+msgstr "透射射线"
+
+msgid "Is Singular Ray"
+msgstr "奇异射线"
+
+msgid "Is Diffuse Ray"
+msgstr "漫反射射线"
+
+msgid "Is Glossy Ray"
+msgstr "高光射线"
+
+msgid "Ray Depth"
+msgstr "射线深度"
+
+msgid "Transparent Depth"
+msgstr "透明深度"
+
+msgid "Light Path output not supported"
+msgstr "不支持光路输出"
+
+msgid "vec3 {out_var} = {vec_expr};"
+msgstr "vec3 {out_var} = {vec_expr};"
+
+msgid "vec3 {out_var} = {vec};"
+msgstr "vec3 {out_var} = {vec};"
+
+msgid "vec3 {out_var} = nexus_safe_divide({vec}, {scale});"
+msgstr "vec3 {out_var} = nexus_safe_divide({vec}, {scale});"
+
+msgid "vec3 {out_var} = ({vec}) - ({loc});"
+msgstr "vec3 {out_var} = ({vec}) - ({loc});"
+
+msgid "vec3 {out_var} = nexus_safe_divide(({vec}) - ({loc}), {scale});"
+msgstr "vec3 {out_var} = nexus_safe_divide(({vec}) - ({loc}), {scale});"
+
+msgid "Math operation not supported"
+msgstr "不支持的数学运算"
+
+msgid "Clamp type not supported"
+msgstr "不支持的 Clamp 类型"
+
+msgid "Clamp socket type not supported"
+msgstr "Clamp 端口类型不受支持"
+
+msgid "nexus_clamp_minmax_f({value}, {lo}, {hi})"
+msgstr "nexus_clamp_minmax_f({value}, {lo}, {hi})"
+
+msgid "Mix data type not supported"
+msgstr "不支持的数据混合类型"
+
+msgid "Mix blend type not supported"
+msgstr "不支持混合混合类型"
+
+msgid "Unknown expose param kind: {kind}"
+msgstr "未知的暴露参数类型：{kind}"
+
+msgid "active UV"
+msgstr "活动 UV"
+
+msgid "Normal Map node '{node.name}' has no Color input; connect an Image Texture."
+msgstr "法线贴图节点 '{node.name}' 没有颜色输入；连接一个图像纹理。"
+
+msgid "Normal Map node '{node.name}' uses unsupported space='{space}'."
+msgstr "法线贴图节点 '{node.name}' 使用了不支持的空间='{space'。"
+
+msgid "vec3(2.0, -2.0, -2.0) * ({color_expr}) - vec3(1.0)"
+msgstr "vec3(2.0, -2.0, -2.0) * ({color_expr}) - vec3(1.0)"
+
+msgid "vec3(2.0) * ({color_expr}) - vec3(1.0)"
+msgstr "vec3(2.0) * ({color_expr}) - vec3(1.0)"
+
+msgid "Normal Map node '{src.name}' has no Color input for Bump."
+msgstr "法线贴图节点 '{src.name}' 没有用于凹凸的 Color 输入。"
+
+msgid "Object Index"
+msgstr "对象索引"
+
+msgid "Pass Index"
+msgstr "通道索引"
+
+msgid "Object Info output not supported"
+msgstr "不支持对象信息输出"
+
+msgid "Material Output Surface has no shader terminator."
+msgstr "材质输出表面没有着色器终止符。"
+
+msgid "Material Output Surface must connect to Principled BSDF, Add Shader, or Mix Shader."
+msgstr "材质输出表面必须连接到 Principled BSDF、Add Shader 或 Mix Shader。"
+
+msgid "Material Output Surface has no Principled BSDF terminator."
+msgstr "材质输出表面没有 Principled BSDF 终止符。"
+
+msgid "No image set on Environment Texture node '{node.name}'."
+msgstr "环境纹理节点 '{node.name}' 未设置图像。"
+
+msgid "Environment Texture '{node.name}' must reference an external file (got source='{node.image.source}')."
+msgstr "环境纹理 '{node.name}' 必须引用外部文件（获取的源为'{node.image.source}'）。"
+
+msgid "Unsupported environment projection '{proj}'."
+msgstr "不支持的环境投影 '{proj}'。"
+
+msgid "No image set on Image Texture node '{node.name}'."
+msgstr "Image Texture 节点 '{node.name}' 未设置图像。"
+
+msgid "Image Texture '{node.name}' must reference an external file (got source='{node.image.source}')."
+msgstr "Image Texture '{node.name}' 必须引用外部文件（获取的源为'{node.image.source}'）。"
+
+msgid "Texture Coordinate output not supported"
+msgstr "不支持纹理坐标输出"
+
+msgid "mat4({', '.join(cols)})"
+msgstr "mat4({', '.join(cols)})"
+
+msgid "normalize(vec3(TANGENT.x, -TANGENT.z, TANGENT.y))"
+msgstr "normalize(vec3(TANGENT.x, -TANGENT.z, TANGENT.y))"
+
+msgid "Vector Math operation not supported"
+msgstr "Vector Math 运算不支持"
+
+msgid "Vector Transform space pair not supported"
+msgstr "Vector Transform 空间对不支持"
+
+msgid "normalize(transpose(mat3(MODEL_MATRIX)) * ({expr}))"
+msgstr "normalize(transpose(mat3(MODEL_MATRIX)) * ({expr}))"
+
+msgid "(inverse(MODEL_MATRIX) * vec4({expr}, 1.0)).xyz"
+msgstr "(inverse(MODEL_MATRIX) * vec4({expr}, 1.0)).xyz"
+
+msgid "mat3(inverse(MODEL_MATRIX)) * ({expr})"
+msgstr "mat3(inverse(MODEL_MATRIX)) * ({expr})"
+
+msgid "normalize(MODEL_NORMAL_MATRIX * ({expr}))"
+msgstr "normalize(MODEL_NORMAL_MATRIX * ({expr}))"
+
+msgid "(MODEL_MATRIX * vec4({expr}, 1.0)).xyz"
+msgstr "(MODEL_MATRIX * vec4({expr}, 1.0)).xyz"
+
+msgid "mat3(MODEL_MATRIX) * ({expr})"
+msgstr "mat3(MODEL_MATRIX) * ({expr})"
+
+msgid "normalize(transpose(mat3(INV_VIEW_MATRIX)) * ({expr}))"
+msgstr "normalize(transpose(mat3(INV_VIEW_MATRIX)) * ({expr}))"
+
+msgid "(VIEW_MATRIX * vec4({expr}, 1.0)).xyz"
+msgstr "(VIEW_MATRIX * vec4({expr}, 1.0)).xyz"
+
+msgid "mat3(VIEW_MATRIX) * ({expr})"
+msgstr "mat3(VIEW_MATRIX) * ({expr})"
+
+msgid "normalize(transpose(mat3(VIEW_MATRIX)) * ({expr}))"
+msgstr "normalize(transpose(mat3(VIEW_MATRIX)) * ({expr}))"
+
+msgid "(INV_VIEW_MATRIX * vec4({expr}, 1.0)).xyz"
+msgstr "(INV_VIEW_MATRIX * vec4({expr}, 1.0)).xyz"
+
+msgid "mat3(INV_VIEW_MATRIX) * ({expr})"
+msgstr "mat3(INV_VIEW_MATRIX) * ({expr})"
+
+msgid "Unknown vector transform step: {step}"
+msgstr "Unknown vector transform step: {step}"
+
+msgid "vec3 {out_var} = ({_a(input_fn)}) {operator} ({_b(input_fn)});"
+msgstr "vec3 {out_var} = ({_a(input_fn)}) {operator} ({_b(input_fn)});"
+
+msgid "vec3 {out_var} = {name}({', '.join(args)});"
+msgstr "vec3 {out_var} = {name}({', '.join(args)});"
+
+msgid "\"\"\"Auto-generated Blender Eevee GLSL port ({const}). Do not edit by hand.\"\"\""
+msgstr "\"Auto-generated Blender Eevee GLSL port ({const}). Do not edit by hand.\""
+
+msgid "void nexus_white_noise_2d"
+msgstr "void nexus_white_noise_2d"
+
+msgid "void nexus_white_noise_3d"
+msgstr "void nexus_white_noise_3d"
+
+msgid "void nexus_white_noise_4d"
+msgstr "void nexus_white_noise_4d"
+
+msgid "\"\"\"Per-node procedural texture GLSL (Blender Eevee parity, one .gdshaderinc per node)."
+msgstr "\"\"\"Per-node procedural texture GLSL (Blender Eevee parity, one .gdshaderinc per node)."
+
+msgid "from __future__ import annotations"
+msgstr "from __future__ import annotations"
+
+msgid "Missing Blender GLSL sources: {tmp}"
+msgstr "Missing Blender GLSL sources: {tmp}"
+
+msgid "const uint {name} = {val};"
+msgstr "const uint {name} = {val};"
+
+msgid "const float {name} = {val};"
+msgstr "const float {name} = {val};"
+
+msgid "const int {name} = {val};"
+msgstr "const int {name} = {val};"
+
+msgid "float {match.group(1)} = float({expr});"
+msgstr "float {match.group(1)} = float({expr});"
+
+msgid "return vec2\\(h & 0x7fffffff\\)(?:\\s*\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?;?"
+msgstr "return vec2(h & 0x7fffffff)(?:\\s*\\*\\s*(1.0 / float(0x7fffffff)))?;"
+
+msgid "return vec2(float(h.x & 0x7fffffff), float(h.y & 0x7fffffff)){_HASH_INT_SCALE}"
+msgstr "return vec2(float(h.x & 0x7fffffff), float(h.y & 0x7fffffff)){_HASH_INT_SCALE}"
+
+msgid "return vec3\\(h & 0x7fffffff\\)(?:\\s*\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?;?"
+msgstr "return vec3(h & 0x7fffffff)(?:\\s*\\*\\s*(1.0 / float(0x7fffffff)))?;"
+
+msgid "return vec3(float(h.x & 0x7fffffff), float(h.y & 0x7fffffff), float(h.z & 0x7fffffff)){_HASH_INT_SCALE}"
+msgstr "return vec3(float(h.x & 0x7fffffff), float(h.y & 0x7fffffff), float(h.z & 0x7fffffff)){_HASH_INT_SCALE}"
+
+msgid "return vec4\\(h & 0x7fffffff\\)(?:\\s*\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?;?"
+msgstr "return vec4(h & 0x7fffffff)(?:\\s*\\*\\s*(1.0 / float(0x7fffffff)))?;"
+
+msgid "return vec4(float(h.x & 0x7fffffff), float(h.y & 0x7fffffff), float(h.z & 0x7fffffff), float(h.w & 0x7fffffff)){_HASH_INT_SCALE}"
+msgstr "return vec4(float(h.x & 0x7fffffff), float(h.y & 0x7fffffff), float(h.z & 0x7fffffff), float(h.w & 0x7fffffff)){_HASH_INT_SCALE}"
+
+msgid "return vec2\\(\\s*float\\(h\\.x & 0x7fffffff\\),\\s*float\\(h\\.y & 0x7fffffff\\)\\)\\s*(?:\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?\\s*;?"
+msgstr "return vec2(\\s*float(h.x & 0x7fffffff),\\s*float(h.y & 0x7fffffff)\\)\\s*(?:\\*\\s*(1.0 / float(0x7fffffff)))?\\s*;"
+
+msgid "return vec3\\(\\s*float\\(h\\.x & 0x7fffffff\\),\\s*float\\(h\\.y & 0x7fffffff\\),\\s*float\\(h\\.z & 0x7fffffff\\)\\)\\s*(?:\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?\\s*;?"
+msgstr "return vec3(\\s*float(h.x & 0x7fffffff),\\s*float(h.y & 0x7fffffff),\\s*float(h.z & 0x7fffffff)\\)\\s*(?:\\*\\s*(1.0 / float(0x7fffffff)))?\\s*;"
+
+msgid "return vec4\\(\\s*float\\(h\\.x & 0x7fffffff\\),\\s*float\\(h\\.y & 0x7fffffff\\),\\s*float\\(h\\.z & 0x7fffffff\\),\\s*float\\(h\\.w & 0x7fffffff\\)\\)\\s*(?:\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?\\s*;?"
+msgstr "return vec4(\\s*float(h.x & 0x7fffffff),\\s*float(h.y & 0x7fffffff),\\s*float(h.z & 0x7fffffff),\\s*float(h.w & 0x7fffffff)\\)\\s*(?:\\*\\s*(1.0 / float(0x7fffffff)))?\\s*;"
+
+msgid "return vec3\\(\\s*\\n\\s*float\\(h\\.x & 0x7fffffff\\),\\s*float\\(h\\.y & 0x7fffffff\\),\\s*float\\(h\\.z & 0x7fffffff\\)\\)\\s*(?:\\n\\s*\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?\\s*\\n"
+msgstr "return vec3(\\s*\\n\\s*float(h.x & 0x7fffffff),\\s*float(h.y & 0x7fffffff),\\s*float(h.z & 0x7fffffff)\\)\\s*(?:\\n\\s*\\*\\s*(1.0 / float(0x7fffffff)))?\\s*\\n"
+
+msgid "return vec4\\(\\s*\\n\\s*float\\(h\\.x & 0x7fffffff\\),\\s*float\\(h\\.y & 0x7fffffff\\),\\s*\\n\\s*float\\(h\\.z & 0x7fffffff\\),\\s*float\\(h\\.w & 0x7fffffff\\)\\)\\s*(?:\\n\\s*\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?\\s*\\n"
+msgstr "return vec4\\(\\s*\\n\\s*float\\(h\\.x & 0x7fffffff\\),\\s*float\\(h\\.y & 0x7fffffff\\),\\s*\\n\\s*float\\(h\\.z & 0x7fffffff\\),\\s*float\\(h\\.w & 0x7fffffff\\)\\)\\s*(?:\\n\\s*\\*\\s*\\(1\\.0 / float\\(0x7fffffff\\)\\))?\\s*\\n"
+
+msgid "(PI * 0.5)"
+msgstr "(PI * 0.5)"
+
+msgid "vec3(65024.0, 65024.0, 64512.0)"
+msgstr "vec3(65024.0, 65024.0, 64512.0)"
+
+msgid "Single scalar"
+msgstr "标量"
+
+msgid "Integer scalar"
+msgstr "整型标量"
+
+msgid "Boolean"
+msgstr "布尔值"
+
+msgid "On/off toggle"
+msgstr "开关"
+
+msgid "Vector 2D"
+msgstr "二维向量"
+
+msgid "Two-component vector"
+msgstr "双分量向量"
+
+msgid "Vector 3D"
+msgstr "三维向量"
+
+msgid "Three-component vector"
+msgstr "三分量向量"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "RGB color (vec3 in Godot shader)"
+msgstr "RGB 颜色（Godot 着色器中的 vec3）"
+
+msgid "Nexus Expose Parameter"
+msgstr "Nexus 暴露参数"
+
+msgid "Expose this value as an editable Godot shader parameter (name = node name)"
+msgstr "将此值作为可编辑的 Godot 着色器参数进行暴露（名称 = 节点名称）"
+
+msgid "Default"
+msgstr "默认值"
+
+msgid "Nexus"
+msgstr "Nexus"
+
+msgid "Nexus ORM Bake"
+msgstr "Nexus ORM 烘焙"
+
+msgid "Marks a value for ORM packing. Connect textures or procedural graphs to bake; unlinked defaults and constant values are packed without baking."
+msgstr "标记一个用于 ORM 打包的值。将纹理或程序化图连接到烘焙；未链接的默认值和常量值不进行烘焙打包。"
+
+msgid "Packed into the red channel"
+msgstr "打包到红色通道"
+
+msgid "Packed into the green channel"
+msgstr "绿色通道打包"
+
+msgid "Packed into the blue channel"
+msgstr "蓝色通道打包"
+
+msgid "ORM Channel"
+msgstr "ORM 通道"
+
+msgid "Nexus Expose"
+msgstr "Nexus 暴露"
+
+msgid "Nexus ORM"
+msgstr "Nexus ORM"
+
+msgid "Nexus Expose ({type_label})"
+msgstr "Nexus 暴露 ({type_label})"
+
+msgid "Slot {index + 1} (Empty)"
+msgstr "插槽 {index + 1}（空）"
+
+msgid "Project structure"
+msgstr "项目结构"
+
+msgid "Per-collection export"
+msgstr "集合导出"
+
+msgid "Object settings"
+msgstr "对象设置"
+
+msgid "Materials"
+msgstr "材质"
+
+msgid "Project health"
+msgstr "项目健康状态"
+
+msgid "Advanced export options"
+msgstr "高级导出选项"
+
+msgid "Batch export"
+msgstr "批量导出"
+
+msgid "Third-Party glTF Warning"
+msgstr "第三方 glTF 警告"
+
+msgctxt "Operator"
+msgid "Toggle Section"
+msgstr "切换部分显示"
+
+msgid "Section"
+msgstr "部分"
+
+msgid "Shift"
+msgstr "Shift"
+
+msgctxt "Operator"
+msgid "Pin Section"
+msgstr "固定部分"
+
+msgid "No folder selected."
+msgstr "未选择文件夹。"
+
+msgid "Browse Source Folder"
+msgstr "浏览源文件夹"
+
+msgid "Browse Target Folder"
+msgstr "浏览目标文件夹"
+
+msgctxt "Operator"
+msgid "Select Target Scene"
+msgstr "选择目标场景"
+
+msgid "Nexus Godot Pipeline {version}"
+msgstr "Nexus Godot Pipeline {version}"
+
+msgid "Force Re-export"
+msgstr "强制重新导出"
+
+msgid "Auto Reload Libraries"
+msgstr "自动重载库"
+
+msgid "Godot Export Settings"
+msgstr "Godot 导出设置"
+
+msgid "Common:"
+msgstr "通用:"
+
+msgid "Shadow Export:"
+msgstr "阴影导出:"
+
+msgid "Gobo Texture:"
+msgstr "Gobo 纹理:"
+
+msgid "Omni:"
+msgstr "全向光"
+
+msgid "Spot:"
+msgstr "聚光灯"
+
+msgid "Directional:"
+msgstr "定向光"
+
+msgid "Area (Godot 4.7+):"
+msgstr "区域光 (Godot 4.7+):"
+
+msgid "PCSS Size"
+msgstr "PCSS 尺寸"
+
+msgid "Nexus Shading"
+msgstr "Nexus 着色器"
+
+msgid "Processing... ({props.batch_export_progress}%)"
+msgstr "处理中... ({props.batch_export_progress}%)"
+
+msgctxt "Operator"
+msgid "STOP BATCH EXPORT"
+msgstr "停止批量导出"
+
+msgid "Export Logic:"
+msgstr "导出逻辑:"
+
+msgid "Parallel Workers"
+msgstr "并行工作线程"
+
+msgid "Found {len(props.batch_files)} files:"
+msgstr "找到 {len(props.batch_files)} 个文件。"
+
+msgctxt "Operator"
+msgid "Select All"
+msgstr "全选"
+
+msgid "Export {selected_count} Files"
+msgstr "导出 {selected_count} 个文件"
+
+msgid "Select files to export"
+msgstr "选择要导出的文件"
+
+msgid "Presets:"
+msgstr "预设："
+
+msgid "Type:"
+msgstr "类型："
+
+msgid "No active Mesh Object found."
+msgstr "未找到活动的网格对象。"
+
+msgid "Navigation Bake Settings:"
+msgstr "导航烘焙设置："
+
+msgid "Navigation Costs:"
+msgstr "导航成本："
+
+msgid "Physics Properties:"
+msgstr "物理属性："
+
+msgid "Material:"
+msgstr "材质:"
+
+msgid "RigidBody Settings:"
+msgstr "刚体设置:"
+
+msgid "Sleep"
+msgstr "睡眠"
+
+msgid "Lock Rot"
+msgstr "锁定旋转"
+
+msgid "VehicleBody Settings:"
+msgstr "车辆车身设置:"
+
+msgid "Target: {display_obj.name}"
+msgstr "目标：{display_obj.name}"
+
+msgid "Ready. Push actions to NLA."
+msgstr "就绪。将动作推送到 NLA。"
+
+msgid "Source Asset has no Nexus ID!"
+msgstr "源资产没有 Nexus ID！"
+
+msgid "Asset Detected: {name}"
+msgstr "检测到资产：{name}"
+
+msgctxt "Operator"
+msgid "Initialize (Make Override)"
+msgstr "初始化（创建覆盖）"
+
+msgid "Source Asset has no ID!"
+msgstr "源资产没有 ID！"
+
+msgid "{asset_count} Assets detected!"
+msgstr "检测到 {asset_count} 个资产。"
+
+msgid "An Animation Library must target exactly ONE Asset."
+msgstr "动画库必须针对恰好一个资产。"
+
+msgid "Please remove the others."
+msgstr "请移除其他资产。"
+
+msgid "Could not analyze collection."
+msgstr "无法分析集合。"
+
+msgctxt "Operator"
+msgid "Analyze"
+msgstr "分析"
+
+msgid "Export as: {export_name}"
+msgstr "导出为：{export_name}"
+
+msgid ": {source_info['count']} Instances"
+msgstr ": {source_info['count']} 实例"
+
+msgid "Physics"
+msgstr "物理引擎"
+
+msgid "High Performance Cost!"
+msgstr "高性能开销！"
+
+msgid "Select a Collection in the Outliner."
+msgstr "在大纲中选择集合。"
+
+msgid "Asset Settings:"
+msgstr "资产设置："
+
+msgid "Data Integrity:"
+msgstr "数据完整性："
+
+msgid "Global Settings:"
+msgstr "全局设置："
+
+msgid "Animation Settings:"
+msgstr "动画设置："
+
+msgid "Project Health Check"
+msgstr "项目健康检查"
+
+msgid "Global Actions"
+msgstr "全局操作"
+
+msgctxt "Operator"
+msgid "Relink {len(results.moved_material_files)} Moved Materials"
+msgstr "重新链接 {len(results.moved_material_files)} 已移动的材质"
+
+msgid "Moved Materials (ID found, path changed):"
+msgstr "已移动的材质（找到 ID，路径已更改）："
+
+msgid "Unindexed glTF Files on Disk (ghost files):"
+msgstr "磁盘上的未索引 glTF 文件（幽灵文件）："
+
+msgid "Unindexed Material Files on Disk:"
+msgstr "磁盘上的未索引材质文件:"
+
+msgid "Detailed Report:"
+msgstr "详细报告:"
+
+msgid "Orphaned Asset Index Entries (links to nowhere):"
+msgstr "孤立的资产索引条目（指向无处的链接）:"
+
+msgid "Orphaned Material Index Entries:"
+msgstr "孤立的材质索引条目:"
+
+msgid "{len(results.missing_libraries)} missing linked libraries"
+msgstr "{len(results.missing_libraries)} 个缺失的关联库"
+
+msgid "Shadow Proxy for '{base_name}'"
+msgstr "'{base_name}' 的阴影代理"
+
+msgid "LOD {lod_level} of '{base_name}'"
+msgstr "'{base_name}' 的 LOD {lod_level}"
+
+msgid "Physics & Logic disabled."
+msgstr "物理和逻辑已禁用。"
+
+msgctxt "Operator"
+msgid "Apply Properties to Selection"
+msgstr "将属性应用到选择对象"
+
+msgid "Curve Export:"
+msgstr "曲线导出："
+
+msgid "Mesh Operations:"
+msgstr "网格操作"
+
+msgid "(Inherited from LOD0)"
+msgstr "(继承自 LOD0)"
+
+msgid "Fade"
+msgstr "淡入淡出"
+
+msgid "Bias"
+msgstr "偏置"
+
+msgid "Collision Type:"
+msgstr "碰撞类型："
+
+msgid "Select an object."
+msgstr "选择对象。"
+
+msgid "Project Root:"
+msgstr "投影根目录："
+
+msgid "Source:"
+msgstr "源："
+
+msgid "Target:"
+msgstr "目标："
+
+msgid "Export Mode:"
+msgstr "导出模式:"
+
+msgid "Export Scope:"
+msgstr "导出范围:"
+
+msgid "Geometry Container:"
+msgstr "几何体容器:"
+
+msgid "Render Modes:"
+msgstr "渲染模式:"
+
+msgid "Shader Coverage:"
+msgstr "遮罩覆盖度:"
+
+msgid "Coverage unavailable: {exc}"
+msgstr "无法获取覆盖度：{exc}"
+
+msgid "OK - {len(supported)} node type(s) supported."
+msgstr "确定 - 支持 {len(supported)} 节点类型。"
+
+msgid "{len(unsupported)} unsupported node type(s):"
+msgstr "不支持的节点类型 ({len(unsupported)})："
+
+msgid "{len(unsupported_ops)} unsupported operation(s):"
+msgstr "不支持的操作 ({len(unsupported_ops)})："
+
+msgid "{len(partial)} partial-support warning(s):"
+msgstr "部分支持的警告 ({len(partial)})："
+
+msgid "{len(degradations)} degradation warning(s):"
+msgstr "降级警告 ({len(degradations)})："
+
+msgid "Principled-only PBR bake fallback applies when conversion fails (if baking enabled)."
+msgstr "仅使用 Principled 的 PBR 烘焙回退在转换失败时应用（如果已启用烘焙）。"
+
+msgid "{len(ignored)} internal / non-shader node(s) (safe to ignore):"
+msgstr "{len(ignored)} 内部/非着色器节点（可安全忽略）："
+
+msgid "Texture Tools"
+msgstr "Texture Tools"
+
+msgctxt "Operator"
+msgid "Auto Ingest Textures"
+msgstr "Auto Ingest Textures"
+
+msgid "ORM Packer"
+msgstr "ORM Packer"
+
+msgid "ORM: {label}"
+msgstr "ORM: {label}"
+
+msgid "Update ORM"
+msgstr "Update ORM"
+
+msgid "Pack to ORM"
+msgstr "Pack to ORM"
+
+msgctxt "Operator"
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Graph Validation"
+msgstr "Graph Validation"
+
+msgid "ORM export uses packed textures; full shader validation is optional."
+msgstr "ORM 导出使用压缩纹理；完整的着色器验证是可选的。"
+
+msgid "No material in this node tree."
+msgstr "此节点树中没有任何材质。"
+
+msgid "Advanced Options"
+msgstr "高级选项"
+
+msgid "(Value: {getattr(props, value_attr)})"
+msgstr "(值：{getattr(props, value_attr)})"
+
+msgid "Script:"
+msgstr "脚本："
+
+msgid "Collection is empty."
+msgstr "集合为空。"
+
+msgid "1. Place linked Asset into Collection"
+msgstr "1. 将链接的资产放入集合中"
+
+msgid "(File > Link > Collection)"
+msgstr "(文件 > 链接 > 集合)"

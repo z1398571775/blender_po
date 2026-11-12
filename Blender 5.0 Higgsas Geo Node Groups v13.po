@@ -1,0 +1,3241 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-12 07:19+0800\n"
+"PO-Revision-Date: 2026-11-12 07:19+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Higgsas geo nodes groups"
+msgstr "Higgsas geo nodes groups"
+
+msgid "uv_measure"
+msgstr "UV 测量"
+
+msgid "reaction_diffusion"
+msgstr "反应扩散"
+
+msgid "image_col_geo_nodes"
+msgstr "图像几何节点"
+
+msgid "Collection"
+msgstr "集合"
+
+msgid "Wrap"
+msgstr "包裹"
+
+msgid "Wave Falloff"
+msgstr "波衰减"
+
+msgid "Voxel Remesh"
+msgstr "体素重网格化"
+
+msgid "Volume Points Grid"
+msgstr "体积点网格"
+
+msgid "Volume Grid Visualize"
+msgstr "体积网格可视化"
+
+msgid "VDM Points Scatter"
+msgstr "VDM 点散播"
+
+msgid "VDM Brush"
+msgstr "VDM 笔刷"
+
+msgid "UV Transform"
+msgstr "UV 变换"
+
+msgid "UV Tangent"
+msgstr "UV 切线"
+
+msgid "UV Seam"
+msgstr "UV 接缝"
+
+msgid "UV Mirror"
+msgstr "UV 镜像"
+
+msgid "UV Measure"
+msgstr "UV 测量"
+
+msgid "UV Deform"
+msgstr "UV 变形"
+
+msgid "UV Curve to Mesh"
+msgstr "UV 曲线转网格"
+
+msgid "UV Align to Direction"
+msgstr "UV 对齐方向"
+
+msgid "Twist Curve"
+msgstr "扭曲曲线"
+
+msgid "Twist"
+msgstr "扭曲"
+
+msgid "Tubes to Splines"
+msgstr "管到样条线"
+
+msgid "TSP Mesh"
+msgstr "TSP 网格"
+
+msgid "Triplanar UV Mapping"
+msgstr "三平面 UV 贴图"
+
+msgid "Triangle Tangent Circles"
+msgstr "三角形切向圆"
+
+msgid "Triangle Mesh to Voronoi"
+msgstr "三角形网格到 Voronoi"
+
+msgid "Triangle Mesh Circle Packing"
+msgstr "三角形网格圆打包"
+
+msgid "Triangle Incircle"
+msgstr "三角形内切圆"
+
+msgid "Triangle Grid"
+msgstr "三角形网格"
+
+msgid "Triangle Circumcircle"
+msgstr "三角形外接圆"
+
+msgid "Torus Knot"
+msgstr "环面结"
+
+msgid "Torus"
+msgstr "环面"
+
+msgid "To Sphere"
+msgstr "转为球体"
+
+msgid "Tessellate Topology Helper"
+msgstr "拓扑辅助工具"
+
+msgid "Tessellate Mesh Smooth"
+msgstr "网格平滑细分"
+
+msgid "Tessellate Mesh"
+msgstr "网格细分"
+
+msgid "Taper"
+msgstr "锥化"
+
+msgid "Surface Curl Noise"
+msgstr "表面卷曲噪声"
+
+msgid "Surface Bind"
+msgstr "表面绑定"
+
+msgid "Super Ellipsoid"
+msgstr "超椭圆体"
+
+msgid "Super Ellipse"
+msgstr "超椭圆"
+
+msgid "Stretch"
+msgstr "拉伸"
+
+msgid "Strange Attractors"
+msgstr "奇异吸引子"
+
+msgid "Stereographic Projection"
+msgstr "球面投影"
+
+msgid "Spur Gear"
+msgstr "棘轮"
+
+msgid "Splines Patch"
+msgstr "样条修补"
+
+msgid "Splines Packing"
+msgstr "样条打包"
+
+msgid "Spin"
+msgstr "旋转"
+
+msgid "Spherical Spiral"
+msgstr "螺旋线"
+
+msgid "Spherical Falloff"
+msgstr "球体衰减"
+
+msgid "Spheres Intersections"
+msgstr "球体相交"
+
+msgid "Sphere UV Mapping"
+msgstr "球体贴图映射"
+
+msgid "Sphere Sphere Intersection"
+msgstr "球体与球体相交"
+
+msgid "Sphere Plane Intersection"
+msgstr "球体与平面相交"
+
+msgid "Solidify"
+msgstr "实体化"
+
+msgid "Snow Crystal Growth"
+msgstr "雪花晶体生长"
+
+msgid "Shortest Points Path"
+msgstr "最短路径点"
+
+msgid "Sharpen Mesh"
+msgstr "锐化网格"
+
+msgid "Shadow Mask"
+msgstr "阴影遮罩"
+
+msgid "Set Center"
+msgstr "设置中心"
+
+msgid "Select by Normal"
+msgstr "按法线选择"
+
+msgid "SDF Volume Points Fracture"
+msgstr "SDF 体积点断裂"
+
+msgid "SDF Torus"
+msgstr "SDF 环面"
+
+msgid "SDF to Mesh"
+msgstr "SDF 到网格"
+
+msgid "SDF Spiral"
+msgstr "SDF 螺旋"
+
+msgid "SDF Sphere"
+msgstr "SDF 球体"
+
+msgid "SDF Schwarz P"
+msgstr "SDF Schwarz P"
+
+msgid "SDF Schwarz D"
+msgstr "SDF 黑曜石 D"
+
+msgid "SDF Round Cone"
+msgstr "SDF 圆锥"
+
+msgid "SDF Polygon"
+msgstr "SDF 多边形"
+
+msgid "SDF Lidinoid"
+msgstr "SDF 线形体"
+
+msgid "SDF IWP Skeletal"
+msgstr "SDF IWP 骨架"
+
+msgid "SDF IWP"
+msgstr "SDF IWP"
+
+msgid "SDF Heart"
+msgstr "SDF 心脏"
+
+msgid "SDF Gyroid"
+msgstr "SDF 格状体"
+
+msgid "SDF Ellipsoid"
+msgstr "SDF 椭球体"
+
+msgid "SDF Cylinder"
+msgstr "SDF 圆柱体"
+
+msgid "SDF Cube"
+msgstr "SDF 立方体"
+
+msgid "SDF Capsule"
+msgstr "SDF 胶囊"
+
+msgid "SDF Boolean"
+msgstr "SDF 布尔运算"
+
+msgid "Scales Texture"
+msgstr "缩放纹理"
+
+msgid "Rounded Cube"
+msgstr "圆角立方体"
+
+msgid "Rounded Cone"
+msgstr "圆角圆锥体"
+
+msgid "Rotate Element"
+msgstr "旋转元素"
+
+msgid "Ripples Solver"
+msgstr "涟漪求解器"
+
+msgid "Reaction Diffusion Solver"
+msgstr "反应扩散求解器"
+
+msgid "Ray Sphere Intersection"
+msgstr "射线球体相交"
+
+msgid "Random Points"
+msgstr "随机点"
+
+msgid "Random Normal Distribution"
+msgstr "随机法线分布"
+
+msgid "Radial Falloff"
+msgstr "径向衰减"
+
+msgid "Quad Sphere"
+msgstr "四球体"
+
+msgid "Quad Disk"
+msgstr "四圆盘"
+
+msgid "Pyramid"
+msgstr "金字塔"
+
+msgid "Projectile Trajectory"
+msgstr "弹道轨迹"
+
+msgid "Poly Arc"
+msgstr "多边形弧"
+
+msgid "Polar to Cartesian"
+msgstr "极坐标到笛卡尔坐标"
+
+msgid "Points to SDF Metaballs"
+msgstr "点到 SDF 元球"
+
+msgid "Points to SDF"
+msgstr "点到 SDF"
+
+msgid "Points Relax on Surface"
+msgstr "点表面松弛"
+
+msgid "Points Relax in Volume"
+msgstr "点松弛在体积中"
+
+msgid "Points Cluster"
+msgstr "点聚类"
+
+msgid "Plane Plane Intersection"
+msgstr "平面平面相交"
+
+msgid "Planarize Face"
+msgstr "平面化面"
+
+msgid "Place Instances on Ground"
+msgstr "将实例放置在平面上"
+
+msgid "Phyllotaxis Sphere"
+msgstr "叶序球体"
+
+msgid "Phyllotaxis Profile Surface"
+msgstr "叶序剖面曲面"
+
+msgid "Phyllotaxis Disk"
+msgstr "叶序圆盘"
+
+msgid "Oloid"
+msgstr "Oloid"
+
+msgid "Object Spherical Falloff"
+msgstr "对象球形衰减"
+
+msgid "Object Directional Falloff"
+msgstr "对象方向衰减"
+
+msgid "NodeGroupTableTriangle"
+msgstr "节点组三角形"
+
+msgid "NodeGroupTableMSquares"
+msgstr "节点组 MSquares"
+
+msgid "NodeGroupSMix"
+msgstr "节点组混合"
+
+msgid "NodeGroupSine"
+msgstr "节点组正弦"
+
+msgid "NodeGroupSampleSquare"
+msgstr "节点组采样方形"
+
+msgid "NodeGroupRDDir"
+msgstr "节点组 RDDir"
+
+msgid "NodeGroupRD"
+msgstr "节点组 RD"
+
+msgid "NodeGroupPower"
+msgstr "节点组幂函数"
+
+msgid "NodeGroupNoise4d"
+msgstr "节点组噪声 4d"
+
+msgid "NodeGroupInssPL"
+msgstr "节点组输入 PL"
+
+msgid "NodeGroupIns"
+msgstr "节点组输入"
+
+msgid "NodeGroupExpo"
+msgstr "节点组指数"
+
+msgid "NodeGroupElas"
+msgstr "节点组弹性"
+
+msgid "NodeGroupDub"
+msgstr "节点组双曲函数"
+
+msgid "NodeGroupCircle"
+msgstr "节点组圆"
+
+msgid "NodeGroupBounce"
+msgstr "节点组反弹"
+
+msgid "NodeGroupBack"
+msgstr "节点组背景"
+
+msgid "NodeGroupArw"
+msgstr "节点组箭头"
+
+msgid "Mobius Transformation"
+msgstr "莫比乌斯变换"
+
+msgid "Mix Splines"
+msgstr "混合样条线"
+
+msgid "Mirror"
+msgstr "镜像"
+
+msgid "Mesh UV Unfold"
+msgstr "网格 UV 展开"
+
+msgid "Mesh Unfold"
+msgstr "网格展开"
+
+msgid "Mesh Topology Face Strips"
+msgstr "网格拓扑面带"
+
+msgid "Mesh To SDF"
+msgstr "网格到 SDF"
+
+msgid "Mesh to Ascii"
+msgstr "网格转 ASCII"
+
+msgid "Mesh Thickness"
+msgstr "网格厚度"
+
+msgid "Mesh Tension"
+msgstr "网格张力"
+
+msgid "Mesh Smooth Delete"
+msgstr "网格平滑删除"
+
+msgid "Mesh Relax"
+msgstr "网格松弛"
+
+msgid "Mesh Points Fracture"
+msgstr "网格点断裂"
+
+msgid "Mesh Offset"
+msgstr "网格偏移"
+
+msgid "Mesh Measure"
+msgstr "网格测量"
+
+msgid "Mesh Islands to Instances"
+msgstr "网格岛屿转实例"
+
+msgid "Mesh Fresnel"
+msgstr "网格菲涅尔"
+
+msgid "Mesh Falloff"
+msgstr "网格衰减"
+
+msgid "Mesh Face Subdivide"
+msgstr "网格面细分"
+
+msgid "Mesh Face Recursive Subdivision"
+msgstr "网格面递归细分"
+
+msgid "Mesh Face Groups Relax"
+msgstr "网格面组松弛"
+
+msgid "Mesh Face Divider"
+msgstr "网格面分割器"
+
+msgid "Mesh Curves Direction Guide"
+msgstr "网格曲线方向指南"
+
+msgid "Mesh Curvature"
+msgstr "网格曲率"
+
+msgid "Mesh Contours"
+msgstr "网格轮廓线"
+
+msgid "Mesh Auxetic Structure"
+msgstr "网格泊松结构"
+
+msgid "Mesh Ambient Occlusion"
+msgstr "网格环境光遮蔽"
+
+msgid "Maze Solver"
+msgstr "迷宫求解器"
+
+msgid "Marching Triangles Surface"
+msgstr "行进三角形表面"
+
+msgid "Marching Triangles Isolines"
+msgstr "行进三角形等值线"
+
+msgid "Marching Squares Surface"
+msgstr "行进正方形表面"
+
+msgid "Marching Squares Isolines"
+msgstr "Marching Squares 等值线"
+
+msgid "Looped Noise Texture"
+msgstr "循环噪声纹理"
+
+msgid "Loft Splines"
+msgstr "Loft 样条曲线"
+
+msgid "Lissajous Curve"
+msgstr "利萨茹曲线"
+
+msgid "Line Plane Intersection"
+msgstr "线平面交点"
+
+msgid "Line Line Intersection"
+msgstr "直线相交\n"
+
+msgid "Klein Bottle"
+msgstr "克莱因瓶"
+
+msgid "Isometric Tile Grid"
+msgstr "等轴测图块网格"
+
+msgid "Is Inside Volume"
+msgstr "是否在内部体积内"
+
+msgid "Instances Tile"
+msgstr "实例化平铺"
+
+msgid "Instances Index Ratio"
+msgstr "实例索引比率"
+
+msgid "Instances Bounding Box"
+msgstr "实例边界框"
+
+msgid "Instances AABB Colision"
+msgstr "实例 AABB 碰撞"
+
+msgid "Inset Face"
+msgstr "内缩面"
+
+msgid "Infinite Cube"
+msgstr "无限立方体"
+
+msgid "Index String Selection"
+msgstr "索引字符串选择"
+
+msgid "Index Selection"
+msgstr "索引选择"
+
+msgid "Index Falloff"
+msgstr "索引衰减"
+
+msgid "Image Trace"
+msgstr "图像追踪"
+
+msgid "Image to Ascii"
+msgstr "图像转 ASCII"
+
+msgid "Image Thinning"
+msgstr "图像减薄"
+
+msgid "Image String Art"
+msgstr "图像弦图"
+
+msgid "Image Quad Tree"
+msgstr "图像四叉树"
+
+msgid "Image Points Stippling"
+msgstr "图像点状晕涂"
+
+msgid "Image Points Distribute"
+msgstr "图像点分布"
+
+msgid "Image Pixel Sorting"
+msgstr "图像像素排序"
+
+msgid "Image Hilbert Curve"
+msgstr "图像希尔伯特曲线"
+
+msgid "Image Grid"
+msgstr "图像网格"
+
+msgid "Image Dithering"
+msgstr "图像抖动"
+
+msgid "Image Color Palette"
+msgstr "图像调色板"
+
+msgid "Image Box Mapping"
+msgstr "图像盒映射"
+
+msgid "Hopscotch Tile Grid"
+msgstr "跳棋瓷砖网格"
+
+msgid "Homogeneous Sphere"
+msgstr "均匀球体"
+
+msgid "Homogeneous Disk"
+msgstr "均匀圆盘"
+
+msgid "Hilbert Curve"
+msgstr "希尔伯特曲线"
+
+msgid "Hexagon Grid"
+msgstr "六边形网格"
+
+msgid "Herringbone Tile Grid"
+msgstr "鱼骨形瓷砖网格"
+
+msgid "Heart"
+msgstr "心形"
+
+msgid "Gradient Direction"
+msgstr "渐变方向"
+
+msgid "Geometry Visualizer"
+msgstr "几何可视化器"
+
+msgid "Geometry Center"
+msgstr "几何中心"
+
+msgid "Geo nodes groups"
+msgstr "几何节点组"
+
+msgid "Gabriels Horn"
+msgstr "加布里埃尔之角"
+
+msgid "Flatten Geometry"
+msgstr "展平几何体"
+
+msgid "Fit Size"
+msgstr "适合尺寸"
+
+msgid "Fit Plane"
+msgstr "拟合平面"
+
+msgid "Fit Line 2D"
+msgstr "拟合线 2D"
+
+msgid "Fit in Camera"
+msgstr "相机适配"
+
+msgid "Face UV"
+msgstr "面 UV"
+
+msgid "Face Tangent"
+msgstr "面切线"
+
+msgid "Face Points Grid Distribution"
+msgstr "面点网格分布"
+
+msgid "Face Offset"
+msgstr "面偏移"
+
+msgid "Expand / Contract Selection"
+msgstr "展开/收缩选择"
+
+msgid "Even Grid Profile Surface"
+msgstr "均匀网格曲面"
+
+msgid "Even Curve to Mesh"
+msgstr "曲线转网格"
+
+msgid "Edge Offset"
+msgstr "边偏移"
+
+msgid "Edge Bundling"
+msgstr "边捆绑"
+
+msgid "Edge Bisect"
+msgstr "边平分"
+
+msgid "Edge Angle Selection"
+msgstr "边角度选择"
+
+msgid "Easing"
+msgstr "缓动"
+
+msgid "Dynamic Catenary Splines"
+msgstr "动态悬链线样条曲线"
+
+msgid "Dubins CSC Path"
+msgstr "Dubins CSC 路径"
+
+msgid "Dragon Curve"
+msgstr "龙曲线"
+
+msgid "Documentation Higgsas Geo Nodes"
+msgstr "Higgsas Geo Nodes 文档"
+
+msgid "Distribute Points on Edges"
+msgstr "沿边缘分布点"
+
+msgid "Distribute Points in Volume"
+msgstr "在体积中分布点"
+
+msgid "Distance to Edge Voronoi"
+msgstr "边缘 Voronoi 距离"
+
+msgid "Displace"
+msgstr "位移"
+
+msgid "Directional Reaction Diffusion"
+msgstr "方向反应扩散"
+
+msgid "Directional Falloff"
+msgstr "方向衰减"
+
+msgid "Direction Visualize"
+msgstr "方向可视化"
+
+msgid "Direction Object Space to UV Space Transform"
+msgstr "方向对象空间到 UV 空间的变换"
+
+msgid "Differential Growth"
+msgstr "微分生长"
+
+msgid "Decimate Curve"
+msgstr "简化曲线"
+
+msgid "Cylinder UV Mapping"
+msgstr "圆柱 UV 贴图"
+
+msgid "Curves Inverse Kinematics"
+msgstr "曲线反向运动学"
+
+msgid "Curve Point Angle"
+msgstr "曲线点角度"
+
+msgid "Curve Offset"
+msgstr "曲线偏移"
+
+msgid "Curve Mesh Boolean"
+msgstr "曲线网格布尔运算"
+
+msgid "Curve Median Axis 2D"
+msgstr "曲线中轴线 2D"
+
+msgid "Curve Intersection"
+msgstr "曲线相交"
+
+msgid "Curve Forward Kinematics"
+msgstr "曲线正向运动学"
+
+msgid "Curve Deform"
+msgstr "曲线变形"
+
+msgid "Curve Circle Line Tangent"
+msgstr "曲线圆线切线"
+
+msgid "Curve Circle Arc Tangent"
+msgstr "曲线圆弧切线"
+
+msgid "Curve Bisect"
+msgstr "曲线平分"
+
+msgid "Curve Banking"
+msgstr "曲线倾斜"
+
+msgid "Curl Noise 3D"
+msgstr "卷曲噪声 3D"
+
+msgid "Curl Noise 2D"
+msgstr "卷曲噪声 2D"
+
+msgid "Cube Recursive Subdivision"
+msgstr "立方体递归细分"
+
+msgid "Cube Deform"
+msgstr "立方体变形"
+
+msgid "Correct UV"
+msgstr "校正 UV"
+
+msgid "Connect Points"
+msgstr "连接点"
+
+msgid "Circular Array"
+msgstr "圆形阵列"
+
+msgid "Circles Line Tangent"
+msgstr "圆环切线"
+
+msgid "Circles Arc Tangent"
+msgstr "圆弧切线"
+
+msgid "Circle Packing"
+msgstr "圆排列"
+
+msgid "Checker Selection"
+msgstr "棋盘格选择"
+
+msgid "Cartesian to Polar"
+msgstr "笛卡尔到极坐标"
+
+msgid "Capsule"
+msgstr "胶囊"
+
+msgid "Capareda Curve"
+msgstr "Capareda 曲线"
+
+msgid "Camera View Transform"
+msgstr "相机视图变换"
+
+msgid "Camera View Flatten"
+msgstr "相机视图展平"
+
+msgid "Camera UV Coordinates"
+msgstr "相机 UV 坐标"
+
+msgid "Camera Perspective to Orthographic Transform"
+msgstr "相机透视到正交变换"
+
+msgid "Camera Perspective Shift"
+msgstr "相机视角偏移"
+
+msgid "Camera Grid"
+msgstr "相机网格"
+
+msgid "Camera Culling"
+msgstr "相机剔除"
+
+msgid "Cairo Tile Grid"
+msgstr "Cairo 瓦片网格"
+
+msgid "Bricks Grid"
+msgstr "砖块网格"
+
+msgid "Box Selection"
+msgstr "框选择"
+
+msgid "Bounding Region Selection"
+msgstr "边界区域选择"
+
+msgid "Bounding Box AABB Collision"
+msgstr "边界盒 AABB 碰撞"
+
+msgid "Boundary Edge Smooth"
+msgstr "边界边平滑"
+
+msgid "Boundary Edge"
+msgstr "边界边"
+
+msgid "Blend Curves"
+msgstr "混合曲线"
+
+msgid "Bezier Resample"
+msgstr "贝塞尔重采样"
+
+msgid "Bezier Extend"
+msgstr "贝塞尔延伸"
+
+msgid "Bezier Easing"
+msgstr "贝塞尔缓动"
+
+msgid "Bend"
+msgstr "弯曲"
+
+msgid "Belousov-Zhabotinsky Reaction"
+msgstr "Belousov-Zhabotinsky 反应"
+
+msgid "Array"
+msgstr "阵列"
+
+msgid "Align Curve to Surface"
+msgstr "将曲线对齐到表面"
+
+msgid "Advect Splines"
+msgstr "推移样条线"
+
+msgid "4 Points Sphere"
+msgstr "4 点球体"
+
+msgid "3D Points Grid"
+msgstr "3D 点网格"
+
+msgid "3D Fill Curve"
+msgstr "3D 填充曲线"
+
+msgid "3 Planes Intersection"
+msgstr "三个平面的交线"
+
+msgid "2D Triangular Remesh"
+msgstr "2D 三角重划分"
+
+msgid "2D Looped Noise Texture"
+msgstr "2D 环形噪声纹理"
+
+msgid "2D Distance to Edge Circle Packing"
+msgstr "2D 边缘距离圆打包"
+
+msgid "Target Mesh"
+msgstr "目标网格"
+
+msgid "Z Offset"
+msgstr "Z 偏移"
+
+msgid "Z Scale"
+msgstr "Z 缩放"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Positive/Negative Raycast"
+msgstr "正向/反向射线投射"
+
+msgid "Follow Normals"
+msgstr "跟随法线"
+
+msgid "Group ID"
+msgstr "组 ID"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "Invert Time"
+msgstr "反转时间"
+
+msgid "Width"
+msgstr "宽度"
+
+msgid "Narrowness"
+msgstr "狭窄度"
+
+msgid "Location"
+msgstr "位置"
+
+msgid "Falloff Distance"
+msgstr "衰减距离"
+
+msgid "Falloff Factor"
+msgstr "衰减因子"
+
+msgid "Min"
+msgstr "最小值"
+
+msgid "Max"
+msgstr "最大值"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Mesh"
+msgstr "网格"
+
+msgid "Attribute"
+msgstr "属性"
+
+msgid "Voxel Size"
+msgstr "体素大小"
+
+msgid "Transfer Attribute"
+msgstr "传递属性"
+
+msgid "Face UV Map"
+msgstr "面 UV 贴图"
+
+msgid "Points"
+msgstr "点"
+
+msgid "Density"
+msgstr "密度"
+
+msgid "World Space"
+msgstr "世界空间"
+
+msgid "Volume"
+msgstr "体积"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Grid"
+msgstr "网格"
+
+msgid "X Plane"
+msgstr "X 平面"
+
+msgid "X Offset"
+msgstr "X 偏移"
+
+msgid "Y Plane"
+msgstr "Y 平面"
+
+msgid "Y Offset"
+msgstr "Y 偏移"
+
+msgid "Z Plane"
+msgstr "Z 平面"
+
+msgid "Interpolation"
+msgstr "插值"
+
+msgid "Resolution Scale"
+msgstr "分辨率缩放"
+
+msgid "Points Normal"
+msgstr "法线点"
+
+msgid "VDM Texture"
+msgstr "VDM 纹理"
+
+msgid "Scale"
+msgstr "缩放"
+
+msgid "Rotate"
+msgstr "旋转"
+
+msgid "Displacment Scale"
+msgstr "位移缩放"
+
+msgid "Tangent"
+msgstr "切线"
+
+msgid "Blur Boundaries "
+msgstr "模糊边界"
+
+msgid "Blur Iterations"
+msgstr "模糊迭代次数"
+
+msgid "Blur Radius"
+msgstr "模糊半径"
+
+msgid "Guide Object"
+msgstr "引导对象"
+
+msgid "Mirror X"
+msgstr "镜像 X"
+
+msgid "Mirror Y"
+msgstr "镜像 Y"
+
+msgid "Mirror Z"
+msgstr "镜像 Z 轴"
+
+msgid "Mirror Center"
+msgstr "镜像中心"
+
+msgid "Flip X"
+msgstr "翻转 X 轴"
+
+msgid "Flip Y"
+msgstr "翻转 Y 轴"
+
+msgid "Flip Z"
+msgstr "翻转 Z 轴"
+
+msgid "Projection Falloff"
+msgstr "投影衰减"
+
+msgid "UV Map"
+msgstr "UV 贴图"
+
+msgid "Translation"
+msgstr "平移"
+
+msgid "Rotation"
+msgstr "旋转"
+
+msgid "Index"
+msgstr "索引"
+
+msgid "Selection"
+msgstr "选择"
+
+msgid "Flip"
+msgstr "翻转"
+
+msgid "Flip U"
+msgstr "沿 U 轴翻转"
+
+msgid "Flip V"
+msgstr "沿 V 轴翻转"
+
+msgid "Pivot"
+msgstr "枢轴点"
+
+msgid "Island Center Pivot"
+msgstr "岛屿中心枢轴点"
+
+msgid "Randomize"
+msgstr "随机化"
+
+msgid "Offset"
+msgstr "偏移"
+
+msgid "Seed"
+msgstr "种子"
+
+msgid "Edge Seam"
+msgstr "边缝"
+
+msgid "Epsilon"
+msgstr "εpsilon"
+
+msgid "Axis"
+msgstr "轴心"
+
+msgid "Center"
+msgstr "中心"
+
+msgid "Viz"
+msgstr "视图"
+
+msgid "Packing Ratio"
+msgstr "填充率"
+
+msgid "Islands Count"
+msgstr "岛屿数量"
+
+msgid "Flatten UV Mesh"
+msgstr "展平 UV 网格"
+
+msgid "UV Islands Seed"
+msgstr "UV 岛屿种子"
+
+msgid "Material"
+msgstr "材质"
+
+msgid "Is Valid"
+msgstr "是否有效"
+
+msgid "Target UV Map"
+msgstr "目标 UV 贴图"
+
+msgid "Depth"
+msgstr "深度"
+
+msgid "Delete Nonvalid"
+msgstr "删除无效"
+
+msgid "Curve"
+msgstr "曲线"
+
+msgid "Profile Curve"
+msgstr "剖面曲线"
+
+msgid "Fill Caps"
+msgstr "填充帽边"
+
+msgid "Factor/Lenth"
+msgstr "因子/长度"
+
+msgid "UV Attribute"
+msgstr "UV 属性"
+
+msgid "Pack UV Islands"
+msgstr "打包 UV 岛屿"
+
+msgid "Margin"
+msgstr "边距"
+
+msgid "UVMap"
+msgstr "UV 贴图"
+
+msgid "Spine Amount"
+msgstr "脊柱数量"
+
+msgid "Thickness"
+msgstr "厚度"
+
+msgid "Upper Angle"
+msgstr "上角度"
+
+msgid "Lower Angle"
+msgstr "下角度"
+
+msgid "Smooth Limits"
+msgstr "平滑限制"
+
+msgid "Limits Lower"
+msgstr "下限"
+
+msgid "Limits Upper"
+msgstr "上限"
+
+msgid "Sort Index"
+msgstr "排序索引"
+
+msgid "Delete Caps"
+msgstr "删除端点"
+
+msgid "Edges"
+msgstr "边"
+
+msgid "Radius 1"
+msgstr "半径 1"
+
+msgid "Radius 2"
+msgstr "半径 2"
+
+msgid "Radius 3"
+msgstr "半径 3"
+
+msgid "Normal"
+msgstr "法线"
+
+msgid "Point 1"
+msgstr "点 1"
+
+msgid "Point 2"
+msgstr "点 2"
+
+msgid "Point 3"
+msgstr "点 3"
+
+msgid "Limit Obtuse Triangles"
+msgstr "限制钝角三角形"
+
+msgid "Obtuse Triangles Options"
+msgstr "钝角三角形选项"
+
+msgid "Keep Boundaries"
+msgstr "保持边界"
+
+msgid "Triangle Mesh"
+msgstr "三角形网格"
+
+msgid "Radius"
+msgstr "半径"
+
+msgid "Time Steps"
+msgstr "时间步数"
+
+msgid "Relax Strength "
+msgstr "松弛强度"
+
+msgid "Surface Project"
+msgstr "表面投影"
+
+msgid "Project to Surface"
+msgstr "投影到表面"
+
+msgid "Surface Mesh"
+msgstr "表面网格"
+
+msgid "Boundary Contain"
+msgstr "边界包含"
+
+msgid "Contain in Boundary"
+msgstr "包含在边界内"
+
+msgid "Pull Strength "
+msgstr "拉力"
+
+msgid "Tris X"
+msgstr "Tris X"
+
+msgid "Tris Y"
+msgstr "Tris Y"
+
+msgid "Count"
+msgstr "数量"
+
+msgid "Size"
+msgstr "尺寸"
+
+msgid "Gap"
+msgstr "间隙"
+
+msgid "Constant Tris Size"
+msgstr "恒定 Tris 尺寸"
+
+msgid "Merge"
+msgstr "合并"
+
+msgid "Point1"
+msgstr "点 1"
+
+msgid "Point2"
+msgstr "点 2"
+
+msgid "Point3"
+msgstr "点 3"
+
+msgid "Major Resolution"
+msgstr "主分辨率"
+
+msgid "Minor Resolution"
+msgstr "副分辨率"
+
+msgid "Profile Radius"
+msgstr "轮廓半径"
+
+msgid "Major Radius "
+msgstr "主半径"
+
+msgid "Minor Radius"
+msgstr "副半径"
+
+msgid "P"
+msgstr "P"
+
+msgid "Q"
+msgstr "Q"
+
+msgid "Trefoil Knot"
+msgstr "三叶结"
+
+msgid "Shade Smooth"
+msgstr "平滑着色"
+
+msgid "Major Segments"
+msgstr "主要分段"
+
+msgid "Minor Segments"
+msgstr "次要分段"
+
+msgid "Major Radius"
+msgstr "主半径"
+
+msgid "Factor"
+msgstr "因子"
+
+msgid "Mask"
+msgstr "遮罩"
+
+msgid "Instance Index"
+msgstr "实例索引"
+
+msgid "Index Middle"
+msgstr "中间索引"
+
+msgid "Index Side"
+msgstr "侧面索引"
+
+msgid "Index Out Corner"
+msgstr "外角索引"
+
+msgid "Index In Corner"
+msgstr "内角索引"
+
+msgid "Flip Offset Middle"
+msgstr "翻转偏移中间"
+
+msgid "Flip Offset Side"
+msgstr "翻转偏移侧面"
+
+msgid "Flip Offset Out Corner"
+msgstr "翻转偏移外角"
+
+msgid "Flip Offset In Corner"
+msgstr "翻转偏移内角"
+
+msgid "Instance"
+msgstr "实例化"
+
+msgid "Subdivisions"
+msgstr "细分"
+
+msgid "Keep Z Offset"
+msgstr "保持 Z 轴偏移"
+
+msgid "Bounds Offset"
+msgstr "边界偏移"
+
+msgid "Pick Instance"
+msgstr "拾取实例"
+
+msgid "Align to Direction"
+msgstr "对齐方向"
+
+msgid "Merge Distance"
+msgstr "合并距离"
+
+msgid "Upper Factor"
+msgstr "上因子"
+
+msgid "Lower Factor"
+msgstr "下因子"
+
+msgid "Squish"
+msgstr "挤压"
+
+msgid "Vector Scale"
+msgstr "向量缩放"
+
+msgid "Normalize Vector"
+msgstr "归一化向量"
+
+msgid "Noise Scale"
+msgstr "噪声缩放"
+
+msgid "Noise Detail"
+msgstr "噪声细节"
+
+msgid "Noise Distortion"
+msgstr "噪声扭曲"
+
+msgid "4D Noise"
+msgstr "4D 噪声"
+
+msgid "W"
+msgstr "W"
+
+msgid "Noise Offset"
+msgstr "噪声偏移"
+
+msgid "Target Rest Position"
+msgstr "目标休息位置"
+
+msgid "N"
+msgstr "N"
+
+msgid "M"
+msgstr "M"
+
+msgid "Segments"
+msgstr "段落"
+
+msgid "Rings"
+msgstr "环"
+
+msgid "Resolution"
+msgstr "分辨率"
+
+msgid "Squish Strength "
+msgstr "挤压强度"
+
+msgid "Start Location"
+msgstr "开始位置"
+
+msgid "Pole Location"
+msgstr "极坐标位置"
+
+msgid "Sphere Radius"
+msgstr "球体半径"
+
+msgid "Mesh Gear"
+msgstr "齿轮齿数"
+
+msgid "Curve Gear Profile"
+msgstr "曲线齿轮轮廓"
+
+msgid "Pitch Circle"
+msgstr "分度圆"
+
+msgid "Pitch Circle Radius"
+msgstr "分度圆直径"
+
+msgid "Outer Diameter"
+msgstr "外径"
+
+msgid "Root Diameter"
+msgstr "根径"
+
+msgid "Top"
+msgstr "顶部"
+
+msgid "Side"
+msgstr "侧面"
+
+msgid "Bottom"
+msgstr "底部"
+
+msgid "Module"
+msgstr "模块"
+
+msgid "Teeth"
+msgstr "齿数"
+
+msgid "Pressure Angle"
+msgstr "压力角"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Addendum Factor"
+msgstr "齿顶系数"
+
+msgid "Dedendum Factor"
+msgstr "齿根系数"
+
+msgid "Teeth Resolution"
+msgstr "齿数分辨率"
+
+msgid "Fillet Resolution"
+msgstr "倒角分辨率"
+
+msgid "Side Segments"
+msgstr "侧边段数"
+
+msgid "Rotate Half Teeth"
+msgstr "旋转半齿"
+
+msgid "Splines"
+msgstr "样条线"
+
+msgid "Resample/Set Resolution"
+msgstr "重采样/设置分辨率"
+
+msgid "U Resolution"
+msgstr "U 分辨率"
+
+msgid "V Resolution"
+msgstr "V 分辨率"
+
+msgid "Min Radius"
+msgstr "最小半径"
+
+msgid "Max Radius"
+msgstr "最大半径"
+
+msgid "Minimal Spline Lenght"
+msgstr "最小编程长度"
+
+msgid "Angle"
+msgstr "角度"
+
+msgid "Steps"
+msgstr "步数"
+
+msgid "Axis Push"
+msgstr "轴推"
+
+msgid "Keep Faces"
+msgstr "保持面"
+
+msgid "Flip Normals"
+msgstr "翻转法线"
+
+msgid "Rotations"
+msgstr "旋转"
+
+msgid "Min Parameter"
+msgstr "最小参数"
+
+msgid "Max Parameter"
+msgstr "最大参数"
+
+msgid "Smooth "
+msgstr "平滑"
+
+msgid "Sphere Mesh"
+msgstr "球体网格"
+
+msgid "Relax Iterations"
+msgstr "松弛迭代次数"
+
+msgid "Pole Axis"
+msgstr "极点轴"
+
+msgid "Pole Axis Rotation"
+msgstr "极轴旋转"
+
+msgid "Pole Center"
+msgstr "极点中心"
+
+msgid "Is Intersecting"
+msgstr "是否相交"
+
+msgid "Sphere 1 Center"
+msgstr "球体 1 中心"
+
+msgid "Sphere 1 Radius"
+msgstr "球体 1 半径"
+
+msgid "Sphere 2 Center"
+msgstr "球体 2 中心"
+
+msgid "Sphere 2 Radius"
+msgstr "球体 2 半径"
+
+msgid "Sphere Center"
+msgstr "球心"
+
+msgid "Plane Position"
+msgstr "平面位置"
+
+msgid "Plane Normal"
+msgstr "平面法线"
+
+msgid "Even Thickness"
+msgstr "厚度均匀性"
+
+msgid "All/TopSide/TopBottom"
+msgstr "全部/上侧/上下侧"
+
+msgid "Individual"
+msgstr "单个"
+
+msgid "U"
+msgstr "U"
+
+msgid "Start Selection"
+msgstr "开始选择"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "Gamma"
+msgstr "伽马"
+
+msgid "Randomize Beta"
+msgstr "随机化 Beta"
+
+msgid "Curves"
+msgstr "曲线"
+
+msgid "Next Vertex Index"
+msgstr "下一个顶点索引"
+
+msgid "End Point"
+msgstr "终点"
+
+msgid "Iterations"
+msgstr "迭代次数"
+
+msgid "Sharpness"
+msgstr "锐度"
+
+msgid "Smooth Mesh"
+msgstr "平滑网格"
+
+msgid "Smooth Weight"
+msgstr "平滑权重"
+
+msgid "Blur Curvature"
+msgstr "模糊曲率"
+
+msgid "Post Smooth"
+msgstr "后平滑"
+
+msgid "Is Shadow"
+msgstr "是否为阴影"
+
+msgid "Sun Direction"
+msgstr "太阳方向"
+
+msgid "Point Light Location"
+msgstr "点光源位置"
+
+msgid "Offset form Surface"
+msgstr "偏移表面"
+
+msgid "Ray Length"
+msgstr "射线长度"
+
+msgid "Edge 1 Factor"
+msgstr "边 1 因子"
+
+msgid "Edge 2 Factor"
+msgstr "边 2 因子"
+
+msgid "Absolute"
+msgstr "绝对值"
+
+msgid "Invert"
+msgstr "反转"
+
+msgid "Cell ID"
+msgstr "单元格 ID"
+
+msgid "Cell Center"
+msgstr "单元格中心"
+
+msgid "Smoothness"
+msgstr "平滑度"
+
+msgid "Distortion Amount"
+msgstr "扭曲量"
+
+msgid "SDF"
+msgstr "SDF"
+
+msgid "Min Bounds"
+msgstr "最小边界"
+
+msgid "Max Bounds"
+msgstr "最大边界"
+
+msgid "Bounds Padding"
+msgstr "边界填充"
+
+msgid "Show Bounds"
+msgstr "显示边界"
+
+msgid "Transition"
+msgstr "过渡"
+
+msgid "Position 1"
+msgstr "位置 1"
+
+msgid "Position 2"
+msgstr "位置 2"
+
+msgid "Bevel"
+msgstr "倒角"
+
+msgid "Color Mask"
+msgstr "颜色遮罩"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "SDF 1"
+msgstr "SDF 1"
+
+msgid "SDF 2"
+msgstr "SDF 2"
+
+msgid "Blend"
+msgstr "混合"
+
+msgid "Slice/Xor Blend"
+msgstr "切片/异或混合"
+
+msgid "Fac"
+msgstr "法线"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Smooth Bevel"
+msgstr "平滑倒角"
+
+msgid "Color Seed"
+msgstr "颜色种子"
+
+msgid "Resoliution"
+msgstr "分辨率"
+
+msgid "Top Radius"
+msgstr "顶部半径"
+
+msgid "Bottom Radius"
+msgstr "底部半径"
+
+msgid "Top Cap"
+msgstr "顶部帽"
+
+msgid "Bottom Cap"
+msgstr "底部帽"
+
+msgid "Input"
+msgstr "输入"
+
+msgid "Strenth"
+msgstr "强度"
+
+msgid "Damping"
+msgstr "阻尼"
+
+msgid "Springiness"
+msgstr "弹性"
+
+msgid "Timescale"
+msgstr "时间尺度"
+
+msgid "Displacement Scale"
+msgstr "位移缩放"
+
+msgid "B"
+msgstr "B"
+
+msgid "B Input"
+msgstr "B 输入"
+
+msgid "K"
+msgstr "K"
+
+msgid "F"
+msgstr "F"
+
+msgid "Da/Db"
+msgstr "Da/Db"
+
+msgid "Time Scale"
+msgstr "时间缩放"
+
+msgid "Lenght 1"
+msgstr "长度 1"
+
+msgid "Lenght 2"
+msgstr "长度 2"
+
+msgid "Ray Direction"
+msgstr "射线方向"
+
+msgid "Ray Origin"
+msgstr "射线原点"
+
+msgid "Standard deviation"
+msgstr "标准差"
+
+msgid "Mean"
+msgstr "平均值"
+
+msgid "To Min"
+msgstr "最小值"
+
+msgid "To Max"
+msgstr "最大值"
+
+msgid "Sides"
+msgstr "边数"
+
+msgid "Time to Hit Ground"
+msgstr "击中地面的时间"
+
+msgid "Magnitude"
+msgstr "幅度"
+
+msgid "Mass"
+msgstr "质量"
+
+msgid "Gravity"
+msgstr "重力"
+
+msgid "Hit Ground"
+msgstr "撞击地面"
+
+msgid "Ground Position"
+msgstr "地面位置"
+
+msgid "Spline"
+msgstr "曲线"
+
+msgid "Auto Tangent"
+msgstr "自动切线"
+
+msgid "First Point Tangent"
+msgstr "第一点切线"
+
+msgid "Set Cyclic"
+msgstr "设置循环"
+
+msgid "XYZ"
+msgstr "X Y Z"
+
+msgid "Theta"
+msgstr "Theta"
+
+msgid "Phi"
+msgstr "Phi"
+
+msgid "Mesh Surface"
+msgstr "网格表面"
+
+msgid "Algorithm"
+msgstr "算法"
+
+msgid "Project on Surface"
+msgstr "表面项目"
+
+msgid "Guide Points Count"
+msgstr "引导点数量"
+
+msgid "Radius Scale"
+msgstr "半径缩放"
+
+msgid "Mesh Volume"
+msgstr "网格体积"
+
+msgid "Voxel Amount"
+msgstr "体素数量"
+
+msgid "Guide Points Spacing"
+msgstr "引导点间距"
+
+msgid "Points Cluster ID"
+msgstr "点簇 ID"
+
+msgid "Points Cluster Centroid"
+msgstr "点簇质心"
+
+msgid "Cluster Points"
+msgstr "簇点"
+
+msgid "Cluster Count"
+msgstr "聚类数"
+
+msgid "Plane 1 Position"
+msgstr "平面 1 位置"
+
+msgid "Plane 1 Normal"
+msgstr "平面 1 法线"
+
+msgid "Plane 2 Position"
+msgstr "平面 2 位置"
+
+msgid "Plane 2 Normal"
+msgstr "平面 2 法线"
+
+msgid "Instances"
+msgstr "实例数"
+
+msgid "Ground Normal"
+msgstr "地面法线"
+
+msgid "Oreantation Bias "
+msgstr "朝向偏置"
+
+msgid "Even Poles"
+msgstr "偶极子"
+
+msgid "U Parameter"
+msgstr "U 参数"
+
+msgid "Point Radius"
+msgstr "点半径"
+
+msgid "Petal Area"
+msgstr "花瓣面积"
+
+msgid "Step Size"
+msgstr "步长"
+
+msgid "Even Spacing"
+msgstr "均匀分布"
+
+msgid "Even Pole"
+msgstr "均匀极"
+
+msgid "Anti Oloid"
+msgstr "反奥利德"
+
+msgid "Outer Resolution"
+msgstr "外部分辨率"
+
+msgid "Inner Resolution"
+msgstr "内部分辨率"
+
+msgid "Object"
+msgstr "对象"
+
+msgid "Falloff Fac"
+msgstr "衰减因子"
+
+msgid "Smooth"
+msgstr "平滑"
+
+msgid "Output"
+msgstr "输出"
+
+msgid "1"
+msgstr "1"
+
+msgid "2"
+msgstr "2"
+
+msgid "3"
+msgstr "3"
+
+msgid "4"
+msgstr "4"
+
+msgid "5"
+msgstr "5"
+
+msgid "6"
+msgstr "6"
+
+msgid "7"
+msgstr "7"
+
+msgid "8"
+msgstr "8"
+
+msgid "9"
+msgstr "9"
+
+msgid "10"
+msgstr "10"
+
+msgid "11"
+msgstr "11"
+
+msgid "12"
+msgstr "12"
+
+msgid "13"
+msgstr "13"
+
+msgid "14"
+msgstr "14"
+
+msgid "25"
+msgstr "25"
+
+msgid "30"
+msgstr "30"
+
+msgid "In"
+msgstr "输入"
+
+msgid "Out"
+msgstr "输出"
+
+msgid "InOut"
+msgstr "输入输出"
+
+msgid "Texture"
+msgstr "纹理"
+
+msgid "Threshold"
+msgstr "阈值"
+
+msgid "Linear interpolation"
+msgstr "线性插值"
+
+msgid "A"
+msgstr "A"
+
+msgid "Da"
+msgstr "Da"
+
+msgid "Db"
+msgstr "Db"
+
+msgid "T"
+msgstr "T"
+
+msgid "A Blured"
+msgstr "一个模糊的"
+
+msgid "B Blured"
+msgstr "B 模糊"
+
+msgid "Exponent"
+msgstr "指数"
+
+msgid "Detail"
+msgstr "细节"
+
+msgid "Distortion"
+msgstr "畸变"
+
+msgid "Switch"
+msgstr "开关"
+
+msgid "Base"
+msgstr "基础"
+
+msgid "Bounces"
+msgstr "反弹次数"
+
+msgid "Interior Tangent"
+msgstr "内切线"
+
+msgid "Secondary Tangent"
+msgstr "次级切线"
+
+msgid "Spline 1"
+msgstr "样条曲线 1"
+
+msgid "Spline 2"
+msgstr "样条曲线 2"
+
+msgid "Mix Factor"
+msgstr "混合因子"
+
+msgid "Spline Amount"
+msgstr "样条线数量"
+
+msgid "X"
+msgstr "X"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "Flip X BBox"
+msgstr "翻转 X 边界框"
+
+msgid "Flip Y BBox"
+msgstr "翻转 Y 边界框"
+
+msgid "Flip Z BBox"
+msgstr "翻转 Z 边界框"
+
+msgid "Merge By Distance"
+msgstr "按距离合并"
+
+msgid "Distance"
+msgstr "距离"
+
+msgid "Visualize UV Map"
+msgstr "可视化 UV 贴图"
+
+msgid "Face Selection Order"
+msgstr "面选择顺序"
+
+msgid "Custom Face Selection"
+msgstr "自定义面选择"
+
+msgid "Face Selection"
+msgstr "面选择"
+
+msgid "Randomize Unfolding"
+msgstr "随机展开"
+
+msgid "UV Map Output"
+msgstr "UV 贴图输出"
+
+msgid "Start Faces"
+msgstr "起始面"
+
+msgid "Unfold Amount"
+msgstr "展开数量"
+
+msgid "Unfold Factor"
+msgstr "展开因子"
+
+msgid "Normalize Mask"
+msgstr "归一化遮罩"
+
+msgid "Face Group ID"
+msgstr "面组 ID"
+
+msgid "Boundary Edges"
+msgstr "边界边线"
+
+msgid "Order"
+msgstr "顺序"
+
+msgid "Guide Direction"
+msgstr "引导方向"
+
+msgid "Iso"
+msgstr "等值线"
+
+msgid "Grid Resoliution"
+msgstr "网格分辨率"
+
+msgid "Grid Offset"
+msgstr "网格偏移"
+
+msgid "Contrast Min"
+msgstr "对比度最小值"
+
+msgid "Contrast Max"
+msgstr "对比度最大值"
+
+msgid "Light Direction"
+msgstr "光源方向"
+
+msgid "Font Scale"
+msgstr "字体缩放"
+
+msgid "Ascii"
+msgstr "ASCII"
+
+msgid "Realize Instances"
+msgstr "实例化"
+
+msgid "Rays Samples"
+msgstr "光线采样数"
+
+msgid "Rays Angle Offset"
+msgstr "光线角度偏移"
+
+msgid "Normalize"
+msgstr "归一化"
+
+msgid "Tension"
+msgstr "张力"
+
+msgid "Compression"
+msgstr "压缩"
+
+msgid "Rest Position"
+msgstr "平衡位置"
+
+msgid "Strenth Tension "
+msgstr "强度张力"
+
+msgid "Strenth Compression "
+msgstr "强度压缩"
+
+msgid "Bias Tension "
+msgstr "偏置张力"
+
+msgid "Bias Compression"
+msgstr "偏置压缩"
+
+msgid "Clamp"
+msgstr "限制器"
+
+msgid "Weight"
+msgstr "权重"
+
+msgid "Pin Boundary"
+msgstr "固定边界"
+
+msgid "Cell Position "
+msgstr "单元位置"
+
+msgid "Inner Faces"
+msgstr "内部面"
+
+msgid "Intersecting Edges"
+msgstr "相交边"
+
+msgid "Custom Normals"
+msgstr "自定义法线"
+
+msgid "Convert to Instance"
+msgstr "转换为实例"
+
+msgid "Triangulate Intersection"
+msgstr "三角化交点"
+
+msgid "Inner UV Map"
+msgstr "内 UV 贴图"
+
+msgid "Even Offset"
+msgstr "偶数偏移"
+
+msgid "Area"
+msgstr "面积"
+
+msgid "Center of Mass"
+msgstr "质心"
+
+msgid "Bounds Center"
+msgstr "边界中心"
+
+msgid "Volume Center of Mass"
+msgstr "体积质心"
+
+msgid "Area Center of Mass"
+msgstr "面积质心"
+
+msgid "Origin"
+msgstr "原点"
+
+msgid "Bias "
+msgstr "偏置"
+
+msgid "Fill Volume"
+msgstr "填充体积"
+
+msgid "Inside Volume"
+msgstr "内部体积"
+
+msgid "U Count"
+msgstr "U 计数"
+
+msgid "V Count"
+msgstr "V 计数"
+
+msgid "U ID"
+msgstr "U ID"
+
+msgid "V ID"
+msgstr "V ID"
+
+msgid "U Direction"
+msgstr "U 方向"
+
+msgid "V Direction"
+msgstr "V 方向"
+
+msgid "Count/Density"
+msgstr "数量/密度"
+
+msgid "U Multiply"
+msgstr "U 倍乘"
+
+msgid "V Multiply"
+msgstr "V 倍乘"
+
+msgid "Limit Distance"
+msgstr "限制距离"
+
+msgid "Smoothstep"
+msgstr "平滑过渡"
+
+msgid "Randomize Split Orientation"
+msgstr "随机化分割方向"
+
+msgid "Split Seed"
+msgstr "分割种子"
+
+msgid "Loop Animation"
+msgstr "循环动画"
+
+msgid "Start Frame"
+msgstr "起始帧"
+
+msgid "End Frame"
+msgstr "结束帧"
+
+msgid "Speed"
+msgstr "速度"
+
+msgid "Infinite Loop"
+msgstr "无限循环"
+
+msgid "Relax Weight"
+msgstr "放松权重"
+
+msgid "U/V Ratio"
+msgstr "U/V 比率"
+
+msgid "Divide Probability"
+msgstr "划分概率"
+
+msgid "Even Probability"
+msgstr "均匀概率"
+
+msgid "Blur Vector"
+msgstr "模糊向量"
+
+msgid "Angle Unsigned"
+msgstr "无符号角度"
+
+msgid "Angle Signed"
+msgstr "有符号角度"
+
+msgid "Gaussian Curvature"
+msgstr "高斯曲率"
+
+msgid "Mean Curvature"
+msgstr "平均曲率"
+
+msgid "Slice Distance"
+msgstr "切片距离"
+
+msgid "Single Slice"
+msgstr "单片"
+
+msgid "Fill Curves"
+msgstr "填充曲线"
+
+msgid "Rotation Direction"
+msgstr "旋转方向"
+
+msgid "Rotation Factor"
+msgstr "旋转因子"
+
+msgid "Start Face"
+msgstr "起始面"
+
+msgid "Split All Faces"
+msgstr "分割所有面"
+
+msgid "AO"
+msgstr "AO"
+
+msgid "External Mesh"
+msgstr "外部网格"
+
+msgid "Start End Path"
+msgstr "起点终点路径"
+
+msgid "All Paths"
+msgstr "所有路径"
+
+msgid "Edge Walls"
+msgstr "边缘墙壁"
+
+msgid "End Face"
+msgstr "端面"
+
+msgid "Invert Boundary Edge"
+msgstr "反转边界边"
+
+msgid "Multiple Lines"
+msgstr "多行线"
+
+msgid "Lines Distance"
+msgstr "线条距离"
+
+msgid "Translation Speed"
+msgstr "平移速度"
+
+msgid "W Speed"
+msgstr "W 速度"
+
+msgid "Roughness"
+msgstr "粗糙度"
+
+msgid "Resample Splines"
+msgstr "重采样样条曲线"
+
+msgid "Resolution/Resample Count"
+msgstr "分辨率/重采样计数"
+
+msgid "Loft Subdivide"
+msgstr "样条线细分"
+
+msgid "Cyclic Splines"
+msgstr "循环样条线"
+
+msgid "Cyclic Loft"
+msgstr "循环样条线"
+
+msgid "X Frequency"
+msgstr "X 频率"
+
+msgid "Y Frequency"
+msgstr "Y 频率"
+
+msgid "Z Frequency"
+msgstr "Z 频率"
+
+msgid "Y Phase Offset"
+msgstr "Y 相位偏移"
+
+msgid "Z Phase Offset"
+msgstr "Z 相位偏移"
+
+msgid "Line Point 1"
+msgstr "点 1"
+
+msgid "Line Point 2"
+msgstr "线点 2"
+
+msgid "3D Distance Threshold"
+msgstr "3D 距离阈值"
+
+msgid "Line 1 Point 1"
+msgstr "线 1 点 1"
+
+msgid "Line 1 Point 2"
+msgstr "线 1 点 2"
+
+msgid "Line 2 Point 1"
+msgstr "线 2 点 1"
+
+msgid "Line 2 Point 2"
+msgstr "线 2 点 2"
+
+msgid "Vertical Scale"
+msgstr "垂直缩放"
+
+msgid "Tile Index"
+msgstr "瓦片索引"
+
+msgid "Tile X"
+msgstr "瓦片 X"
+
+msgid "Tile Y"
+msgstr "瓦片 Y"
+
+msgid "Constant Tile Size"
+msgstr "固定瓦片大小"
+
+msgid "Is Inside"
+msgstr "是否在内部"
+
+msgid "Target"
+msgstr "目标"
+
+msgid "Min Bounds "
+msgstr "最小范围"
+
+msgid "Bounds Culling"
+msgstr "边界剔除"
+
+msgid "Culling Seed"
+msgstr "剔除种子"
+
+msgid "Center Tile"
+msgstr "中心瓦片"
+
+msgid "X Tiles"
+msgstr "X 瓦片数"
+
+msgid "Y Tiles"
+msgstr "Y 瓦片数"
+
+msgid "1 Ratio"
+msgstr "1 比例"
+
+msgid "2 Ratio"
+msgstr "2 比例"
+
+msgid "3 Ratio"
+msgstr "3 比例"
+
+msgid "4 Ratio"
+msgstr "4 比例"
+
+msgid "5 Ratio"
+msgstr "5 比例"
+
+msgid "6 Ratio"
+msgstr "6 比例"
+
+msgid "7 Ratio"
+msgstr "7 比例"
+
+msgid "8 Ratio"
+msgstr "8 比例"
+
+msgid "9 Ratio"
+msgstr "9 比例"
+
+msgid "10 Ratio"
+msgstr "10 比例"
+
+msgid "11 Ratio"
+msgstr "11 比例"
+
+msgid "12 Ratio"
+msgstr "12 比例"
+
+msgid "13 Ratio"
+msgstr "13 比例"
+
+msgid "14 Ratio"
+msgstr "14 比例"
+
+msgid "15 Ratio"
+msgstr "15 比例"
+
+msgid "Bounding Box"
+msgstr "边界框"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Inner"
+msgstr "内部"
+
+msgid "Outer"
+msgstr "外部"
+
+msgid "Reletive Offset"
+msgstr "相对偏移"
+
+msgid "Subdivide"
+msgstr "细分"
+
+msgid "Indices"
+msgstr "索引"
+
+msgid "Integer"
+msgstr "整数"
+
+msgid "Start"
+msgstr "起始"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Range"
+msgstr "范围"
+
+msgid "Midpoint"
+msgstr "中点"
+
+msgid "Nth"
+msgstr "第 N 个"
+
+msgid "Image"
+msgstr "图像"
+
+msgid "Blur Image"
+msgstr "模糊图像"
+
+msgid "Frame"
+msgstr "帧"
+
+msgid "Resample Curve"
+msgstr "重采样曲线"
+
+msgid "Resample Length"
+msgstr "重采样长度"
+
+msgid "Fill"
+msgstr "填充"
+
+msgid "Skeletonization"
+msgstr "骨架化"
+
+msgid "Skeletonization Overlay"
+msgstr "骨架覆盖"
+
+msgid "Skeleton Edge"
+msgstr "骨架边缘"
+
+msgid "Sobel"
+msgstr "索贝尔"
+
+msgid "Relax Edges"
+msgstr "松弛边缘"
+
+msgid "Extruded String Lines"
+msgstr "拉伸字符串线"
+
+msgid "Pins Points"
+msgstr "固定点"
+
+msgid "Sorted Pins Points"
+msgstr "排序的针孔点"
+
+msgid "View Grid"
+msgstr "查看网格"
+
+msgid "View Grid Image"
+msgstr "查看网格图像"
+
+msgid "Pins Points Count"
+msgstr "针孔点数量"
+
+msgid "Grid Resolution"
+msgstr "网格分辨率"
+
+msgid "Start Pin Index"
+msgstr "起始针孔索引"
+
+msgid "Custom Pins Points"
+msgstr "自定义针孔点"
+
+msgid "Image Adjustment"
+msgstr "图像调整"
+
+msgid "Min Brightness"
+msgstr "最小亮度"
+
+msgid "Max Brightness "
+msgstr "最大亮度"
+
+msgid "U Offset"
+msgstr "U 偏移量"
+
+msgid "V Offset"
+msgstr "V 偏移量"
+
+msgid "Strings Settings"
+msgstr "字符串设置"
+
+msgid "Min String Length"
+msgstr "最小字符串长度"
+
+msgid "Max String Length"
+msgstr "最大字符串长度"
+
+msgid "Extrusion Thickness"
+msgstr "挤压厚度"
+
+msgid "Faces UV Map"
+msgstr "面 UV 贴图"
+
+msgid "Variance Threshold"
+msgstr "方差阈值"
+
+msgid "Brightness Min"
+msgstr "亮度最小值"
+
+msgid "Brightness Max"
+msgstr "亮度最大值"
+
+msgid "Initial Subdivision"
+msgstr "初始细分"
+
+msgid "Initial Distribution View"
+msgstr "初始分布视图"
+
+msgid "Points Stippling Simulation"
+msgstr "点状笔刷模拟"
+
+msgid "Initial Distribution"
+msgstr "初始分布"
+
+msgid "Max Brightness"
+msgstr "最大亮度"
+
+msgid "Min Points Amount"
+msgstr "最小点数"
+
+msgid "Max Points Amount"
+msgstr "最大点数"
+
+msgid "Min Distance"
+msgstr "最小距离"
+
+msgid "Points Count"
+msgstr "点数"
+
+msgid "Simulation"
+msgstr "模拟"
+
+msgid "Sharpness/Softness"
+msgstr "锐度/柔化"
+
+msgid "Sharpness Scale"
+msgstr "锐度范围"
+
+msgid "Distribution"
+msgstr "分布"
+
+msgid "Distance Min"
+msgstr "最小距离"
+
+msgid "Density Max"
+msgstr "最大密度"
+
+msgid "Points Culling"
+msgstr "剔除点"
+
+msgid "U Translation"
+msgstr "U 平移"
+
+msgid "V Translation"
+msgstr "V 平移"
+
+msgid "U Scale"
+msgstr "U 缩放"
+
+msgid "V Scale"
+msgstr "V 缩放"
+
+msgid "View Threshold"
+msgstr "阈值视图"
+
+msgid "Max Threshold"
+msgstr "最大阈值"
+
+msgid "Min Threshold"
+msgstr "最小阈值"
+
+msgid "Whole Image Sorting"
+msgstr "整图排序"
+
+msgid "Invert Threshold"
+msgstr "反转阈值"
+
+msgid "Sorting"
+msgstr "排序"
+
+msgid "Invert Sorting"
+msgstr "反转排序"
+
+msgid "Alpha"
+msgstr "Alpha"
+
+msgid "Normalize Pixels"
+msgstr "归一化像素"
+
+msgid "Gamma Correction"
+msgstr "伽马校正"
+
+msgid "Palatte Count"
+msgstr "调色板数量"
+
+msgid "Show Quantization"
+msgstr "显示量化"
+
+msgid "Show Palette"
+msgstr "显示调色板"
+
+msgid "Tile A"
+msgstr "A 图块"
+
+msgid "Tile A Size"
+msgstr "A 图块大小"
+
+msgid "Tile B Size"
+msgstr "B 图块大小"
+
+msgid "Poles Distance"
+msgstr "极点距离"
+
+msgid "Pole Distance Scale"
+msgstr "极点距离缩放"
+
+msgid "Absolute Size"
+msgstr "绝对大小"
+
+msgid "Hex X"
+msgstr "十六进制 X"
+
+msgid "Hex Y"
+msgstr "十六进制 Y"
+
+msgid "Constant Hex Size"
+msgstr "常量十六进制大小"
+
+msgid "Tile U Size"
+msgstr "瓦片 U 尺寸"
+
+msgid "Tile V Size"
+msgstr "瓦片 V 尺寸"
+
+msgid "Gradient"
+msgstr "渐变"
+
+msgid "Solenoidal"
+msgstr "螺线管"
+
+msgid "V / E / F / FC"
+msgstr "V / E / F / FC"
+
+msgid "Curve Tangent"
+msgstr "曲线切线"
+
+msgid "Custom Vector"
+msgstr "自定义向量"
+
+msgid "Show Original Geometry"
+msgstr "显示原始几何体"
+
+msgid "Non-Uniform Size"
+msgstr "非均匀尺寸"
+
+msgid "Fit in Geometry"
+msgstr "适配几何体"
+
+msgid "Length"
+msgstr "长度"
+
+msgid "Custom Camera"
+msgstr "自定义相机"
+
+msgid "Pack UV"
+msgstr "UV 打包"
+
+msgid "U Index"
+msgstr "U 索引"
+
+msgid "V Index"
+msgstr "V 索引"
+
+msgid "Ring Resolution"
+msgstr "环分辨率"
+
+msgid "Sample Resolution"
+msgstr "采样分辨率"
+
+msgid "Extend to Fit Curve"
+msgstr "扩展以匹配曲线"
+
+msgid "Offset/Extrude/Duplicate"
+msgstr "偏移/挤出/复制"
+
+msgid "Pull Radius"
+msgstr "拉半径"
+
+msgid "Pull Strength"
+msgstr "拉强度"
+
+msgid "Bisect Points"
+msgstr "二面点"
+
+msgid "Flip Direction"
+msgstr "翻转方向"
+
+msgid "Equal Epsilon"
+msgstr "相等误差"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "From Min"
+msgstr "从最小值"
+
+msgid "From Max"
+msgstr "从最大值"
+
+msgid "Spline Length"
+msgstr "样条线长度"
+
+msgid "Spline Resolution"
+msgstr "Spline 分辨率"
+
+msgid "Axis Rotation"
+msgstr "轴旋转"
+
+msgid "Left Left"
+msgstr "左左"
+
+msgid "Left Right"
+msgstr "左右"
+
+msgid "Right Right"
+msgstr "右右"
+
+msgid "Right Left"
+msgstr "右左"
+
+msgid "Shortest"
+msgstr "最短路径"
+
+msgid "Start Direction"
+msgstr "起始方向"
+
+msgid "Start Radius"
+msgstr "起始半径"
+
+msgid "End Location"
+msgstr "终点位置"
+
+msgid "End Direction"
+msgstr "结束方向"
+
+msgid "End Radius"
+msgstr "结束半径"
+
+msgid "Socket"
+msgstr "插座"
+
+msgid "Web Link"
+msgstr "网页链接"
+
+msgid "Distance to Edge"
+msgstr "到边缘的距离"
+
+msgid "Strength"
+msgstr "强度"
+
+msgid "Midlevel"
+msgstr "中间层"
+
+msgid "XYZ Strength"
+msgstr "XYZ 强度"
+
+msgid "Direction Influence"
+msgstr "方向影响"
+
+msgid "Corner Offset"
+msgstr "角偏移"
+
+msgid "Normalized Direction"
+msgstr "归一化方向"
+
+msgid "Direction 1"
+msgstr "方向 1"
+
+msgid "Direction 2"
+msgstr "方向 2"
+
+msgid "Direction 3"
+msgstr "方向 3"
+
+msgid "Repulsion Radius Scale"
+msgstr "排斥半径缩放"
+
+msgid "Repulsion Strength Scale"
+msgstr "排斥强度缩放"
+
+msgid "Sample Count"
+msgstr "采样数量"
+
+msgid "Lock Z Axis"
+msgstr "锁定 Z 轴"
+
+msgid "Pin Endpoints"
+msgstr "固定端点"
+
+msgid "Mesh Constrain"
+msgstr "网格约束"
+
+msgid "Use Pole Target"
+msgstr "使用极目标"
+
+msgid "Pole Target"
+msgstr "极目标"
+
+msgid "Stretch Weight"
+msgstr "拉伸权重"
+
+msgid "Angel"
+msgstr "天使"
+
+msgid "Duplicate"
+msgstr "复制"
+
+msgid "Rotation Axis"
+msgstr "旋转轴"
+
+msgid "Intersecting Points"
+msgstr "相交点"
+
+msgid "Median Edges"
+msgstr "中位边"
+
+msgid "Median Mesh"
+msgstr "中位面"
+
+msgid "Median Points"
+msgstr "中位点"
+
+msgid "Points Radius"
+msgstr "半径点"
+
+msgid "Fill Curve Group ID"
+msgstr "填充曲线组 ID"
+
+msgid "Intersection Point"
+msgstr "交点"
+
+msgid "Euler Rotation"
+msgstr "欧拉角旋转"
+
+msgid "Custom Axis"
+msgstr "自定义轴"
+
+msgid "Tilt"
+msgstr "倾斜"
+
+msgid "Fit to Curve"
+msgstr "适配曲线"
+
+msgid "Limit Offset"
+msgstr "限制偏移量"
+
+msgid "Use Curve Radius"
+msgstr "使用曲线半径"
+
+msgid "Curve Index"
+msgstr "曲线索引"
+
+msgid "Up Axis"
+msgstr "向上轴"
+
+msgid "Flip Sides"
+msgstr "翻转侧面"
+
+msgid "Arc Radius"
+msgstr "圆弧半径"
+
+msgid "Delete Section"
+msgstr "删除部分"
+
+msgid "Keep Cyclic"
+msgstr "保持循环"
+
+msgid "Banking"
+msgstr "倾斜角"
+
+msgid "Blur"
+msgstr "模糊"
+
+msgid "Random Orientation "
+msgstr "随机方向"
+
+msgid "Cube"
+msgstr "立方体"
+
+msgid "Original Position"
+msgstr "原始位置"
+
+msgid "Lenth"
+msgstr "长度"
+
+msgid "Connect All"
+msgstr "连接所有"
+
+msgid "Circle Rotation"
+msgstr "圆旋转"
+
+msgid "Circle 1 Center"
+msgstr "圆 1 中心"
+
+msgid "Circle 1 Radius"
+msgstr "圆 1 半径"
+
+msgid "Circle 2 Center"
+msgstr "圆 2 中心"
+
+msgid "Circle 2 Radius"
+msgstr "圆 2 半径"
+
+msgid "Intersection Point 1"
+msgstr "交点 1"
+
+msgid "Intersection Point 2"
+msgstr "交点 2"
+
+msgid "Arc Midpoint"
+msgstr "弧中点"
+
+msgid "Arc Angle"
+msgstr "弧角度"
+
+msgid "Circel 2 Radius"
+msgstr "圆 2 半径"
+
+msgid "Fit in Mesh"
+msgstr "适配网格"
+
+msgid "Selected"
+msgstr "选中"
+
+msgid "Deselected"
+msgstr "未选中"
+
+msgid "Start Index"
+msgstr "起始索引"
+
+msgid "Transform"
+msgstr "变换"
+
+msgid "Camera Direction"
+msgstr "相机方向"
+
+msgid "Normalized"
+msgstr "归一化"
+
+msgid "Uniform"
+msgstr "统一"
+
+msgid "Z Depth"
+msgstr "Z 深度"
+
+msgid "Camera"
+msgstr "相机"
+
+msgid "Orthographic Scale"
+msgstr "正交比例"
+
+msgid "Translate"
+msgstr "平移"
+
+msgid "Distances from Camera"
+msgstr "与相机的距离"
+
+msgid "Padding"
+msgstr "内边距"
+
+msgid "Vertices X"
+msgstr "顶点 X"
+
+msgid "Vertices Y"
+msgstr "顶点 Y"
+
+msgid "Is Inside Camera"
+msgstr "在相机内部"
+
+msgid "Spherical Padding"
+msgstr "球体内边距"
+
+msgid "Tile Angle"
+msgstr "瓦片角度"
+
+msgid "X Grid Size"
+msgstr "X 网格大小"
+
+msgid "Y Grid Size"
+msgstr "Y 网格大小"
+
+msgid "Absolute Grid Size"
+msgstr "绝对网格大小"
+
+msgid "X Brick Size"
+msgstr "X 砖块大小"
+
+msgid "Y Brick Size"
+msgstr "Y 砖块大小"
+
+msgid "Side Bricks"
+msgstr "侧面砖块"
+
+msgid "Mortar Size"
+msgstr "砂浆大小"
+
+msgid "Depth Size"
+msgstr "深度大小"
+
+msgid "-X"
+msgstr "-X"
+
+msgid "-Y"
+msgstr "-Y"
+
+msgid "-Z"
+msgstr "-Z"
+
+msgid "Is Collision"
+msgstr "碰撞检测"
+
+msgid "Min 1 Bounding Box"
+msgstr "最小边界框"
+
+msgid "Max 1 Bounding Box"
+msgstr "最大 1 个边界框"
+
+msgid "Min 2 Bounding Box"
+msgstr "最小 2 边界框"
+
+msgid "Max 2 Bounding Box"
+msgstr "最大 2 个边界框"
+
+msgid "Reverse"
+msgstr "反向"
+
+msgid "Visualise Easing Curve"
+msgstr "可视化缓动曲线"
+
+msgid "Point 1 X"
+msgstr "第 1 点 X"
+
+msgid "Point 1 Y"
+msgstr "点 1 Y"
+
+msgid "Point 2 X"
+msgstr "点 2 X"
+
+msgid "Point 2 Y"
+msgstr "点 2 Y"
+
+msgid "Blur Weight"
+msgstr "模糊权重"
+
+msgid "X Count"
+msgstr "X 计数"
+
+msgid "Y Count"
+msgstr "Y 计数"
+
+msgid "Z Count"
+msgstr "Z 计数"
+
+msgid "Point 4"
+msgstr "点 4"
+
+msgid "Points X"
+msgstr "点的 X"
+
+msgid "Points Y"
+msgstr "点的 Y"
+
+msgid "Points Z"
+msgstr "Z 轴点"
+
+msgid "Plane 3 Position"
+msgstr "平面 3 位置"
+
+msgid "Plane 3 Normal"
+msgstr "平面 3 法线"
+
+msgid "Corner Angles"
+msgstr "角角度"
+
+msgid "Releax Iterations"
+msgstr "松弛迭代次数"
+
+msgid "UV"
+msgstr "UV"

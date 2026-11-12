@@ -1,0 +1,1190 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-08 11:00+0800\n"
+"PO-Revision-Date: 2026-11-08 11:00+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Here are some basic base classes for defining default bahaviors for Operators of the Sanctus Library addon."
+msgstr "以下是为 Sanctus Library 插件的操作器定义默认行为的一些基础类。|||~|||从 Blender 对象中获取装饰贴图设置对象。它支持旧属性 'sanctus_decal_settings' 以及任何以 '_decal_settings' 结尾的属性（例如 'sl_decal_sett"
+
+msgid ""
+"Retrieves the decal settings object from a blender object.\n"
+"It supports both the legacy 'sanctus_decal_settings' property\n"
+"and any property ending with '_decal_settings' (e.g. 'sl_decal_settings', 'sc_decal_settings').\n"
+"\n"
+"CRITICAL: Multiple _decal_settings properties can coexist on the same object\n"
+"(e.g. sc_decal_settings from Core + sl_decal_settings from Library).\n"
+"We must return the ONE that has is_decal=True, not just the first match."
+msgstr "ings', 'sc_decal_settings'）。⚠️ 注意：同一对象上可以共存多个 _decal_settings 属性（例如 Core 的 sc_decal_settings + Library 的 sl_decal_settings）。我们必须返回 `is_decal=True` 的那个，"
+
+msgid ""
+"This module contains a lot of functions to operate on image pixels as numpy arrays. This is used to procedurally add icons to the thumbnails of assets shown in the UI\n"
+"when for example a user sets an asset instance as a favorite. Because this is run on the CPU, these functions are quite slow and therefore run in a separate thread.\n"
+"This is why it might take a while for dynamic thumbnail updates to be visible because they are sceduled in regular intervals and take some time to process."
+msgstr "而不仅仅是第一个匹配项。|||~|||本模块包含大量用于以 numpy 数组形式操作图像像素的函数。这用于在 UI 中显示的资源缩略图上程序化添加图标，例如当用户将资产实例设为收藏时。由于这是在 CPU 上运行的，这些函数的速度较慢，因此会在单独的线程中运行。这就是为什么动态缩略图更新可能需要一段时间才能显示的原因，"
+
+msgid "Get the base shape of an image array"
+msgstr "因为它们被定期调度，并且需要一些时间来处理。|||~|||获取图像数组的基础形状|||~|||翻转基础形状，反转元组元素的顺序|||~|||获取 ImageArray 拥有的通道数量。假设有效的 ImageArray。|||~|||本模块在更高层面上实现了图像处理。这主要用于处理预览以向其添加动态图标。"
+
+msgid "Flip the base shape, reversing the tuples elements"
+msgstr ""
+"|||~|||有关 Blender 中图像处理的更多功能也请参阅此处|||~|||获取修饰器输入值，兼容 Blender 4.x 和 5.2+ 版本\n"
+"</think>\n"
+"\n"
+"<think>\n"
+"\n"
+"</think>\n"
+"\n"
+"以下是为 Sanctus Library 插件的操作器定义默认行为的一些基础类。|||~||"
+
+msgid "Get the amounts of channels an ImageArray has. Assumes valid ImageArray"
+msgstr "|从 Blender 对象中获取装饰贴图设置对象。它支持旧属性 'sanctus_decal_settings' 以及任何以 '_decal_settings' 结尾的属性（例如 'sl_decal_settings', 'sc_decal_settings'）。⚠️ 注意：同一对象上可以共存多个"
+
+msgid ""
+"This module implments image_processing on a higher level. This is mainly used to process previews to add dynamic icons to them.\n"
+"Some additional functionality on handling images in Blender can be found here as well"
+msgstr "_decal_settings 属性（例如 Core 的 sc_decal_settings + Library 的 sl_decal_settings）。我们必须返回 `is_decal=True` 的那个，而不仅仅是第一个匹配项。|||~|||本模块包含大量用于以 numpy 数组形式操作图像像素的函数。"
+
+msgid ""
+"Get a modifier input value, compatible with Blender 4.x and 5.2+.\n"
+"\n"
+"Blender 5.2 replaced mod[key] with mod.properties.inputs.{id}.value."
+msgstr "这用于在 UI 中显示的资源缩略图上程序化添加图标，例如当用户将资产实例设为收藏时。由于这是在 CPU 上运行的，这些函数的速度较慢，因此会在单独的线程中运行。这就是为什么动态缩略图更新可能需要一段时间才能显示的原因，因为它们被定期调度，并且需要一些时间来处理。|||~|||获取图像数组的基础形状|||~|||翻转基础形状，"
+
+msgctxt "Operator"
+msgid "How to Bake Materials"
+msgstr "反转元组元素的顺序|||~|||获取 ImageArray 拥有的通道数量。假设有效的 ImageArray。|||~|||本模块在更高层面上实现了图像处理。这主要用于处理预览以向其添加动态图标。|||~|||有关 Blender 中图像处理的更多功能也请参阅此处|||~|||获取修饰器输入值，兼容"
+
+msgid "Open a weblink to the official Sanctus Library Baking Guide"
+msgstr ""
+"Blender 4.x 和 5.2+ 版本\n"
+"mod[key]\n"
+"\n"
+"Blender 5.2 将 mod[key] 替换为 mod.properties.inputs.{id}.value。|||~|||如何烘焙材质 (Bake Materials)"
+
+msgid "Material Baking"
+msgstr "材料烘焙"
+
+msgid "Bake Settings for the Sanctus Library"
+msgstr "渲染设置 — Sanctus 库"
+
+msgid "SBake"
+msgstr "SBake"
+
+msgid ""
+"Manages the preferences UI. Currently, all of the user preferences get saved to and loaded from an external file. I am not sure if that is super necessary...\n"
+"But it is also possible to export and import preferences in a similar fashion as the users."
+msgstr "管理首选项界面。目前，所有用户首选项都保存并从外部文件中加载。我不确定这是否真的有必要...但以类似的方式导出和导入首选项也是可能的（与用户一样）。"
+
+msgid "Favorites"
+msgstr "常用项"
+
+msgid "A version of Sanctus Library with old baking tools detected."
+msgstr "一个检测到旧渲染工具的 Sanctus 库版本。"
+
+msgid "While conflicts between addons have been minimized, compatibility is not guaranteed."
+msgstr "虽然最小化了插件之间的冲突，但兼容性无法保证。"
+
+msgid "It is recommended to update Sanctus Library to the latest version."
+msgstr "建议将 Sanctus 库更新到最新版本。"
+
+msgid "Sanctus Bake"
+msgstr "Sanctus Bake"
+
+msgid "Utility addon for baking textures"
+msgstr "用于渲染纹理的工具插件"
+
+msgid "Creates an check for polling operators. When strict is set to False, exceptions will be ignored."
+msgstr "创建轮询操作符的检查。当严格模式设置为 False 时，将忽略异常"
+
+msgid "anonymous rquirement not met"
+msgstr "未满足匿名需求"
+
+msgid "Not Implemented"
+msgstr "尚未实现"
+
+msgid "Return a dynamic description string based on operator properties and context. Context Properties are not yet set and will return their default"
+msgstr "基于操作符属性和上下文返回动态描述字符串。上下文属性尚未设置，将返回默认值"
+
+msgid "Property Settings"
+msgstr "属性设置"
+
+msgid "{super().__repr__()} [INVALID!]"
+msgstr "{super().__repr__()} [INVALID!]"
+
+msgid "Property {attr_name} is readonly. To set the property value, access the \"value\" field from this object"
+msgstr "属性 '{attr_name}' 为只读。要设置该属性值，请从该对象访问 'value' 字段"
+
+msgid "returns dictionaries with context and manual meta props"
+msgstr "返回包含上下文和手动元数据的字典"
+
+msgid "Property Access is incorrect"
+msgstr "属性访问不正确"
+
+msgid "Attribute of name \"{attr_name}\" in {obj} is not a property of type {cls}"
+msgstr "对象 '{obj}' 中名为 \\\"{attr_name}\\\" 的属性不是类型为 {cls} 的属性"
+
+msgid "Impossible State"
+msgstr "不可能狀態"
+
+msgid "filter_name"
+msgstr "filter_name"
+
+msgid "use_filter_invert"
+msgstr "use_filter_invert"
+
+msgid "use_filter_sort_alpha"
+msgstr "use_filter_sort_alpha"
+
+msgid "use_filter_sort_reverse"
+msgstr "use_filter_sort_reverse"
+
+msgid "Invalid type \"{type(element)}\". Collection contains objects of type \"{elememt_type}\""
+msgstr "無效類型\"{type(element)}\"。集合包含 \"{elememt_type}\" 類型的對象"
+
+msgid "Dynamic Version of the Enum Property. Use \"fixed = true\" to immediately resolve the items using (None, None) as parameters"
+msgstr "Enum 屬性的動態版本。使用 \"fixed = true\" 立即解析項目，參數為 (None, None)"
+
+msgid "Relative Path cannot be resolved. Blend File has to be saved or use another fallback type"
+msgstr "相對路徑無法解析。Blend 檔案必須已保存或另選其他替換類型"
+
+msgid "Cannot make already absolute path absolute. Path property must be relative."
+msgstr "無法將已為絕對的路徑設為絕對。路徑屬性必須是相對於的。"
+
+msgid "Identifier {identifier} does not match required enum type: {enum_cls}."
+msgstr "標識符 \"{identifier}\" 不匹配所需的類型：{enum_cls}。"
+
+msgid "0s"
+msgstr "0s"
+
+msgid "Context Property \"{attr_name}\" got invalid or no value. Has to be bpy.types.AnyType."
+msgstr "上下文属性 \"{attr_name}\" 无效或没有值。必须是 bpy.types.AnyType 类型."
+
+msgid "Property {cls} not registered to {obj.__class__}. Valid registrations: {[t for a, p, t in cls.prop_map]}"
+msgstr "属性 {cls} 未注册到 {obj.__class__}。有效注册项：{[t for a, p, t in cls.prop_map]}"
+
+msgid "Decorators for Properties"
+msgstr "属性装饰器"
+
+msgid "Remove module cache of entire package and subpackages of an addon."
+msgstr "清除整个包及其子包的插件模块缓存."
+
+msgid "Class {clss.__name__} does not have a member '{method_name}'"
+msgstr "类 {clss.__name__} 没有成员 '{method_name}'"
+
+msgid "Member '{method_name}' of class {clss.__name__} is not a function"
+msgstr "类 {clss.__name__} 的成员 '{method_name}' 不是函数"
+
+msgid "Adds function or class to Global list for registration."
+msgstr "将函数或类添加到全局注册列表"
+
+msgid "Init method of {cls} needs to accept a single \"self\" argument"
+msgstr "{cls} 的初始化方法需要接受单个 \"self\" 参数"
+
+msgid "Auto register a draw callback to a Blender menu or panel."
+msgstr "自动向 Blender 菜单或面板注册绘制回调"
+
+msgid "Auto register a timer callback function"
+msgstr "自动注册定时器回调函数|||~|||向<bpy.app.h"
+
+msgid "register a callback function to a handler in the <bpy.app.handlers> module"
+msgstr "andlers>模块中的处理器注册一个回调函数|||~|||定义依赖项以确定特定类的注册顺序。"
+
+msgid "Define dependencies to determine a registration order for certain classes. Use as decorator."
+msgstr "用作装饰器。|||~|||对于类，递归遍历继承栈获取其所有依赖项的列表。"
+
+msgid "For a class gets a list of all its dependencies going recursively through the inheritence stack."
+msgstr "|||~|||当 Blender 作为后台进程运行时跳过初始化附加组件。"
+
+msgid "Skip initializing the addon while"
+msgstr "|||~|||为模块设置注册和注销函数。所有导入的模块都会"
+
+msgid "Blender is a background process."
+msgstr "参与注册/注销流程|||~|||类型|||~|||在 in"
+
+msgid "Set up register and unregister functions for the module. All imported modules will contribute to the register/unregister routine"
+msgstr "it 中用 _UIEmptyArgument 实例替换所有默认参数，"
+
+msgid "type"
+msgstr "但保留签名。过滤掉未使用的参数。|||~|||返回一个没有"
+
+msgid "Replaces all default arguments in init with _UIEmptyArgument instance but keeps the signature. Filters unused arguments out"
+msgstr "文本和特定图标的 UIOptionsProp 实例"
+
+msgid "Returns an UIOpionsProp instance with no text and a specific icon"
+msgstr "返回一个不带文本并带有特定图标的 UI 选项属性实例"
+
+msgid "Draw the builtin property as a dropdown. Returns the value of the property. Inverted if \"invert_value\" is True"
+msgstr "将内置属性绘制为下拉框。返回该属性的值。如果 \"invert_value\" 为 True，则反转。"
+
+msgid "Redraw every region in Blender."
+msgstr "重绘 Blender 中的每个区域。"
+
+msgid "A generic type annotation for the bpy.types.Object class with defined data type."
+msgstr "为带有定义数据类型的 bpy.types.Object 类提供的通用类型注解。"
+
+msgid "A generic type annotation for the bpy.types.Context class with definied space_data type."
+msgstr "为带有已定义的 space_data 类型的 bpy.types.Context 类提供的通用类型注解。"
+
+msgid ""
+"Get the addon/extension display name.\n"
+"\n"
+"Works with both legacy bl_info and extension manifest (Blender 4.5+)."
+msgstr ""
+"获取插件/扩展的显示名称。\n"
+"\n"
+"适用于旧的 bl_info 和扩展清单（Blender 4.5+）。"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Returns the blender-readable string name of the enum"
+msgstr "返回枚举的 Blender 可读字符串名称"
+
+msgid "Convert Enum into a blender-readable string"
+msgstr "将枚举转换为 Blender 可读字符串"
+
+msgid "Key \"{value}\" not in {string_set}"
+msgstr "键 \"{value}\" 不在 {string_set} 中"
+
+msgid "Value {value} is invalid for parsing BStaticEnum {cls}"
+msgstr "值 {value} 无效用于解析 BStaticEnum {cls}"
+
+msgid "Index {value} out of bounds for enum {cls} of size {len(cls)}"
+msgstr "索引值 {value} 超出枚举 {cls} 的范围（大小为 {len(cls)}）"
+
+msgid "Input {value} cannot be interpreted as BStaticEnum {cls}"
+msgstr "无法将输入 {value} 解析为 BStaticEnum {cls}"
+
+msgid "File Browser"
+msgstr "文件浏览器"
+
+msgid "Graph Editor"
+msgstr "视口编辑器"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "INFO"
+msgstr "INFO"
+
+msgid "NLA Editor"
+msgstr "非线性剪辑编辑器"
+
+msgid "Node Editor"
+msgstr "节点编辑器"
+
+msgid "Property Editor"
+msgstr "属性编辑器"
+
+msgid "Spreadsheet Generic"
+msgstr "表格通用"
+
+msgid "User Interface"
+msgstr "用户界面|||~|||3D 视图|||~|||图像文件格式。"
+
+msgid "3D View"
+msgstr "使用“扩展名”属性以接收每种格式对应的文件扩展名。"
+
+msgid "File formats for Images. Use \"extension\" property to receive the appropriate file extension for each format."
+msgstr "|||~|||保存贴图|"
+
+msgid "Save Texture"
+msgstr "||~|||将烘焙的贴图"
+
+msgid "Save the baked texture to the disk"
+msgstr "保存到磁盘|||~|||"
+
+msgctxt "Operator"
+msgid "Save All"
+msgstr "全部保存|||~|||批"
+
+msgid "Save all baked textures from the set"
+msgstr "量文件名|||~|||材"
+
+msgid "Bulk Filename"
+msgstr "质名称|||~|||结果"
+
+msgid "Material Name"
+msgstr "名称"
+
+msgid "Result Name"
+msgstr ""
+
+msgid "Socket Selection"
+msgstr "Socket Selection — Se"
+
+msgid "— Select —"
+msgstr "lect — 选择一个目标端口为纹理贴图，选择一个目标纹理贴图，"
+
+msgid "Select a destination"
+msgstr "选择多个端口并分配给现有的或新的纹理映射。"
+
+msgid "Choose destination map for this socket"
+msgstr "两个不同的端口不能添加到同一个纹理贴图中。未选择任何端口——启用至少一个端口。"
+
+msgid "Select sockets and assign them to existing or new maps."
+msgstr "选择 \"{utils.get_socket"
+
+msgid "Two different sockets cannot be added to the same texture map"
+msgstr "_display_name(socket)}\" 的目标。"
+
+msgid "No sockets selected — enable at least one socket"
+msgstr "添加至现有映射：{bm.get_map_name()}。"
+
+msgid "Select a destination for \"{utils.get_socket_display_name(socket)}\""
+msgstr "创建新 {mt.value['n']} 映射。"
+
+msgid "Add to existing map: {bm.get_map_name()}"
+msgstr "添加到现有地图：%s"
+
+msgid "Create new {mt.value['n']} map"
+msgstr "创建新的 {mt.value['n']} 地图"
+
+msgid "Required for invoke_popup — just pass through events."
+msgstr "需要用于 invoke_popup ——只需传递事件。|||OK|||"
+
+msgctxt "Operator"
+msgid "OK"
+msgstr "应用来自 SelectSocketsForBaking 弹出窗口的插孔选择。"
+
+msgid "Apply the socket selections from the SelectSocketsForBaking popup."
+msgstr "|||烘焙失败：{e}|||.temp_curvature_subd|"
+
+msgid "Bake failed: {e}"
+msgstr "||使用一个临时的白色漫反射材质来提取纯场景照明。将颜色值从 sRGB 转换为线性空间，"
+
+msgid ".temp_curvature_subd"
+msgstr "然后每通道乘以光栅遮罩（light mask），最后转换回 sRGB 以进行正确的色彩运算。"
+
+msgid ""
+"Applies a Hybrid Lighting Pass using a temporary white matte material\n"
+"to extract pure scene illumination. The albedo is converted from sRGB\n"
+"to linear space, multiplied per-channel by the light mask, then\n"
+"converted back to sRGB for correct color math."
+msgstr "|||.temp_lighting_mask_mat|||.temp_"
+
+msgid ".temp_lighting_mask_mat"
+msgstr "light_mask|||扫描现有的纹理集合 (TextureSets)，"
+
+msgid ".temp_light_mask"
+msgstr "查找先前烘焙的通道图像。将法线、粗糙度和金属度贴图打包到单一的 ORM 贴图中。"
+
+msgid "Scan existing TextureSets for a previously baked channel image."
+msgstr "通道布局：R=法线，G=粗糙度，B=金属度，A=1.0。缺少单个贴图时将使用默认值。"
+
+msgid ""
+"Packs AO, Roughness, and Metallic maps into a single composite ORM texture.\n"
+"Channel layout: R=AO, G=Roughness, B=Metallic, A=1.0\n"
+"Uses fallback defaults when individual maps are missing."
+msgstr "将 AO、粗糙度和金属度贴图合并到单一的 ORM（Opaque RGB）纹理中。通道布局：R=AO，G=粗糙度，B=金属度，A=1.0。当缺少单个贴图时，使用默认值作为备用选项。"
+
+msgid "ORM"
+msgstr "显示图像|||~|||在新的 Blender"
+
+msgctxt "Operator"
+msgid "Show Image"
+msgstr "窗口中打开此图像|||~|||操作器需要传"
+
+msgid "Open the image in a new Blender Window"
+msgstr "入一个 Image 对象|||~|||传入的对象："
+
+msgid "Operator requires an Image to be passed"
+msgstr "{image} 不是图像|||~|||将图像"
+
+msgid "Object passed: {image} is not an image"
+msgstr "作为节点添加到当前着色器节点树中|||~||"
+
+msgid "Add images as nodes in active shader node tree"
+msgstr "|将图像作为 PBR 设置添加到当前着色器节"
+
+msgid "Add images as PBR setup in active shader node tree"
+msgstr "点树中|||~|||将 AO（环境光遮蔽）连接到 Base Color，"
+
+msgid "Connect AO as a Multiply blend on the Base Color, routing through MixRGB."
+msgstr "通过 MixRGB 进行相乘混合|||~||"
+
+msgid "AO Strength"
+msgstr "|AO 强度|||~|||从烘焙队列中移除所"
+
+msgid "Remove all the current bake sockets from the baking queue"
+msgstr "有当前的烘焙插口"
+
+msgid "Restore Default Settings"
+msgstr "恢复默认设置"
+
+msgid "Restore the default baking settings from the addon preferences"
+msgstr "从插件偏好设置中恢复默认烘焙设置"
+
+msgid ""
+"Task 8: Smart Ingestion Engine\n"
+"Scans the active material's topology from the Material Output node,\n"
+"traces back through Principled BSDF or Sanctus Library NodeGroups,\n"
+"and auto-populates the baking queue with detected map channels."
+msgstr ""
+"任务 8：智能摄取引擎\n"
+"扫描材质输出节点的活跃材质拓扑结构，\n"
+"沿 Principled BSDF 或 Sanctus 库节点组反向追溯，\n"
+"并自动填充检测到的贴图通道到烘焙队列。"
+
+msgid "Auto-Populate Queue"
+msgstr "自动填充队列"
+
+msgid "Automatically detect and populate the baking queue from the active material"
+msgstr "从活跃材质中自动检测和填充烘焙队列"
+
+msgid ""
+"Smart replace: if a map of this type already exists in the queue,\n"
+"update its socket path instead of replacing it. This preserves\n"
+"mesh maps (AO, Curvature) and any manually added maps of other types.\n"
+"\n"
+"When adding a socket path, any existing flat value for the same material\n"
+"is automatically removed since they are mutually exclusive."
+msgstr ""
+"智能替换：如果队列中已存在此类型的贴图，则更新其端口路径而非替换它。这可保留网格贴图（AO、曲率）以及任何手动添加的其他类型贴图。\n"
+"\n"
+"在添加端口路径时，任何为该材质的现有扁平值将自动移除，因为它们互斥。"
+
+msgid "No Cycles Material Output node found in the active material"
+msgstr "活跃材质中未找到 Cycles 材质输出节点"
+
+msgid "Surface input of Material Output is not connected"
+msgstr "材质输出的表面输入未连接"
+
+msgid "Auto-populated {count} maps from Principled BSDF inside nodegroup"
+msgstr "从 Principled BSDF 内自动填充了 {count} 个贴图"
+
+msgid "Auto-populated {len(matched)} maps from nested NodeGroup"
+msgstr "从嵌套节点组中自动填充了 {len(matched)} 个贴图"
+
+msgid "Auto-populated {len(matched)} maps from Sanctus Library NodeGroup"
+msgstr "自动生成的 {len(matched)} 个来自 Sanctus 库节点组的贴图"
+
+msgid "Auto-populated {count} maps from Principled BSDF"
+msgstr "自动生成的 {count} 个来自 Principled BSDF 的贴图"
+
+msgid "Auto-Populate is optimized for Principled BSDF and Sanctus Library Node Groups"
+msgstr "自动生成针对 Principled BSDF 和 Sanctus 库节点组进行了优化"
+
+msgid ""
+"Smart Ingestion: Scans the Principled BSDF inputs and applies selection criteria:\n"
+"- Base Color / Roughness: ALWAYS added\n"
+"- Metallic: only if connected or value > 0.0\n"
+"- Alpha: only if connected or value < 1.0\n"
+"- Normal / Displacement: only if connected\n"
+"- For unconnected sockets that qualify, stores the slider value per-material\n"
+"  using add_flat_value() so each material slot can have its own flat value."
+msgstr ""
+"智能导入：扫描 Principled BSDF 输入并应用筛选标准：\n"
+"- 基础颜色/粗糙度：始终添加\n"
+"- 金属性：仅当已连接或值>0.0 时添加\n"
+"- 透明度：仅当已连接或值<1.0 时添加\n"
+"- 法线/位移：仅当已连接时添加\n"
+"- 对于符合条件的未连接输入口，使用 add_flat_value() 存储每个材质的滑块值，使每个材质槽位都能拥有自己的扁平值"
+
+msgid "Add or update a map, storing the flat value per-material if no socket is connected."
+msgstr "添加或更新贴图，如果没有端口连接则按材质存储扁平值"
+
+msgid "Wrapper that can be invoked from the N-panel or context menu without asserts."
+msgstr "可在 N 面板或上下文菜单中调用（无断言检查）"
+
+msgid ""
+"Removes a single BakeMap from the queue.\n"
+"If the map is a mesh map (AO/Curvature), also unchecks the corresponding\n"
+"checkbox in the settings so the UI stays in sync."
+msgstr ""
+"移除单个烘焙贴图。\n"
+"如果该贴图为网格贴图（AO/曲率），也取消对应的复选框以保持界面同步"
+
+msgid "Remove Map"
+msgstr "移除贴图"
+
+msgid "Remove this map from the baking queue"
+msgstr "从烘焙队列中移除此贴图"
+
+msgid "[OVERRIDE]{obj}.{attr}: {original} -> {override}"
+msgstr "[OVERRIDE]{obj}.{attr}: {original} -> {override}"
+
+msgid "allows for making temporary changes to the file. Instead of manually cleaning them up, this object takes care of restoring previous settings as long as `restore()` is called."
+msgstr "允许对文件进行临时更改。无需手动清理，该对象只要调用 `restore()` 即可自动恢复先前设置."
+
+msgid ""
+"Baking in the Sanctus-Library addon is based on connecting output sockets to the material output node and baking them as colors. This is different from other baking addons\n"
+"that mainly bake out mesh maps like normals, ambient occlusion etc."
+msgstr "在 Sanctus-Library 插件中烘焙是基于将输出插孔连接到材质输出节点并烘焙为颜色。这与大多数主要烘焙法线、环境光遮蔽等网格图的烘焙插件不同."
+
+msgid "Update callback: add/remove AO map when checkbox toggled."
+msgstr "更新回调：当复选框切换时添加/删除 AO 图。"
+
+msgid ""
+"Update callback: add/remove Curvature map when checkbox toggled.\n"
+"Also auto-detects the existing Subsurf modifier's subdivision type\n"
+"and sets the curvature_subdivision_type to match."
+msgstr ""
+"更新回调：当复选框切换时添加/删除曲率图。\n"
+"同时自动检测活动对象现有细分修改器的细分类型，并将 curvature_subdivision_type 设置为此值以匹配。"
+
+msgid "Auto-detect the subdivision type from the active object's existing Subsurf modifier."
+msgstr "从活动对象的现有细分修改器中自动检测细分类型。"
+
+msgid "Add or remove a mesh map from the parent object's baking queue."
+msgstr "向父对象的烘焙队列中添加或删除网格图。"
+
+msgid "is a string path to a specific socket relative to a material. Use get_socket() to resolve the path to the referenced socket object. Because the path is stored a string. It's possible for this path to be invalidated"
+msgstr "是相对于材质的特定插孔的路径字符串。使用 get_socket() 将路径解析为引用的插孔对象。因为路径以字符串形式存储，所以该路径可能会失效。"
+
+msgid ""
+"Description of what the baker generates. The map type serves as a default name for a map. Using map types, it is also possible to generate a PBR node setup from the bake results.\n"
+"`socket_paths` is a collection of `SocketPath` objects. Because bake maps \"live\" on a `bpy.types.Object`, usually users will have one socket path for each material on the object. \n"
+"Using multiple socket paths per bake map allows the result of multiple materials to be baked together."
+msgstr ""
+"描述烘焙器生成的内容。地图类型作为地图的默认名称。使用地图类型，还可以从烘焙结果生成 PBR 节点设置。\n"
+"`socket_paths` 是 `SocketPath` 对象的集合。因为烘焙图“活”在 `bpy.types.Object` 上，用户通常会为每个材质使用一个插孔路径。\n"
+"每次烘焙使用多个插孔路径允许将多个材质的结果一起烘焙。"
+
+msgid "Map Name"
+msgstr "地图名称"
+
+msgid "Has Color?"
+msgstr "是否有颜色？"
+
+msgid "Enable when map bakes color information. Disable for maps like metallic, normal, roughness etc."
+msgstr "启用时贴图会烘焙颜色信息。禁用则用于金属度、法线、粗糙"
+
+msgid "Disable during bake"
+msgstr "度等贴图.|||~|||在烘焙过程中禁用|||~|||禁用贴图。"
+
+msgid "Disables the map during baking. Useful for temporarily disabling maps without losing their socket paths and settings."
+msgstr "可用于临时禁用贴图而不丢失其插口路径和设置.|||~|"
+
+msgid "Samples"
+msgstr "||采样数|||~|||用于该贴图的渲染采样数。如果烘焙结果过于噪声，"
+
+msgid "Render samples used for this map. Increase above 1 if the baking result is too noisy"
+msgstr "则调高此值.|||~|||默认值覆盖|||为未连接插口的自动填充贴图存储自定义默认值。"
+
+msgid "Default Value Override"
+msgstr "当启用时，将使用此覆盖值而非 MapType 的默认值"
+
+msgid "Stores a custom default value for auto-populated maps without socket connections. Used instead of the MapType default when set"
+msgstr "|||~|||有默认值覆盖|||启用后，在没有插口路"
+
+msgid "Has Default Override"
+msgstr "径的情况下使用 default_value_overr"
+
+msgid "When True, use default_value_override instead of the MapType default when no socket path exists"
+msgstr "ide 替代 MapType 的默认值 |||~|||"
+
+msgid "Auto-Populated"
+msgstr "自动填充"
+
+msgid "When True, this map was added by Auto-Populate. Only auto-populated Normal maps from Bump nodes get Object-to-Tangent conversion"
+msgstr "当启用时，此图元由自动填充（Auto-Populate）生成。只有由噪点节点生成的自动填充法线贴图才会进行对象到切线转换"
+
+msgid "Material {material.name} is already used in map \"{get_map_name()}\""
+msgstr "材料 {material.name} 已在图元 \"{get_map_name()}\" 中使用"
+
+msgid "Add a per-material flat value entry. Replaces any existing flat value for this material."
+msgstr "添加每个材料的扁平值条目。将替换此材料的任何现有扁平值"
+
+msgid ""
+"Check if a material can be added to this map.\n"
+"A material is available if it has no socket_path entry AND no flat_value entry."
+msgstr ""
+"检查材料是否可以添加到此图元中。\n"
+"仅当该材料没有 socket_path 条目且没有 flat_value 条目时才可用"
+
+msgid "Get the per-material flat value, or None if not set."
+msgstr "获取每个材料的扁平值，或未设置时返回 None"
+
+msgid "contains all of the \"general\" settings for baking"
+msgstr "包含所有\"常规\"烘焙设置"
+
+msgid "Resolution"
+msgstr "分辨率"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Auto Margin"
+msgstr "自动边缘"
+
+msgid "Set the baking margin based on the resolution of the texture"
+msgstr "根据纹理的分辨率设置烘焙边缘"
+
+msgid "Margin"
+msgstr "边缘余量"
+
+msgid "Padding added to the edges of UV islands on the bake"
+msgstr "为烘焙的 UV 岛添加边缘余量"
+
+msgid "Auto Decal Settings"
+msgstr "自动贴纸设置"
+
+msgid "Automatically determine settings for decal baking. Works best on objets with applied scale and 0 decal offset"
+msgstr "自动确定贴纸烘焙的设置。适用于应用了缩放且贴花偏移为 0 的对象"
+
+msgid "Ray Distance"
+msgstr "射线距离"
+
+msgid "Length of the distance check to hit the target surface from a decal. Set to a value slighly larger than the maximum distance a decal is away from the surface. Scales with object scale"
+msgstr "从贴花到目标表面探测的距离检查长度。设置为略大于贴花与表面最大距离的值。随物体比例缩放"
+
+msgid "Bake Decals"
+msgstr "烘焙贴花"
+
+msgid ""
+"Include decals from Sanctus Library on this object in the bake.\n"
+"Roughly doubles the processing time"
+msgstr ""
+"将此对象上的圣徒库中的贴纸包含在烘焙中。\n"
+"粗略将处理时间翻倍"
+
+msgid "Bake Ambient Occlusion"
+msgstr "烘焙环境遮蔽"
+
+msgid "Bake a native Ambient Occlusion map"
+msgstr "烘焙原生环境遮蔽贴图"
+
+msgid "Bake Curvature"
+msgstr "烘焙曲率"
+
+msgid "Bake a Curvature (Cavity) map using Blender's Dirty Vertex Colors. Highlights edges (white) and crevices (black)."
+msgstr "使用 Blender 的脏顶点颜色烘焙曲率（凹槽）贴图。突出显示边缘（白色）和凹陷（黑色）。"
+
+msgid "Subdivision Levels"
+msgstr "细分层级"
+
+msgid "Temporarily subdivide the mesh during the curvature calculation. 0 disables subdivision"
+msgstr "在曲率计算期间临时对网格进行细分。0 禁用细分"
+
+msgid "Subdivision Type"
+msgstr "细分类型"
+
+msgid "Subdivision algorithm used during curvature baking."
+msgstr "在曲率烘焙期间使用的细分算法."
+
+msgid "Bake Direct Light"
+msgstr "烘焙直射光"
+
+msgid "Bake direct lighting into the Base Color map."
+msgstr "将直射光照烘焙到基础色贴图。"
+
+msgid "Bake Indirect Light"
+msgstr "烘焙间接光"
+
+msgid "Bake indirect lighting into the Base Color map."
+msgstr "将间接光照烘焙到基础色贴图。"
+
+msgid "Inherit Normal"
+msgstr "继承法线"
+
+msgid "Decals inherit surface normal. When enabled, decal normals blend with the underlying surface normals instead of overwriting them"
+msgstr "贴图继承表面法线。启用时，贴图法线与底层表面法线混合而不是覆盖它们"
+
+msgid "Pack ORM Texture"
+msgstr "打包 ORM 纹理"
+
+msgid "Pack AO, Roughness, and Metallic maps into a single composite ORM texture map (R=AO, G=Roughness, B=Metallic)"
+msgstr "将 AO、粗糙度和金属度贴图打包到一个综合 ORM 纹理映射中（R=AO，G=粗糙度，B=金属度）"
+
+msgid "Override Texture Sets"
+msgstr "覆盖纹理集"
+
+msgid "Override existing texture sets and images. New sets and images are created when disabled"
+msgstr "覆盖现有的纹理集和图像。禁用时创建新的集合和图像"
+
+msgid "Apply user preferences to this settings instance on first access."
+msgstr "首次访问时将用户首选项应用到此设置实例。"
+
+msgid "contains bake settings and a list of bake maps"
+msgstr "包含烘焙设置和烘焙贴图列表"
+
+msgid "Get or create the BakingQueue for an object."
+msgstr "获取或创建对象的渲染队列。"
+
+msgid "Load post handler: apply prefs to all queues when a blend file is loaded."
+msgstr "加载后处理器：在导入 .blend 文件时向所有队列应用首选项。"
+
+msgid "Periodic timer: apply prefs to any new objects that haven't been initialized yet."
+msgstr "周期性计时器：对尚未初始化的任何新对象应用首选项"
+
+msgid "Apply user preferences to all BakingQueueSettings that haven't been initialized yet."
+msgstr "对所有未初始化过的 BakingQueueSettings 应用用户首选项"
+
+msgid "User-configurable default baking settings stored in addon preferences."
+msgstr "存储在插件首选项中的可用户自定义默认烘焙设置"
+
+msgid "Default Baking Export Format"
+msgstr "默认烘焙导出格式"
+
+msgid "Default Export format for baked images"
+msgstr "烘焙图像的默认导出格式"
+
+msgid "Default bake resolution for new baking queues"
+msgstr "新烘焙队列的默认烘焙分辨率"
+
+msgid "Enable auto margin by default for new baking queues"
+msgstr "为新烘焙队列启用自动边距（按默认）"
+
+msgid "Margin (pixels)"
+msgstr "边距（像素）"
+
+msgid "Default margin in pixels for new baking queues"
+msgstr "新烘焙队列的默认边距（像素）"
+
+msgid "Pack ORM texture by default for new baking queues"
+msgstr "为新烘焙队列默认打包 ORM 纹理"
+
+msgid "Ambient Occlusion"
+msgstr "环境遮蔽|||~|||为"
+
+msgid "Bake AO by default for new baking queues"
+msgstr "新烘焙队列默认烘焙环境遮"
+
+msgid "Curvature"
+msgstr "蔽|||~|||曲率||"
+
+msgid "Bake Curvature by default for new baking queues"
+msgstr "|~|||为新烘焙队列默"
+
+msgid "Bake decals by default for new baking queues"
+msgstr "认烘焙曲率|||~|||"
+
+msgid "Decal Inherits Normal"
+msgstr "为新烘焙队列默认烘焙贴图"
+
+msgid "Decals inherit surface normal by default for new baking queues"
+msgstr "|||~|||贴图继承法"
+
+msgid "Direct Light"
+msgstr "向|||~|||贴图默认"
+
+msgid "Bake direct light by default for new baking queues"
+msgstr "继承表面法向用于新烘焙队"
+
+msgid "Indirect Light"
+msgstr "列|||~|||直射光|||~|||间接光"
+
+msgid "Bake indirect light by default for new baking queues"
+msgstr "烘焙间接光为新的烘焙队列的默认设置"
+
+msgid "Base Color"
+msgstr "基础颜色"
+
+msgid "Default samples for Base Color maps"
+msgstr "基础颜色图的默认采样数"
+
+msgid "Metallic"
+msgstr "金属度"
+
+msgid "Default samples for Metallic maps"
+msgstr "金属度图的默认采样数"
+
+msgid "Specular"
+msgstr "高光"
+
+msgid "Default samples for Specular maps"
+msgstr "高光图的默认采样数"
+
+msgid "Roughness"
+msgstr "粗糙度"
+
+msgid "Default samples for Roughness maps"
+msgstr "粗糙度图的默认采样数"
+
+msgid "Normal"
+msgstr "法线"
+
+msgid "Default samples for Normal maps"
+msgstr "法线贴图的默认采样"
+
+msgid "Displacement"
+msgstr "置换"
+
+msgid "Default samples for Displacement maps"
+msgstr "置换贴图的默认采样"
+
+msgid "Emission"
+msgstr "发光"
+
+msgid "Default samples for Emission maps"
+msgstr "发光贴图的默认采样"
+
+msgid "Alpha"
+msgstr "Alpha"
+
+msgid "Default samples for Alpha maps"
+msgstr "Alpha 通道的默认采样"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "Default samples for custom/Other maps"
+msgstr "自定义/其他贴图的默认采样"
+
+msgid "Default samples for Ambient Occlusion maps"
+msgstr "环境光遮蔽贴图的默认采样"
+
+msgid "EXR Color Depth"
+msgstr "EXR 颜色深度"
+
+msgid "Default bit depth when exporting OpenEXR textures in bulk save. Normal/Displacement maps use 16-bit by default."
+msgstr "批量导出 OpenEXR 纹理时的默认位深。法线/位移贴图默认使用 16 位。"
+
+msgid "EXR Codec"
+msgstr "EXR 编码器"
+
+msgid "Default compression codec when exporting OpenEXR textures in bulk save. ZIP (lossless) is the safest default."
+msgstr "批量导出 OpenEXR 纹理时的默认压缩编码。ZIP（无损）是最安全的默认选项。"
+
+msgid "Return the user's preferred default sample count for a given MapType."
+msgstr "返回给定 MapType 的用户首选采样数。"
+
+msgid "Apply these preferences to a BakingQueueSettings instance."
+msgstr "将这些偏好应用到 BakingQueueSettings 实例。"
+
+msgid "temporary override node setup when baking maps. Makes sure that after baking, the previous state is restored if `clean_up()` is called. Abstracts away the need to manually connect nodes for baking"
+msgstr "烘焙贴图时使用的临时节点设置。确保在调用 clean_up() 后恢复之前的状态。抽象掉了手动连接节点进行烘焙的需求。"
+
+msgid "Could not create setup because material <{material.name}> does not have a valid material output socket available"
+msgstr "无法创建设置，因为材质 \"<{material.name}>\" 没有可用的有效材质输出端口。"
+
+msgid "Check if a socket lives inside a nested group tree (not the material's top-level tree)."
+msgstr "检查一个端口是否嵌套在组树中（而非材质的顶层树）。"
+
+msgid ""
+"When a socket is inside a nested group, add a temporary output to the\n"
+"outermost group's interface, connect the socket to it, and return the\n"
+"corresponding output socket on the Group node in the material tree.\n"
+"\n"
+"Like Node Wrangler's Ctrl+Shift+click: modifies the group in place but\n"
+"tracks the added interface items for cleanup."
+msgstr ""
+"当端口嵌套在组内时，在最外层组的接口中添加一个临时输出，连接该端口，并返回材质树中 Group 节点上的相应输出端口。\n"
+"\n"
+"与 Node Wrangler 的 Ctrl+Shift+点击类似：就地修改组但会跟踪已添加的接口项以便清理。"
+
+msgid "This module contains the PropertyGroups for bake results"
+msgstr "该模块包含烘焙结果的 PropertyGroups"
+
+msgid "A wrapper for a `bpy.types.Image` pointer. Each bake texture also has a map type. This matches the map type of the baking queue"
+msgstr "一个指向 `bpy.types.Image` 的包装器。每个烘焙贴图都有一个贴图类型，这与烘焙队列中的贴图类型一致。"
+
+msgid "a collection of bake textures. Each baking process creates a new `TextureSet` unless existing textures are overridden"
+msgstr "是烘焙贴图的集合。除非覆盖现有贴图，否则每个烘焙过程都会创建一个新的 `TextureSet`。"
+
+msgid "contains all baked texture sets. Instead of being stored for each object, all texture sets are stored globally so they are accessibly from every object"
+msgstr "包含所有已烘焙的纹理集。而不是为每个对象存储它们，所有纹理集都全局存储以便从任何对象访问。"
+
+msgid "Reverse Sorting"
+msgstr "逆序排序"
+
+msgid "Reverse the sorting of displayed texture sets"
+msgstr "反转显示的纹理集的排序顺序"
+
+msgid "Show Only Local Sets"
+msgstr "仅显示本地集合"
+
+msgid "When enabled, show only sets with the same name as the active object"
+msgstr "启用时，只显示与活动对象名称相同的集合"
+
+msgid "Implements the UI for both the `queue` and `texture_sets` modules"
+msgstr "实现 `queue` 和 `texture_sets` 模块的 UI"
+
+msgid "Is Baking"
+msgstr "是否在进行烘焙"
+
+msgid "Get the 1-based material slot index for a given material on an object."
+msgstr "获取对象上给定材质的 1-based 材质槽索引。"
+
+msgid "{slot_prefix}Invalid Socket Path"
+msgstr "{slot_prefix}无效的 Socket 路径"
+
+msgid "Add Socket"
+msgstr "添加 Socket"
+
+msgid "Enabled"
+msgstr "已启用"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Auto-Populate from Material"
+msgstr "从材质自动填充"
+
+msgid "Missing image. Data block has been removed"
+msgstr "缺少图像。数据块已被删除"
+
+msgid "General collection of utility function and classes around the baking process"
+msgstr "围绕烘焙过程的通用工具函数和类集合"
+
+msgid ""
+"Queries Blender's active OCIO config for valid color space identifiers\n"
+"at runtime by probing a temporary image's ColorSpaceSettings RNA instance.\n"
+"\n"
+"The temp-image approach is necessary because bpy.types.ColorSpaceSettings\n"
+"is not a standalone RNA type in Blender 4.0+ — it only exists as a nested\n"
+"property on actual image data blocks."
+msgstr ""
+"通过探测临时图像的 ColorSpaceSettings RNA 实例，在运行时查询 Blender 的 active OCIO 配置中的有效颜色空间标识符。\n"
+"\n"
+"temp-image 方法是必要的，因为在 Blender 4.0+ 中，bpy.types.ColorSpaceSettings 不是一个独立的 RNA 类型——它仅作为实际图像数据块上的嵌套属性存在。"
+
+msgid "Linear Rec.709"
+msgstr "Linear Rec.709"
+
+msgid ""
+"Queries the active OCIO config's 'scene_linear' role to determine the\n"
+"actual working color space.\n"
+"\n"
+"This is the definitive detection method — it reads the same OCIO config\n"
+"that Blender's 'wm.set_working_color_space' operator writes to.\n"
+"\n"
+"Returns:\n"
+"    str: The working space name (e.g. \"Linear Rec.709\", \"ACEScg\")."
+msgstr ""
+"查询活动 OCIO 配置的\"scene_linear\"角色以确定实际的色域。\n"
+"\n"
+"这是最终检测方法——它会读取与 Blender 的 'wm.set_working_color_space' 操作符写入相同的 OCIO 配置。\n"
+"\n"
+"返回：\n"
+"    str: 工作空间名称（例如 \"Linear Rec.709\"、\"ACEScg\"）。"
+
+msgid "Linear - ACEScg"
+msgstr "Linear - ACEScg"
+
+msgid "ACES - ACEScg"
+msgstr "ACES - ACEScg"
+
+msgid "ACEScg (Linear)"
+msgstr "ACEScg (Linear)"
+
+msgid ""
+"Quick check if the active OCIO config is ACES-based.\n"
+"\n"
+"Uses the 'scene_linear' role from PyOpenColorIO for definitive detection.\n"
+"Falls back to checking available color spaces for ACEScg tokens."
+msgstr ""
+"快速检查活动 OCIO 配置是否为 ACES 基础。\n"
+"\n"
+"使用 PyOpenColorIO 的 'scene_linear' 角色进行最终检测。\n"
+"如果失败，则回退到检查可用色域以查找 ACEScg token。"
+
+msgid ""
+"Returns the appropriate image color space for Color/Albedo maps.\n"
+"\n"
+"Baked data from Cycles is always in linear working-space values\n"
+"(Linear Rec.709 or ACEScg depending on OCIO config). The image\n"
+"in memory always stores linear data, so we tag it as \"Linear Rec.709\"\n"
+"regardless of export format.\n"
+"\n"
+"The conversion to sRGB gamma happens ONLY at save time:\n"
+"- SaveTextureSet uses image.save_render() which applies the\n"
+"  view transform (Standard → sRGB encoding) automatically.\n"
+"- SaveBakeTexture uses save_as(save_as_render=False) which saves\n"
+"  raw pixels — the user is responsible for setting the correct\n"
+"  color space on the saved file.\n"
+"\n"
+"Args:\n"
+"    user_format: The user's preferred export format (e.g. \"PNG\", \"OPEN_EXR\").\n"
+"\n"
+"Returns:\n"
+"    str: Always \"Linear Rec.709\" — the working space for linear data."
+msgstr ""
+"返回用于 Color/Albedo 图的合适图像色域。\n"
+"\n"
+"Cycles 渲染数据始终以线性工作空间值存储（取决于 OCIO 配置为 Linear Rec.709 或 ACEScg）。内存中的图像始终存储线性数据，因此无论导出格式如何，我们都将其标记为 \"Linear Rec.709\"。\n"
+"\n"
+"转换到 sRGB 伽马仅发生在保存时：\n"
+"- SaveTextureSet 使用 image.save_render()，自动应用视口变换（Standard → sRGB 编码）。\n"
+"- SaveBakeTexture 使用 save_as(save_as_render=False) 进行保存，直接保存原始像素——用户需要在保存的文件上设置正确的色域。\n"
+"\n"
+"参数:\n"
+"    user_format: 用户偏好的导出格式（例如 \"PNG\"、\"OPEN_EXR\"）。\n"
+"\n"
+"返回：\n"
+"    str: 始终为 \"Linear Rec.709\" —— 线性数据的存储空间。"
+
+msgid "Returns the safe identifier for non-color data maps (Normal, Roughness, etc.)."
+msgstr "返回非着色数据图（法线、粗糙度等）的安全标识符。"
+
+msgid ""
+"Analyzes the map type, active OCIO environment, and user preferences to determine\n"
+"the exact allocation buffer type and target file saving settings.\n"
+"\n"
+"Returns:\n"
+"    tuple: (use_float_buffer, file_format_string, color_depth_string)"
+msgstr ""
+"分析地图类型、活动 OCIO 环境和用户偏好，以确定精确的分配缓冲区类型和目标文件保存设置。\n"
+"\n"
+"返回：\n"
+"    tuple: (use_float_buffer, file_format_string, color_depth_string)"
+
+msgid "Returns True if this map type represents visual color data (needs color space management)."
+msgstr "如果该地图类型代表视觉着色数据（需要色域管理），则返回 True。"
+
+msgid ""
+"Resolves the precise string key required by Blender's image settings at runtime.\n"
+"\n"
+"Args:\n"
+"    user_format: The user's preferred export format. Determines whether\n"
+"                 color data gets tagged as 'sRGB' (for 8-bit formats) or\n"
+"                 'Linear Rec.709' (for float formats)."
+msgstr ""
+"解析 Blender 图像设置在运行时所需的精确字符串键名。\n"
+"\n"
+"参数:\n"
+"    user_format: 用户偏好的导出格式。用于确定着色数据是否被标记为 'sRGB'（针对 8 位格式）或 'Linear Rec.709'（针对浮点格式）。"
+
+msgid "Convert to Blender's Subsurf modifier subdivision_type value."
+msgstr "转换到 Blender 子表面修改器的 subdivision_type 值。"
+
+msgid "Socket not found on decal matching map type \"{map_type.name}\" on object \"{decal.name}\"."
+msgstr "未找到贴花匹配贴图类型 \"{map_type.name}\"，对象为 \"{decal.name}\"。"
+
+msgid ""
+"Finalize a baked texture by updating pixels, packing, and verifying settings.\n"
+"No color space assignment is performed if it already matches to protect the float buffer.\n"
+"\n"
+"CRITICAL: Reassigning a different color space to an in-memory float image\n"
+"(one without a backing file path) will flush the pixel buffer to black.\n"
+"The color space should already be set during create_new_image() — this function\n"
+"only changes it if there's a mismatch, as a safety net.\n"
+"\n"
+"Args:\n"
+"    image: The Blender image to finalize.\n"
+"    colorspace_str: The target color space string (e.g. \"sRGB\", \"ACEScg\", \"Non-Color\").\n"
+"    skip_conversion: Kept for API compatibility (no longer used)."
+msgstr ""
+"通过更新像素、打包和验证设置来完成烘焙纹理。如果色彩空间已经匹配，则不会执行任何颜色空间分配以保护浮点缓冲器。\n"
+"\n"
+"关键：将不同的色彩空间重新赋给内存中的浮动图像（没有备份文件路径）会导致像素缓冲器被清空为黑色。\n"
+"应在 create_new_image() 期间先设置色彩空间——本函数仅在检测到不匹配时作为安全网才更改它。\n"
+"\n"
+"参数:\n"
+"    image: 要完成的 Blender 图像。\n"
+"    colorspace_str: 目标色彩空间字符串（例如 \"sRGB\"、\"ACEScg\"、\"Non-Color\"）。\n"
+"    skip_conversion: 保留以 API 兼容性（不再使用）。"
+
+msgid "Non-Color"
+msgstr "非颜色"
+
+msgid "sRGB"
+msgstr "sRGB"
+
+msgid "Find a material whose top-level node tree is `tree`, or that contains `tree` via nested groups."
+msgstr "查找顶层节点树为 `tree`，或包含 `tree`（通过嵌套组）的材质。"
+
+msgid "Check if parent_tree contains target_tree anywhere in its group node hierarchy."
+msgstr "检查 parent_tree 是否在其组节点层级中任何地方包含 target_tree。"
+
+msgid "Check if a node tree belongs to a material, either as top-level or nested inside groups."
+msgstr "检查节点树是否属于材质，作为顶级或在组内嵌套。"
+
+msgid "No material found for socket {socket.name}"
+msgstr "未找到插座 {socket.name} 对应的材质"
+
+msgid ""
+"Walk up from a socket inside nested groups to find the top-level Group node\n"
+"that sits directly in the material's node tree.\n"
+"\n"
+"Returns None if the socket is already in the material's top-level tree."
+msgstr ""
+"从嵌套组内的插座向上遍历，找到直接位于材质节点树中的顶层 Group 节点。\n"
+"\n"
+"如果插座已在材质的顶级树中，则返回 None。"
+
+msgid ""
+"Given any node tree (possibly a nested group), find the owning material,\n"
+"its top-level node tree, and the Cycles Material Output node.\n"
+"\n"
+"Returns (material, material_node_tree, output_node) or None if not found."
+msgstr ""
+"给定任意节点树（可能是嵌套的组），找到其拥有的材质、顶层节点树，以及 Cycles 材质输出节点。\n"
+"\n"
+"返回 (material, material_node_tree, output_node)，"
+
+msgid ""
+"Creates a reusable node group that converts Object-space normals to Tangent-space.\n"
+"Uses the mathematical approach: Dot Product and Cross Product against the geometry's\n"
+"Tangent and Normal vectors, then remaps from [-1,1] to [0,1] range.\n"
+"\n"
+"The node group has:\n"
+"- Input: 'Color' (Vector) — the Object-space normal vector\n"
+"- Output: 'Vector' (Vector) — the Tangent-space normal in [0,1] range\n"
+"\n"
+"This allows Bump nodes and procedural normals to be baked correctly\n"
+"without switching the bake engine from EMIT to NORMAL."
+msgstr ""
+"如果未找到则返回 None.|||~|||创建一个可复用的节点组，将物体空间法线转换为切线空间。\n"
+"使用数学方法：对几何体的切线和法向量执行点积和叉积，然后将范围从 [-1, 1] 重映射到 [0, 1]。"
+
+msgid ""
+"Sanctus Library baking is split up into 3 responsibilities:\n"
+"    1. queue: storing and managing settings for baking. This includes the different bake mappings and baking settings\n"
+"    2. operators: executing bake commands and instantiating node setups\n"
+"    3. texture_sets: storing and managing results from baking"
+msgstr ""
+"该节点组包含：\n"
+"- 输入：'Color' (Vector) — 物体空间的法线向量\n"
+"- 输出：'Vector' (Vector) — 切线空间中的法线（[0,1] 范围）\n"
+"\n"
+"这使得凹凸节点和程"
+
+msgid "sanctus_displacement_shift"
+msgstr ""
+"序化法线可以在不将烘焙引擎从 EMIT 切换为 NORMAL 的情况下正确烘焙.|||~|||Sanctus Library 的烘焙功能分为三个职责：\n"
+"    1. queue：存储和管理烘焙设置，"
+
+msgid "Displacement Bake"
+msgstr ""
+"包括不同的映射关系和烘焙设置。\n"
+"    2. operators：执行烘焙命令并实例化节点布置。\n"
+"    3. texture_sets：存储和管理烘焙结果.|||~|||sanctus_disp"
+
+msgid "Node was expected to be CombineXYZ, not \"{type(combine_node).__name__}\""
+msgstr "lacement_shift|||~|||期望的节点为 CombineXYZ，而非 \"{type(combine_node).__name__}\"|||~|||Combine 节点之前的节点应为 Vector Math，"
+
+msgid "Node before Combine node was expected to be Vector Math, not \"{type(prev_node).__name__}\""
+msgstr "而非 \"{type(prev_node).__name__}\"|||~|||sanctus_correct_normal_y|||~|||在新 .blend 文件中生成 10,000 个对象以测试 Sanctus Bake。"
+
+msgid "sanctus_correct_normal_y"
+msgstr ""
+"用法：\n"
+"    Blender > Scripting > Open this file > Run Script\n"
+"    或：blender --background --python ge"
+
+msgid ""
+"Generate 10,000 objects in a new .blend file for stress-testing Sanctus Bake.\n"
+"\n"
+"Usage:\n"
+"    Blender > Scripting > Open this file > Run Script\n"
+"    Or: blender --background --python generate_10k_objects.py\n"
+"\n"
+"The script creates 10,000 simple objects (cubes) and saves the file as\n"
+"    10k_test.blend next to this script.\n"
+"It processes objects in batches of 100 and pumps the UI event loop\n"
+"every batch so Blender doesn't appear frozen."
+msgstr ""
+"nerate_10k_objects.py\n"
+"\n"
+"脚本会创建 10,000 个简单对象（立方体），并将文件保存为\n"
+"    10k_test.blend，位于本脚本旁边。\n"
+"它按每批 100 个对象的批次处理对象，"
+
+msgid "Create a single cube mesh datablock (reused for all objects)."
+msgstr ""
+"并在每个批次后执行 UI 事件循环，\n"
+"因此 Blender 看起来不会冻结.|||~|||创建单个立方体网格数据块（所有对象共用）。"
+
+msgid "Queue_{i}"
+msgstr "队列_{i}"

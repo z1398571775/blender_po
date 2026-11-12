@@ -1,0 +1,4380 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-12 08:45+0800\n"
+"PO-Revision-Date: 2026-11-12 08:45+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Retopoflow 4"
+msgstr "Retopoflow 4"
+
+msgid "A suite of retopology tools for Blender through a unified retopology mode"
+msgstr "一套通过统一拓扑模式为 Blender 提供的拓扑工具套件"
+
+msgid "RetopoFlow"
+msgstr "RetopoFlow"
+
+msgid "Cannot write to auto save file: \"{path}\"."
+msgstr "无法写入自动保存文件：\"{path}\"。"
+
+msgid "Check Edit > Prefs > File Paths > Data > Temp Files points to a valid folder with which you have write permissions."
+msgstr "请检查“编辑 > 首选项 > 文件路径 > 数据 > 临时文件”是否指向一个您拥有写入权限的有效文件夹。"
+
+msgid "Check terminal/console for a more detailed report."
+msgstr "请在终端/控制台查看更详细的报告。"
+
+msgid "Cannot write to autosave file"
+msgstr "无法写入自动保存文件"
+
+msgid "autosave:     path={path}"
+msgstr "自动保存：     path={path}"
+
+msgid "filename:     {filename_autosave}"
+msgstr "文件名：     {filename_autosave}"
+
+msgid "blend path:   {bpy.data.filepath}"
+msgstr "blend 路径：   {bpy.data.filepath}"
+
+msgid "random id:    {AutoSave.random_identifier()}"
+msgstr "随机 ID:    {AutoSave.random_identifier()}"
+
+msgid "blender temp: {bpy.context.preferences.filepaths.temporary_directory}"
+msgstr "Blender 临时目录：{bpy.context.preferences.filepaths.temporary_directory}"
+
+msgid "system temp:  {tempfile.gettempdir()}"
+msgstr "系统临时目录：{tempfile.gettempdir()}"
+
+msgid "Auto-Save Error"
+msgstr "自动保存错误"
+
+msgid "Something unexpected happened while trying to perform auto save."
+msgstr "尝试执行自动保存时发生了意外情况."
+
+msgid "Disabling Auto-Save feature for now."
+msgstr "暂时禁用自动保存功能."
+
+msgid "Be sure to save often!"
+msgstr "请确保经常手动保存！"
+
+msgid "Check terminal / console for more details."
+msgstr "查看终端/控制台以获取更多信息."
+
+msgid "window"
+msgstr "窗口"
+
+msgid "objects visible"
+msgstr "可见对象"
+
+msgid "objects selected"
+msgstr "已选择的对象"
+
+msgid "object active"
+msgstr "活动对象"
+
+msgid "scene scale"
+msgstr "场景比例"
+
+msgid "shading type"
+msgstr "着色类型"
+
+msgid "shading light"
+msgstr "着色光源"
+
+msgid "shading matcap"
+msgstr "着色贴图"
+
+msgid "shading colortype"
+msgstr "着色颜色类型"
+
+msgid "shading color"
+msgstr "着色颜色"
+
+msgid "shading backface"
+msgstr "着色背面"
+
+msgid "shading shadows"
+msgstr "着色阴影"
+
+msgid "shading xray"
+msgstr "着色穿透"
+
+msgid "shading cavity"
+msgstr "着色空洞"
+
+msgid "shading outline"
+msgstr "着色轮廓"
+
+msgid "clip distances"
+msgstr "裁剪距离"
+
+msgid "Color4({r}, {g}, {b}, {a})"
+msgstr "Color4({r}, {g}, {b}, {a})"
+
+msgid "EXCEPTION (%s): %s"
+msgstr "异常 (%s): %s"
+
+msgid "%03d %04d:%s() %s"
+msgstr "%03d %04d:%s() %s"
+
+msgid "Exception Info"
+msgstr "异常信息"
+
+msgid "- Time: %s"
+msgstr "- 时间：%s"
+
+msgid "- Count: %d"
+msgstr "- 计数：%d"
+
+msgid "- Hash: %s"
+msgstr "- Hash: %s"
+
+msgid "- Info:"
+msgstr "- 信息:"
+
+msgid "% 8d"
+msgstr "% 8d"
+
+msgid "total (sec)"
+msgstr "总计 (秒)"
+
+msgid "total time"
+msgstr "总时间"
+
+msgid "% 10.4f"
+msgstr "% 10.4f"
+
+msgid "avg (sec)"
+msgstr "平均 (秒)"
+
+msgid "average time"
+msgstr "平均时间"
+
+msgid "% 10.6f"
+msgstr "% 10.6f"
+
+msgid "ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
+msgstr "ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω"
+
+msgid "line height"
+msgstr "行高"
+
+msgid "vec4 blender_srgb_to_framebuffer_space(vec4 c) { return pow(c, vec4(1.0/2.2, 1.0/2.2, 1.0/2.2, 1.0)); }"
+msgstr "vec4 blender_srgb_to_framebuffer_space(vec4 c) { return pow(c, vec4(1.0/2.2, 1.0/2.2, 1.0/2.2, 1.0)); }"
+
+msgid "<Hasher {get_hash()}>"
+msgstr "<Hasher {get_hash()}>"
+
+msgid "<Vec2D ({x}, {y})>"
+msgstr "<Vec2D ({x}, {y})>"
+
+msgid "<Point2D ({x}, {y})>"
+msgstr "<Point2D ({x}, {y})>"
+
+msgid "<RelPoint2D (%0.4f, %0.4f)>"
+msgstr "<RelPoint2D (%0.4f, %0.4f)>"
+
+msgid "<Direction2D (%0.4f, %0.4f)>"
+msgstr "<Direction2D (%0.4f, %0.4f)>"
+
+msgid "<Point (%0.4f, %0.4f, %0.4f)>"
+msgstr "<Point (%0.4f, %0.4f, %0.4f)>"
+
+msgid "<Direction (%0.4f, %0.4f, %0.4f)>"
+msgstr "<Direction (%0.4f, %0.4f, %0.4f)>"
+
+msgid "<Normal (%0.4f, %0.4f, %0.4f)>"
+msgstr "<Normal (%0.4f, %0.4f, %0.4f)>"
+
+msgid "Color(%0.2f, %0.2f, %0.2f, %0.2f)"
+msgstr "颜色 (%0.2f, %0.2f, %0.2f, %0.2f)"
+
+msgid "<Ray (%0.4f, %0.4f, %0.4f)->(%0.4f, %0.4f, %0.4f)>"
+msgstr "<射线 (%0.4f, %0.4f, %0.4f)->(%0.4f, %0.4f, %0.4f)>"
+
+msgid "<Plane {o}, {n}>"
+msgstr "<平面 {o}, {n}>"
+
+msgid "<XForm ({mx_p[0][0]}, {mx_p[0][1]}, {mx_p[0][2]}, {mx_p[0][3]}), ({mx_p[1][0]}, {mx_p[1][1]}, {mx_p[1][2]}, {mx_p[1][3]}), ({mx_p[2][0]}, {mx_p[2][1]}, {mx_p[2][2]}, {mx_p[2][3]}), ({mx_p[3][0]}, {mx_p[3][1]}, {mx_p[3][2]}, {mx_p[3][3]})>"
+msgstr "<XForm ({mx_p[0][0]}, {mx_p[0][1]}, {mx_p[0][2]}, {mx_p[0][3]}), ({mx_p[1][0]}, {mx_p[1][1]}, {mx_p[1][2]}, {mx_p[1][3]}), ({mx_p[2][0]}, {mx_p[2][1]}, {mx_p[2][2]}, {mx_p[2][3]}), ({mx_p[3][0]}, {mx_p[3][1]}, {mx_p[3][2]}, {mx_p[3][3]})>"
+
+msgid "<BBox %s, %s>"
+msgstr "<BBox %s, %s>"
+
+msgid "<BBox2D ({mx}, {my}) ({Mx}, {My})>"
+msgstr "<BBox2D ({mx}, {my}) ({Mx}, {My})>"
+
+msgid "Accel2D: {label}"
+msgstr "Accel2D: {label}"
+
+msgid "run: %6.2fsecs"
+msgstr "运行：%6.2f 秒"
+
+msgid "total      call   ------- seconds / call -------             delta"
+msgstr "总计      调用   ------- 秒/次 -------             delta"
+
+msgid "secs /   count =   last,    min,    avg,    max  (  fps) -  time  - call stack"
+msgstr "秒 /   次数 =   最后，    最小值，    平均值，    最大值  ( 帧率) - 时间  - 调用堆栈"
+
+msgid "%8.4f / %7d = %6.4f, %6.4f, %6.4f, %6.4f, (%s) - %6.2f - %s"
+msgstr "%8.4f / %7d = %6.4f, %6.4f, %6.4f, %6.4f, (%s) - %6.2f - %s"
+
+msgid "id"
+msgstr "id"
+
+msgid "classes"
+msgstr "classes"
+
+msgid "type"
+msgstr "类型"
+
+msgid "value"
+msgstr "值"
+
+msgid "title"
+msgstr "标题"
+
+msgid "pseudoelement"
+msgstr "伪元素"
+
+msgid "href"
+msgstr "链接"
+
+msgid "\"propagating dirtiness ({_dirty_propagation['parent']} from {self} to parent {_parent}\""
+msgstr "“传播脏数据（{_dirty_propagation['parent']} 从 {self} 到父级 {_parent}\")"
+
+msgid "Minimize dialog"
+msgstr "最小化对话框"
+
+msgid "Close dialog"
+msgstr "关闭对话框"
+
+msgid "Click to open URL in default web browser"
+msgstr "点击以在默认网络浏览器中打开 URL"
+
+msgid "Click to open help"
+msgstr "点击以打开帮助"
+
+msgid "style parent"
+msgstr "设置父级样式"
+
+msgid "TEXT"
+msgstr "文本"
+
+msgid "(Disabled) {next_message}"
+msgstr "(禁用) {next_message}"
+
+msgid "at target"
+msgstr "在目标处"
+
+msgid "[ \\t\\r\\n]"
+msgstr "[ \\t\\r\\n]"
+
+msgid "rgb\\( *(?P<red>\\d+) *, *(?P<green>\\d+) *, *(?P<blue>\\d+) *\\)"
+msgstr "rgb\\( *(?P<red>\\d+) *, *(?P<green>\\d+) *, *(?P<blue>\\d+) *\\)"
+
+msgid "rgba\\( *(?P<red>\\d+) *, *(?P<green>\\d+) *, *(?P<blue>\\d+) *, *(?P<alpha>\\d+(\\.\\d+)?) *\\)"
+msgstr "rgba\\( *(?P<red>\\d+) *, *(?P<green>\\d+) *, *(?P<blue>\\d+) *, *(?P<alpha>\\d+(\\.\\d+)?) *\\)"
+
+msgid "hsl\\( *(?P<hue>\\d+) *, *(?P<saturation>\\d+)% *, *(?P<lightness>\\d+)% *\\)"
+msgstr "hsl\\( *(?P<hue>\\d+) *, *(?P<saturation>\\d+)% *, *(?P<lightness>\\d+)% *\\)"
+
+msgid "hsla\\( *(?P<hue>\\d+([.]\\d*)?) *, *(?P<saturation>\\d+([.]\\d*)?)% *, *(?P<lightness>\\d+([.]\\d*)?)% *, *(?P<alpha>\\d+([.]\\d+)?) *\\)"
+msgstr "hsla\\( *(?P<hue>\\d+([.]\\d*)?) *, *(?P<saturation>\\d+([.]\\d*)?)% *, *(?P<lightness>\\d+([.]\\d*)?)% *, *(?P<alpha>\\d+([.]\\d+)?) *\\)"
+
+msgid "var\\( *(?P<var>--[a-zA-Z-]+) *(,(?P<default>[^\\)\\]};!]))?\\)"
+msgstr "var\\( *(?P<var>--[a-zA-Z-]+) *(,(?P<default>[^\\)\\]};!]))?\\)"
+
+msgid "<UI_Style_Declaration \"{property}={value}\">"
+msgstr "<UI_Style_Declaration \"{property}={value}\">"
+
+msgid "<UI_Style_RuleSet \"%s\">"
+msgstr "<UI_Style_RuleSet \"%s\">"
+
+msgid ""
+"<UI_Style_RuleSet \"%s\"\n"
+"%s\n"
+">"
+msgstr ""
+"<UI_Style_RuleSet \"%s\"\n"
+"%s\n"
+">"
+
+msgid ""
+"<UI_Styling{_uid}\n"
+"{s}\n"
+">"
+msgstr ""
+"<UI_Styling{_uid}\n"
+"{s}\n"
+">"
+
+msgid "Not a valid URL: {value}"
+msgstr "不是有效的 URL：{value}"
+
+msgid "auto_reload_post_update must be a boolean value"
+msgstr "auto_reload_post_update 必须是布尔值"
+
+msgid "Backup pattern must be in list format"
+msgstr "备份模式必须为列表格式"
+
+msgid "current_version must be a tuple of integers"
+msgstr "current_version 必须是整数元组"
+
+msgid "Invalid engine selection"
+msgstr "无效的引擎选择"
+
+msgid "fake_install must be a boolean value"
+msgstr "fake_install 必须是一个布尔值"
+
+msgid "include_branch_autocheck must be a boolean"
+msgstr "include_branch_autocheck 必须是一个布尔值"
+
+msgid "include_branch_list should be a list of valid branches"
+msgstr "include_branch_list 应该是有效分支的列表"
+
+msgid "include_branches must be a boolean value"
+msgstr "include_branches 必须是一个布尔值"
+
+msgid "manual_only must be a boolean value"
+msgstr "manual_only 必须是一个布尔值"
+
+msgid "overwrite_patterns needs to be in a list format"
+msgstr "overwrite_patterns 需要以列表格式存在"
+
+msgid "remove_pre_update_patterns needs to be in a list format"
+msgstr "remove_pre_update_patterns 需要以列表格式存在"
+
+msgid "repo must be a string value"
+msgstr "repo 必须是一个字符串值"
+
+msgid "select_link must be a function"
+msgstr "select_link 必须是一个函数"
+
+msgid "use_releases must be a boolean value"
+msgstr "use_releases 必须是一个布尔值"
+
+msgid "User must be a string value"
+msgstr "User 必须是一个字符串值"
+
+msgid "Verbose must be a boolean value"
+msgstr "Verbose 必须是一个布尔值"
+
+msgid "use_print_traces must be a boolean value"
+msgstr "use_print_traces 必须是一个布尔值"
+
+msgid "Version maximum must be a tuple"
+msgstr "Version maximum 必须是一个元组"
+
+msgid "Version elements must be integers"
+msgstr "Version elements 必须是整数"
+
+msgid "Version minimum must be a tuple"
+msgstr "Version minimum 必须是一个元组"
+
+msgid "Enable must be a boolean value"
+msgstr "Enable 必须是一个布尔值"
+
+msgid "Months must be an integer value"
+msgstr "Months 必须是一个整数值"
+
+msgid "Days must be an integer value"
+msgstr "天数必须是整数值"
+
+msgid "Hours must be an integer value"
+msgstr "小时必须是整数值"
+
+msgid "Minutes must be an integer value"
+msgstr "分钟必须是整数值"
+
+msgid "<Module updater from {a}>"
+msgstr "来自 {a} 的模块更新器"
+
+msgid "Updater, with user: {a}, repository: {b}, url: {c}"
+msgstr "更新器，用户：{a}，仓库：{b}，URL：{c}"
+
+msgid "No releases found"
+msgstr "未找到发布版本"
+
+msgid "No releases or tags found in repository"
+msgstr "仓库中未找到任何发布版本或标签"
+
+msgid "No releases available"
+msgstr "没有可用的发布版本"
+
+msgid "No versions found within compatible version range"
+msgstr "在兼容的版本范围内未找到任何版本"
+
+msgid "HTTP error (access denied)"
+msgstr "HTTP 错误（访问被拒绝）"
+
+msgid "{str(e.code)} - server error response"
+msgstr "{str(e.code)} - 服务器错误响应"
+
+msgid "HTTP error"
+msgstr "HTTP 错误"
+
+msgid "Connection rejected, download manually"
+msgstr "连接被拒绝，请手动下载"
+
+msgid "URL error, check internet connection"
+msgstr "URL 错误，请检查网络连接"
+
+msgid "API response has invalid JSON format"
+msgstr "API 响应具有无效的 JSON 格式"
+
+msgid "failed to remove existing staging directory"
+msgstr "删除现有 staging 目录失败"
+
+msgid "failed to create staging directory"
+msgstr "创建 staging 目录失败"
+
+msgid "Update aborted, staging path error"
+msgstr "更新已中止，staging 路径错误"
+
+msgid "Error: {}"
+msgstr "错误：{}"
+
+msgid "Error retrieving download, bad link?"
+msgstr "获取下载出错，链接有问题？"
+
+msgid "Install failed"
+msgstr "安装失败"
+
+msgid "Downloaded zip not found"
+msgstr "未找到下载的 zip 文件"
+
+msgid "Failed to make extract directory"
+msgstr "无法创建提取目录"
+
+msgid "Failed to create extract directory"
+msgstr "无法创建提取目录"
+
+msgid "Resulting file is not a zip, cannot extract"
+msgstr "结果文件不是 zip 格式，无法解压"
+
+msgid "Could not create folder from zip"
+msgstr "无法从 zip 中创建文件夹"
+
+msgid "Extracted path does not exist"
+msgstr "新源路径不存在"
+
+msgid "No __init__ file found in new source"
+msgstr "在新源中未找到 __init__ 文件"
+
+msgid "failed to create clean existing addon folder"
+msgstr "失败于清理现有插件文件夹"
+
+msgid "Error: Failed to remove existing staging directory, consider manually removing {staging_path}"
+msgstr "错误：删除现有的 staging 目录失败，请手动删除 {staging_path}"
+
+msgid "current_version not yet defined"
+msgstr "当前版本尚未定义"
+
+msgid "repo not yet defined"
+msgstr "仓库尚未定义"
+
+msgid "username not yet defined"
+msgstr "用户名尚未定义"
+
+msgid "include_branch_autocheck: NOT YET DEVELOPED"
+msgstr "include_branch_autocheck: 尚未开发"
+
+msgid "Version tag not found: {name}"
+msgstr "未找到版本标签：{name}"
+
+msgid "Update stopped, new version not ready"
+msgstr "更新已停止，新版本尚未就绪"
+
+msgid "Update stopped, update link unavailable"
+msgstr "更新已停止，更新链接不可用"
+
+msgid "Update stopped, could not get link"
+msgstr "更新已停止，无法获取链接"
+
+msgid "updater_path is not defined"
+msgstr "updater_path 未定义"
+
+msgid "Error occurred"
+msgstr "发生错误"
+
+msgid "Encountered an error while checking for updates"
+msgstr "更新检查时遇到错误"
+
+msgid "bitbucket"
+msgstr "bitbucket"
+
+msgid "github"
+msgstr "github"
+
+msgid "gitlab"
+msgstr "gitlab"
+
+msgid "Error initializing updater module"
+msgstr "初始化更新模块出错"
+
+msgctxt "Operator"
+msgid "Update {x} addon"
+msgstr "更新 {x} 插件"
+
+msgid "Popup to check and display current updates available"
+msgstr "弹出窗口，用于检查并显示当前可用的更新"
+
+msgid "Clean install"
+msgstr "干净安装"
+
+msgid "If enabled, completely clear the addon's folder before installing new update, creating a fresh install"
+msgstr "如果启用此选项，在安装新更新前会完全清除插件文件夹，创建全新的安装环境"
+
+msgid "Process update"
+msgstr "处理更新"
+
+msgid "Decide to install, ignore, or defer new addon update"
+msgstr "决定安装、忽略或推迟新插件更新"
+
+msgid "Update Now"
+msgstr "立即更新"
+
+msgid "Install update now"
+msgstr "现在安装更新"
+
+msgid "Ignore"
+msgstr "忽略"
+
+msgid "Ignore this update to prevent future popups"
+msgstr "忽略此更新以防止未来弹出窗口"
+
+msgid "Defer"
+msgstr "推迟"
+
+msgid "Defer choice till next blender session"
+msgstr "推迟选择至下一个 Blender 会话"
+
+msgid "Updater module error"
+msgstr "更新器模块错误"
+
+msgid "Update {} ready!"
+msgstr "更新 {} 已就绪！"
+
+msgid "Choose 'Update Now' & press OK to install,"
+msgstr "选择“立即更新”并按确定以安装，"
+
+msgid "or click outside window to defer"
+msgstr "或点击窗口外部以推迟更新"
+
+msgid "No updates available"
+msgstr "暂无可用更新"
+
+msgid "Press okay to dismiss dialog"
+msgstr "按确定关闭对话框"
+
+msgid "Check for update now?"
+msgstr "现在检查更新？"
+
+msgctxt "Operator"
+msgid "Check now for {updater.addon} update"
+msgstr "现在为 {updater.addon} 检查更新"
+
+msgid "Check now for an update to the {} addon"
+msgstr "现在为 {} 插件检查更新"
+
+msgctxt "Operator"
+msgid "Update {updater.addon} addon now"
+msgstr "立即更新 {updater.addon} 插件"
+
+msgid "Update to the latest version of the {x} addon"
+msgstr "更新到 {x} 插件的最新版本"
+
+msgid "Error trying to run update"
+msgstr "运行更新时出错"
+
+msgid "Nothing to update"
+msgstr "无可用更新"
+
+msgid "Encountered a problem while trying to update"
+msgstr "更新时遇到问题"
+
+msgctxt "Operator"
+msgid "{updater.addon} version target"
+msgstr "{updater.addon} 版本目标"
+
+msgid "Install a targeted version of the {x} addon"
+msgstr "安装 {x} 插件的指定版本"
+
+msgid "Select to install {tag}"
+msgstr "选择要安装的 {tag}"
+
+msgid "Target version to install"
+msgstr "要安装的版本"
+
+msgid "Select the version to install"
+msgstr "选择要安装的版本"
+
+msgid "Updater error"
+msgstr "更新器错误"
+
+msgid "Select install version"
+msgstr "选择安装版本"
+
+msgctxt "Operator"
+msgid "Install update manually"
+msgstr "手动安装更新"
+
+msgid "Proceed to manually install update"
+msgstr "继续手动安装更新"
+
+msgid "Error Occurred"
+msgstr "发生错误"
+
+msgid "There was an issue trying to auto-install"
+msgstr "自动安装出现问题"
+
+msgid "Press the download button below and install"
+msgstr "点击下方按钮下载并安装"
+
+msgid "the zip file like a normal addon."
+msgstr "像普通插件一样安装 zip 文件。"
+
+msgid "Install the addon manually"
+msgstr "手动安装该插件"
+
+msgctxt "Operator"
+msgid "Direct download"
+msgstr "直接下载"
+
+msgctxt "Operator"
+msgid "(failed to retrieve direct download)"
+msgstr "(无法获取直接下载地址)"
+
+msgctxt "Operator"
+msgid "Open website"
+msgstr "打开网站"
+
+msgid "See source website to download the update"
+msgstr "查看源网站以下载安装包"
+
+msgctxt "Operator"
+msgid "Installation Report"
+msgstr "安装报告"
+
+msgid "Update installation response"
+msgstr "更新安装响应"
+
+msgid "Error occurred, did not install"
+msgstr "发生错误，未安装"
+
+msgctxt "Operator"
+msgid "Click for manual download."
+msgstr "点击手动下载"
+
+msgid "Addon restored"
+msgstr "插件已恢复"
+
+msgctxt "Operator"
+msgid "Restart blender to reload"
+msgstr "重启 Blender 以重新加载"
+
+msgid "Addon successfully installed"
+msgstr "插件已成功安装"
+
+msgid "Consider restarting blender to fully reload."
+msgstr "建议重启 Blender 以完全重新加载"
+
+msgctxt "Operator"
+msgid "Restore backup"
+msgstr "恢复备份"
+
+msgid "Restore addon from backup"
+msgstr "从备份中恢复插件"
+
+msgctxt "Operator"
+msgid "Ignore update"
+msgstr "忽略更新"
+
+msgid "Ignore update to prevent future popups"
+msgstr "忽略更新以阻止未来弹出窗口"
+
+msgid "Open addon preferences for updater options"
+msgstr "打开更新器选项的附加组件偏好设置"
+
+msgctxt "Operator"
+msgid "End background check"
+msgstr "结束背景检查"
+
+msgid "Stop checking for update in the background"
+msgstr "停止后台检查更新"
+
+msgid "No update ready"
+msgstr "暂无更新"
+
+msgctxt "Operator"
+msgid "Restart blender"
+msgstr "重启 Blender"
+
+msgid "to complete update"
+msgstr "完成更新"
+
+msgid "Update ready!"
+msgstr "更新就绪！"
+
+msgctxt "Operator"
+msgid "Ignore"
+msgstr "忽略"
+
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+msgctxt "Operator"
+msgid "Install manually"
+msgstr "手动安装"
+
+msgctxt "Operator"
+msgid "Get it now"
+msgstr "立即下载"
+
+msgid "Error initializing updater code:"
+msgstr "初始化更新代码时出错:"
+
+msgid "Error getting updater preferences"
+msgstr "获取更新偏好设置时出错"
+
+msgid "Updater Settings"
+msgstr "更新器设置"
+
+msgctxt "Operator"
+msgid "Restart blender to complete update"
+msgstr "重启 Blender 以完成更新"
+
+msgid "Interval between checks"
+msgstr "检查间隔时间"
+
+msgctxt "Operator"
+msgid "Checking..."
+msgstr "正在检查..."
+
+msgctxt "Operator"
+msgid "Update now to {str(updater.update_version)}"
+msgstr "立即更新至 {str(updater.update_version)}"
+
+msgctxt "Operator"
+msgid "Addon is up to date"
+msgstr "插件已是最新版本"
+
+msgctxt "Operator"
+msgid "Install {} / old version"
+msgstr "安装 {} / 旧版本"
+
+msgctxt "Operator"
+msgid "(Re)install addon version"
+msgstr "(重)装插件版本"
+
+msgid "Restore addon backup ({})"
+msgstr "恢复插件备份 ({})"
+
+msgid "Last update check: {last_check}"
+msgstr "最后更新检查：{last_check}"
+
+msgid "Last update check: Never"
+msgstr "最后更新检查：从未"
+
+msgid "Last check: {last_check}"
+msgstr "最后检查：{last_check}"
+
+msgid "Last check: Never"
+msgstr "最后检查：从未"
+
+msgid "README.md"
+msgstr "README.md"
+
+msgid "LICENSE.txt"
+msgstr "LICENSE.txt"
+
+msgid "navigate"
+msgstr "导航"
+
+msgid "3D View | view3d.rotate"
+msgstr "3D 视图 | view3d.rotate"
+
+msgid "3D View | view3d.move"
+msgstr "3D 视图 | view3d.move"
+
+msgid "3D View | view3d.zoom"
+msgstr "3D 视图 | view3d.zoom"
+
+msgid "3D View | view3d.dolly"
+msgstr "3D 视图 | view3d.dolly"
+
+msgid "3D View | view3d.view_pan"
+msgstr "3D 视图 | view3d.view_pan"
+
+msgid "3D View | view3d.view_orbit"
+msgstr "3D 视图 | view3d.view_orbit"
+
+msgid "3D View | view3d.view_persportho"
+msgstr "3D 视图 | view3d.view_persportho"
+
+msgid "3D View | view3d.viewnumpad"
+msgstr "3D 视图 | view3d.viewnumpad"
+
+msgid "3D View | view3d.view_axis"
+msgstr "3D 视图 | view3d.view_axis"
+
+msgid "3D View | view2d.ndof"
+msgstr "3D 视图 | view2d.ndof"
+
+msgid "3D View | view3d.ndof_orbit_zoom"
+msgstr "3D 视图 | view3d.ndof_orbit_zoom"
+
+msgid "3D View | view3d.ndof_orbit"
+msgstr "3D 视图 | view3d.ndof_orbit"
+
+msgid "3D View | view3d.ndof_pan"
+msgstr "3D 视图 | view3d.ndof_pan"
+
+msgid "3D View | view3d.ndof_all"
+msgstr "3D 视图 | view3d.ndof_all"
+
+msgid "3D View | view3d.view_roll"
+msgstr "3D 视图 | view3d.view_roll"
+
+msgid "3D View | view3d.view_selected"
+msgstr "3D 视图 | view3d.view_selected"
+
+msgid "3D View | view3d.view_center_cursor"
+msgstr "3D 视图 | view3d.view_center_cursor"
+
+msgid "3D View | view3d.view_center_pick"
+msgstr "3D 视图 | view3d.view_center_pick"
+
+msgid "blender window action"
+msgstr "Blender 窗口操作"
+
+msgid "blender save"
+msgstr "Blender 保存"
+
+msgid "Window | wm.save_mainfile"
+msgstr "窗口 | wm.save_mainfile"
+
+msgid "blender undo"
+msgstr "撤销"
+
+msgid "Screen | ed.undo"
+msgstr "屏幕 | ed.undo"
+
+msgid "blender redo"
+msgstr "重做"
+
+msgid "Screen | ed.redo"
+msgstr "屏幕 | ed.redo"
+
+msgid "clipboard paste"
+msgstr "剪贴板粘贴"
+
+msgid "Text | text.paste"
+msgstr "文本 | text.paste"
+
+msgid "3D View | view3d.pastebuffer"
+msgstr "3D 视图 | view3d.pastebuffer"
+
+msgid "Console | console.paste"
+msgstr "控制台 | console.paste"
+
+msgid "%sMOUSE"
+msgstr "%sMOUSE"
+
+msgid "%d.%02d"
+msgstr "%d.%02d"
+
+msgctxt "Operator"
+msgid "CookieCutter Unnamed"
+msgstr "CookieCutter 未命名"
+
+msgid "unknown type {!r}"
+msgstr "未知类型 {!r}"
+
+msgid "Expect an instance of `PNG` but got `{}`"
+msgstr "期望一个 `PNG` 实例，但得到了 `{}`"
+
+msgid "Parameter 'coords' is an unsupported type: {str(type(coords))}"
+msgstr "参数 'coords' 不支持的类型：{str(type(coords))}"
+
+msgid "You must install matplotlib to use this feature!"
+msgstr "您必须安装 matplotlib 才能使用此功能！"
+
+msgid "fitted circle"
+msgstr "拟合的圆"
+
+msgid "data"
+msgstr "数据"
+
+msgid "a palette must have between 1 and 256 entries, see https://www.w3.org/TR/PNG/#11PLTE"
+msgstr "调色板必须有 1 到 256 个条目，请参阅 https://www.w3.org/TR/PNG/#11PLTE"
+
+msgid "palette entry %d: entries must be 3- or 4-tuples."
+msgstr "调色板条目 %d：条目必须是三元组或四元组。"
+
+msgid "palette entry %d: all 4-tuples must precede all 3-tuples"
+msgstr "调色板条目 %d：所有 4 元组必须排在所有 3 元组之前"
+
+msgid "palette entry %d: values must be integer: 0 <= x <= 255"
+msgstr "调色板条目 %d：值必须是整数：0 <= x <= 255"
+
+msgid "size argument should be a pair (width, height)"
+msgstr "size 参数应为一对（宽度，高度）"
+
+msgid "size[0] (%r) and width (%r) should match when both are used."
+msgstr "当两者都使用时，size[0] (%r) 和 width (%r) 必须匹配。"
+
+msgid "size[1] (%r) and height (%r) should match when both are used."
+msgstr "当两者都使用时，size[1] (%r) 和 height (%r) 必须匹配。"
+
+msgid "%s for greyscale must be 1-tuple"
+msgstr "%s 用于灰度必须是 1-元组"
+
+msgid "%s colour for greyscale must be integer"
+msgstr "%s 颜色用于灰度必须是整数"
+
+msgid "%s colour must be a triple of integers"
+msgstr "%s 颜色必须是三个整数的三元组"
+
+msgid "width and height must be integers"
+msgstr "宽度和高度必须是整数"
+
+msgid "width and height must be greater than zero"
+msgstr "宽度和高度必须大于零"
+
+msgid "width and height cannot exceed 2**31-1"
+msgstr "宽度和高度不能超过 2**31-1"
+
+msgid "transparent colour not allowed with alpha channel"
+msgstr "不支持带透明通道的颜色"
+
+msgid "each bitdepth %r must be a positive integer <= 16"
+msgstr "每个位深度 %r 必须是 <= 16 的正整数"
+
+msgid "Expected %d values but got %d values, in row %d"
+msgstr "期望 %d 个值，但得到了 %d 个值，在第 %d 行"
+
+msgid "rows supplied (%d) does not match height (%d)"
+msgstr "提供的行数 (%d) 与高度 (%d) 不匹配"
+
+msgid "with palette, only a single bitdepth may be used"
+msgstr "使用调色板时只能使用单个位深度"
+
+msgid "with palette, bitdepth must be 1, 2, 4, or 8"
+msgstr "使用调色板时，位深度必须是 1、2、4 或 8"
+
+msgid "transparent and palette not compatible"
+msgstr "透明和调色板不兼容"
+
+msgid "alpha and palette not compatible"
+msgstr "alpha 通道和调色板不兼容"
+
+msgid "greyscale and palette not compatible"
+msgstr "灰度图和调色板不兼容"
+
+msgid "mode string should be 'RGB' or 'L;16' or similar."
+msgstr "模式字符串应为 'RGB' 或 'L;16' 或类似值。"
+
+msgid "info['greyscale'] should match mode."
+msgstr "info['greyscale'] 应与模式匹配。"
+
+msgid "info['alpha'] should match mode."
+msgstr "info['alpha'] 应与模式匹配。"
+
+msgid "bitdepth (%d) should match bitdepth of info (%d)."
+msgstr "位深度 (%d) 应与 info 的位深度 (%d) 匹配。"
+
+msgid "len(a) does not work, supply info['height'] instead."
+msgstr "len(a) 不起作用，请提供 info['height'] 代替。"
+
+msgid "info['planes'] should match mode."
+msgstr "info['planes'] 应与模式匹配。"
+
+msgid "Reader() takes exactly 1 argument"
+msgstr "Reader() 只接受一个参数"
+
+msgid "expecting filename, file or bytes array"
+msgstr "期望文件名、文件或字节数组"
+
+msgid "No more chunks."
+msgstr "没有更多数据块了。"
+
+msgid "Chunk %s too short for required %i octets."
+msgstr "块 %s 太短，需要 %i 个字节。"
+
+msgid "Chunk %s too short for checksum."
+msgstr "块 %s 太短，无法进行校验和计算。"
+
+msgid "Checksum error in %s chunk: 0x%08X != 0x%08X."
+msgstr "块 %s 的校验和错误：0x%08X != 0x%08X。"
+
+msgid "Invalid PNG Filter Type.  See http://www.w3.org/TR/2003/REC-PNG-20031110/#9Filters ."
+msgstr "无效的 PNG 过滤器类型。请参阅 http://www.w3.org/TR/2003/REC-PNG-20031110/#9Filters 。"
+
+msgid "Wrong size for decompressed IDAT chunk."
+msgstr "解压缩后的 IDAT 块大小不正确。"
+
+msgid "PNG file has invalid signature."
+msgstr "PNG 文件的签名无效。"
+
+msgid "This PNG file has no IDAT chunks."
+msgstr "此 PNG 文件没有 IDAT 块。"
+
+msgid "End of file whilst reading chunk length and type."
+msgstr "读取块长度和类型时遇到文件末尾。"
+
+msgid "Chunk %s is too large: %d."
+msgstr "块 %s 过大：%d。"
+
+msgid "Chunk %r has invalid Chunk Type."
+msgstr "块 %r 的块类型无效。"
+
+msgid "IHDR chunk has incorrect length."
+msgstr "IHDR 块的长度不正确。"
+
+msgid "Unknown compression method %d"
+msgstr "未知的压缩方法：%d"
+
+msgid "Unknown filter method %d, see http://www.w3.org/TR/2003/REC-PNG-20031110/#9Filters ."
+msgstr "未知的滤镜方法：%d，请参阅 http://www.w3.org/TR/2003/REC-PNG-20031110/#9Filters 。"
+
+msgid "Unknown interlace method %d, see http://www.w3.org/TR/2003/REC-PNG-20031110/#8InterlaceMethods ."
+msgstr "未知的交错方法：%d，请参阅 http://www.w3.org/TR/2003/REC-PNG-20031110/#8InterlaceMethods 。"
+
+msgid "PLTE chunk's length should be a multiple of 3."
+msgstr "PLTE 块的长度应为 3 的倍数。"
+
+msgid "PLTE chunk is too long."
+msgstr "PLTE 块过长。"
+
+msgid "Empty PLTE is not allowed."
+msgstr "不允许空的 PLTE。"
+
+msgid "bKGD chunk has incorrect length."
+msgstr "bKGD 块的长度不正确。"
+
+msgid "tRNS chunk is too long."
+msgstr "tRNS 块过长。"
+
+msgid "tRNS chunk is not valid with colour type %d."
+msgstr "颜色类型 %d 与 tRNS 块不兼容。"
+
+msgid "tRNS chunk has incorrect length."
+msgstr "tRNS 块的长度不正确。"
+
+msgid "gAMA chunk has incorrect length."
+msgstr "gAMA 数据块长度不正确。"
+
+msgid "sBIT chunk has incorrect length."
+msgstr "sBIT 数据块长度不正确。"
+
+msgid "pHYs chunk has incorrect length."
+msgstr "pHYs 数据块长度不正确。"
+
+msgid "Required PLTE chunk is missing in colour type 3 image."
+msgstr "颜色类型 3 的图像缺少必需的 PLTE 数据块。"
+
+msgid "sBIT chunk %r exceeds bitdepth %d"
+msgstr "sBIT 数据块 %r 超过位深度 %d。"
+
+msgid "sBIT chunk %r has a 0-entry"
+msgstr "sBIT 数据块 %r 包含一个零条目。"
+
+msgid "will not convert image with alpha channel to RGB"
+msgstr "无法将带有 alpha 通道的图像转换为 RGB。"
+
+msgid "invalid bit depth %d"
+msgstr "无效的位深度 %d。"
+
+msgid "invalid colour type %d"
+msgstr "无效的颜色类型 %d。"
+
+msgid "Indexed images (colour type %d) cannot have bitdepth > 8 (bit depth %d). See http://www.w3.org/TR/2003/REC-PNG-20031110/#table111 ."
+msgstr "索引图像（颜色类型 %d）的位深度不能大于 8（位深度 %d）。请参阅 http://www.w3.org/TR/2003/REC-PNG-20031110/#table111 。"
+
+msgid "Illegal combination of bit depth (%d) and colour type (%d). See http://www.w3.org/TR/2003/REC-PNG-20031110/#table111 ."
+msgstr "位深 (%d) 和颜色类型 (%d) 的组合非法。参见 http://www.w3.org/TR/2003/REC-PNG-20031110/#table111 。"
+
+msgid "module '{__name__}' has no attribute '{name}'"
+msgstr "模块 '{__name__}' 没有属性 '{name}'"
+
+msgid "Deep Debugging"
+msgstr "深度调试"
+
+msgid "wm.call_menu"
+msgstr "wm.call_menu"
+
+msgid "wm.call_menu_pie"
+msgstr "wm.call_menu_pie"
+
+msgid "color theme"
+msgstr "颜色主题"
+
+msgid "normal offset multiplier"
+msgstr "法线偏移乘数"
+
+msgid "constrain offset"
+msgstr "约束偏移"
+
+msgid "target vert size"
+msgstr "目标顶点大小"
+
+msgid "target edge size"
+msgstr "目标边长"
+
+msgid "target alpha point highlight"
+msgstr "目标 Alpha 点高亮"
+
+msgid "target alpha mirror"
+msgstr "目标 Alpha 镜像"
+
+msgid "Edit Mode Auto-Save"
+msgstr "编辑模式自动保存"
+
+msgid ""
+"Automatically save a backup every few minutes while in Edit Mode. Blender's Auto-Save does not work in Edit Mode, so this feature is needed to recover long modeling sessions.\n"
+"\n"
+"Disable if you have another auto save add-on enabled or if you notice a significant slow down and do not want to auto save while working in Edit Mode."
+msgstr ""
+"在编辑模式下每隔几分钟自动保存备份。Blender 的自动保存功能在编辑模式下不起作用，因此需要此功能来恢复长时间建模会话。\n"
+"\n"
+"如果启用了其他自动保存插件，或者发现速度明显变慢且不希望在工作时自动保存，请禁用此功能."
+
+msgid "Expand Masking Options"
+msgstr "展开蒙版选项"
+
+msgid "Show masking options for brush tools directly in the 3D View tool header rather than in a menu. Useful when working on larger screens."
+msgstr "直接在 3D 视图工具栏中显示画笔工具的蒙版选项，而不是在菜单中。适用于在大屏幕上工作时使用."
+
+msgid "Expand Mirror Axes"
+msgstr "展开镜像轴"
+
+msgid "Show the X, Y, and Z axis toggles next to the mirror menu"
+msgstr "在镜像菜单旁边显示 X、Y 和 Z 轴切换按钮"
+
+msgid "Expand Tools"
+msgstr "展开工具"
+
+msgid "Shows all tools in the toolbar, which takes up more space but makes them more accessible"
+msgstr "在工具栏中显示所有工具，虽然占用更多空间，但使它们更易访问"
+
+msgid "Expand Overlay Offset"
+msgstr "展开覆盖偏移"
+
+msgid "Displays the retopology overlay offset in the tool header"
+msgstr "在工具栏中显示拓扑覆盖偏移"
+
+msgid "Highlight Color"
+msgstr "高亮颜色"
+
+msgid "The color used by the insert tools when adding new geometry"
+msgstr "插入工具添加新几何体时使用的颜色"
+
+msgid "Vertex Size"
+msgstr "顶点大小"
+
+msgid "The visual size of each vertex in the viewport. This is only used when Component Size is enabled under Tool Switching"
+msgstr "视口中每个顶点的视觉大小。仅在工具切换下的组件大小启用时使用"
+
+msgid "Edge Width"
+msgstr "边宽"
+
+msgid "The visual size of each edge in the viewport. This is only used when Component Size is enabled under Tool Switching"
+msgstr "视口中每条边的视觉大小。仅在工具切换下的组件大小启用时使用"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid "The color of mesh compenents while using Retopoflow"
+msgstr "使用 Retopoflow 时网格组件的颜色"
+
+msgid "Blender"
+msgstr "Blender"
+
+msgid "The theme is not changed from your regular Blender preferences"
+msgstr "主题不会从您的常规 Blender 偏好设置中更改"
+
+msgid "Blue"
+msgstr "蓝色"
+
+msgid "Changes the color of components while using Retopoflow"
+msgstr "在 Retopoflow 使用时更改组件颜色"
+
+msgid "Green"
+msgstr "绿色"
+
+msgid "Orange"
+msgstr "橙色"
+
+msgid "Pink"
+msgstr "粉色"
+
+msgid "Purple"
+msgstr "紫色"
+
+msgid "Pie Tool Context"
+msgstr "派生工具上下文"
+
+msgid "The context in which the pie hotmenu will be shown"
+msgstr "派生热菜单将在此上下文中显示"
+
+msgid "Any Tool"
+msgstr "任意工具"
+
+msgid "Can trigger the pie hotmenu from ANY tool"
+msgstr "可以触发任何工具的饼图热菜单"
+
+msgid "Retopoflow Tools"
+msgstr "Retopoflow 工具"
+
+msgid "Can trigger the pie hotmenu ONLY on Retopoflow tools"
+msgstr "仅可在 RetopoFlow 工具上触发饼图热菜单。"
+
+msgid "Auto Merge"
+msgstr "自动合并"
+
+msgid "Automatically enables Auto Merge when using Retopoflow tools"
+msgstr "使用 Retopoflow 工具时自动启用自动合并"
+
+msgid "Fade Inactive"
+msgstr "淡出未激活"
+
+msgid "Automatically enables Fade Inactive Geometry when using Retopoflow tools"
+msgstr "使用 Retopoflow 工具时自动启用“淡出非活动几何体”"
+
+msgid "Object Wires"
+msgstr "对象线框"
+
+msgid "Automatically enables wires for the active object when using Retopoflow tools, so you can see the result of modifiers"
+msgstr "使用 Retopoflow 工具时，自动为当前对象启用线框模式，以便查看修改器的效果。"
+
+msgid "Retopology Overlay"
+msgstr "拓扑覆盖层"
+
+msgid "Automatically enables the retopology overlay when using Retopoflow tools"
+msgstr "使用 Retopoflow 工具时自动启用拓扑覆盖层"
+
+msgid "Selection Mode"
+msgstr "选择模式"
+
+msgid "Automatically adjusts the selection mode for the selected Retopoflow tool"
+msgstr "为选定的 Retopoflow 工具自动调整选择模式"
+
+msgid "Snapping"
+msgstr "吸附"
+
+msgid "Automatically adjusts Blender's snapping settings for the selected Retopoflow tool"
+msgstr "为选定的 Retopoflow 工具自动调整 Blender 的吸附设置"
+
+msgid "Component Size"
+msgstr "组件大小"
+
+msgid "Use a separate size for vertices and edges when in Retopoflow tools"
+msgstr "在 Retopoflow 工具中，为顶点和边使用独立的大小"
+
+msgid "Selection Adjustments"
+msgstr "选择调整"
+
+msgid ""
+"Alters the hotkeys for selection while Retopoflow is active. \n"
+" - Loop selection gets stopped at inner corners for better use with Strokes. \n"
+" - Pick Shortest Path with Shift has Fill Region disabled"
+msgstr ""
+"当 Retopoflow 激活时更改快捷键。\n"
+" - 环选在内部拐角处停止，以便更好地配合笔刷使用。\n"
+" - Shift+ 最短路径拾取禁用填充区域"
+
+msgid "Pinning via Creases"
+msgstr "通过折痕固定"
+
+msgid ""
+"Hijacks Blender's vertex crease system so we can display pins without any performance overhead. Disable this if you need to actively adjust creases while in Retopoflow mode. \n"
+"\n"
+"WARNING: Disabling will remove all current pins"
+msgstr ""
+"劫持 Blender 的顶点折痕系统，以便在不产生任何性能开销的情况下显示固定点。如果您需要在 Retopoflow 模式下主动调整折痕，请禁用此选项。\n"
+"\n"
+"警告：禁用将移除所有当前固定点"
+
+msgid "Select Distance"
+msgstr "选择距离"
+
+msgid "Distance on screen to select geometry"
+msgstr "在屏幕上用于选择几何体的距离"
+
+msgid "Mouse Auto Select"
+msgstr "鼠标自动选择"
+
+msgid "Selects the geometry under the cursor, if any, before transforming using the mouse"
+msgstr "在使用鼠标进行变换之前，选择光标下方的几何体（如果有的话）"
+
+msgid "Keyboard Auto Select"
+msgstr "键盘自动选择"
+
+msgid "Selects the geometry under the cursor, if any, before transforming using keyboard shortcuts"
+msgstr "在使用键盘快捷键进行变换之前，选择光标下方的几何体（如果有的话）"
+
+msgid "New Object Name"
+msgstr "新对象名称"
+
+msgid "The name of the new retopology object when creating one at the 3D Cursor"
+msgstr "创建 3D 光标处的新拓扑对象名称"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "The text to find and replace in the active object name. Not case sensative"
+msgstr "在活动对象名称中查找和替换的文本。不区分大小写"
+
+msgid "Replace"
+msgstr "替换"
+
+msgid "The text that replaces the searched for text when creating a new retopology object from the active object"
+msgstr "从活动对象创建新拓扑对象时，用来替换所搜索文本的内容"
+
+msgid "From Active Suffix"
+msgstr "来自活动后缀"
+
+msgid "When creating a new retopo object from the active object, the new object will inherit the active object name with this added at the end. Only used when the searched for text is not found"
+msgstr "从活动对象创建新拓扑对象时，新对象将在末尾添加此后缀。仅在未找到搜索文本时使用"
+
+msgid "No Sources Detected"
+msgstr "未检测到源"
+
+msgid "Warns when starting Retopoflow with no sources detected"
+msgstr "在开始 Retopoflow 但未检测到任何源时发出警告"
+
+msgid "Stroke Sample Distance"
+msgstr "笔刷采样距离"
+
+msgid "Minimum cursor movement (in pixels) between insert-preview updates for the PolyStrips, Strokes, and PolyPen tools. Higher values reduce lag with high-frequency pen tablets by skipping redundant updates. A value of 1 updates on every mouse movement."
+msgstr "插入预览更新（针对 PolyStrips、Strokes 和 PolyPen 工具）之间的最小光标移动量（以像素为单位）。较高的值可以通过跳过冗余更新来减少高频数位板的延迟。值为 1 表示每次鼠标移动都会进行更新。"
+
+msgid "Auto-Save"
+msgstr "自动保存"
+
+msgid "Hotkeys"
+msgstr "快捷键"
+
+msgid "Interface"
+msgstr "界面"
+
+msgid "Naming"
+msgstr "命名"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Try to Replace"
+msgstr "尝试替换"
+
+msgid "With"
+msgstr "为"
+
+msgid "Fallback Suffix"
+msgstr "后备后缀"
+
+msgid "Tablet Input"
+msgstr "平板输入"
+
+msgid "Ignore Jitter"
+msgstr "忽略抖动"
+
+msgid "Notice for Windows users:"
+msgstr "Windows 用户注意事项:|||~|||如果您在使用平板电脑时遇到延迟问题，"
+
+msgid "If you encounter lag issues while using a tablet, consider switching"
+msgstr "请考虑在 [ Blender Preferences"
+
+msgid "to WinTab API in [ Blender Preferences > Input > Tablet > Tablet API ]."
+msgstr "> Input > Tablet > Tablet A"
+
+msgctxt "Operator"
+msgid "Blender Report"
+msgstr "Blender 报告"
+
+msgctxt "Operator"
+msgid "Retopoflow Report"
+msgstr "Retopoflow 报告"
+
+msgid "Tool Switching"
+msgstr "工具切换"
+
+msgid "Tweaking"
+msgstr "微调"
+
+msgid "Warnings"
+msgstr "警告"
+
+msgctxt "Operator"
+msgid "RetopoFlow Core"
+msgstr "RetopoFlow 核心"
+
+msgid ""
+"No sources detected.\n"
+"Retopoflow tools need a visible object that is not being edited to snap the retopology mesh to."
+msgstr ""
+"未检测到源对象。\n"
+"Retopoflow 工具需要一个可见的、未被编辑的对象，以便将拓扑网格吸附到该对象上。"
+
+msgid ""
+"{message}\n"
+"Only use selected objects as sources is ON."
+msgstr ""
+"{message}\n"
+"仅使用选定的对象作为源已启用。"
+
+msgid ""
+"{message}\n"
+"Only use selectable objects as sources is ON."
+msgstr ""
+"{message}\n"
+"仅当“源为可选择的对象”选项已启用时，才可使用可选择的对象作为源。"
+
+msgid ""
+"{message}\n"
+"The object {obj.name} is set to be the only possible source."
+msgstr ""
+"{message}\n"
+"对象 {obj.name} 被设置为唯一可能的源。"
+
+msgid ""
+"{message}\n"
+"Only objects in the collection {collection.name} are set as possible sources."
+msgstr ""
+"{message}\n"
+"只有集合 {collection.name} 中的对象被设置可能为源。"
+
+msgid ""
+"{message}\n"
+"You can change the source settings in the General panel."
+msgstr ""
+"{message}\n"
+"您可以在“常规”面板中更改源设置。"
+
+msgid "Retopoflow"
+msgstr "Retopoflow"
+
+msgid "init"
+msgstr "初始化"
+
+msgid "Tweak"
+msgstr "调整"
+
+msgid "Tweak Brush"
+msgstr "调整笔刷"
+
+msgid "Relax Brush"
+msgstr "放松笔刷"
+
+msgid "Topo Rotate"
+msgstr "顶视旋转"
+
+msgid "RF Pie Menu"
+msgstr "射频菜单"
+
+msgid "RF_MT_Tools"
+msgstr "RF_MT_工具"
+
+msgid "Knife"
+msgstr "刀"
+
+msgid "Open Docs"
+msgstr "打开文档"
+
+msgid "Report Issue"
+msgstr "报告问题"
+
+msgid "Source Cache {SourceCache.progress * 100}%"
+msgstr "源缓存 {SourceCache.progress * 100}%"
+
+msgid "Strip"
+msgstr "剥离"
+
+msgid "Loop"
+msgstr "循环"
+
+msgid "Amount of segments must be greater than 0."
+msgstr "段数必须大于 0。"
+
+msgid "Icon {icon_name} not found ({icon_path})"
+msgstr "未找到图标 {icon_name}（{icon_path}）"
+
+msgid "Warning: caught exceptions while trying to unregister RFOperators"
+msgstr "警告：尝试注销 RFOperators 时捕获了异常。"
+
+msgid "Keymap Context"
+msgstr "键位映射上下文"
+
+msgid "Context for the tool keymap"
+msgstr "工具键盘快捷方式的上下文"
+
+msgid "Asset Library Type"
+msgstr "资产库类型"
+
+msgid "Local"
+msgstr "本地"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Essentials"
+msgstr "基础设置"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "retopoflow.{idname}"
+msgstr "retopoflow.{idname}"
+
+msgid "Do not snap vertices to any surface"
+msgstr "不要将顶点吸附到任何表面"
+
+msgid "Original Mesh"
+msgstr "原始网格"
+
+msgid "Project each vertex back onto the original mesh shape before the operation"
+msgstr "在操作之前，将每个顶点投影回原始网格形状上。"
+
+msgid "All Visible"
+msgstr "全部可见"
+
+msgid "Snap to all visible mesh objects in the scene"
+msgstr "吸附场景中所有可见的网格对象"
+
+msgid "All Selectable"
+msgstr "全部可选"
+
+msgid "Snap to all selectable visible mesh objects in the scene"
+msgstr "吸附场景中所有可选择的可见网格对象"
+
+msgid "Object"
+msgstr "对象"
+
+msgid "Snap to a specific object"
+msgstr "吸附到特定对象"
+
+msgid "Collection"
+msgstr "集合"
+
+msgid "Snap to all mesh objects in a specific collection"
+msgstr "吸附到特定集合中的所有网格对象"
+
+msgid "Snap To"
+msgstr "吸附至"
+
+msgid "Adjust properties of {label}"
+msgstr "调整{label}属性"
+
+msgid "LMB: Commit"
+msgstr "左键：确认"
+
+msgid "RMB: Cancel"
+msgstr "右键：取消"
+
+msgid "{label} Property"
+msgstr "{label} 属性"
+
+msgid "Property of {label} to adjust"
+msgstr "要调整的{label} 属性"
+
+msgid "Adjust Nothing"
+msgstr "不调整任何内容"
+
+msgid "Radius"
+msgstr "半径"
+
+msgid "Adjust {label} Radius"
+msgstr "调整{label} 半径"
+
+msgid "Strength"
+msgstr "强度"
+
+msgid "Adjust {label} Strength"
+msgstr "调整 {label} 强度"
+
+msgid "Falloff"
+msgstr "衰减"
+
+msgid "Adjust {label} Falloff"
+msgstr "调整 {label} 的衰减"
+
+msgid "Adjust radius of {label}"
+msgstr "调整 {label} 的范围"
+
+msgid "Adjust Segment Count"
+msgstr "调整分段数"
+
+msgid "Adjust the number of segments in the selected strip while retaining its shape"
+msgstr "在保持形状的同时，调整选定条带的分段数量"
+
+msgid "Segments"
+msgstr "分段数"
+
+msgid "Number of quads along the strip"
+msgstr "沿条带或环的数量"
+
+msgid "Adjust Segment Count: select a single quad strip or ring first"
+msgstr "调整分段数：首先选择单个四边形条带或环"
+
+msgid "Adjust Strip Width"
+msgstr "调整条带宽度"
+
+msgid "Rescale the width of the selected quad strip while retaining its shape"
+msgstr "在保留形状的同时缩放选定四边形的宽度"
+
+msgid "Start Scale"
+msgstr "起始缩放"
+
+msgid "Width scale at the strip's starting endpoint"
+msgstr "条带起始端点的宽度缩放比例"
+
+msgid "End Scale"
+msgstr "结束缩放"
+
+msgid "Width scale at the strip's last endpoint"
+msgstr "条带最后端点的宽度缩放比例"
+
+msgid "Adjust Strip Width: select a single quad strip or ring first"
+msgstr "调整条带宽度：首先选择单个四边形条带或环"
+
+msgctxt "Operator"
+msgid "Apply Retopology Settings"
+msgstr "应用拓扑设置"
+
+msgid "Apply the retopology settings from Retopoflow to Blender for use in other Edit Mode tools"
+msgstr "将 Retopoflow 的拓扑设置应用到 Blender，以便在其他编辑模式工具中使用"
+
+msgid "Apply Retopology Settings"
+msgstr "应用拓扑设置"
+
+msgctxt "Operator"
+msgid "Restore Retopology Settings"
+msgstr "恢复重新拓扑设置"
+
+msgid "Restore the retopology settings to non-Retopoflow tools if you accidentally applied them"
+msgstr "如果不小心将 Retopoflow 工具应用于其他拓扑工具，请恢复其设置。"
+
+msgid "Restore Retopology Settings"
+msgstr "还原拓扑设置"
+
+msgctxt "Operator"
+msgid "Insert Diamond Junction (Retopoflow)"
+msgstr "插入钻石关节（Retopoflow）"
+
+msgid "Bevel each selected edge run into three loops. The loops are capped with diamond quads or run straight off the boundary."
+msgstr "将每个选定的边缘运行转换为三个环。这些环用菱形四边形封闭，或沿边界直线延伸。"
+
+msgid "Insert Diamond Junction"
+msgstr "插入钻石连接点"
+
+msgid "Factor"
+msgstr "因子"
+
+msgid "How far the new edge loops slide from the initial loop"
+msgstr "新边缘环相对于初始环滑动的距离"
+
+msgid "Merge Ends"
+msgstr "合并端点"
+
+msgid "Merge the diamond's outside vert into the end vert of the initial loop so the adjacent faces stay quads. When off, the diamond stops short of the end and leaves an n-gon on each side."
+msgstr "将钻石的外侧顶点合并到初始环的末端顶点，使相邻面保持四边形。当关闭时，钻石会停在末端之前，并在每侧留下一个 N 边形。"
+
+msgid "Flatten"
+msgstr "展平"
+
+msgid "On sharp surfaces, move middle loop verts along their normals to keep the new faces from bending across the original loop"
+msgstr "在尖锐表面上，沿法线移动中间环的顶点，使新面不会跨越原始环弯曲"
+
+msgid "Loops"
+msgstr "环"
+
+msgid "Level the middle loop with the two outer loops so the face runs between the caps are as flat as possible"
+msgstr "将中间环与两个外环对齐，使面在帽之间尽可能平坦"
+
+msgid "Caps"
+msgstr "帽"
+
+msgid "Flatten each diamond cap, then interpolate the rest of the middle loop between the cap heights"
+msgstr "展平每个菱形帽，然后在中环和帽高度之间插值其余部分"
+
+msgid "Leave the middle loop verts where they are"
+msgstr "保持中间环顶点位置不变"
+
+msgid "selection branches; select simple edge runs"
+msgstr "选择分支；选择简单的边运行"
+
+msgid "select one or more edge runs"
+msgstr "选择一个或多个边运行"
+
+msgid "Diamond Junction: {msg}"
+msgstr "菱形连接：{msg}"
+
+msgid "Diamond Junction: {errors[0]}"
+msgstr "钻石关节：{errors[0]}"
+
+msgid "Diamond Junction: skipped some runs ({errors[0]})"
+msgstr "钻石关节：跳过了部分运行 ({errors[0]})"
+
+msgid "run edges must have exactly two faces"
+msgstr "运行边缘必须恰好有两个面"
+
+msgid "cycle has inconsistent face flow"
+msgstr "循环具有不一致的面流"
+
+msgid "run touches the same face from both sides"
+msgstr "运行从两侧接触同一个面"
+
+msgid "run is too short to bevel"
+msgstr "运行太短无法倒角"
+
+msgid "runs are too close together"
+msgstr "运行靠得太近"
+
+msgid "non-manifold geometry around the run"
+msgstr "运行周围存在非流形几何体"
+
+msgid "no rung edge to slide along"
+msgstr "没有滑动的杆边"
+
+msgctxt "Operator"
+msgid "Launch Retopoflow Docs"
+msgstr "启动 Retopoflow 文档"
+
+msgctxt "Operator"
+msgid "Report Retopoflow Issue"
+msgstr "报告 Retopoflow 问题"
+
+msgid "3D View"
+msgstr "3D 视图"
+
+msgid "Retopoflow: Maximize Watcher"
+msgstr "Retopoflow：最大化监视器"
+
+msgid "Watches for Maximize Area when Retopoflow tool is selected"
+msgstr "当选择 Retopoflow 工具时，监视器的最大面积"
+
+msgid "Maximizing an area with a Retopoflow tool selected can cause Blender to crash on some machines."
+msgstr "在选择了 Retopoflow 工具的情况下最大化一个区域可能会导致 Blender 在某些机器上崩溃。"
+
+msgid "While we work on a fix, we have temporarily disabled the Maximize Area operator to prevent loss of work."
+msgstr "在我们修复这个问题之前，我们暂时禁用了“最大化面积”操作符以防止工作丢失。"
+
+msgid "For now, please switch to another tool (like Move) first, maximize the area, then switch back to Retopoflow."
+msgstr "目前，请先切换到其他工具（如移动），然后最大化该区域，再切换回 Retopoflow。"
+
+msgctxt "Operator"
+msgid "Clean Up Mesh"
+msgstr "清理网格"
+
+msgid "A handy macro for quicly running several retopology cleanup operations at once"
+msgstr "一个有用的宏，可以一次性快速运行多个拓扑清理操作"
+
+msgid "Clean Up Mesh"
+msgstr "清理网格"
+
+msgid "WIRE"
+msgstr "线框"
+
+msgid "SOLID"
+msgstr "实体"
+
+msgctxt "Operator"
+msgid "Add Mirror Modifier"
+msgstr "添加镜像修改器"
+
+msgid "Add a mirror modifier"
+msgstr "添加镜像修改器"
+
+msgid "Add Mirror"
+msgstr "添加镜像"
+
+msgctxt "Operator"
+msgid "Apply Mirror"
+msgstr "应用镜像"
+
+msgid "Apply the mirror modifier while in Edit Mode"
+msgstr "在编辑模式下应用镜像修改器"
+
+msgid "Apply Mirror"
+msgstr "应用镜像"
+
+msgctxt "Operator"
+msgid "RF: New target at Cursor"
+msgstr "RF：光标处新目标"
+
+msgid ""
+"A suite of retopology tools for Blender through a unified retopology mode.\n"
+"Create new target mesh based on the cursor and start RetopoFlow"
+msgstr ""
+"Blender 的统一拓扑模式下的拓扑工具套件。\n"
+"基于光标创建新的目标网格，并启动 RetopoFlow。"
+
+msgid "Retopology at Cursor"
+msgstr "拓扑光标"
+
+msgctxt "Operator"
+msgid "RF: New target from Active"
+msgstr "RF：从活动对象获取新目标"
+
+msgid "Retopology from Active"
+msgstr "从活动对象进行拓扑"
+
+msgctxt "Operator"
+msgid "Pin Verts"
+msgstr "固定顶点"
+
+msgid "Add pins for the selected verts"
+msgstr "为选定的顶点添加固定点"
+
+msgid "Pin Verts"
+msgstr "固定顶点"
+
+msgctxt "Operator"
+msgid "Unpin Verts"
+msgstr "取消固定顶点"
+
+msgid "Remove pins for the selected verts"
+msgstr "移除选定顶点的固定点"
+
+msgid "Unpin Verts"
+msgstr "取消固定顶点"
+
+msgid "Retopoflow: Quick switch to Relax"
+msgstr "Retopoflow：快速切换到松弛"
+
+msgid "Quick switch to Relax"
+msgstr "快速切换到放松模式"
+
+msgid "Retopoflow: Quick switch to Tweak"
+msgstr "Retopoflow：快速切换到调整模式"
+
+msgid "Quick switch to Tweak"
+msgstr "快速切换到调整模式"
+
+msgctxt "Operator"
+msgid "Rebuild Source Cache"
+msgstr "重建源缓存"
+
+msgid "Rebuild the source feature-detection cache from the current source objects and detection settings. Use this after changing sources or settings while Auto Rebuild is off"
+msgstr "从当前源对象和检测设置中重新构建源特征检测缓存。在更改源或设置且自动重建关闭时使用此功能"
+
+msgid "Rebuilding source feature cache…"
+msgstr "正在重建源特征缓存…"
+
+msgctxt "Operator"
+msgid "Cancel Source Cache Rebuild"
+msgstr "取消源缓存重建"
+
+msgid "Stop the in-progress source feature cache rebuild and keep the previous cache"
+msgstr "中止正在进行的源特征缓存重建并保留之前的缓存"
+
+msgid "Source feature cache rebuild cancelled"
+msgstr "源特征缓存重建已取消"
+
+msgctxt "Operator"
+msgid "Remove Object from Cache"
+msgstr "从缓存中移除对象"
+
+msgid "Remove this object's cached data (feature edges and/or Walk topology) so it is rescanned on the next rebuild.  All other cached objects are unaffected"
+msgstr "移除此对象的缓存数据（特征边和/或 Walk 拓扑），以便在下一次重建时重新扫描。所有其他缓存对象不受影响"
+
+msgid "Object Name"
+msgstr "对象名称"
+
+msgctxt "Operator"
+msgid "Relax (Retopoflow)"
+msgstr "松弛 (Retopoflow)"
+
+msgid "Relax the selected vertices using the Retopoflow relax algorithm"
+msgstr "使用 Retopoflow 松弛算法对选定的顶点进行松弛处理"
+
+msgid "Relax Selected Vertices"
+msgstr "松弛选定顶点"
+
+msgid "Iterations"
+msgstr "迭代次数"
+
+msgid "Number of times to run the relax simulation. Higher is smoother and slower"
+msgstr "运行松弛模拟的次数。数值越高，结果越平滑但速度越慢"
+
+msgid "How far vertices move per iteration"
+msgstr "每次迭代中顶点移动的距离"
+
+msgid "Smooth Vertices"
+msgstr "平滑顶点"
+
+msgid "Average vertex locations using Laplacian smoothing"
+msgstr "使用拉普拉斯平滑平均顶点位置"
+
+msgid "Straighten Edges"
+msgstr "拉直边缘"
+
+msgid "Move each vertex toward making its connected edges straighter, using loop information when possible"
+msgstr "使用环信息尽可能使每个顶点连接的边更直"
+
+msgid "Average Edge Lengths"
+msgstr "平均边长"
+
+msgid "Squash or stretch each edge toward the average edge length. Can cause skewing when used by itself"
+msgstr "将每条边向平均边长挤压或拉伸。单独使用时可能导致扭曲"
+
+msgid "Equalize Faces"
+msgstr "均衡面"
+
+msgid "Push faces towards ideal geometric shapes and average their sizes"
+msgstr "将面推向理想的几何形状并使其大小均等"
+
+msgid "Shaping"
+msgstr "造型"
+
+msgid "Post-processing applied after each relax step to control overall shape"
+msgstr "在每个松弛步骤后应用的后期处理，用于控制整体形状"
+
+msgid "No additional shaping"
+msgstr "无额外造型"
+
+msgid "Preserve Volume"
+msgstr "保持体积"
+
+msgid "Scales relaxed vertices so the mesh stays the same size"
+msgstr "平滑松弛顶点，使网格保持相同大小"
+
+msgid "Interpolate Loop Curvature"
+msgstr "插值环曲率"
+
+msgid "Uses the loop edges just outside the selection to create the loop's curvature. Can be used to reconstruct a quad patch on a sphere, for example"
+msgstr "使用选择外部的环边缘来创建环的曲率。可用于在球面上重建四边形补丁等"
+
+msgid "Slide Edges"
+msgstr "滑动边"
+
+msgid "Restrict vertex movement to be along their connected edges"
+msgstr "限制顶点移动方向为沿其连接的边"
+
+msgid "Proportional Editing"
+msgstr "比例编辑"
+
+msgid "Relax nearby connected vertices with a falloff for the strength"
+msgstr "使附近的连接顶点以强度衰减的方式松弛"
+
+msgid "Distance"
+msgstr "距离"
+
+msgid "Radius within which connected vertices are included"
+msgstr "包含连接顶点的比例半径范围内的范围"
+
+msgid "Shape of the strength curve from center to edge of the proportional radius"
+msgstr "从中心到比例半径边缘的强度曲线形状"
+
+msgid "Smooth"
+msgstr "平滑"
+
+msgid "Smooth falloff (3t² - 2t³)"
+msgstr "平滑衰减（3t² - 2t³）"
+
+msgid "Sphere"
+msgstr "球体"
+
+msgid "Spherical falloff (√(1 - t²))"
+msgstr "球状衰减（√(1 - t²)）"
+
+msgid "Root"
+msgstr "根号"
+
+msgid "Root falloff (√(1 - t))"
+msgstr "根号衰减（√(1 - t)）"
+
+msgid "Inverse Square"
+msgstr "平方反比"
+
+msgid "Inverse-square falloff (1/(1+t))"
+msgstr "平方反比衰减（1/(1+t)）"
+
+msgid "Sharp"
+msgstr "锐利"
+
+msgid "Sharp falloff (t²)"
+msgstr "锐利衰减（t²）"
+
+msgid "Linear"
+msgstr "线性"
+
+msgid "Linear falloff (1 - t)"
+msgstr "线性衰减（1-t）"
+
+msgid "Constant"
+msgstr "常量"
+
+msgid "No falloff — all verts get full strength"
+msgstr "无衰减——所有顶点均获得完整强度"
+
+msgid "Random"
+msgstr "随机"
+
+msgid "Random falloff"
+msgstr "随机衰减"
+
+msgid "Surface to project vertices onto after each relax step"
+msgstr "每个松弛步骤后投影顶点到表面的表面"
+
+msgid "Project each vertex back onto the original mesh shape before relaxation"
+msgstr "在松弛之前，将每个顶点投影回原始网格形状上。"
+
+msgid "Name of the object to snap vertices to"
+msgstr "要吸附到对象的顶点名称"
+
+msgid "Name of the collection to snap vertices to"
+msgstr "要吸附到顶点的集合名称"
+
+msgid "Snap to Source Sharps"
+msgstr "吸附到源尖角"
+
+msgid "Snap vertices to the sharp edges of the source mesh"
+msgstr "将顶点吸附到源网格的尖角边缘"
+
+msgid "Snap to Source Seams"
+msgstr "吸附到源接缝"
+
+msgid "Snap vertices to the seams of the source mesh"
+msgstr "将顶点吸附到源网格的接缝处"
+
+msgid "Snap to Source Creases"
+msgstr "吸附到源折痕"
+
+msgid "Snap vertices to the creases of the source mesh"
+msgstr "将顶点吸附到源网格的折痕处"
+
+msgid "Angle"
+msgstr "角度"
+
+msgid "Snap to edges above this angle threshold on the source object"
+msgstr "仅吸附源对象上超过此角度阈值的边缘"
+
+msgid "Use Angle Threshold"
+msgstr "使用角度阈值"
+
+msgid "Detect sharp edges on the source mesh based on face angle"
+msgstr "基于面角检测源网格上的尖角边缘"
+
+msgid "Proximity"
+msgstr "距离"
+
+msgid "How close to feature edges vertices must be to snap, as a fraction of the average edge length"
+msgstr "顶点必须靠近特征边缘的距离，以平均边长的分数表示"
+
+msgid "Fixed Distance"
+msgstr "固定距离"
+
+msgid "Snap within a fixed world space distance instead of scaling the snap distance by the local edge length"
+msgstr "使用固定的世界空间距离而不是根据局部边长缩放吸附距离"
+
+msgid "World space distance within which vertices snap to source feature edges and corners"
+msgstr "顶点吸附到源特征边缘和角点的世界空间距离范围"
+
+msgid "Stickiness"
+msgstr "粘性"
+
+msgid "How difficult it is for vertices to escape feature edges"
+msgstr "顶点逃离特征边缘的难度"
+
+msgid "Guide Loops"
+msgstr "引导环"
+
+msgid "How strongly elected loops are pulled toward the source edge"
+msgstr "选定的环被拉向源边的强度"
+
+msgid "Selected"
+msgstr "选中"
+
+msgid "Which vertices to relax based on selection state"
+msgstr "基于选择状态的松弛顶点"
+
+msgid "Relax all vertices regardless of selection"
+msgstr "忽略选择状态，松弛所有顶点"
+
+msgid "Only"
+msgstr "仅"
+
+msgid "Relax only selected vertices"
+msgstr "仅松弛被选中的顶点"
+
+msgid "Exclude"
+msgstr "排除"
+
+msgid "Relax only unselected vertices"
+msgstr "仅松弛未被选中的顶点"
+
+msgid "Boundary"
+msgstr "边界"
+
+msgid "How to handle boundary geometry"
+msgstr "如何处理边界几何体"
+
+msgid "Include"
+msgstr "包含"
+
+msgid "Relax vertices regardless of being along boundary"
+msgstr "无论是否位于边界，均松弛顶点"
+
+msgid "Slide"
+msgstr "滑动边线"
+
+msgid "Relax vertices along boundary, sliding along boundary edges"
+msgstr "沿边界松弛顶点，沿边界边缘滑动"
+
+msgid "Do not relax vertices along boundary"
+msgstr "不沿边界松弛顶点"
+
+msgid "Seams"
+msgstr "接缝"
+
+msgid "How to handle seam edges"
+msgstr "如何处理接缝边缘"
+
+msgid "Relax vertices regardless of being along a seam"
+msgstr "无论是否位于接缝都松弛顶点"
+
+msgid "Relax vertices along seams by sliding along them"
+msgstr "沿接缝通过滑动方式松弛顶点"
+
+msgid "Do not relax vertices along seams"
+msgstr "不沿接缝松弛顶点"
+
+msgid "Sharps"
+msgstr "锐角边"
+
+msgid "How to handle sharp edges"
+msgstr "如何处理锐角边缘"
+
+msgid "Relax vertices regardless of being along a sharp edge"
+msgstr "忽略是否位于锐利边缘的顶点松弛"
+
+msgid "Relax vertices along sharp edges by sliding along them"
+msgstr "沿锐利边缘滑动以松弛顶点"
+
+msgid "Do not relax vertices along sharp edges"
+msgstr "不沿锐利边缘松弛顶点"
+
+msgid "Creases"
+msgstr "折痕"
+
+msgid "How to handle creased edges"
+msgstr "如何处理折痕边缘"
+
+msgid "Relax vertices regardless of being along a crease"
+msgstr "忽略是否位于折痕的顶点松弛"
+
+msgid "Relax vertices along creases by sliding along them"
+msgstr "沿折痕滑动以松弛顶点"
+
+msgid "Do not relax vertices along creases"
+msgstr "不沿折痕松弛顶点"
+
+msgid "Sharp Angles"
+msgstr "尖角"
+
+msgid "How to handle vertices on edges whose adjacent faces exceed the angle threshold"
+msgstr "处理相邻面超过角度阈值的边上的顶点"
+
+msgid "Relax vertices regardless of edge angle"
+msgstr "忽略边角的顶点松弛"
+
+msgid "Relax vertices along high-angle edges by sliding along them"
+msgstr "沿高角度边滑动以松弛顶点"
+
+msgid "Do not relax vertices that lie on edges exceeding the angle threshold"
+msgstr "不松弛位于超过角度阈值的边上的顶点"
+
+msgid "Threshold"
+msgstr "阈值"
+
+msgid "Edges whose adjacent face dihedral angle exceeds this value are treated as high-angle"
+msgstr "相邻面二面角超过此值的边被视为高角度边"
+
+msgid "Corners"
+msgstr "角落"
+
+msgid "Include corners (vertices with exactly two edges)"
+msgstr "包含角落（拥有恰好两条边的顶点）"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "After relaxing, replace the selection with the chosen guide-loop vert set for debugging"
+msgstr "松弛后，用选定的引导环顶点集替换选择以进行调试"
+
+msgid "Leave selection unchanged after relaxing"
+msgstr "松弛后保持选择不变"
+
+msgid "Promoted"
+msgstr "已提升"
+
+msgid "Select only the elected guide-loop vertices"
+msgstr "仅选中选定的引导环顶点"
+
+msgid "Demoted"
+msgstr "已降低"
+
+msgid "Select only the demoted (pushed-away) vertices"
+msgstr "仅选中被降低（推离）的顶点"
+
+msgid "No valid source found"
+msgstr "未找到有效源"
+
+msgid "Vertices"
+msgstr "顶点"
+
+msgid "Edges"
+msgstr "边"
+
+msgid "Faces"
+msgstr "面"
+
+msgid "Masking"
+msgstr "遮罩"
+
+msgid "Relax: no vertices remain after applying mask settings"
+msgstr "松弛：应用遮罩设置后没有剩余顶点"
+
+msgctxt "Operator"
+msgid "Reset Retopoflow Tools"
+msgstr "重置 Retopoflow 工具"
+
+msgid "Reset the Retopoflow tools to their default settings"
+msgstr "将 Retopoflow 工具重置为默认设置"
+
+msgid "Reset Retopoflow Settings"
+msgstr "重置 Retopoflow 设置"
+
+msgid "{target.name}.CrestCurves"
+msgstr "{target.name}.CrestCurves"
+
+msgid "Smoothed Normals"
+msgstr "平滑法线"
+
+msgid "Smoothed Normals Coarse"
+msgstr "粗糙平滑法线"
+
+msgid "Separate Features"
+msgstr "分离特征"
+
+msgid "Segment the mesh into regions bounded by ridges, crevices, and sharp edges"
+msgstr "将网格分割为由脊、凹槽和锐利边缘界定的区域"
+
+msgid "Seed Threshold"
+msgstr "种子阈值"
+
+msgid "Areas below this multiple of the typical (median) seam energy become region seeds — lower gives more regions. 1.0 = the quiet-surface level of the mesh"
+msgstr "低于此倍数（典型中值缝能量）的区域成为区域种子——更低的值会产生更多区域。1.0 = 网格的平静表面级别"
+
+msgid "Seed Size Gate"
+msgstr "种子大小门限"
+
+msgid "Minimum seed area in feature-scale² units. Smaller quiet flecks are skipped at seeding but may still seed later if the rising waterline grows them while no region has reached them"
+msgstr "特征尺度单位中的最小种子面积。较小的静斑在播种时被跳过，但如果上升的水线在其生长过程中没有区域到达它们，则仍可能随后播种"
+
+msgid "Bridge Gaps"
+msgstr "桥接缝隙"
+
+msgid "Extract coherent seam lines and bridge gaps where they fade out, up to this many feature-scale units — keeps basins fenced at fading seam ends (banana-tip horseshoes). 0 disables"
+msgstr "提取相干缝线并在其消失处桥接缝隙，最多为这么多特征尺度单位——保持盆地被封闭在消失的缝端（香蕉尖端马蹄形）。0 禁用"
+
+msgid "Snap Boundaries"
+msgstr "吸附边界"
+
+msgid "Coarse-to-fine refinement: re-place each region boundary onto the sharpest nearby fine-scale feature line, searching within the detecting blur radius times this multiplier (the drift bound the energy itself implies). 0 disables"
+msgstr "从粗到细的细化：将每个区域边界重新放置到附近最锐利的细尺度特征线上，搜索范围为该检测模糊半径乘以此倍率（能量本身所暗示的漂移界限）。0 禁用"
+
+msgid "Merge Below"
+msgstr "合并以下"
+
+msgid "EXPERIMENTAL: dissolve region boundaries whose median seam energy is below this multiple of the typical surface energy. Soft true seams and fragment noise overlap in energy level, so any nonzero value trades real boundaries for cleanup — 0 (off) is the safe default until a coherence-based criterion lands"
+msgstr "实验性：溶解其中位缝能量低于典型表面能量的若干倍的区域边界。软真缝和碎片噪声在能量水平上重叠，因此任何非零值都是在真实边界与清理之间进行权衡——0（关闭）是安全的默认设置，直到基于相干性的标准落地为止"
+
+msgid "Feature Scale"
+msgstr "特征尺度"
+
+msgid "Physical size of the features to segment by, in object units. 0 = automatic (7x mean edge length)"
+msgstr "按其特征分割的物理尺寸，以对象单位表示。0 = 自动（7×平均边缘长度）"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "Which output layer to show in the viewport (sets the active color attribute)"
+msgstr "在视口中显示哪个输出层（设置活动颜色属性）"
+
+msgid "Regions"
+msgstr "区域"
+
+msgid "Final region labels (after merging)"
+msgstr "最终区域标签（合并后）"
+
+msgid "Regions Raw"
+msgstr "原始区域"
+
+msgid "Watershed regions before the merge pass"
+msgstr "合并前的流域区域"
+
+msgid "Seeds"
+msgstr "种子"
+
+msgid "Initial seed components at the seed threshold, before growth"
+msgstr "生长前的初始种子组件，位于种子阈值处"
+
+msgid "Crest Lines"
+msgstr "脊线"
+
+msgid "Ridge lines (orange), valley lines (blue), bridges (green), feature blobs (cyan)"
+msgstr "山脊线（橙色）、山谷线（蓝色）、桥梁（绿色）、特征斑点（青色）"
+
+msgid "Seam Energy"
+msgstr "接缝能量"
+
+msgid "Floor-normalized seam energy (fixed 0-8x ramp)"
+msgstr "归一化后的接缝能量（固定 0-8x 斜坡）"
+
+msgid "Cavity Multi"
+msgstr "空洞多重性"
+
+msgid "Multi-scale signed cavity (blue concave, red convex)"
+msgstr "多尺度符号空洞（蓝色凹陷，红色凸起）"
+
+msgid "Cavity Fine"
+msgstr "空洞精细"
+
+msgid "Fine-scale signed cavity (blue concave, red convex)"
+msgstr "细尺度符号空洞（蓝色凹陷，红色凸起）"
+
+msgid "Fine smoothed normals as RGB"
+msgstr "精细平滑法线作为 RGB"
+
+msgid "Coarse smoothed normals as RGB"
+msgstr "粗略平滑法线作为 RGB"
+
+msgid "Segment Mesh: mesh has too few faces"
+msgstr "分段网格：网格面数太少"
+
+msgid "Segment Mesh: {n_regions} regions ({n_raw} before merge, feature scale {scale}{', cached fields' if cached else ''})"
+msgstr "分段网格：{n_regions} 个区域（合并前 {n_raw} 个，特征尺度 {scale}{', 缓存字段' if cached else ''})"
+
+msgid ", cached fields"
+msgstr ", 缓存字段"
+
+msgctxt "Operator"
+msgid "Even (Retopoflow)"
+msgstr "Even (Retopoflow)"
+
+msgid ""
+"For loops, space the vertices of each selected edge loop evenly. \n"
+"For non-loop edges, average their lengths. \n"
+"For faces, optionally average their areas and face angles."
+msgstr ""
+"对于环，使每个选定的边环的顶点均匀分布。 \n"
+"对于非环边，平均其长度。 \n"
+"对于面，可选择地平均其面积和面角."
+
+msgid "Space Selection Evenly"
+msgstr "Space Selection Evenly"
+
+msgid "How far vertices move toward their evenly spaced positions"
+msgstr "顶点向均匀分布位置移动的距离"
+
+msgid "Smooth Loops"
+msgstr "Smooth Loops"
+
+msgid "Space edge loop vertices along a smooth spline fit through the loop instead of sliding them along the existing edges"
+msgstr "使边环顶点沿通过环的平滑样条曲线分布，而不是沿现有边滑动"
+
+msgid "Push face corners toward even angles and average face sizes."
+msgstr "Push face corners toward even angles and average face sizes."
+
+msgid "Preserve Sharp Angles"
+msgstr "Preserve Sharp Angles"
+
+msgid "Keep sharp angles in place."
+msgstr "保持尖锐角度位置。"
+
+msgid "Corners and edges whose angle deviates from straight or flat by more than this are treated as sharp"
+msgstr "角度偏离直线或平面超过此值的角和边将被视为尖锐"
+
+msgid "Number of times to run the relax simulation on face and non-loop edge areas"
+msgstr "对面和非环状边缘区域运行松弛模拟的次数"
+
+msgid "Surface to project vertices onto after each step"
+msgstr "每步后顶点投影到表面的位置"
+
+msgid "Preserve Sharp"
+msgstr "保留尖锐度"
+
+msgid "Space Evenly: nothing selected"
+msgstr "均匀分布：未选择任何对象"
+
+msgid "Space Evenly: {e}"
+msgstr "均匀分布：{e}"
+
+msgid "Vector({o.x}, {o.y}, {o.z})"
+msgstr "向量({o.x}, {o.y}, {o.z})"
+
+msgid "Topo Grab"
+msgstr "拓扑抓取"
+
+msgid "Topologically grabs (translates) the selected patch"
+msgstr "拓扑上抓取（平移）选定的区域"
+
+msgid "MMB: (nothing)"
+msgstr "MMB: (无)"
+
+msgid "Offset"
+msgstr "偏移量"
+
+msgid "Iterations of mass-spring simulation"
+msgstr "质量弹簧模拟的迭代"
+
+msgid "Spring K"
+msgstr "Spring K"
+
+msgid "Spring force"
+msgstr "弹簧力"
+
+msgid "Spring C"
+msgstr "Spring C"
+
+msgid "Spring damping constant (0.0 no damping, 1.0 full damping)"
+msgstr "弹簧阻尼系数（0.0 无阻尼，1.0 全阻尼）"
+
+msgid "Topologically rotates the selected patch"
+msgstr "对选定的面片进行拓扑旋转"
+
+msgid "Number of edges to offset (positive: clockwise, negative: counter-clockwise)"
+msgstr "边数偏移量（正数：顺时针，负数：逆时针）"
+
+msgid "Translate"
+msgstr ""
+"翻译以下文本为简体中文。文本可能包含由 '' 分隔的多个片段。请保持每个分隔符完全不变，按相同顺序排列，并仅翻译分隔符之间的内容。保留占位符和格式完全一致（例如 %s、%d、{}、{name}、\\n、转义引号和首尾空格）。只返回翻译后的文本。\n"
+"---"
+
+msgid "G: Slide"
+msgstr "G：滑动"
+
+msgid "Use Native"
+msgstr "使用原生"
+
+msgid "Use Blender's built-in translate rather than the custom Retopoflow translate"
+msgstr "使用 Blender 内置的翻译功能，而不是自定义 Retopoflow 翻译"
+
+msgid "Follow Preferences"
+msgstr "遵循偏好设置"
+
+msgid "Snapping Method"
+msgstr "吸附方法"
+
+msgid "Whether the snapping happens in screen space, world space, or is automatic"
+msgstr "是否吸附发生在屏幕空间、世界空间或自动判断"
+
+msgid "Screen Space"
+msgstr "屏幕空间"
+
+msgid "World Space"
+msgstr "世界空间"
+
+msgid "Automatic"
+msgstr "自动"
+
+msgid "Select and Move Hovered"
+msgstr "选择和移动悬停对象"
+
+msgid "If False, currently selected geometry is moved.  If True, hovered geometry is selected then moved."
+msgstr "如果为 False，当前选中的几何体被移动。如果为 True，则先选中悬停的几何体，然后将其移动。"
+
+msgid "Select Loops"
+msgstr "选择环线"
+
+msgid "Select the edge loops connected to the selection before transforming."
+msgstr "在变换之前，选择与选定项相连的边缘环线。"
+
+msgid "Use Slide"
+msgstr "使用滑移"
+
+msgid "Slide the selected verts or edges instead of grabbing them."
+msgstr "代替抓取，滑移选定的顶点或边缘。"
+
+msgid "Used Keyboard"
+msgstr "使用键盘"
+
+msgid "Set as true if the user hit a hotkey to transform rather than used the mouse"
+msgstr "如果用户按下热键进行变换而不是使用鼠标，则设置为 true。"
+
+msgid "Update Normals"
+msgstr "更新法线"
+
+msgid "Update the normals of the affected faces to try to keep them facing outwards. Disabled when using Blender's native transform"
+msgstr "更新受影响的面的法线，以尝试使其朝外。在使用 Blender 原生变换时禁用此选项。"
+
+msgctxt "Operator"
+msgid "Twist Loops (Retopoflow)"
+msgstr "扭曲环线 (Retopoflow)"
+
+msgid "Rotate selected loop about its plane normal"
+msgstr "绕其平面法线旋转选定的环线"
+
+msgid "Twist"
+msgstr "扭曲"
+
+msgid "Twist angle"
+msgstr "扭曲角度"
+
+msgid "Retain Shape"
+msgstr "保留形状"
+
+msgid "Slide vertices along the original edges while twisting"
+msgstr "沿原始边缘滑动顶点的同时进行扭曲"
+
+msgid "Extend twist to connected vertices within the falloff radius"
+msgstr "将扭曲扩展到衰减半径内的相连顶点"
+
+msgid "Proportional Size"
+msgstr "比例大小"
+
+msgid "Radius of proportional editing falloff"
+msgstr "比例编辑的衰减半径"
+
+msgid "Curve shape used to reduce the twist angle with distance"
+msgstr "用于随距离减小扭曲角度的曲线形状"
+
+msgid "Smooth falloff"
+msgstr "平滑衰减"
+
+msgid "Spherical falloff"
+msgstr "球面衰减"
+
+msgid "Root falloff"
+msgstr "根衰减"
+
+msgid "Inverse-square falloff"
+msgstr "平方反比衰减"
+
+msgid "Sharp falloff"
+msgstr "尖锐衰减"
+
+msgid "Linear falloff"
+msgstr "线性衰减"
+
+msgid "Constant — no falloff"
+msgstr "恒定——无衰减"
+
+msgid "Original Shape"
+msgstr "原始形状"
+
+msgid "Twist: {deg}°   [R] Retain Shape: {rs}   [O] Proportional: {prop}   |   LMB/Enter: Confirm   RMB/Esc: Cancel"
+msgstr "扭曲：{deg}°   [R] 保留形状：{rs}   [O] 比例：{prop}   |   LMB/Enter: 确认   RMB/Esc: 取消"
+
+msgid "Zipper"
+msgstr "拉链"
+
+msgid "Zip and unzip topology"
+msgstr "压缩和释放拓扑"
+
+msgid "LMB: Zip / Unzip"
+msgstr "LMB: 压缩 / 释放"
+
+msgid "{category.upper()}_OT_{name}"
+msgstr "{category.upper()}_OT_{name}"
+
+msgid "Overlay curve control handles for selected loops and strips"
+msgstr "选中环和条的覆盖曲线控制手柄"
+
+msgid "Edit Curve"
+msgstr "编辑曲线"
+
+msgid "Scale Control Point"
+msgstr "缩放控制点"
+
+msgid "Rotate Control Point"
+msgstr "旋转控制点"
+
+msgid "Toggle Handle Type"
+msgstr "切换手柄类型"
+
+msgid "Overlay info about selected loops and strips"
+msgstr "选中环和条的覆盖信息"
+
+msgid "Blender's Auto-Save does NOT run in Edit Mode. Retopoflow's Auto-Save does."
+msgstr "Blender 自动保存不会在编辑模式下运行。Retopoflow 会自动保存。"
+
+msgid "Blender's Auto-Save does NOT run in Edit Mode."
+msgstr "Blender 自动保存不会在编辑模式下运行。"
+
+msgid "Retopoflow's Auto-Save does."
+msgstr "Retopoflow 会自动保存。"
+
+msgid "Disable Retopoflow Auto-Save if you have another auto-save add-on enabled, notice too much lag, enjoy risk, or do not want to Auto-Save in Edit Mode."
+msgstr "如果启用了其他自动保存插件，或者发现延迟过多、愿意承担风险，"
+
+msgid "Disable Retopoflow Auto-Save if you have another auto-save add-on enabled,"
+msgstr "或者不想在编辑模式下自动保存，请禁用 Retopoflow 的自动保存功能。"
+
+msgid "notice too much lag, enjoy risk, or do not want to auto-save in Edit Mode."
+msgstr "注意过多的延迟，享受风险，或者不想在编辑模式下自动保存。"
+
+msgid "Disable Retopoflow Auto-Save if you"
+msgstr "如果禁用 Retopoflow 的自动保存功能，则..."
+
+msgid "• have another auto-save add-on enabled"
+msgstr "• 启用了另一个自动保存插件"
+
+msgid "• notice too much lag"
+msgstr "• 注意过多的延迟"
+
+msgid "• enjoy risk or"
+msgstr "• 享受风险或"
+
+msgid "• do not want to auto-save in Edit Mode."
+msgstr "• 不在编辑模式下自动保存。"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid "General"
+msgstr "通用\n"
+
+msgctxt "Operator"
+msgid "Read the Docs"
+msgstr "阅读文档"
+
+msgctxt "Operator"
+msgid "Report an Issue"
+msgstr "报告问题"
+
+msgctxt "Operator"
+msgid "View on Superhive"
+msgstr "在 Superhive 上查看"
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Triggers From"
+msgstr "来自的触发器"
+
+msgid "1. Opening Blender's keymap preferences"
+msgstr "1. 打开 Blender 的键盘布局偏好设置"
+
+msgid "2. Searching for Retopoflow"
+msgstr "2. 搜索 Retopoflow"
+
+msgid "3. Changing the keymap"
+msgstr "3. 更改键盘布局"
+
+msgid "3. Saving Preferences"
+msgstr "4. 保存偏好设置"
+
+msgid "Overlay Offset"
+msgstr "覆盖偏移"
+
+msgid "Masking Options"
+msgstr "蒙版选项"
+
+msgid "Mirror Axes"
+msgstr "镜像轴"
+
+msgctxt "Operator"
+msgid "Pin"
+msgstr "固定"
+
+msgctxt "Operator"
+msgid "Unpin"
+msgstr "取消固定"
+
+msgid "Pinning"
+msgstr "固定状态"
+
+msgid "Pinned"
+msgstr "已固定"
+
+msgid "To Surface"
+msgstr "至表面"
+
+msgid "By Distance"
+msgstr "按距离"
+
+msgid "Recalculate"
+msgstr "重新计算"
+
+msgid "Inside"
+msgstr "内部"
+
+msgid "Loose Vertices"
+msgstr "松散顶点"
+
+msgid "Faceless Edges"
+msgstr "无面边缘"
+
+msgid "Interior Faces"
+msgstr "内部面"
+
+msgid "N-Gons"
+msgstr "N 边形"
+
+msgid "Concave Faces"
+msgstr "凹面"
+
+msgid "Non-Planar Faces"
+msgstr "非平面面"
+
+msgid "Holes"
+msgstr "孔洞"
+
+msgctxt "Operator"
+msgid "Selected"
+msgstr "选中"
+
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+msgid "Clean Up"
+msgstr "清理"
+
+msgid "Mesh Clean Up"
+msgstr "网格清理"
+
+msgid "Active Side"
+msgstr "活动侧边"
+
+msgid "Crossing Mode"
+msgstr "交叉模式"
+
+msgid "Clipping"
+msgstr "裁剪"
+
+msgid "Opacity"
+msgstr "不透明度"
+
+msgid "Thickness"
+msgstr "厚度"
+
+msgid "Overlay"
+msgstr "叠加"
+
+msgid "Boundaries"
+msgstr "边界"
+
+msgid "Connected"
+msgstr "连接"
+
+msgid "Axis colors can only be seen when"
+msgstr "轴颜色仅在"
+
+msgid "viewport is set to Material or Texture"
+msgstr "视图设置为材质或纹理"
+
+msgid "Mirror"
+msgstr "镜像"
+
+msgid "Flipped Faces"
+msgstr "翻转面"
+
+msgid "Integration"
+msgstr "集成"
+
+msgid "Limit Distance"
+msgstr "限制距离"
+
+msgid "Brush Radius"
+msgstr "笔刷半径"
+
+msgid "Edge Length"
+msgstr "边长"
+
+msgid "Bounce"
+msgstr "反弹"
+
+msgid "Algorithm"
+msgstr "算法"
+
+msgctxt "Operator"
+msgid "Even"
+msgstr "偶数"
+
+msgctxt "Operator"
+msgid "Relax"
+msgstr "放松"
+
+msgctxt "Operator"
+msgid "Twist Loops"
+msgstr "扭曲环"
+
+msgctxt "Operator"
+msgid "Insert Diamond Junction"
+msgstr "插入钻石连接点"
+
+msgctxt "Operator"
+msgid "Adjust Segment Count"
+msgstr "调整段数"
+
+msgid "Method"
+msgstr "方法"
+
+msgid "Building cache… {pct}%"
+msgstr "构建缓存… {pct}%"
+
+msgid "Rebuild Source Cache"
+msgstr "重建源缓存"
+
+msgid "Build Source Cache"
+msgstr "构建源缓存"
+
+msgid "Source Cache"
+msgstr "源缓存"
+
+msgid "Auto Rebuild"
+msgstr "自动重建"
+
+msgid "Chunk Size"
+msgstr "块大小"
+
+msgid "{12 ** power} verts per frame"
+msgstr "每帧 {12 ** power} 个顶点"
+
+msgid "Only Include"
+msgstr "仅包含"
+
+msgid "Selectable"
+msgstr "可选择的"
+
+msgid "Projection"
+msgstr "投影"
+
+msgid "Steps"
+msgstr "步骤"
+
+msgid "Correct"
+msgstr "校正"
+
+msgid "Also Snap To"
+msgstr "同时吸附到"
+
+msgid "From"
+msgstr "从"
+
+msgid "Source Feature Detection (Experimental)"
+msgstr "源特征检测（实验性）"
+
+msgid "Stroke"
+msgstr "笔刷"
+
+msgid "Snap"
+msgstr "吸附"
+
+msgid "Stabilize"
+msgstr "稳定"
+
+msgid "Spacing Start"
+msgstr "间距 起始"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Retopoflow Tools Pie Menu"
+msgstr "Retopoflow 工具菜单"
+
+msgid "Poly Pen Insert Mode"
+msgstr "多边形笔刷插入模式"
+
+msgctxt "Operator"
+msgid "Edge"
+msgstr "边线"
+
+msgctxt "Operator"
+msgid "Tri/Quad"
+msgstr "三角/四边形"
+
+msgctxt "Operator"
+msgid "Triangle"
+msgstr "三角形"
+
+msgctxt "Operator"
+msgid "Quad"
+msgstr "四边形"
+
+msgid "Quad Stability"
+msgstr "四边形稳定性"
+
+msgid "PolyStrips"
+msgstr "多边形条带"
+
+msgid "Strokes"
+msgstr "笔触"
+
+msgid "Count"
+msgstr "数量"
+
+msgid "Blending"
+msgstr "混合"
+
+msgid "Contours"
+msgstr "轮廓线"
+
+msgid "Patches Orientation"
+msgstr "补丁方向"
+
+msgctxt "Operator"
+msgid "Raycast"
+msgstr "射线投射"
+
+msgctxt "Operator"
+msgid "Screen"
+msgstr "屏幕"
+
+msgctxt "Operator"
+msgid "Cut"
+msgstr "裁剪"
+
+msgctxt "Operator"
+msgid "PolyStrips"
+msgstr "多边形条带"
+
+msgctxt "Operator"
+msgid "Tweak"
+msgstr "调整"
+
+msgctxt "Operator"
+msgid "Contours"
+msgstr "轮廓线"
+
+msgctxt "Operator"
+msgid "Strokes"
+msgstr "笔触"
+
+msgctxt "Operator"
+msgid "Patches"
+msgstr "补丁"
+
+msgctxt "Operator"
+msgid "PolyPen"
+msgstr "多边形画笔"
+
+msgid "You can assign a custom hotkey for any tool by:"
+msgstr "您可以为任何工具分配自定义快捷键："
+
+msgid "1. Right Clicking"
+msgstr "1. 右键点击"
+
+msgid "2. Choosing Assign Shortcut"
+msgstr "2. 选择“分配快捷键”"
+
+msgid "Loops Mode"
+msgstr "循环模式"
+
+msgid "Transform"
+msgstr "变换"
+
+msgid "Curve Handles"
+msgstr "曲线手柄"
+
+msgid "Density"
+msgstr "密度"
+
+msgid "Selection"
+msgstr "选择"
+
+msgid "Mouse"
+msgstr "鼠标"
+
+msgid "Keyboard"
+msgstr "键盘"
+
+msgid "How many curve handles to show on the selection"
+msgstr "在选中对象上显示多少个曲线手柄"
+
+msgid "Corner Angle"
+msgstr "角角度"
+
+msgid "Deflection angle beyond which a vert always gets its own (vector) curve handle, regardless of the Density setting"
+msgstr "超过该角度的顶点总是获得自己的（向量）曲线手柄，无论密度设置如何"
+
+msgid "Axes"
+msgstr "轴"
+
+msgid "Enables the mirror modifier on the X, Y, or Z axis"
+msgstr "启用镜像修改器在 X、Y 或 Z 轴上"
+
+msgid "Keeps vertices stuck to the mirror axis during transforms"
+msgstr "在变换过程中保持顶点固定在镜像轴上"
+
+msgid "RetopoFlow Tool"
+msgstr "RetopoFlow 工具"
+
+msgid "RetopoFlow Tool to select after loading from file"
+msgstr "从文件加载后选择 RetopoFlow 工具"
+
+msgid "Retopology Offset"
+msgstr "拓扑偏移量"
+
+msgid "Controls the size of Blender's retopology overlay (how much it pokes through the mesh) and some of Retopoflow's effects that are based on it"
+msgstr "控制 Blender 的拓扑覆盖层大小（它穿透网格的程度）以及基于它的部分 Retopoflow 效果"
+
+msgid "Auto Merge Distance"
+msgstr "自动合并距离"
+
+msgid "Distance on screen within which Auto Merge welds a moved vertex into another. Also caps the merge in 3D, by projecting this same distance to the vertex's own depth, so a vertex hidden behind another is not welded just for lining up on screen"
+msgstr "屏幕上自动合并焊接移动顶点到另一个顶点的距离。同时也限制 3D 中的合并，通过将相同的距离投影到顶点的自身深度，因此隐藏在另一顶点后面的顶点不会仅仅因为屏幕对齐而被焊接"
+
+msgid "Snap to Surface"
+msgstr "吸附到表面"
+
+msgid "Snaps the vertices to the visible source objects"
+msgstr "将顶点吸附到可见的源对象"
+
+msgid "Merge by Distance"
+msgstr "按距离合并"
+
+msgid "Finds groups of vertices closer than the threshold and merges them together"
+msgstr "查找距离阈值更近的顶点组并将其合并"
+
+msgid "Merge Threshold"
+msgstr "合并阈值"
+
+msgid "Vertices less than this distance from each other will get merged together"
+msgstr "距离小于此值的顶点将合并在一起"
+
+msgid "Delete Loose Verts"
+msgstr "删除多余顶点"
+
+msgid "Deletes vertices not connected to any edges"
+msgstr "删除未连接到任何边的顶点"
+
+msgid "Delete Faceless Edges"
+msgstr "删除无面边缘"
+
+msgid "Deletes Edges that have no faces"
+msgstr "删除没有面的边"
+
+msgid "Delete Interior Faces"
+msgstr "删除内部面"
+
+msgid "Deletes faces that are inside manifold geometry"
+msgstr "删除位于流形几何体内部的顶点"
+
+msgid "Delete N-Gons"
+msgstr "删除 N 边形"
+
+msgid "Deletes faces that have more than four sides"
+msgstr "删除边数大于四的面"
+
+msgid "Fill Holes"
+msgstr "填充孔洞"
+
+msgid "Fills boundary edges with faces"
+msgstr "用面填充边界边"
+
+msgid "Recalculate Normals"
+msgstr "重新计算法线"
+
+msgid "Computes an “outside” normal"
+msgstr "计算“外部”法线"
+
+msgid "Flip Normals"
+msgstr "翻转法线"
+
+msgid "Flips the normals after they are recalculated"
+msgstr "在重新计算后翻转法线"
+
+msgid "Triangulate Concave Faces"
+msgstr "三角化凹面"
+
+msgid "Splits concave faces so that all resulting faces are convex"
+msgstr "将凹面分割，使所有生成的面都变为凸面"
+
+msgid "Triangulate Non-Planar Faces"
+msgstr "三角化非共面面"
+
+msgid "Splits faces that are not flat"
+msgstr "分割不平坦的面"
+
+msgid "Triangulate N-gons"
+msgstr "三角化 N 边形"
+
+msgid "Splits n-gons, into quads if possible"
+msgstr "将 N 边形分割为尽可能多的四边形"
+
+msgid "Include Pins"
+msgstr "包含钉点"
+
+msgid "Allow pinned vertices to be affected"
+msgstr "允许被钉住的顶点受到影响"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "How the mirrored geometry is previewed"
+msgstr "镜像几何体的预览方式"
+
+msgid "The mirrored geometry is not previewed"
+msgstr "不预览镜像几何体"
+
+msgid "Applied"
+msgstr "已应用"
+
+msgid "The mirrored geometry is displayed as applied to the vertices"
+msgstr "镜像几何体已应用于顶点显示"
+
+msgid "Wire"
+msgstr "线框"
+
+msgid "The mirrored geometry is overlaid as a wireframe"
+msgstr "镜像几何体以线框形式叠加显示"
+
+msgid "Solid"
+msgstr "实体"
+
+msgid "The mirrored geometry is overlaid as a solid object"
+msgstr "镜像几何体被叠加为实体对象"
+
+msgid "Displace"
+msgstr "置换"
+
+msgid "Displaces non-boundary vertices as a factor of the retopology overlay distance for better visibility. If the effect is too extreme, you likely need to reduce the retopology overlay distance instead."
+msgstr "将非边界顶点沿拓扑覆盖距离的比例进行位移，以获得更好的可见性。如果效果过于极端，您可能需要减小拓扑覆盖距离。"
+
+msgid "Displace Boundaries"
+msgstr "位移边界"
+
+msgid "Include mesh boundaries in the displacement"
+msgstr "在置换中包含网格边界"
+
+msgid "Displace Connected"
+msgstr "位移连接"
+
+msgid "Include vertices connected to the original mesh (usually along the center line) in the displacement"
+msgstr "包含与原始网格连接的顶点（通常沿中心线）进行位移"
+
+msgid "Wireframe"
+msgstr "线框图"
+
+msgid "Displays the wireframe on top of the mirrored geometry"
+msgstr "在镜像几何体上方显示线框图"
+
+msgid "Wire Thickness"
+msgstr "线框厚度"
+
+msgid "Size of the wireframe display in world space"
+msgstr "世界空间中线框图的尺寸"
+
+msgid "Controls how solid or transparent the mirror preview is"
+msgstr "控制镜像预览的实心或透明程度"
+
+msgid "Occluded"
+msgstr "遮挡"
+
+msgid "Include vertices that are hidden behind other geometry"
+msgstr "包含被其他几何体遮挡的顶点"
+
+msgid "Include vertices that have been pinned by Retopoflow"
+msgstr "包含被 Retopoflow 固定的顶点"
+
+msgid "All Islands"
+msgstr "所有岛屿"
+
+msgid "Transform every mesh island under the brush. When off, only the island nearest the brush center is affected"
+msgstr "转换画笔下的每个网格岛。当关闭时，仅影响离画笔中心最近的岛屿"
+
+msgid "Mask Boundary"
+msgstr "边界遮罩"
+
+msgid "Relax vertices along boundary, but move them by sliding along boundary"
+msgstr "沿边界松弛顶点，但通过沿边界滑动移动它们"
+
+msgid "Mask Symmetry"
+msgstr "对称性遮罩"
+
+msgid "How to handle geometry near symmetry plane"
+msgstr "如何处理靠近对称平面的几何体"
+
+msgid "Relax vertices regardless of being along symmetry plane"
+msgstr "无论是否位于对称平面都松弛顶点"
+
+msgid "Relax vertices along symmetry plane, but move them by sliding along symmetry plane"
+msgstr "沿对称面松弛顶点，但通过沿对称面滑动移动它们"
+
+msgid "Do not relax vertices along symmetry plane"
+msgstr "不沿对称面松弛顶点"
+
+msgid "Mask Selected"
+msgstr "选中遮罩"
+
+msgid "How to handle selected geometry"
+msgstr "如何处理选定的几何体"
+
+msgid "Relax vertices regardless of selection"
+msgstr "忽略选择，放松顶点"
+
+msgid "Mask Creases"
+msgstr "遮罩折痕"
+
+msgid "Relax vertices along a crease, but move them by sliding along the crease"
+msgstr "沿折痕放松顶点，但通过沿折痕滑动来移动它们"
+
+msgid "Do not relax vertices along a crease"
+msgstr "不沿折痕放松顶点"
+
+msgid "Mask Sharps"
+msgstr "遮罩锐边"
+
+msgid "How to handle edges marked as sharp"
+msgstr "如何处理标记为锐边的边缘"
+
+msgid "Relax vertices along a sharp edge, but move them by sliding along it"
+msgstr "沿锐边放松顶点，但通过沿其滑动来移动它们"
+
+msgid "Do not relax vertices along a sharp edge"
+msgstr "不沿锐边放松顶点"
+
+msgid "Mask Seams"
+msgstr "遮罩接缝"
+
+msgid "How to handle seams"
+msgstr "如何处理接缝"
+
+msgid "Relax vertices regardless of being along a seams"
+msgstr "无论是否沿接缝，都放松顶点"
+
+msgid "Relax vertices along a seams, but move them by sliding along it"
+msgstr "仅沿接缝放松顶点，但使其沿接缝滑动移动"
+
+msgid "Do not relax vertices along a seams"
+msgstr "不沿接缝放松顶点"
+
+msgid "Mask Angle"
+msgstr "角度遮罩"
+
+msgid "Angle Threshold"
+msgstr "角度阈值"
+
+msgid "Exclude Non-selected"
+msgstr "排除未选中项"
+
+msgid "Only selected objects in Object Mode are considered as valid sources. This allows you to manage what you snap to in the Outliner"
+msgstr "在对象模式下，只有选中的对象被视为有效源。这允许您在大纲视图中管理要吸附的对象"
+
+msgid "Source Object"
+msgstr "源对象"
+
+msgid "Source Collection"
+msgstr "源集合"
+
+msgid "Automatically rebuild the source feature cache when entering RetopoFlow, when detection settings change, or when a source mesh is edited. Turn off to keep the cache frozen and rebuild only with the Rebuild Source Cache button"
+msgstr "进入 RetopoFlow 时、检测设置更改时或源网格被编辑时自动重建源特征缓存。关闭此选项可保持缓存冻结，仅通过“重建源缓存”按钮进行重建"
+
+msgid "Batch Size (12^n)"
+msgstr "批量大小 (12^n)"
+
+msgid "Chunk size exponent for incremental source-cache rebuilding. Actual chunk size is 12^n for both edge and vertex chunks. Higher n rebuilds faster but can reduce UI responsiveness"
+msgstr "增量源缓存重建的块大小指数。实际块大小为 12^n（适用于边和顶点块）。更高的 n 值会更快重建但可能降低 UI 响应速度"
+
+msgid "Snap vertices to the creases of the high poly mesh"
+msgstr "将顶点吸附到高多边形网格的边缘处"
+
+msgid "Snap vertices to the seams of the high poly mesh"
+msgstr "将顶点吸附到高多边形网格的接缝处"
+
+msgid "Snap vertices to the sharps of the high poly mesh"
+msgstr "将顶点吸附到高多边形网格的锐角处"
+
+msgid "How difficult it is to drag a snapped vertex back off of a feature edge or corner"
+msgstr "拖拽已吸附的顶点离开特征边或角的难度"
+
+msgid "How strongly the nearest retopo loop is attracted to the source edge while competing loops are kept away"
+msgstr "在竞争循环被推开的同时，最近的重拓扑环被吸引到源边的程度"
+
+msgid "How vertices are projected onto the source mesh during tweaking"
+msgstr "调整期间顶点如何投影到源网格上"
+
+msgid "Automatically choose screen space or world space projection based on the selection"
+msgstr "根据选择自动选择屏幕空间或世界空间投影"
+
+msgid "Always project using Face Project (screen space)"
+msgstr "始终使用面投影（屏幕空间）"
+
+msgid "Always project using Face Nearest (world space)"
+msgstr "始终使用最近面投影（世界空间）"
+
+msgid "Follow Blender"
+msgstr "跟随 Blender"
+
+msgid "Use Blender's current snap_elements_individual setting without overriding it"
+msgstr "在不覆盖的情况下使用 Blender 当前的 snap_elements_individual 设置"
+
+msgid "Correct Face Normals"
+msgstr "修正法线"
+
+msgid "Point newly created and transformed faces outwards, matching the nearest surface on the source mesh where there is one and the surrounding faces where there is not"
+msgstr "将新创建和变换的面指向外部，在有源网格最近表面的地方与周围表面匹配，在没有的地方则指向周围面"
+
+msgid "Vertex"
+msgstr "顶点"
+
+msgid "Snap to vertices"
+msgstr "吸附到顶点"
+
+msgid "Edge"
+msgstr "边"
+
+msgid "Snap to edges"
+msgstr "吸附到边"
+
+msgid "Edge Center"
+msgstr "边缘中心"
+
+msgid "Snap to edge midpoints"
+msgstr "吸附到边中点"
+
+msgid "Edge Perpendicular"
+msgstr "边垂直"
+
+msgid "Snap to perpendicular points on edges"
+msgstr "吸附到边的垂足点"
+
+msgid "Face Center"
+msgstr "面心"
+
+msgid "Snap to face centers"
+msgstr "吸附到面的中心"
+
+msgid "Span Count"
+msgstr "跨度数"
+
+msgid "Number of vertices to create in a new cut"
+msgstr "新切割中创建的顶点数量"
+
+msgid "Loop Count"
+msgstr "环数"
+
+msgid "Number of loops to create when extruding"
+msgstr "挤出时创建的环的数量"
+
+msgid "Process Source Method"
+msgstr "处理源方法"
+
+msgid "Source processing method"
+msgstr "源处理方法"
+
+msgid "Walk"
+msgstr "行走"
+
+msgid ""
+"Walks every face along the source mesh. \n"
+"Slow on high res models but very accurate. \n"
+"Only supports manifold geometry."
+msgstr ""
+"沿源网格遍历每个面。  \n"
+"高分辨率模型上速度较慢，但非常精确。  \n"
+"仅支持流形几何体。"
+
+msgid "SDF"
+msgstr "SDF"
+
+msgid ""
+"Builds a distance testing grid around the source mesh and iteratively refines it. \n"
+"This method can process extremely high poly sources fairly quickly and can handle flipped normals, split edges, and overhangs. Does not work on thin surfaces."
+msgstr "围绕源网格构建距离测试网格，并迭代优化。此方法可以快速处理极多面数的源对象，能够处理法线翻转、分割边和悬垂结构。不适用于薄表面。"
+
+msgid "Fast"
+msgstr "快速"
+
+msgid ""
+"Raycasts into the mesh to find its volume center, raycasts in a circle to find the surface, then refines that result with... more raycasts. \n"
+"Very fast but less accurate, especially with smaller extrusions and overhangs. Does not work on thin surfaces."
+msgstr "向网格发射射线以找到其体积中心，在圆周上发射射线以找到表面，然后用更多的射线对结果进行细化。速度非常快但精度较低，特别是在小挤出和悬垂的情况下。不适用于薄表面。"
+
+msgid "Cut Orientation"
+msgstr "切割方向"
+
+msgid "How the cut plane normal is aligned. Controls which axis the loop encircles"
+msgstr "切割平面法线的对齐方式。控制环所环绕的轴。"
+
+msgid "World"
+msgstr "世界轴"
+
+msgid "Align to the closest world axis"
+msgstr "与最近的 world axis 对齐"
+
+msgid "Align to the closest local axis of the source object"
+msgstr "与源对象的最近局部轴对齐"
+
+msgid "Normal"
+msgstr "法线"
+
+msgid "Align to the face normal under the stroke"
+msgstr "与笔触下方的面法线对齐"
+
+msgid "View"
+msgstr "视图"
+
+msgid "Align to the stroke direction on screen"
+msgstr "在屏幕上与笔触方向对齐"
+
+msgid "Depth"
+msgstr "深度"
+
+msgid ""
+"Number of surfaces to pass through when raycasting. \n"
+"For example, a regular cylinder needs 1 while a solidified cylinder needs 2. \n"
+"Increase when the loop gets stuck inside the source or decrease if it gets stuck to background surfaces."
+msgstr ""
+"射线投射时穿过的表面数量。\n"
+"例如，普通圆柱体需要 1，而实体化圆柱体需要 2。\n"
+"如果循环卡住源对象内部则增加此值，如果卡住背景表面则减少此值."
+
+msgid "Refinement Steps"
+msgstr "细化步骤"
+
+msgid "Number of post processing iterations to refine the sampled cut along the surface."
+msgstr "沿表面采样的切线进行细化迭代次数。"
+
+msgid "Samples"
+msgstr "示例"
+
+msgid "The number of rays to fire from the volume center to find the surface"
+msgstr "从体积中心发射的射线数量，用于查找表面"
+
+msgid "Sample Width"
+msgstr "采样宽度"
+
+msgid "The width of extra 2 sample points along the stroke that help triangulate the volume center. Both points should be over the surface you want to wrap around."
+msgstr "沿路径额外添加的 2 个采样点，用于辅助三角化体积中心。这两个点都应位于您希望包裹的表面之上。"
+
+msgid "Step Size"
+msgstr "步长"
+
+msgid "Multiplier for how far each step travels along the cross-section. Smaller values trace detailed surfaces more accurately but require more steps"
+msgstr "沿截面每步移动的倍率。较小的值能更准确地追踪详细表面，但需要更多步骤。"
+
+msgid "Grid Size"
+msgstr "网格大小"
+
+msgid "The initial size of the sampling grid, as a fraction of the stroke. Smaller is more accurate but slower to compute."
+msgstr "采样网格的初始大小，占笔触的比例。越小越精确但计算速度越慢。"
+
+msgid "Pixel Refine"
+msgstr "像素细化"
+
+msgid ""
+"Adaptive 3x3 subdivision passes over cells near the boundary. \n"
+"Raise to separate thin surfaces or objects that are close to but not quite touching."
+msgstr ""
+"边界附近的单元格自适应 3x3 细分。\n"
+"将薄表面或物体分开，"
+
+msgid "Number of adaptive subdivision passes and raycasts to refine the cut along the surface."
+msgstr "使其接近但不接触。|||~|||自适应细分次数和射线投射数量，"
+
+msgid "Grid Scale"
+msgstr "用于细化沿表面的切割。|||~|||网格尺度|||~|||网格边界相对于测量体积的大小。"
+
+msgid ""
+"How large the boundary of the grid is compared to the measured volume. \n"
+"Smaller is more accurate for the same performance but more likely to miss areas in complex objects"
+msgstr ""
+"网格边界相对于测量体积的大小。\n"
+"对于相同的性能，越小越准确，但更有可能遗漏复杂物体中的区域。"
+
+msgid "Curvature Bias"
+msgstr "曲率偏差"
+
+msgid "Blend between even spacing (0.0) and pure curvature/RDP placement (1.0). At 0.5, high-deviation points are placed by shape and low-deviation points spread evenly"
+msgstr "在均匀间距（0.0）和纯曲率/RDP 放置（1.0）之间进行混合。在 0.5 时，高偏差点由形状确定，低偏差点均匀分布。"
+
+msgid "Space Evenly"
+msgstr "均匀分布"
+
+msgid "0.0 = keep bridge snap result as-is, 1.0 = space verts evenly around the path"
+msgstr "0.0 = 保持桥接吸附结果不变，1.0 = 沿路径均匀分布顶点"
+
+msgid "Subdivisions"
+msgstr "细分"
+
+msgid "Refinement"
+msgstr "优化"
+
+msgid "Ray Depth"
+msgstr "射线深度"
+
+msgid "Loop Cut"
+msgstr "环切"
+
+msgid "Strip Cut"
+msgstr "切片切割"
+
+msgid "Cyclic"
+msgstr "循环"
+
+msgid "Orientation"
+msgstr "方向"
+
+msgid "Spans"
+msgstr "跨度"
+
+msgid "Cuts"
+msgstr "切口数"
+
+msgid "Curvature"
+msgstr "曲率"
+
+msgid "Extrude Loop"
+msgstr "挤出环"
+
+msgid "Extrude Strip"
+msgstr "挤出切片"
+
+msgid "Flip"
+msgstr "翻转"
+
+msgid "Contours: Insert Stroke"
+msgstr "轮廓：插入描边"
+
+msgid "Insert cut and extrude edges into a patch"
+msgstr "在补丁中插入切割和挤出边"
+
+msgid "Rotate Cut"
+msgstr "旋转切割"
+
+msgid "Rotate cut"
+msgstr "旋转切割"
+
+msgid "Cyclic Cut"
+msgstr "循环切割"
+
+msgid "Force cut to be cyclic or strip"
+msgstr "强制切割为循环或条状"
+
+msgid "Flip the normals of the created faces. Use when retopologizing the inside of a solidified mesh"
+msgstr "翻转所创建面的法线。在重新拓扑实体网格内部时使用。"
+
+msgid "Retopologize cylindrical forms, like arms and legs"
+msgstr "对圆柱形形状进行重新拓扑，例如手臂和腿部"
+
+msgid "LMB: Insert"
+msgstr "左键：插入"
+
+msgid "Tweak Loops"
+msgstr "调整环线"
+
+msgid "Select and transform loops while tweaking edges with the mouse"
+msgstr "用鼠标调整边时选择和变换环线"
+
+msgctxt "Operator"
+msgid "Contours: Adjust Twist"
+msgstr "轮廓：调整扭转"
+
+msgid "Rotate selected loop about its plane (Alt R)"
+msgstr "绕平面旋转选定的环 (Alt R)"
+
+msgid "Insert"
+msgstr "插入"
+
+msgid "New Loop"
+msgstr "新环"
+
+msgid "New Strip"
+msgstr "新条带"
+
+msgid "Not enough points to fit plane: {len(npoints)}"
+msgstr "点数不足以拟合平面：{len(npoints)}"
+
+msgid "radial rays ({nsamples})"
+msgstr "径向射线 ({nsamples})"
+
+msgid "refinement ({fast_refine_steps} steps)"
+msgstr "细化 ({fast_refine_steps} 步)"
+
+msgid "cell size"
+msgstr "单元大小"
+
+msgid "region grow ({len(band)} cells, {total_cell_queries} queries)"
+msgstr "区域生长（{len(band)} 个单元格，{total_cell_queries} 次查询）"
+
+msgid "grid pack ({RX}x{RY} cells, {res_x}x{res_y} coarse, fine_count={fine_count})"
+msgstr "网格打包（{RX}x{RY} 个单元格，{res_x}x{res_y} 粗粒度，fine_count={fine_count})"
+
+msgid "grid classify ({RX}x{RY} cells, {res_x}x{res_y} coarse, fine_count={fine_count})"
+msgstr "网格分类（{RX}x{RY} 个单元格，{res_x}x{res_y} 粗粒度，fine_count={fine_count})"
+
+msgid "boundary march ({len(corners)} corners)"
+msgstr "边界追踪（{len(corners)} 个角点）"
+
+msgid "snap ({len(points_world)} pts)"
+msgstr "吸附（{len(points_world)} 个点）"
+
+msgid "refinement ({sdf_refine_steps} steps)"
+msgstr "细化（{sdf_refine_steps} 步）"
+
+msgid "face graph ({len(bmf_graph)} faces)"
+msgstr "面图（{len(bmf_graph)} 个面）"
+
+msgid "find path/cycle ({len(path)} faces, cyclic={cyclic})"
+msgstr "查找路径/环（{len(path)} 个面，cyclic={cyclic})"
+
+msgid "WALK  faces={len(hit_bm.faces)}  path={len(path)}  cyclic={cyclic}"
+msgstr "WALK  faces={len(hit_bm.faces)}  path={len(path)}  cyclic={cyclic}"
+
+msgid "BFS ({len(face_graph)} faces, {len(dist_cache)} dists)"
+msgstr "BFS ({len(face_graph)} 个面，{len(dist_cache)} 个距离)"
+
+msgid "WALK(lazy)  mesh={md.n_faces}  path={len(path)}  dists={len(dist_cache)}  cyclic={cyclic}"
+msgstr "WALK(lazy) mesh={md.n_faces} path={len(path)} dists={len(dist_cache)} cyclic={cyclic}"
+
+msgid "{_total}s  total"
+msgstr "{_total}s 总计"
+
+msgid "Toggle vertex type"
+msgstr "切换顶点类型"
+
+msgid "Toggle type of hovered vertex"
+msgstr "切换悬停顶点的类型"
+
+msgid "Set vertex type"
+msgstr "设置顶点类型"
+
+msgid "Set type of hovered vertex"
+msgstr "设置悬停顶点的类型"
+
+msgid "Insert loop"
+msgstr "插入环线"
+
+msgid "Inserts a loop at ring of hovered ring"
+msgstr "在悬停环的环上插入一个环线"
+
+msgid "Create patch"
+msgstr "创建补丁"
+
+msgid "Create the patch"
+msgstr "创建补丁"
+
+msgid "Reset patch info"
+msgstr "重置补丁信息"
+
+msgid "Reset patch information"
+msgstr "重置补丁信息"
+
+msgid "Increase Offset"
+msgstr "增加偏移量"
+
+msgid "Increase outer ring offset in patch"
+msgstr "增加补丁中的外环偏移量"
+
+msgid "Decrease Offset"
+msgstr "减少偏移量"
+
+msgid "Decrease outer ring offset in patch"
+msgstr "减少补丁中的外环偏移量"
+
+msgid "Toggle Cap"
+msgstr "切换帽 |"
+
+msgid "Toggle cap in patch"
+msgstr "在补丁中切换帽"
+
+msgid "Unset loops"
+msgstr "取消循环"
+
+msgid "Unset loop count in patch"
+msgstr "未设置循环次数"
+
+msgid "Increase loops"
+msgstr "增加环数"
+
+msgid "Increase loops in patch"
+msgstr "增加补丁中的环数"
+
+msgid "Decrease loops"
+msgstr "减少循环数"
+
+msgid "Decrease loops in patch"
+msgstr "减少补丁中的环数"
+
+msgid "Patches"
+msgstr "补丁"
+
+msgid "Insert patch"
+msgstr "插入补丁"
+
+msgid "Patches Selection Overlay"
+msgstr "补丁选择覆盖层"
+
+msgid "Fill holes and retopologize patches."
+msgstr "填充孔洞并重新拓扑补丁。"
+
+msgid "a temporary vertex type indicating actual type has not yet been assigned"
+msgstr "一个临时的顶点类型，表示实际类型尚未分配"
+
+msgid "vertex is at the center of the patch, and its type has no effect"
+msgstr "顶点位于补丁的中心，其类型没有影响"
+
+msgid "vertex is an outer corner of face by temporarily spawning an inner vertex and then merging that inner vertex with two vertices on either side"
+msgstr "顶点是面的外角，通过临时生成一个内顶点然后将其与两侧的两个顶点合并来创建该顶点"
+
+msgid "vertex is an outer corner of face, but it does not spawn an inner vertex"
+msgstr "顶点是面的外角，但不会生成内顶点"
+
+msgid "vertex spawns an inner vertex but without an edge between"
+msgstr "顶点会生成一个内顶点，但没有边连接"
+
+msgid "vertex spawns an inner vertex with an edge between"
+msgstr "顶点会生成一个内顶点，并且有边连接"
+
+msgid "vertex spawns two inner vertices with edges between adjacent vertices, creating a triangle"
+msgstr "顶点会生成两个内顶点，相邻顶点之间有边连接，形成三角形"
+
+msgid "vertex spawns three inner vertices with edges between adjacent vertices, creating a quad"
+msgstr "顶点会生成三个内顶点，相邻顶点之间有边连接，形成四边形"
+
+msgid "Insert:"
+msgstr "插入:"
+
+msgid "Retopoflow Patches Templates"
+msgstr "Retopoflow 面片模板"
+
+msgid "Orient new patch based on normal under mouse"
+msgstr "根据鼠标下方的法线定向新面片"
+
+msgid "Orient new patch to be aligned with view"
+msgstr "将新补丁朝向与视图对齐"
+
+msgid "Use cuts to orient new patch"
+msgstr "使用切割来定向新补丁"
+
+msgid "Set Patches Insert Mode to {label}"
+msgstr "设置补丁插入模式为 {label}"
+
+msgid "Patches Template"
+msgstr "补丁模板"
+
+msgid "Insert templated geometry"
+msgstr "插入模板几何体"
+
+msgid "Orientation for Patches"
+msgstr "补丁的朝向"
+
+msgid "Scale"
+msgstr "缩放"
+
+msgid "Amount to scale the patch"
+msgstr "缩放补丁的量"
+
+msgid "Rotate"
+msgstr "旋转"
+
+msgid "Angle to rotate the patch"
+msgstr "旋转补丁的角度"
+
+msgid "Shift Patch Topology"
+msgstr "偏移拓扑"
+
+msgid "Number of edges to shift the patch topology based on snapped-to geometry"
+msgstr "基于吸附几何体来偏移拓扑的边数"
+
+msgid "Mirror X-Axis"
+msgstr "镜像 X 轴"
+
+msgid "Mirror the patch topology along X-axis"
+msgstr "沿 X 轴镜像拓扑"
+
+msgid "Mirror Y-Axis"
+msgstr "镜像 Y 轴"
+
+msgid "Mirror the patch topology along Y-axis"
+msgstr "沿 Y 轴镜像拓扑"
+
+msgid "Mirror Z-Axis"
+msgstr "镜像 Z 轴"
+
+msgid "Mirror the patch topology along Z-axis"
+msgstr "沿 Z 轴镜像拓扑"
+
+msgid "Snap Threshold"
+msgstr "吸附阈值"
+
+msgid "Minimum distance threshold for snapping (relative to radius)"
+msgstr "吸附的最小距离阈值（相对于半径）"
+
+msgid "WARNING: UNHANDLED ORIENTATION: {orientation}"
+msgstr "警告：未处理的朝向：{orientation}"
+
+msgid "Patches Templates"
+msgstr "补丁模板"
+
+msgid "Patches: Drag in template"
+msgstr "补丁：拖入模板"
+
+msgid "Add template"
+msgstr "添加模板"
+
+msgid "Insert vertices only"
+msgstr "仅插入顶点"
+
+msgid "Insert edges only"
+msgstr "仅插入边"
+
+msgid "Triangle"
+msgstr "三角形"
+
+msgid "Insert triangles only"
+msgstr "仅插入三角形"
+
+msgid "Tri/Quad"
+msgstr "三角/四边形"
+
+msgid "Insert triangles then quads"
+msgstr "先插入三角形，再插入四边形"
+
+msgid "Quad"
+msgstr "四边形"
+
+msgid "Insert quads only"
+msgstr "仅插入四边形"
+
+msgid "Set PolyPen Insert Mode to {label}"
+msgstr "将 PolyPen 插入模式设置为 {label}"
+
+msgid "Set PolyPen Quad Stability to {value}"
+msgstr "将 PolyPen 四边形稳定性设置为 {value}"
+
+msgid "PolyPen"
+msgstr "PolyPen"
+
+msgid "Create complex topology on vertex-by-vertex basis"
+msgstr "基于顶点创建复杂拓扑结构"
+
+msgid "Insert Mode"
+msgstr "插入模式"
+
+msgid "Insertion mode for PolyPen"
+msgstr "PolyPen 的插入方式"
+
+msgid "Stability of parallel edges"
+msgstr "平行边的稳定性"
+
+msgid "Knife Junctions"
+msgstr "刀口连接"
+
+msgid "Insert junctions automatically when knifing across adjacent edges in quads"
+msgstr "自动在切割相邻边时插入连接点"
+
+msgid "Constrain"
+msgstr "约束"
+
+msgid "Snaps new verts knifed into an edge to that edge"
+msgstr "将新切割顶点吸附到边上"
+
+msgid "Loop Cuts"
+msgstr "循环切割"
+
+msgid "Allow PolyPen's knife to follow along quad loops"
+msgstr "允许 PolyPen 的刀具沿四边形环切割"
+
+msgid "Show Bézier curve control handles on selected edge strips and loops"
+msgstr "在选定的边环和环上显示贝塞尔曲线控制手柄"
+
+msgid "Knife:"
+msgstr "刀具:"
+
+msgid "Junctions"
+msgstr "连接点"
+
+msgid "Split Angle"
+msgstr "分割角度"
+
+msgid "Angle threshold (in degrees) where the stroke is split to create a corner"
+msgstr "角度阈值（以度为单位），在此角度处将笔触分割以创建拐角"
+
+msgid "Mirror Correct Side"
+msgstr "镜像校正侧"
+
+msgid "Select how to determine correct side of mirror"
+msgstr "选择如何确定镜子的正确侧面"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "Start of stroke determines correct side of mirror"
+msgstr "镜像的哪一侧正确取决于起始笔触"
+
+msgid "End of stroke determines correct side of mirror"
+msgstr "确定镜像的正确一侧"
+
+msgid "Most"
+msgstr "大多数"
+
+msgid "Side of mirror with majority of stroke is correct"
+msgstr "镜子的侧面，大部分笔触是正确的"
+
+msgid "Insert PolyStrip"
+msgstr "插入多边形条带"
+
+msgid "Insert quad strip"
+msgstr "插入四边条带"
+
+msgid "Total number of quads in the strip. Cannot go lower than the number of corners."
+msgstr "条带中的四边形总数。不能低于角数。"
+
+msgid "Width scale factor at the start of the stroke."
+msgstr "起始处的宽度缩放因子."
+
+msgid "Width scale factor at the end of the stroke."
+msgstr "结束处的宽度缩放因子."
+
+msgid "Interpolation"
+msgstr "插值"
+
+msgid "How the width scale transitions from the start of the stroke to the end"
+msgstr "从描线的起点到终点，宽度缩放的过渡方式"
+
+msgid "Width scale changes at a constant rate from start to end"
+msgstr "宽度缩放以恒定速率从起点变化到终点"
+
+msgid "Width scale eases in and out at the start and end"
+msgstr "宽度缩放在起点和终点处平滑加速和减速"
+
+msgid "Align Snapped"
+msgstr "对齐吸附"
+
+msgid "Where the strip welds to existing edges, angle its rungs to continue the direction of those edges, fanning outwards, instead of using the stroke's direction"
+msgstr "当条带焊接到现有边缘时，使其横杆旋转以延续这些边缘的方向，向外扇形展开，而不是使用描线的方向"
+
+msgid "Mirror Side"
+msgstr "镜像侧"
+
+msgid "Size Method"
+msgstr "尺寸方法"
+
+msgid "Controls how the width and quad count of the inserted strip are determined"
+msgstr "控制插入的条带的宽度和四边形数量的确定方式"
+
+msgid "Brush"
+msgstr "笔刷"
+
+msgid "Sizes the strip to the brush radius"
+msgstr "将条带调整为画笔半径"
+
+msgid "Snapped"
+msgstr "吸附"
+
+msgid "Sizes the strip to the edges it connects to. Falls back to the brush radius when neither end is snapped"
+msgstr "将条带调整至其连接的边缘。如果两端均未吸附，则回退到画笔半径。"
+
+msgid "Length"
+msgstr "长度"
+
+msgid "Sizes each quad to match a world space length"
+msgstr "将每个四边形的尺寸调整为匹配世界空间长度"
+
+msgid "Number of quads to create along the strip when Size Method is set to Fixed"
+msgstr "沿条带创建的四边形数量（当大小方法设置为固定时）"
+
+msgid "World space length of each quad along the strip when Size Method is set to Length"
+msgstr "当“大小方法”设置为长度时，每个四边形在条带上的世界空间长度"
+
+msgid "Radius of the brush in Blender UI units before it gets projected onto the mesh"
+msgstr "Blender 界面中画笔在投影到网格之前的半径"
+
+msgid "Stroke smoothing factor.  Zero means no smoothing, and higher means more smoothing."
+msgstr "描边平滑因子。零表示无平滑，更高的值表示更多的平滑。"
+
+msgid "stroke totally inside the hovered face"
+msgstr "描边完全在悬停的面内"
+
+msgid "Relax"
+msgstr "放松"
+
+msgid "Relax the vertex positions to smooth out topology"
+msgstr "放松顶点位置以平滑拓扑"
+
+msgid "LMB: Relax"
+msgstr "左键：放松"
+
+msgid "How much strength the outside of the brush has as compared to the center"
+msgstr "画笔外部相对于中心的强度"
+
+msgid "Strength of Brush"
+msgstr "画笔强度"
+
+msgid "How Relax updates the position of the vertices under the brush"
+msgstr "放松更新画笔下顶点的程度"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "Uses an automatic number of substeps based on the enabled options and vertex count to balance quality and performance"
+msgstr "根据启用的选项和顶点数使用自动子步数来平衡质量和性能"
+
+msgid "Substeps"
+msgstr "子步骤"
+
+msgid "Use multiple tiny incremental steps for classic smoothing behavior"
+msgstr "使用多个微小增量步实现经典平滑行为"
+
+msgid "RK4 (Experimental)"
+msgstr "RK4（实验性）"
+
+msgid "Use Runge-Kutta integration to improve stability while smoothing"
+msgstr "使用龙格 - 库塔积分法在平滑时提高稳定性"
+
+msgid "Algorithm: Iterations"
+msgstr "算法：迭代次数"
+
+msgid "Number of iterations per frame. Ignored if RK4 is enabled"
+msgstr "每帧的迭代次数。如果启用了 RK4，则此选项将被忽略"
+
+msgid "Algorithm: Max Distance (Radius)"
+msgstr "算法：最大距离 (半径)"
+
+msgid "Limit distance vertices are moved per iteration based on brush radius"
+msgstr "基于画笔半径限制每次迭代顶点移动的距离"
+
+msgid "Algorithm: Max Distance (Edges)"
+msgstr "算法：最大距离 (边)"
+
+msgid "Limit distance vertices are moved per iteration based on average length of connected edges"
+msgstr "基于连接边的平均长度限制每次迭代顶点移动的距离"
+
+msgid "Algorithm: Prevent Bounce"
+msgstr "算法：防止反弹"
+
+msgid "Try to prevent vertices from bouncing back and forth"
+msgstr "尝试防止顶点来回反弹"
+
+msgid "Algorithm: Average Edge Lengths"
+msgstr "算法：平均边长"
+
+msgid "Squash / stretch each edge toward the average edge length near the brush"
+msgstr "将每个边缘向刷子附近的平均边长方向挤压/拉伸"
+
+msgid "Algorithm: Straighten Edges"
+msgstr "算法：拉直边缘"
+
+msgid "Moves each vertex towards making its connected edges straighter"
+msgstr "使每个顶点的连接边缘更直的移动方式"
+
+msgid "Algorithm: Equalize Faces"
+msgstr "算法：均衡面"
+
+msgid "Moves vertices of each face to be even distance from and evenly spread around the face center while also averaging the side lengths and overall area. Slow but useful when other methods collapse faces too much"
+msgstr "移动每个面的顶点，使其与面中心保持相等距离并均匀分布，同时平均侧边长度和总面积。缓慢但有用，当其他方法导致面过度塌陷时使用"
+
+msgid "Algorithm: Correct Flipped Faces"
+msgstr "算法：纠正翻转的面"
+
+msgid "Try to move vertices so faces are not flipped"
+msgstr "尝试移动顶点使面不被翻转"
+
+msgid "Algorithm: Laplacian Smooth"
+msgstr "算法：拉普拉斯平滑"
+
+msgid "Average vertex locations similarly to Blender's smooth sculpting brush"
+msgstr "类似于 Blender 的平滑雕刻笔刷平均顶点位置"
+
+msgid "list[tuple] | None"
+msgstr "list[tuple] | None"
+
+msgid "initial setup"
+msgstr "初始设置"
+
+msgid "verts accel"
+msgstr "verts accel"
+
+msgid "{total_time}s total"
+msgstr "{total_time}s 总计"
+
+msgid "Timings for Relax_Logic.__init__()"
+msgstr "Relax_Logic.__init__() 的时间信息"
+
+msgid "T-Strip Extrapolation"
+msgstr "T-Strip Extrapolation"
+
+msgid "Controls how the new perpendicular edges are extrapolated from the selected edges when inserting T Strips"
+msgstr "控制插入 T Strip 时新垂直边如何从选定边进行外推"
+
+msgid "Flat"
+msgstr "Flat"
+
+msgid "Extrudes in a straight line"
+msgstr "沿直线挤出"
+
+msgid "Fan"
+msgstr "风扇"
+
+msgid "Fans the extrusion to match the curve of selected geometry"
+msgstr "使挤出匹配所选几何体的曲线"
+
+msgid "Follow"
+msgstr "跟随"
+
+msgid "Rotates the inserted spans to follow the curve of the stroke"
+msgstr "旋转插入的段以遵循笔触的曲线"
+
+msgid "Span Count Method"
+msgstr "段数方法"
+
+msgid "Controls the number of spans when inserting"
+msgstr "控制插入时的段数"
+
+msgid "Inserts spans the size of the brush"
+msgstr "插入刷大小的段"
+
+msgid "Fixed"
+msgstr "固定"
+
+msgid "Inserts a fixed number of spans"
+msgstr "插入固定数量的段"
+
+msgid "Average"
+msgstr "平均长度"
+
+msgid "Inserts spans based on average length of selected edges. If there are no selected edges it uses the brush radius"
+msgstr "根据选中边的平均长度插入跨度。如果没有选中的边，则使用画笔半径"
+
+msgid "Inserts spans sized to match a world space distance"
+msgstr "按世界空间距离设置跨度大小"
+
+msgid "Segment Length"
+msgstr "分段长度"
+
+msgid "World space distance for each span when Span Count Method is set to Length"
+msgstr "当“跨度计数方法”设置为“长度”时，每个跨度的世界空间距离"
+
+msgid "Cut Count"
+msgstr "切割数量"
+
+msgid "Number of vertices or loops to create in a new stroke"
+msgstr "在新笔画中创建的顶点或环的数量"
+
+msgid "Smooth Blending"
+msgstr "平滑混合"
+
+msgid "Factor for how much smoothing is applied to the interpolated loops when creating Equals Strips and I Strips. Zero is linear."
+msgstr "创建相等条带和 I 条带时对插值环应用的平滑度因子。零为线性"
+
+msgid "Start Spacing"
+msgstr "起始间距"
+
+msgid "Spacing of the interpolated loops near the start of the stroke"
+msgstr "插值循环在笔触起始处的间距"
+
+msgid "End Spacing"
+msgstr "结束间距"
+
+msgid "Spacing of the interpolated loops near the end of the stroke"
+msgstr "插值循环在笔触末尾的间距"
+
+msgid "To Circle"
+msgstr "圆"
+
+msgid "Blend the closed loop toward a best-fit circle on the source surface. Only affects new standalone closed loops."
+msgstr "在源表面上将闭合环拟合到最佳圆。仅影响新创建的独立闭合环。"
+
+msgid "Mirror Method"
+msgstr "镜像法"
+
+msgid "Controls what should happen to stroke that crosses a mirror"
+msgstr "控制穿过镜面的笔触应发生什么"
+
+msgid "Clamp"
+msgstr "限制"
+
+msgid "Clamp stroke to mirror"
+msgstr "将描边限制为镜像"
+
+msgid "Reflect"
+msgstr "反射"
+
+msgid "Reflect stroke based on mirror"
+msgstr "根据镜像反射笔刷"
+
+msgid "Trim"
+msgstr "修剪"
+
+msgid "Trim stroke to mirror"
+msgstr "将笔刷修剪为镜像"
+
+msgid "Insert Stroke"
+msgstr "插入笔刷"
+
+msgid "Insert edge strips and extrude edges into a patch"
+msgstr "插入边缘条并将边缘挤出到补丁中"
+
+msgid "Bridging Offset"
+msgstr "桥接偏移量"
+
+msgid "Shift which edges the bridge is connected to"
+msgstr "移动桥连接到的边缘"
+
+msgid "Force non-L-Strip"
+msgstr "强制非 L 型条"
+
+msgid "Force T-Strip or Equals-Strip to be inserted rather than L-Strip"
+msgstr "强制插入 T 型条或等长条而不是 L 型条"
+
+msgid "Untwist Bridge"
+msgstr "解扭桥"
+
+msgid "Swap which ends are bridged to untwist a bridge"
+msgstr "交换桥接的端点以解开螺旋"
+
+msgid "Force stroke to be cyclic or strip"
+msgstr "强制笔触为循环或条纹"
+
+msgid "Inserted"
+msgstr "插入"
+
+msgid "Shift"
+msgstr "Shift"
+
+msgid "Non-L-Strip"
+msgstr "非 L 条纹"
+
+msgid "Bridge"
+msgstr "桥接"
+
+msgid "Circle"
+msgstr "圆形"
+
+msgid "Mirror Mode"
+msgstr "镜像模式"
+
+msgid "Distance for brush to snap to existing geometry"
+msgstr "画笔吸附到现有几何体的距离"
+
+msgid "Stroke Smoothing"
+msgstr "笔触平滑"
+
+msgid "Extrusions"
+msgstr "挤出"
+
+msgid "Stroke not compatible with settings"
+msgstr "笔刷与设置不兼容"
+
+msgid "Tweak the vertex positions"
+msgstr "微调顶点位置"
+
+msgid "LMB: Tweak"
+msgstr "左键：微调"
+
+msgid "Strength of the brush"
+msgstr "笔刷强度"
+
+msgid "Relax Factor"
+msgstr "松弛因子"
+
+msgid "How frequently relax steps are applied while moving the brush. 1 = every 0.1 edge-lengths moved, 0 = disabled"
+msgstr "移动笔刷时，每移动多少个边长应用一次松弛步骤。1 = 每移动 0.1 个边长，0 = 禁用"
+
+msgid "Relax Expand"
+msgstr "松弛扩展"
+
+msgid "How many face-steps beyond the grabbed vertices are also relaxed"
+msgstr "除了抓取顶点外，还松弛多少个面步"
+
+msgid "Brush Type"
+msgstr "笔刷类型"
+
+msgid "How the Tweak brush moves vertices"
+msgstr "Tweak 笔刷如何移动顶点"
+
+msgid "Grab"
+msgstr "抓取"
+
+msgid "Classic Tweak behavior: grab and drag vertices under the brush"
+msgstr "经典 Tweaks 行为：抓取并拖拽画笔下方的顶点"
+
+msgid "Nudge"
+msgstr "微调"
+
+msgid "Nudge-style: smear vertices in the direction of the stroke without grabbing"
+msgstr "拖拽式：在不抓取的情况下沿笔刷方向涂抹顶点。"
+
+msgid "Pinch / Magnify"
+msgstr "捏合/放大"
+
+msgid "Pull or push vertices perpendicular to the stroke direction"
+msgstr "沿描边方向垂直地拉或推顶点"
+
+msgid "Find the nearest edge loop perpendicular to the stroke and smear only its vertices. Hold Alt while starting a stroke to toggle for that stroke"
+msgstr "查找垂直于笔触的最邻近边缘环，并仅涂抹其顶点。按住 Alt 键开始笔触以切换该笔触的选项"
+
+msgid "Pinch / Magnify Mode"
+msgstr "捏合/放大模式"
+
+msgid "Magnify pushes vertices away from the brush center; Pinch pulls them toward it. Hold Ctrl while brushing to invert for that stroke"
+msgstr "放大将顶点推离笔刷中心；捏合将它们拉向中心。按住 Ctrl 键进行笔刷绘制，可反转该笔触的效果。"
+
+msgid "Magnify"
+msgstr "放大"
+
+msgid "Push vertices away from the brush center"
+msgstr "将顶点从刷子的中心向外推"
+
+msgid "Pinch"
+msgstr "捏合"
+
+msgid "Pull vertices toward the brush center"
+msgstr "将顶点向刷子的中心拉"
+
+msgid "How Relax updates the position of the vertices"
+msgstr "Relax 如何更新顶点的位置"
+
+msgid "Automatic substep count based on enabled options and vertex count"
+msgstr "基于已启用的选项和顶点数量自动计算子步数"
+
+msgid "Multiple tiny incremental steps"
+msgstr "多个微小的增量步骤"
+
+msgid "Runge-Kutta integration for improved stability"
+msgstr "改进稳定性的 Runge-Kutta 积分法"
+
+msgid "Number of iterations per relax step (Substeps mode only)"
+msgstr "每个 Relax 步骤的迭代次数（仅子步模式）"
+
+msgid "Algorithm: Interpolate Loops"
+msgstr "算法：插值循环"
+
+msgid "Push vertices toward positions that linearly interpolate between unaffected boundary verts"
+msgstr "将顶点推近于未受影响的边界顶点之间线性插值的位置"
+
+msgid "Moves vertices of each face to be evenly spread and equal distance from the face center"
+msgstr "使每个面的顶点均匀分布，且与面中心保持相等的距离"
+
+msgid "Max Distance (Radius)"
+msgstr "最大距离（半径）"
+
+msgid "Max Distance (Edges)"
+msgstr "最大距离（边长）"
+
+msgid "Limit distance vertices are moved per iteration based on average connected edge length"
+msgstr "限制每次迭代中顶点移动的距离，基于平均连接边的长度"
+
+msgid "Corner Proximity"
+msgstr "角点邻近度"
+
+msgid "Corner snap radius as a multiple of the edge snap radius"
+msgstr "角点吸附半径为边吸附半径的倍数"
+
+msgid "Gemfile.lock"
+msgstr "Gemfile.lock"
+
+msgid "_config.yml"
+msgstr "_config.yml"
+
+msgid "rf_version: {version}{release_short[release]}"
+msgstr "rf_version: {version}{release_short[release]}"
+
+msgid "-B build"
+msgstr "- 构建 B 版本"
