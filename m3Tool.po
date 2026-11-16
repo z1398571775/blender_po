@@ -1,0 +1,8034 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-14 09:33+0800\n"
+"PO-Revision-Date: 2026-11-14 09:33+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Inception"
+msgstr "盗梦空间"
+
+msgid "WIRE"
+msgstr "线框"
+
+msgid "TEXTURED"
+msgstr "贴图"
+
+msgid ".call_pie"
+msgstr ".call_pie"
+
+msgid "._debug"
+msgstr "._debug"
+
+msgid "General"
+msgstr "通用设置"
+
+msgid "Keymaps"
+msgstr "键盘快捷方式"
+
+msgid "About"
+msgstr "关于\n"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid "World"
+msgstr "世界"
+
+msgid "Viewport"
+msgstr "视图"
+
+msgid "Cross"
+msgstr "交叉"
+
+msgid "Cubic"
+msgstr "立方体"
+
+msgid "Cylindrical"
+msgstr "圆柱形"
+
+msgid "Spherical"
+msgstr "球坐标"
+
+msgid "Merge"
+msgstr "合并"
+
+msgid "Connect Paths"
+msgstr "连接路径"
+
+msgid "Last"
+msgstr "最后"
+
+msgid "Center"
+msgstr "中心"
+
+msgid "Paths"
+msgstr "路径"
+
+msgid "Topo"
+msgstr "顶角"
+
+msgid "Length"
+msgstr "长度"
+
+msgid "Sharpen"
+msgstr "锐化"
+
+msgid "Crease"
+msgstr "倒角"
+
+msgid "Chamfer"
+msgstr "圆角"
+
+msgid "Korean Bevel"
+msgstr "韩国倒角"
+
+msgid "Bounds/Region"
+msgstr "边界/区域"
+
+msgid "Adjacent"
+msgstr "相邻"
+
+msgid "View Selected"
+msgstr "视图选中"
+
+msgid "Local View"
+msgstr "局部视图"
+
+msgid "Single"
+msgstr "单轴"
+
+msgid "Multiple"
+msgstr "多轴"
+
+msgid "View"
+msgstr "视图"
+
+msgid "Axes"
+msgstr "坐标轴"
+
+msgid "Min"
+msgstr "最小值"
+
+msgid "Max"
+msgstr "最大值"
+
+msgid "Average"
+msgstr "平均值"
+
+msgid "Zero"
+msgstr "零"
+
+msgid "Cursor"
+msgstr "光标"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Right"
+msgstr "右侧"
+
+msgid "Top"
+msgstr "顶部"
+
+msgid "Bottom"
+msgstr "底部"
+
+msgid "Horizontal"
+msgstr "水平"
+
+msgid "Vertical"
+msgstr "垂直"
+
+msgid "Local"
+msgstr "本地"
+
+msgid "Origin"
+msgstr "原点"
+
+msgid "Active"
+msgstr "活动"
+
+msgid "Floor"
+msgstr "地板"
+
+msgid "Non-Manifold"
+msgstr "非流形"
+
+msgid "Non-Planar"
+msgstr "非平面"
+
+msgid "Tris"
+msgstr "三角形"
+
+msgid "Ngons"
+msgstr "多边形"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Both"
+msgstr "两者"
+
+msgid "Location"
+msgstr "位置"
+
+msgid "Rotation"
+msgstr "旋转"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "Choose Local or World space based on whether driver object is parented"
+msgstr "根据驱动对象是否被父级化来选择本地空间或世界空间"
+
+msgid "Linear"
+msgstr "线性"
+
+msgid "Path"
+msgstr "路径"
+
+msgid "Surface"
+msgstr "表面"
+
+msgid "Front"
+msgstr "前"
+
+msgid "Back"
+msgstr "后"
+
+msgid "Averaged"
+msgstr "平均"
+
+msgid "Extrude along Averaged Face Normals"
+msgstr "沿平均面法线挤出"
+
+msgid "Edge"
+msgstr "边"
+
+msgid "Extrude along any chosen Edge of any Object"
+msgstr "沿任何对象的任意边挤出"
+
+msgid "Normal"
+msgstr "法向"
+
+msgid "Extrude along Individual Vertex Normals"
+msgstr "沿单个顶点法线挤出"
+
+msgid "Rotate"
+msgstr "旋转"
+
+msgid "Scale"
+msgstr "缩放"
+
+msgid "Direct"
+msgstr "直接"
+
+msgid "Proximity"
+msgstr "邻近"
+
+msgid "Intersection"
+msgstr "相交"
+
+msgid "Plane Intersection"
+msgstr "平面相交"
+
+msgid "Projected Plane Intersection"
+msgstr "投影平面相交"
+
+msgid "Direct Plane Intersection"
+msgstr "直接平面相交"
+
+msgid "MouseDir Plane Intersection"
+msgstr "鼠标方向平面相交"
+
+msgid "Averaged Location of all Asset Root Objects"
+msgstr "所有资产根对象的平均位置"
+
+msgid "Avg. Floor"
+msgstr "平均楼层高度"
+
+msgid "Averaged Location of all Asset Root Objects projected on the floor"
+msgstr "所有资产根对象在地板上的投影位置"
+
+msgid "Cursor Location"
+msgstr "光标位置"
+
+msgid "World Origin"
+msgstr "世界原点"
+
+msgid "Entire Hierarchy"
+msgstr "整个层级结构"
+
+msgid "Create Asset from the entire Hierarchy of Objects the Selection belongs to, including mod objects"
+msgstr "从所选对象所属的整个层级结构创建资产，包括模态对象"
+
+msgid "Selection Only"
+msgstr "仅选中项"
+
+msgid ""
+"Create Asset from Selected Objects and their Children only\n"
+"\n"
+"NOTE: Unselected Group Objects will be ignored!"
+msgstr ""
+"从选中的对象及其子对象创建资产\n"
+"\n"
+"注意：未选中的组对象将被忽略！"
+
+msgid "Smooth"
+msgstr "平滑"
+
+msgid "Flat"
+msgstr "平坦"
+
+msgid "Bare-bones"
+msgstr "基础"
+
+msgid "Low"
+msgstr "低"
+
+msgid "Use Shadows and enable Raytracing"
+msgstr "使用阴影并启用光线追踪"
+
+msgid "High"
+msgstr "高"
+
+msgid "Higher Quality Shadows and Raytracing, enable Bloom and Volumetric Shadows"
+msgstr "更高品质的阴影和光线追踪，启用光晕和体积阴影"
+
+msgid "Ultra"
+msgstr "超高清"
+
+msgid "Even Higher Quality, expect things to be slow, especially when also using Volumetrics"
+msgstr "甚至更高的品质，预期性能较慢，尤其是同时使用体积渲染时"
+
+msgid "Combined"
+msgstr "组合"
+
+msgid "Shadow"
+msgstr "阴影"
+
+msgid "AO"
+msgstr "AO"
+
+msgid "1:1"
+msgstr "1:1"
+
+msgid "1:2"
+msgstr "1:2"
+
+msgid "1:4"
+msgstr "1:4"
+
+msgid "1:8"
+msgstr "1:8"
+
+msgid "1:16"
+msgstr "1:16"
+
+msgid "Eevee"
+msgstr "Eevee"
+
+msgid "Cycles"
+msgstr "Cycles"
+
+msgid "Studio"
+msgstr "工作室"
+
+msgid "Matcap"
+msgstr "材质贴图"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "GPU"
+msgstr "GPU"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "Camera"
+msgstr "相机"
+
+msgid "Always"
+msgstr "始终"
+
+msgid "Least"
+msgstr "最少"
+
+msgid "Most"
+msgstr "最多"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Parent"
+msgstr "父级"
+
+msgid "Ignore"
+msgstr "忽略"
+
+msgid "Nearest"
+msgstr "最近"
+
+msgid "Longest"
+msgstr "最长"
+
+msgid "VERTEX"
+msgstr "顶点"
+
+msgid "EDGE"
+msgstr "边"
+
+msgid "EDGE_PERPENDICULAR"
+msgstr "边法线"
+
+msgid "EDGE_MIDPOINT"
+msgstr "边中点"
+
+msgid "FACE"
+msgstr "面"
+
+msgid "FACE_NEAREST"
+msgstr "面最近"
+
+msgid "FACE_PROJECT"
+msgstr "面投影"
+
+msgid "GRID"
+msgstr "网格"
+
+msgid "INCREMENT"
+msgstr "增量"
+
+msgid "VOLUME"
+msgstr "音量"
+
+msgid "Closest"
+msgstr "最接近"
+
+msgid "Median"
+msgstr "中位数"
+
+msgid "Merge Last"
+msgstr "合并最后"
+
+msgid "Merge Center"
+msgstr "合并中心"
+
+msgid "Merge Paths"
+msgstr "合并路径"
+
+msgid "Slide Extend"
+msgstr "滑动延伸"
+
+msgid "Smart Edge"
+msgstr "智能边缘"
+
+msgid "Toggle Sharp/Crease/Weight"
+msgstr "切换锐利/折痕/权重"
+
+msgid "Offset Edges"
+msgstr "边缘偏移"
+
+msgid "Local View (Inverted)"
+msgstr "局部视图（反转）"
+
+msgid "Flick Mirror"
+msgstr "闪烁镜像"
+
+msgid "in Object Mode"
+msgstr "在对象模式下"
+
+msgid "in Pose Mode"
+msgstr "在姿态模式下"
+
+msgid "Open Filebrowser"
+msgstr "打开文件浏览器"
+
+msgid "Open .blend File"
+msgstr "打开.blend 文件"
+
+msgid "Toggle Sorting/Cycle Library"
+msgstr "切换排序/循环库"
+
+msgid "Toggle Display Type"
+msgstr "切换显示类型"
+
+msgid "Adjust Thumbnail Size (Browser)"
+msgstr "调整缩略图大小（浏览器）"
+
+msgid "Adjust Thumbnail Size (Shelf)"
+msgstr "调整缩略图大小（书架）"
+
+msgid "Toggle Hidden/Import Method"
+msgstr "切换隐藏/导入方式"
+
+msgid "Bookmark ^"
+msgstr "书签 ^"
+
+msgid "Bookmark 1"
+msgstr "书签 1"
+
+msgid "Bookmark 2"
+msgstr "书签 2"
+
+msgid "Bookmark 3"
+msgstr "书签 3"
+
+msgid "Bookmark 4"
+msgstr "书签 4"
+
+msgid "Bookmark 5"
+msgstr "书签 5"
+
+msgid "Bookmark 6"
+msgstr "书签 6"
+
+msgid "Bookmark 7"
+msgstr "书签 7"
+
+msgid "Bookmark 8"
+msgstr "书签 8"
+
+msgid "Bookmark 9"
+msgstr "书签 9"
+
+msgid "Bookmark 10"
+msgstr "书签 10"
+
+msgid "Create Group"
+msgstr "创建组"
+
+msgid "Select Group"
+msgstr "选择组"
+
+msgid "Toggle Group Mode"
+msgstr "切换组模式"
+
+msgid "Expand Outliner"
+msgstr "展开大纲器"
+
+msgid "Collapse Outliner"
+msgstr "折叠大纲器"
+
+msgid "Toggle Children"
+msgstr "切换子项"
+
+msgid "Select Children"
+msgstr "选择子项"
+
+msgid "Select Parents"
+msgstr "选择父级"
+
+msgid "Select Hierarchy Pie"
+msgstr "选择层级饼图"
+
+msgid "3D View"
+msgstr "3D 视图"
+
+msgid "Asset Browser"
+msgstr "资产浏览器"
+
+msgid "UV Editor"
+msgstr "UV 编辑器"
+
+msgid "Node Editor"
+msgstr "节点编辑器"
+
+msgid "Only RMB is supported for now! You could add a modifier key like SHIFT or ALT though."
+msgstr "目前仅支持右键！不过您可以添加修饰键，例如 SHIFT 或 ALT。"
+
+msgid "in 3D View"
+msgstr "在 3D 视图中"
+
+msgid "in Image Editor"
+msgstr "在图像编辑器中"
+
+msgid "Save Startup File"
+msgstr "保存启动文件"
+
+msgid "in Edit Mode"
+msgstr "在编辑模式下"
+
+msgid "in UV Editor"
+msgstr "在 UV 编辑器中"
+
+msgid "Pie Menu"
+msgstr "菜单按钮"
+
+msgid "Tool Picker"
+msgstr "工具选择器"
+
+msgid "Don't Blur Shadow"
+msgstr "不模糊阴影"
+
+msgid "Shadow Blur Level 3"
+msgstr "阴影模糊程度 3"
+
+msgid "Shadow Blur level 5"
+msgstr "阴影模糊程度 5"
+
+msgid "{blinfo['name']} {'.'.join((str(v) for v in blinfo['version']))} is ready to be installed."
+msgstr "{blinfo['name']} {'.'.join((str(v) for v in blinfo['version']))} 已准备就绪，可以安装。"
+
+msgid "Update File Path"
+msgstr "更新文件路径"
+
+msgid "Update Message"
+msgstr "更新消息"
+
+msgid "Addon Terminal Registration Output"
+msgstr "插件终端注册输出"
+
+msgid "Extrude Tools"
+msgstr "挤出工具"
+
+msgid "Group Tools"
+msgstr "群组工具"
+
+msgid "Smart Drive"
+msgstr "智能驱动"
+
+msgid "Assetbrowser Tools"
+msgstr "资产浏览器工具"
+
+msgid "Filebrowser Tools"
+msgstr "文件浏览器工具"
+
+msgid "Render Tools"
+msgstr "渲染工具"
+
+msgid "Surface Slide"
+msgstr "表面滑动"
+
+msgid "Toggle Region"
+msgstr "切换区域"
+
+msgid "Smart Pie"
+msgstr "智能饼图"
+
+msgid "Modes Pie"
+msgstr "模式饼图"
+
+msgid "Save Pie"
+msgstr "保存饼图"
+
+msgid "Shading Pie"
+msgstr "着色饼图"
+
+msgid "Views Pie"
+msgstr "视图饼图"
+
+msgid "Alignments Pie"
+msgstr "对齐饼图"
+
+msgid "Cursor and Origin Pie"
+msgstr "光标和原点饼图"
+
+msgid "Transform Pie"
+msgstr "变换饼图"
+
+msgid "Snapping Pie"
+msgstr "吸附饼图"
+
+msgid "Collections Pie"
+msgstr "集合饼图"
+
+msgid "Workspace Pie"
+msgstr "工作区饼图"
+
+msgid "Tools Pie"
+msgstr "工具面板"
+
+msgid "Shade Smooth"
+msgstr "平滑着色"
+
+msgid "Default Shading of newly created Quadsphere"
+msgstr "新创建的四角球体的默认着色方式"
+
+msgid "Subdivisions"
+msgstr "细分数"
+
+msgid "Default Subdivisions of newly created Quadsphere"
+msgstr "新创建的四角球体的默认细分数"
+
+msgid "Align Rotation"
+msgstr "旋转对齐"
+
+msgid "Default (Cursor) Alignment of newly created Quadsphere"
+msgstr "新创建的四角球体的默认（光标）对齐方式"
+
+msgid "Unwrap"
+msgstr "展开"
+
+msgid "Default Unwrapping Method of newly created Quadsphere"
+msgstr "新创建的四角球体的默认展开方法"
+
+msgid "Smart Face Topo Mode"
+msgstr "智能面拓扑模式"
+
+msgid "Immediately translate the newly created Vert, and only once finished or aborted prepare Selection for next Invocation"
+msgstr "立即转换新创建的顶点，仅在完成或中止后准备选择以供下一次调用"
+
+msgid "Only use use Topo Mode, when on Face Snapping is used"
+msgstr "仅在启用面吸附时使用拓扑模式"
+
+msgid "Check Face Snapping to determine whether the Tool should enter Topo Mode"
+msgstr "检查面吸附以确定工具是否应进入拓扑模式"
+
+msgid "Only use Topo Mode, when on Retopology Overlays are used"
+msgstr "仅在启用重拓扑覆盖层时使用拓扑模式"
+
+msgid "Check Retopology Overlays to determine whether the Tool should enter Topo Mode"
+msgstr "检查重拓扑覆盖层以确定工具是否应进入拓扑模式"
+
+msgid "Viewport Tweening"
+msgstr "视口动画"
+
+msgid "Ignore Lights (keep them always visible)"
+msgstr "忽略灯光（始终显示它们）"
+
+msgid "Auto Name Groups"
+msgstr "自动命名组"
+
+msgid "Automatically add a Prefix and/or Suffix to any user-given Group Name"
+msgstr "为用户定义的组名自动添加前缀和/或后缀"
+
+msgid "Group Basename"
+msgstr "组基名称"
+
+msgid "Prefix to add to Group Names"
+msgstr "添加到组名称的前缀"
+
+msgid "Suffix to add to Group Names"
+msgstr "添加到组名称的后缀"
+
+msgid "Group Empty Draw Size"
+msgstr "组空对象绘制大小"
+
+msgid "Default Group Size"
+msgstr "默认组大小"
+
+msgid "Fade Group Empty Sizes"
+msgstr "渐变组空对象大小"
+
+msgid "Make Sub Group's Emtpies smaller than their Parents"
+msgstr "使子组的空对象比其父级更小"
+
+msgid "Fade Group Size Factor"
+msgstr "组大小衰减因子"
+
+msgid "Factor by which to decrease each Group Empty's Size"
+msgstr "每个组空对象大小的减少比例"
+
+msgid "Remove Empty Groups"
+msgstr "移除空对象组"
+
+msgid "Automatically remove Empty Groups in each Cleanup Pass"
+msgstr "每次清理阶段自动移除空对象组"
+
+msgid "Group Mode: Disable Auto-Select"
+msgstr "组模式：禁用自动选择"
+
+msgid "When switching into Group Mode in the Outliner, disable Auto-Select"
+msgstr "在大纲中切换到组模式时，禁用自动选择"
+
+msgid "Group Mode: Disable Recursive-Selections"
+msgstr "组模式：禁用递归选择"
+
+msgid "When switching into Group Mode in the Outliner, disable Recursive-Selections"
+msgstr "在大纲中切换到组模式时，禁用递归选择"
+
+msgid "Group Mode: Disable Group-Hiding"
+msgstr "组模式：禁用组隐藏"
+
+msgid "When switching into Group Mode in the Outliner, disable Group-Hiding"
+msgstr "在大纲中切换到组模式时，禁用组隐藏"
+
+msgid "Group Mode: Disable Group Gizmos"
+msgstr "组模式：禁用组 Gizmos"
+
+msgid "When switching into Group Mode in the Outliner, disable Group Gizmos"
+msgstr "在大纲中切换到组模式时，禁用组 Gizmos"
+
+msgid "Group Mode: Draw Group Relations"
+msgstr "组模式：绘制组关系"
+
+msgid "When switching into Group Mode in the Outliner, draw Group Relations"
+msgstr "在大纲中切换到组模式时，绘制组关系"
+
+msgid "Use Group Sub-Menu"
+msgstr "使用组子菜单"
+
+msgid "Show Outliner Parenting Toggle"
+msgstr "显示大纲父级切换按钮"
+
+msgid "Show Outliner Group Selection Toggles"
+msgstr "显示大纲组选择切换按钮"
+
+msgid "Show Outliner Group Gizmo Toggles"
+msgstr "显示大纲组 Gizmo 切换按钮"
+
+msgid "Preferred default catalog"
+msgstr "首选默认目录"
+
+msgid "Allow using original objects, instead of creating copies"
+msgstr "允许使用原始对象，而不是创建副本"
+
+msgid ""
+"Duplication ensures the Asset Objects become fully independent, and the Objects in the initial Selection remain ontouched.\n"
+"\n"
+"Duplication supports Assembly Creaton from parts of a Hierarchy, and removal of potential Decal Backups and Stash Objects.\n"
+"Disabling Duplication forces Assembly Creation of the entire Hierarchy."
+msgstr ""
+"复制确保资产对象完全独立，初始选择中的对象保持不受影响。\n"
+"\n"
+"复制支持从层级的一部分创建装配体，并移除潜在的 Decal 备份和存储对象。\n"
+"禁用复制强制对整个层级进行装配体创建."
+
+msgid "Asset Author"
+msgstr "资产作者"
+
+msgid "Asset Copyright"
+msgstr "资产版权"
+
+msgid "Asset License"
+msgstr "资产许可"
+
+msgid "Show Asset Import Method"
+msgstr "显示资产导入方法"
+
+msgid "Show the Asset Import Method in the Assetbrowser Header"
+msgstr "在资产浏览器标题栏中显示资产导入方法"
+
+msgid "Show Blender-native Capture Asset Preview tool"
+msgstr "显示 Blender 原生的捕获资产预览工具"
+
+msgid "Show the Blender-native Capture Asset Preview tool in the Assetbrowser Sidebar"
+msgstr "在资产浏览器侧边栏中显示 Blender 原生的捕获资产预览工具"
+
+msgid "Show Assembly Asset Creation in Save Pie"
+msgstr "在保存面板中显示装配体资产创建"
+
+msgid "Prefer Left/Right over Bottom/Top"
+msgstr "优先使用左侧/右侧而非底部/顶部"
+
+msgid "Close Range"
+msgstr "关闭范围"
+
+msgid "Toggle the Asset Shelf, instead of the Browser"
+msgstr "切换资产货架，而不是浏览器"
+
+msgid "Toggle the Asset Browser at the Top"
+msgstr "在顶部切换资产浏览器"
+
+msgid "Toggle the Asset Browser at the Bottom"
+msgstr "在底部切换资产浏览器"
+
+msgid "Warp Mouse to Asset Browser Border"
+msgstr "将鼠标拖拽到资产浏览器边框处"
+
+msgid "Render Folder Name"
+msgstr "渲染文件夹名称"
+
+msgid "Folder used to stored rended images relative to the Location of the .blend file"
+msgstr "用于存储相对于.blend 文件位置的渲染图像的文件夹"
+
+msgid "Seed Render Count"
+msgstr "种子渲染次数"
+
+msgid "Set the Amount of Seed Renderings used to remove Fireflies"
+msgstr "设置用于消除火萤的种子渲染数量"
+
+msgid "Keep Individual Renderings"
+msgstr "保留单个渲染图"
+
+msgid "Keep the individual Seed Renderings, after they've been combined into a single Image"
+msgstr "将多个种子渲染图合并成一张图像后，保留各个单独的种子渲染图"
+
+msgid "Use Clownmatte Name"
+msgstr "使用小丑遮罩名称"
+
+msgid "It's a better name than \"Cryptomatte\", believe me"
+msgstr "相信我，这比“加密遮罩”好得多"
+
+msgid "Show Render Buttons in Light Properties Panel"
+msgstr "在灯光属性面板中显示渲染按钮"
+
+msgid "Sync Light visibility/renderability"
+msgstr "同步灯光可见性/渲染属性"
+
+msgid "Sync Light hide_render props based on hide_viewport props"
+msgstr "根据隐藏视口属性同步灯光隐藏渲染属性"
+
+msgid "Ajust Area Lights when Rendering in Cycles"
+msgstr "在 Cycles 中渲染时调整区域灯"
+
+msgid "Adjust Area Lights when Rendering, to better match Eevee and Cycles"
+msgstr "在渲染时调整区域灯，使其更好地匹配 Eevee 和 Cycles"
+
+msgid "Enforce hide_render setting when Viewport Rendering"
+msgstr "强制应用隐藏渲染设置以进行视口渲染"
+
+msgid "Hide Objects based on their hide_render props, when Viewport Rendering with Cyclces"
+msgstr "使用 Cycles 进行视口渲染时，根据隐藏渲染属性隐藏对象"
+
+msgid "Automatically set up Bevel Shader when Cycles Rendering"
+msgstr "Cycles 渲染时自动设置切角着色器"
+
+msgid "Set up Bevel Shader on all visible Materials when Cycles Renderings"
+msgstr "在 Cycles 渲染时为所有可见材质设置切角着色器"
+
+msgid "Workspaces the Material Picker should appear on"
+msgstr "材料选择器应显示的工作区"
+
+msgid "Show Material Picker in all Material Shading Viewports"
+msgstr "在所有材质着色视口中显示材料选择器"
+
+msgid "Show Material Picker in all Render Shading Viewports"
+msgstr "在渲染着色视口中显示材质选择器"
+
+msgid "Object Mode Spacing"
+msgstr "对象模式间距"
+
+msgid "Edit Mode Spacing"
+msgstr "编辑模式间距"
+
+msgid "Add Material Picker at Top Level in the Context Menu"
+msgstr "在上下菜单的顶层添加材质选择器"
+
+msgid "Add Material Picker to Top Level in the the Context Menu, not in the MACHIN3tools Sub Menu"
+msgstr "将材质选择器添加到上下菜单的顶层，而不是 MACHIN3tools 子菜单中"
+
+msgid "Ignore Wire Objects"
+msgstr "忽略线框物体"
+
+msgid ""
+"Ignore Wire Objects when picking Materials.\n"
+"NOTE: Can cause a slight lag on tool-invocation, if wire objects are mod objects of complex and slow-to-evaluate mod stacks"
+msgstr ""
+"选择材质时忽略线框物体。\n"
+"注意：如果线框物体是复杂且计算缓慢的修改堆栈中的可修改对象，可能会导致工具调用时的轻微延迟"
+
+msgid "Startup Scene"
+msgstr "启动场景"
+
+msgid "Matcaps"
+msgstr "材质贴图"
+
+msgid "Shading"
+msgstr "着色"
+
+msgid "Overlays"
+msgstr "覆盖层"
+
+msgid "Outliner"
+msgstr "大纲视图器"
+
+msgid "Preferences: Interface"
+msgstr "首选项：界面"
+
+msgid "Preferences: Viewport"
+msgstr "首选项：视口"
+
+msgid "Preferences: Input & Navigation"
+msgstr "首选项：输入与导航"
+
+msgid "Preferences: Keymap"
+msgstr "首选项：键盘映射"
+
+msgid "Preferences: System"
+msgstr "首选项：系统"
+
+msgid "Preferences: Save & Load"
+msgstr "首选项：保存与加载"
+
+msgid "Show Edit"
+msgstr "显示编辑模式"
+
+msgid "In Object Mode show the Edit Mode Toggle on top"
+msgstr "在对象模式下，在顶部显示编辑模式切换按钮"
+
+msgid "Show Sculpt Mode Toggle"
+msgstr "显示雕刻模式切换按钮"
+
+msgid "In Object Mode show the Sculpt Mode Toggle on top"
+msgstr "在对象模式下，在顶部显示雕刻模式切换按钮"
+
+msgid "Show Select Group Up"
+msgstr "显示选择组向上"
+
+msgid "In Object Mode show Select Group Up on top, if the active is a Sub-Group Empty"
+msgstr "在对象模式下，如果活动对象是子组空对象，则在顶部显示“选择组向上”"
+
+msgid "Show Select Group"
+msgstr "显示选择组"
+
+msgid "In Object Mode show Select Ggroup on top, if the active is a Group Object"
+msgstr "在对象模式下，如果活动对象是组对象，则在顶部显示“选择组”"
+
+msgid "Show Group"
+msgstr "显示组工具"
+
+msgid "In Object Mode with a Multi-Object Selecton, show the Group Tool on top"
+msgstr "在多对象选择状态下，在对象模式下于顶部显示组工具按钮"
+
+msgid "Show Assembly Edit"
+msgstr "显示装配编辑"
+
+msgid "In Object Mode show Assembly Edit Button at the bottom, when Active as an Assembly"
+msgstr "当活动对象为装配时，在对象模式下于底部显示装配编辑按钮"
+
+msgid "Show Assembly Edit Finish"
+msgstr "显示装配编辑完成按钮"
+
+msgid "In Object Mode when in Assembly Edit Mode, show Assembly Edit Finish Button on top"
+msgstr "在对象模式下，当处于装配编辑模式时，在顶部显示装配编辑完成按钮"
+
+msgid "Toggle Cavity/Curvature OFF in Edit Mode, ON in Object Mode"
+msgstr "在编辑模式下关闭腔体/曲率，在对象模式下开启"
+
+msgid "Toggle X-Ray ON in Edit Mode, OFF in Object Mode, if Pass Through or Wireframe was enabled in Edit Mode"
+msgstr "在编辑模式下切换 X-Ray 为 ON，在对象模式下切换为 OFF（如果编辑模式下启用了穿透或线框）"
+
+msgid "Sync Tool if possible, when switching Modes"
+msgstr "在模式切换时尽可能同步工具"
+
+msgid "Show .obj Export"
+msgstr "显示.obj 导出器"
+
+msgid "Show Plasticity Export"
+msgstr "显示塑料性导出器"
+
+msgid "Show .fbx Export"
+msgstr "显示.fbx 导出器"
+
+msgid "Show Better .fbx Export"
+msgstr "显示更好的.fbx 导出器"
+
+msgid "Show .usd Export"
+msgstr "显示.usd 导出器"
+
+msgid "Show .stl Export"
+msgstr "显示.stl 导出"
+
+msgid "Show .glTF Export"
+msgstr "显示.glTF 导出"
+
+msgid ".obj Folder"
+msgstr ".obj 文件夹"
+
+msgid ".plasticity Folder"
+msgstr ".plasticity 文件夹"
+
+msgid ".fbx Folder"
+msgstr ".fbx 文件夹"
+
+msgid "Better .fbx Folder"
+msgstr "更好的.fbx 文件夹"
+
+msgid ".usd Folder"
+msgstr ".usd 文件夹"
+
+msgid ".stl Folder"
+msgstr ".stl 文件夹"
+
+msgid ".glTF Folder"
+msgstr ".glTF 文件夹"
+
+msgid "Use new experimental FBX Importer"
+msgstr "使用新的实验性 FBX 导入器"
+
+msgid "In Blender 4.5+ use the new experimental FBX Importer"
+msgstr "在 Blender 4.5+ 中使用新的实验性 FBX 导入器"
+
+msgid "Use 'Fbx All' for Applying Scale"
+msgstr "使用'Fbx All'来应用缩放"
+
+msgid "This is useful for Unity, but bad for Unreal Engine"
+msgstr "这对 Unity 很有用，但对 Unreal Engine 效果不佳"
+
+msgid "Show Auto Save in Save Pie"
+msgstr "在保存面板中显示自动保存"
+
+msgid "Auto Save Self"
+msgstr "自动保存自身"
+
+msgid "Auto Save the current file at the path you saved before, or the Startup File when still 'unsaved'"
+msgstr "在当前文件之前保存的路径处自动保存当前文件，或者如果仍为“未保存”则在启动文件处自动保存"
+
+msgid "Auto Save Externally"
+msgstr "外部自动保存"
+
+msgid "Auto Save externally to custom folder or temp dir"
+msgstr "将文件自动保存到自定义文件夹或临时目录"
+
+msgid "External Auto Save Folder"
+msgstr "外部自动保存文件夹"
+
+msgid "Use System's Temp Dir if left empty"
+msgstr "如果留空则使用系统的临时目录"
+
+msgid "External Auto Save File Limit"
+msgstr "外部自动保存文件限制|||~|||当累积超过此数量时，"
+
+msgid "Remove old Auto Saved Files when accumulating more than this amount"
+msgstr "删除旧的自动保存文件|||~||"
+
+msgid "Auto Save Interval in Seconds"
+msgstr "|自动保存间隔（秒）|||~||"
+
+msgid "Auto Save on Undo"
+msgstr "|撤销操作前自动保存|||~||"
+
+msgid "Auto Save before an Undo operation"
+msgstr "|重做操作前自动保存|||~||"
+
+msgid "Auto Save on Redo"
+msgstr "|从重做面板执行第一次重做操作前"
+
+msgid "Auto Save before the first Redo Operation (from the Redo Panel)"
+msgstr "自动保存|||~|||在保存饼图"
+
+msgid "Show Screen Cast in Save Pie"
+msgstr "中显示屏幕录制|||~|||操作"
+
+msgid "Operator Count"
+msgstr "数量|||~|||当进行屏幕录制"
+
+msgid "Maximum number of Operators displayed when Screen Casting"
+msgstr "时显示的运算符最大数量"
+
+msgid "Font Size"
+msgstr "字体大小"
+
+msgid "Highlight MACHIN3 operators"
+msgstr "高亮 MACHIN3 操作符"
+
+msgid "Highlight Operators from MACHIN3 addons"
+msgstr "高亮来自 MACHIN3 插件的操作符"
+
+msgid "Display Operator's Addons"
+msgstr "显示操作符的插件"
+
+msgid "Display Operator's Addon"
+msgstr "显示操作符的插件"
+
+msgid "Display Operator's idnames"
+msgstr "显示操作符的 idnames"
+
+msgid "Display Operator's bl_idname"
+msgstr "显示操作符的 bl_idname"
+
+msgid "Use Screencast Keys (Extension, pereferred)"
+msgstr "使用屏幕录制键（扩展，推荐）"
+
+msgid "Use SKRIBE (external)"
+msgstr "使用 SKRIBE（外部）"
+
+msgid "Use ffmpeg for Screen Recording"
+msgstr "使用 ffmpeg 进行屏幕录制"
+
+msgid "Show Overlays in Solid Shading by default"
+msgstr "默认显示实体着色覆盖层"
+
+msgid "For a newly created scene, or a .blend file where where it wasn't set before, show Overlays for Solid shaded 3D views"
+msgstr "对于新创建的场景或之前未设置该选项的.blend 文件，在实体着色 3D 视图中显示覆盖层"
+
+msgid "Show Overlays in Material Shading by default"
+msgstr "默认显示材质着色覆盖层"
+
+msgid "For a newly created scene, or a .blend file where where it wasn't set before, show Overlays for Material shaded 3D views"
+msgstr "对于新创建的场景或之前未设置该选项的.blend 文件，在材质着色 3D 视图中显示覆盖层"
+
+msgid "Show Overlays in Rendered Shading by default"
+msgstr "默认显示渲染着色覆盖层"
+
+msgid "For a newly created scene, or a .blend file where where it wasn't set before, show Overlays for Rendered shaded 3D views"
+msgstr "对于新创建的场景或之前未设置该选项的.blend 文件，在渲染着色 3D 视图中显示覆盖层"
+
+msgid "Show Overlays in Wire Shading by default"
+msgstr "默认显示线框着色覆盖层"
+
+msgid "For a newly created scene, or a .blend file where where it wasn't set before, show Overlays for Wire shaded 3D views"
+msgstr "对于新创建的场景或之前未设置该选项的.blend 文件，在线框着色 3D 视图中显示覆盖层"
+
+msgid "Matcap 1"
+msgstr "Matcap 1"
+
+msgid "Matcap 2"
+msgstr "Matcap 2"
+
+msgid "Force Single Color Shading for Matcap 2"
+msgstr "强制 Matcap 2 单色着色"
+
+msgid "Disable Overlays for Matcap 2"
+msgstr "禁用 Matcap 2 的叠加层"
+
+msgid "Switch Background too"
+msgstr "同时切换背景"
+
+msgid "Matcap 1 Background Type"
+msgstr "Matcap 1 背景类型"
+
+msgid "Matcap 1 Background Color"
+msgstr "Matcap 1 背景颜色"
+
+msgid "Matcap 2 Background Type"
+msgstr "Matcap 2 背景类型"
+
+msgid "Matcap 2 Background Color"
+msgstr "Matcap 2 背景颜色"
+
+msgid "Autosmooth Angle Preset"
+msgstr "自动平滑角度预设"
+
+msgid "Show Autosmooth Mod Expanded"
+msgstr "显示自动平滑修改器展开状态"
+
+msgid "Rotate Around Selection, but only in Object Mode"
+msgstr "围绕选择旋转，但仅在对象模式下"
+
+msgid "Force Trackball Navigation when using Custom Views"
+msgstr "强制使用自定义视图时的轨道球导航"
+
+msgid "Set Transform Preset when using Custom Views"
+msgstr "在使用自定义视图时设置变换预设"
+
+msgid "Show Orbit around Active"
+msgstr "显示围绕激活对象的轨道"
+
+msgid "Show Orbit Method Selection"
+msgstr "显示轨道方法选择器"
+
+msgid "Match Camera Lens to Viewport"
+msgstr "将相机镜头匹配到视口"
+
+msgid "Sync the Camera Lens to the 3D View's Lens and set the Camera Sensor Width to 72"
+msgstr "同步相机镜头与 3D 视图的镜头，并将相机传感器宽度设置为 72"
+
+msgid "Match Resolution (Ratio) to Viewport"
+msgstr "将分辨率（比例）匹配为视口"
+
+msgid "Adjust Render Resulution ratio, to match the 3D View's region width/height ratio."
+msgstr "调整渲染分辨率比例，以匹配 3D 视图区域的宽高比"
+
+msgid "Show Cursor and Selected to Grid"
+msgstr "显示光标和选中对象到网格"
+
+msgid "Set Transform Preset when Setting Cursor"
+msgstr "在设置光标时设置变换预设"
+
+msgid "Ensure Cursor Visibility"
+msgstr "确保光标可见性"
+
+msgid "Ensure Cursor Visibility when setting Cursor to Origin or Selection"
+msgstr "设置光标为原点或选择时，确保光标可见性"
+
+msgid "Vert Snapping Preset's Target"
+msgstr "垂直吸附预设的目标"
+
+msgid "Show Absolute Grid Snapping"
+msgstr "显示绝对网格吸附"
+
+msgid "Show Volume Snapping"
+msgstr "显示体积吸附"
+
+msgid "Toggle Nearest when Face Snapping already and calling it again"
+msgstr "当已启用面吸附并再次调用时，切换最近吸附"
+
+msgid "Draw Fading HUD"
+msgstr "绘制渐隐 HUD"
+
+msgid "Left Workspace Name"
+msgstr "左侧工作区名称"
+
+msgid "Left Workspace Custom Label"
+msgstr "左侧工作区自定义标签"
+
+msgid "Left Workspace Icon"
+msgstr "左侧工作区图标"
+
+msgid "Top-Left Workspace Name"
+msgstr "左上工作区名称"
+
+msgid "Top-Left Workspace Custom Label"
+msgstr "左上工作区自定义标签"
+
+msgid "Top-Left Workspace Icon"
+msgstr "左上工作区图标"
+
+msgid "Top Workspace Name"
+msgstr "顶部工作区名称"
+
+msgid "Top Workspace Custom Label"
+msgstr "顶部工作区自定义标签"
+
+msgid "Top Workspace Icon"
+msgstr "顶部工作区图标"
+
+msgid "Top-Right Workspace Name"
+msgstr "右上工作区名称"
+
+msgid "Top-Right Workspace Custom Label"
+msgstr "右上工作区自定义标签"
+
+msgid "Top-Right Workspace Icon"
+msgstr "右上工作区图标"
+
+msgid "Right Workspace Name"
+msgstr "右侧工作区名称"
+
+msgid "Right Workspace Custom Label"
+msgstr "右侧工作区自定义标签"
+
+msgid "Right Workspace Icon"
+msgstr "右侧工作区图标"
+
+msgid "Bottom-Right Workspace Name"
+msgstr "右下角工作区名称"
+
+msgid "Bottom-Right Workspace Custom Label"
+msgstr "右下角工作区自定义标签"
+
+msgid "Bottom-Right Workspace Icon"
+msgstr "右下角工作区图标"
+
+msgid "Bottom Workspace Name"
+msgstr "底部工作区名称"
+
+msgid "Bottom Workspace Custom Label"
+msgstr "底部工作区自定义标签"
+
+msgid "Bottom Workspace Icon"
+msgstr "底部工作区图标"
+
+msgid "Bottom-Left Workspace Name"
+msgstr "左下角工作区名称"
+
+msgid "Bottom-Left Workspace Custom Label"
+msgstr "左下角工作区自定义标签"
+
+msgid "Bottom-Left Workspace Icon"
+msgstr "左下角工作区图标"
+
+msgid "List of Tools to Switch between"
+msgstr "工具切换列表"
+
+msgid "Comma separated list of tools that are cycled through via the Top Button in the Tools Pie"
+msgstr "通过顶部按钮循环选择的工具逗号分隔列表"
+
+msgid "Alays Pick instead of Switching"
+msgstr "始终选择而非切换"
+
+msgid "Show Icons in Pick Tools"
+msgstr "在拾取工具中显示图标"
+
+msgid "Show Labels in Pick Tools"
+msgstr "在拾取工具中显示标签"
+
+msgid "Show Tool Button Background"
+msgstr "显示工具按钮背景"
+
+msgid "Center Tool HUD"
+msgstr "居中工具 HUD"
+
+msgid "Center the buttons in the View, Best suited Labels are shown."
+msgstr "将按钮居中于视图，最适合的标签会显示。"
+
+msgid "Mouse X"
+msgstr "鼠标 X"
+
+msgid "Center the buttons on the Mouse's X Location. Best suited when only Icons are shown."
+msgstr "将按钮居中于鼠标的 X 位置。最适合仅显示图标时。"
+
+msgid "Warp Mouse to Active Tool"
+msgstr "将鼠标移动至活动工具"
+
+msgid "Show Hard Ops Tool"
+msgstr "显示硬操作工具"
+
+msgid "Show Hard Ops Menu"
+msgstr "显示硬操作菜单"
+
+msgid "Show BoxCutter Tool"
+msgstr "显示 BoxCutter 工具"
+
+msgid "Show BoxCutter Presets"
+msgstr "显示 BoxCutter 预设"
+
+msgid "Show Quick Favorites"
+msgstr "显示快速收藏夹"
+
+msgid "Show Tool Bar"
+msgstr "显示工具栏"
+
+msgid "Show Annotate"
+msgstr "显示标注"
+
+msgid "Show Annotation Tools"
+msgstr "显示注释工具"
+
+msgid "Show Surface Draw"
+msgstr "显示表面绘制工具"
+
+msgid "Show GreasePencil Surface Draw Tool"
+msgstr "显示铅笔表面绘制工具"
+
+msgid "Use Annotation Space"
+msgstr "使用注释空间"
+
+msgid ""
+"Draw Notes purely into Annotation space\n"
+"Disable to draw into a Grease Pencil object instead, which has the upside of Notes parenting to and following the object they are placed on, but will clutter the object space and outliner"
+msgstr "仅将笔记绘制到注释空间中，禁用后会将内容绘制到铅笔对象中。这样笔记会作为子对象跟随其放置的对象，但会使对象空间和大纲视图变得杂乱"
+
+msgid "Smart Vert"
+msgstr "智能顶点"
+
+msgid "Smart Face"
+msgstr "智能面"
+
+msgid "Clean Up"
+msgstr "清理"
+
+msgid "Edge Constraint"
+msgstr "边缘约束"
+
+msgid "Extrude"
+msgstr "挤出"
+
+msgid "Focus"
+msgstr "聚焦"
+
+msgid "Mirror"
+msgstr "镜像"
+
+msgid "Align"
+msgstr "对齐"
+
+msgid "File Browser Tools"
+msgstr "文件浏览器工具"
+
+msgid "Asset Browser Tools"
+msgstr "资产浏览器工具"
+
+msgid "Render"
+msgstr "渲染"
+
+msgid "Clipping Toggle"
+msgstr "剪切开关"
+
+msgid "Material Picker"
+msgstr "材质选择器"
+
+msgid "Apply Transform"
+msgstr "应用变换"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Mesh Cut"
+msgstr "网格切割"
+
+msgid "Thread"
+msgstr "线程"
+
+msgid "Unity"
+msgstr "Unity"
+
+msgid "Customize"
+msgstr "自定义"
+
+msgid "Align Pies"
+msgstr "对齐饼图"
+
+msgid "Show Sidebar Panel"
+msgstr "显示侧边栏面板"
+
+msgid "Show MACHIN3tools Panel in 3D View's Sidebar"
+msgstr "在 3D 视图的侧边栏中显示 MACHIN3tools 面板"
+
+msgid "Show Addon Preferences Quick Access button in Sidebar Panel's Header"
+msgstr "在侧边栏面板的标题栏中显示插件偏好设置快速访问按钮"
+
+msgid "Show Help and Documentation Panels in Sidebar"
+msgstr "在侧边栏中显示帮助和文档面板"
+
+msgid "Show Support and Documentation panels in MACHIN3tools Sidebar Panel"
+msgstr "在 MACHIN3tools 侧边栏面板中显示支持和文档面板"
+
+msgid "HUD Scale"
+msgstr "HUD 缩放"
+
+msgid "Scale of HUD elements"
+msgstr "HUD 元素比例"
+
+msgid "HUD timeout"
+msgstr "HUD 超时"
+
+msgid "Global Timeout Modulation (not exposed in MACHIN3tools)"
+msgstr "全局超时调制（未在 MACHIN3tools 中暴露）"
+
+msgid "HUD Shadow"
+msgstr "HUD 阴影"
+
+msgid "HUD Shadow Blur"
+msgstr "HUD 阴影模糊"
+
+msgid "HUD Shadow Offset"
+msgstr "HUD 阴影偏移"
+
+msgid "Clean Up HUD Fade Time (seconds)"
+msgstr "清理 HUD 淡入时间（秒）"
+
+msgid "Select Hierarchy HUD Fade Time (seconds)"
+msgstr "选择层级 HUD 淡入时间（秒）"
+
+msgid "Clipping Toggle HUD Fade Time (seconds)"
+msgstr "裁剪切换 HUD 淡入时间（秒）"
+
+msgid "Group HUD Fade Time (seconds)"
+msgstr "组 HUD 淡入时间（秒）"
+
+msgid "Tools Pie HUD Fade Time (seconds)"
+msgstr "工具面板 HUD 淡入时间（秒）"
+
+msgid "Flick Distance"
+msgstr "闪烁距离"
+
+msgid "Update is available"
+msgstr "更新已可用"
+
+msgid "Tabs"
+msgstr "选项卡"
+
+msgid "An Update is Available"
+msgstr "有更新可用"
+
+msgctxt "Operator"
+msgid "What's new?"
+msgstr "有什么新功能？"
+
+msgid "Install MACHIN3tools Update from .zip File"
+msgstr "从 .zip 文件安装 MACHIN3tools 更新"
+
+msgctxt "Operator"
+msgid "Remove Update"
+msgstr "移除更新"
+
+msgctxt "Operator"
+msgid "Quit Blender + Install Update"
+msgstr "退出 Blender + 安装更新"
+
+msgid "Found the following Updates in your home and/or Downloads folder:"
+msgstr "在您的“主文件夹”和/或“下载”文件夹中发现了以下更新："
+
+msgctxt "Operator"
+msgid "Re-Scan"
+msgstr "重新扫描"
+
+msgid "found"
+msgstr "发现"
+
+msgctxt "Operator"
+msgid "MACHIN3tools {tail}"
+msgstr "MACHIN3tools {tail}"
+
+msgid "No Update was found. Neither in your Home directory, nor in your Downloads folder."
+msgstr "未找到更新。既不在您的主目录中，也不在下载文件夹中。"
+
+msgid "Select MACHIN3tools_x.x.x.zip file"
+msgstr "选择 MACHIN3tools_x.x.x.zip 文件"
+
+msgid "Support"
+msgstr "支持"
+
+msgid "Click this Support Button and send me the files it creates, if you ever need Product Support"
+msgstr "点击此支持按钮并发送它生成的文件，如果您需要产品支持的话"
+
+msgctxt "Operator"
+msgid "Get Support"
+msgstr "获取支持"
+
+msgid "Activate"
+msgstr "激活"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid "Smart Vertex Merging, Connecting and Sliding"
+msgstr "智能顶点合并、连接和滑动"
+
+msgid "Smart Edge Creation, Manipulation, Projection and Selection Conversion"
+msgstr "智能边创建、操纵、投影和选择转换"
+
+msgid "Smart Face Creation and Object-from-Face Creation"
+msgstr "智能面创建和从面创建对象"
+
+msgid "Quick Geometry Clean-up"
+msgstr "快速几何清理"
+
+msgid "Edge Constrained"
+msgstr "边约束"
+
+msgid "Edge Constrained Rotation and Scaling"
+msgstr "边约束旋转和缩放"
+
+msgid "PunchIt Manifold Extrusion and Cursor Spin"
+msgstr "PunchIt 流形挤出和光标旋转"
+
+msgid "Object Focus and Multi-Level Isolation"
+msgstr "对象聚焦和多级隔离"
+
+msgid "Flick Object Mirroring and Un-Mirroring"
+msgstr "对象镜像和取消镜像"
+
+msgid "Object per-axis Location, Rotation and Scale Alignment, as well as Object-Inbetween-Alignment"
+msgstr "按轴定位、旋转和缩放对齐，以及对象之间对齐"
+
+msgid "Group Objects using Empties as Parents"
+msgstr "使用空物体作为父对象对物体进行分组"
+
+msgid "Use one Object to drive another"
+msgstr "使用一个对象驱动另一个对象"
+
+msgid "Easy Assemly Asset Creation and Import via the Asset Browser"
+msgstr "通过资产浏览器轻松创建和导入装配资产"
+
+msgid "Additional Tools/Shortcuts for the Filebrowser (and Assetbrowser)"
+msgstr "文件浏览器（以及资产浏览器）的附加工具和快捷键"
+
+msgid "Toggle 3D View Toolbar, Sidebar and Asset Browsers using a single T keymap, depending on mouse position"
+msgstr "根据鼠标位置，使用单个 T 键图切换 3D 视图工具栏、侧边栏和资产浏览器"
+
+msgid "Tools for efficient, iterative rendering and automatic Bevel Shader Setup through the Shading Pie"
+msgstr "用于高效迭代渲染并通过着色器面板自动设置倒角着色器的工具"
+
+msgid "Toggle Smoothing in Korean Bevel and SubD workflows"
+msgstr "在韩语倒角和细分曲面工作流中切换平滑显示"
+
+msgid "Viewport Clipping Plane Toggle"
+msgstr "视口裁剪平面切换"
+
+msgid "Easily modify Mesh Topology, while maintaining Form"
+msgstr "轻松修改网格拓扑，同时保持形状"
+
+msgid "Pick Materials for the Shader Editor and Assign Materials from other Objects or from the Asset Browser"
+msgstr "为着色器编辑器选择材质，并从其他对象或资产浏览器分配材质"
+
+msgid "Apply Transformations while keeping the Bevel Width as well as the Child Transformations unchanged"
+msgstr "应用变形同时保持倒角宽度以及子级变形不变"
+
+msgid "Select Hierarchy and Select Hierarchy Pie, Select Center Objects, Select/Hide Wire Objects,"
+msgstr "选择层级和层级饼图，选择中心对象，选择/隐藏线框对象，"
+
+msgid "Knife Intersect a Mesh-Object, using another one"
+msgstr "使用另一个对象切割网格对象，"
+
+msgid "Easily turn Cylinder Faces into Thread"
+msgstr "轻松将圆柱面转换为螺纹"
+
+msgid "Unity Tools"
+msgstr "Unity 工具"
+
+msgid "Unity related Export Tools"
+msgstr "与 Unity 相关的导出工具"
+
+msgid "Customize various Blender preferences, settings and keymaps (MACHIN3's config)"
+msgstr "自定义各种 Blender 偏好设置、设置和快捷键（MACHIN3 配置）"
+
+msgid "Pie Menus"
+msgstr "饼图菜单"
+
+msgid "Smart Vert, Smart Edge and Smart Face in a single pie"
+msgstr "单个饼图中的智能顶点、智能边和智能面"
+
+msgid "Quick mode changing and more with a single key press"
+msgstr "单键快速切换模式及其他功能"
+
+msgid "Save, Open, Append and Link. Load Recent, Previous and Next. Purge and Clean Out. ScreenCast and Versioned Startup file"
+msgstr "保存、打开、附加和链接。加载最近、上一个和下一个。"
+
+msgid "Control shading, overlays, eevee and some object properties"
+msgstr "控制着色、叠加层、Eevee 和一些对象属性"
+
+msgid "Control views. Create and manage cameras"
+msgstr "控制视图。创建和管理摄像机"
+
+msgid "Edit mesh and UV alignments"
+msgstr "编辑网格和 UV 对齐"
+
+msgid "Cursor and Origin manipulation"
+msgstr "光标和原点操作"
+
+msgid "Transform Orientations and Pivots"
+msgstr "变换方向与枢轴点"
+
+msgid "Snapping"
+msgstr "吸附"
+
+msgid "Collection management"
+msgstr "集合管理"
+
+msgid "Switch Tools and Annotate, with BoxCutter/HardOps and HyperCursor support"
+msgstr "切换工具并添加注释，支持 BoxCutter 和 HardOps 以及 HyperCursor。"
+
+msgid "Operators:"
+msgstr "操作符："
+
+msgid "Keymaps:"
+msgstr "键盘快捷方式"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "No tools or pie menus with settings have been activated."
+msgstr "未激活任何带有设置的工具或菜单。"
+
+msgid "Addon"
+msgstr "插件"
+
+msgid "Print Addon Registration Output in System Console"
+msgstr "在系统控制台打印插件注册输出"
+
+msgid "View 3D"
+msgstr "视图 3D"
+
+msgid "Show Preferences Quick-Access-Button in Header"
+msgstr "在标题栏中显示偏好设置快速访问按钮"
+
+msgid "Show Support and Documentation Panels in Sidebar"
+msgstr "在侧边栏中显示支持和文档面板"
+
+msgid "HUD"
+msgstr "HUD"
+
+msgid "Mirror Flick Distance"
+msgstr "镜像闪烁距离"
+
+msgid "Blur"
+msgstr "模糊"
+
+msgid "Offset"
+msgstr "偏移"
+
+msgid "Fade times"
+msgstr "淡入时间"
+
+msgid "Group"
+msgstr "组"
+
+msgid "Select Hierarchy"
+msgstr "选择层次结构"
+
+msgid "Quad Sphere"
+msgstr "四球体"
+
+msgid "Defaults"
+msgstr "默认值"
+
+msgid "Unwrap Method"
+msgstr "展开方法"
+
+msgid "Tool Settings"
+msgstr "工具设置"
+
+msgid "Use Topo Mode for Face-from-Vert Creation"
+msgstr "使用拓扑模式进行面从顶点创建"
+
+msgid "Only use Topo Mode, when when Retopolgy Overlay is used"
+msgstr "仅在使用 Retopo 覆盖时，才使用 Topo 模式"
+
+msgid "Only use Topo Mode, when when Face Snapping is set up"
+msgstr "仅在设置 Face Snapping 时使用 Topo 模式"
+
+msgid "The PunchIt and Cursor Spin tools are both found in the 3D View's sidebar (in edit mesh mode), or the Blender-native Extrude Menu!"
+msgstr "PunchIt 和 Cursor Spin 工具均位于 3D 视图的侧边栏（在编辑网格模式下），或 Blender 原生的 Extrude Menu！"
+
+msgid "Extrude Menu Popup"
+msgstr "挤出菜单弹出框"
+
+msgid "Unfortunately, your 'Industry Compatible' keymap does not define a keymap item for said menu!"
+msgstr "遗憾的是，您的“行业兼容”键映射并未定义该菜单的键映射项！"
+
+msgid "Unfortunately it appears that you have removed the native key mapping for said menu!"
+msgstr "遗憾地看来，您已移除了该菜单的原生键绑定！"
+
+msgid "Group Naming"
+msgstr "组命名"
+
+msgid "Basename"
+msgstr "基名"
+
+msgid "Auto Name"
+msgstr "自动名称"
+
+msgid "Prefix"
+msgstr "前缀"
+
+msgid "Suffix"
+msgstr "后缀"
+
+msgid "Group Empties"
+msgstr "组清空"
+
+msgid "Default Empty Draw Size"
+msgstr "默认空对象绘制大小"
+
+msgid "Fade Sub Group Sizes"
+msgstr "淡化子组大小"
+
+msgid "Factor"
+msgstr "因子"
+
+msgid "Group Menus"
+msgstr "组菜单"
+
+msgid "Use dedicated Group Sub-Menu in Object Context Menu"
+msgstr "在对象上下文菜单中使用专用的组子菜单"
+
+msgid "Show Parenting Toggle in Outliner Header"
+msgstr "在大纲器标题栏中显示父级切换按钮"
+
+msgid "Show Group Selection Toggles in Outliner Header"
+msgstr "在大纲器标题栏中显示组选择切换按钮"
+
+msgid "Show Group Gizmos Toggle in Outliner Header"
+msgstr "在大纲器标题栏中显示组 Gizmos 切换按钮"
+
+msgid "There are additional options for Group tools in the Modes Pie's Settings!"
+msgstr "组工具在模式饼图的设置中还有更多选项！"
+
+msgid "Group Mode"
+msgstr "组模式"
+
+msgid "Disable Auto-Select"
+msgstr "禁用自动选择"
+
+msgid "Disable Recursive-Select"
+msgstr "禁用递归选择"
+
+msgid "Disable Group-Hiding"
+msgstr "禁用组隐藏"
+
+msgid "Disable Group Gizmos"
+msgstr "禁用组 Gizmos"
+
+msgid "Draw Group Relations"
+msgstr "绘制组关系"
+
+msgid "Group Behavior"
+msgstr "组行为"
+
+msgid "Assetbrowser"
+msgstr "资产浏览器"
+
+msgid "Header and Sidebar"
+msgstr "标题栏和侧边栏"
+
+msgid "Header"
+msgstr "标题"
+
+msgid "Show Import Method"
+msgstr "显示导入方法"
+
+msgid "Show Import Method when FOLLOW_PREFS is used."
+msgstr "显示使用 FOLLOW_PREFS 时的导入方法。"
+
+msgid "Show Blender-native Capture Tool"
+msgstr "显示原生捕获工具"
+
+msgid "Asset"
+msgstr "资产"
+
+msgid "Creation"
+msgstr "创建"
+
+msgid "Preferred Default Catalog (must exist already)"
+msgstr "首选默认目录（必须已存在）"
+
+msgid "Meta Data"
+msgstr "元数据"
+
+msgid "No Meta Data will be set on Asset Creation"
+msgstr "创建资产时不会设置元数据"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Copyright"
+msgstr "版权"
+
+msgid "License"
+msgstr "许可证"
+
+msgid "Prefer Left/Right toggle, over Bottom/Top, before Close Range is used to determine whether the other pair is toggled"
+msgstr "优先使用左/右切换，而不是上/下切换（在关闭范围之前）来确定是否切换另一对"
+
+msgid "Close Range - Proximity to Boundary as Percentages of the Area Width/Height"
+msgstr "关闭范围 - 作为区域宽度和高度的百分比的边界接近度"
+
+msgid "If available toggle the Asset Shelf instead of the Browser"
+msgstr "如果可用，则切换资产面板而不是浏览器"
+
+msgid "Toggle Asset Browser at Top of 3D View"
+msgstr "在 3D 视图顶部切换资产浏览器"
+
+msgid "Toggle Asset Browser at Bottom of 3D View"
+msgstr "在 3D 视图底部切换资产浏览器"
+
+msgid "Folder Name (relative to the .blend file)"
+msgstr "文件夹名称（相对于.blend 文件）"
+
+msgid "Keep Individual Seed Renderings"
+msgstr "保留单独的种子渲染结果"
+
+msgid "Use Clownmatte Naming"
+msgstr "使用小丑遮罩命名"
+
+msgid "NOTE: The following are all controlled from the Shading Pie"
+msgstr "注意：以下设置均由着色面板控制"
+
+msgid "Adjust Area Lights when Rendering in Cycles"
+msgstr "在 Cycles 渲染时调整区域灯"
+
+msgid "Enforce hide_render settign when Viewport Rendering"
+msgstr "在视口渲染时强制隐藏渲染设置"
+
+msgid "Automatically Set Up Bevel Shader"
+msgstr "自动设置倒角着色器"
+
+msgid "Enable the Shading Pie for additional options"
+msgstr "启用着色面板以获取更多选项"
+
+msgid "Show Material Picker in these Workspaces"
+msgstr "在这些工作区中显示材质选择器"
+
+msgid "Show Material Picker in Views set to Material Shading"
+msgstr "在设置为材质着色视图的视图中显示材质选择器"
+
+msgid "Show Material Picker in Views set to Rendered Shading"
+msgstr "在设置为渲染着色视图的视图中显示材质选择器"
+
+msgid "Object Mode Header Spacing"
+msgstr "对象模式标题栏间距"
+
+msgid "Edit Mode Header Spacing"
+msgstr "编辑模式标题栏间距"
+
+msgid "Right Mouse Button Keymap"
+msgstr "右键按钮键位映射"
+
+msgid "Enabled"
+msgstr "启用"
+
+msgid "Use RMB to Assign Material to selection in Material and Rendered shading modes"
+msgstr "在材质和渲染着色模式下使用右键为选中对象分配材质"
+
+msgid "Add Material Picker to Top-Level of Context Menu"
+msgstr "将材质拾取器添加到顶层上下文菜单"
+
+msgid "Startup"
+msgstr "启动时"
+
+msgid "Preferences"
+msgstr "首选项"
+
+msgid "Interface"
+msgstr "界面"
+
+msgid "System"
+msgstr "系统"
+
+msgid "Input & Navigation"
+msgstr "输入与导航"
+
+msgid "Save"
+msgstr "保存"
+
+msgctxt "Operator"
+msgid "Customize"
+msgstr "自定义"
+
+msgid "Pie Settings"
+msgstr "派生设置"
+
+msgid "With the Smart Pie enabled, some or all of the following keymaps can be disabled!"
+msgstr "启用智能派生后，以下部分或全部快捷键可以禁用！"
+
+msgid "Every single one of these can be accessed from the pie."
+msgstr "所有这些快捷键都可以通过派生访问。"
+
+msgctxt "Operator"
+msgid "Toggle All"
+msgstr "切换全部"
+
+msgid "Vert Bevel / Merge Last / Merge at Mouse"
+msgstr "垂直倒角/合并最后一条/在鼠标位置合并"
+
+msgid "{label} - Not found."
+msgstr "{label} - 未找到."
+
+msgid "Knife Cut, Connect, Loop Cut, Turn Edge, Select Bounds, Select Region, Knife Project, Star Connect"
+msgstr "刀切、连接、环切、旋转边、选择边界、选择区域、刀投影、星形连接"
+
+msgid "Toggle Sharps/Crease/Chamfer/Korean Bevel"
+msgstr "切换锐利度/折痕/倒角/韩国倒角"
+
+msgid "Create Faces from Verts/Edges, create new Objects from Faces"
+msgstr "从顶点/边创建面，从面创建新对象"
+
+msgid "Neither Smart Vert nor Smart Edge nor Smart Face are active!"
+msgstr "Smart Vert、Smart Edge 和 Smart Face 均未激活！"
+
+msgid "Adjustable Top Button"
+msgstr "可调节顶部按钮"
+
+msgid "Pick the button(s) at the top of the Pie in Object Mode"
+msgstr "在对象模式下选择派生图形的顶部按钮"
+
+msgid "Show Edit Mode Toggle"
+msgstr "显示编辑模式切换按钮"
+
+msgid "Legacy behavior, now disabled by default!"
+msgstr "旧版行为，现在默认已禁用！"
+
+msgid "Show Sculpt Mode Toggle for Mesh Objects"
+msgstr "为网格对象显示雕刻模式切换按钮"
+
+msgid "Group Buttons"
+msgstr "分组按钮"
+
+msgid "Only one of these 3 is ever shown at one time"
+msgstr "这 3 个按钮中同一时间只会显示一个"
+
+msgid "Show Select Group Up if Active is a Sub-Group Empty"
+msgstr "如果激活的是子组空对象，则显示“选择组上”按钮"
+
+msgid "Show Select Group Button, if Active is a Group Object"
+msgstr "如果激活的是组对象，则显示“选择组”按钮"
+
+msgid "Show Create Group Button"
+msgstr "显示创建组按钮"
+
+msgid "Assembly Edit Buttons"
+msgstr "装配编辑按钮"
+
+msgid "Show Assembly Edit Button at the bottom, when Active is an Assembly"
+msgstr "当活动对象为装配时，在底部显示装配编辑按钮"
+
+msgid "Show Assembly Edit Finish Button at the top, when in Assembly Edit Mode"
+msgstr "在装配编辑模式下，在顶部显示装配编辑完成按钮"
+
+msgid "Mode Switch Automation"
+msgstr "模式切换自动化"
+
+msgid "Sync Tool if present in both modes, when switching Modes"
+msgstr "如果两种模式下都存在同步工具，则在切换模式时同步该工具"
+
+msgid "Import / Export"
+msgstr "导入/导出"
+
+msgid "Show .obj Import/Export"
+msgstr "显示.obj 导入/导出"
+
+msgid "Show Plasticity Import/Export"
+msgstr "显示塑性导入/导出"
+
+msgid ".obj import/export with Axes set up already"
+msgstr ".obj 导入/导出（轴已设置）"
+
+msgid "Show .fbx Import/Export"
+msgstr "显示.fbx 导入/导出"
+
+msgid "Use New Experimental Importer"
+msgstr "使用新的实验性导入器"
+
+msgid "Show Better .fbx Import/Export"
+msgstr "显示更好的.fbx 导入/导出"
+
+msgid "Show .usd Import/Export"
+msgstr "显示.usd 导入/导出"
+
+msgid "Show .stl Import/Export"
+msgstr "显示.stl 导入/导出"
+
+msgid "Show .glTF Import/Export"
+msgstr "显示.glTF 导入/导出"
+
+msgid "Export Root Folders"
+msgstr "导出根文件夹"
+
+msgid "Plasticity"
+msgstr "Plasticity"
+
+msgid "Better .fbx"
+msgstr "更好的.fbx"
+
+msgid "Versioned Startup File"
+msgstr "版本化的启动文件"
+
+msgid "Use CTRL + U keymap override"
+msgstr "使用 CTRL + U 键覆盖"
+
+msgid "Auto Save"
+msgstr "自动保存"
+
+msgid "Self-Save the current file"
+msgstr "将当前文件自存"
+
+msgid "Save to an external file"
+msgstr "保存到外部文件"
+
+msgid "File Count Limit"
+msgstr "文件数量限制"
+
+msgid "Custom Folder"
+msgstr "自定义文件夹"
+
+msgid "Time Interval in Seconds"
+msgstr "秒数间隔"
+
+msgid "Save before Undo Operations"
+msgstr "撤销操作前保存"
+
+msgid "Save before first Redo Operation (Redo Panel)"
+msgstr "第一次重做操作（重做面板）前保存"
+
+msgid "Screen Cast"
+msgstr "屏幕录制"
+
+msgid "Use Screencast Keys (Extension, preferred)"
+msgstr "使用录屏键（扩展，推荐）"
+
+msgid "Overlay Visibility (per-shading type)"
+msgstr "覆盖可见性（按着色类型）"
+
+msgid "Solid Shading"
+msgstr "实体着色"
+
+msgid "Material Shading"
+msgstr "材质着色"
+
+msgid "Rendered Shading"
+msgstr "渲染着色"
+
+msgid "Wire Shading"
+msgstr "线框着色"
+
+msgid "Autosmooth"
+msgstr "自动平滑"
+
+msgid "Auto Smooth Angle Presets shown in the Shading Pie as buttons"
+msgstr "着色饼图中显示的自动平滑角度预设按钮"
+
+msgid "Leave Auto Smooth Modifier open, and don't collapse it"
+msgstr "保持自动平滑修改器打开，不要折叠它"
+
+msgid "Matcap Switch"
+msgstr "Matcap 切换"
+
+msgid "Show Turntable/Trackball Orbit Method Selection"
+msgstr "显示转盘/轨道球轨道方法选择"
+
+msgid "Smart Cam"
+msgstr "智能相机"
+
+msgid "Camera Creation"
+msgstr "相机创建"
+
+msgid "Match Resolution Viewport"
+msgstr "匹配分辨率视图"
+
+msgid "Switch to Face Nearest when Surface Snapping is chosen and invoked a second time"
+msgstr "当选择表面吸附并第二次调用时切换到面最近"
+
+msgid "Snap Preset"
+msgstr "吸附预设"
+
+msgid "Targets"
+msgstr "目标"
+
+msgid "Vert Preset"
+msgstr "垂直预设"
+
+msgid "Edge Preset"
+msgstr "边预设"
+
+msgid "Surface Preset"
+msgstr "表面预设"
+
+msgid "Face Nearest Preset"
+msgstr "面最近预设"
+
+msgid "Volume Preset"
+msgstr "体积预设"
+
+msgid "Grid Preset"
+msgstr "网格预设"
+
+msgid "It's your responsibility to pick workspace- and icon names that actually exist!"
+msgstr "您有责任选择实际存在的窗口和图标名称！"
+
+msgid "Top-Left"
+msgstr "左上角"
+
+msgid "Top-Right"
+msgstr "右上角"
+
+msgctxt "Operator"
+msgid "Icon Names?"
+msgstr "图标名称？"
+
+msgid "Bottom-Left"
+msgstr "左下角"
+
+msgid "Bottom-Right"
+msgstr "右下角"
+
+msgid "Tools Switcher (Top Button)"
+msgstr "工具切换器（顶部按钮）"
+
+msgid "Always Pick Tools instead of Switching"
+msgstr "始终选择工具而不是切换"
+
+msgid "Tools to Switch between"
+msgstr "用于在工具间切换的"
+
+msgid "Tools Picker"
+msgstr "工具选择器"
+
+msgid "Button Positioning"
+msgstr "按钮位置设置"
+
+msgid "Warp Mouse to Active"
+msgstr "将鼠标拖拽到活动工具上"
+
+msgid "Show Icons"
+msgstr "显示图标"
+
+msgid "Show Labels"
+msgstr "显示标签"
+
+msgid "Show Button Background"
+msgstr "显示按钮背景"
+
+msgid "Tool Picker Keymap"
+msgstr "工具选择器快捷键"
+
+msgid "Other Pie Buttons"
+msgstr "其他圆形按钮"
+
+msgid "Show SurfaceDraw"
+msgstr "显示表面绘制"
+
+msgid "Show Hard Ops"
+msgstr "显示硬操作"
+
+msgid "Show BoxCutter"
+msgstr "显示盒刀"
+
+msgid "Annotate"
+msgstr "标注"
+
+msgid "Use Annotation Space instead of Grease Pencil"
+msgstr "使用标注空间而不是铅笔工具"
+
+msgid "Sculpt Mode Conflicts"
+msgstr "雕刻模式冲突"
+
+msgid "There is a conflicting keymap, preventing the Shading Pie from coming up in Sculpt mode. I suggest you remap it, maybe by adding a mod key?"
+msgstr "存在一个冲突的快捷键，阻止着色面板在雕刻模式下弹出。建议您重新映射它，也许可以添加一个修饰键？"
+
+msgid "There is a conflicting keymap, preventing the Views Pie from coming up in Sculpt mode. I suggest you remap it, maybe by adding a mod key?"
+msgstr "存在一个冲突的快捷键，阻止视图面板在雕刻模式下弹出。建议您重新映射它，也许可以添加一个修饰键？"
+
+msgctxt "Operator"
+msgid "Reset Modified Keymaps to Default"
+msgstr "重置修改后的快捷键为默认值"
+
+msgctxt "Operator"
+msgid "Restore Missing Keymaps"
+msgstr "恢复缺失的快捷键"
+
+msgid "No keymappings available, because none of the tools have been activated."
+msgstr "暂无可用的键盘映射，因为没有任何工具已激活。"
+
+msgid "No keymappings created, because none of the pies have been activated."
+msgstr "未创建任何键盘映射，因为没有激活任何 pies。"
+
+msgctxt "Operator"
+msgid "MACHIN3tools"
+msgstr "MACHIN3tools"
+
+msgctxt "Operator"
+msgid "MACHINƎ.io"
+msgstr "MACHINƎ.io"
+
+msgctxt "Operator"
+msgid "blenderartists"
+msgstr "blenderartists"
+
+msgctxt "Operator"
+msgid "Patreon"
+msgstr "Patreon"
+
+msgctxt "Operator"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Operator"
+msgid "Youtube"
+msgstr "Youtube"
+
+msgctxt "Operator"
+msgid "Artstation"
+msgstr "Artstation"
+
+msgctxt "Operator"
+msgid "DECALmachine"
+msgstr "DECALmachine"
+
+msgctxt "Operator"
+msgid "MESHmachine"
+msgstr "MESHmachine"
+
+msgctxt "Operator"
+msgid "PUNCHit"
+msgstr "PUNCHit"
+
+msgctxt "Operator"
+msgid "CURVEmachine"
+msgstr "曲率机"
+
+msgctxt "Operator"
+msgid "HyperCursor"
+msgstr "超游光标"
+
+msgid "History Object"
+msgstr "历史对象"
+
+msgid "BatchPose"
+msgstr "批量摆姿势"
+
+msgid "Pose.{str(self.index).zfill(3)}"
+msgstr "姿态.{str(self.index).zfill(3)}"
+
+msgid "Group Pose Matrix"
+msgstr "组姿态矩阵"
+
+msgid "Remove Pose"
+msgstr "移除姿势"
+
+msgid "Batch Pose"
+msgstr "批量摆姿势"
+
+msgid ""
+"Toggle Connection to Other Batch Poses in this Group Hierarchy\n"
+"\n"
+"If the active pose is disconnected, it will be retrieved like a regular single Pose.\n"
+"Disconnected Batch Poses in the Group Hierarchy below, will not be previewed, retrieved or removed, unless overriden in the Retrieve/Remove ops"
+msgstr ""
+"在此组层级中切换与其他批动作的连接\n"
+"\n"
+"如果活动动作已断开，它将像普通单个动作一样被检索。\n"
+"下方的组层级中断开的批动作将不会被预览、检索或移除，除非在检索/移除操作中覆盖设置"
+
+msgid "Use Undo Save"
+msgstr "使用撤销保存"
+
+msgid ""
+"Save before Undoing\n"
+"Be warned, depending on your scene complexity, this can noticably affect your undo speed"
+msgstr ""
+"撤销前请保存\n"
+"请注意，根据您的场景复杂度，这可能会明显影响撤销速度"
+
+msgid "Use Redo Save"
+msgstr "使用重做保存"
+
+msgid "Also save before first Operator Redos"
+msgstr "在第一个操作重做之前也进行保存"
+
+msgid "Pass Through"
+msgstr "穿透"
+
+msgid "Show Edit Mesh Wireframe"
+msgstr "显示编辑网格线框"
+
+msgid "Synce Selection"
+msgstr "同步选择"
+
+msgid "Cavity"
+msgstr "凹陷"
+
+msgid "Curvature"
+msgstr "曲率"
+
+msgid "Draw_Axes Size"
+msgstr "绘制坐标轴大小"
+
+msgid "Draw Axes Alpha"
+msgstr "绘制坐标轴透明度"
+
+msgid "Draw Axes in Screen Space"
+msgstr "在屏幕空间中绘制坐标轴"
+
+msgid "Draw Active Axes"
+msgstr "绘制活动坐标轴"
+
+msgid "Draw Active's Object Axes"
+msgstr "绘制活动对象的坐标轴"
+
+msgid "Draw Cursor Axes"
+msgstr "绘制光标坐标轴"
+
+msgid "Draw Cursor's Axes"
+msgstr "绘制光标坐标轴"
+
+msgid "Lighting Method"
+msgstr "光照方法"
+
+msgid "Lighting Method for Solid/Texture Viewport Shading"
+msgstr "实体/纹理视口着色光照方法"
+
+msgid "Use Flat Shadows"
+msgstr "使用平面阴影"
+
+msgid "Use Shadows when in Flat Lighting"
+msgstr "使用阴影（Flat 光照）"
+
+msgid "Eevee Preset"
+msgstr "Eevee 预设"
+
+msgid "Eevee Quality Presets"
+msgstr "Eevee 质量预设"
+
+msgid "Eevee Passes Preset"
+msgstr "Eevee 通道预设"
+
+msgid "Eevee Passes Presets"
+msgstr "Eevee 通道预设集"
+
+msgid "Set Use Scene Lights"
+msgstr "设置使用场景灯光"
+
+msgid "Set Use Scene Lights when changing Eevee Preset"
+msgstr "切换 Eevee 预设时设置使用场景灯光"
+
+msgid "Set Use Scene World"
+msgstr "设置使用场景世界"
+
+msgid "Set Use Scene World when changing Eevee Preset"
+msgstr "切换 Eevee 预设时设置使用场景世界"
+
+msgid "Eevee Thickness"
+msgstr "Eevee 厚度"
+
+msgid "Eevee Ray-Trace and Fast GI Resolution"
+msgstr "Eevee 光线追踪和快速 GI 分辨率"
+
+msgid "Eevee Screen-Trace Thickness + Fast GI Near Thickness"
+msgstr "Eevee 屏幕光追厚度 + 快速 GI 近场厚度"
+
+msgid "Eevee Precision"
+msgstr "Eevee 精度"
+
+msgid "Eevee Screen-Trace Precision + Fast GI Precision"
+msgstr "Eevee 屏幕光追精度 + 快速 GI 精度"
+
+msgid "Use Volumes"
+msgstr "使用体积渲染"
+
+msgid ""
+"Toggle Volume Rendering\n"
+"\n"
+" Object Volumes are toggled by filtering them in the viewport\n"
+" World Volume is toggled by (un)muting the Volume node\n"
+"\n"
+"Without Object Volumes and without a World Volume present, enabling this will set up a World Volume\n"
+"Hold SHIFT to force set up a World Volume, even though Object Volumes are present"
+msgstr ""
+"切换体积渲染\n"
+"对象体积可通过在视口中过滤它们来切换\n"
+"世界体积通过（取消）静音 Volume 节点来切换\n"
+"\n"
+"如果没有对象体积且没有世界体积，启用此选项将设置一个世界体积\n"
+"按住 SHIFT 强制设置世界体积，即使存在对象体积也如此"
+
+msgid "Use Bloom"
+msgstr "使用辉光"
+
+msgid "Toggle Bloom Post Effect"
+msgstr "切换辉光后期效果"
+
+msgid "Use Dispersion"
+msgstr "使用色散"
+
+msgid "Toggle Dispersion Post Effect"
+msgstr "切换色散后期效果"
+
+msgid "Adjust Lights when Rendering"
+msgstr "渲染时调整灯光"
+
+msgid "Adjust Lights Area Lights when Rendering, to better match Eevee and Cycles"
+msgstr "渲染时调整区域灯光，使其更好地匹配 Eevee 和 Cycles"
+
+msgid "Divider used to calculate Cycles Light Strength from Eeeve Light Strength"
+msgstr "用于从 Eevee 灯光强度计算 Cycles 灯光强度的除数"
+
+msgid "Last Light Adjustment"
+msgstr "最后一次灯光调整"
+
+msgid "Have Lights been decreased by the init render handler?"
+msgstr "初始渲染处理器是否减少了灯光？"
+
+msgid "Render Engine"
+msgstr "渲染引擎"
+
+msgid "Render Device"
+msgstr "渲染设备"
+
+msgid "Enfore hide_render setting for objects when Viewport Rendering"
+msgstr "在视口渲染时强制对象应用隐藏渲染设置"
+
+msgid "Use Bevel Shader"
+msgstr "使用倒角着色器"
+
+msgid "Batch Apply Bevel Shader to visible Materials"
+msgstr "批量应用可见材质的倒角着色器"
+
+msgid "Consider Object Dimensions for Bevel Radius Modulation"
+msgstr "考虑对象尺寸以调节倒角半径"
+
+msgid "Samples"
+msgstr "采样数"
+
+msgid "Bevel Shader Samples"
+msgstr "倒角着色器采样"
+
+msgid "Radius"
+msgstr "半径"
+
+msgid "Bevel Shader Global Radius"
+msgstr "倒角着色器全局半径"
+
+msgid "Custom Local Views"
+msgstr "自定义局部视图"
+
+msgid "Use Custom Views, based on the active object's orientation"
+msgstr "使用基于活动对象方向的自定义视图"
+
+msgid "Custom Cursor Views"
+msgstr "自定义光标视图"
+
+msgid "Use Custom Views, based on the cursor's orientation"
+msgstr "使用基于光标方向的自定义视图"
+
+msgid "Align Mode"
+msgstr "对齐模式"
+
+msgid "Driver Start Value"
+msgstr "驱动起始值"
+
+msgid "Driver End Value"
+msgstr "驱动结束值"
+
+msgid "Driver Axis"
+msgstr "驱动轴"
+
+msgid "Driver Transform"
+msgstr "驱动变换"
+
+msgid "Driver Space"
+msgstr "驱动空间"
+
+msgid "Driven Start Value"
+msgstr "被驱动起始值"
+
+msgid "Driven End Value"
+msgstr "被驱动结束值"
+
+msgid "Driven Axis"
+msgstr "被驱动轴"
+
+msgid "Driven Transform"
+msgstr "被驱动变换"
+
+msgid "Driven Lmit"
+msgstr "被驱动限制"
+
+msgid "Export to Unity"
+msgstr "导出到 Unity"
+
+msgid ""
+"Enable to do the actual FBX export\n"
+"Leave it off to only prepare the Model"
+msgstr ""
+"启用以执行实际的 FBX 导出\n"
+"留空仅准备模型"
+
+msgid "Unity Export Path"
+msgstr "Unity 导出路径"
+
+msgid "Triangulate before exporting"
+msgstr "导出前三角化"
+
+msgid "Add Triangulate Modifier to the end of every object's stack"
+msgstr "为每个对象的堆栈末尾添加三角化修改器"
+
+msgid "BoxCutter Orientation"
+msgstr "BoxCutter 方向"
+
+msgid "Show Group Gizmos"
+msgstr "显示组 Gizmos"
+
+msgid "Toggle Group Gizmos Globally"
+msgstr "全局切换组 Gizmos"
+
+msgid "Auto Select Groups"
+msgstr "自动选择组"
+
+msgid "Automatically select the entire Group, when its Empty is made active"
+msgstr "当空对象被激活时，自动选中整个组"
+
+msgid "Recursively Select Groups"
+msgstr "递归选择组"
+
+msgid "Recursively select entire Group Hierarchies down"
+msgstr "递归选中整个组层级"
+
+msgid "Hide Group Empties in 3D View"
+msgstr "在 3D 视图中隐藏组空对象"
+
+msgid "Hide Group Empties in 3D View to avoid Clutter"
+msgstr "避免杂乱，请在 3D 视图中隐藏组空对象"
+
+msgid "Show Auto Select Toggle in main Object Context Menu"
+msgstr "在主对象上下文中显示自动选择切换按钮"
+
+msgid "Show Recursive Selection Toggle in main Object Context Menu"
+msgstr "在主对象上下文中显示递归选择切换按钮"
+
+msgid "Show Group Hide Toggle in main Object Context Menu"
+msgstr "在主对象上下文中显示组隐藏切换按钮"
+
+msgid "Transform only the Group Origin(Empty)"
+msgstr "仅变换组的原点（空对象）"
+
+msgid "Transform the Group Origin(Empty) only, disable Group Auto-Select and enable \"affect Parents only\""
+msgstr "仅变换组的原点（空对象），禁用组自动选择并启用“仅影响父级”"
+
+msgid "Draw Group Relationships and Origins"
+msgstr "绘制组关系和原点"
+
+msgid "Draw Active's Group Relations Only"
+msgstr "仅绘制活动组的关联关系"
+
+msgid "Draw Active's Group Relationships and Origins only"
+msgstr "仅绘制活动的组关系和原点"
+
+msgid "Draw Group Relationships to Group Objects too"
+msgstr "将组关系也绘制到组对象上"
+
+msgid "Global Group Gizmo Size"
+msgstr "全局组 Gizmo 大小"
+
+msgid "Collect Path"
+msgstr "收集路径"
+
+msgid "is Assembly Edit Scene"
+msgstr "是否为装配体编辑场景"
+
+msgid "Assembly Edit Collection"
+msgstr "装配体编辑集合"
+
+msgid "Assembly Edit Initial Scence"
+msgstr "装配体编辑初始场景"
+
+msgid "Assemlby Edit Delta Viewmx"
+msgstr "装配体编辑差值视图 mx"
+
+msgid "Exported to Unity"
+msgstr "导出到 Unity"
+
+msgid "Pre-Unity-Export Matrix"
+msgstr "导出 Unity 前的矩阵"
+
+msgid "Pre-Unity-Export Mesh"
+msgstr "导出 Unity 前的网格"
+
+msgid "Pre-Unity-Export Armature"
+msgstr "导出 Unity 前的骨骼"
+
+msgid "is group empty"
+msgstr "组是否为空"
+
+msgid "is group object"
+msgstr "组是否为目标对象"
+
+msgid "is group anchor"
+msgstr "组锚点"
+
+msgid "group empty size"
+msgstr "组的空尺寸"
+
+msgid "Toggle Local Group Gizmo"
+msgstr "切换本地组 Gizmo"
+
+msgid "Show X Rotation Gizmo"
+msgstr "显示 X 旋转 Gizmo"
+
+msgid "Show Y Rotation Gizmo"
+msgstr "显示 Y 旋转 Gizmo"
+
+msgid "Show Z Rotation Gizmo"
+msgstr "显示 Z 旋转 Gizmo"
+
+msgid "Group Gizmo Size"
+msgstr "组 Gizmo 大小"
+
+msgid "Group Rest Post Matrix"
+msgstr "组 Rest Post 矩阵"
+
+msgid "Pose Name"
+msgstr "姿势名称"
+
+msgid "Double Click to Rename"
+msgstr "双击重命名"
+
+msgid "Pose Preview Alpha"
+msgstr "姿势预览透明度"
+
+msgid "Alpha used to preview Poses across the entire Group"
+msgstr "用于在整个组中预览姿势的透明度"
+
+msgid "Draw a Preview of the Active Pose"
+msgstr "绘制活动姿势的预览"
+
+msgid "Smooth Angle"
+msgstr "平滑角度"
+
+msgid "Has been smoothed"
+msgstr "已平滑"
+
+msgid "Draw Axes"
+msgstr "绘制坐标轴"
+
+msgid "Active Object Bevel Toggle"
+msgstr "活动对象倒角切换"
+
+msgid "Toggle Bevel Shader on Active Object"
+msgstr "在活动对象上启用/禁用倒角着色器"
+
+msgid "Active Object Bevel Radius Modulation"
+msgstr "活动对象倒角半径调制"
+
+msgid "Factor to modulate the Bevel Shader Radius on the Active Object"
+msgstr "用于调制活动对象倒角着色器半径的因子"
+
+msgid "Hash to find associated objects"
+msgstr "用于查找关联对象的哈希值"
+
+msgid "Custom Hide prop set in CreateAssemblyAsset, because and objects original visibility gets lost once you drop an asset into a scene"
+msgstr "在 CreateAssemblyAsset 中设置的自定义隐藏属性，因为当将资产放入场景后，原始可见性会丢失"
+
+msgid "Custom Hide Viewport prop set in CreateAssemblyAsset, because we disable this for some objects in the assets collection, but want to get the original state back when disassembling"
+msgstr "在 CreateAssemblyAsset 中设置的自定义隐藏视图属性，因为我们禁用了资产集合中某些对象的此功能，但在反组装时希望恢复其原始状态"
+
+msgid "Toggle Asset Thumbnail Helper"
+msgstr "启用/禁用资产缩略图辅助工具"
+
+msgid ""
+"Thumbnail Framing is done based on an Selection's BBox and can be imperfect, depending on a number of factors, such as Object Rotation or use of Modifiers like Mirror and Array.\n"
+"The Thumbnail Helper Gizmo can be used to fine-tune and adjust the Framing exactly as needed."
+msgstr ""
+"缩略图取景基于选择的边界框（BBox）进行计算，可能会因多种因素而不完美，例如对象旋转或使用镜像和阵列等修改器。\n"
+"缩略图辅助工具 Gizmo 可用于微调并精确调整取景效果。"
+
+msgid "Asset Thumbnail Helper Location Offset"
+msgstr "资产缩略图辅助器位置偏移"
+
+msgid "Asset Thumbnail Helper Rotation"
+msgstr "资产缩略图辅助器旋转"
+
+msgid "Asset Thumbnail Helper Matrix"
+msgstr "资产缩略图辅助器矩阵"
+
+msgid "MACHIN3tools"
+msgstr "MACHIN3tools"
+
+msgid "Streamlining Blender 4.2+."
+msgstr "简化 Blender 4.2+。"
+
+msgid "stale registration module missing boxcutter/hardops helpers"
+msgstr "过期的注册模块缺少 boxcutter/hardops 辅助工具"
+
+msgid "{bl_info['name']} was re-installed or updated in a running Blender session."
+msgstr "{bl_info['name']} 已在运行的 Blender 会话中重新安装或更新。"
+
+msgid "Please fully restart Blender now."
+msgstr "请现在完全重启 Blender。"
+
+msgid "Restart Required"
+msgstr "需要重启"
+
+msgid "version: {get_version_as_string()}"
+msgstr "版本：{get_version_as_string()}"
+
+msgid "update time: {update_time}"
+msgstr "更新时间：{update_time}"
+
+msgid "update available: {update_available}"
+msgstr "可用更新：{update_available}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align"
+msgstr "MACHIN3: 对齐"
+
+msgid "Align in between"
+msgstr "居中对齐"
+
+msgid "Draw in between"
+msgstr "绘制中间"
+
+msgid "Flip"
+msgstr "翻转"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Align Location"
+msgstr "对齐位置"
+
+msgid "Align Location Locally"
+msgstr "局部对齐位置"
+
+msgid "Align Selection on Active's or Cursor's Local Axes"
+msgstr "根据活动对象或光标局部轴对齐选择"
+
+msgid "Align Scale"
+msgstr "对齐缩放"
+
+msgid "Parent to Bone"
+msgstr "父级到骨骼"
+
+msgid "Align Z to Y"
+msgstr "Z 轴对齐 Y 轴"
+
+msgid "Roll Amount in Degrees"
+msgstr "旋转角度（度）"
+
+msgid "Relative Distance between First and Last Object"
+msgstr "第一个和最后一个对象之间的相对距离"
+
+msgid "Align to"
+msgstr "对齐到"
+
+msgid "Angle"
+msgstr "角度"
+
+msgid "Distance"
+msgstr "距离"
+
+msgid "Align Relative"
+msgstr "相对对齐"
+
+msgid "Confirm"
+msgstr "确认"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Select Single"
+msgstr "选择单个"
+
+msgid "Select Multiple"
+msgstr "选择多个"
+
+msgid "Instance"
+msgstr "实例化"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align Relative"
+msgstr "MACHIN3：相对对齐"
+
+msgid "Align Object Relatively compared to chosen Reference Object"
+msgstr "相对于选定的参考对象进行相对对齐"
+
+msgid "Mode:"
+msgstr "模式:"
+
+msgid "Duplicate"
+msgstr "复制"
+
+msgid "target map"
+msgstr "目标贴图"
+
+msgctxt "Operator"
+msgid "MACHIN3: Apply Transformation"
+msgstr "MACHIN3：应用变换"
+
+msgid "Apply Transformation while compensating Modifier Properties, Child Objects as well as Decal Backups and Stash Objects."
+msgstr "应用变换的同时补偿修饰器属性、子对象以及装饰备份和存储对象。"
+
+msgid "Selection contains objects with linked(instanced) data blocks."
+msgstr "选择包含链接（实例化）数据块的物体。"
+
+msgid "Results may be unpredictable!"
+msgstr "结果可能不可预测！"
+
+msgctxt "Operator"
+msgid "MACHIN3: Create Assembly Asset"
+msgstr "MACHIN3：创建装配资产"
+
+msgid "Create Assembly Asset from the selected Objects"
+msgstr "从选中的物体创建装配资产"
+
+msgid "Asset Name"
+msgstr "资产名称"
+
+msgid "Asset Tags"
+msgstr "资产标签"
+
+msgid "Comma separated list of tags"
+msgstr "标签的逗号分隔列表"
+
+msgid "Set Meta Data"
+msgstr "设置元数据"
+
+msgid ""
+"Set Meta Data like Author, Copyright and License.\n"
+"\n"
+"Configure these in the MACHIN3tools addon prefs."
+msgstr ""
+"设置作者、版权和许可等元数据。\n"
+"\n"
+"在 MACHIN3tools 插件首选项中配置这些内容。"
+
+msgid "Duplicate Asset Objects"
+msgstr "复制资产对象"
+
+msgid "Include Asset Objects"
+msgstr "包含资产对象"
+
+msgid "Chose the Scope of the Asset Objects"
+msgstr "选择资产对象的范围"
+
+msgid "keep Decal Backups"
+msgstr "保留贴图备份"
+
+msgid "keep Stash Objects"
+msgstr "保留存储对象"
+
+msgid "Empty Location"
+msgstr "空位置"
+
+msgid "Location of Asset's Empty"
+msgstr "资产的空位置"
+
+msgid "Drop Asset into Scene"
+msgstr "将资产拖入场景"
+
+msgid ""
+"Drop the Asset into the Scene immedeately\n"
+"If disabled, the asset will appear in the Assetbrowser's 'Current File' library only"
+msgstr ""
+"立即将资产拖入场景中\n"
+"如果禁用，该资产将仅出现在资产浏览器的“当前文件”库中"
+
+msgid "Render Thumbnail"
+msgstr "渲染缩略图"
+
+msgid "Asset Info"
+msgstr "资产信息"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Catalog"
+msgstr "目录"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Fill in meta data"
+msgstr "填写元数据"
+
+msgid "Leave empty"
+msgstr "留空"
+
+msgid "Asset Creation"
+msgstr "资产创建"
+
+msgid "Create Asset as Copy"
+msgstr "复制原始资产创建"
+
+msgid "Create Asset from Originals"
+msgstr "从原始资产创建"
+
+msgid "Note, duplication is highly recommended"
+msgstr "注意，建议进行复制"
+
+msgid "Asset Scope"
+msgstr "资产范围"
+
+msgid "Assembly Objects:"
+msgstr "装配对象:"
+
+msgid "There are {unselected_group_children_count} unselected group objects!"
+msgstr "有 {unselected_group_children_count} 个未选中的组对象！"
+
+msgid "Include"
+msgstr "包含"
+
+msgid "Decal Backups"
+msgstr "贴图备份"
+
+msgid "Keep ({decal_backup_count})"
+msgstr "保留 ({decal_backup_count})"
+
+msgid "Discard All"
+msgstr "全部丢弃"
+
+msgid "Stash Objects"
+msgstr "暂存对象"
+
+msgid "Keep ({stash_object_count})"
+msgstr "保留 ({stash_object_count})"
+
+msgid "Asset Empty"
+msgstr "资产空"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Scene"
+msgstr "场景"
+
+msgid "Could not create Asset Thumbnail from current Selection of Objects"
+msgstr "无法从当前选中的对象创建资产缩略图"
+
+msgid "Illegal Name"
+msgstr "非法名称"
+
+msgid "PLAIN_AXES"
+msgstr "平面轴"
+
+msgid "SPHERE"
+msgstr "球体"
+
+msgctxt "Operator"
+msgid "MACHIN3: Create Assembly Variant"
+msgstr "MACHIN3: 创建装配体变体"
+
+msgid "Link Object Data"
+msgstr "链接对象数据"
+
+msgid ""
+"Create a new Variant of the selected Assembly\n"
+"This duplicates the Instance Collection structure and contents, creating an independent Assembly."
+msgstr ""
+"为选定的装配体创建一个新的变体\n"
+"这将复制实例集合的结构和内容，创建一个独立的装配体。"
+
+msgctxt "Operator"
+msgid "MACHIN3: Turn Assembly into Asset"
+msgstr "MACHIN3: 将装配体转换为资产"
+
+msgid "Skip adding Meta Data"
+msgstr "跳过添加元数据"
+
+msgid "Turn selected Assembly into Local Asset"
+msgstr "将选中的装配体转换为本地资产"
+
+msgctxt "Operator"
+msgid "MACHIN3: Update Asset Thumbnail"
+msgstr "MACHIN3：更新资产缩略图"
+
+msgid "Show Overlays"
+msgstr "显示覆盖层"
+
+msgid "Setup Asset Thumbnail Helper Gizmo"
+msgstr "设置资产缩略图辅助 Gizmo"
+
+msgid "This BBox Gizmo is used to fine-tune the framing of the Asset's Thumbnail"
+msgstr "此 BBox Gizmo 用于微调资产的缩略图构图"
+
+msgid "Update the Asset Thumbnail via a Viewport Render of the Active Object"
+msgstr "通过活动对象的视口渲染更新资产缩略图"
+
+msgid "Asset Bounding Box was not created"
+msgstr "未创建资产边界框"
+
+msgctxt "Operator"
+msgid "MACHIN3: Remove Assembly Asset"
+msgstr "MACHIN3：移除装配体资产"
+
+msgid "Remove entire Local Asset"
+msgstr "删除整个本地资产"
+
+msgid "This will remove the entire asset from the .blend file!"
+msgstr "这将从.blend 文件中完全移除该资产！"
+
+msgid "It will no longer be available in the asset browser after this operation."
+msgstr "此操作后，该资产将不再可在资产浏览器中访问。"
+
+msgid "If the asset was created without duplication, then the original objects will also be removed!"
+msgstr "如果该资产未重复创建，则原始对象也将被删除！"
+
+msgid ""
+"Remove entire Local Assembly Asset from the file.\n"
+"Careful, this removes it from the Asset Browser too!"
+msgstr ""
+"从文件中移除整个本地装配体资产。\n"
+"小心，这也会将其从资产浏览器中移除！"
+
+msgid ""
+"Remove Assembly Object from current scene/view layer, if it's marked as an asset it will remain accessible from the Asset Browser!.\n"
+"If its instance collection has no other users, remove it and the contained objects too"
+msgstr ""
+"从当前场景/视图图层中移除装配体对象，如果它被标记为资产，则仍可从资产浏览器访问。\n"
+"如果其实例集合没有其他使用者，则将其及包含的对象一并删除"
+
+msgid "Legacy Asset Objects have been disassembled, but not removed automatically!"
+msgstr "遗产资产对象已被反编译，但尚未自动移除！"
+
+msgid "This is because MACHIN3tools can't be sure they aren't the original objects"
+msgstr "这是因为 MACHIN3tools 无法确定它们不是原始对象。"
+
+msgid "Please remove manually, if desired"
+msgstr "如需，请手动删除"
+
+msgctxt "Operator"
+msgid "MACHIN3: Disassemble Assembly"
+msgstr "MACHIN3：反汇编程序\n"
+
+msgid "Make Assembly Objects (Instance Collection) accessible"
+msgstr "使装配对象（实例集合）可访问"
+
+msgctxt "Operator"
+msgid "MACHIN3: Make IDs Local"
+msgstr "MACHIN3: 使 ID 本地化"
+
+msgid "Force Making Everything Local"
+msgstr "强制将一切设为本地"
+
+msgid "Make Collections Local"
+msgstr "使集合本地化"
+
+msgid "Make Object Data, including Instance Collections local"
+msgstr "使对象数据（包括实例集合）本地化"
+
+msgid "Make Selected Linked Objects local"
+msgstr "使选定的链接对象本地化"
+
+msgid "The Selected Objects are contained in a linked Collection, which itself is referenced by a linked Empty (Instance Collection)!"
+msgstr "选定的对象位于一个链接集合中，而该集合又由一个链接的空白（实例集合）引用！"
+
+msgid "To make the Objects local, you have to make the Empty instancing the Collection local first!"
+msgstr "要使对象本地化，您必须先使空白实例化集合本地化！"
+
+msgid "The Selected Objects are contained in Linked Collections!"
+msgstr "选定的对象位于链接集合中！"
+
+msgid "To make the Objects local, you have to make the Collection the Object are contaiend in local first."
+msgstr "要使对象本地化，您必须首先将对象所在的集合设为本地。"
+
+msgid "You can run the Make Local tool again with the ALT key pressed to do that"
+msgstr "您可以按住 ALT 键再次运行“使本地化”工具来执行此操作"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Assembly Origin"
+msgstr "MACHIN3: 设置装配体原点"
+
+msgid "Source of Origin"
+msgstr "来源"
+
+msgid "Relative to Original"
+msgstr "相对于原始位置"
+
+msgid "Set Origin based relative to location of Objects within Instance Collection"
+msgstr "基于实例集合内对象的位置设置原点"
+
+msgid "Set Asset Collection Offset from Cursor"
+msgstr "从光标设置资产集合偏移量"
+
+msgid ""
+"Set Asset Collection Offset from Object\n"
+"NOTE: Select the Offset Object first, then the Assembly Asset Object"
+msgstr ""
+"从对象设置资产集合偏移量\n"
+"注意：首先选择偏移对象，然后选择装配体资产对象"
+
+msgid "Invalid Context"
+msgstr "无效上下文"
+
+msgid "Illegal Selection"
+msgstr "非法选择"
+
+msgid "Select a single Source Object first, then the Assembly Asset as the Active"
+msgstr "先选择一个源对象，然后将装配体资产设为活动对象"
+
+msgid "Some root objects within the Instance Collection are linked!"
+msgstr "实例集合中的某些根对象已链接！"
+
+msgid "This prevents Rotating and Assembly Origin, because for that the Objects within the Instance Collection have to be transformed."
+msgstr "这阻止了旋转和装配原点，因为实例集合中的对象必须被变换才能做到这一点。"
+
+msgid "NOTE: You can still set just the Origin's Location via ALT!"
+msgstr "注意：您仍然可以通过 ALT 键设置原点的坐标！"
+
+msgid "Skipped Assembly Origin Rotation!"
+msgstr "跳过了装配原点的旋转！"
+
+msgid "Instance Collection does not contain any un-parented root objects."
+msgstr "实例集合中不包含任何未父级化的根对象。"
+
+msgctxt "Operator"
+msgid "MACHIN3: Reset Assembly Origin"
+msgstr "MACHIN3: 重置装配原点"
+
+msgid ""
+"Zero out Assembly Asset's Instance Collection Offset, and compensate contained Objects' Locations within the collection.\n"
+"This ensures the Assembly's Origin sits in the World Origin."
+msgstr ""
+"将装配资产的实例集合偏移归零，并补偿集合内对象的坐标。\n"
+"这确保装配的原点位于世界原点。"
+
+msgid "This prevents adjusting their location to compensate for the Instance Offset Reset"
+msgstr "这阻止了调整其位置以补偿实例偏移重置"
+
+msgid "Skipped Assembly-Origin Reset!"
+msgstr "跳过了装配原点的重置！"
+
+msgctxt "Operator"
+msgid "MACHIN3: Edit Assembly"
+msgstr "MACHIN3: 编辑装配"
+
+msgid "Edit Assembly Asset"
+msgstr "编辑装配资产"
+
+msgid "Edit Assembly (Instance Collection)"
+msgstr "编辑装配（实例集合）"
+
+msgctxt "Operator"
+msgid "MACHIN3: Finish Assembly Edit"
+msgstr "MACHIN3：完成装配编辑"
+
+msgid "Finish Editing Assembly"
+msgstr "完成装配编辑"
+
+msgctxt "Operator"
+msgid "MACHIN3: Assetbrowser Bookmark"
+msgstr "MACHIN3：资产浏览器书签"
+
+msgid "Index"
+msgstr "索引"
+
+msgid "Save Bookmark"
+msgstr "保存书签"
+
+msgid "Clear Bookmark"
+msgstr "清除书签"
+
+msgid "Bookmark: {idx}"
+msgstr "书签：{idx}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Clean Out Non-Assets"
+msgstr "MACHIN3：清理非资产数据块"
+
+msgid "Clean out non-asset data blocks from .blend file!"
+msgstr "从.blend 文件中清理非资产数据块！"
+
+msgid "Assets"
+msgstr "资产"
+
+msgid "fake user"
+msgstr "假用户"
+
+msgid "Kept the following Asset IDs"
+msgstr "保留了以下资产 ID"
+
+msgid "Kept the following Fake User IDs"
+msgstr "保留了以下假用户 ID"
+
+msgid "Removed {delta} non-asset data blocks"
+msgstr "删除了 {delta} 个非资产数据块"
+
+msgid "INFO: Nothing to remove. The file already contains only assets and related data blocks!"
+msgstr "信息：无需删除。该文件已仅包含资产及相关数据块！"
+
+msgctxt "Operator"
+msgid "MACHIN3: Clean Up"
+msgstr "MACHIN3: 清理"
+
+msgid "Remove Doubles"
+msgstr "移除重复面"
+
+msgid "Dissolve Degenerate"
+msgstr "溶解退化多边形"
+
+msgid "Merge Distance"
+msgstr "合并距离"
+
+msgid "Recalculate Normals"
+msgstr "重新计算法线"
+
+msgid "Flip Normals"
+msgstr "翻转法线"
+
+msgid "Delete Loose"
+msgstr "删除孤立"
+
+msgid "Delete Loose Verts"
+msgstr "删除孤立顶点"
+
+msgid "Delete Loose Edges"
+msgstr "删除孤立边"
+
+msgid "Delete Loose Faces"
+msgstr "删除孤立面"
+
+msgid "Dissolve Redundant"
+msgstr "溶解冗余"
+
+msgid "Dissolve Redundant Verts"
+msgstr "溶解冗余顶点"
+
+msgid "Dissolve Redundant Edges"
+msgstr "溶解冗余边"
+
+msgid "Dissolve Redundnat Angle"
+msgstr "溶解冗余角度"
+
+msgid "Non-Planar Face Threshold"
+msgstr "非平面面阈值"
+
+msgid "Doubles"
+msgstr "双曲线"
+
+msgid "Degenerate"
+msgstr "退化"
+
+msgid "Loose"
+msgstr "松散"
+
+msgid "Verts"
+msgstr "顶点"
+
+msgid "Edges"
+msgstr "边"
+
+msgid "Faces"
+msgstr "面"
+
+msgid "Redundant"
+msgstr "冗余"
+
+msgid "Threshold"
+msgstr "阈值"
+
+msgid "Removed:{' Verts: ' + str(verts) if verts else ''}{' Edges: ' + str(edges) if edges else ''}{' Faces: ' + str(faces) if faces else ''}"
+msgstr "已移除：{' 顶点：' + str(verts) if verts else ''}{' 边：' + str(edges) if edges else ''}{' 面：' + str(faces) if faces else ''}"
+
+msgid "Nothing to remove."
+msgstr "没有可移除的项。"
+
+msgid "Minimum"
+msgstr "最小值"
+
+msgid "Medium"
+msgstr "中等值"
+
+msgid "Maximum"
+msgstr "最大值"
+
+msgctxt "Operator"
+msgid "MACHIN3: Clipping Toggle"
+msgstr "MACHIN3：裁剪切换开关"
+
+msgid "Current State"
+msgstr "当前状态"
+
+msgid "Current"
+msgstr "当前值"
+
+msgid "Minimum: {round(self.minimum, 6)}"
+msgstr "最小值：{round(self.minimum, 6)}"
+
+msgid "Medium: {round(self.medium, 6)}"
+msgstr "中等值：{round(self.medium, 6)}"
+
+msgid "Maximum: {round(self.maximum, 6)}"
+msgstr "最大值：{round(self.maximum, 6)}"
+
+msgid "Clip Start"
+msgstr "剪辑开始"
+
+msgctxt "Operator"
+msgid "MACHIN3: Customize"
+msgstr "MACHIN3: 自定义"
+
+msgid "Customize various Blender preferences, settings and keymaps."
+msgstr "自定义各种 Blender 首选项、设置和键盘快捷键。"
+
+msgid ".view_selected"
+msgstr "查看选中项"
+
+msgid ".view_item_focus"
+msgstr ".查看项目焦点"
+
+msgid ".show_active"
+msgstr "显示活动对象"
+
+msgid ".channels_view_selected"
+msgstr "显示选中的通道"
+
+msgid "builtin.annotate"
+msgstr "内置注解"
+
+msgid "builtin.annotate_eraser"
+msgstr "内置橡皮擦工具"
+
+msgid "!Archive"
+msgstr "!归档"
+
+msgid "!Library"
+msgstr "!库"
+
+msgid "!TEMP"
+msgstr "!临时"
+
+msgid "!Addons"
+msgstr "!插件"
+
+msgid "!Output"
+msgstr "!输出"
+
+msgid "!DECALmachine"
+msgstr "!DECALmachine"
+
+msgid "!MESHmachine"
+msgstr "!MESHmachine"
+
+msgid "Library"
+msgstr "库"
+
+msgid "Icon Viewer"
+msgstr "图标查看器"
+
+msgid "Node Wrangler"
+msgstr "节点管理器"
+
+msgid "Pose Library"
+msgstr "姿态库"
+
+msgid "General.alt"
+msgstr "通用"
+
+msgid "UVs.alt"
+msgstr "UVs"
+
+msgid "Scripting.alt"
+msgstr "脚本"
+
+msgid "Zero Scaling"
+msgstr "零缩放"
+
+msgid "Scaling"
+msgstr "缩放"
+
+msgid "Edge Constrained {text}"
+msgstr "边缘约束 {text}"
+
+msgid "Axis Lock:"
+msgstr "轴锁定:"
+
+msgid "Clear Axis Lock"
+msgstr "清除轴锁定"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Zero Scale"
+msgstr "零缩放"
+
+msgid "Constrain Mode"
+msgstr "约束模式"
+
+msgid "Angle Snap"
+msgstr "角度吸附"
+
+msgid "Direction Lock"
+msgstr "方向锁定"
+
+msgid "Outer End Alignment"
+msgstr "外端对齐"
+
+msgid "Face Alignment"
+msgstr "面对齐"
+
+msgid "Individual Origins"
+msgstr "独立原点"
+
+msgctxt "Operator"
+msgid "MACHIN3: Transform Edge Constrained"
+msgstr "MACHIN3：变换边约束"
+
+msgid "Transform Edge Constraint"
+msgstr "变换边约束"
+
+msgid "Transform Mode"
+msgstr "变换模式"
+
+msgid "Transform Axis"
+msgstr "变换轴"
+
+msgid "Align Ends to Face Edge"
+msgstr "对齐端点到面边线"
+
+msgid "Draw Align Ends Option"
+msgstr "绘制对齐端点选项"
+
+msgid "Face Align"
+msgstr "面对齐"
+
+msgid "in"
+msgstr "在"
+
+msgid "View Space"
+msgstr "视图空间"
+
+msgid "around"
+msgstr "围绕"
+
+msgid "along"
+msgstr "沿"
+
+msgid "local"
+msgstr "局部"
+
+msgid "Direction Locked"
+msgstr "方向锁定"
+
+msgid "Angle:"
+msgstr "角度："
+
+msgid "Angle Snapping"
+msgstr "角度吸附"
+
+msgid "Outer End Aligned"
+msgstr "外端对齐"
+
+msgid "Face Aligned"
+msgstr "面对齐"
+
+msgid "Punch It"
+msgstr "直接生成"
+
+msgid "Pick Direction"
+msgstr "选择方向"
+
+msgid "Finalize"
+msgstr "完成"
+
+msgid "Amount"
+msgstr "数量"
+
+msgid "Extrusion Direction:"
+msgstr "挤出方向:"
+
+msgid "Finish"
+msgstr "完成"
+
+msgid "Use Self"
+msgstr "使用自身"
+
+msgid "Push and Pull:"
+msgstr "推和拉:"
+
+msgid "Invert"
+msgstr "反转"
+
+msgid "x 100"
+msgstr "x 100"
+
+msgid "Pull"
+msgstr "拉"
+
+msgid "Push"
+msgstr "推"
+
+msgid "Pushing means widening the extrusion, moving the blue faces outwards"
+msgstr "推表示扩大挤出，将蓝色面向外移动"
+
+msgid "Pulling means moving the green faces back"
+msgstr "拉表示将绿色面向内移动"
+
+msgctxt "Operator"
+msgid "MACHIN3: Punch It"
+msgstr "MACHIN3: 打孔"
+
+msgid "Manifold Extruding that works"
+msgstr "能正常进行流形挤出的操作"
+
+msgid "Use Self Intersection"
+msgstr "使用自相交"
+
+msgid ""
+"Magically fix issues (slower)\n"
+"If disabled, you'll often need bigger Push and Pull values (faster)"
+msgstr ""
+"神奇修复问题（较慢）\n"
+"如果禁用，您可能需要更大的推拉值（更快）"
+
+msgid "Extrusion Depth"
+msgstr "挤出深度"
+
+msgid "Pushed"
+msgstr "已推送"
+
+msgid "Push Side Faces out"
+msgstr "向外推侧面"
+
+msgid "Pulled"
+msgstr "已拉取"
+
+msgid "Pull Front Face back"
+msgstr "拉回前表面"
+
+msgid "Edge:"
+msgstr "边缘："
+
+msgid "Amount:"
+msgstr "数量："
+
+msgid "Push:"
+msgstr "推："
+
+msgid "Pull:"
+msgstr "拖拽："
+
+msgid "Self-Intersection"
+msgstr "自相交"
+
+msgid "Fix your shit"
+msgstr "修好你的破事"
+
+msgid "Illegal Selection!"
+msgstr "非法选择！"
+
+msgid "Pay attention, numbnuts!"
+msgstr "注意，白痴！"
+
+msgid "Invalid Selection"
+msgstr "无效的选择"
+
+msgctxt "Operator"
+msgid "MACHIN3: Cursor Spin"
+msgstr "MACHIN3: 光标旋转"
+
+msgid "Cursor Spin"
+msgstr "光标旋转"
+
+msgid "Angle Preset"
+msgstr "角度预设"
+
+msgid "Steps"
+msgstr "步数"
+
+msgid "Adaptive Steps"
+msgstr "自适应步数"
+
+msgid "Adaptive Factor"
+msgstr "自适应因子"
+
+msgid "Axis"
+msgstr "轴"
+
+msgid "Cursor Axis"
+msgstr "光标轴"
+
+msgid "Offset Reset"
+msgstr "偏移重置"
+
+msgid "Adaptive"
+msgstr "自适应"
+
+msgctxt "Operator"
+msgid "MACHIN3: Open in System's filebrowser"
+msgstr "MACHIN3：在系统文件浏览器中打开"
+
+msgid ""
+"Open the current location in the System's own filebrowser\n"
+"ALT: Open .blend file"
+msgstr ""
+"在当前位置打开系统的文件浏览器\n"
+"ALT: 打开.blend 文件"
+
+msgid "Open .blend file"
+msgstr "打开.blend 文件"
+
+msgid "The blend file containing this asset is already open."
+msgstr "包含此资产的.blend 文件已经打开。"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Filebrowser"
+msgstr "MACHIN3：切换文件浏览器"
+
+msgid "Cycle Display Type: {context.space_data.params.display_type}"
+msgstr "显示类型：{context.space_data.params.display_type}"
+
+msgid "Toggle/Cycle SORT, DISPLAY_TYPE, HIDDEN"
+msgstr "切换/循环排序、显示类型、隐藏"
+
+msgid "LIST_VERTICAL"
+msgstr "垂直列表"
+
+msgid "THUMBNAIL"
+msgstr "缩略图"
+
+msgid "LIST_HORIZONTAL"
+msgstr "水平列表"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Asset Library Reference"
+msgstr "MACHIN3: 设置资产库引用"
+
+msgid "Set the Asset Library Reference in the Asset Browser"
+msgstr "在资产浏览器中设置资产库引用"
+
+msgid "Adjust Asset {'Shelf' if op.shelf else 'Browser'} {'Column' if op.is_45_list_view and op.is_alt else 'Thumbnail'} Size"
+msgstr "调整资产 {'Shelf' if op.shelf else 'Browser'} {'Column' if op.is_45_list_view and op.is_alt else 'Thumbnail'} 大小"
+
+msgid "Shelf"
+msgstr "架子"
+
+msgid "Browser"
+msgstr "浏览器"
+
+msgid "Column"
+msgstr "列"
+
+msgid "Thumbnail"
+msgstr "缩略图"
+
+msgid "Adjust Column"
+msgstr "调整列"
+
+msgid "Size"
+msgstr "大小"
+
+msgctxt "Operator"
+msgid "MACHIN3: Adjust Thumbnail Size"
+msgstr "MACHIN3：调整缩略图大小"
+
+msgid "Thumbnail Size"
+msgstr "缩略图大小"
+
+msgid "List Size"
+msgstr "列表大小"
+
+msgid "Column Size"
+msgstr "列大小"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Asset Import Method"
+msgstr "MACHIN3：设置资产导入方法"
+
+msgid "Set Asset Import Method"
+msgstr "设置资产导入方法"
+
+msgctxt "Operator"
+msgid "MACHIN3: Focus"
+msgstr "MACHIN3: 聚焦"
+
+msgid "Method"
+msgstr "方法"
+
+msgid "Adjust Zoom Level"
+msgstr "调整缩放级别"
+
+msgid "Use Custom Zoom with better defaults for Edit Mesh mode"
+msgstr "使用自定义缩放，为网格编辑模式提供更好的默认值"
+
+msgid "Zoom Factor"
+msgstr "缩放因子"
+
+msgid "Levels"
+msgstr "级别"
+
+msgid "Switch between single-level Blender native Local View and multi-level MACHIN3 Focus"
+msgstr "在 Blender 原生本地视图和 MACHIN3 Focus 多级视图之间切换"
+
+msgid "Un-Mirror"
+msgstr "取消镜像"
+
+msgid "Un-Array"
+msgstr "取消阵列"
+
+msgid "Ignore Mirrors"
+msgstr "忽略镜像"
+
+msgid "Ignore Arrays"
+msgstr "忽略数组"
+
+msgid "Inverted Focus"
+msgstr "反向聚焦"
+
+msgid "Epoch %d"
+msgstr "第 %d 个纪元"
+
+msgctxt "Operator"
+msgid "MACHIN3: Group"
+msgstr "MACHIN3：组"
+
+msgid "Group Objects by Parenting them to an Empty"
+msgstr "将对象父级设为空物体以进行分组"
+
+msgid "You can't group objects that are in a Linked Collection!"
+msgstr "无法对属于链接集合的对象进行分组！"
+
+msgid "ℹℹ Illegal Selection ℹℹ"
+msgstr "ℹℹ非法选择 ℹℹ"
+
+msgid "You can't create a group from a selection of Objects, that are parented to something other than group empties"
+msgstr "您不能从非空物体组的子对象的选中项创建组"
+
+msgid "{'Sub' if new_parent else 'Root'} Goup: {empty.name}"
+msgstr "{'Sub' if new_parent else 'Root'} 组：{empty.name}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Groupify"
+msgstr "MACHIN3：分组化"
+
+msgid "Turn any Empty Hierarchy into Group"
+msgstr "将任何空层级转换为组"
+
+msgid "CUBE"
+msgstr "立方体"
+
+msgctxt "Operator"
+msgid "MACHIN3: Un-Group"
+msgstr "MACHIN3: 取消分组"
+
+msgid "Un-Group all Selected Groups"
+msgstr "取消所有选中组的分组"
+
+msgid "Un-Group entire Hierarchy down"
+msgstr "取消整个层级的分组"
+
+msgid ""
+"Un-Group selected top-level Groups\n"
+"ALT: Un-Group all selected Groups"
+msgstr ""
+"取消选中的顶层组\n"
+"ALT：取消所有选中的组"
+
+msgid ""
+"Un-Group selected top-level Groups\n"
+"ALT: Un-Group all selected Groups\n"
+"CTRL: Un-Group entire Hierarchy down"
+msgstr ""
+"取消选中的顶层组\n"
+"ALT：取消所有选中的组\n"
+"CTRL：取消整个层级下的分组"
+
+msgid "Un-Group"
+msgstr "取消分组"
+
+msgid "All Selected"
+msgstr "全部选中"
+
+msgid "Removed {ungrouped_count} Groups"
+msgstr "已移除 {ungrouped_count} 个组"
+
+msgctxt "Operator"
+msgid "MACHIN3: Select Group"
+msgstr "MACHIN3：选择组"
+
+msgid ""
+"Select Group\n"
+"CTRL: Select entire Group Hierarchy down"
+msgstr "选择整个组层次结构向下"
+
+msgid "Unhide Group Objects"
+msgstr "取消隐藏组对象"
+
+msgid "Recursive Selection"
+msgstr "递归选择"
+
+msgid ""
+"Select Groups of the current Selection\n"
+"CTRL: Select entire Group Hierarchy down"
+msgstr ""
+"选择当前选择的组\n"
+"CTRL：选择整个组层次结构向下"
+
+msgid "Select entire Group Hierarchies down"
+msgstr "选择整个组层次结构向下"
+
+msgctxt "Operator"
+msgid "MACHIN3: Select Group Up"
+msgstr "MACHIN3：选择组向上"
+
+msgid ""
+"Select Group Parent\n"
+"CTRL: Select entire Group Hierarchy up"
+msgstr ""
+"选择组父级\n"
+"CTRL：选择整个组层次结构向上"
+
+msgctxt "Operator"
+msgid "MACHIN3: duplicate_group"
+msgstr "MACHIN3：复制组"
+
+msgid ""
+"Duplicate entire Group Hierarchies down\n"
+"ALT: Create Instances"
+msgstr ""
+"复制整个组层次结构向下\n"
+"ALT：创建实例"
+
+msgid ""
+"Duplicate Top Level Groups\n"
+"ALT: Create Instances\n"
+"CTRL: Duplicate entire Group Hierarchies down"
+msgstr ""
+"复制顶层组\n"
+"ALT：创建实例\n"
+"CTRL：向下复制整个组层级"
+
+msgctxt "Operator"
+msgid "MACHIN3: Add to Group"
+msgstr "MACHIN3：添加到组"
+
+msgid "Add Selection to Group"
+msgstr "将选择项添加到组"
+
+msgid "Re-Align Group Empty"
+msgstr "重新对齐组空对象"
+
+msgid "Add Mirror Modifiers, if there are common ones among the existing Group's objects, that are missing from the new Objects"
+msgstr "如果现有组的物体中存在新物体所缺少的公共镜像修改器，则添加这些镜像修改器"
+
+msgid "Add Object Color, from Group's Empty"
+msgstr "从组的空对象中添加入色"
+
+msgid "Add Color"
+msgstr "添加入色"
+
+msgid "Add Mirror"
+msgstr "添加镜像"
+
+msgid "Added {len(objects)} objects to group '{active_group.name}'"
+msgstr "已将 {len(objects)} 个物体添加到组 '{active_group.name}'"
+
+msgctxt "Operator"
+msgid "MACHIN3: Remove from Group"
+msgstr "MACHIN3：从组中移除"
+
+msgid "Remove Selection from Group"
+msgstr "从组中移除选择"
+
+msgid "Removed {len(group_objects)} objects from their group"
+msgstr "已从组中移除了 {len(group_objects)} 个对象"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Outliner Group Mode"
+msgstr "MACHIN3：切换大纲视图组模式"
+
+msgid "toggling out of Outliner Group Mode, restoring state:"
+msgstr "退出大纲视图组模式，恢复状态:"
+
+msgid "toggling into Outliner Group Mode, storingstate:"
+msgstr "进入大纲视图组模式，保存状态:"
+
+msgid "VIEW_LAYER"
+msgstr "VIEW_LAYER"
+
+msgctxt "Operator"
+msgid "MACHIN3: Expand Outliner"
+msgstr "MACHIN3：展开大纲视图"
+
+msgctxt "Operator"
+msgid "MACHIN3: Collapse Outliner"
+msgstr "MACHIN3：折叠大纲视图"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Outliner Children"
+msgstr "MACHIN3：切换大纲视图子对象"
+
+msgid "Transform Group"
+msgstr "变换组"
+
+msgid "Recall Pose + Finish"
+msgstr "回忆姿势 + 完成"
+
+msgid "Select Group Empty + Finish"
+msgstr "选择组空对象 + 完成"
+
+msgid "Setup Group Gizmos"
+msgstr "设置组 Gizmos"
+
+msgid "5° Angle Snap"
+msgstr "5°角度吸附"
+
+msgid "Pose"
+msgstr "姿势"
+
+msgid "Preview Alpha"
+msgstr "预览 Alpha"
+
+msgid "Set Pose + Finish"
+msgstr "设置姿势 + 完成"
+
+msgid "Remove All Poses"
+msgstr "移除所有姿势"
+
+msgctxt "Operator"
+msgid "MACHIN3: Transform Group"
+msgstr "MACHIN3：变换组"
+
+msgid "Group Empty Name"
+msgstr "组空对象名称"
+
+msgid "Rotation Axis"
+msgstr "旋转轴"
+
+msgid "Rotate Group '{properties.name}' around its {properties.axis} Axis"
+msgstr "围绕 {properties.axis} 轴旋转组 '{properties.name}'"
+
+msgid "Pose:"
+msgstr "姿态:"
+
+msgid "Alpha:"
+msgstr "透明度:"
+
+msgctxt "Operator"
+msgid "MACHIN3: Bake Group Gizmo Size"
+msgstr "MACHIN3：烘焙组 Gizmo 大小"
+
+msgid "Set Global Size to 1, and compensate each Group's Size accordingly."
+msgstr "将全局大小设置为 1，并相应调整每个组的大小。"
+
+msgid "Adjust Size"
+msgstr "调整大小"
+
+msgid "Toggle Axis Gizmo based on View"
+msgstr "根据视图切换轴 Gizmo"
+
+msgid "Axis Gizmos:"
+msgstr "轴 Gizmos:"
+
+msgid "Toggle All"
+msgstr "全部切换"
+
+msgid "Lock Axes without Gizmos"
+msgstr "锁定轴而不显示 gizmos"
+
+msgid "Show Gizmos{'s' if len(op.axes) > 1 else ''}"
+msgstr "显示 gizmos{'s' if len(op.axes) > 1 else ''}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Setup Group Gizmos"
+msgstr "MACHIN3：设置组 Gizmos"
+
+msgid "Lock Rotational Axes without Gizmos"
+msgstr "锁定旋转轴而不显示 Gizmos"
+
+msgid "Size:"
+msgstr "大小:"
+
+msgid "Global: {dynamic_format(context.scene.M3.group_gizmo_size, 1)}"
+msgstr "全局：{dynamic_format(context.scene.M3.group_gizmo_size, 1)}"
+
+msgid "Lock Rotational Axes"
+msgstr "锁定旋转轴"
+
+msgid "(those without Gizmos)"
+msgstr "(那些没有 Gizmos 的)"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Group Pose"
+msgstr "MACHIN3：设置组姿态"
+
+msgid "Set Group Pose"
+msgstr "设置组姿态"
+
+msgid "Create linked Batch Poses for {active.name} and all Group Empties under it"
+msgstr "为 {active.name} 及其所有子组空对象创建关联的批量动作"
+
+msgid "Create new Pose based on {active.name}'s current Rotation"
+msgstr "基于 {active.name} 当前的旋转创建新动作"
+
+msgctxt "Operator"
+msgid "MACHIN3: Update Group Pose"
+msgstr "MACHIN3：更新组动作"
+
+msgid "Batch Retrieval"
+msgstr "批量检索"
+
+msgid "Update Up"
+msgstr "更新向上"
+
+msgid "Update Poses Up the Hierarchy too"
+msgstr "同时更新层级中的动作"
+
+msgid "Update Unlinked"
+msgstr "更新未链接的动作"
+
+msgid "Update Poses, that have been unlinked too"
+msgstr "更新已解绑的动作"
+
+msgid "Update active Pose from current Group Empty's Rotation"
+msgstr "从当前组空对象的旋转中更新活动动作"
+
+msgid "Update Pose '{pose.name}' from current Group Empty's Rotation"
+msgstr "基于当前组空对象的旋转更新动作 '{pose.name}'"
+
+msgid "Invalid"
+msgstr "无效"
+
+msgctxt "Operator"
+msgid "MACHIN3: Retrieve Group Pose"
+msgstr "MACHIN3：获取组姿态"
+
+msgid "Retrieve Selected Group Pose"
+msgstr "获取选定组姿态"
+
+msgid "Retrieve Up"
+msgstr "获取向上"
+
+msgid "Retrieve Poses Up the Hierarchy too"
+msgstr "同时向上层检索姿势"
+
+msgid "Retrieve Unlinked"
+msgstr "获取未链接的"
+
+msgid "Retrieve Poses, that have been unlinked too"
+msgstr "获取已解绑的姿势"
+
+msgctxt "Operator"
+msgid "MACHIN3: Sort Group Pose"
+msgstr "MACHIN3：排序组姿势"
+
+msgid "Move Selected Goup Pose {properties.direction.title()}"
+msgstr "移动选中组姿势 {properties.direction.title()}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Remove Group Pose"
+msgstr "MACHIN3：移除组姿态"
+
+msgid "Remove Group Pose"
+msgstr "移除组姿势"
+
+msgid "Remove related Batch Poses"
+msgstr "移除相关的批量姿势"
+
+msgid "Remove all related Batch Poses in the Group Hierarchy"
+msgstr "在组层次结构中移除所有相关批量姿势"
+
+msgid "Remove Up"
+msgstr "向上移除"
+
+msgid "Remove Batch Poses further Up the Hierarchy too"
+msgstr "同时移除层次结构中更上方的批量姿势"
+
+msgid "Remove Disconnected"
+msgstr "移除未连接项"
+
+msgid "Remove Batch Poses, that have been unlinked too"
+msgstr "移除已断开连接的批量姿势"
+
+msgid "Batch Poses to be Removed:"
+msgstr "待删除的批量姿势:"
+
+msgid "Material Assign"
+msgstr "材质分配"
+
+msgid "Material Pick"
+msgstr "材质选择"
+
+msgid "Assign"
+msgstr "分配"
+
+msgid "Material {'Assign' if op.assign or op.assign_from_assetbrowser else 'Pick'}"
+msgstr "材质 {'分配' 如果 op.assign 或 op.assign_from_assetbrowser 则为 '拾取'}"
+
+msgid "Pick"
+msgstr "选择"
+
+msgid "from Assetbrowser"
+msgstr "来自资产浏览器"
+
+msgid "to Selection"
+msgstr "到选择集"
+
+msgid "to Object Under Mouse"
+msgstr "到鼠标下方的对象"
+
+msgid "from {'Object' if op.hit_object_name is None else op.hit_object_name}"
+msgstr "自{'Object' 如果 op.hit_object_name 为 None 则使用，否则使用 op.hit_object_name}"
+
+msgid "Object"
+msgstr "对象"
+
+msgid "Honor Asset Import Method"
+msgstr "荣誉资产导入方法"
+
+msgid "Clear Materials + Finish"
+msgstr "清除材质+ 饰面"
+
+msgctxt "Operator"
+msgid "MACHIN3: Material Picker"
+msgstr "MACHIN3: 材质选择器"
+
+msgid "Pick and/or assign Material from the 3D View, or batch assign from the Assetbrowser"
+msgstr "从 3D 视图中选择和/或分配材质，或从资产浏览器批量分配"
+
+msgid "is Keymap Invocation"
+msgstr "是键盘映射调用"
+
+msgid "Honor the Asset's own preferred Import Method"
+msgstr "尊重资产的自有导入方法"
+
+msgid "from Asset Browser"
+msgstr "来自资产浏览器"
+
+msgid "Current File •"
+msgstr "当前文件 •"
+
+msgid "⬇ downloading... {time.time() - self.download_start}s"
+msgstr "⬇ 下载中... {time.time() - self.download_start}s"
+
+msgid "⬇ downloads on assign"
+msgstr "⬇ 分配时的下载量"
+
+msgid "to:"
+msgstr "至:"
+
+msgid "⚠ is linked and not on view layer"
+msgstr "⚠ 已链接且不在视图层"
+
+msgid "⚠ is linked"
+msgstr "⚠ 已链接"
+
+msgid "⚠ not on view layer"
+msgstr "⚠ 不在视图层中"
+
+msgid "Face Selection"
+msgstr "面选择"
+
+msgid "Material:"
+msgstr "材质："
+
+msgid "from:"
+msgstr "从："
+
+msgid "No Material selected in asset browser!"
+msgstr "在资产浏览器中未选择材质！"
+
+msgid "No asset browser open"
+msgstr "未打开资产浏览器"
+
+msgid "No Material selected"
+msgstr "未选择材质"
+
+msgid "Multiple Materials, hover a browser to pick"
+msgstr "多种材质，悬停浏览器以选择"
+
+msgid "_MATERIAL_DUMMY_OBJECT"
+msgstr "假物体材料"
+
+msgctxt "Operator"
+msgid "MACHIN3: Mesh Cut"
+msgstr "MACHIN3：切割网格"
+
+msgid ""
+"Cut a Mesh Object, using another Object.\n"
+"ALT: Flatten Target Object's Modifier Stack\n"
+"SHIFT: Mark Seams"
+msgstr ""
+"使用另一个对象来切割网格对象。\n"
+"ALT：展平目标对象的修饰器堆栈\n"
+"SHIFT：标记接缝"
+
+msgid "Flatte Target's Modifier Stack"
+msgstr "展平目标的修饰器堆栈"
+
+msgid "Mark Seams"
+msgstr "标记接缝"
+
+msgid "Flatten Target"
+msgstr "展平目标"
+
+msgid "Illegal Sellection"
+msgstr "非法选择"
+
+msgid "Pick Axis"
+msgstr "选择轴"
+
+msgid "Use Existing"
+msgstr "使用现有"
+
+msgid "Remove All + Finish"
+msgstr "全部移除 + 完成"
+
+msgid "Remove Mirror"
+msgstr "移除镜像"
+
+msgid "⚠ Misaligned Mirror Object{'s' if len(op.misaligned['sorted_objects']) > 1 else ''}"
+msgstr "⚠ 未对齐的镜像对象{'s' if len(op.misaligned['sorted_objects']) > 1 else ''}"
+
+msgid "Pick Misaligned"
+msgstr "选择未对齐"
+
+msgid "Cycle Misaligned"
+msgstr "循环未对齐"
+
+msgctxt "Operator"
+msgid "MACHIN3: Mirror"
+msgstr "MACHIN3: 镜像"
+
+msgid "Flick"
+msgstr "闪烁"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Bisect"
+msgstr "二分法"
+
+msgid "Mirror across Cursor"
+msgstr "沿光标镜像"
+
+msgid "Use Mislinged Object Removal"
+msgstr "使用错误的对象移除工具"
+
+msgid "Use existing Cursor Empty"
+msgstr "使用现有的空对象"
+
+msgid "DECALmachine - UVs"
+msgstr "DECALmachine - UVs"
+
+msgid "Cursor Empty"
+msgstr "光标空"
+
+msgid "New Cursor"
+msgstr "新建光标"
+
+msgid "Existing Cursor"
+msgstr "现有光标"
+
+msgid "{active.name} Mirror"
+msgstr "{active.name} 镜像"
+
+msgid "ARROWS"
+msgstr "ARROWS"
+
+msgctxt "Operator"
+msgid "MACHIN3: Unmirror"
+msgstr "MACHIN3: 取消镜像"
+
+msgid "Removes the last modifer in the stack of the selected objects"
+msgstr "移除选中对象堆栈中的最后一个修改器"
+
+msgctxt "Operator"
+msgid "MACHIN3: Quadsphere"
+msgstr "MACHIN3: 四球体"
+
+msgid "Create a Quadsphere"
+msgstr "创建四球体"
+
+msgid "Properties"
+msgstr "属性"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle 3D View Region"
+msgstr "MACHIN3：根据鼠标位置切换 3D 视图区域"
+
+msgid "Toggle 3D View Region based on Mouse Position"
+msgstr "基于鼠标位置切换 3D 视图区域"
+
+msgid "SMALL"
+msgstr "SMALL"
+
+msgid "Can't toggle the Sidebar"
+msgstr "无法切换侧边栏"
+
+msgid "Insufficient View Space"
+msgstr "视口空间不足"
+
+msgid "We can't Split this Area in Fullscreen ;("
+msgstr "我们无法在全屏模式下拆分此区域；("
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Asset Browser Region"
+msgstr "MACHIN3：根据鼠标位置切换资产浏览器区域"
+
+msgid "Toggle Asset Browser Region based on Mouse Position"
+msgstr "根据鼠标位置切换资产浏览器区域"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Any Region"
+msgstr "MACHIN3：切换任意区域"
+
+msgid "Toggle Toolbar, Sidebar or Asset Shelf based on Mouse Position"
+msgstr "根据鼠标位置切换工具栏、侧边栏或资产面板"
+
+msgctxt "Operator"
+msgid "MACHIN3: Area Dumper"
+msgstr "MACHIN3：区域导出器"
+
+msgctxt "Operator"
+msgid "MACHIN3: Render"
+msgstr "MACHIN3：渲染"
+
+msgid "Quarter Quality"
+msgstr "季度质量"
+
+msgid "Half Quality"
+msgstr "半质量"
+
+msgid "Double Quality"
+msgstr "双倍质量"
+
+msgid "Quadruple Quality"
+msgstr "四倍画质"
+
+msgid "Seed Render"
+msgstr "种子渲染"
+
+msgid "Final Render"
+msgstr "最终渲染"
+
+msgid "Render {get_prefs().render_seed_count} seeds, combine all, and save to {outpath + os.sep}"
+msgstr "渲染 {get_prefs().render_seed_count} 个种子，合并所有结果并保存至 {outpath + os.sep}"
+
+msgid "Render and save to {outpath + os.sep}"
+msgstr "渲染并保存到 {outpath + os.sep}"
+
+msgid "Render Seed {i} ({i + 1}/{count})"
+msgstr "渲染种子 {i} ({i + 1}/{count})"
+
+msgid "Render Result"
+msgstr "渲染结果"
+
+msgid "Render Seed {seed} ({idx + 1}/{count})"
+msgstr "渲染种子 {seed} ({idx + 1}/{count})"
+
+msgctxt "Operator"
+msgid "MACHIN3: Duplicate Nodes"
+msgstr "MACHIN3: 复制节点"
+
+msgid "Duplicate Nodes normally, except for Cryptomatte V2 nodes, in that case keep the inputs and clear out the matte ids"
+msgstr "正常复制节点，但对于 Cryptomatte V2 节点则保留输入并清除 matte ids"
+
+msgctxt "Operator"
+msgid "MACHIN3: Select Center Objects"
+msgstr "MACHIN3: 选择中心对象"
+
+msgid "Selects Objects in the Center, objects, that have verts on both sides of the X, Y or Z axis."
+msgstr "选择 X、Y 或 Z 轴两侧都有顶点的中心对象"
+
+msgctxt "Operator"
+msgid "MACHIN3: Select Wire Objects"
+msgstr "MACHIN3: 选择线框对象"
+
+msgid ""
+"Select Objects set to WIRE display type\n"
+"ALT: Hide Objects\n"
+"CLTR: Include Empties"
+msgstr ""
+"选择设置为 WIRE 显示类型的对象\n"
+"ALT：隐藏对象\n"
+"CLTR：包含空物体"
+
+msgctxt "Operator"
+msgid "MACHIN3: Select Hierarchy"
+msgstr "MACHIN3：选择层级"
+
+msgid "Hierarchy Direction"
+msgstr "层级方向"
+
+msgid "Up"
+msgstr "向上"
+
+msgid "Down"
+msgstr "向下"
+
+msgid "Include Selection"
+msgstr "包含选中项"
+
+msgid "Include Current Selection"
+msgstr "包含当前选中项"
+
+msgid "Include Mod Objects"
+msgstr "包含修改对象"
+
+msgid "Include Mod Objects, even if they aren't parented"
+msgstr "包含修改对象，即使它们未作为父级"
+
+msgid "Select Recursive Children"
+msgstr "递归选择子节点"
+
+msgid "Select Children Recursively"
+msgstr "递归选择子节点"
+
+msgid "Select Recursive Parents"
+msgstr "选择父级对象（递归）"
+
+msgid "Select Parents Recursively"
+msgstr "递归选择父级对象"
+
+msgid "LocalView"
+msgstr "本地视图"
+
+msgid "Bring Objects into Local View, if they are outside of it"
+msgstr "将位于其外的物体带入本地视图"
+
+msgid "Unhide"
+msgstr "取消隐藏"
+
+msgid "Unhide Objects, if they are hidden"
+msgstr "取消隐藏的物体"
+
+msgid "Link"
+msgstr "链接"
+
+msgid "Bring Objects on View Layer, if they are in excluded collections or in hidden collections only"
+msgstr "将位于排除集合或仅位于隐藏集合中的物体带入视图层"
+
+msgid "is Pie Invocation"
+msgstr "是否通过饼图调用"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Use all Scope and Reveal Options to Select Everything"
+msgstr "使用所有范围和显示选项选择所有内容"
+
+msgid "All Incl."
+msgstr "全部包含."
+
+msgid "Use all Scope and Reveal Options to Select Everything including the initial Selection"
+msgstr "使用所有范围和显示选项选择所有内容，包括初始选择."
+
+msgid "Select Hierarchy {properties.direction.title()}"
+msgstr "选择层级 {properties.direction.title()}"
+
+msgid "Direction in Hierarchy"
+msgstr "层级中的方向"
+
+msgid "Selection Scope"
+msgstr "选择范围"
+
+msgid "Recursive"
+msgstr "递归."
+
+msgid "Reveal"
+msgstr "显示."
+
+msgid "Statistics"
+msgstr "统计."
+
+msgid "more visible {objtype}:"
+msgstr "更多可见的 {objtype}:"
+
+msgid "more hidden {objtype}:"
+msgstr "更多隐藏的 {objtype}："
+
+msgid "Selecting {direction.title()}"
+msgstr "选择 {direction.title()}"
+
+msgid "Inclusive"
+msgstr "包含"
+
+msgid "+ Recursive"
+msgstr "+ 递归"
+
+msgid "+ Mod Objects"
+msgstr "+ 修改对象"
+
+msgid "Mod Objects"
+msgstr "修改对象"
+
+msgid "+ Unhide"
+msgstr "+ 取消隐藏"
+
+msgid "+ Link"
+msgstr "+ 链接"
+
+msgid "more {'children' if self.direction == 'DOWN' else 'parents'}:"
+msgstr "更多 {'children' if self.direction == 'DOWN' else 'parents'}："
+
+msgid "children"
+msgstr "子对象"
+
+msgid "parents"
+msgstr "父级"
+
+msgid "toggle:"
+msgstr "切换:"
+
+msgid "{visible_count} visible"
+msgstr "显示 {visible_count} 个"
+
+msgid "+ {hidden_count} hidden"
+msgstr "+ {hidden_count} 个隐藏"
+
+msgid "{hidden_count} hidden"
+msgstr "{hidden_count} 个隐藏"
+
+msgid "Snap to {op.snap_element.capitalize()}"
+msgstr "吸附到 {op.snap_element.capitalize()}"
+
+msgid "Snap"
+msgstr "吸附"
+
+msgid "Project on Edge"
+msgstr "在边缘上投影"
+
+msgid "Flatten"
+msgstr "展平"
+
+msgctxt "Operator"
+msgid "MACHIN3: Smart Vert"
+msgstr "MACHIN3：智能顶点"
+
+msgid "Merge Type"
+msgstr "合并类型"
+
+msgid "Merge Paths in center"
+msgstr "在中心处合并路径"
+
+msgid "Path Type"
+msgstr "路径类型"
+
+msgid "Merge UVs"
+msgstr "合并 UV 贴图"
+
+msgid "Slide Override"
+msgstr "滑移覆盖"
+
+msgid "Single Vertex Bevelling"
+msgstr "单个顶点倒角"
+
+msgid "Index of Edge accociated with HyperCursor Gizmo, that is to be removed"
+msgstr "与超游标 Gizmo 关联的边的索引，将被移除"
+
+msgid "Can Flatten"
+msgstr "可以压扁"
+
+msgid "Flatten End Face"
+msgstr "压扁端面"
+
+msgid "Vertex Bevel / Merge Last / Merge at Mouse"
+msgstr "顶点倒角 / 合并最后一条边 / 在鼠标处合并"
+
+msgid "Merge at Center"
+msgstr "在中心合并"
+
+msgid "in Center"
+msgstr "在中心"
+
+msgid "Shortest Path"
+msgstr "最短路径"
+
+msgid "Snapping:"
+msgstr "吸附:"
+
+msgid "Skipping {'Parallel Edge' if self.skip_snap == 'EDGE_PARALLEL' else 'Face'}!"
+msgstr "跳过 {'平行边' if self.skip_snap == 'EDGE_PARALLEL' else '面'}!"
+
+msgid "Parallel Edge"
+msgstr "平行边"
+
+msgid "Face"
+msgstr "面"
+
+msgid "Edge Project"
+msgstr "边投影"
+
+msgid "Ambiguous Direction"
+msgstr "歧义方向"
+
+msgctxt "Operator"
+msgid "MACHIN3: Smart Edge"
+msgstr "MACHIN3：智能边"
+
+msgid "Toggle Sharp"
+msgstr "切换锐利模式"
+
+msgid "Sharp Mode"
+msgstr "锐利模式"
+
+msgid "Weight"
+msgstr "权重"
+
+msgid "Clamp Overlap"
+msgstr "重叠限制"
+
+msgid "Loop Slide"
+msgstr "循环滑动"
+
+msgid "Is Unbevel"
+msgstr "是否不切角"
+
+msgid "Is Uncrease"
+msgstr "是否不折痕"
+
+msgid "Offset Edge Slide"
+msgstr "边滑动偏移"
+
+msgid "Span"
+msgstr "跨度"
+
+msgid "Simple Blending"
+msgstr "简单混合"
+
+msgid "Cuts"
+msgstr "切割"
+
+msgid "Interpolation"
+msgstr "插值"
+
+msgid "Can be Knife Projected"
+msgstr "可以投射刀线"
+
+msgid "Is Knife Project"
+msgstr "是刀线投影"
+
+msgid "Cut Through"
+msgstr "切穿"
+
+msgid "Select Mode"
+msgstr "选择模式"
+
+msgid "Toggle Sharps"
+msgstr "切换锐利边缘"
+
+msgid "Offset Selected Edges"
+msgstr "偏移选中边"
+
+msgid "Knife Cut, Connect, Knife Project or Star Connect"
+msgstr "刀线切割、连接、刀线投影或星形连接"
+
+msgid "Loop Cut, Turn Edge, Select Region or Knife Project"
+msgstr "环切、转边、选择区域或刀线投影"
+
+msgid "Select Bounds or Knife Project"
+msgstr "选择边界或刀切投影"
+
+msgid "Knife Project"
+msgstr "刀项目"
+
+msgid "Could not connect vertices"
+msgstr "无法连接顶点"
+
+msgid "Select a single cyclic non-manifold edge loop for Grid Fill,"
+msgstr "选择单个循环非流形边环用于网格填充，"
+
+msgid "or two lor more) separate edge loops to Bridge them."
+msgstr "或两个或多个分离的边缘环，以桥接它们。"
+
+msgid "or two (or more) separate edge loops to Bridge them."
+msgstr "或两个（或多个）独立的边缘环来桥接它们。"
+
+msgid "Could not find any selected edges that can be rotated"
+msgstr "无法找到任何可旋转的选中边"
+
+msgid "Topo Mode"
+msgstr "拓扑模式"
+
+msgid "Move new Vert"
+msgstr "移动新顶点"
+
+msgid "Invert Snapping"
+msgstr "反转吸附"
+
+msgctxt "Operator"
+msgid "MACHIN3: Smart Face"
+msgstr "MACHIN3: 智能面"
+
+msgid "Create Faces from Vert and Edge Selections, or new Object from Face Selection"
+msgstr "从顶点/边选择或新对象的面选择创建面"
+
+msgid "Create Face from Vert or Edge Seelction"
+msgstr "从顶点或边选择创建面"
+
+msgid "F3 Topo Mode"
+msgstr "F3 拓扑模式"
+
+msgid "Merge to closeby Vert"
+msgstr "合并为邻近顶点"
+
+msgid "Extract Mode"
+msgstr "提取模式"
+
+msgid "Duplicate Original Selection"
+msgstr "复制原始选择"
+
+msgid "Dissolve"
+msgstr "溶解"
+
+msgid "Like Duplicate, but also Dissolve Boundary Edges"
+msgstr "与复制类似，但也会溶解边界边"
+
+msgid "Extract"
+msgstr "提取"
+
+msgid "Remove Original Selection"
+msgstr "移除原始选择"
+
+msgid "Stay in Object"
+msgstr "保持在对象中"
+
+msgid "Stay in the Active Object"
+msgstr "保持在活动对象中"
+
+msgid "Focus on new Object"
+msgstr "聚焦到新对象"
+
+msgid "Focuson the Separated Object(s)"
+msgstr "聚焦于分离的对象（复数）"
+
+msgid "Keep Modifiers"
+msgstr "保留修改器"
+
+msgid "Keep Modifiers on the Separated Object(s)"
+msgstr "在分离的对象（复数）上保留修改器"
+
+msgid "Join Separated"
+msgstr "合并分离的"
+
+msgid "Join Separated Objects from Multi-Object-Face-Selections into Single Object"
+msgstr "将多对象面选择中的分离对象合并为单个对象"
+
+msgid "Stay"
+msgstr "保持"
+
+msgid "Use Focus"
+msgstr "使用焦点"
+
+msgid "Epoch {len(history) - 1}"
+msgstr "Epoch {len(history) - 1}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Smart Drive"
+msgstr "MACHIN3：智能驱动器"
+
+msgid "Drive one Object using another"
+msgstr "用另一个对象驱动一个对象"
+
+msgctxt "Operator"
+msgid "MACHIN3: Switch Driver Values"
+msgstr "MACHIN3：切换驱动器值"
+
+msgid "Switch Start and End %s Values"
+msgstr "切换开始和结束 %s 值"
+
+msgctxt "Operator"
+msgid "MACHIN3: set_driver_value"
+msgstr "MACHIN3: set_driver_value"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Set %s %s Value"
+msgstr "设置 %s %s 值"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Smooth"
+msgstr "MACHIN3：平滑开关"
+
+msgid "Toggle Smothing for Korean Bevel and SubD Objects"
+msgstr "切换韩国倒角和细分曲面对象的平滑度"
+
+msgid "Toggle Overlays"
+msgstr "切换覆盖层"
+
+msgid "Smooth Mode"
+msgstr "平滑模式"
+
+msgid "SubD"
+msgstr "细分曲面"
+
+msgctxt "Operator"
+msgid "MACHIN3: Surface Slide"
+msgstr "MACHIN3：表面滑动"
+
+msgid "Start Surface Sliding: modifify the topology while keeping the inital form intact"
+msgstr "开始表面滑动：在保持初始形态完整的同时修改拓扑结构"
+
+msgid "{active.name}_INSTANCE"
+msgstr "{active.name}_实例"
+
+msgid "{active_mesh.name}_SURFACE"
+msgstr "{active_mesh.name}_表面"
+
+msgid "SurfaceSlide"
+msgstr "表面滑动"
+
+msgctxt "Operator"
+msgid "MACHIN3: Finish Surface Slide"
+msgstr "MACHIN3：完成表面滑动"
+
+msgid "Stop Surface Sliding"
+msgstr "停止表面滑动"
+
+msgctxt "Operator"
+msgid "MACHIN3: Add Thread"
+msgstr "MACHIN3: 添加螺纹"
+
+msgid "Create Thread from Cylindrical Face Selection"
+msgstr "从圆柱形面选择创建螺纹"
+
+msgid "Segments"
+msgstr "段数"
+
+msgid "Threads"
+msgstr "螺纹数量"
+
+msgid "Depth"
+msgstr "深度"
+
+msgid "Depth in Percentage of minor Diameter"
+msgstr "深度占小径的百分比"
+
+msgid "Fade"
+msgstr "渐变"
+
+msgid "Percentage of Segments fading into inner Diameter"
+msgstr "渐变至内径的段数比例"
+
+msgid "Bottom Flank"
+msgstr "底部倒角"
+
+msgid "Crest"
+msgstr "crest"
+
+msgid "Top Flank"
+msgstr "上侧边缘"
+
+msgid "Root"
+msgstr "根部"
+
+msgctxt "Operator"
+msgid "MACHIN3: Prepare Unity Export"
+msgstr "MACHIN3：准备 Unity 导出"
+
+msgid "Only Prepare, don't export"
+msgstr "仅准备，不导出"
+
+msgid ""
+"Used by DECALmachine to skip Export even if the scene prop is set\n"
+"DECALmachine uses its own Export Operator Instead"
+msgstr ""
+"DECALmachine 用于跳过导出，即使场景中的对象已设置\n"
+"DECALmachine 使用其自己的导出操作符替代"
+
+msgid "Prepare and Export %s objects"
+msgstr "准备并导出 %s 对象"
+
+msgid "Prepare %s objects for Export to Unity"
+msgstr "为导出到 Unity 准备 %s 对象"
+
+msgctxt "Operator"
+msgid "MACHIN3: Restore Unity Export"
+msgstr "MACHIN3：恢复 Unity 导出"
+
+msgid "Restore Pre-Export Object Transformations, Meshes and Modifiers"
+msgstr "恢复导出前的对象变换、网格和修改器"
+
+msgctxt "Operator"
+msgid "MACHIN3: MACHIN3tools Debug"
+msgstr "MACHIN3：MACHIN3tools 调试工具"
+
+msgid "MACHIN3tools Debug"
+msgstr "MACHIN3tools 调试工具"
+
+msgctxt "Operator"
+msgid "Dummy"
+msgstr "假对象"
+
+msgid "Description"
+msgstr "说明"
+
+msgctxt "Operator"
+msgid "MACHIN3: Draw Ungroupable"
+msgstr "MACHIN3：绘制不可组合的物体"
+
+msgid "Time (s)"
+msgstr "时间 (秒)"
+
+msgid "Alpha"
+msgstr "透明度"
+
+msgid "Ungroupable"
+msgstr "不可组合"
+
+msgid "Object is parented"
+msgstr "该对象已作为子对象附加到父级"
+
+msgctxt "Operator"
+msgid "MACHIN3: Draw Ungroup"
+msgstr ""
+"MACHIN3：绘制不可组\n"
+"---"
+
+msgctxt "Operator"
+msgid "MACHIN3: Draw Group Rest Pose"
+msgstr "MACHIN3：绘制组休息姿势"
+
+msgid "Reverse the Motion"
+msgstr "反向运动"
+
+msgid "Group Transform Gizmo"
+msgstr "组变换 Gizmo"
+
+msgid "Test Gizmo"
+msgstr "测试 Gizmo"
+
+msgctxt "Operator"
+msgid "Align Relative"
+msgstr "对齐相对"
+
+msgctxt "Operator"
+msgid "Un-Mirror"
+msgstr "取消镜像"
+
+msgctxt "Operator"
+msgid "Select Center Objects"
+msgstr "选择中心对象"
+
+msgctxt "Operator"
+msgid "Select Wire Objects"
+msgstr "选择线框对象"
+
+msgctxt "Operator"
+msgid "Select Hierarchy"
+msgstr "选择层级"
+
+msgctxt "Operator"
+msgid "Apply Transformation"
+msgstr "应用变换"
+
+msgctxt "Operator"
+msgid "Mesh Cut"
+msgstr "网格切割"
+
+msgctxt "Operator"
+msgid "Material Picker"
+msgstr "材质选择器"
+
+msgctxt "Operator"
+msgid "Add Thread"
+msgstr "添加线程"
+
+msgid "⚠ Disable Group Origin Adjustment! ⚠"
+msgstr "⚠ 禁用组原点调整！⚠"
+
+msgid "Adjust Group Origin"
+msgstr "调整组原点"
+
+msgctxt "Operator"
+msgid "Group"
+msgstr "组"
+
+msgctxt "Operator"
+msgid "Un-Group"
+msgstr "取消分组"
+
+msgctxt "Operator"
+msgid "Groupify"
+msgstr "群组化"
+
+msgctxt "Operator"
+msgid "Select Group"
+msgstr "选择组"
+
+msgctxt "Operator"
+msgid "Duplicate Group"
+msgstr "复制组"
+
+msgctxt "Operator"
+msgid "Add to Group"
+msgstr "加入组"
+
+msgctxt "Operator"
+msgid "Remove from Group"
+msgstr "从组中移除"
+
+msgctxt "Operator"
+msgid "Setup Group Gizmos"
+msgstr "设置组 Gizmos（辅助器）"
+
+msgctxt "Operator"
+msgid "(X) Un-Group"
+msgstr "(X) 取消分组"
+
+msgctxt "Operator"
+msgid "(Q) Setup Group Gizmos"
+msgstr "(Q) 设置组 Gizmos（辅助器）"
+
+msgctxt "Operator"
+msgid "Edge Constrained Transform"
+msgstr "边缘约束变换"
+
+msgctxt "Operator"
+msgid "Cursor Spin"
+msgstr "光标旋转"
+
+msgctxt "Operator"
+msgid "Punch It"
+msgstr "Punch It"
+
+msgid "with Mod Compensation"
+msgstr "带模量补偿的 Punch It"
+
+msgctxt "Operator"
+msgid "Rotation"
+msgstr "旋转"
+
+msgctxt "Operator"
+msgid "Scale"
+msgstr "缩放"
+
+msgctxt "Operator"
+msgid "Rotation & Scale"
+msgstr "旋转与缩放"
+
+msgctxt "Operator"
+msgid "Quad Sphere"
+msgstr "四球体"
+
+msgid "Collection Name"
+msgstr "集合名称"
+
+msgctxt "Operator"
+msgid "Capture"
+msgstr "捕获"
+
+msgctxt "Operator"
+msgid "Render"
+msgstr "渲染"
+
+msgctxt "Operator"
+msgid "Render Thumbnail"
+msgstr "渲染缩略图"
+
+msgctxt "Operator"
+msgid "Capture Screenshot"
+msgstr "捕获截图"
+
+msgctxt "Operator"
+msgid "Finish Assembly Edit"
+msgstr "完成装配编辑"
+
+msgid "Show Gizmos"
+msgstr "显示 Gizmos"
+
+msgid "Group Origin"
+msgstr "组原点"
+
+msgctxt "Operator"
+msgid "Quick Render"
+msgstr "快速渲染"
+
+msgctxt "Operator"
+msgid "Final Render"
+msgstr "最终渲染"
+
+msgid "Seed Count"
+msgstr "种子数量"
+
+msgctxt "Operator"
+msgid "Seed Render"
+msgstr "种子渲染"
+
+msgctxt "Operator"
+msgid "Final Seed Render"
+msgstr "最终种子渲染"
+
+msgid "MACHIN3"
+msgstr "MACHIN3"
+
+msgid "MACHIN3tools {get_pretty_version(bl_info['version'])}"
+msgstr "MACHIN3tools {get_pretty_version(bl_info['version'])}"
+
+msgctxt "Operator"
+msgid "Button"
+msgstr "按钮"
+
+msgid "Driver"
+msgstr "驱动"
+
+msgid "Values"
+msgstr "数值"
+
+msgid "Transform"
+msgstr "变换"
+
+msgid "Space"
+msgstr "空间"
+
+msgid "Driven"
+msgstr "驱动"
+
+msgid "Limit"
+msgstr "限制"
+
+msgctxt "Operator"
+msgid "Drive it!"
+msgstr "驱动它！"
+
+msgid "Export"
+msgstr "导出"
+
+msgid "Triangulate"
+msgstr "三角化"
+
+msgctxt "Operator"
+msgid "Export"
+msgstr "导出"
+
+msgctxt "Operator"
+msgid "Prepare + Export %s"
+msgstr "准备 + 导出 %s"
+
+msgctxt "Operator"
+msgid "Prepare %s"
+msgstr "准备 %s"
+
+msgctxt "Operator"
+msgid "Restore Transformations"
+msgstr "恢复变换"
+
+msgid "Group Gizmos"
+msgstr "群组 gizmos"
+
+msgid "Global Group Gizmos"
+msgstr "全局群组 gizmos"
+
+msgid "Active Group"
+msgstr "活动群组"
+
+msgid "Disable Group Origin Adjustment!"
+msgstr "禁用群组原点调整！"
+
+msgid "Group Gizmo"
+msgstr "群组 Gizmo"
+
+msgid "Show Gizmo"
+msgstr "显示 Gizmo"
+
+msgid "Group Poses"
+msgstr "群组姿势"
+
+msgid "Preview Active Pose"
+msgstr "预览活动姿势"
+
+msgctxt "Operator"
+msgid "Set Pose"
+msgstr "设置姿势"
+
+msgctxt "Operator"
+msgid "Set Batch Pose"
+msgstr "批量设置姿势"
+
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+msgid "Auto Select"
+msgstr "自动选择"
+
+msgid "Hide Empties"
+msgstr "隐藏空对象"
+
+msgid "Draw Relations"
+msgstr "绘制关系"
+
+msgid "Assembly"
+msgstr "装配体"
+
+msgid "is {'recursive ' if icols else ''}Local Asset {'Instance' if is_asset_instance else 'Original'}"
+msgstr "是 {'recursive ' if icols else ''}本地资产 {'Instance' if is_asset_instance else '原始'}"
+
+msgid "recursive"
+msgstr "递归"
+
+msgid "Original"
+msgstr "原始"
+
+msgctxt "Operator"
+msgid "Edit Assembly"
+msgstr "编辑组件"
+
+msgctxt "Operator"
+msgid "Update Thumbnail"
+msgstr "更新缩略图"
+
+msgid "is"
+msgstr "是"
+
+msgid "Collection"
+msgstr "集合"
+
+msgid "Instance Name"
+msgstr "实例名称"
+
+msgid "Children"
+msgstr "子项"
+
+msgid "x {count}"
+msgstr "x {count}"
+
+msgctxt "Operator"
+msgid "from Cursor"
+msgstr "从光标"
+
+msgctxt "Operator"
+msgid "from Object"
+msgstr "从对象"
+
+msgctxt "Operator"
+msgid "Create Assembly Asset"
+msgstr "创建组件资产"
+
+msgctxt "Operator"
+msgid "Disassemble"
+msgstr "解构"
+
+msgctxt "Operator"
+msgid "Create Variant"
+msgstr "创建变体"
+
+msgctxt "Operator"
+msgid "Remove Assembly"
+msgstr "移除装配体"
+
+msgctxt "Operator"
+msgid "Remove Asset"
+msgstr "移除资产"
+
+msgctxt "Operator"
+msgid "Clean out Non-Assets from .blend file"
+msgstr "从.blend 文件中清理非资产内容"
+
+msgctxt "Operator"
+msgid "Local"
+msgstr "本地"
+
+msgctxt "Operator"
+msgid "Online"
+msgstr "在线"
+
+msgctxt "Operator"
+msgid "FAQ"
+msgstr "常见问题解答"
+
+msgid "Grease Pencil Extras"
+msgstr "铅笔笔刷附加功能"
+
+msgid "Opacity"
+msgstr "不透明度"
+
+msgid "Stroke Thickness"
+msgstr "笔触粗细"
+
+msgid "Smart Vert/Edge/Face"
+msgstr "智能顶点/边/面"
+
+msgctxt "Operator"
+msgid "Smart Vert"
+msgstr "智能顶点"
+
+msgctxt "Operator"
+msgid "Smart Face"
+msgstr "智能面"
+
+msgctxt "Operator"
+msgid "Smart Edge"
+msgstr "智能边"
+
+msgctxt "Operator"
+msgid "Merge"
+msgstr "合并"
+
+msgctxt "Operator"
+msgid "Connect"
+msgstr "连接"
+
+msgctxt "Operator"
+msgid "Center Merge"
+msgstr "中心合并"
+
+msgctxt "Operator"
+msgid "Slide Extend"
+msgstr "滑动延伸"
+
+msgctxt "Operator"
+msgid "Toggle Sharp"
+msgstr "切换锐利"
+
+msgctxt "Operator"
+msgid "Offset Edge"
+msgstr "偏移边"
+
+msgid "Smart Vert, Smart Edge or Smart Face"
+msgstr "智能顶点、智能边或智能面"
+
+msgid "have not been activated"
+msgstr "未激活"
+
+msgid "Modes"
+msgstr "模式"
+
+msgctxt "Operator"
+msgid "Reload Library"
+msgstr "重新加载库"
+
+msgctxt "Operator"
+msgid "Pose"
+msgstr "姿态"
+
+msgctxt "Operator"
+msgid "Make Local"
+msgstr "设为局部"
+
+msgid "Finish Assembly Edit"
+msgstr "完成装配编辑"
+
+msgid "Open {os.path.basename(blendpath)}"
+msgstr "打开 {os.path.basename(blendpath)}"
+
+msgctxt "Operator"
+msgid "Vertex"
+msgstr "顶点"
+
+msgctxt "Operator"
+msgid "Face"
+msgstr "面"
+
+msgctxt "Operator"
+msgid "Edge"
+msgstr "边"
+
+msgctxt "Operator"
+msgid "Object"
+msgstr "对象"
+
+msgid "Sculpt"
+msgstr "雕刻"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Gizmos"
+msgstr "工具"
+
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+msgctxt "Operator"
+msgid "Toggle"
+msgstr "切换"
+
+msgctxt "Operator"
+msgid "Finish Surface Slide"
+msgstr "完成表面滑动"
+
+msgctxt "Operator"
+msgid "Surface Slide"
+msgstr "表面滑动"
+
+msgid "Occlude"
+msgstr "遮挡"
+
+msgid "Auto Merge"
+msgstr "自动合并"
+
+msgctxt "Operator"
+msgid "UV Edit"
+msgstr "UV 编辑"
+
+msgctxt "Operator"
+msgid "Paint"
+msgstr "绘画"
+
+msgctxt "Operator"
+msgid "Mask"
+msgstr "遮罩"
+
+msgctxt "Operator"
+msgid "View"
+msgstr "视图"
+
+msgid "Sync Selection"
+msgstr "同步选择"
+
+msgid "Island"
+msgstr "岛屿"
+
+msgctxt "Operator"
+msgid "Island"
+msgstr "岛屿"
+
+msgid "Sticky Mode"
+msgstr "粘性模式"
+
+msgid "Sticky Icky"
+msgstr "粘性且令人讨厌的"
+
+msgid "Lock Bounds"
+msgstr "锁定边界"
+
+msgid "Armature is linked and can't be taken into Edit Mode"
+msgstr "骨架已链接，无法进入编辑模式"
+
+msgctxt "Operator"
+msgid "Edit Mode"
+msgstr "编辑模式"
+
+msgctxt "Operator"
+msgid "Sculpt Mode"
+msgstr "雕刻模式"
+
+msgctxt "Operator"
+msgid "Sculpt"
+msgstr "雕刻"
+
+msgctxt "Operator"
+msgid "Draw"
+msgstr "绘制"
+
+msgid "Multiframe"
+msgstr "多帧"
+
+msgid "POINT"
+msgstr "点"
+
+msgid "STROKE"
+msgstr "描边"
+
+msgid "SEGMENT"
+msgstr "段落"
+
+msgid "Gizmo"
+msgstr "工具"
+
+msgid "Side"
+msgstr "侧面"
+
+msgid "Use"
+msgstr "使用"
+
+msgid "Disable, when done!"
+msgstr "完成！禁用。"
+
+msgid "Empty Size"
+msgstr "空尺寸"
+
+msgid "Make Local"
+msgstr "本地化"
+
+msgid "Edit Assembly"
+msgstr "编辑装配体"
+
+msgid "Group Size"
+msgstr "组大小"
+
+msgid "Gizmo Size"
+msgstr "工具大小"
+
+msgctxt "Operator"
+msgid "Turn into Asset"
+msgstr "转换为资产"
+
+msgctxt "Operator"
+msgid "Setup Gizmos"
+msgstr "设置 Gizmos"
+
+msgid "Poses"
+msgstr "姿势"
+
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+msgctxt "Operator"
+msgid "Add Batch"
+msgstr "批量添加"
+
+msgid "WEIGHT_GPENCIL"
+msgstr "笔刷重量"
+
+msgid "VERTEX_GPENCIL"
+msgstr "顶点铅笔"
+
+msgid "PAINT_GPENCIL"
+msgstr "画笔铅笔"
+
+msgid "SCULPT_GPENCIL"
+msgstr "雕刻铅笔工具"
+
+msgid "OBJECT"
+msgstr "对象"
+
+msgid "EDIT_GPENCIL"
+msgstr "编辑铅笔笔刷"
+
+msgid "WEIGHT_GREASE_PENCIL"
+msgstr "涂抹铅笔笔刷"
+
+msgid "VERTEX_GREASE_PENCIL"
+msgstr "顶点涂抹笔刷"
+
+msgid "PAINT_GREASE_PENCIL"
+msgstr "绘画涂抹笔刷"
+
+msgid "SCULPT_GREASE_PENCIL"
+msgstr "雕刻涂抹笔刷"
+
+msgid "EDIT"
+msgstr "编辑"
+
+msgctxt "Operator"
+msgid "Shrinkwrap"
+msgstr "收缩包裹"
+
+msgid "Thickness"
+msgstr "厚度"
+
+msgid "Dyntopo"
+msgstr "动态拓扑"
+
+msgctxt "Operator"
+msgid "Use Dyntopo"
+msgstr "使用动态拓扑"
+
+msgid "Remesh"
+msgstr "重新网格化"
+
+msgid "No Active Object Selected"
+msgstr "未选择活动对象"
+
+msgid "Select Up"
+msgstr "向上选择"
+
+msgid "Save, Open, Append"
+msgstr "保存、打开、追加"
+
+msgctxt "Operator"
+msgid "Open..."
+msgstr "打开..."
+
+msgctxt "Operator"
+msgid "Save{'*' if is_blend_dirty else ''}"
+msgstr "保存{'*' if is_blend_dirty else ''}"
+
+msgctxt "Operator"
+msgid "Save As..{'*' if is_blend_dirty else ''}"
+msgstr "另存为..{'*' if is_blend_dirty else ''}"
+
+msgctxt "Operator"
+msgid "Save Image As..{'*' if is_img_dirty else ''}"
+msgstr "保存图片为..{'*' if is_img_dirty else ''}"
+
+msgctxt "Operator"
+msgid "Open Image"
+msgstr "打开图片"
+
+msgctxt "Operator"
+msgid "Save Image{'*' if is_img_dirty else ''}"
+msgstr "保存图片{'*' if is_img_dirty else ''}"
+
+msgctxt "Operator"
+msgid "New"
+msgstr "新建"
+
+msgctxt "Operator"
+msgid "Incremental Save{'*' if is_blend_dirty else ''}"
+msgstr "增量保存{'*' if is_blend_dirty else ''}"
+
+msgctxt "Operator"
+msgid "(R) Most Recent"
+msgstr "(R) 最近一次"
+
+msgid "TOPBAR_MT_file_open_recent"
+msgstr "最近打开的文件"
+
+msgctxt "Operator"
+msgid "All Recent"
+msgstr "全部最近"
+
+msgctxt "Operator"
+msgid "Open Current"
+msgstr "打开当前"
+
+msgctxt "Operator"
+msgid "Open Temp"
+msgstr "打开临时文件"
+
+msgctxt "Operator"
+msgid "Revert"
+msgstr "还原"
+
+msgctxt "Operator"
+msgid "Auto Save"
+msgstr "自动保存"
+
+msgid "Undo"
+msgstr "撤销"
+
+msgid "Redo"
+msgstr "重做"
+
+msgctxt "Operator"
+msgid "{text} Screen Cast"
+msgstr "{text} 屏幕录制"
+
+msgid "Keys"
+msgstr "快捷键"
+
+msgid "OBJ"
+msgstr "对象"
+
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+msgid "FBX"
+msgstr "FBX"
+
+msgid "Better FBX"
+msgstr "更好的 FBX"
+
+msgid "USD"
+msgstr "USD"
+
+msgid "STL"
+msgstr "STL"
+
+msgid "glTF"
+msgstr "glTF"
+
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一页"
+
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一页"
+
+msgid "You are currently in the Temp Folder"
+msgstr "您当前位于临时文件夹"
+
+msgid "If you want to save, do it elsewhere!"
+msgstr "如果您想保存，请保存到其他地方！"
+
+msgctxt "Operator"
+msgid "Append"
+msgstr "附加"
+
+msgctxt "Operator"
+msgid "Link"
+msgstr "链接"
+
+msgid "TOPBAR_MT_file_external_data"
+msgstr "顶部菜单_MT_外部数据"
+
+msgctxt "Operator"
+msgid "Purge"
+msgstr "清除"
+
+msgctxt "Operator"
+msgid "Reload {'All ' if lib_count > 1 else ''}Linked {'Libraries' if lib_count > 1 else 'Library'}"
+msgstr "重新加载 {'全部 ' if lib_count > 1 else ''}关联的 {'库' if lib_count > 1 else '库'}"
+
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+msgid "Libraries"
+msgstr "库"
+
+msgctxt "Operator"
+msgid "Clean out .blend"
+msgstr "清理.blend 文件"
+
+msgctxt "Operator"
+msgid "Keep Assets"
+msgstr "保留资产"
+
+msgid "Shading and Overlays"
+msgstr "着色与覆盖层"
+
+msgid "Stats"
+msgstr "统计信息"
+
+msgid "Origins"
+msgstr "来源"
+
+msgctxt "Operator"
+msgid "Grid"
+msgstr "网格线"
+
+msgid "Wireframe (all + selection)"
+msgstr "线框模式（全部 + 选中）"
+
+msgid "Wireframe (all)"
+msgstr "线框模式（全部）"
+
+msgid "Wireframe (selection)"
+msgstr "线框模式（选中）"
+
+msgid "Wireframe"
+msgstr "线框模式"
+
+msgid "Wireframe (XRay)"
+msgstr "线框（X 射线）"
+
+msgid "Wireframe (Active)"
+msgstr "线框（激活）"
+
+msgid "X-Ray"
+msgstr "X 射线"
+
+msgctxt "Operator"
+msgid "(Q) Outline"
+msgstr "(Q) 轮廓"
+
+msgctxt "Operator"
+msgid "Cavity"
+msgstr "凹槽"
+
+msgctxt "Operator"
+msgid "(V) Curvature"
+msgstr "(V) 曲率"
+
+msgid "In Front"
+msgstr "前方"
+
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "平滑"
+
+msgctxt "Operator"
+msgid "Flat"
+msgstr "平面"
+
+msgctxt "Operator"
+msgid "Auto Smooth"
+msgstr "自动平滑"
+
+msgid "Auto Smooth Angle"
+msgstr "自动平滑角度"
+
+msgid "Auto Smooth Angle: None"
+msgstr "自动平滑角度：无"
+
+msgctxt "Operator"
+msgid "(N) Clear Custom Normals"
+msgstr "(N) 清除自定义法线"
+
+msgid "Normals"
+msgstr "法线"
+
+msgid "Sharp"
+msgstr "锐利"
+
+msgid "Bevel"
+msgstr "倒角"
+
+msgid "Creases"
+msgstr "折痕"
+
+msgid "Seams"
+msgstr "边缘"
+
+msgid "Curve"
+msgstr "曲线"
+
+msgid "Fill"
+msgstr "填充"
+
+msgid "Resolution"
+msgstr "分辨率"
+
+msgid "Handles"
+msgstr "手柄"
+
+msgid "World Space"
+msgstr "世界空间"
+
+msgctxt "Operator"
+msgid "(X) Matcap Switch"
+msgstr "(X) 材质球切换"
+
+msgctxt "Operator"
+msgid "Matcap Flip"
+msgstr "材质球翻转"
+
+msgctxt "Operator"
+msgid "Colorize Scene Materials"
+msgstr "为场景材质着色"
+
+msgid "from"
+msgstr "来自"
+
+msgctxt "Operator"
+msgid "Active"
+msgstr "活动"
+
+msgctxt "Operator"
+msgid "Material"
+msgstr "材质"
+
+msgctxt "Operator"
+msgid "Collection"
+msgstr "集合"
+
+msgid "Engine"
+msgstr "引擎"
+
+msgctxt "Operator"
+msgid "{'Set' if bpy.data.worlds else 'New'} World"
+msgstr "{'Set' if bpy.data.worlds else 'New'} 世界"
+
+msgid "Set"
+msgstr "设置"
+
+msgid "New"
+msgstr "新建"
+
+msgid "World Shadow"
+msgstr "世界阴影"
+
+msgid "Mist Start"
+msgstr "雾开始"
+
+msgid "Mist Depth"
+msgstr "雾深度"
+
+msgctxt "Operator"
+msgid "+180"
+msgstr "+180"
+
+msgid "Enforce hide_render"
+msgstr "强制隐藏渲染"
+
+msgid "Presets"
+msgstr "预设"
+
+msgid "User Presets"
+msgstr "用户预设"
+
+msgid "Passes"
+msgstr "通道"
+
+msgid "Compositor"
+msgstr "合成器"
+
+msgid "Bloom"
+msgstr "辉光"
+
+msgid "Disperse"
+msgstr "扩散"
+
+msgid "Dispersion"
+msgstr "散射"
+
+msgid "Rays"
+msgstr "光线"
+
+msgid "Jittered"
+msgstr "抖动"
+
+msgid "Volumetric"
+msgstr "体积"
+
+msgid "Raytracing"
+msgstr "光线追踪"
+
+msgid "Fast GI"
+msgstr "快速全局光照"
+
+msgid "Radiance Scale"
+msgstr "辐射度比例"
+
+msgid "Max Roughness"
+msgstr "最大粗糙度"
+
+msgid "Precision"
+msgstr "精度"
+
+msgid "Angular Thickness"
+msgstr "角度厚度"
+
+msgid "Volumes"
+msgstr "体积"
+
+msgid "Custom Range"
+msgstr "自定义范围"
+
+msgid "Density"
+msgstr "密度"
+
+msgid "Strength"
+msgstr "强度"
+
+msgid "Cycles Settings"
+msgstr "Cycles 设置"
+
+msgid "Denoise"
+msgstr "去噪"
+
+msgid "Max Steps"
+msgstr "最大步数"
+
+msgid "Width"
+msgstr "宽度"
+
+msgid "Bevel Radius of Panel Decals is modulated via the parent object!"
+msgstr "面板装饰的倒角半径通过父对象调制！"
+
+msgid "Bevel Shader on non-panel decals is not (yet?) supported!"
+msgstr "非面板装饰上的倒角着色器目前（尚未？）不支持！"
+
+msgid "Do you really need this? Email me, if so: decal@machin3.io"
+msgstr "你真的需要这个吗？如果需要，请发邮件给我：decal@machin3.io"
+
+msgid "Bevel Shader on decals without parent objects is not supported."
+msgstr "没有父对象的装饰上不支持倒角着色器。"
+
+msgid "Active Object Toggle"
+msgstr "活动对象切换"
+
+msgid "Active Object Factor"
+msgstr "活动对象因子"
+
+msgid "(L) Solid"
+msgstr "(实体)"
+
+msgid "Material"
+msgstr "材质"
+
+msgid "Rendered"
+msgstr "渲染"
+
+msgid "Viewport and Cameras"
+msgstr "视口和相机"
+
+msgctxt "Operator"
+msgid "Front"
+msgstr "前视图"
+
+msgctxt "Operator"
+msgid "Right"
+msgstr "右视图"
+
+msgctxt "Operator"
+msgid "Top"
+msgstr "顶视图"
+
+msgctxt "Operator"
+msgid "Orbit Selection"
+msgstr "轨道选择器"
+
+msgctxt "Operator"
+msgid "Smart View Cam"
+msgstr "智能视图相机"
+
+msgid "Lens"
+msgstr "镜头"
+
+msgctxt "Operator"
+msgid "(Q) Previous Cam"
+msgstr "(Q) 上一个视图"
+
+msgctxt "Operator"
+msgid "(W) Next Cam"
+msgstr "(W) 下一个视图"
+
+msgctxt "Operator"
+msgid "Cam to view"
+msgstr "查看器中的相机"
+
+msgid "Unlock from View"
+msgstr "从视图中解锁"
+
+msgid "Lock to View"
+msgstr "锁定到视图"
+
+msgctxt "Operator"
+msgid "Bottom"
+msgstr "底部"
+
+msgctxt "Operator"
+msgid "Left"
+msgstr "左侧"
+
+msgctxt "Operator"
+msgid "Back"
+msgstr "后方"
+
+msgid "Custom Views"
+msgstr "自定义视图"
+
+msgctxt "Operator"
+msgid "Reset Viewport"
+msgstr "重置视窗"
+
+msgctxt "Operator"
+msgid "Y min"
+msgstr "Y 最小值"
+
+msgctxt "Operator"
+msgid "Y max"
+msgstr "Y 最大值"
+
+msgctxt "Operator"
+msgid "Straighten"
+msgstr "拉直"
+
+msgctxt "Operator"
+msgid "Align Object to Vert"
+msgstr "将对象对齐到顶点"
+
+msgctxt "Operator"
+msgid "Align Object to Edge"
+msgstr "将对象对齐到边"
+
+msgctxt "Operator"
+msgid "X min"
+msgstr "X 最小值"
+
+msgctxt "Operator"
+msgid "X max"
+msgstr "X 最大值"
+
+msgctxt "Operator"
+msgid "Z min"
+msgstr "Z 最小值"
+
+msgctxt "Operator"
+msgid "Z max"
+msgstr "Z 最大值"
+
+msgctxt "Operator"
+msgid "Horizontal"
+msgstr "水平"
+
+msgctxt "Operator"
+msgid "Vertical"
+msgstr "垂直"
+
+msgid "UV Align"
+msgstr "UV 对齐"
+
+msgctxt "Operator"
+msgid "V min"
+msgstr "V 最小值"
+
+msgctxt "Operator"
+msgid "V max"
+msgstr "V 最大值"
+
+msgctxt "Operator"
+msgid "U min"
+msgstr "U 最小值"
+
+msgctxt "Operator"
+msgid "U max"
+msgstr "U 最大值"
+
+msgctxt "Operator"
+msgid "U Cursor"
+msgstr "U 光标"
+
+msgctxt "Operator"
+msgid "V Cursor"
+msgstr "V 光标"
+
+msgid "Cursor and Origin"
+msgstr "光标和原点"
+
+msgctxt "Operator"
+msgid "to %s"
+msgstr "到 %s"
+
+msgctxt "Operator"
+msgid "to Selected"
+msgstr "到选中对象"
+
+msgctxt "Operator"
+msgid "to Cursor"
+msgstr "到光标位置"
+
+msgid "Assembly Origin"
+msgstr "装配原点"
+
+msgid "Object Origin"
+msgstr "对象原点"
+
+msgctxt "Operator"
+msgid "to Geometry"
+msgstr "到几何体"
+
+msgctxt "Operator"
+msgid "Reset Origin"
+msgstr "重置原点"
+
+msgctxt "Operator"
+msgid "to Active"
+msgstr "到活动对象"
+
+msgctxt "Operator"
+msgid "to Object"
+msgstr "到对象"
+
+msgctxt "Operator"
+msgid "to Bottom"
+msgstr "到底部"
+
+msgctxt "Operator"
+msgid "Drag Hyper Cursor"
+msgstr "拖动超光标"
+
+msgctxt "Operator"
+msgid "to Origin"
+msgstr "到原点"
+
+msgctxt "Operator"
+msgid "to Cursor, Offset"
+msgstr "到光标，偏移量"
+
+msgctxt "Operator"
+msgid "to Grid"
+msgstr "到网格"
+
+msgctxt "Operator"
+msgid "Individual"
+msgstr "单个"
+
+msgctxt "Operator"
+msgid "Cursor"
+msgstr "光标"
+
+msgid "Pivot Point"
+msgstr "枢轴点"
+
+msgid "Orientation"
+msgstr "方向"
+
+msgctxt "Operator"
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Affect Only"
+msgstr "仅影响"
+
+msgid "Locations"
+msgstr "位置"
+
+msgid "Parents"
+msgstr "父母"
+
+msgctxt "Operator"
+msgid "Absolute Grid"
+msgstr "绝对网格"
+
+msgctxt "Operator"
+msgid "Volume"
+msgstr "音量"
+
+msgid "More..."
+msgstr "更多..."
+
+msgctxt "Operator"
+msgid "Surface"
+msgstr "表面"
+
+msgctxt "Operator"
+msgid "Face Nearest"
+msgstr "最近的面"
+
+msgid "Collections"
+msgstr "集合"
+
+msgctxt "Operator"
+msgid "Remove from"
+msgstr "从列表中移除"
+
+msgctxt "Operator"
+msgid "Add to"
+msgstr "添加到"
+
+msgctxt "Operator"
+msgid "Move to"
+msgstr "移动至"
+
+msgctxt "Operator"
+msgid "Create"
+msgstr "创建"
+
+msgctxt "Operator"
+msgid "Purge Empty Collections"
+msgstr "清理空集合"
+
+msgid "Scene Collections (Selection Only)"
+msgstr "场景集合（仅选择）"
+
+msgid "Scene Collections (Entire Scene)"
+msgstr "场景集合（整个场景）"
+
+msgid "Selected Objects are not"
+msgstr "已选择的对象无效。"
+
+msgid "in any Scene Collection"
+msgstr "在任何场景集合中"
+
+msgid "Decal Parent Collections (Selection)"
+msgstr "图样父级集合（选择）"
+
+msgid "Decal Parent Collections"
+msgstr "法线贴图父级集合"
+
+msgid "Decal Type Collections"
+msgstr "法线贴图类型集合"
+
+msgid "Workspaces"
+msgstr "工作区"
+
+msgid "EDIT_MESH"
+msgstr "编辑网格"
+
+msgid "builtin_brush.Draw"
+msgstr "内置笔刷。绘制"
+
+msgid "builtin.brush"
+msgstr "内置笔刷"
+
+msgid "builtin.line"
+msgstr "内置线条"
+
+msgid "builtin_brush.Erase"
+msgstr "内置笔刷。擦除"
+
+msgctxt "Operator"
+msgid "Line"
+msgstr "线条"
+
+msgid "builtin.annotate_line"
+msgstr "内置标注线"
+
+msgctxt "Operator"
+msgid "Erase"
+msgstr "擦除"
+
+msgctxt "Operator"
+msgid "Note"
+msgstr "注释"
+
+msgctxt "Operator"
+msgid "{action} Annotations"
+msgstr "{action} 注释"
+
+msgctxt "Operator"
+msgid "Surface Draw"
+msgstr "表面绘制"
+
+msgctxt "Operator"
+msgid "Pick Tool"
+msgstr "拾取工具"
+
+msgid "SCREEN_MT_user_menu"
+msgstr "SCREEN_MT_user_menu"
+
+msgctxt "Operator"
+msgid "Tool Bar"
+msgstr "工具栏"
+
+msgid "Box"
+msgstr "立方体"
+
+msgctxt "Operator"
+msgid "Cut"
+msgstr "切割"
+
+msgid "Circle"
+msgstr "圆形"
+
+msgid "NGon"
+msgstr "N 边形"
+
+msgid "HOPS_MT_MainMenu"
+msgstr "HOPS 主菜单"
+
+msgctxt "Operator"
+msgid "(Q) Menu"
+msgstr "(Q) 菜单"
+
+msgid "Layer:"
+msgstr "图层："
+
+msgid "No annotation source"
+msgstr "无注释源"
+
+msgid "Line Subdivision"
+msgstr "线条细分"
+
+msgid "Grease Pencil Layers"
+msgstr "铅笔图层"
+
+msgid "Color:"
+msgstr "颜色:"
+
+msgctxt "Operator"
+msgid "Recursive Children"
+msgstr "递归子项"
+
+msgctxt "Operator"
+msgid "Recursive Parents"
+msgstr "递归父项"
+
+msgctxt "Operator"
+msgid "{suppress_accelerator('A')}ll Parents"
+msgstr "{suppress_accelerator('A')}ll 父项"
+
+msgctxt "Operator"
+msgid "{suppress_accelerator('A')}ll Parents +"
+msgstr "{suppress_accelerator('A')}ll 父项 +"
+
+msgctxt "Operator"
+msgid "All Children"
+msgstr "所有子项"
+
+msgctxt "Operator"
+msgid "All Children +"
+msgstr "所有儿童 +"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align (Edit Mesh)"
+msgstr "MACHIN3：对齐（编辑网格）"
+
+msgid ""
+"Local Space Align\n"
+"ALT: World Space Align\n"
+"CTRL: Cursor Space Align"
+msgstr ""
+"局部空间对齐\n"
+"ALT: 世界空间对齐\n"
+"CTRL: 光标空间对齐"
+
+msgid "Align to Min or Max, Average, Zero or Cursor"
+msgstr "对齐到最小值或最大值、平均值、零或光标"
+
+msgid "Align on the X, Y or Z Axis"
+msgstr "在 X、Y 或 Z 轴上对齐"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Align in Local, World or Cursor Space"
+msgstr "在局部空间、世界空间或光标空间中对齐"
+
+msgid "Align Each Island independently"
+msgstr "独立地对齐每个岛屿"
+
+msgid "Each"
+msgstr "每一个"
+
+msgid "Invalid Property Combination"
+msgstr "无效的属性组合"
+
+msgctxt "Operator"
+msgid "MACHIN3: Center (Edit Mesh)"
+msgstr "MACHIN3：中心（编辑网格）"
+
+msgid ""
+"Local Space Center\n"
+"ALT: World Space Center\n"
+"CTRL: Cursor Space Center"
+msgstr ""
+"局部空间中心\n"
+"ALT：世界空间中心\n"
+"CTRL：光标空间中心"
+
+msgid "Invalid Modifier Keys"
+msgstr "无效的修饰器按键"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align Object to Edge"
+msgstr "MACHIN3：将对象对齐到边缘"
+
+msgid ""
+"Align one or more objects to edge in active object\n"
+"ALT: Snap objects to edge by proximity\n"
+"CTRL: Snap objects to edge by midpoint"
+msgstr ""
+"将一个或多个对象对齐到活动对象的边缘\n"
+"ALT：根据邻近度将对象吸附到边缘\n"
+"CTRL：根据中点将对象吸附到边缘"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align Object to Vert"
+msgstr "MACHIN3：将对象对齐到顶点"
+
+msgid "Align one or more objects to vertice in active object"
+msgstr "将一个或多个对象对齐到活动对象的顶点"
+
+msgctxt "Operator"
+msgid "MACHIN3: Straighten"
+msgstr "MACHIN3：拉直"
+
+msgid "Straighten verts or edges"
+msgstr "拉直顶点或边线"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align (UV)"
+msgstr "MACHIN3：对齐（UV）"
+
+msgid "Align UVs based on min/max U or V values"
+msgstr "根据最小/最大 U 或 V 值对齐 UV"
+
+msgid "Align UVs {direction}ly based on Cursor position."
+msgstr "基于光标位置沿{direction}对齐 UV。"
+
+msgid "Average UV coords {direction}ly."
+msgstr "平均 UV 坐标以 {direction} 方向。"
+
+msgid "Align UVs based on minimum {properties.axis} values"
+msgstr "根据最小 {properties.axis} 值对齐 UV"
+
+msgid "Align UVs based on maximum {properties.axis} values"
+msgstr "根据最大 {properties.axis} 值对齐 UV"
+
+msgctxt "Operator"
+msgid "MACHIN3: Call MACHIN3tools Pie"
+msgstr "MACHIN3：调用 MACHIN3 工具面板"
+
+msgctxt "Operator"
+msgid "MACHIN3: Create Collection"
+msgstr "MACHIN3：创建集合"
+
+msgid "Create new Collection"
+msgstr "创建新集合"
+
+msgid "Collection '%s' exists already"
+msgstr "集合 '%s' 已存在"
+
+msgctxt "Operator"
+msgid "MACHIN3: Remove from Collection"
+msgstr "MACHIN3：从集合中移除"
+
+msgid "Remove Selection from a Collection"
+msgstr "从集合中移除选择"
+
+msgctxt "Operator"
+msgid "MACHIN3: Purge Collections"
+msgstr "MACHIN3：清除集合"
+
+msgid "Remove empty Collections"
+msgstr "删除空集合"
+
+msgctxt "Operator"
+msgid "MACHIN3: (De)Select Collection"
+msgstr "MACHIN3：（取消）选中集合"
+
+msgid ""
+"Select Collection Objects\n"
+"SHIFT: Select all Collection Objects(recursively)\n"
+"ALT: Deselect Collection Objects\n"
+"SHIFT+ALT: Deselect all Collection Objects\n"
+"CTRL: Toggle Select-ability of Collection Objects"
+msgstr ""
+"选中集合对象\n"
+"SHIFT: 全选集合对象（递归）\n"
+"ALT: 取消选中集合对象\n"
+"SHIFT+ALT: 取消全选集合对象\n"
+"CTRL: 切换集合对象的选中状态"
+
+msgctxt "Operator"
+msgid "MACHIN3: Colorize Materials"
+msgstr "MACHIN3：材质着色"
+
+msgid "Set Material Viewport Colors from last Node in Material"
+msgstr "从材质的最后一个节点设置材质视口颜色"
+
+msgid "Lighten"
+msgstr "提亮"
+
+msgctxt "Operator"
+msgid "MACHIN3: Colorize Objects from Materials"
+msgstr "MACHIN3：基于材质对对象进行着色"
+
+msgid "Set Object Viewport Colors of selected Objects from their active Materials"
+msgstr "为选中的对象根据其活动材质设置视口颜色"
+
+msgctxt "Operator"
+msgid "MACHIN3: Colorize Objects from Active"
+msgstr "MACHIN3：根据活动对象着色对象"
+
+msgid "Set Object Viewport Colors from Active Object"
+msgstr "根据活动对象设置对象视口颜色"
+
+msgctxt "Operator"
+msgid "MACHIN3: Colorize Objects from Collections"
+msgstr "MACHIN3：根据集合着色对象"
+
+msgid "Set Object Viewport Colors of selected Objects based on Collections"
+msgstr "基于集合为选中的对象设置视口颜色"
+
+msgid "Multiple Collections"
+msgstr "多个集合"
+
+msgid "Base Colors on the collections the most or least objects are present in"
+msgstr "选择包含最多或最少对象的集合作为基础颜色"
+
+msgid "DECALmachine Collections"
+msgstr "DECALmachine 集合"
+
+msgid "Multi-Collection Objects"
+msgstr "多集合对象"
+
+msgid "Decal Collections"
+msgstr "Decal 集合"
+
+msgid "Assigned {len(collectiondict)} unique colors."
+msgstr "已分配 {len(collectiondict)} 种唯一颜色。"
+
+msgctxt "Operator"
+msgid "MACHIN3: Colorize Objects from Groups"
+msgstr "MACHIN3：根据组成员身份递归设置随机对象视"
+
+msgid "Random Color"
+msgstr "随机颜色"
+
+msgid "Active Group Only"
+msgstr "仅活动组"
+
+msgid ""
+"Recursively Set Random Object Viewport Colors for Group Objects based on Group Membership\n"
+"ALT: Set Group Member Colors based on existing Group Empty Colors\n"
+"CTRL: Only Colorize the Active Group"
+msgstr ""
+"递归地为组对象设置随机视图颜色，基于组成员身份\n"
+"ALT：根据现有组空对象的颜色设置组成员颜色\n"
+"CTRL：仅着色当前组"
+
+msgid ""
+"Recursively Set Random Object Viewport Colors for Group Objects based on Group Membership\n"
+"ALT: Set Group Member Colors based on existing Group Empty Colors"
+msgstr ""
+"递归地为组对象设置随机视图颜色，基于组成员身份\n"
+"ALT：根据现有组空对象颜色设置组成员颜色"
+
+msgctxt "Operator"
+msgid "MACHIN3: Cursor to Origin"
+msgstr "MACHIN3：光标到原点"
+
+msgid ""
+"Reset Cursor to World Origin\n"
+"ALT: Only reset Cursor Location\n"
+"CTRL: Only reset Cursor Rotation"
+msgstr ""
+"将光标重置为世界原点\n"
+"ALT：仅重置光标位置\n"
+"CTRL：仅重置光标旋转"
+
+msgctxt "Operator"
+msgid "MACHIN3: Cursor to Selected"
+msgstr "MACHIN3：光标至选定对象"
+
+msgid ""
+"Align Cursor with Selected Object(s)\n"
+"ALT: Only set Cursor Location\n"
+"CTRL: Only set Cursor Rotation"
+msgstr ""
+"与选定对象对齐光标\n"
+"ALT：仅设置光标位置\n"
+"CTRL：仅设置光标旋转"
+
+msgid ""
+"Align Cursor with Vert/Edge/Face\n"
+"ALT: Only set Cursor Location\n"
+"CTRL: Only set Cursor Rotation"
+msgstr ""
+"与顶点/边/面对齐光标\n"
+"ALT：仅设置光标位置\n"
+"CTRL：仅设置光标旋转"
+
+msgctxt "Operator"
+msgid "MACHIN3: Selected To Cursor"
+msgstr "MACHIN3：选择到光标"
+
+msgid ""
+"Transform Selected Objects to Cursor\n"
+"ALT: Only set Location\n"
+"CTRL: Only set Rotation"
+msgstr ""
+"将选中的对象变换到光标位置\n"
+"ALT：仅设置位置\n"
+"CTRL：仅设置旋转"
+
+msgctxt "Operator"
+msgid "MACHIN3: Draw Label"
+msgstr "MACHIN3：绘制标签"
+
+msgid "Text to draw the HUD"
+msgstr "用于绘制 HUD 的文字"
+
+msgid "Text Size"
+msgstr "文字大小"
+
+msgid "Screen Coordinates"
+msgstr "屏幕坐标"
+
+msgid "Move Up or Down"
+msgstr "向上或向下移动"
+
+msgctxt "Operator"
+msgid "MACHIN3: Get MACHIN3tools Support"
+msgstr "MACHIN3：获取 MACHIN3tools 支持"
+
+msgid "Generate Log Files and Instructions for a Support Request."
+msgstr "生成支持请求所需的日志文件和说明。"
+
+msgid "{p.replace('activate_', '').replace('_pie', '').title()} Pie"
+msgstr "{p.replace('activate_', '').replace('_pie', '').title()} Pie"
+
+msgctxt "Operator"
+msgid "MACHIN3: Reset MACHIN3tools Keymaps"
+msgstr "MACHIN3：重置 MACHIN3tools 快捷键映射"
+
+msgid "This will undo all MACHIN3tools Keymap changes you have done"
+msgstr "这将撤销您所做的所有 MACHIN3tools 快捷键映射更改"
+
+msgctxt "Operator"
+msgid "MACHIN3: Restore missing MACHIN3tools Keymaps"
+msgstr "MACHIN3：恢复缺失的 MACHIN3tools 快捷键映射"
+
+msgid "This will restore all MACHIN3tools Keymappings, that have been removed"
+msgstr "这将恢复所有被删除的 MACHIN3tools 快捷键映射"
+
+msgctxt "Operator"
+msgid "Toggle Smart Keymaps"
+msgstr "切换智能快捷键映射"
+
+msgid "Toggle Smart Keymaps"
+msgstr "切换智能快捷键映射"
+
+msgctxt "Operator"
+msgid "MACHIN3: Reload All Libraries"
+msgstr "MACHIN3：重新加载所有库"
+
+msgid "Reload Libraries"
+msgstr "重新加载库"
+
+msgid "Reloaded Library '{lib.name.replace('.blend', '')}' from: {abspath(lib.filepath)}"
+msgstr "已从 {abspath(lib.filepath)} 重新加载库 '{lib.name.replace('.blend', '')}'"
+
+msgctxt "Operator"
+msgid "MACHIN3: Reload Active's Libraries"
+msgstr "MACHIN3：重新加载当前激活的库"
+
+msgid "Reload Active's Libraries"
+msgstr "重新加载活动库"
+
+msgid "Reload Active Object's Librar{'ies' if lib_count > 1 else 'y'}"
+msgstr "重新加载活动对象的库{'ies' if lib_count > 1 else 'y'}"
+
+msgid "ies"
+msgstr "ies"
+
+msgid "Switch to {'Object' if context.mode == 'EDIT_MESH' else 'Edit'} Mode"
+msgstr "切换到 {'Object' if context.mode == 'EDIT_MESH' else '编辑'} 模式"
+
+msgctxt "Operator"
+msgid "Mesh Mode"
+msgstr "网格模式"
+
+msgid "{mode.capitalize()} Select"
+msgstr "{mode.capitalize()} 选择"
+
+msgctxt "Operator"
+msgid "MACHIN3: Image Mode"
+msgstr "MACHIN3：图像模式"
+
+msgctxt "Operator"
+msgid "MACHIN3: UV Mode"
+msgstr "MACHIN3：UV 模式"
+
+msgctxt "Operator"
+msgid "MACHIN3: Open Library Blend"
+msgstr "MACHIN3：打开库混合文件"
+
+msgid "Open new Blender instance, loading the library sourced in the selected object or collection instance."
+msgstr "打开新的 Blender 实例，加载所选对象或集合实例中引用的库。"
+
+msgid ".blend not found"
+msgstr "未找到.blend 文件"
+
+msgid "The Library path could not be found:"
+msgstr "无法找到库路径:"
+
+msgctxt "Operator"
+msgid "MACHIN3: Origin to Active"
+msgstr "MACHIN3：原点至活动对象"
+
+msgid ""
+"Set Selected Objects' Origin to Active Object\n"
+"ALT: only set Origin Location\n"
+"CTRL: only set Origin Rotation"
+msgstr ""
+"将选中对象的原点到活动对象\n"
+"ALT: 仅设置原点位置\n"
+"CTRL: 仅设置原点旋转"
+
+msgid ""
+"Set Mesh Object's Origin to Active Vert/Edge/Face\n"
+"ALT: only set Origin Location\n"
+"CTRL: only set Origin Rotation"
+msgstr ""
+"将网格对象的原点到活动顶点/边/面\n"
+"ALT: 仅设置原点位置\n"
+"CTRL: 仅设置原点旋转"
+
+msgctxt "Operator"
+msgid "MACHIN3: Origin to Cursor"
+msgstr "MACHIN3：原点至光标"
+
+msgid ""
+"Set Selected Objects' Origin to Cursor\n"
+"ALT: only set Origin Location\n"
+"CTRL: only set Origin Rotation"
+msgstr ""
+"将选中对象的原点到光标\n"
+"ALT: 仅设置原点位置\n"
+"CTRL: 仅设置原点旋转"
+
+msgid ""
+"Set Mesh Object's Origin to Cursor\n"
+"ALT: only set Origin Location\n"
+"CTRL: only set Origin Rotation"
+msgstr ""
+"将网格对象的原点到光标\n"
+"ALT: 仅设置原点位置\n"
+"CTRL: 仅设置原点旋转"
+
+msgctxt "Operator"
+msgid "MACHIN3: Origin to Bottom Bounds"
+msgstr "MACHIN3：原点至底部边界"
+
+msgid "Evaluated Object Bounds"
+msgstr "评估对象边界"
+
+msgid "Set Object Origin to Bounding Box Bottom Center"
+msgstr "将对象原点设置为边界框底中心"
+
+msgctxt "Operator"
+msgid "Toggle Grid"
+msgstr "切换网格显示"
+
+msgid "Toggle Grid, distinguish between the grid in regular views and orthographic side views"
+msgstr "切换网格，区分常规视图和正交侧视图中显示的网格"
+
+msgctxt "Operator"
+msgid "Toggle Wireframe"
+msgstr "切换线框模式"
+
+msgid ""
+"Toggle Wireframe display for the selected objects\n"
+"Nothing Selected: Toggle Wireframe Overlay, affecting all objects"
+msgstr ""
+"为选中的对象切换线框显示\n"
+"未选择任何对象：切换线框覆盖层，影响所有对象"
+
+msgid "Toggle X-Ray, resembling how edit mode wireframes worked in Blender 2.79"
+msgstr "切换 X 射线模式，类似于 Blender 2.79 中编辑模式下线框的工作方式"
+
+msgid "Toggle Wireframe display for the active object"
+msgstr "为当前活动对象切换线框显示"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Snapping Preset"
+msgstr "MACHIN3: 设置吸附预设"
+
+msgid "Set Snapping Preset"
+msgstr "设置吸附预设"
+
+msgid "Additive Snap Elements"
+msgstr "累加吸附元素"
+
+msgid "Snap Element"
+msgstr "吸附元素"
+
+msgid "Snap Target"
+msgstr "吸附目标"
+
+msgid "Elements: {', '.join((e for e in ts.snap_elements))}"
+msgstr "元素：{', '.join((e for e in ts.snap_elements))}"
+
+msgid "Target: {target}"
+msgstr "目标：{target}"
+
+msgid "Align Rotation: {align_rotation}"
+msgstr "对齐旋转：{align_rotation}"
+
+msgid "Additive Snapping"
+msgstr "附加吸附"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Transform Preset"
+msgstr "MACHIN3: 设置变换预设"
+
+msgid "Set Transform Pivot and Orientation at the same time."
+msgstr "同时设置变换枢轴和方向。"
+
+msgid "Transform Pivot"
+msgstr "变换枢轴"
+
+msgid "Transform Orientation"
+msgstr "变换方向"
+
+msgid "Pivot: {pivot}"
+msgstr "旋转轴心：{pivot}"
+
+msgid "Orientation: {orientation}"
+msgstr "方向：{orientation}"
+
+msgctxt "Operator"
+msgid "Current file is unsaved. Start a new file anyway?"
+msgstr "当前文件未保存。是否仍要新建文件？"
+
+msgid "Start new .blend file"
+msgstr "新建.blend 文件"
+
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+msgid "Save {currentblend}"
+msgstr "保存 {currentblend}"
+
+msgid "Save unsaved file as..."
+msgstr "另存未保存的文件为..."
+
+msgid "Saved '{os.path.basename(currentblend)}'"
+msgstr "已保存 '{os.path.basename(currentblend)}'"
+
+msgctxt "Operator"
+msgid "MACHIN3: Save As"
+msgstr "MACHIN3：另存为"
+
+msgid ""
+"Save the current file in the desired location\n"
+"ALT: Save as Copy"
+msgstr ""
+"保存当前文件到指定位置\n"
+"ALT：另存为副本"
+
+msgid "Save as Copy"
+msgstr "另存为副本"
+
+msgctxt "Operator"
+msgid "Incremental Save"
+msgstr "增量保存"
+
+msgid ""
+"Save {currentblend} incrementally to {os.path.basename(incrpaths[0])}\n"
+"ALT: Save to {os.path.basename(incrpaths[1])}"
+msgstr ""
+"保存 {currentblend} 的增量版本到 {os.path.basename(incrpaths[0])}\n"
+"ALT：保存到 {os.path.basename(incrpaths[1])}"
+
+msgid ""
+"File '%s' exists already!\n"
+"Blend has NOT been saved incrementally!"
+msgstr ""
+"文件 '%s' 已存在！\n"
+"Blender 并未增量保存！"
+
+msgid "Incrementally saved to {os.path.basename(savepath)}"
+msgstr "已增量保存到 \"{savepath}"
+
+msgctxt "Operator"
+msgid "Save Versioned Startup File"
+msgstr "保存版本化的启动文件"
+
+msgid "Versioned Startup File saved: {biggest_idx + 1}"
+msgstr "已保存版本化的启动文件：{biggest_idx + 1}"
+
+msgid "Initial Startup File saved"
+msgstr "初始启动文件已保存"
+
+msgctxt "Operator"
+msgid "Load Most Recent"
+msgstr "加载最近一次"
+
+msgid "Load most recently used .blend file"
+msgstr "加载最近使用的.blend 文件"
+
+msgid "Loaded most recent \"%s\""
+msgstr "已加载最近的“%s”"
+
+msgid "File not found"
+msgstr "文件未找到"
+
+msgctxt "Operator"
+msgid "Load previous file? File has unsaved Changes!"
+msgstr "是否加载之前的文件？该文件有未保存的更改！"
+
+msgid "Your are at the beginning of the folder. There are no previous files to load."
+msgstr "您已到达文件夹开头。没有可加载的前一个文件。"
+
+msgid "Load Previous .blend File in Current Folder: {prev_file}"
+msgstr "在当前文件夹中加载上一个 .blend 文件：{prev_file}"
+
+msgid "Loaded previous {'BACKUP ' if is_backup else ''}file '{file}'"
+msgstr "成功加载了 {'BACKUP ' if is_backup else ''}文件 '{file}'"
+
+msgid "BACKUP"
+msgstr "BACKUP"
+
+msgctxt "Operator"
+msgid "Load next file? File has unsaved Changes!"
+msgstr "是否加载下一个文件？该文件有未保存的更改！"
+
+msgid "You have reached the end of the folder. There are no next files to load."
+msgstr "您已到达文件夹末尾。没有可加载的下一个文件。"
+
+msgid "Load Next .blend File in Current Folder: {next_file}"
+msgstr "在当前文件夹中加载下一个 .blend 文件：{next_file}"
+
+msgid "Loaded next {'BACKUP ' if is_backup else ''}file '{file}'"
+msgstr "加载了下一个 {'BACKUP ' if is_backup else ''}文件 '{file}'"
+
+msgid "End of folder reached"
+msgstr "文件夹结束"
+
+msgid "You have reached the end of blend files in '{folder}'"
+msgstr "您已经到达 '{folder}' 中 blend 文件的末尾"
+
+msgid "There are still some backup files though, which you can load via CTRL"
+msgstr "不过仍然有一些备份文件，您可以通过 CTRL"
+
+msgctxt "Operator"
+msgid "MACHIN3: Open Current Directory"
+msgstr "MACHIN3: 打开当前目录"
+
+msgid ""
+"Open the Folder containing the current .blend file in the System's File Browser.\n"
+" Open the Blender Config Folder, if it's the Startup File"
+msgstr ""
+"在系统的文件浏览器中打开包含当前 .blend 文件的文件夹。\n"
+"如果这是启动文件，则打开 Blender 配置文件夹"
+
+msgctxt "Operator"
+msgid "MACHIN3: Open Temp Directory"
+msgstr "MACHIN3: 打开临时目录"
+
+msgid "Open System's Temp Folder, which is used to Save Files on Quit, Auto Saves and Undo Saves"
+msgstr "打开系统临时文件夹，该文件夹用于保存退出时、自动保存和撤销保存的文件"
+
+msgid "Load UI"
+msgstr "加载 UI"
+
+msgctxt "Operator"
+msgid "MACHIN3: Purge Orphans"
+msgstr "MACHIN3: 清除孤儿"
+
+msgid "Recursive Purge"
+msgstr "递归清除"
+
+msgid ""
+"Purge Orphans\n"
+"ALT: Purge Orphans Recursively"
+msgstr ""
+"清除孤儿对象\n"
+"ALT: 递归清除孤儿对象"
+
+msgid "Removed {total_count} data blocks!"
+msgstr "已删除 {total_count} 个数据块！"
+
+msgid "Purge"
+msgstr "清除"
+
+msgid "Nothing to purge."
+msgstr "无内容可清除。"
+
+msgctxt "Operator"
+msgid "Clean out .blend file!"
+msgstr "清理 .blend 文件！"
+
+msgid "Remove Custom Brushes"
+msgstr "移除自定义画笔"
+
+msgid "Has Selected Objects"
+msgstr "当前场景中有选定对象"
+
+msgid "Clean out entire .blend file"
+msgstr "清理整个 .blend 文件"
+
+msgid "This will remove everything in the current .blend file"
+msgstr "这将删除当前 .blend 文件中的所有项目"
+
+msgid "Clay Strips"
+msgstr "粘土条"
+
+msgid "Clay Thumb"
+msgstr "粘土拇指"
+
+msgid "Clone Stroke"
+msgstr "克隆笔刷"
+
+msgid "Draw Face Sets"
+msgstr "绘制面部集合"
+
+msgid "Draw Sharp"
+msgstr "绘制锐利"
+
+msgid "Elastic Deform"
+msgstr "弹性变形"
+
+msgid "Eraser Hard"
+msgstr "橡皮擦硬边"
+
+msgid "Eraser Point"
+msgstr "橡皮擦点"
+
+msgid "Eraser Soft"
+msgstr "橡皮擦软边"
+
+msgid "Eraser Stroke"
+msgstr "橡皮擦笔刷"
+
+msgid "Fill Area"
+msgstr "填充区域"
+
+msgid "Grab Stroke"
+msgstr "抓取笔触"
+
+msgid "Ink Pen"
+msgstr "墨水笔"
+
+msgid "Ink Pen Rough"
+msgstr "墨水笔粗糙"
+
+msgid "Marker Bold"
+msgstr "马克粗体"
+
+msgid "Marker Chisel"
+msgstr "马克刻刀"
+
+msgid "Multi-plane Scrape"
+msgstr "多平面刮擦"
+
+msgid "Multires Displacement Eraser"
+msgstr "多分辨率置换橡皮擦"
+
+msgid "Multires Displacement Smear"
+msgstr "多分辨率置换涂抹"
+
+msgid "Pencil Soft"
+msgstr "铅笔柔边"
+
+msgid "Pinch Stroke"
+msgstr "捏笔触"
+
+msgid "Push Stroke"
+msgstr "推笔触"
+
+msgid "Randomize Stroke"
+msgstr "随机笔触"
+
+msgid "Slide Relax"
+msgstr "滑动放松"
+
+msgid "Smooth Stroke"
+msgstr "平滑笔触"
+
+msgid "Snake Hook"
+msgstr "蛇钩"
+
+msgid "Strength Stroke"
+msgstr "力度笔触"
+
+msgid "Thickness Stroke"
+msgstr "粗细笔触"
+
+msgid "Twist Stroke"
+msgstr "扭曲笔触"
+
+msgid "Vertex Average"
+msgstr "顶点平均"
+
+msgid "Vertex Blur"
+msgstr "顶点模糊"
+
+msgid "Vertex Draw"
+msgstr "顶点绘制"
+
+msgid "Vertex Replace"
+msgstr "顶点替换"
+
+msgid "Vertex Smear"
+msgstr "顶点涂抹"
+
+msgid "Weight Average"
+msgstr "权重平均"
+
+msgid "Weight Blur"
+msgstr "权重模糊"
+
+msgid "Weight Draw"
+msgstr "权重绘制"
+
+msgid "Weight Smear"
+msgstr "权重涂抹"
+
+msgctxt "Operator"
+msgid "MACHIN3: Screen Cast"
+msgstr "MACHIN3：屏幕投射"
+
+msgid "Screen Cast Operators"
+msgstr "屏幕投射操作器"
+
+msgid "Screen Cast recent Operators and Keys"
+msgstr "录制最近的运算符和快捷键"
+
+msgid "Screen Cast Recent Operators"
+msgstr "录制最近的运算符"
+
+msgid "Window size is 2560x1422, ideal for recording"
+msgstr "窗口大小为 2560x1422，适合录制"
+
+msgid "Window size is not 2560x1422, unsuitable for recording"
+msgstr "窗口大小不是 2560x1422，不适合录制"
+
+msgid "Record anyway by holding ALT"
+msgstr "按住 ALT 键继续录制"
+
+msgid "alsa"
+msgstr "alsa"
+
+msgid "default"
+msgstr "默认"
+
+msgid "-c:a"
+msgstr "-c:a"
+
+msgid "pcm_s16le"
+msgstr "pcm_s16le"
+
+msgid "-c:v"
+msgstr "-c:v"
+
+msgctxt "Operator"
+msgid "MACHIN3: Auto Save"
+msgstr "MACHIN3：自动保存"
+
+msgid "Auto Save (Self + External)"
+msgstr "自动保存（自身 + 外部）"
+
+msgid "Auto Save (Self)"
+msgstr "自动保存（自身）"
+
+msgid "Auto Save (External)"
+msgstr "自动保存（外部）"
+
+msgctxt "Operator"
+msgid "Shade"
+msgstr "着色"
+
+msgid ""
+"Set smooth shading in object and edit mode\n"
+"ALT: Mark edges sharp if face angle > auto smooth angle"
+msgstr ""
+"在对象和编辑模式下设置平滑着色\n"
+"ALT：如果面角 > 自动平滑角度，则标记边缘为锐利"
+
+msgid "Shade Mode"
+msgstr "着色模式"
+
+msgid "Include Children"
+msgstr "包含子对象"
+
+msgid "Include Boolean Objects"
+msgstr "包含布尔对象"
+
+msgid "Set Sharps"
+msgstr "设置锐利"
+
+msgid "Additive Sharpen"
+msgstr "添加锐化"
+
+msgid "Avoid removing existing sharps"
+msgstr "避免移除现有的锐边"
+
+msgid "Avoid Sharpening HyperCursor's Edge Bevels"
+msgstr "避免锐化 HyperCursor 的边缘倒角"
+
+msgid "Avoid Sharpening Edges used by HyperCursor's Edge Bevels"
+msgstr "避免锐化被 HyperCursor 边缘倒角使用的边"
+
+msgid "Boolean Auto Smooth"
+msgstr "布尔自动平滑"
+
+msgid "Ensure Auto Smooth is enabled, for objects using Boolean Modifiers"
+msgstr "确保使用布尔修改器的对象启用了自动平滑"
+
+msgid "Force Setting Auto Smooth Angle, even if Auto Smooth is enabled already"
+msgstr "强制设置自动平滑角度，即使已启用自动平滑也生效"
+
+msgid "Clear Sharps, BWeights, Creases and Seams"
+msgstr "清除锐边、B 权重、折痕和接缝"
+
+msgid "Clear BWeights"
+msgstr "清除 B 权重"
+
+msgid "Clear Creases"
+msgstr "清除折痕"
+
+msgid "Clear Seams"
+msgstr "清除接缝"
+
+msgid "Avoid clearing SubD Creases"
+msgstr "避免清除次表面几何体折痕"
+
+msgid "Avoid Clearing Creases on Objects with SubD mods in crease mode"
+msgstr "避免在带有次表面几何体修改器的对象上以折痕模式清除折痕"
+
+msgid "Smooth Flat"
+msgstr "平滑平面"
+
+msgid "Avoid HyperCursor's Edge Bevels"
+msgstr "避免 HyperCursor 的边缘倒角"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Clear Sharps, BWeights, Creases or Seams"
+msgstr "清除尖角、B 权重、折痕或接缝"
+
+msgid "Sharps"
+msgstr "尖角"
+
+msgid "BWeights"
+msgstr "B 权重"
+
+msgid "Avoid Clearing SubD Creases"
+msgstr "避免清除次表面几何体折痕"
+
+msgid "{shade_type.title()} Shaded {len(selected)} selected Objects"
+msgstr "{shade_type.title()} 已着色 {len(selected)} 个选中对象"
+
+msgctxt "Operator"
+msgid "Toggle Auto Smooth"
+msgstr "切换自动平滑"
+
+msgid "Remove existing 'Auto Smooth' modifier"
+msgstr "移除现有的“自动平滑”修改器"
+
+msgid "Add 'Auto Smooth' modifier to smooth shade object angle based"
+msgstr "向基于角度的着色对象添加“自动平滑”修改器以进行平滑着色"
+
+msgid "Auto Smooth Angle Preset: %d"
+msgstr "自动平滑角度预设：%d"
+
+msgctxt "Operator"
+msgid "MACHIN3: Switch Shading"
+msgstr "MACHIN3：切换着色方式"
+
+msgid "Shading Type"
+msgstr "着色类型"
+
+msgid "{'Disable' if overlay.show_overlays else 'Enable'} Overlays for {shading_type.capitalize()} Shading"
+msgstr "{shading_type.capitalize()} 着色时 {'禁用' if overlay.show_overlays else '启用'} 覆盖层"
+
+msgid "Disable"
+msgstr "禁用"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Switch to {shading_type.capitalize()} shading, and restore previously set Overlay Visibility"
+msgstr "切换到 {shading_type.capitalize()} 着色，并恢复之前设置的遮罩可见性"
+
+msgctxt "Operator"
+msgid "Toggle Outline"
+msgstr "切换轮廓线"
+
+msgid "Toggle Object Outlines"
+msgstr "切换对象轮廓线"
+
+msgctxt "Operator"
+msgid "Toggle Cavity"
+msgstr "切换凹陷"
+
+msgid "Toggle Cavity (Screen Space Ambient Occlusion)"
+msgstr "切换凹陷（屏幕空间环境光遮蔽）"
+
+msgctxt "Operator"
+msgid "Toggle Curvature"
+msgstr "切换曲率"
+
+msgid "Toggle Curvature (Edge Highlighting)"
+msgstr "切换曲率（边缘高亮）"
+
+msgctxt "Operator"
+msgid "Matcap Switch"
+msgstr "Matcap 切换"
+
+msgid "Quickly Switch between two Matcaps"
+msgstr "快速在两个 Matcap 之间切换"
+
+msgctxt "Operator"
+msgid "MACHIN3: Rotate Studiolight"
+msgstr "MACHIN3：旋转 Studiolight"
+
+msgid ""
+"Rotate Studio Light by %d degrees\n"
+"ALT: Rotate visible lights too"
+msgstr ""
+"旋转工作室灯光 %d 度\n"
+"ALT: 同时旋转可见的灯光"
+
+msgctxt "Operator"
+msgid "MACHIN3: Adjust Bevel Radius"
+msgstr "MACHIN3：调整倒角半径"
+
+msgid "Adjust Global Bevel Radius"
+msgstr "调整全局倒角半径"
+
+msgid "Decrease Radius"
+msgstr "减小半径"
+
+msgid "{'Halve' if properties.decrease else 'Double'} {'Global' if properties.global_radius else \"Active Objects's\"} Bevel Radius"
+msgstr "{'减半' if properties.decrease else '加倍'} {'全局' if properties.global_radius else \"活动对象的\"} 倒角半径"
+
+msgid "Halve"
+msgstr "减半"
+
+msgid "Double"
+msgstr "加倍"
+
+msgid "Global"
+msgstr "全局"
+
+msgid "Active Objects's"
+msgstr "活动对象"
+
+msgid "Set {int(self.factor * 100)}% Bevel {'Global' if self.global_radius else 'Object'} Radius"
+msgstr "设置 {int(self.factor * 100)}% 倒角 {'全局' if self.global_radius else '对象'} 半径"
+
+msgctxt "Operator"
+msgid "MACHIN3: Apply Eevee Raytrace Preset"
+msgstr "MACHIN3：应用 Eevee 光追预设"
+
+msgid "Preset Name"
+msgstr "预设名称"
+
+msgid "Raytrace Preset: {name}"
+msgstr "光追预设：{name}"
+
+msgid "Apply custom user-made Eevee Preset: {properties.name}"
+msgstr "应用自定义用户制作的 Eevee 预设：{properties.name}"
+
+msgid "Select Tool: {op.hover['label'] if op.hover else 'None'}"
+msgstr "选择工具：{op.hover['label'] if op.hover else 'None'}"
+
+msgid "loading icons..."
+msgstr "加载图标..."
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Tool"
+msgstr "MACHIN3：设置工具"
+
+msgid "Set Tool"
+msgstr "设置工具"
+
+msgid "Alternate between two configured tools"
+msgstr "在两个已配置的工具之间切换"
+
+msgid "Directly invoke into modal mode switch (from Keymap)"
+msgstr "直接调用模态模式切换（来自键盘映射）"
+
+msgid "Tool name/ID"
+msgstr "工具名称/ID"
+
+msgid "Set Tool: {label}"
+msgstr "设置工具：{label}"
+
+msgid "Set Tool: {properties.name}"
+msgstr "设置工具：{properties.name}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set BoxCutter Preset"
+msgstr "MACHIN3: 设置 BoxCutter 预设"
+
+msgid "Quickly enable/switch BC tool in/to various modes"
+msgstr "快速启用/切换到 BC 工具的多种模式"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Annotation"
+msgstr "MACHIN3: 切换注释"
+
+msgid "Toggle Annotation Visibility"
+msgstr "切换注释可见性"
+
+msgid "Type..."
+msgstr "类型..."
+
+msgid "Note"
+msgstr "备注"
+
+msgid "Clear All"
+msgstr "全部清除"
+
+msgid "Backspace"
+msgstr "退格键"
+
+msgid "New Line"
+msgstr "换行符"
+
+msgid "Special"
+msgstr "特殊字符"
+
+msgid "Cursor Align"
+msgstr "光标对齐"
+
+msgid "Remove Last Word"
+msgstr "删除最后一个词"
+
+msgid "Blend Mode"
+msgstr "混合模式"
+
+msgctxt "Operator"
+msgid "MACHIN3: Annotate"
+msgstr "MACHIN3: 标注"
+
+msgid "Screen Align Note"
+msgstr "屏幕对齐注释"
+
+msgid "Multiply"
+msgstr "相乘"
+
+msgid "Add Note..."
+msgstr "相加注释..."
+
+msgid "Blend Mode:"
+msgstr "混合模式："
+
+msgid "Screen Aligned"
+msgstr "屏幕对齐"
+
+msgid "Cursor Aligned"
+msgstr "光标对齐"
+
+msgid "Font not found"
+msgstr "未找到字体"
+
+msgid "{active.name}_Annotation"
+msgstr "{active.name} 注解"
+
+msgid "Scene_Annotation"
+msgstr "场景注释"
+
+msgctxt "Operator"
+msgid "MACHIN3: Prepare Annotate Font"
+msgstr "MACHIN3：准备标注字体"
+
+msgid "Prepare Annotate Font from imported svg letter set"
+msgstr "准备从导入的 SVG 字母集生成字体标注"
+
+msgid "Origin Offset"
+msgstr "原点偏移"
+
+msgid "Scale Offset"
+msgstr "缩放偏移"
+
+msgid "Tracking"
+msgstr "追踪"
+
+msgid "Select a Collection"
+msgstr "选择集合"
+
+msgctxt "Operator"
+msgid "MACHIN3: Create Annotate Font"
+msgstr "MACHIN3：创建注释字体"
+
+msgid "Create Annotate Font from prepared mesh letter set"
+msgstr "从准备好的网格字母集创建注释字体"
+
+msgctxt "Operator"
+msgid "MACHIN3: Surface Draw"
+msgstr "MACHIN3：表面绘制"
+
+msgid ""
+"Surface Draw, create parented, empty GreasePencil object and enter DRAW mode.\n"
+"SHIFT: Select the Line tool."
+msgstr ""
+"表面绘制，创建父级空 GreasePencil 对象并进入 DRAW 模式。\n"
+"SHIFT: 选择线条工具."
+
+msgid "{active.name}_SurfaceDrawing"
+msgstr "{active.name}_表面绘制"
+
+msgctxt "Operator"
+msgid "MACHIN3: ShrinkWrap Grease Pencil"
+msgstr "MACHIN3：收缩包裹铅笔笔刷"
+
+msgid "Shrinkwrap current Grease Pencil Layer to closest mesh surface based on Surface Offset value"
+msgstr "根据 Surface Offset 值将当前 Grease Pencil 层收缩到最近的网格表面"
+
+msgctxt "Operator"
+msgid "MACHIN3: Remove Update"
+msgstr "MACHIN3：移除更新"
+
+msgid "I changed my mind, I don't want to install this Update"
+msgstr "我改变了主意，我不想安装这个更新"
+
+msgctxt "Operator"
+msgid "MACHIN3: Use Update"
+msgstr "MACHIN3：使用更新"
+
+msgid "Install MACHIN3tools {properties.tail} from {properties.path}"
+msgstr "从 {properties.path} 安装 MACHIN3tools {properties.tail}"
+
+msgctxt "Operator"
+msgid "MACHIN3: Re-Scan Updates"
+msgstr "MACHIN3：重新扫描更新"
+
+msgid "Re-Scan Updates"
+msgstr "重新扫描更新"
+
+msgctxt "Operator"
+msgid "View Axis"
+msgstr "查看轴"
+
+msgid ""
+"Align Custom View to Active Object\n"
+"ALT: Align View to Active {selection}"
+msgstr ""
+"将自定义视图对齐到活动对象\n"
+"ALT: 将视图对齐到活动的 {selection}"
+
+msgid ""
+"Align Custom View to Cursor\n"
+"ALT: Align View to Active {selection}"
+msgstr ""
+"将视图对齐到光标\n"
+"ALT: 将视图对齐到活动的 {selection}"
+
+msgid ""
+"Align View to World\n"
+"ALT: Align View to Active {selection}"
+msgstr ""
+"将视图对齐到世界\n"
+"ALT: 将视图对齐到活动的 {selection}"
+
+msgid ""
+"Default: View Active Scene Camera\n"
+"No Camera in the Scene: Create Camera from View\n"
+"Camera Selected: Make Selected Camera active and view it.\n"
+"Alt + Click: Create Camera from current View."
+msgstr ""
+"默认：查看活动场景相机\n"
+"场景中无相机：从视图中创建相机\n"
+"已选择相机：使选中的相机成为活动相机并查看它。\n"
+"Alt + 单击：从当前视图中创建相机。"
+
+msgid "You already are in Camera View"
+msgstr "您已经在相机视图中"
+
+msgid "Created new {cam.name} (Perfect Match)"
+msgstr "已创建新{cam.name}（完美匹配）"
+
+msgid "Created new {cam.name} (Matching Lens)"
+msgstr "已创建新{cam.name}（匹配的镜头）"
+
+msgid "Created new {cam.name} (Matching Resolution)"
+msgstr "已创建新{cam.name}（匹配的分辨率）"
+
+msgid "Created new {cam.name}"
+msgstr "已创建新{cam.name}"
+
+msgid "Framed {cam.name} Bounds"
+msgstr "已框选{cam.name}的边界"
+
+msgid "Switched to {cam.name}"
+msgstr "已切换到{cam.name}"
+
+msgctxt "Operator"
+msgid "Make Active"
+msgstr "设为活动相机"
+
+msgid "Make selected Camera active."
+msgstr "将选中的相机设为活动相机。"
+
+msgctxt "Operator"
+msgid "MACHIN3: Next Cam"
+msgstr "MACHIN3：下一个相机"
+
+msgid "Previous"
+msgstr "上一帧"
+
+msgid "Switch to Previous Camera"
+msgstr "切换至上一摄像机"
+
+msgid "Switch to Next Camera"
+msgstr "切换至下一摄像机"
+
+msgid "Switched to {'previous' if self.previous else 'next'} {newcam.name}"
+msgstr "已切换至 {'previous' if self.previous else 'next'} {newcam.name}"
+
+msgid "previous"
+msgstr "上一帧"
+
+msgid "next"
+msgstr "下一帧"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Camera Perspective/Ortho"
+msgstr "MACHIN3: 切换相机视角/正交视图"
+
+msgid "Toggle Active Scene Camera Perspective/Ortho"
+msgstr "切换活动场景相机视角/正交视图"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle View Perspective/Ortho"
+msgstr "MACHIN3: 切换视图视角/正交视图"
+
+msgid "Toggle Viewport Perspective/Ortho"
+msgstr "切换视口视角/正交视图"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Orbit Method"
+msgstr "MACHIN3：切换轨道方法"
+
+msgid "Change Orbit Method from Turntable to Trackball"
+msgstr "将轨道方法从转盘改为跟踪球"
+
+msgid "Change Orbit Method from Trackball to Turntable"
+msgstr "将轨道方法从跟踪球改为转盘"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Orbit Selection"
+msgstr "MACHIN3：切换轨道选择"
+
+msgid "Disable Orbit around Selection"
+msgstr "禁用围绕选择的轨道"
+
+msgid "Enable Orbit around Selection"
+msgstr "启用围绕选择的轨道"
+
+msgctxt "Operator"
+msgid "MACHIN3: Create DoF Empty"
+msgstr "MACHIN3：创建景深空物体"
+
+msgid "Create Depth of Field Focus Empty"
+msgstr "创建景深焦点空物体"
+
+msgid "{cam.name}_DoF Focus"
+msgstr "{cam.name}_DoF 焦点"
+
+msgid "Hold CTRL to snap the DoF Focus empty to a Surface"
+msgstr "按住 CTRL 将 DoF 焦点空物体吸附到表面"
+
+msgctxt "Operator"
+msgid "MACHIN3: Select DoF Object"
+msgstr "MACHIN3：选择景深对象"
+
+msgid "Select Depth of Field Focus Object"
+msgstr "选择景深对焦对象"
+
+msgid "{obj.name} has been selected"
+msgstr "已选择 {obj.name}"
+
+msgid "Invoke the Translate tool and snap it to a surface using CTRL"
+msgstr "调用平移工具并使用 CTRL 将其吸附到表面"
+
+msgctxt "Operator"
+msgid "MACHIN3: Reset Viewport"
+msgstr "MACHIN3：重置视图"
+
+msgid "Perfectly align the viewport with the Y axis, looking into Y+"
+msgstr "将视图与 Y 轴完美对齐，朝向 Y+ 方向"
+
+msgctxt "Operator"
+msgid "Switch Workspace"
+msgstr "切换工作区"
+
+msgid ""
+"Switch to Workplace '{properties.name}' and sync Viewport\n"
+"ALT: Also sync Shading and Overlays and the Active Tool"
+msgstr ""
+"切换到工作区 '{properties.name}' 并同步视图\n"
+"ALT：同时同步着色、覆盖层和当前工具"
+
+msgctxt "Operator"
+msgid "MACHIN3: Get Icon Name Help"
+msgstr "MACHIN3：获取图标名称帮助"
+
+msgid "Get Icon Name Help"
+msgstr "获取图标名称帮助"
+
+msgctxt "Operator"
+msgid "MACHIN3: Add World"
+msgstr "MACHIN3：添加世界"
+
+msgid "Add new World"
+msgstr "添加新世界"
+
+msgctxt "Operator"
+msgid "MACHIN3: Setup Volumetric World"
+msgstr "MACHIN3：设置体积世界"
+
+msgid "Setup Volumetric World"
+msgstr "设置体积世界"
+
+msgid "Volumetric World"
+msgstr "体积世界"
+
+msgid "{'⮌' if undo else '🕒'} Auto Saved"
+msgstr "{'⮌' if undo else '🕒'} 自动保存"
+
+msgid "Asset Categories"
+msgstr "资产分类"
+
+msgid "Asset Catalogs based on your existing registered Libraries"
+msgstr "基于您已注册的库的资产目录"
+
+msgid "Focus Level: {len(context.scene.M3.focus_history)}"
+msgstr "焦点级别：{len(context.scene.M3.focus_history)}"
+
+msgid "Surface Sliding"
+msgstr "表面滑动"
+
+msgid "Pose.{str(idx).zfill(3)}"
+msgstr "姿态.{str(idx).zfill(3)}"
+
+msgid "Pose.{str(pose.index).zfill(3)}"
+msgstr "姿态.{str(pose.index).zfill(3)}"
+
+msgid "Coat Normal"
+msgstr "外套法线"
+
+msgid "Material 2"
+msgstr "材质 2"
+
+msgid "MACHIN3tools Bevel"
+msgstr "MACHIN3tools 倒角"
+
+msgid "MACHIN3tools Bevel Shader Radius Math"
+msgstr "MACHIN3tools 倒角遮罩半径数学"
+
+msgid "MACHIN3tools Bevel Shader Radius Math2"
+msgstr "MACHIN3tools 倒角遮罩半径数学 2"
+
+msgid "MACHIN3tools Bevel Shader Radius Math3"
+msgstr "MACHIN3tools 倒角遮罩半径数学 3"
+
+msgid "MACHIN3tools Bevel Shader Global Radius"
+msgstr "MACHIN3tools 倒角遮罩全局半径"
+
+msgid "Global Radius"
+msgstr "全局半径"
+
+msgid "MACHIN3tools Bevel Shader Object Toggle"
+msgstr "MACHIN3tools 倒角着色器对象切换开关"
+
+msgid "Obj Toggle"
+msgstr "对象切换开关"
+
+msgid "MACHIN3tools Bevel Shader Object Radius Modulation"
+msgstr "MACHIN3tools 倒角着色器对象半径调制"
+
+msgid "Obj Radius Modulation"
+msgstr "对象半径调制"
+
+msgid "MACHIN3tools Bevel Shader Dimensions Radius Modulation"
+msgstr "MACHIN3tools 倒角着色器尺寸半径调制"
+
+msgid "Dimensions Radius Modulation"
+msgstr "尺寸半径调制"
+
+msgid "Auto Smooth"
+msgstr "自动平滑"
+
+msgid "Failed to enable addon {name} at '{path}'"
+msgstr "无法启用插件 {name}，路径为 '{path}'"
+
+msgid "Try Restarting Blender!"
+msgstr "尝试重启 Blender！"
+
+msgid "Failed to enable {name}/{foldername} ({version}), at '{path}'"
+msgstr "无法启用 {name}/{foldername}（{version}），路径为 '{path}'"
+
+msgid "Failed to enable addon {name}, installed from repo at '{path}'"
+msgstr "无法启用插件 \"{name}\"，该插件来自仓库 '{path}'"
+
+msgid "Try restarting Blender!"
+msgstr "尝试重启 Blender！"
+
+msgid "Could not find Blender extensions repo"
+msgstr "找不到 Blender 扩展仓库"
+
+msgid "Impossibru!"
+msgstr "不可能！"
+
+msgid "ID Property Group"
+msgstr "ID 属性组"
+
+msgid "> /dev/null 2> /dev/null"
+msgstr "> /dev/null 2> /dev/null"
+
+msgid "builtin.select_box"
+msgstr "内置选择框"
+
+msgid "ℹ {info}"
+msgstr "ℹ {info}"
+
+msgid "{toggled_overlays} Overlays"
+msgstr "{toggled_overlays} 覆盖层"
+
+msgid "Object Mode"
+msgstr "对象模式"
+
+msgid "Edit Mesh Mode"
+msgstr "编辑网格模式"
+
+msgid "{mode.capitalize()} Mode"
+msgstr "{mode.capitalize()} 模式"
+
+msgid "Set Group's Rest Pose"
+msgstr "设置组的休息姿势"
+
+msgid "Recall Group's Rest Pose"
+msgstr "回忆组的休息姿势"
+
+msgid "Set Group {'Batch ' if is_batch else ''}Pose"
+msgstr "设置组 {'批量 ' if is_batch else ''}姿势"
+
+msgid "Batch"
+msgstr "批量"
+
+msgid "Update Group's {'Batch ' if is_batch else ''}Pose"
+msgstr "更新组的 {'批量 ' if is_batch else ''}姿势"
+
+msgid "Retrieve Group's {'Batch ' if is_batch else ''}Pose"
+msgstr "检索组的 {'批量 ' if is_batch else ''}姿势"
+
+msgid "Remove Group's {'Batch ' if is_batch else ''}Pose"
+msgstr "移除组的 {'批量 ' if is_batch else ''}姿势"
+
+msgid "Remove All Mirrors"
+msgstr "移除所有镜像"
+
+msgid "Shade {shade_type.title()}"
+msgstr "阴影 {shade_type.title()}"
+
+msgid "Purge Orphans Recursively"
+msgstr "递归清除孤儿对象"
+
+msgid "Purge Orphans"
+msgstr "清除孤儿对象"
+
+msgid "Select Hierarchy {direction.title()}"
+msgstr "选择层级 {direction.title()}"
+
+msgid "{mode} Assetbrowser Bookmark"
+msgstr "{mode} 资产浏览器书签"
+
+msgid "Undo Material Override"
+msgstr "撤销材质覆盖"
+
+msgid "Material Override"
+msgstr "材质覆盖"
+
+msgid "Selected {label}"
+msgstr "选中 {label}"
+
+msgid "Circle Select"
+msgstr "圆圈选择"
+
+msgid "Box Select"
+msgstr "框选"
+
+msgid "Initiate Pipe Creation"
+msgstr "启动管道创建"
+
+msgid "Add {objtype.title()} at Cursor"
+msgstr "在光标处添加 {objtype.title()}"
+
+msgid "Duplicate {mode} {geo}"
+msgstr "复制 {mode} {geo}"
+
+msgid "Linear Array"
+msgstr "线性阵列"
+
+msgid "Radial Array"
+msgstr "径向阵列"
+
+msgid "{mode} Cursor"
+msgstr "{mode} 光标"
+
+msgid "Point {'Selection' if point_selection else 'Cursor'}{' based on Cursor' if based_on_cursor else ''}"
+msgstr "点 {'选择' if point_selection else '光标'}{'基于光标' if based_on_cursor else ''}"
+
+msgid "Selection"
+msgstr "选择"
+
+msgid "based on Cursor"
+msgstr "基于光标"
+
+msgid "Mirror Hyper Bevel"
+msgstr "镜像超倒角"
+
+msgid "Remove Hyper Bevel"
+msgstr "移除高斯倒角"
+
+msgid "Hide All Visible Wire Objects"
+msgstr "隐藏所有可见线框对象"
+
+msgid "Sort Modifiers + Force Gizmo Update"
+msgstr "排序修改器 + 强制 Gizmo 更新"
+
+msgid "Cycle Object Tree"
+msgstr "循环对象树"
+
+msgid "Sun Strength"
+msgstr "太阳强度"
+
+msgid "Sky Strength"
+msgstr "天空强度"
+
+msgid "Custom Background"
+msgstr "自定义背景"
+
+msgid "Solid Color"
+msgstr "纯色"
+
+msgid "Rotate Z"
+msgstr "旋转 Z"

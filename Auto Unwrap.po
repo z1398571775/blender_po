@@ -1,0 +1,2379 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-15 16:23+0800\n"
+"PO-Revision-Date: 2026-11-15 16:23+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Unwrap (Organic)"
+msgstr "展开 (有机材质)"
+
+msgid "Reads the model, decides where it has to be cut, and lays every piece out flat with as little pull in it as the shape allows."
+msgstr "读取模型，决定切割位置，并以形状允许的最小拉伸将其平铺."
+
+msgid "Which projector"
+msgstr "选择哪个投影器"
+
+msgid "Auto Unwrap cuts along the model's own lines and as little as the shape allows, keeps mirrored parts together and shares their texture. Blender is its own Smart UV Project, kept here as a fallback."
+msgstr "自动展开沿模型的线条进行切割，在保持镜像部分在一起并共享其纹理的同时尽可能少地拉伸。Blender 自带的智能 UV 投射保存在这里作为备选方案。"
+
+msgid "Optimize layout"
+msgstr "优化布局"
+
+msgid "After the flattening the layout is worked on: panels are straightened onto their own grid, a sheet is broken into the panels it is made of, and an island that runs the length of the square is cut into blocks. On a model built out of even quad panels this fills the sheet and is worth it. On a model it misreads it takes a flattening that was already right and cuts it about. Turn it off and what came out of the flattening is what gets packed."
+msgstr "在平铺之后对布局进行处理：面板被拉直到各自的网格上，一张片被拆分成它由的面板组成，而沿着正方形延伸的岛屿被切割成块状。对于由四边形面板构建的模型，这会填满整个图纸并值得这么做。对于一个错误的模型，它会取一个已经是正确的平铺结果并将其裁剪。关闭它则平铺的结果会被打包."
+
+msgid "Piece size"
+msgstr "片段大小"
+
+msgid "How much curvature one island may swallow. Higher gives fewer, larger islands and a little more stretch; lower gives more islands that lie flatter."
+msgstr "单个岛屿可以吞噬多少曲率。更高的值会产生更少、更大的岛屿和略多的拉伸；更低的值会产生更多以平面方式排列的岛屿。"
+
+msgid "Smart UV (Hardsurface)"
+msgstr "智能 UV (刚性表面)"
+
+msgid "Unwraps with Blender's own Smart UV Project instead of the organic engine, one part at a time. For a busy hard surface model, where the slow unwrap buys nothing anyone will see."
+msgstr "使用 Blender 自带的智能 UV 投射而不是有机引擎，一次处理一个部分。对于繁忙的刚性表面模型来说，缓慢的展开不会带来任何人会注意到的收益。"
+
+msgid "Angle limit"
+msgstr "角度限制"
+
+msgid "How far a face may lean from its neighbour before Smart UV Project starts a new island. Lower cuts more often and leaves flatter pieces."
+msgstr "面可以偏离邻居多远才会启动智能 UV 投影并创建新岛屿。降低该值会更频繁地切割，留下更扁平的片段。"
+
+msgid "Island margin"
+msgstr "岛屿边距"
+
+msgid "The gap Smart UV Project leaves around each island before the layout is packed."
+msgstr "Smart UV 项目在布局打包前会在每个岛屿周围留下的间隙。"
+
+msgid "Area weight"
+msgstr "区域权重"
+
+msgid "How much a face's size counts when the projection directions are chosen. High lets the big faces decide."
+msgstr "面片大小在选择投影方向时所占的比重。高值会让大面片占据主导地位."
+
+msgid "Correct aspect"
+msgstr "正确比例"
+
+msgid "Takes the image's shape into account, so a texture that is not square does not come out stretched."
+msgstr "考虑图像的形状，这样非正方形的贴图不会出现拉伸变形."
+
+msgid "Fewer pieces or less stretch"
+msgstr "更少面片或更少的拉伸"
+
+msgid "Cutting less and stretching less pull against each other. Fewer leaves larger islands for somebody to work in by hand; Smoother cuts wherever it helps the shapes, whatever that costs in extra pieces; Balanced is the middle, and the default."
+msgstr "减少切割和减少拉伸会相互抵消。更少意味着留更大的岛屿让人手动操作；平滑的切割无论以何种代价都能更好地适应形状；平衡是中间值，也是默认设置。"
+
+msgid "How much the layout pulls the model about"
+msgstr "布局对模型产生何种影响？|||~|||蓝色表示表面从布局中延伸出，其形状与放入的贴图一致，并采用棋盘格作为基础。越接近红色，"
+
+msgid "Blue is a surface that comes out of the layout the shape it went in, and takes a checker map as squares. The further towards red, the more that face is stretched: at red it is coming out twice as long one way as the other, and a texture painted on it will smear. Click again to go back to the normal view."
+msgstr "蓝色是布局中形状的表面，并以棋盘格图作为方格。越靠近红色，该面被拉伸得越多：在红色处，它在一个方向上比另一个方向长两倍，绘制在其上的纹理会模糊。再次点击可返回正常视图。"
+
+msgid "Repeated parts share one place"
+msgstr "重复的部分共享一个位置"
+
+msgid "A tank's track links, a panel's hundred identical screws - they are the same part, so they get one place on the sheet and the texture spends its resolution once instead of a hundred times. Off unless you switch it on: once copies are stacked they cannot be painted apart, so it is a decision about the model rather than a default."
+msgstr "坦克履带连接件、面板上的一百个相同螺丝——它们是同一个部件，因此它们在图纸上有同一位置，纹理的分辨率只被使用一次而不是一百次。除非您将其打开：一旦副本堆叠在一起就无法分别绘制，所以这是一个关于模型的决定而非默认设置。"
+
+msgid "A mirrored part counts as a repeat"
+msgstr "镜像部件也算作重复"
+
+msgid "On a vehicle most of what repeats is not a copy but a mirror, the left of the car against the right, and that is usually where the sheet is really saved. A mirrored part reads its texture the other way round, which nobody sees on a symmetrical part and everybody sees on one with writing across it."
+msgstr "在车辆上，大部分重复的内容不是复制品而是镜像——汽车的左侧对应右侧，而纹理通常就保存在那里。镜像部分会以相反的方向读取其纹理，这在对称部件上是看不见的，但在带有文字的表面上一眼就能看出来。"
+
+msgid "How tiles are filled"
+msgstr "瓦片是如何填充的"
+
+msgid "Object keeps every object whole on one tile - tracks here, hull there, which is how a vehicle is textured. Balanced deals out the islands instead, so every tile carries the same amount of surface and the texel density is even, but an object may be spread over several tiles."
+msgstr "对象在单个瓦片上保持完整——这里有轨道，那里有船体，这正是车辆贴图的方式。平衡的分配则相反，它将岛屿分散到各个瓦片中，因此每个瓦片的表面积相同且纹理密度均匀，但一个对象可能会分布在多个瓦片上。"
+
+msgid "UDIM tiles"
+msgstr "UDIM 瓦片"
+
+msgid "How many tiles the layout is spread over. Above one, whole parts are dealt out by area - 1001, 1002, 1003 - so each tile carries about the same surface and the detail stays even."
+msgstr "布局所覆盖的瓦片数量。在上方，整体部分按面积分配——1001、1002、1003——因此每个瓦片的表面积大致相同，细节保持均匀。"
+
+msgid "Bakes the material into an image that follows the new UV layout, so the model carries its look as a texture."
+msgstr "将材质烘焙为跟随新 UV 布局的图像，使模型携带其外观作为纹理。"
+
+msgid "Hard surface, organic engine"
+msgstr "硬表面、有机引擎"
+
+msgid "Some hard surface models come out better from Unwrap (Organic) than from Smart UV. It depends on how the model was built: a panel made of long even quad grids suits Smart UV, while a shape modelled in one piece, smoothed, or rebuilt from a scan or an AI mesh, often has no clean panels to read and the organic engine reads it better. If the layout comes out broken into many small pieces, try the other engine on the same model."
+msgstr "某些硬表面模型从 Unwrap（有机）比从 Smart UV 表现更好。这取决于模型的构建方式：由长而均匀的四边形网格组成的面板适合 Smart UV；而用单一部件建模、平滑或从扫描/AI 网格重建的形状，往往没有清晰的板面可供读取，因此有机引擎能更好地处理它。如果布局被分割成许多小块，请尝试在相同模型上使用另一个引擎。"
+
+msgid "Parts at 1"
+msgstr "1 个部件"
+
+msgid "At 1 the whole model is one piece and the engine decides every seam on its own, wherever the shape asks for it. More parts put borders the cutting cannot find by itself. Keep in mind the engine can be wrong: look the seams over, and Pick Islands On Model or Join Into One are there to put it right."
+msgstr "当为 1 时，整个模型视为一个整体，引擎会自行决定所有接缝的位置——无论形状需要何处。更多的部件会使切割无法自动找到的边界增多。请记住引擎可能会出错：检查接缝，并可使用“在模型上拾取岛屿”或“合并为一个”来修正它。"
+
+msgid "Stops the run that is going on now. The model is left as it was before it started."
+msgstr "停止当前正在进行的运行。模型将保持其原始状态。"
+
+msgid "Preview seams"
+msgstr "预览接缝"
+
+msgid "Shows where the cuts would run before anything is unwrapped, so you can look them over first."
+msgstr "在未进行任何 UV 展开之前显示切割路径的位置，以便您先查看它们。"
+
+msgid "Show parts"
+msgstr "显示部件"
+
+msgid "Paints the pieces the add-on found onto the model, each in its own colour. Press again and the colours come off."
+msgstr "将附加组件找到的模型部件涂成各自的颜色。再次按此键即可去除颜色。"
+
+msgid "Pick and merge"
+msgstr "拾取与合并"
+
+msgid "Click a piece in the viewport, then the next one. The two become one piece, and Confirm keeps it."
+msgstr "在视口中点击一个对象，然后点击下一个。这两个将合并为一个对象，确认会保留它。"
+
+msgid "Merge selected"
+msgstr "合并选中项"
+
+msgid "Everything selected in the viewport is made into one piece, so it is unwrapped as a single island."
+msgstr "视图中的所有选定对象都被合并为一个整体，因此它们被作为单个岛屿进行展开。"
+
+msgid "Split off"
+msgstr "分离"
+
+msgid "Turns the selected faces into a piece of their own, cut away from the piece they were part of."
+msgstr "将选中的面转换为独立部分，将其从所属的部件中分离出来。"
+
+msgid "Reset pieces"
+msgstr "重置部件"
+
+msgid "Throws away the merges and splits you made by hand and goes back to what the add-on found on its own."
+msgstr "丢弃您手动创建的合并和拆分，并恢复到附加程序自行找到的状态。"
+
+msgid "Less Stretch"
+msgstr "较少拉伸"
+
+msgid "Cut wherever it helps, whatever that costs in seams. The checker comes out square all over the model and there are more orange lines to hide."
+msgstr "在需要时任意切割，即使这会增加接缝。棋盘格会在模型的所有面上都呈现正方形，并且有更多的橙色线条来隐藏。"
+
+msgid "The middle of the trade: cut again where the flattening really went wrong, leave the rest carrying a little pull."
+msgstr "贸易的中间：再次切割，在真正出错的扁平化处切断，其余部分保留一点拉力。"
+
+msgid "Fewer Seams"
+msgstr "更少的接缝"
+
+msgid "Keep the model whole and take the pull that comes with it. Larger islands, fewer orange lines, a checker that leans where the shape curves."
+msgstr "保持模型完整，并承受随之而来的拉力。更大的岛屿，更少的橙色线条，棋盘格顺着形状的弯曲方向倾斜。"
+
+msgid "Every object stays whole on one tile - tracks on this tile, hull on that one. The usual choice for a vehicle or a set, where each part is textured on its own."
+msgstr "每个对象在一个瓦片上保持完整——该瓦片上的轨道，另一个瓦片上的外壳。这是车辆或一组物体的通常选择，其中每个部分单独进行纹理贴图。"
+
+msgid "The islands are dealt out by area instead, so every tile carries about the same amount of surface and the texel density stays even across the whole set. An object can end up spread over two tiles."
+msgstr "岛屿按面积分配，因此每个瓦片承载大约相同数量的表面，整个集合的 texel 密度保持一致。一个对象可能会分布在两个瓦片上。"
+
+msgid "Follow Parts Exactly"
+msgstr "完全跟随部件"
+
+msgid "On, the unwrap starts from the very parts Show Parts draws and keeps every border between them: it still cuts inside a part where a piece has to be opened to lie flat, but it never joins two parts back together and never throws the segmentation away to cut the model again its own way. Off, the parts are a starting point and the engine reworks them, which gives fewer pieces on a model you have not segmented by hand."
+msgstr "开启时，展开从“显示部件”绘制的非常具体的部分开始，并保持它们之间的所有边界：它仍然在必须打开以使某一部分平铺的地方内部切割，但它永远不会将两个部分重新连接在一起，也绝不会放弃分段以按自己的方式再次切割模型。关闭时，部件只是起点，引擎会对其重新处理，这会在未手动分段的模型上产生更少的碎片。"
+
+msgid "UV Orientation"
+msgstr "UV 方向"
+
+msgid "Every island is laid so that one direction in the world points up the sheet. Straightening already squares an island on the grid, but four ways up are equally square, and a texture with a grain in it cares which one: rain running down a panel, a drip of rust, the grain of a plank, the brush marks on steel. With this on the packer may not turn islands, so the sheet fills a little less tightly. It applies to the packing at the end of an unwrap and to the Repack button alike."
+msgstr "每个岛屿都放置得使世界中的一个方向指向纸张的上方。将岛屿在网格上拉直已经将其正方形化，但四个方向都是同样正方形的，而带有纹理颗粒的贴图关心的是哪一个：雨水顺着面板流下、锈迹滴落、木板的纹理、钢上的刷痕。开启此选项时，打包器可能不会旋转岛屿，因此纸张填充得稍紧一些。它适用于展开结束时的打包以及“重新打包”按钮。"
+
+msgid "Which way in the world points up the sheet. Z is up, which is the one rain runs down."
+msgstr "世界上的哪个方向是纸张的上方？Z 轴向上，也就是雨水流下的那个方向。"
+
+msgid "Mirror Axis"
+msgstr "镜像轴"
+
+msgid "Which way the mirror plane faces. Auto looks for the plane the model is symmetric about, in any direction, which costs a search over every vertex. Naming the axis skips that and puts the plane through the middle of the model."
+msgstr "镜平面的朝向。Auto 会查找模型关于哪个方向对称的平面，这需要遍历每个顶点进行搜索。命名轴可以跳过该步骤，并将平面置于模型的中间。"
+
+msgid "Slide the plane off the middle, as a share of the model's half width along that axis. Zero is the middle, one is the edge."
+msgstr "将平面沿该轴方向从模型的一半宽度处滑出。零是中心，一是对边缘。"
+
+msgid "Seam On Mirror Plane"
+msgstr "镜面上的接缝"
+
+msgid "The line down the middle is cut first and every other cut is placed against it, which is where an artist hides it. Off, the flattener opens the model wherever it costs least, and on a symmetric model that is usually a line beside the middle rather than on it. On costs a few more islands, because nothing is left lying across the plane."
+msgstr "中间的线先切，其余的切口都放在它旁边，艺术家就藏在那儿。然后，压平器会在成本最低的地方打开模型，对于对称模型来说，通常是在中线的一侧而不是在线上。这样会增加几个岛屿，因为平面两侧没有东西了。"
+
+msgid "Show Mirror Plane"
+msgstr "显示镜像平面"
+
+msgid "Draw the plane on the model, so you can see which way it is being folded before anything is unwrapped. The line under it says how much of the surface actually has a twin across that plane - under a third and nothing is mirrored."
+msgstr "在模型上绘制平面，以便在展开之前可以看到折叠的方向。下方的线显示有多少表面实际上在该平面的另一侧有镜像——不到三分之一，没有任何部分被镜像。"
+
+msgid "A model that mirrors is cut the same on both sides, and the two sides land as mirrored islands. A piece the plane runs through is not cut twice."
+msgstr "镜像模型在两侧被切割，两侧作为镜像岛屿落地。平面穿过的部分不会被切割两次。"
+
+msgid "Chunk size"
+msgstr "块大小"
+
+msgid "How many faces go into one chunk. Smaller is lighter on memory, larger is quicker where the machine can take it."
+msgstr "每个 chunk 包含多少个面。数量越小，内存占用越少；数量越大，机器处理得越快。"
+
+msgid "Pack islands"
+msgstr "打包岛屿"
+
+msgid "Gathers the flattened pieces into the square, turning and fitting them so as little of it is left empty as can be."
+msgstr "将扁平化的碎片收集到正方形中，通过旋转和排列使剩余空白尽可能少。"
+
+msgid "The gap kept between packed pieces, so a texture does not bleed from one island into the next."
+msgstr "已打包的碎片之间保留的空隙，防止纹理从一个岛屿溢出到下一个。"
+
+msgid "Relax steps"
+msgstr "松弛步骤"
+
+msgid "How many passes of evening-out a piece is given after it is flattened. More settles it further and costs time."
+msgstr "在扁平化后对每个碎片进行多少次平滑处理。次数越多，结果越平整，但耗时也越长。"
+
+msgid "Packs the whole layout again, every selected object together. Use it after redoing islands by hand: a piece that comes back a different size leaves gaps, and this places everything properly again. Nothing leaves its UDIM tile, nothing is flattened again, stacked copies stay stacked. Select the islands you want packed before you press it, all of them and not just the one you were working on: it packs what it is given."
+msgstr "重新打包整个布局，将所有选中对象一起打包。适用于手动重做岛屿后：某个碎片恢复时尺寸发生变化会留下空隙，此操作可将其正确归位。不会移动任何碎片的 UDIM 贴图区域，也不会再次扁平化或堆叠副本。请在点击前选择好要打包的岛屿（全部或部分），它只会打包您选中的内容。"
+
+msgid "Match Existing UV"
+msgstr "匹配现有 UV"
+
+msgid "Reads the seams out of the UV map the model already carries and unwraps along them, so the pieces land where that layout put them, with our texel density and UDIM tiles."
+msgstr "读取模型已携带的 UV 贴图中的接缝线，并沿这些接缝进行展开，使碎片落在原有布局的位置上，同时保持我们的纹理密度和 UDIM 贴图区域。"
+
+msgid "Preserve Texel Density"
+msgstr "保留纹理密度"
+
+msgid "Repack moves and turns the islands but leaves every one the size it is, so islands you scaled by hand keep their scale. Off, they all come out at one density."
+msgstr "重新打包会移动和旋转岛屿，但不会改变每个岛屿的大小，因此手动缩放过的岛屿仍保持其原始比例。否则，所有岛屿都会以统一的密度输出。"
+
+msgid "Final pack"
+msgstr "最终打包"
+
+msgid "When the unwrap has finished, the whole layout goes to Blender's own packer once more, every selected object together. It settles the islands the build left sitting on each other, so there is no need to go to UV > Pack Islands by hand afterwards. Every island stays in the UDIM tile it belongs to, and the whole selection comes out at one texel density."
+msgstr "当展开完成后，整个布局会再次交由 Blender 自带的打包器处理，所有选中的对象一起。它会整理由构建留下的重叠岛屿，因此无需再手动执行 UV > Pack Islands。每个岛屿仍保留在其所属的 UDIM 瓦片中，整体输出保持统一的纹理密度。"
+
+msgid "Every island the same texel size"
+msgstr "所有岛屿相同的纹理尺寸"
+
+msgid "Before packing, every island is put at the same texel density, so a checker comes out the same size all over the model. The packer then scales the whole layout by a single factor, which keeps them even - what it changes is the size of the layout, not one island against another."
+msgstr "在打包前，将所有岛屿设置为相同的纹理密度，使模型各处生成的棋盘格图案大小一致。打包器随后对整个布局按单一比例因子进行缩放，从而保持各部分均衡——它改变的是布局的整体尺寸，而非单个岛屿之间的相对关系。"
+
+msgid "Keep Stacked"
+msgstr "保留堆叠"
+
+msgid "Islands sitting exactly on one another were put there on purpose - a mirrored half, a part copied fifty times - and Pack Again keeps them together so they go on sharing one piece of texture. Turn it off to give every island its own place."
+msgstr "完全重叠放置的岛屿是有意为之（例如镜像的一半、复制了五十次的部分），Pack Again 会保持它们在一起，使它们共享同一块纹理。关闭此选项可为每个岛屿分配独立的空间。"
+
+msgid "Relax UVs"
+msgstr "松弛 UV"
+
+msgid "Evens out a layout that came out crumpled, without moving the cuts. Run it on a finished unwrap, not instead of one."
+msgstr "用于修复因挤压而扭曲的布局，且不会移动切线。应在展开完成后运行，而非替代展开操作。"
+
+msgid "Image size"
+msgstr "图像尺寸"
+
+msgid "How big the baked image is, in pixels each way. Bigger holds more detail and takes longer."
+msgstr "烘焙图像的每个方向的像素大小。更大的尺寸包含更多细节，但耗时更长。"
+
+msgid "Face count"
+msgstr "面数"
+
+msgid "How many quads the result is built from. More of them follow the shape closer and cost more to carry."
+msgstr "结果由多少个四边形构成。更多的四边形会更贴合形状，但代价更高。"
+
+msgid "Edge length"
+msgstr "边长"
+
+msgid "How long one quad's side should be. Smaller means a denser grid, whatever the model's size."
+msgstr "单个四边形的边长应多长。较小的值意味着更密集的网格，无论模型大小如何。"
+
+msgid "Sharp angle"
+msgstr "锐角"
+
+msgid "A fold steeper than this counts as an edge of the form and is kept. Softer than this is smoothed over."
+msgstr "比此更陡的折叠被视为形式的边缘并被保留。比这更软的会被平滑处理。"
+
+msgid "Remesh separately"
+msgstr "分别重新网格化"
+
+msgid "The model is opened out into its UV islands, and each island is remeshed on its own."
+msgstr "模型被展开为独立的 UV 岛屿，每个岛屿都独立重新布线。"
+
+msgid "Meet distance"
+msgstr "距离"
+
+msgid "How far apart two panels' border points may be and still be pulled onto each other."
+msgstr "两个面板的边框点之间可以相距多远仍然会被吸附到一起。"
+
+msgid "Weld panels"
+msgstr "焊接面板"
+
+msgid "The points that met are made into one, so the seam becomes a single line rather than two lying on each other."
+msgstr "连接的点被合并为一个，因此接缝变成一条线而不是两条重叠的线。"
+
+msgid "Close tears"
+msgstr "修复撕裂"
+
+msgid "Holes smaller than the model's own openings are filled, so a torn simulation does not stay torn."
+msgstr "小于模型自身开口的孔洞会被填充，因此撕裂的模拟不会保持撕裂状态。"
+
+msgid "Merge shells"
+msgstr "合并壳层"
+
+msgid "Pieces lying on top of each other are welded first, so the remesh sees one surface instead of two."
+msgstr "重叠在一起的部件先被焊接，这样重网格化看到的是单一表面而不是两个。"
+
+msgid "Pick a piece"
+msgstr "选择部件"
+
+msgid "Move over the model and the piece under the pointer lights up. Click and that piece is taken out on its own."
+msgstr "将鼠标移动到模型上时，指针下方的部件会高亮显示。点击该部件即可单独选中它。"
+
+msgid "Isolate piece"
+msgstr "隔离部件"
+
+msgid "Puts everything but the selected piece away, and pressing it again brings the rest back."
+msgstr "除选中的部件外将所有其他部件隐藏，再次按下可恢复其余部分。"
+
+msgid "Relax brush"
+msgstr "放松笔刷"
+
+msgid "A brush to drag over the surface. Wherever it passes, crumpled mesh is smoothed out and evened up."
+msgstr "一个在表面拖动的笔刷。它经过的地方，褶皱网格会被平滑并拉平."
+
+msgid "Join Into One"
+msgstr "合并为一个"
+
+msgid "Takes the seams out between the islands you have picked and flattens them as a single piece - the other way round from unwrapping them again, for when the cutting went too far and a part came out in more pieces than it needed. It does not cut anything new. The result lands where the old islands were, at the same texel density, and if it no longer fits there, Pack Again is the next button."
+msgstr "将您选择的岛屿之间的接缝移除，并将其作为一个整体进行扁平化——这与再次展开它们的方向相反，适用于切割过度导致某部分被分成多余片数的情况。它不会创建新的切割。结果会落在旧岛屿所在的位置，具有相同的纹理密度；如果不再适合该位置，则点击“重新打包”按钮."
+
+msgid "Which engine opens the picked islands again. Organic reads the shape and cuts where it stretches least, which suits bodies, curved panels and sculpts. Hard Surface projects along the piece's own lines, which is faster and suits flat panels, tubes and machined parts. The rest of the sheet is left exactly as it is either way."
+msgstr "哪个引擎打开所选的岛屿。有机引擎读取形状并在拉伸最少的地方进行切割，这适用于身体、曲面面板和雕刻。硬表面引擎沿着物体自身的线条进行投影，速度更快，适用于扁平面板、管状结构和机加工零件。其余部分无论哪种方式都会保持原样."
+
+msgid "Join Islands"
+msgstr "合并岛屿"
+
+msgid "Pick Islands On Model"
+msgstr "在模型上选择岛屿"
+
+msgid "Click the islands on the model itself - each one lights up in its own colour, and the ones you pick go the same colour together. Enter unwraps just those again at the Seams setting above and leaves the rest of the sheet alone; Esc changes nothing. Easier than hunting for the island in the UV editor."
+msgstr "直接在模型上点击岛屿——每个岛屿会以自己的颜色高亮显示，您选择的岛屿会呈现相同的颜色。然后在上面的“接缝”设置中再次展开这些岛屿，其余部分保持不变；按 Esc 则没有任何变化。这比在 UV 编辑器中寻找岛屿要容易得多."
+
+msgid "Garment Seams"
+msgstr "服装接缝"
+
+msgid "For a clean quad garment. Cuts it the way an artist does: rings round the cuffs, armholes, neck and bands, and straight lines along the edge flow - under the arm, down the sides, the center and inside of trouser legs, the waist of a dress - then unwraps and packs, UDIM tiles included. Shirts, hoodies, trousers, dresses and skirts; anything it does not recognise gets simple cuts."
+msgstr "为干净的四边体服装。像艺术家那样裁剪：在袖口、腋下、领口和腰带处环绕，沿边缘的直线流畅延伸——穿过腋下、沿着两侧、裤腿的中心和内侧、裙子的腰部——然后展开并打包（包含 UDIM 贴图）。衬衫、连帽衫、裤子、连衣裙和裙子；任何它无法识别的物品都会得到简单的裁剪。"
+
+msgid "Redo Selected Island"
+msgstr "重做选中岛屿"
+
+msgid "Unwraps the piece you have selected again, at the Seams setting above, and leaves every other island exactly where it is. Select the island in the UV editor or its faces in Edit Mode. It comes back at the same texel density as the rest and in the same place, in the same UDIM tile - if it no longer fits there, Pack Again is the next button."
+msgstr "再次按上述接缝设置展开所选的部件，并将其他所有岛屿保持在原处。在 UV 编辑器中选择该岛屿或在编辑模式下选择其面。它将以与其余部分相同的 texel 密度和位置返回，位于相同的 UDIM 瓦片中——如果它不再适合那里，则“重新打包”是下一个按钮。"
+
+msgid "From Reference Model"
+msgstr "从参考模型"
+
+msgid "Takes the texture off another model and puts it on this one, through the new UV. Select the model that has the texture first, then the unwrapped one last, so the unwrapped one is the active object - that is the one that gets the image."
+msgstr "从另一个模型中获取纹理，并通过新的 UV 将其应用到当前模型上。首先选择带有纹理的模型，然后选择未展开的模型（即活动对象），这样未展开的模型就会接收该图像。"
+
+msgid "Bake on GPU"
+msgstr "GPU 烘焙"
+
+msgid "Bakes on the graphics card where there is one set up in Preferences > System, and on the processor where there is not. It says which one it used while it runs."
+msgstr "在图形卡上烘焙，如果已在“首选项”> “系统”中设置了；否则则在处理器上进行。它会在运行时显示使用的是哪一个。"
+
+msgid "How many rays each pixel is worked out from. Colour and Normal need very few; Combined needs more, because the lighting is what is noisy."
+msgstr "每个像素计算的光线数量。颜色和法线需要的很少；组合需要更多，因为光照是产生噪声的来源。"
+
+msgid "How many pixels the bake paints past the edge of each island, so nothing shows a seam when the texture is filtered down."
+msgstr "每个岛屿边缘外烘焙画笔的像素数，这样纹理下采样时就不会出现接缝。"
+
+msgid "Bake into existing UV"
+msgstr "烘焙到现有的 UV 映射"
+
+msgid "The remesh is laid onto the UV the model already has, so the islands land where the old ones were."
+msgstr "重网格会映射到模型已有的 UV 上，因此岛屿将落在旧位置。"
+
+msgid "Show UV seams"
+msgstr "显示 UV 接缝"
+
+msgid "The flat layout folds back into the model, and the edges it was cut along light up. Those are the seams."
+msgstr "平铺布局折叠回模型，沿其切割的边缘会发光。那些就是接缝。"
+
+msgid "Seams as sharp"
+msgstr "接缝为锐利边缘"
+
+msgid "The UV cuts are also marked as hard edges, so the shading breaks where the pieces do."
+msgstr "UV 切割也被标记为硬边，因此着色会在碎片处中断。"
+
+msgid "Bake from original"
+msgstr "从原始烘焙"
+
+msgid "Carries the original's surface - its colour and its maps - onto the remesh, through the new UV."
+msgstr "将原始的表面（包括颜色和贴图）通过新的 UV 烘焙到重新网格化后的模型上。"
+
+msgid "Takes the baked surface back off and puts the materials and the UV the model had before it back, and deletes the images the bake wrote."
+msgstr "将烘焙过的表面移除，并将模型在烘焙前的材质和 UV 恢复回去，同时删除烘焙写入的图像。"
+
+msgid "Bake PBR"
+msgstr "PBR 烘焙"
+
+msgid "Bakes the whole set of maps rather than colour alone: roughness, metal, normal, whatever the material carries."
+msgstr "不仅烘焙颜色，而是烘焙整套贴图（粗糙度、金属度、法线等），即材质所携带的所有信息。"
+
+msgid "Runs the bake on the graphics card. Much faster where the card can take it, and falls back on its own where it cannot."
+msgstr "在显卡上运行烘焙。如果显卡能够处理，则使用显卡；否则回退到自身处理。"
+
+msgid "Pure quads"
+msgstr "纯四边形面片"
+
+msgid "Leaves no triangle anywhere. Off, the remesh puts a triangle in wherever quads alone will not close, which is tidier flow but not an all-quad mesh."
+msgstr "没有任何三角形。关闭后，重新网格化会在四边形无法闭合的地方放置一个三角形，这样更整洁，但不是全四边形的网格。"
+
+msgid "Reprojection steps"
+msgstr "重投影步骤"
+
+msgid "The remesh builds an even lattice first and then pulls it back onto the original surface. Each step drags it closer: too few and the result floats over the detail, too many and the flow smooths out. Two is a good place to sit."
+msgstr "重网格化首先构建一个均匀的网格，然后将其拉回原始表面。每一步都会将其拉近：太少会导致结果浮于细节之上，太多则会使流动变得平滑。两个步骤是一个合适的选择。"
+
+msgid "Card colour"
+msgstr "卡片颜色"
+
+msgid "The top strip picks the hue, the one under it how strong it is - slide it to the left and the card goes grey. The choice is kept in the add-on, so it stays across files."
+msgstr "顶部条选择色相，其下方的条表示饱和度——向左滑动会使卡片变灰。该设置保存在插件中，因此会跨文件保持。"
+
+msgid "Corner rounding"
+msgstr "圆角"
+
+msgid "How round every corner on the card is. All the way down is square, all the way up is a pill."
+msgstr "卡片每个角落的圆角程度。最下面是方形，最上面是胶囊形。"
+
+msgid "Builds the model again on an even quad mesh, at the size you asked for, keeping the shape it already had."
+msgstr "在偶数四边形网格上重新构建模型，保持其原有形状，并为您指定的尺寸。"
+
+msgid "Remesh hardsurface"
+msgstr "重新网格硬表面"
+
+msgid "Reads the model's own hard edges and lays the new quads along them, so panels stay panels and corners stay corners."
+msgstr "读取模型的自身硬边，并将新的四边形沿其排列，因此面板保持为面板，角点保持为角点。"
+
+msgid "Detect crease angle"
+msgstr "检测折角角度"
+
+msgid "Finds the angle at which this model's edges actually turn, and treats anything sharper than that as an edge to keep. Off, you set the angle yourself."
+msgstr "找出该模型边缘实际转折的角度，并将其视为需要保留的边缘。关闭时，您自行设置角度。"
+
+msgid "Calibrate face count"
+msgstr "校准面数"
+
+msgid "The engine rarely lands on the count first time. This measures what came out and runs it again aimed at your number, so the result is the count you asked for."
+msgstr "引擎通常不会第一次就得到正确的数量。此功能测量结果并再次运行以匹配您的目标数量，因此结果是您所请求的数量。"
+
+msgid "Search settings"
+msgstr "搜索设置"
+
+msgid "Tries the remesh at several settings and keeps whichever came out best, instead of taking the first result. Slower, and usually cleaner."
+msgstr "尝试多种重新网格化设置并保留效果最佳的结果，而不是仅采用第一个结果。速度较慢，但通常更干净。"
+
+msgid "Automatic thresholds"
+msgstr "自动阈值"
+
+msgid "Works the crease and coplanar numbers out from the model itself. Turn it off to dial them in by hand."
+msgstr "从模型本身计算折痕和共面数值。关闭它以便手动调整这些值。"
+
+msgid "Weld close lines"
+msgstr "焊接近线"
+
+msgid "Two lines running almost on top of each other are one line the model found twice. Anything closer together than this is merged into a single line."
+msgstr "两条几乎重合的线是模型重复发现的一条。比这更近的距离会被合并成一条线。"
+
+msgid "Remove straight loops"
+msgstr "移除直线环"
+
+msgid "A loop crossing flat ground carries no shape and only costs faces. Loops flatter than this are dissolved."
+msgstr "穿过平坦地面的环没有形状，只会增加面数。比这个更平的环会被溶解。"
+
+msgid "Min length"
+msgstr "最小长度"
+
+msgid "Short stubs of line are noise, not features. Anything shorter than this is dropped before the mesh is built."
+msgstr "短线段只是噪声而非特征。比这个更短的线段在构建网格前就会被丢弃。"
+
+msgid "Keep circles round"
+msgstr "保持圆形"
+
+msgid "A hole read off the mesh comes back as a polygon. This puts it back on a true circle so the ring stays round."
+msgstr "从网格读取的孔会返回为一个多边形。这使其恢复为真正的圆形，从而保持环的形状。"
+
+msgid "Flat and curved boundaries"
+msgstr "平坦和弯曲边界"
+
+msgid "Tells a straight border from a curved one and holds each to its own shape, instead of fitting one rule to both."
+msgstr "区分直线边界和曲线边界，并将它们各自保持在自己的形状中，而不是用一条规则同时拟合两者。"
+
+msgid "Close gaps"
+msgstr "闭合缝隙"
+
+msgid "A line that stops short of the one facing it leaves a hole. This carries it across and closes it."
+msgstr "一条未延伸到对面线条的线会留下缺口。这会将它跨越并闭合该缺口。"
+
+msgid "Gap reach"
+msgstr "间隙范围"
+
+msgid "How far a line is allowed to reach to find the one facing it. Too far and lines meet that were never meant to."
+msgstr "允许线条延伸以找到其对应面的距离。太远会导致本不该相交的线条相交。"
+
+msgid "Fill Missed Gaps"
+msgstr "填充缺失的间隙"
+
+msgid "Finds the openings left in the retopology and closes them, carrying the lines across so the new faces fit the ones already there."
+msgstr "查找拓扑中留下的开口并将其闭合，使线条跨越，让新面与已存在的面吻合。"
+
+msgid "Mirror retopology"
+msgstr "镜像拓扑"
+
+msgid "Retopologises one side and takes the other side from it, so the two halves match exactly."
+msgstr "对一侧进行重拓扑，并从另一侧复制，使两半完全匹配。"
+
+msgid "Include my lines"
+msgstr "包含我的行"
+
+msgid "Counts the edges you marked by hand along with the ones the model found on its own."
+msgstr "将您手动标记的边与模型自行找到的边一同计数。"
+
+msgid "Only my lines"
+msgstr "仅我的线条"
+
+msgid "Ignores everything the model found and works from the edges you marked, and nothing else."
+msgstr "忽略模型中发现的所有内容，仅从您标记的边缘开始工作，且不会处理其他部分。"
+
+msgid "How much of the knotted area is taken out and laid again as plain rows. Higher clears more of it."
+msgstr "清除多少打结区域并将其重新平铺为普通行。数值越高，清除的范围越大。"
+
+msgid "Takes the knotted area out and lays it again as plain rows of quads."
+msgstr "将打结区域移除并重新平铺为四边形的普通行。"
+
+msgid "Stay inside lines"
+msgstr "保留内部线条"
+
+msgid "The tidying stops at the lines you marked and does not run out into the rest of the model."
+msgstr "整理工作会在您标记的线条处停止，不会延伸到模型的其余部分。"
+
+msgid "Flat below"
+msgstr "下方平整"
+
+msgid "A loop crossing flat ground holds no shape. Loops flatter than this are the ones offered up for removal."
+msgstr "穿过平坦地面的环没有形状。比这更扁平的环是可供移除的对象。"
+
+msgid "Remove per kept"
+msgstr "每保留一个移除一个"
+
+msgid "Out of every few loops, one is kept. Thins an over-dense area evenly instead of clearing it."
+msgstr "每隔几个环保留一个。均匀地变薄过度密集的区域，而不是完全清除它。"
+
+msgid "Use this mesh"
+msgstr "使用此网格"
+
+msgid "Works from what is on screen. With Replace original on, the add-on keeps reading the mesh the result was built from, and a piece pulled out of a result carries that link with it - so remeshing the piece would rebuild the whole model instead. This breaks the link."
+msgstr "基于屏幕上显示的内容。启用“替换原始”后，插件会持续读取构建结果所基于的网格，"
+
+msgid "Build subdiv cage"
+msgstr "构建细分笼"
+
+msgid "Builds a small all-quad cage over the model, sits it on the surface, finds the model's own hard edges and creases them into the cage, then puts a Subdivision Surface on top. The same three things a box-modelled cage does, without the hour of knife work."
+msgstr "这会破坏链接.|||~|||构建细分笼|||在模型上方构建一个小全四边形笼，将其放置在表面，"
+
+msgid "Cage faces"
+msgstr "笼子面"
+
+msgid "How many faces the cage is built with. Hand made cages sit between a few hundred and a thousand: enough to hold the form, few enough to move by hand afterwards."
+msgstr "笼子由多少个面构成。手工制作的笼子介于几百到一千个面之间：数量足以支撑形状，又少得可以在完成后用手移动。"
+
+msgid "Crease over"
+msgstr "折痕"
+
+msgid "A fold in the model sharper than this is creased into the cage, so subdivision keeps it sharp instead of rounding it off. This is what support loops do by hand."
+msgstr "模型上比这个更尖锐的折痕会被压入笼子中，因此细分会保持其尖锐而不是将其圆滑化。这就是支持环手动操作所做的事情。"
+
+msgid "Back to original"
+msgstr "返回原始"
+
+msgid "Takes off everything the add-on put on this model - lines, cleanups, chamfers - and leaves what you started with."
+msgstr "移除附加程序在此模型上添加的所有内容——线条、清理和倒角——并留下您最初的内容。"
+
+msgid "Merge distance"
+msgstr "合并距离"
+
+msgid "Points closer together than this are made into one, so a seam that should be shut is shut."
+msgstr "比这个更近的点会被合并，因此本应闭合的接缝会被关闭。"
+
+msgid "Meet panel vertices"
+msgstr "连接面板顶点"
+
+msgid "Walks the panel borders and brings the vertices facing each other onto the same point, so the panels meet cleanly."
+msgstr "沿着面板边缘行走，将彼此相邻的面板顶点汇聚到同一点，使面板能够干净地拼接在一起。"
+
+msgid "Keeps the result and carries on with it as the model, so the next thing you do works on the new mesh."
+msgstr "保留结果并继续作为模型进行操作，因此您接下来的操作将在新的网格上生效。"
+
+msgid "Puts the model you started with back and sets the remesh aside."
+msgstr "恢复原始模型并将重新网格化设置置为待处理状态。"
+
+msgid "Rebuild flat areas"
+msgstr "重建平坦区域"
+
+msgid "Finds the areas that are flat and takes each one out as a single face, so the fans and diagonals across them go, along with the points sitting on those diagonals. Those points hold three edges each, which is why At least 3 edges never touches them."
+msgstr "查找平坦的区域，将每个区域单独提取为一个面，这样穿过它们的扇形和对角线也会被移除，以及位于这些对角线上的点。每个点拥有三条边，这就是为什么“至少 3 条边”永远不会接触到它们的原因。"
+
+msgid "Keep my lines"
+msgstr "保留我的线条"
+
+msgid "Rebuild flat areas never dissolves across an edge you marked Sharp, marked as a seam, or selected. Without it a line drawn on a flat panel goes with the fan around it."
+msgstr "重建平坦区域不会溶解您标记为 Sharp、接缝或已选择的边缘。没有它，在平面上绘制的线条会跟随其周围的扇形移动。"
+
+msgid "At least 3 edges"
+msgstr "至少 3 条边"
+
+msgid "Clears out every vertex holding fewer than three edges: loose points and spurs are deleted, and a point sitting between just two edges is dissolved into one line."
+msgstr "清除所有少于三条边的顶点：删除孤点和突起，并将仅由两条边构成的点溶解为一条线。"
+
+msgid "Hardsurface - Tutorial"
+msgstr "硬表面建模 - 教程"
+
+msgid "Opens the walkthrough for remeshing a hard surface model on YouTube: the lines it reads, the panels it builds, and the cleanup that follows."
+msgstr "在 YouTube 上打开硬表面模型重新网格化的演示视频：它讲解的文本、构建的面板以及随后的清理工作。"
+
+msgid "Cloth Remeshing - Tutorial"
+msgstr "布料重网格化 - 教程"
+
+msgid "Opens the walkthrough for remeshing a garment on YouTube: the panels, the seams, and which settings matter."
+msgstr "在 YouTube 上打开布料重网格化的演示视频：面板、接缝以及哪些设置很重要。"
+
+msgid "Auto Unwrap - Tutorials"
+msgstr "自动展开 UV - 教程"
+
+msgid "Opens the Auto Unwrap walkthrough on YouTube in your browser."
+msgstr "在浏览器中打开自动展开 UV 的演示视频。"
+
+msgid "Texel Density - Tutorial"
+msgstr "纹理密度 - 教程"
+
+msgid "Opens the lesson on texel density on YouTube: why every part should get the same amount of texture, and how the parts and the layout keep it even."
+msgstr "在 YouTube 上打开关于纹理密度的课程：为什么每个部分都应该获得相同数量的纹理，以及各个部分和布局如何保持均匀分布。"
+
+msgid "Symmetry - Tutorial"
+msgstr "对称性 - 教程"
+
+msgid "Opens the lesson on symmetry on YouTube: how a model that mirrors is cut the same on both sides, where the seam down the middle belongs, and what the two halves do on the sheet."
+msgstr "打开 YouTube 上的对称性课程：镜像模型在两侧如何切割，中线接缝归属何处，以及两个半部分如何在平面上展开。"
+
+msgid "Stack Repeats - Tutorial"
+msgstr "重复堆叠 - 教程"
+
+msgid "Opens the lesson on repeated parts on YouTube: why a part modelled once and copied fifty times should take one place on the sheet, and what that costs you in return."
+msgstr "打开 YouTube 上的重复部件课程：为什么一个建模一次并复制五十次的部件应只占一张板料中的一个位置，以及这为您节省了什么代价。"
+
+msgid "UDIMs - Tutorial"
+msgstr "UDIMs - 教程"
+
+msgid "Opens the lesson on UDIMs on YouTube: what the tiles are, when a model needs more than one, and how parts are spread over them."
+msgstr "打开 YouTube 上的 UDIMs 课程：什么是贴图瓦片，何时需要超过一个瓦片，以及部件如何在多个瓦片上分布。"
+
+msgid "Classic panel"
+msgstr "经典面板"
+
+msgid "Swaps this card for the side panel the add-on shipped with. The way back is the first button at the top of that panel. The choice is kept in the add-on."
+msgstr "将此卡片替换为随插件附带的侧边栏。返回该面板的方法是点击其顶部的第一个按钮。选择将保存在插件中。"
+
+msgid "Replace original"
+msgstr "替换原始模型"
+
+msgid "On, the object carrying the old mesh is deleted and the remesh takes its place. Restore brings it back."
+msgstr "启用后，承载旧网格的对象将被删除，重新网格化将占据其位置。恢复可将其找回。"
+
+msgid "Non-Color"
+msgstr "非颜色"
+
+msgid "Auto Unwrap 2"
+msgstr "自动展开 2"
+
+msgid "Smart UV unwrapping for real production"
+msgstr "用于真实生产的智能 UV 展开"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Bake"
+msgstr "烘焙"
+
+msgid "Preview Seams"
+msgstr "预览接缝"
+
+msgid "Show Distortion"
+msgstr "显示扭曲"
+
+msgid "Hard surface? try the organic engine"
+msgstr "硬表面？尝试有机引擎"
+
+msgid "Baking  %d%%"
+msgstr "烘焙 %d%%"
+
+msgid "Confirm Merge"
+msgstr "确认合并"
+
+msgid "Show Parts"
+msgstr "显示部分"
+
+msgid "Pick & Merge Parts"
+msgstr "拾取与合并部件"
+
+msgid "Merge Selected"
+msgstr "合并选中"
+
+msgid "Split"
+msgstr "拆分"
+
+msgid "1 = the engine picks every seam"
+msgstr "1 = 引擎会选取所有接缝"
+
+msgid "Hard Surface"
+msgstr "硬表面"
+
+msgid "Unwrap Those Again"
+msgstr "再次展开"
+
+msgid "0 = join only where it costs nothing"
+msgstr "0 = 仅在无需代价处连接"
+
+msgid "Select the islands you want packed"
+msgstr "选择您想要打包的岛屿"
+
+msgid "the cut keeps every part border you can see"
+msgstr "切割保留所有可见部分边界"
+
+msgid "islands keep their turn, so packing is looser"
+msgstr "岛屿保持其顺序，因此打包更松散"
+
+msgid "%.0f%% of the model matches across it"
+msgstr "%.0f%%的模型在对应轴上匹配"
+
+msgid "no mirror found on this axis"
+msgstr "此轴未找到镜像"
+
+msgid "off = pack the flattening as it came out"
+msgstr "关闭 = 按原始状态打包"
+
+msgid "1K"
+msgstr "1K"
+
+msgid "2K"
+msgstr "2K"
+
+msgid "4K"
+msgstr "4K"
+
+msgid "8K"
+msgstr "8K"
+
+msgid "Milad Kambari - 3DRedbox Studio"
+msgstr "Milaad Kambari - 3DRedbox 工作室"
+
+msgid "{faces} faces{stamp}{tail}"
+msgstr "{faces}个面{stamp}{尾}"
+
+msgid "Auto Unwrap"
+msgstr "自动展开"
+
+msgid "The viewport card is off"
+msgstr "视图卡已关闭"
+
+msgctxt "Operator"
+msgid "Use the plain panel"
+msgstr "使用普通面板"
+
+msgctxt "Operator"
+msgid "Viewport Card"
+msgstr "视图卡"
+
+msgid "%.*f"
+msgstr "%.*f"
+
+msgid "Thank you for choosing Auto Unwrap"
+msgstr "感谢您选择 Auto Unwrap"
+
+msgid "Your feedback is what shapes this add-on."
+msgstr "您的反馈塑造了此插件."
+
+msgid "Any thought, question or idea is very welcome,"
+msgstr "任何想法、问题或建议都欢迎，"
+
+msgid "and I read every one."
+msgstr "我会逐条阅读."
+
+msgid "Come and say hello on Discord."
+msgstr "来 Discord 上打招呼吧."
+
+msgid "simple cuts"
+msgstr "简单切割"
+
+msgid "opening every piece flat"
+msgstr "全部展开"
+
+msgid "reading the model"
+msgstr "读取模型"
+
+msgid "finding rings"
+msgstr "寻找环"
+
+msgid "finding lines"
+msgstr "查找行"
+
+msgid "%.3f"
+msgstr "%.3f"
+
+msgid ", rows at true length"
+msgstr "，按真实长度排列"
+
+msgid ", %d rings unrolled"
+msgstr "，%d 个环已展开"
+
+msgid ", %d rings cut open"
+msgstr "||~|||%d 个岛"
+
+msgid "%d islands"
+msgstr "%d 个岛屿"
+
+msgid "not a grid"
+msgstr "不是网格"
+
+msgid "splitting would not pay"
+msgstr "拆分并不会带来收益"
+
+msgid "straightening would cost too much room"
+msgstr "拉直会占用太多空间"
+
+msgid "the grid walk tore it"
+msgstr "网格行走将其撕裂"
+
+msgid "kept square, uses %.4f of the tile instead of %.4f"
+msgstr "保持方形，使用 %.4f 的瓦片而非 %.4f"
+
+msgid "left as packed - {why}"
+msgstr "保留为紧凑 - {why}"
+
+msgid "hull needs three points"
+msgstr "船体需要三个点"
+
+msgid "flat point set"
+msgstr "平面点集"
+
+msgid "no uv"
+msgstr "没有 uv"
+
+msgid "spin pass off"
+msgstr "旋转通道关闭"
+
+msgid "wheel plan failed, engine result kept"
+msgstr "轮子规划失败，引擎结果被保留"
+
+msgid "wheel plan was no better (%.1f%% vs %.1f%%)"
+msgstr "轮盘计划效果不佳（%.1f%% vs %.1f%%）"
+
+msgid "cut as a wheel: the band round the axle is %.0f%% of it, %d islands"
+msgstr "按轮盘切割：轴带占其 %.0f%%，%d 个岛屿"
+
+msgid "engine result is fine (%.1f%% past 1.5, %d islands)"
+msgstr "引擎结果良好（超过 1.5 的 %.1f%%，%d 个岛屿）"
+
+msgid "character plan failed, engine result kept"
+msgstr "角色计划失败，保留引擎结果"
+
+msgid "character plan was no better (%.1f%% past 1.5 and %d islands against %.1f%% and %d)"
+msgstr "角色计划效果不佳（%.1f%% 超过 1.5 且 %d 个岛屿对 %.1f%% 和 %d）"
+
+msgid "recut as a character: %.1f%% past 1.5 down from %.1f%%, %d islands from %d"
+msgstr "按角色重新切割：从 %.1f%% 降至 %.1f%% 的 %.1f%%，%d 个岛屿从 %d"
+
+msgid "open end"
+msgstr "开口端"
+
+msgid "cap disc"
+msgstr "帽盘"
+
+msgid "sharp hint"
+msgstr "尖锐提示"
+
+msgid "Smart Segmentation"
+msgstr "智能分割"
+
+msgid "Automatic part segmentation. Splits any model into meaningful parts using shape thickness and concavity, with brush, lasso and box tools to correct the result by hand"
+msgstr "自动部件分割。使用形状厚度、凹陷以及笔刷、套索和框工具，将任何模型拆分为有意义的部件，并手动修正结果"
+
+msgid "Parts"
+msgstr "部件"
+
+msgid "Number of parts. Free to change after Analyze"
+msgstr "部件数量。可在分析后自由更改"
+
+msgid "Min Part Size"
+msgstr "最小部件大小"
+
+msgid "A piece of mesh smaller than this share of the model cannot be a part of its own. It is given to the part nearest to it, which is the part it broke off. Parts still decides how many; this decides what is too small to be one. Set to 0 to keep every speck"
+msgstr "小于模型该比例的网格部分不能成为独立部件。它会被分配给最近的部件（即其断裂分离的部件）。部件仍决定拆分多少；这决定了什么太小而不能成为一个部件。设置为 0 以保留每个斑点"
+
+msgid "Crease Angle"
+msgstr "折痕角度"
+
+msgid "How far two faces have to fold before Analyze By Creases reads the edge between them as a corner. Anything softer is the same panel"
+msgstr "两个面折叠多远时，分析折痕会将它们之间的边读作角点。任何更柔和的部分都是同一面板"
+
+msgid "Live Preview"
+msgstr "实时预览"
+
+msgid "Re-run refinement and redraw while you drag the sliders below"
+msgstr "拖动下方滑块时重新运行细化并重绘"
+
+msgid "Band Width"
+msgstr "带宽"
+
+msgid "How many face rings around each boundary may move during refinement"
+msgstr "每个边界周围可以移动的环数\n"
+
+msgid "Stiffness"
+msgstr "刚度"
+
+msgid "Resistance to leaving the clustered boundary. The distance a boundary can travel to reach a crease scales roughly with 1/Stiffness. Try 0.3 if boundaries refuse to move, 1.5 if they wander"
+msgstr "对离开聚类边界的阻力。边界移动到达折线的距离大致与 1/刚度成正比。如果边界拒绝移动，尝试 0.3；如果它们游荡，尝试 1.5。"
+
+msgid "Sweeps"
+msgstr "旋转扫掠"
+
+msgid "Maximum relaxation passes. Stops early once nothing changes"
+msgstr "最大松弛次数。一旦没有任何变化就会提前停止"
+
+msgid "Smooth Borders"
+msgstr "平滑边缘"
+
+msgid "Melt teeth, spikes and zigzags out of the part borders so they run along the edge loops. 0 turns it off"
+msgstr "将牙齿、尖刺和锯齿从部件边缘挤出，使其沿边线循环运行。关闭：0"
+
+msgid "Smooth Width"
+msgstr "平滑宽度"
+
+msgid "How many face rings on each side of a border the smoothing may move"
+msgstr "边框每侧的面环数量，平滑可能移动的数量"
+
+msgid "Auto Refine On Split"
+msgstr "自动细分时进行优化"
+
+msgid "Run boundary refinement automatically before splitting"
+msgstr "在拆分之前自动运行边界细化"
+
+msgid "Focus"
+msgstr "焦点"
+
+msgid "Colour of the part the Parts slider is currently splitting"
+msgstr "当前正在拆分的部分的颜色"
+
+msgid "Target"
+msgstr "目标"
+
+msgid "Colour of the part the brush merges into"
+msgstr "画笔合并到的部分的颜色"
+
+msgid "Tool"
+msgstr "工具"
+
+msgid "How faces are picked up and swept into the target part"
+msgstr "选择面并扫入目标部分的方式"
+
+msgid "Brush"
+msgstr "画笔"
+
+msgid "Drag over the faces"
+msgstr "在面上拖拽"
+
+msgid "Lasso"
+msgstr "套索"
+
+msgid "Draw a freehand loop around them"
+msgstr "绘制自由曲线包围它们"
+
+msgid "Box"
+msgstr "框"
+
+msgid "Drag a rectangle over them"
+msgstr "在它们上方拖拽矩形"
+
+msgid "Brush Size"
+msgstr "笔刷大小"
+
+msgid "Brush radius as a fraction of the model size. Shift+Wheel changes it while painting"
+msgstr "模型尺寸的比例。绘画时 Shift+ 滚轮可调整"
+
+msgid "Explode"
+msgstr "爆炸"
+
+msgid "How far apart the parts fly, relative to the model size"
+msgstr "各部分飞开的距离，相对于模型尺寸"
+
+msgid "Exploded"
+msgstr "已分解"
+
+msgid "Cap Open Cuts"
+msgstr "切口开启"
+
+msgid "Close the open boundary left on each part"
+msgstr ""
+"封闭每个部分的开放边界\n"
+"---"
+
+msgid "Into New Collection"
+msgstr "导入新集合"
+
+msgid "Place the parts inside a dedicated collection"
+msgstr "将部件放入专用集合"
+
+msgid "Hide Source"
+msgstr "隐藏源对象"
+
+msgid "Hide the original object after splitting"
+msgstr "分割后隐藏原始对象"
+
+msgid "Min Part Faces"
+msgstr "最小面数"
+
+msgid "Discard parts smaller than this face count"
+msgstr "丢弃小于此面数的部件"
+
+msgctxt "Operator"
+msgid "Analyze Model"
+msgstr "分析模型"
+
+msgid "Compute the segmentation hierarchy. Run once, then scrub the Parts slider"
+msgstr "计算分层结构。运行一次，然后拖动“部件”滑块调整"
+
+msgid "Proxy mesh is too small to analyze"
+msgstr "代理网格太小无法分析"
+
+msgid "Object has no volume"
+msgstr "该对象没有体积"
+
+msgid "No face adjacency found - check for loose geometry"
+msgstr "未找到面邻接关系 - 请检查是否有松散几何体"
+
+msgid "%.0f%% of rays escaped - the mesh is open, thickness estimates are unreliable"
+msgstr "%.0f%%的光线逃逸 - 网格是开放的，厚度估计不可靠"
+
+msgid "Analyzed %d proxy faces in %.1fs - %d parts"
+msgstr "分析了 %d 个代理面，耗时 %.1fs - %d 部分"
+
+msgctxt "Operator"
+msgid "Analyze By Creases"
+msgstr "按折痕分析"
+
+msgid "Build the hierarchy from the model's own creases instead of its thickness. Right for anything welded out of flat panels - a vehicle, a building, a CAD import. Run once, then scrub the Parts slider"
+msgstr "从模型自身的折痕而非其厚度构建层级。适用于由平面面板焊接而成的任何物体——车辆、建筑、CAD 导入等。运行一次后，拖动“部件”滑块进行微调"
+
+msgid "No shared edges found - check for loose geometry"
+msgstr "未找到共享边 - 请检查是否有松散几何体"
+
+msgid "Read the creases in %.1fs - %d parts"
+msgstr "读取折痕，耗时 %.1fs - %d 部分"
+
+msgctxt "Operator"
+msgid "Shade Smooth"
+msgstr "平滑着色"
+
+msgid "Set up clean smooth shading: clears the custom split normals that come with imported and AI generated meshes, then adds a Weighted Normal and a Smooth by Angle modifier"
+msgstr "设置干净的平滑着色：清除导入和 AI 生成网格自带的自定义法线分裂，然后添加“加权法线”和“按角度平滑”修饰器"
+
+msgid "Angle"
+msgstr "角度"
+
+msgid "Edges sharper than this stay sharp"
+msgstr "边缘比这更锐利的保持锐利"
+
+msgid "Select a mesh object first"
+msgstr "首先选择网格对象"
+
+msgid "Smooth shading set up on %d object%s%s"
+msgstr "平滑着色已设置于 %d 个对象%s%s"
+
+msgid "(custom normals cleared)"
+msgstr "(自定义法线已清除)"
+
+msgctxt "Operator"
+msgid "Auto"
+msgstr "自动"
+
+msgid "Pick the part count at the largest jump in merge cost"
+msgstr "在合并成本最大的跳跃处选择部分数量"
+
+msgid "Not enough hierarchy to guess a part count"
+msgstr "层级不足以猜测部分数量"
+
+msgid "Suggested %d parts"
+msgstr "建议 %d 个部分"
+
+msgctxt "Operator"
+msgid "Refine Boundaries"
+msgstr "细化边界"
+
+msgid "Slide the part boundaries onto the real concave creases of the full-resolution mesh"
+msgstr "将部分边界滑动到完整分辨率网格的真实凹折痕上"
+
+msgid "Nothing moved - lower Stiffness or raise Band Width"
+msgstr "没有任何移动 - 降低刚度或增加带宽"
+
+msgid "Refined %d faces in %.2fs"
+msgstr "精化 %d 个面，耗时 %.2fs"
+
+msgctxt "Operator"
+msgid "Pick & Merge"
+msgstr "拾取与合并"
+
+msgid "Click parts in the viewport to gather them, then press Enter to fuse them into one part. Esc cancels"
+msgstr "在视图中点击部件以收集它们，然后按 Enter 将它们融合为一个部件。Esc 取消操作"
+
+msgid "Run this from the 3D viewport"
+msgstr "从 3D 视图中运行此命令"
+
+msgid "Pick at least two different parts"
+msgstr "至少选择两个不同的部件"
+
+msgid "Merged %d parts into one"
+msgstr "将 %d 个部件合并为一个"
+
+msgctxt "Operator"
+msgid "Merge Selected Faces"
+msgstr "合并选定的面"
+
+msgid "Fuse every part touched by the current face selection. Select faces in Edit Mode first, then run this in Object Mode"
+msgstr "融合当前面选择所触及的每一个部件。首先在编辑模式下选择面，然后在对象模式下运行此命令"
+
+msgid "No faces selected"
+msgstr "未选择任何面"
+
+msgid "The selection only covers one part"
+msgstr "选择仅覆盖一部分"
+
+msgctxt "Operator"
+msgid "Reset Merges"
+msgstr "重置合并"
+
+msgid "Discard every manual merge group"
+msgstr "丢弃每个手动合并组"
+
+msgid "Merge groups cleared"
+msgstr "已清除的合并组"
+
+msgctxt "Operator"
+msgid "Explode"
+msgstr "分离"
+
+msgid "Blow the parts apart to inspect them, before or after splitting. Press again to snap them back"
+msgstr "将部件分开以检查它们，在拆分之前或之后。再次按此键可将其拉回"
+
+msgid "Returned"
+msgstr "已返回"
+
+msgid "Returned %d parts"
+msgstr "已返回 %d 个部件"
+
+msgid "Exploded %d parts"
+msgstr "已分离 %d 个部件"
+
+msgid "Analyze the model first, or split it into parts"
+msgstr "先分析模型，或将它拆分为部件"
+
+msgid "Mesh changed since Analyze - run Analyze again"
+msgstr "网格自分析后已更改 - 请重新运行分析"
+
+msgid "Could not build the preview"
+msgstr "无法生成预览"
+
+msgid "Exploded preview of %d parts in %.1fs"
+msgstr "%d 个部分的爆炸预览，耗时 %.1fs"
+
+msgctxt "Operator"
+msgid "Pick Target Part"
+msgstr "选择目标部分"
+
+msgid "Choose which part the brush will merge into. Hover to preview, click to lock it in, Esc to cancel"
+msgstr "将刷子合并到的部分。悬停以预览，点击锁定，Esc 取消"
+
+msgid "Merge target set to part %d"
+msgstr "目标集已设置为第 %d 部分"
+
+msgid "Analyze the model first"
+msgstr "请先分析模型"
+
+msgid "Pick the target part first"
+msgstr "请先选择目标部分"
+
+msgid "Stroke undone"
+msgstr "撤销操作已取消"
+
+msgid "Nothing left to undo in this session"
+msgstr "本会话中已无撤销操作"
+
+msgid "Brush cancelled"
+msgstr "画笔已取消"
+
+msgid "%d faces reassigned"
+msgstr "重新分配了%d个面"
+
+msgctxt "Operator"
+msgid "Merge Brush"
+msgstr "合并笔刷"
+
+msgid "Sweep stray geometry into the target part. Drag to paint, hold Ctrl to erase"
+msgstr "将散乱的几何体扫入目标部分。拖动以绘制，按住 Ctrl 键进行擦除"
+
+msgctxt "Operator"
+msgid "Merge Lasso"
+msgstr "合并套索工具"
+
+msgid "Draw a freehand loop around the geometry to sweep into the target part. Hold Ctrl to erase instead"
+msgstr "围绕几何体绘制自由手绘路径以扫掠生成目标部分。按住 Ctrl 键可擦除"
+
+msgid "Lasso undone"
+msgstr "取消套索"
+
+msgid "Lasso cancelled"
+msgstr "拉索已取消"
+
+msgid "%d faces %s"
+msgstr "%d 个面%s"
+
+msgid "merged in"
+msgstr "合并"
+
+msgctxt "Operator"
+msgid "Merge Box"
+msgstr "合并框"
+
+msgid "Drag a rectangle over the geometry to sweep into the target part. Hold Ctrl to erase instead"
+msgstr "拖动矩形覆盖几何体以扫切到目标部分。按住 Ctrl 键进行擦除而非切割"
+
+msgid "Box undone"
+msgstr "撤销框操作"
+
+msgid "Box cancelled"
+msgstr "取消框操作"
+
+msgctxt "Operator"
+msgid "Clear Brush Edits"
+msgstr "清除笔刷编辑"
+
+msgid "Throw away every face reassigned with the brush"
+msgstr "丢弃所有被笔刷重新分配的顶点"
+
+msgid "Brush edits cleared"
+msgstr "清除笔刷编辑"
+
+msgctxt "Operator"
+msgid "Pick Region To Split"
+msgstr "选择要分割的区域"
+
+msgid "Click a part to work on it alone. From then on the Parts slider only cuts inside that part and leaves the rest of the model alone"
+msgstr "点击一个部分单独对其工作。此后，\"部件\"滑块仅在该部分内切割，其余模型保持不变"
+
+msgid "Splitting part %d only - raise Parts to cut inside it"
+msgstr "仅分割第 %d 个部件 - 将 \"部件\" 滑块调高以在内部进行切割"
+
+msgctxt "Operator"
+msgid "Apply & Pick Next"
+msgstr "应用并选择下一个"
+
+msgid "Bake the cuts made inside this part, then go back to picking. Applied splits stack up, so each colour can be worked on in turn"
+msgstr "烘焙此部分内创建的切割，然后返回选择。已应用的分割会叠加，因此每种颜色可以依次处理"
+
+msgid "Raise Parts first - there is nothing to apply"
+msgstr "先提升部件——没有可应用的内容"
+
+msgid "Applied %d cuts - pick another part"
+msgstr "已应用 %d 个切割 - 选择另一个部件"
+
+msgctxt "Operator"
+msgid "Reset All Splits"
+msgstr "重置所有分割"
+
+msgid "Throw away every applied per part split"
+msgstr "丢弃每个部件的所有已应用分割"
+
+msgid "All per part splits cleared"
+msgstr "所有按部件的分割已清除"
+
+msgctxt "Operator"
+msgid "Clear Focus"
+msgstr "清除焦点"
+
+msgid "Go back to segmenting the whole model"
+msgstr "返回对整个模型进行细分"
+
+msgid "Focus cleared"
+msgstr "焦点已清除"
+
+msgctxt "Operator"
+msgid "Split Into Parts"
+msgstr "拆分到各个部分"
+
+msgid "Separate the model into one object per part"
+msgstr "将模型拆分为每个部件一个对象"
+
+msgid "Created %d part objects"
+msgstr "已创建 %d 个部件对象"
+
+msgctxt "Operator"
+msgid "Bake To Materials"
+msgstr "烘焙材质"
+
+msgid "Keep one object but assign a distinct material per part"
+msgstr "保留单个对象，但为每个部件分配不同的材质"
+
+msgid "Assigned %d materials"
+msgstr "已分配 %d 种材质"
+
+msgctxt "Operator"
+msgid "Clear Preview"
+msgstr "清除预览"
+
+msgid "Remove the preview color attribute and drop the cached analysis"
+msgstr "移除预览颜色属性并丢弃缓存的分析"
+
+msgid "Preview cleared"
+msgstr "预览已清除"
+
+msgid "Smart Segment"
+msgstr "智能分段"
+
+msgid "v%d.%d.%d"
+msgstr "v%d.%d.%d"
+
+msgid "Select a mesh object"
+msgstr "选择一个网格对象"
+
+msgid "Not analyzed yet"
+msgstr "尚未分析"
+
+msgid "Open mesh - thickness unreliable"
+msgstr "打开网格 - 厚度不可靠"
+
+msgid "Proxy %d  |  %d shells  |  %.1fs"
+msgstr "代理 %d | %d 层 | %.1fs"
+
+msgid "Granularity"
+msgstr "粒度"
+
+msgid "%d parts on screen"
+msgstr "%d 个在屏幕上显示的部分"
+
+msgid "Focused: %d extra cuts inside it"
+msgstr "聚焦：其中包含 %d 个额外的切割"
+
+msgid "Only %d regions available"
+msgstr "仅可用 %d 个区域"
+
+msgid "Preview uses the colour attribute"
+msgstr "预览使用颜色属性"
+
+msgid "Boundary Refinement"
+msgstr "边界细化"
+
+msgid "Live"
+msgstr "实时"
+
+msgid "Too heavy for live - use the button"
+msgstr "对实时操作过重 - 请使用按钮"
+
+msgid "%d faces moved  |  %.2fs"
+msgstr "%d 个面移动 | %.2fs"
+
+msgid "Not refined at these settings"
+msgstr "这些设置下未进行细化"
+
+msgid "Manual Merge"
+msgstr "手动合并"
+
+msgid "Click a part to select it"
+msgstr "点击一个部分以选中它"
+
+msgid "Click it again to deselect"
+msgstr "再次点击以取消选择"
+
+msgid "Enter applies, Esc cancels"
+msgstr "Enter 确认，Esc 取消"
+
+msgid "%d parts fused by hand"
+msgstr "%d 个部分被手动融合"
+
+msgid "Merge Brush"
+msgstr "合并笔刷"
+
+msgctxt "Operator"
+msgid "Change Target"
+msgstr "更改目标"
+
+msgctxt "Operator"
+msgid "1. Pick Target Part"
+msgstr "1. 选择目标部件"
+
+msgid "Target: part %d"
+msgstr "目标：部件 %d"
+
+msgid "Choose the target part first"
+msgstr "首先选择目标部件"
+
+msgctxt "Operator"
+msgid "2. Merge %s"
+msgstr "2. 合并 %s"
+
+msgid "Shift+Wheel resizes the brush"
+msgstr "Shift+ 滚轮调整笔刷大小"
+
+msgid "Drag a freehand loop around them"
+msgstr "在它们周围拖拽自由曲线"
+
+msgid "Hold Ctrl to erase instead"
+msgstr "按住 Ctrl 键进行擦除而不是绘制"
+
+msgid "Shift+Click picks a new target"
+msgstr "Shift+ 单击选择新的目标"
+
+msgid "Ctrl+Z undoes one stroke"
+msgstr "Ctrl+Z 撤销一个笔触"
+
+msgid "Split One Part Only"
+msgstr "仅拆分一部分"
+
+msgctxt "Operator"
+msgid "Change Region"
+msgstr "更改区域"
+
+msgid "Splitting this part"
+msgstr "拆分此部分"
+
+msgid "%d extra cuts inside it"
+msgstr "其中已有%d个额外切割"
+
+msgctxt "Operator"
+msgid "Discard"
+msgstr "丢弃"
+
+msgid "Click a colour, then raise Parts"
+msgstr "点击一种颜色，然后提升 Parts"
+
+msgid "to subdivide only that colour"
+msgstr "以仅细分该颜色"
+
+msgid "%d cuts applied so far"
+msgstr "迄今为止已应用%d个切割"
+
+msgid "Output"
+msgstr "输出"
+
+msgid "About"
+msgstr "关于"
+
+msgid "Smart Segmentation  v%d.%d.%d"
+msgstr "智能分割 v%d.%d.%d"
+
+msgctxt "Operator"
+msgid "ArtStation"
+msgstr "ArtStation"
+
+msgctxt "Operator"
+msgid "Superhive"
+msgstr "超级蜂巢"
+
+msgctxt "Operator"
+msgid "Discord - Support"
+msgstr "Discord - 支持"
+
+msgid "%d split objects"
+msgstr "%d 个拆分对象"
+
+msgid "Preview of %d parts"
+msgstr "%d 部分的预览"
+
+msgid "Runs before splitting"
+msgstr "在拆分之前运行"
+
+msgid "Analyze or split a model first"
+msgstr "先分析或拆分模型"
+
+msgctxt "Operator"
+msgid "Return"
+msgstr "返回"
+
+msgid "the model is not symmetric"
+msgstr "模型不是对称的"
+
+msgid "faces do not mirror"
+msgstr "面没有镜像"
+
+msgid "%d islands mirrored in themselves, %d twin islands copied"
+msgstr "%d 个岛屿自身镜像，%d 对孪生岛屿复制"
+
+msgid "%d objects, %d islands"
+msgstr "%d 个对象，%d 个岛屿"
+
+msgid "Automatic UV unwrapping with the OptCuts engine, split by Smart Segmentation parts, cleaned for AI generated meshes"
+msgstr "使用 OptCuts 引擎进行自动 UV 展开，按智能分割部分拆分，为 AI 生成的网格进行清理"
+
+msgid "Texel Density in UV Mapping"
+msgstr "UV 映射中的纹理密度"
+
+msgid "What's UDIMs in UV Mapping?"
+msgstr "什么是 UDIMs 在 UV 映射中？"
+
+msgid "Symmetry in UV Mapping"
+msgstr "UV 映射中的对称性"
+
+msgid "Stacking Repeated Parts"
+msgstr "堆叠重复部件"
+
+msgid "Smart Segmentation addon is not enabled"
+msgstr "未启用智能分割插件"
+
+msgid "Smart Segmentation analyze failed"
+msgstr "智能分割分析失败"
+
+msgid "Smart Segmentation produced no result for '%s'. Restart Blender and try again"
+msgstr "智能分割针对'%s'未生成结果。请重启 Blender 并重新尝试"
+
+msgid "Seam Allow"
+msgstr "边缘允许"
+
+msgid "Seam Avoid"
+msgstr "边缘避让"
+
+msgid "AutoUnwrap Checker"
+msgstr "自动展开检查器"
+
+msgid "AutoUnwrap Parts Preview"
+msgstr "自动展开部件预览"
+
+msgid "AutoUnwrap Distortion"
+msgstr "自动展开失真度"
+
+msgctxt "Operator"
+msgid "Show Distortion"
+msgstr "显示失真度"
+
+msgid "Colour the model by how much the layout pulls it out of shape - blue where the surface is clean, red where it is stretched. Click again to hide"
+msgstr "根据布局将模型拉出形状的程度对模型进行着色 - 表面干净处为蓝色，拉伸处为红色。再次点击以隐藏"
+
+msgid "This model has no '%s' layout to read"
+msgstr "此模型没有'%s'布局可供读取"
+
+msgid "Select some faces first"
+msgstr "先选择一些面"
+
+msgid "Select some faces first (Edit Mode, face select)"
+msgstr "先选择一些面（编辑模式，面选择）"
+
+msgid "%d parts"
+msgstr "%d 个部分"
+
+msgid ", and %d lying flat against it laid along the next axis instead"
+msgstr "，并且有 %d 个平躺在其上并沿下一个轴放置"
+
+msgid "Smart Segmentation produced no result. Restart Blender and try again"
+msgstr "智能分割未产生结果。重启 Blender 并重试"
+
+msgid "no island crosses the mirror plane"
+msgstr "没有岛屿跨越镜像平面"
+
+msgid "%d island(s) unwrapped on one half and mirrored"
+msgstr "%d 个岛屿在半个上展开并镜像"
+
+msgctxt "Operator"
+msgid "Auto Unwrap"
+msgstr "自动展开"
+
+msgid "Unwrap the active mesh with OptCuts. Esc cancels"
+msgstr "使用 OptCuts 引擎为当前系统展开活动网格。Esc 取消"
+
+msgid "OptCuts engine for this system is missing from the addon"
+msgstr "此系统的 OptCuts 引擎未在插件中提供"
+
+msgid "%d%% of this mesh is torn - use Smart UV (Hardsurface)"
+msgstr "%d%% 的该网格被撕裂了——请使用智能 UV（硬表面）"
+
+msgid "no window to put it in"
+msgstr "没有放置它的窗口"
+
+msgid "%d%% of this mesh sits on edges shared by"
+msgstr "%d%% 的该网格位于由以下边共享的位置："
+
+msgid "three or more faces. This engine cannot"
+msgstr "三个或更多面。此引擎无法处理。"
+
+msgid "flatten geometry like that."
+msgstr "像这样展平几何体。"
+
+msgid "Use Smart UV (Hardsurface) instead, or"
+msgstr "改用智能 UV（硬表面）模式，或"
+
+msgid "clean the mesh first: Merge by Distance,"
+msgstr "先清理网格：按距离合并，"
+
+msgid "then Select > All by Trait > Non Manifold."
+msgstr "然后选择 > 按属性全部选择 > 非流形。"
+
+msgid "Auto Unwrap: torn mesh"
+msgstr "自动展开：撕裂的网格"
+
+msgid "Nothing to unwrap"
+msgstr "未解开的包裹"
+
+msgid "Auto Unwrap cancelled"
+msgstr "取消自动解算"
+
+msgid "Auto Unwrap failed: %s"
+msgstr "自动展开失败：%s"
+
+msgid "picked islands redone with the organic engine: %d"
+msgstr "使用有机引擎重新生成所选岛屿：%d"
+
+msgid "Auto Unwrap: {msg}"
+msgstr "自动展开：{msg}"
+
+msgid "Run Auto Unwrap from the panel"
+msgstr "从面板运行自动展开"
+
+msgid "the mesh changed while unwrapping"
+msgstr "在展开过程中网格发生了变化"
+
+msgid ", plus %d cuts a part needed to be laid out at all"
+msgstr "，加上 %d 个切割部分需要全部展开"
+
+msgid "%s: %d islands, %.0fs"
+msgstr "%s: %d 个岛屿，%.0fs"
+
+msgid "Parts From"
+msgstr "来自部分"
+
+msgid "Seams never cross a Smart Segmentation part"
+msgstr "智能分割部分永远不会跨越接缝"
+
+msgid "How many parts Smart Segmentation splits the model into. Seams never cross a part, so this places the borders the cutting cannot find on its own. A hard surface model has its own borders and 8-30 is plenty; a figure does not - over fifteen figures 400 beat 8 on every measure and took no longer, while on a motorcycle the same 400 was worse. 1 keeps the model whole (a head, a single organic shape)"
+msgstr "智能分割将模型划分为多少个部分。接缝永远不会跨越一个部分，因此这会将切割无法自行找到的边界放置到位。硬表面模型有自己的边界，8-30 就足够了；人物则没有——超过十五个人物时，400 在每一项上都优于 8，而且耗时并不更长，而在摩托车上同样的 400 效果更差。1 保持模型的完整性（一个头部、单个有机形状）"
+
+msgid "Priority"
+msgstr "优先级"
+
+msgid "More seams, less distortion"
+msgstr "更多接缝，更少扭曲"
+
+msgid "Balanced"
+msgstr "平衡"
+
+msgid "Fewer islands, more distortion"
+msgstr "较少岛屿，更多扭曲"
+
+msgid "Parallel Pieces"
+msgstr "平行切片"
+
+msgid "How many pieces OptCuts solves at the same time. 0 = Auto, one per CPU core"
+msgstr "同时解决多少段切割。0 = 自动，每个 CPU 核心一段"
+
+msgid "Fast Mode"
+msgstr "快速模式"
+
+msgid "Cut big pieces at creases into smaller chunks that solve side by side. Much faster on models with few parts, adds a few islands"
+msgstr "在折痕处将大块切割成更小的块，使它们能够并排拼接。对于部件较少的模型，速度更快，可增加一些孤岛。"
+
+msgid "Chunk Size"
+msgstr "切片大小"
+
+msgid "Pieces with more triangles than this are cut into chunks of about this size. Smaller is faster, larger gives fewer islands"
+msgstr "比此三角形数量更多的部件会被切割成大约这个大小的块。更小更快，更大则岛屿更少"
+
+msgid "Engine"
+msgstr "引擎"
+
+msgid "Which engine unwraps the islands picked on the model"
+msgstr "选择用于在模型上展开所选岛屿的引擎"
+
+msgid "Organic"
+msgstr "有机"
+
+msgid "Unwrap the picked islands with the organic engine (OptCuts). Slower, and the right choice on curved, continuous shapes: bodies, panels, sculpts"
+msgstr "使用有机引擎（OptCuts）展开所选岛屿。较慢，但适用于曲线、连续形状：身体、面板、雕塑等"
+
+msgid "Unwrap the picked islands with the hard surface engine. Fast, and the right choice on flat panels, tubes and machined parts"
+msgstr "使用硬表面引擎展开所选岛屿。快速，且适用于平坦面板、管道和加工零件等"
+
+msgid "Seams"
+msgstr "接缝"
+
+msgid "Artist Seams"
+msgstr "艺术家接缝"
+
+msgid "Cut parts free at their roots, open each part with one hidden cut along loops and the symmetry line, add cuts only where it stretches"
+msgstr "在部件根部处切割分离，沿环线和对称线各开一条隐藏切口，仅在拉伸处添加切口"
+
+msgid "OptCuts Search"
+msgstr "OptCuts 搜索"
+
+msgid "Let OptCuts search for the seams"
+msgstr "让 OptCuts 搜索接缝"
+
+msgid "Clean Seams"
+msgstr "清理接缝"
+
+msgid "Straighten seams along edge loops and move them to less visible places after OptCuts. Kept only when stretch stays low"
+msgstr "沿边缘环拉直接缝，并在 OptCuts 后将其移至更不显眼的地方。仅在拉伸保持较低时保留"
+
+msgid "Min Piece Triangles"
+msgstr "最小三角形数量"
+
+msgid "Smaller loose bits join a neighbouring island instead of getting their own"
+msgstr "较小的碎片会连接到邻近的岛屿，而不是形成自己的岛屿。"
+
+msgid "UDIM Tiles"
+msgstr "UDIM 瓦片"
+
+msgid "How many UDIM tiles the layout is spread over. 1 is the ordinary single 0-1 square. Above that the parts are dealt out by area - 1001, 1002, 1003 - so every tile carries about the same amount of surface and the texel density stays even across them"
+msgstr "布局跨越了多少个 UDIM 瓦片。1 是普通的单个 0-1 正方形。在此基础上，部分按面积分配——1001、1002、1003——因此每个瓦片承载的表面量大致相同，且纹理密度在这些瓦片之间保持一致。"
+
+msgid "Optimize Layout"
+msgstr "优化布局"
+
+msgid "Work on the layout after the flattening: straighten the panels onto their own grid, break a sheet into the panels it is made of, and cut an island that runs the length of the square. It fills the sheet and pays for itself on models built out of even quad panels. Turn it off when it misreads a model and cuts up a flattening that was already right: what comes out of the flattening is then packed as it is"
+msgstr "在展平后处理布局：将面板调整到各自的网格中，将一个面片拆分为它由的面板组成，并切割一条贯穿正方形的岛屿。它在由偶数四边形面板构建的模型上填充整个面片，并且自身就能盈利。当展平器误读模型并将原本正确的展平结果切分时，请关闭此功能：此时从展平器输出的内容将保持原样"
+
+msgid "Prefer"
+msgstr "优先"
+
+msgid "What to give up when cutting less and stretching less pull against each other"
+msgstr "当减少切割和拉伸时，它们会相互拉扯。放弃什么？"
+
+msgid "Fewer Pieces"
+msgstr "更少部件"
+
+msgid "Cut less and leave larger islands, even where that means a little more stretch. A layout somebody has to work in by hand"
+msgstr "切少一些，留下更大的岛屿，即使这意味着需要稍微拉伸。这是一种必须由手工完成的工作布局。"
+
+msgid "The default: cut again wherever the flattening went wrong, but not past the point where it pays"
+msgstr "默认：在扁平化出错的地方再次切割，但不超过开始付费的点。"
+
+msgid "Cut wherever it helps the shapes, whatever that costs in extra islands. For a bake, where nobody reads the layout"
+msgstr "在有助于形状的地方进行切割，无论这会增加多少额外的岛屿。对于烘焙（bake），没人会去阅读布局的。"
+
+msgid "Final Pack"
+msgstr "最终包"
+
+msgid "When the unwrap has finished, hand the whole layout to Blender's own packer once more, every tile taken as a whole and every selected object together. It settles the islands the build left sitting on each other, keeps every island in the UDIM tile it belongs to, and leaves the whole selection at one texel density. Nothing is flattened again and nothing leaves its tile"
+msgstr "当展开完成时，再次将整个布局交给 Blender 自己的打包器处理，每个瓦片作为一个整体、每个选中的对象作为一个整体进行处理。它会将构建留下的岛屿彼此靠拢，确保每个岛屿都保留在其所属的 UDIM 瓦片中，并将整个选择保持在统一的纹理密度下。不会再次进行扁平化操作，也不会让任何物体离开其所在的瓦片。"
+
+msgid "Even Density First"
+msgstr "密度优先"
+
+msgid "Before packing, put every island at the same texel density, so the checker comes out the same size all over the model. The packer then scales the whole layout by one factor, which keeps them even"
+msgstr "在打包之前，将所有岛屿设置为相同的纹理密度，这样棋盘格在整个模型上会保持一致的大小。然后打包器将整体布局按一个比例缩放，从而保持均匀性"
+
+msgid "Pack the islands again without touching their size. After the unwrap you may have scaled a few islands up or down by hand, to spend more texture on a face and less on the underside. With this on, Repack only moves and turns the islands, so those choices survive. With it off every island is brought to one texel density and the whole layout is packed to fill the tile"
+msgstr "在不改变岛屿大小的情况下重新打包岛屿。解包后，你可能已经手动调整了几个岛屿的缩放比例，以便在某个面上使用更多纹理而在另一面使用更少。开启此选项时，Repack 只会移动和旋转岛屿，因此这些选择会被保留。关闭此选项时，每个岛屿都会被调整到相同的纹理密度，整个布局将被打包以填满瓦片"
+
+msgid "Islands sitting exactly on top of each other were put there on purpose - a mirrored half, a part copied fifty times - so Pack Again keeps them together. Turn it off to give every island its own place"
+msgstr "重叠在一起的岛屿是特意放置的——一个镜像的一半，复制了五十份——这样“再次打包”功能才能将它们保持在一起。关闭它可以让每座岛屿拥有自己的位置。"
+
+msgid "Stack Repeats"
+msgstr "堆叠重复"
+
+msgid "Put repeated parts on top of each other. A tank's track links, a panel's hundred identical screws - they are the same part, so they get one place on the sheet and the texture spends its resolution once instead of fifty times. Off unless you ask for it: stacked copies cannot be painted apart afterwards, so it is a choice about the model rather than something to do to every model"
+msgstr "将重复的部分重叠放置。坦克的履带连接件、面板上的一百个相同螺丝——它们是同一个部件，因此只需在一张图纸上绘制一次，纹理也只需消耗一次分辨率而非五十次。除非您要求，否则堆叠的副本无法之后再分别上色，所以这是建模时的一个选择，而不是对每个模型都要做的操作。"
+
+msgid "Tiles By"
+msgstr "按图块分类"
+
+msgid "What decides which tile a piece lands on, when several objects are unwrapped together"
+msgstr "当多个对象一起展开时，决定某个物体落在哪个瓷砖上的因素是什么？"
+
+msgid "Object"
+msgstr "对象"
+
+msgid "An object is never split across tiles. With fewer tiles than objects they are dealt out largest first onto whichever tile is emptiest, so the tiles still fill up evenly. This is how a vehicle or a weapon is usually textured"
+msgstr "一个对象永远不会被分割到多个瓦片上。当瓦片数量少于对象数量时，它们会按从大到小的顺序分配给最空的瓦片，因此瓦片仍然能均匀填充。这就是车辆或武器通常进行纹理贴图的方式。"
+
+msgid "The islands themselves are dealt out, so every tile carries about the same amount of surface and the texel density is as even as it can be. An object may be spread over several tiles"
+msgstr "岛屿本身是按比例分配的，因此每个图块所承载的表面面积大致相同，且纹理密度尽可能均匀。一个对象可能分布在多个图块上。"
+
+msgid "Which projector Smart UV runs"
+msgstr "Smart UV 支持的投影仪"
+
+msgid "Cut along the model's own lines, as few as the shape allows, and keep mirrored parts together"
+msgstr "沿模型的自身线条切割，尽可能少地切割，并将镜像部分保持在一起。"
+
+msgid "Blender"
+msgstr "Blender"
+
+msgid "Blender's own Smart UV Project, run one part at a time"
+msgstr "Blender 自带的智能 UV 展开，一次运行一个部分"
+
+msgid "Piece Size"
+msgstr "块大小"
+
+msgid "How much curvature one island may swallow, in radians. Higher means fewer, larger islands and a little more stretch; lower means more islands that lie flatter"
+msgstr "一个岛屿可能吞噬多少弧度。数值越高，岛屿越少、越大，拉伸也稍多一点；数值越低，岛屿越多且更扁平。"
+
+msgid "Angle Limit"
+msgstr "角度限制"
+
+msgid "Blender's Smart UV Project angle limit, in degrees. Lower cuts more often and gives flatter islands"
+msgstr "Blender 的 Smart UV Project 角度限制，单位为度。降低该值会更多地进行裁剪，并产生更扁平的岛屿。"
+
+msgid "Island Margin"
+msgstr "岛礁边缘"
+
+msgid "The gap Smart UV Project leaves between its islands"
+msgstr "Smart UV 项目留下的岛屿之间的间隙"
+
+msgid "Area Weight"
+msgstr "区域权重"
+
+msgid "How much a face's size counts when Smart UV Project picks its projections"
+msgstr "Smart UV Project 选择投影时，面的大小权重有多大？"
+
+msgid "Correct Aspect"
+msgstr "正确比例"
+
+msgid "Take the image's aspect into account, so a non-square texture is not stretched"
+msgstr "考虑图像的纵横比，因此非方形纹理不会被拉伸。"
+
+msgid "Hide Seams in Creases"
+msgstr "隐藏折痕处的接缝"
+
+msgid "Push seams into grooves, inner corners and occluded gaps, away from open surfaces"
+msgstr "将接缝推入凹槽、内角和被遮挡的缝隙中，远离开放表面"
+
+msgid "Strength"
+msgstr "强度"
+
+msgid "How strongly seams avoid visible surfaces. Higher values take longer and can add islands. Paint vertex groups \"Seam Allow\" or \"Seam Avoid\" to guide it by hand"
+msgstr "缝如何避免可见表面。较高的值需要更长时间，并可能产生孤岛。手动绘制顶点组“缝合允许”或“缝合避开”以引导其走向。"
+
+msgid "Gap Size"
+msgstr "间隙大小"
+
+msgid "How far the occlusion test looks, as a share of the model size"
+msgstr "遮挡测试看起来占模型大小的多少比例"
+
+msgid "Rays"
+msgstr "射线"
+
+msgid "Occlusion rays per vertex. More is smoother and slower"
+msgstr "每顶点的光线遮蔽数。更多更平滑但速度更慢"
+
+msgid "UV Map"
+msgstr "UV 贴图"
+
+msgid "After the cutting, every seam is offered back: the two islands either side are joined, opened again together and measured, and the join is kept only when nothing got worse. This says how much shear you will trade for one seam fewer. Zero still joins, but only where the join costs nothing at all"
+msgstr "切割后，每条接缝都会被重新连接：两侧的岛屿被合并、再次展开并测量，只有当接缝不会使情况变糟时才保留。这说明了为了减少一条接缝你愿意牺牲多少剪切变形。零仍然会连接，但只有在接缝完全不需要代价的地方才会连接"
+
+msgid "Lay every island so that one direction in the world points up the sheet. Straightening squares an island on the grid but leaves four ways up equally square, which is fine until the texture has a grain to it - rain running down a panel, a drip of rust, the grain of a plank, brushed steel. With this on the packer is not allowed to turn islands, so the sheet fills a little less tightly"
+msgstr "将所有岛屿放置为在世界空间中一个方向指向纸张上方。将正方形网格上的岛屿拉直，但这会留下四个方向同样呈方形，这在纹理具有颗粒感之前是可以接受的——雨水顺着面板流下、锈水滴落、木板的纹理、拉丝钢。有了这个设置，打包器不允许旋转岛屿，因此纸张填充得稍微不那么紧密"
+
+msgid "Along"
+msgstr "沿边"
+
+msgid "Which way in the world points up the sheet"
+msgstr "世界空间中哪个方向指向纸张上方"
+
+msgid "Left to right"
+msgstr "从左到右"
+
+msgid "Front to back"
+msgstr "从前到后"
+
+msgid "Up, which is what rain runs down"
+msgstr "向上，即雨水流下的方向"
+
+msgid "Mark Seams"
+msgstr "标记接缝"
+
+msgid "Pack Islands"
+msgstr "打包岛屿"
+
+msgid "Margin"
+msgstr "边距"
+
+msgid "Symmetry"
+msgstr "对称性"
+
+msgid "On a symmetric model: parts, seams and the finished UVs are mirrored. A part the mirror plane runs through keeps ONE seam on the plane, it is never cut twice, and its island is made symmetric in itself"
+msgstr "在对称模型中：部件、接缝和完成的 UV 贴图会镜像。如果镜面对穿过的部件，它会在平面上保留一条接缝，永远不会被切割两次，并且其岛屿本身也会呈对称状"
+
+msgid "Which way the mirror plane faces. Auto looks for the plane the model itself is symmetric about, in any direction; naming the axis skips that search"
+msgstr "镜像平面朝向哪个方向。Auto 会自动查找模型本身的对称面（任何方向）；命名轴会跳过此搜索"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "Find the plane from the model"
+msgstr "从模型中查找平面"
+
+msgid "Mirror left to right"
+msgstr "从左到右镜像"
+
+msgid "Mirror front to back"
+msgstr "从前到后镜像"
+
+msgid "Mirror top to bottom"
+msgstr "从上到下镜像"
+
+msgid "Offset"
+msgstr "偏移"
+
+msgid "Slide the plane off the middle of the model, as a share of its half width along that axis"
+msgstr "将平面沿模型的中线滑动，作为该轴方向上其半宽的一部分"
+
+msgid "Treat the part borders as cuts that must be kept. The unwrap still cuts inside a part where it has to, but it never joins two parts back together and never throws the segmentation away and starts again. Off, the parts are a starting point and the engine is free to rework them"
+msgstr "将部分边界视为必须保留的切口。展开仍然会在需要时进行内部切割，但它永远不会将两个部分重新连接起来，也绝不会丢弃分段并重新开始。断开后，这些部分只是一个起点，引擎可以自由地对其进行重做"
+
+msgid "Cut the model along the mirror plane before anything else, so the seam runs exactly down the middle and every other cut is placed against it. Off, the seam lands wherever the flattener finds it cheapest, which is often beside the middle rather than on it"
+msgstr "在其它任何操作之前，沿镜像平面切割模型，这样接缝会正好位于中间，而所有其他切口都会紧贴着它。断开后，接缝会落在展开器认为最便宜的位置，这通常是在中线旁边而不是正在线上"
+
+msgid "Draw the mirror plane on the model"
+msgstr "在模型上绘制镜像平面"
+
+msgid "Bake Size"
+msgstr "烘焙尺寸"
+
+msgid "Resolution of the baked texture"
+msgstr "烘焙纹理的分辨率"
+
+msgid "What to bake into the new UV layout"
+msgstr "要烘焙到新 UV 布局中的内容"
+
+msgid "Colour"
+msgstr "颜色"
+
+msgid "Base colour only, no lighting"
+msgstr "仅基础颜色，无光照"
+
+msgid "Combined"
+msgstr "混合"
+
+msgid "Colour with lighting"
+msgstr "用光照着色"
+
+msgid "Emission"
+msgstr "自发光"
+
+msgid "Emission only"
+msgstr "仅自发光"
+
+msgid "Normal"
+msgstr "法线"
+
+msgid "Normal map"
+msgstr "法线贴图"
+
+msgid "Pixels painted past the island borders"
+msgstr "超出岛屿边界的像素"
+
+msgid "From Selected Object"
+msgstr "从选定对象"
+
+msgid "Bake from another selected object onto this one (select the original model first, then the unwrapped one last)"
+msgstr "烘焙到另一个选定的对象（先选择原始模型，最后选择不展开的模型）"
+
+msgid "Samples"
+msgstr "采样数"
+
+msgid "Render samples used while baking"
+msgstr "烘焙时使用的渲染样本"
+
+msgid "Let Cycles bake on the graphics card where it can. It falls back on the processor on its own when no card is set up in Preferences > System"
+msgstr "在图形卡上烘焙 Cycles，如果未设置图形卡，则会自动使用处理器。请在“偏好设置”> “系统”中设置图形卡。"
+
+msgid "Relax Iterations"
+msgstr "放松迭代次数"
+
+msgid "More iterations even out stretch further and take longer"
+msgstr "更多迭代会进一步拉伸并花费更长时间"
+
+msgid "Classic Panel"
+msgstr "经典面板"
+
+msgid "Use the plain sidebar panel instead of the viewport card"
+msgstr "使用普通侧边栏面板而不是视口卡片"
+
+msgid "Part Colours"
+msgstr "部件颜色"
+
+msgid "How strong the colours are on Show Parts and while picking. Turn it up when neighbouring parts are hard to tell apart"
+msgstr "选择部件时，颜色有多鲜艳？当相邻部件难以区分时调高它。"
+
+msgid "Accent Hue"
+msgstr "色相"
+
+msgid "Accent Saturation"
+msgstr "饱和度"
+
+msgid "Corner Rounding"
+msgstr "圆角"
+
+msgid "Card Brightness"
+msgstr "卡片亮度"
+
+msgid "How light the card and its boxes are painted. Screens and colour settings differ; turn it down if the card looks washed out"
+msgstr "卡片及其包装盒的涂装效果。屏幕和色彩设置不同；如果卡片看起来褪色，请调低亮度。"
+
+msgid "Welcome Shown"
+msgstr "欢迎语显示"
+
+msgid "The hello has been said once already"
+msgstr "问候语已显示一次"
+
+msgctxt "Operator"
+msgid "Discord"
+msgstr "Discord"
+
+msgctxt "Operator"
+msgid "Welcome"
+msgstr "欢迎"
+
+msgid "Show the welcome message again"
+msgstr "再次显示欢迎消息"
+
+msgid "Auto Unwrap: thank you. Feedback is very welcome on Discord: https://discord.gg/EC8d7nPsYj"
+msgstr "自动展开：谢谢。欢迎在 Discord 提供反馈：https://discord.gg/EC8d7nPsYj"
+
+msgctxt "Operator"
+msgid "Switch Panel"
+msgstr "切换面板"
+
+msgid "Move between the viewport card and the plain sidebar panel"
+msgstr "在视图卡和平滑侧边栏面板之间切换"
+
+msgid "Auto Unwrap v2"
+msgstr "自动展开 v2"
+
+msgctxt "Operator"
+msgid "Switch to the card"
+msgstr "切换到卡片视图"
+
+msgid "Engine missing for this system"
+msgstr "此系统缺少引擎"
+
+msgid "Smart Segmentation not enabled"
+msgstr "智能分割未启用"
+
+msgctxt "Operator"
+msgid "Hide Parts"
+msgstr "隐藏部件"
+
+msgctxt "Operator"
+msgid "Show Parts"
+msgstr "显示部件"
+
+msgid "%d parts picked"
+msgstr "已选择 %d 个部件"
+
+msgid "Click a part in the viewport"
+msgstr "在视图中点击一个部件"
+
+msgctxt "Operator"
+msgid "Confirm Merge"
+msgstr "确认合并"
+
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "Operator"
+msgid "Pick & Merge Parts"
+msgstr "拾取与合并部件"
+
+msgctxt "Operator"
+msgid "Merge Selected"
+msgstr "合并选中项"
+
+msgctxt "Operator"
+msgid "Split"
+msgstr "拆分"
+
+msgid "Parts edited by hand"
+msgstr "手动编辑的部件"
+
+msgctxt "Operator"
+msgid "Hide Seams Preview"
+msgstr "隐藏接缝预览"
+
+msgctxt "Operator"
+msgid "Preview Seams"
+msgstr "预览接缝"
+
+msgid "Version v2"
+msgstr "版本 v2"
+
+msgctxt "Operator"
+msgid "Show Seam Map"
+msgstr "显示接缝图"
+
+msgid "Shade the model in clay: darker spots are hidden creases where seams are welcome, the light surface is where they are avoided"
+msgstr "用粘土着色模型：较暗的区域是隐藏的折痕（即接缝所在之处），较亮的表面则是避免接缝的位置"
+
+msgid "Seam map ready in %.1fs"
+msgstr "接缝图已就绪，耗时 %.1fs"
+
+msgctxt "Operator"
+msgid "Match Existing UV"
+msgstr "匹配现有的 UV 贴图"
+
+msgid "Read the seams out of a UV map the model already has and unwrap along them. The pieces come out where the artist who made that map put them, flattened by this engine and packed with our texel density and UDIM tiles. For a model that arrived with a layout worth keeping, or a retopology that has to match one"
+msgstr "从模型已有的 UV 贴图中读取接缝，并沿着它们进行展开。生成的片段会在制作该贴图的艺术家放置的位置出现，经过此引擎展平并以我们的纹理密度和 UDIM 瓦片进行打包。对于拥有值得保留布局的模型，或需要匹配某个拓扑结构的模型"
+
+msgid "This model has no other UV map to read"
+msgstr "此模型没有其他 UV 贴图可供读取"
+
+msgid "'%s' has no seams to read"
+msgstr "%s 没有可读取的接缝"
+
+msgid "Auto Unwrap: {props.status}"
+msgstr "自动展开：{props.status}"
+
+msgid "Show the Smart Segmentation parts of the active model as checker patterns, so you can tune them before unwrapping. Click again to hide"
+msgstr "在视图中将活动模型的智能分割部分显示为棋盘格图案，以便您在展开前调整它们。再次点击以隐藏"
+
+msgid "Click parts in the viewport to fuse them: the first click picks the part to merge into, every next click adds one. Click a merged part again to take it back. Enter keeps the result, Esc cancels"
+msgstr "在视图中点击部分进行融合：第一次点击选择要合并的目标部分，每次后续点击添加一个。再次点击已合并的部分可将其取消。按 Enter 保持结果，Esc 取消"
+
+msgid "Pick at least two parts"
+msgstr "至少选择两个部分"
+
+msgid "%d parts merged into one, %d parts left"
+msgstr "%d 个部分已合并为一个，剩余 %d 个部分"
+
+msgid "Merge the parts picked so far (same as pressing Enter in the viewport)"
+msgstr "合并到目前为止选择的各个部分（与在视图中按 Enter 键效果相同）"
+
+msgid "Leave the parts as they were (same as pressing Esc in the viewport)"
+msgstr "保持原样（与在视图中按 Esc 相同）"
+
+msgctxt "Operator"
+msgid "Merge Parts"
+msgstr "合并部件"
+
+msgid "Merge the parts of the selected faces into one part, so no seam runs between them. One selected face per part is enough. The unwrap then uses these hand edited parts"
+msgstr "将所选面的部分合并为一个整体，这样它们之间就不会有接缝。每个部分只需选择一张面即可。展开时，则使用这些手动编辑好的部分。"
+
+msgctxt "Operator"
+msgid "Selection As Part"
+msgstr "选择作为部分"
+
+msgid "Make the selected faces a part of their own, so its border becomes a seam"
+msgstr "将选定的面设为独立部分，使其边缘成为接缝"
+
+msgctxt "Operator"
+msgid "Reset Parts"
+msgstr "重置部件"
+
+msgid "Throw the hand edits away and go back to the Smart Segmentation parts"
+msgstr "删除手部编辑并返回到智能分割部分"
+
+msgctxt "Operator"
+msgid "Pick Island on Model"
+msgstr "模型中拾取岛屿"
+
+msgid "Click islands on the model itself to choose them, then Enter to unwrap just those again at the current Seams setting. Esc cancels and changes nothing"
+msgstr "点击模型上的岛屿以选择它们，然后按 Enter 在当前接缝设置下再次展开这些岛屿。Esc 取消操作且不更改任何内容。"
+
+msgid "Could not redo that piece: %s"
+msgstr "无法重新生成该片段：%s"
+
+msgid "they share no edge on the mesh - they are separate pieces of geometry, so they can sit side by side in the UV but cannot be one island"
+msgstr "它们之间没有共享边——它们是独立的几何体，因此可以在 UV 中并排排列，但不能作为一个岛。"
+
+msgid "they only meet on %d edges shared by three or more faces, which cannot be flattened as one piece - weld or clean that border first"
+msgstr "它们仅在 %d 条被三个或更多面共享的边上相遇，这些边无法展平为一个整体——请先焊接或清理该边界"
+
+msgid "the flattening split them again along %d edges shared by three or more faces"
+msgstr "展平操作会再次沿着 %d 条被三个或更多面共享的边将它们分开"
+
+msgid "Blender's unwrap kept them apart"
+msgstr "Blender 的展开功能将保持它们分离"
+
+msgctxt "Operator"
+msgid "Join Into One"
+msgstr "合并为单个岛屿"
+
+msgid "Take the seams out between the islands picked so far and unwrap them as a single piece"
+msgstr "移除已选中岛屿之间的接缝，并将它们作为一个整体进行展开"
+
+msgctxt "Operator"
+msgid "Redo Selected"
+msgstr "重新展开选定部分"
+
+msgid "Unwrap the selected faces again at the current Seams setting and leave the rest of the layout alone. Select the island in the UV editor or the faces in the 3D view, then press this"
+msgstr "在当前接缝设置下再次展开选定的面，并保留其余布局。在 UV 编辑器或 3D 视图中选择该岛屿，然后按此按钮"
+
+msgid "Select the faces of the island first, in the UV editor or in Edit Mode"
+msgstr "首先在 UV 编辑器或编辑模式下选择岛屿的面"
+
+msgid "That is the whole model - use Unwrap instead"
+msgstr "这是整个模型——请使用“展开”功能"
+
+msgid "Nothing changed"
+msgstr "没有任何变化"
+
+msgctxt "Operator"
+msgid "Bake Texture"
+msgstr "烘焙贴图"
+
+msgid "Bake the model's material into an image that follows the new UV layout. With From Selected Object it bakes another selected model onto this one"
+msgstr "将模型的材质烘焙为一张跟随新 UV 布局的图像。使用“从选定对象”可以将另一个选定的模型烘焙到该模型上"
+
+msgid "No UV map to bake into, run Auto Unwrap first"
+msgstr "没有可烘焙的 UV 映射，请先运行自动展开"
+
+msgid "%s_Baked"
+msgstr "%s_烘焙"
+
+msgid "No graphics card is set up for Cycles, baking on the processor"
+msgstr "未为 Cycles 设置图形卡，正在处理器上进行烘焙"
+
+msgid "graphics card"
+msgstr "图形卡"
+
+msgid "A bake is already running"
+msgstr "正在运行一个烘焙操作"
+
+msgid "Bake failed: %s"
+msgstr "烘焙失败：%s"
+
+msgid ", %d tiles"
+msgstr "，%d 个瓦片"
+
+msgid "hanging strips found"
+msgstr "悬挂的条带"
+
+msgid "strips hanging out of their islands sewn back on"
+msgstr "从岛屿上垂下的条带缝合回去"
+
+msgid "thin strips could join their neighbour"
+msgstr "细条可以连接它们的邻居"
+
+msgid "thin strips joined to the panel beside them"
+msgstr "细条连接到它们旁边的面板"
+
+msgid "thin strips could lie along the sheet"
+msgstr "细条可以沿着板子平铺"
+
+msgid "thin strips laid along the sheet"
+msgstr "细条沿板子铺设"
+
+msgid "cuts could be mirrored to the other half"
+msgstr "切口可以镜像到另一半"
+
+msgid "cuts mirrored to the other half"
+msgstr "切口镜像到另一半"
+
+msgid "bent panels could be cut at their rounded edges"
+msgstr "弯曲的面板可以在其圆角处切割"
+
+msgid "bent panels cut at their rounded edges"
+msgstr "弯曲的面板在圆角处切割"
+
+msgctxt "Operator"
+msgid "Smart UV (Blender)"
+msgstr "智能 UV（Blender）"
+
+msgid "Unwrap with Blender's Smart UV Project, one part at a time. For busy hard-surface models where the organic unwrap is not worth its time"
+msgstr "使用 Blender 的智能 UV 展开，一次处理一个部分。对于繁忙的硬表面模型，有机 UV 展开不值得花费时间"
+
+msgid "Smart UV: %d parts, %d islands, %.0fs"
+msgstr "智能 UV：%d 个部分，%d 个岛屿，%.0fs"
+
+msgid "attach"
+msgstr "附加"
+
+msgid "mirror"
+msgstr "镜像"
+
+msgid "psplit"
+msgstr "分割"
+
+msgid "stripaxis"
+msgstr "删除轴"
+
+msgid "Smart UV failed: %s"
+msgstr "智能 UV 失败：%s"
+
+msgid "Smart UV: %s, %.0fs"
+msgstr "智能 UV：%s, %.0fs"
+
+msgid "choosing the cuts"
+msgstr "选择切割"
+
+msgid "checking the shapes"
+msgstr "检查形状"
+
+msgid "merging the chips"
+msgstr "合并芯片"
+
+msgid "tidying up"
+msgstr "整理"
+
+msgid "squaring the panels"
+msgstr "将面板正方形化"
+
+msgid "breaking up what sprawls"
+msgstr "打破蔓延的部分"
+
+msgctxt "Operator"
+msgid "Repack"
+msgstr "重新打包"
+
+msgid "Pack the whole layout again with Blender's own packer, every selected object together. Use it after redoing islands by hand: the new pieces are placed properly with the rest. Every island stays in the UDIM tile it belongs to and the whole selection comes out at one texel density"
+msgstr "使用 Blender 自带的打包器将整个布局重新打包，所有选中的对象一起打包。在手动重新生成岛屿后使用：新放置的部件将与其余部分正确对齐。每个岛屿仍保留在其所属的 UDIM 瓦片中，整个选择将以一种纹理密度输出"
+
+msgid "Select a mesh"
+msgstr "选择一个网格"
+
+msgid "Repack failed: %s"
+msgstr "重新打包失败：%s"
+
+msgctxt "Operator"
+msgid "Relax UVs"
+msgstr "放松 UV"
+
+msgid "Flatten every island again along its existing seams to even out stretch and checker size. Seams stay where they are"
+msgstr "再次沿现有接缝展平每个岛屿，使拉伸和棋盘格大小均匀化。接缝保持在原位"
+
+msgid "No UV map to relax, run Auto Unwrap first"
+msgstr "没有 UV 贴图可松弛，请先运行自动展开"
+
+msgid "Auto Unwrap: UVs relaxed"
+msgstr "自动展开：UV 已松弛"
+
+msgid "Stop the run that is going on now"
+msgstr "停止当前正在进行的运行"
+
+msgid "Show or hide the seams as glowing orange lines in the viewport"
+msgstr "在视口中显示或隐藏接缝为发光的橙色线条"
+
+msgid "Seam preview: no seams on the selected model yet"
+msgstr "接缝预览：选定的模型上尚无接缝"
+
+msgctxt "Operator"
+msgid "Garment Seams"
+msgstr "服装接缝"
+
+msgid "Cut a clean quad garment the way an artist does - straight edge loops round the tubes and straight lines between them - then unwrap and pack. First version, built on shirts. Esc cancels"
+msgstr "像艺术家那样裁剪干净的四边形服装——围绕管子的直线边缘环和它们之间的直线——然后展开并打包。第一个版本，基于衬衫构建。Esc 取消"
