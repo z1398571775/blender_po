@@ -1,0 +1,6065 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2026-11-17 18:53+0800\n"
+"PO-Revision-Date: 2026-11-17 18:53+0800\n"
+"Last-Translator: Quick Translation Assistant\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "filetype inside gzip not a blend"
+msgstr "gzip 中的文件格式不是 .blend"
+
+msgid "filetype not a blend or a gzip blend"
+msgstr "文件类型不是 .blend 或压缩的 .blend 文件"
+
+msgid "cant refine to smaller type (%s -> %s)"
+msgstr "无法细化为更小的类型（%s -> %s）"
+
+msgid "<%s.%s (%s), size=%d at %s>"
+msgstr "<%s.%s (%s)，大小=%d 位于%s>"
+
+msgid "%r not found in %r (%r)"
+msgstr "未找到 %r（%r）"
+
+msgid "%r exists but isn't pointer, can't resolve field %r"
+msgstr "存在一个对象，但它不是指针，无法解析字段 %r"
+
+msgid "%r not found in %r"
+msgstr "未找到 %r 中的 %r"
+
+msgid "Setting %r is not yet supported"
+msgstr "设置 %r 目前尚不支持"
+
+msgid "%s should not be instantiated"
+msgstr "%s 不应被实例化"
+
+msgid "EXTREME_PBR_USER_LIB"
+msgstr "EXTREME_PBR_USER_LIB"
+
+msgid "HDRI_MAKER_USER_LIB"
+msgstr "HDRI_MAKER_USER_LIB"
+
+msgid "EXTREME_PBR_DEFAULT_LIB"
+msgstr "EXTREME_PBR_DEFAULT_LIB"
+
+msgid "HDRI_MAKER_DEFAULT_LIB"
+msgstr "HDRI_MAKER_DEFAULT_LIB"
+
+msgid "05k"
+msgstr "05k"
+
+msgid "1k"
+msgstr "1k"
+
+msgid "2k"
+msgstr "2k"
+
+msgid "4k"
+msgstr "4k"
+
+msgid "Choose the type of libraries you want to install. You can also install 1 material at a time, directly from the {Exa.blender_manifest['name']} interface"
+msgstr "选择您想要安装的库类型。您也可以一次安装一种材质，直接从 {Exa.blender_manifest['name']} 界面进行安装"
+
+msgid "Note: Not all materials have the maxi/mum size available in these buttons"
+msgstr "注意：并非所有材质都提供这些按钮中的最大/最小尺寸"
+
+msgctxt "Operator"
+msgid "Essential"
+msgstr "基本"
+
+msgctxt "Operator"
+msgid "All"
+msgstr "全部"
+
+msgctxt "Operator"
+msgid "1k"
+msgstr "1k"
+
+msgctxt "Operator"
+msgid "2k"
+msgstr "2k"
+
+msgctxt "Operator"
+msgid "4k"
+msgstr "4k"
+
+msgctxt "Operator"
+msgid "8k"
+msgstr "8k"
+
+msgid "Enter the path to the Default Library ({get_default_library_folder_name()})"
+msgstr "输入默认库的路径 ({get_default_library_folder_name()})"
+
+msgid "Choose the path"
+msgstr "选择路径"
+
+msgid "Enter the path of the User Library ({get_user_library_folder_name()})"
+msgstr "输入用户库的路径 ({get_user_library_folder_name()})"
+
+msgid "Choose The Path"
+msgstr "选择路径"
+
+msgid "The User Library does not contain the library_info.json file, press the button below to create it"
+msgstr "用户库中不包含 library_info.json 文件，请按下下方的按钮创建它"
+
+msgctxt "Operator"
+msgid "Create Lib Info"
+msgstr "创建库信息"
+
+msgctxt "Operator"
+msgid "Make User Library"
+msgstr "制作用户库"
+
+msgctxt "Operator"
+msgid "Try to re-link all paths automatically"
+msgstr "尝试自动重新链接所有路径"
+
+msgid "Add more library expansions:"
+msgstr "添加更多库扩展:"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Expansion Path"
+msgstr "扩展路径"
+
+msgid "Choose Path"
+msgstr "选择路径"
+
+msgctxt "Operator"
+msgid "Add library"
+msgstr "添加库"
+
+msgctxt "Operator"
+msgid "Contact me"
+msgstr "联系我"
+
+msgid "Welcome to Extreme PBR Library Installation"
+msgstr "欢迎使用 Extreme PBR 库安装"
+
+msgid "How to install libraries"
+msgstr "如何安装库"
+
+msgid "If this is the first time you run Extreme PBR, please choose the path of the default library where the addon will look for Extreme PBR library files."
+msgstr "如果这是您第一次运行 Extreme PBR，请选择默认库路径，该路径是插件查找 Extreme PBR 库文件的位置。"
+
+msgid "Default Library: {self.addon_default_library}"
+msgstr "默认库：{self.addon_default_library}"
+
+msgid "Default Library:"
+msgstr "默认库:"
+
+msgid "User Library: {self.addon_user_library}"
+msgstr "用户库：{self.addon_user_library}"
+
+msgid "User Library:"
+msgstr "用户库:"
+
+msgid "If you have never used Extreme PBR, do not indicate the User library path"
+msgstr "如果您从未使用过 Extreme PBR，请勿指定用户库路径"
+
+msgid "If you have already downloaded the library Volume files (Those with the \".exapack\" extension), press the button below and indicate the path where the .exapack files are locate. If you don't have the library files, go to your Order page and download them."
+msgstr "如果您已经下载了库文件（带有\".exapack\"扩展名的文件），请按下下方的按钮并指示存放.exapack 文件的目录。如果您没有这些库文件，请访问您的订单页面进行下载。"
+
+msgid "{str(UNZIP.files_copied)} of {str(UNZIP.total_files)} files"
+msgstr "{str(UNZIP.files_copied)} / {str(UNZIP.total_files)} 个文件"
+
+msgid "Some files were not extracted from the volumes marked with the exclamation point, try to press the button 'Install From Exapack Files' below a short additional step will be executed to force the extraction of the files. If the problem persists with that volume, try to download it again from your download page."
+msgstr "部分带有感叹号标记的卷中的文件未能解压，请按下下方的“从 Exapack 文件安装”按钮，将执行一个额外的步骤来强制提取这些文件。如果该问题仍然存在，请尝试再次从下载页面下载该卷。"
+
+msgctxt "Operator"
+msgid "Installation finished"
+msgstr "安装完成"
+
+msgctxt "Operator"
+msgid "Choose Exapacks"
+msgstr "选择扩展包"
+
+msgid "Override existing files"
+msgstr "覆盖现有文件"
+
+msgid "Keep exapack after install"
+msgstr "安装后保留扩展包"
+
+msgctxt "Operator"
+msgid "Install from 'exapack' Files"
+msgstr "从 'exapack' 文件中安装"
+
+msgid "{recompiled_idx} - {exapack.name.replace('.exapack', '')} (Wrong product) {exapack.product}"
+msgstr "{recompiled_idx} - {exapack.name.replace('.exapack', '')}（产品错误）{exapack.product}"
+
+msgid "This '.exapack' file is from a different product than EXTREMEPBR, please remove it."
+msgstr "此 '.exapack' 文件来自与 EXTREMEPBR 不同的产品，请将其删除。"
+
+msgid "{recompiled_idx} - This file ( {} ) may be corrupted, it may have happened because of the incomplete download, try to download this file again, before proceeding with the installation I advise you to download the file again, make sure the download is complete."
+msgstr "{recompiled_idx} - 该文件 ( {}) 可能已损坏，这可能是由于下载不完整导致的。在安装之前，建议您重新下载该文件，确保下载完成。"
+
+msgid "_Problem_"
+msgstr "_问题_|"
+
+msgid "Wait for the extraction to finish"
+msgstr "等待提取完成"
+
+msgid "Press install to retry"
+msgstr "点击安装重试"
+
+msgid "Installed"
+msgstr "已安装"
+
+msgid "{dots} I'm analyzing the files to install: {str(UNZIP.total_files)} files {dots}"
+msgstr "{dots} 正在分析要安装的文件：{str(UNZIP.total_files)} 个文件 {dots}"
+
+msgctxt "Operator"
+msgid "Cancel installation"
+msgstr "取消安装"
+
+msgid "Do not close this window during installation (You can minimize)"
+msgstr "安装期间不要关闭此窗口（您可以最小化）"
+
+msgid "{dots} {str(UNZIP.files_copied)} of {str(UNZIP.total_files)} files {dots}"
+msgstr "{dots} 已复制 {str(UNZIP.files_copied)} / {str(UNZIP.total_files)} 个文件 {dots}"
+
+msgid "If you want to stop the installation you can press the 'Cancel' (x) button next to the bar above, you can resume the installation later. The process will resume from where you stopped it."
+msgstr "如果您想停止安装，可以点击上方进度条旁边的“取消”（x）按钮。稍后您可以继续安装。该过程将从您停止的地方恢复。"
+
+msgid "Documentation & Tutorials"
+msgstr "文档与教程"
+
+msgid "Documentation"
+msgstr "文档"
+
+msgid "Tutorial Playlist"
+msgstr "教程播放列表"
+
+msgid "Bug Report"
+msgstr "错误报告"
+
+msgid "How to report a bug?"
+msgstr "如何报告错误？"
+
+msgctxt "Operator"
+msgid "Report a bug"
+msgstr "报告错误"
+
+msgctxt "Operator"
+msgid "System to clipboard"
+msgstr "复制到剪贴板"
+
+msgid "Support"
+msgstr "支持"
+
+msgid "FAQs"
+msgstr "常见问题"
+
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+msgid "Make Asset Browser:"
+msgstr "创建资产浏览器:"
+
+msgctxt "Operator"
+msgid "Default Library"
+msgstr "默认库"
+
+msgctxt "Operator"
+msgid "User Library"
+msgstr "用户库"
+
+msgid "Update {Exa.blender_manifest['name']}"
+msgstr "更新 {Exa.blender_manifest['name']}"
+
+msgctxt "Operator"
+msgid "Update Addon Core"
+msgstr "更新插件核心"
+
+msgid "Addon Updated successfully"
+msgstr "插件更新成功"
+
+msgid "close and restart Blender to complete"
+msgstr "关闭并重启 Blender 以完成操作"
+
+msgid "Press ESC or DEL to abort the operation"
+msgstr "按 ESC 或 DEL 键取消操作"
+
+msgid "Update Libraries"
+msgstr "更新库"
+
+msgctxt "Operator"
+msgid "Update Library"
+msgstr "更新库"
+
+msgid "Updating the library structure on disk"
+msgstr "正在更新磁盘上的库结构"
+
+msgid "Downloading the structure of the online library"
+msgstr "正在下载在线库的结构"
+
+msgid "Please re-Link the {Exa.blender_manifest['name']} {Exa.edition} Libraries (From Libraries Menu), Or Go Into First Install Menu And follow the steps"
+msgstr "请重新链接 {Exa.blender_manifest['name']} {Exa.edition} 库（从“库”菜单），或进入首次安装菜单并遵循步骤"
+
+msgid "Please Go Into First Install Menu And follow the steps"
+msgstr "请进入首次安装菜单并按照步骤操作"
+
+msgctxt "Operator"
+msgid "Check addon updates"
+msgstr "检查插件更新"
+
+msgctxt "Operator"
+msgid "SuperHive"
+msgstr "SuperHive"
+
+msgid "You are using a test version ( {} )"
+msgstr "您正在使用测试版 ( {} )"
+
+msgid "Your version {Exa.blender_manifest['name']} {Exa.edition} {str(Exa.blender_manifest['version'])} is correctly updated"
+msgstr "您的版本 {Exa.blender_manifest['name']} {Exa.edition} {str(Exa.blender_manifest['version'])} 已正确更新"
+
+msgid "This is great, remember to always keep the addon updated"
+msgstr "太棒了，请记得始终保持插件更新"
+
+msgid "Your version {Exa.blender_manifest['name']} {Exa.edition} {str(Exa.blender_manifest['version'])} needs to be updated"
+msgstr "您的版本 {Exa.blender_manifest['name']} {Exa.edition} {str(Exa.blender_manifest['version'])} 需要更新"
+
+msgid "You missed these {str(len_lost_updates)} updates:"
+msgstr "您错过了这 {str(len_lost_updates)} 个更新:"
+
+msgid "Click on the Expand Arrows below to see what has been done in the released versions"
+msgstr "点击下方展开箭头以查看已发布版本中的内容"
+
+msgid "Updates List:"
+msgstr "更新列表："
+
+msgid "Update {update_item.name}"
+msgstr "更新 {update_item.name}"
+
+msgid "< -- You are Here"
+msgstr "< -- 您在此处"
+
+msgid "Lost update"
+msgstr "丢失的更新"
+
+msgctxt "Operator"
+msgid "Check out what's new"
+msgstr "查看新功能"
+
+msgid "Date: {date}"
+msgstr "日期：{date}"
+
+msgid "Name: {name}"
+msgstr "名称：{name}"
+
+msgid "Edition: {edition}"
+msgstr "版本：{edition}"
+
+msgid "Press Check library updates!"
+msgstr "检查库更新！"
+
+msgid "Exapack available"
+msgstr "Exapack 可用"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Uninstall"
+msgstr "卸载"
+
+msgctxt "Operator"
+msgid "Remove"
+msgstr "移除"
+
+msgid "Not Installed"
+msgstr "未安装"
+
+msgid "Addon Updates"
+msgstr "插件更新"
+
+msgid "New version available"
+msgstr "新版本可用"
+
+msgid "Library Updates"
+msgstr "库更新"
+
+msgid "New libraries available!"
+msgstr "新库可用！"
+
+msgctxt "Operator"
+msgid "Check library updates"
+msgstr "检查库更新"
+
+msgctxt "Operator"
+msgid "Try compile Exapack"
+msgstr "尝试编译 Exapack"
+
+msgid "General Options:"
+msgstr "常规选项："
+
+msgid "Material Type:"
+msgstr "材质类型"
+
+msgid "Check for updates every:"
+msgstr "检查更新频率："
+
+msgid "Show hidden sockets"
+msgstr "显示隐藏插口"
+
+msgid "Show group options"
+msgstr "显示组选项"
+
+msgid "Default Mapping type:"
+msgstr "默认映射类型："
+
+msgid "Auto link asset"
+msgstr "自动链接资产"
+
+msgid "Texture color spaces:"
+msgstr "纹理颜色空间："
+
+msgctxt "Operator"
+msgid "RGB: {rgb_name}"
+msgstr "RGB: {rgb_name}"
+
+msgctxt "Operator"
+msgid "BW: {bw_name}"
+msgstr "BW: {bw_name}"
+
+msgctxt "Operator"
+msgid "Try to reset to default (sRGB/Non-Color)"
+msgstr "尝试重置为默认值（sRGB/非色度）"
+
+msgid "Fix Options:"
+msgstr "修复选项"
+
+msgid "Anti crash"
+msgstr "防止崩溃"
+
+msgctxt "Operator"
+msgid "Find lost images"
+msgstr "查找丢失的图像"
+
+msgctxt "Operator"
+msgid "Purge ExtremeAddons Cache"
+msgstr "清除 ExtremeAddons 缓存"
+
+msgctxt "Operator"
+msgid "Reload All Mixers"
+msgstr "重新加载所有混音器"
+
+msgctxt "Operator"
+msgid "Adjust all material Node Tree"
+msgstr "调整所有材质节点树"
+
+msgctxt "Operator"
+msgid "Regenerate Previews and Icons"
+msgstr "重新生成预览和图标"
+
+msgid "Experimental Options:"
+msgstr "实验性选项:"
+
+msgid "Show Creator Utility"
+msgstr "显示创作者工具"
+
+msgid "Show Download debug"
+msgstr "显示下载调试"
+
+msgid "Interface Options:"
+msgstr "界面选项："
+
+msgid "Show material popup label"
+msgstr "显示材质弹出标签"
+
+msgid "Icon preview dimension"
+msgstr "图标预览尺寸"
+
+msgid "Icons popup size"
+msgstr "图标弹出窗口大小"
+
+msgid "Hide shader overlay Panel"
+msgstr "隐藏着色器覆盖面板"
+
+msgid "Hide material override Panel"
+msgstr "隐藏材质覆盖面板"
+
+msgid "Never check for updates automatically"
+msgstr "从不自动检查更新"
+
+msgid "Every {str(n)} Days"
+msgstr "每{str(n)}天"
+
+msgid "Check for the update every {str(n)} days"
+msgstr "每 {str(n)} 天检查一次更新"
+
+msgid "Use this menu if you want to re-link existing libraries ora Add new"
+msgstr "使用此菜单，您可以重新链接现有的库或添加新库。"
+
+msgid "OPTIONS"
+msgstr "选项"
+
+msgid "Options"
+msgstr "选项"
+
+msgid "Addon options"
+msgstr "插件选项"
+
+msgid "Show Helps"
+msgstr "显示帮助"
+
+msgid "Top Addons"
+msgstr "顶部插件列表"
+
+msgid "Use this menu to install the libraries"
+msgstr "使用此菜单安装库"
+
+msgid "Updates utility"
+msgstr "更新工具"
+
+msgid "Check frequency updates"
+msgstr "检查频率更新"
+
+msgid "Temporary directory for installation (Internal use only)"
+msgstr "安装临时目录（内部使用）"
+
+msgid "Expansion filepath"
+msgstr "扩展文件路径"
+
+msgid "Show in the Shader Editor, a panel for material and library creators. If you are not a material creator, please do not use this as it may damage the main library"
+msgstr "在着色器编辑器中显示一个面板，供材质和库的创建者使用。如果您不是材质创建者，请不要使用该功能，因为它可能会损坏主库"
+
+msgid "On some computers, there is an abnormal crash when adding a material. The bug has been reported to the Blender Foundation, until the cause is understood, keep this active if you encounter any abnormal crashes applying the materials."
+msgstr "在某些计算机上，添加材质时会出现异常崩溃。此问题已报告给 Blender 基金会，直到查明原因之前，如果遇到任何异常崩溃，请保持该选项启用状态。"
+
+msgid "If True, the sockets will be shown in the Shader Editor (Only for the Nexus Material Type"
+msgstr "如果为真，则会在着色器编辑器中显示插口（仅适用于 Nexus 材质类型）"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "Textures based on UV mapping"
+msgstr "基于 UV 映射的纹理"
+
+msgid "Box"
+msgstr "Box"
+
+msgid "Box-based textures (no displace)"
+msgstr "基于 Box 的纹理（无位移）"
+
+msgid "Sphere"
+msgstr "Sphere"
+
+msgid "Sphere-based textures (no displace)"
+msgstr "基于 Sphere 的纹理（无位移）"
+
+msgid "Tube"
+msgstr "Tube"
+
+msgid "Tube-based textures (no displace)"
+msgstr "基于管状的纹理（无置换）|||~|||如果不在纹理绘画模式下，"
+
+msgid "Prevents the uv layer of the texture paint from being selected if you are not in Texture Paint mode"
+msgstr "则防止选择该纹理的 UV 层|||~|||选择预览图标的尺寸。"
+
+msgid "Choose the previews icons dimension. Tips: Correct size = 1"
+msgstr "选择预览图标的尺寸。提示：正确尺寸为 1"
+
+msgid "Choose the popup icons dimension. Tips: Correct size = 1"
+msgstr "选择弹出图标尺寸。提示：正确尺寸为 1"
+
+msgid "Show enum label in preview buttons"
+msgstr "在预览按钮中显示枚举标签"
+
+msgid "Use this menu if this is your first time using {bl_idname}"
+msgstr "如果这是您第一次使用 {bl_idname}，请使用此菜单。"
+
+msgid "Check the installed modules"
+msgstr "检查已安装的模块"
+
+msgid "Use this menu if you have downloaded EXTREME_XPAND packages. If you do not have these packages or would like to know more, consult the user manual"
+msgstr "如果您已下载 EXTREME_XPAND 包，请使用此菜单。如果您没有这些包或想了解更多内容，请参阅用户手册。"
+
+msgid "Installation Path"
+msgstr "安装路径"
+
+msgid "Choose the path where to install the main library, a folder will be created automatically with the name EXTREME_PBR_LIB which will contain all the main library of materials"
+msgstr "选择安装主库的路径，将自动创建一个名为 EXTREME_PBR_LIB 的文件夹，其中包含所有材质库。"
+
+msgid "EXTREME_PBR_LIB"
+msgstr "EXTREME_PBR_LIB"
+
+msgid "You must choose the \"Extreme_PBR_Lib\" folder you downloaded."
+msgstr "您必须选择下载的\"Extreme_PBR_Lib\"文件夹。"
+
+msgid "User Library"
+msgstr "用户库"
+
+msgid "If you had previously created a material library (With Extreme PBR), enter the path If this is the first time you do it, you need to create a folder in a path that you feel is appropriate (The folder must be new and empty) and use it as a materials save folder.To the rest, Extreme PBR thinks of saving correctly"
+msgstr "如果您之前创建过材质库（带有 Extreme PBR），请输入路径。如果是第一次，您需要创建一个您认为合适的路径中的新空文件夹，并将其用作材质保存文件夹。其余部分，Extreme PBR 会正确保存。"
+
+msgid "Funzione interna per mostrare l'avanzamento dell'installazione"
+msgstr "内部功能用于显示安装进度。"
+
+msgid "Due to the maximum texture limit of 24 for Eevee, this feature (Enabled by default) attempts to limit the use of textures when a material has many Shaders and fx layers. Cons: Some maps may be disabled, starting from the FX Layers modules, then moving on to the Modules"
+msgstr "由于 Eevee 的最大纹理限制为 24，此功能（默认启用）尝试在材质具有多个着色器和 FX 层时限制纹理的使用。缺点：某些贴图可能会被禁用，从 FX 层模块开始，然后移动到模块。"
+
+msgid "This causes a message to be shown wherever you want, it must be assigned 0+ (GB), if the available disk memory is less than (Your choose)"
+msgstr "这会在您希望的任何地方显示一条消息，它必须分配 0+（GB），如果可用磁盘内存小于（您的选择）。"
+
+msgid "Show the Need update alert"
+msgstr "显示需要更新警报。"
+
+msgid "If true, need urgency the update"
+msgstr "如果为真，则需要紧急更新。"
+
+msgid "While downloading materials, additional information will be shown in the interface"
+msgstr "在下载材质时，界面中将显示附加信息。"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Nexus"
+msgstr "Nexus"
+
+msgid "Nexus material type, You can Mix And Paint your materials"
+msgstr "Nexus 材质类型，您可以混合和绘制您的材质"
+
+msgid "Simple Pbr"
+msgstr "简单 PBR"
+
+msgid "Simple pbr material without Nexus Groups, No Paint material and no Fx Layers. Only Simply PBR Material"
+msgstr "没有 Nexus Groups、无 Paint 材质和无 Fx Layers 的简单 pbr 材质。仅使用简单的 PBR 材质"
+
+msgid "If disabled, the texture will not be imported if it exists. Useful for saving resources if you don't intend to have detailed PBR material. It will only affect materials based on Texture Maps and not those saved in libraries in the form of .blend material"
+msgstr "如果禁用，则不会导入已存在的纹理。如果您不打算拥有详细的 PBR 材质，这可用于节省资源。它只会影响基于纹理映射的材质，而不会影响保存在库中的以 .blend 材质形式保存的材质"
+
+msgid "Exapacks"
+msgstr "Exapacks"
+
+msgid "Override the files if the file exists into destination path (Only if the the library already exists)"
+msgstr "如果文件存在于目标路径中，则覆盖该文件（仅当库已存在时）"
+
+msgid "Keep Exapack on disk"
+msgstr "保留 Exapack 在磁盘上"
+
+msgid "Keep exapacks files on disk (Requires a lot of disk memory, useless once installed)"
+msgstr "将 exapack 文件保留在磁盘上（需要大量磁盘内存，安装后无用）"
+
+msgid "RGB"
+msgstr "RGB"
+
+msgid "Color space for Diffuse-Albedo and other RGB maps with color, all materials will be applied with this color space"
+msgstr "颜色空间，用于漫反射-粗糙度和其他 RGB 贴图（包含颜色），所有材质都将使用此颜色空间应用"
+
+msgid "BW"
+msgstr "BW"
+
+msgid "Color space for Specular-Roughness and other BW maps without color, all materials will be applied with this color space"
+msgstr "颜色空间，用于高光-粗糙度和其他 BW 贴图（不包含颜色），所有材质都将使用此颜色空间应用"
+
+msgid "Toggle minimize or maximize the main panel"
+msgstr "切换最小化或最大化主面板"
+
+msgid "Hide the Shader Overlay Panel from the Extreme PBR (Not recommended to hide it)"
+msgstr "隐藏 Extreme PBR 中的着色器覆盖面板（不建议隐藏）"
+
+msgid "Hide the Material Override Panel from the Extreme PBR (Not recommended to hide it)"
+msgstr "隐藏 Extreme PBR 中的材质覆盖面板（不建议隐藏）"
+
+msgid "Show the addon updates"
+msgstr "显示插件更新"
+
+msgid "Show the library updates"
+msgstr "显示库更新"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "If enabled, when Blender starts, it will be checked if the connected libraries contain the asset files for the asset browser, if yes and the asset browser library does not exist in the Blender list, it will be added automatically"
+msgstr "如果启用，Blender 启动时会检查连接的库是否包含资产浏览器所需的资产文件。如果是且资产浏览器库不在 Blender 列表中，则会自动添加它"
+
+msgid "Remind me later update"
+msgstr "稍后提醒我更新"
+
+msgid "Use the Smart Shade Smooth properties by default"
+msgstr "默认使用智能平滑属性"
+
+msgid "The default value for 'Shade Smooth' if use_smart_auto_smooth_is_active is True"
+msgstr "当 use_smart_auto_smooth_is_active 为 True 时'Shade Smooth'的默认值"
+
+msgid "The default value for 'Use Auto Smooth' if use_smart_auto_smooth_is_active is True"
+msgstr "当 use_smart_auto_smooth_is_active 为 True 时'Use Auto Smooth'的默认值"
+
+msgid "The default value for 'Angle' if use_smart_auto_smooth_is_active is True"
+msgstr "当 use_smart_auto_smooth_is_active 为 True 时'Angle'的默认值"
+
+msgid "The default value for 'Ignore Sharpness' if use_smart_auto_smooth_is_active is True"
+msgstr "当 use_smart_auto_smooth_is_active 为 True 时'Ignore Sharpness'的默认值"
+
+msgid "Choose"
+msgstr "选择"
+
+msgctxt "Operator"
+msgid "InstallationSteps"
+msgstr "安装步骤"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Go Back"
+msgstr "返回上一页"
+
+msgid "Next"
+msgstr "下一页"
+
+msgid "Go to Next"
+msgstr "前往下一页"
+
+msgctxt "Operator"
+msgid "Add"
+msgstr "添加"
+
+msgctxt "Operator"
+msgid "Diffuse"
+msgstr "漫反射"
+
+msgctxt "Operator"
+msgid "Light"
+msgstr "光源"
+
+msgid "Emission Color"
+msgstr "发光颜色"
+
+msgid "Object: '{o.name}' Contains the maximum limit of 8 UV Layers, this limit is imposed by Blender. I suggest you Delete a UV Layers as Bake requires a free UV Layers slot"
+msgstr "对象：'{o.name}' 最多包含 8 个 UV 层，这是 Blender 的限制。建议您删除一个 UV 层，因为烘焙需要一个空闲的 UV 层槽位"
+
+msgid "Object: {o.name} Material: {mat.name} Bake cannot be done via Bsdf Bake Mode. However, you can use the Bake Cycles Standard or Combined"
+msgstr "对象：{o.name} 材质：{mat.name} 无法通过 BSDF 烘焙模式进行烘焙。但是，您可以使用“烘焙循环标准”或“混合”"
+
+msgid "Alpha"
+msgstr "Alpha"
+
+msgid "The object: '{ob.name}' has no data, so it cannot be baked, please deseleced it and try again"
+msgstr "对象：'{ob.name}' 没有数据，因此无法烘焙，请取消选择它并重新尝试"
+
+msgid "The object: '{ob.name}' has not the attribute uv_layers, so it cannot be baked, please deseleced it and try again"
+msgstr "对象：'{ob.name}' 缺少 uv_layers 属性，因此无法烘焙，请取消选择它并重新尝试"
+
+msgid "The object: '{ob.name}' has no UV Map, so it cannot be baked, please use Create New UV Map in the bake operator settings and try again"
+msgstr "对象：'{ob.name}' 没有 UV Map，因此无法烘焙，请在烘焙操作设置中使用“创建新 UV Map\"并重新尝试"
+
+msgctxt "Operator"
+msgid "Bake Editor"
+msgstr "烘焙编辑器"
+
+msgid "Margin"
+msgstr "边距"
+
+msgid "Margin for UV Bake"
+msgstr "UV 烘焙的边距"
+
+msgid "Margin Type"
+msgstr "边距类型"
+
+msgid "Margin Type for UV Bake"
+msgstr "UV 烘焙的边距类型"
+
+msgid "Smart Projection"
+msgstr "智能投影"
+
+msgid "Useful for baking objects with complex shapes, such as characters, etc. If active, the bake will be done with Smart Projection, otherwise it will be done with the default method"
+msgstr "适用于形状复杂的对象的烘焙，例如角色等。如果启用，将使用智能投影进行烘焙；否则将使用默认方法"
+
+msgid "UV Map Source"
+msgstr "UV 贴图来源"
+
+msgid "UV Map Source for UV Bake"
+msgstr "用于 UV 烘焙的 UV 贴图来源"
+
+msgid "Use Active"
+msgstr "使用当前活动"
+
+msgid "Use the current active UV Map"
+msgstr "使用当前的活动 UV 贴图"
+
+msgid "Create New"
+msgstr "创建新"
+
+msgid "Create a new UV Map"
+msgstr "创建一个新的 UV 贴图"
+
+msgid "Bake Mode:"
+msgstr "烘焙模式:"
+
+msgid "Bake Mode"
+msgstr "烘焙模式"
+
+msgid "Output Format:"
+msgstr "输出格式:"
+
+msgid "Bake Samples"
+msgstr "烘焙采样"
+
+msgid "Device:"
+msgstr "设备:"
+
+msgid "Bake Size"
+msgstr "烘焙尺寸"
+
+msgid "Margin:"
+msgstr "边距:"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Move bake objects into a new scene"
+msgstr "将烘焙对象移动到新场景"
+
+msgid "Export FBX Object"
+msgstr "导出 FBX 对象"
+
+msgid "Flip x-axis"
+msgstr "翻转 X 轴"
+
+msgid "UV Margin"
+msgstr "UV 边距"
+
+msgid "Make Smart Projection"
+msgstr "智能投影"
+
+msgid "Lighting:"
+msgstr "光照:"
+
+msgid "Direct light"
+msgstr "直接光"
+
+msgid "Indirect light"
+msgstr "间接光"
+
+msgid "Diffuse"
+msgstr "漫射"
+
+msgid "Specular"
+msgstr "高光"
+
+msgid "Roughness"
+msgstr "粗糙度"
+
+msgid "Metallic"
+msgstr "金属度"
+
+msgid "Transmission"
+msgstr "透射"
+
+msgid "Emission"
+msgstr "自发光"
+
+msgid "Normal"
+msgstr "法线"
+
+msgid "Glossy"
+msgstr "光泽"
+
+msgid "Emit"
+msgstr "发射"
+
+msgid "Contributions:"
+msgstr "贡献："
+
+msgid "Please, choose at least one of the two Lighting options"
+msgstr "请至少选择两个光照选项之一"
+
+msgid "Alpha in a separate texture"
+msgstr "在单独的纹理中设置 Alpha"
+
+msgid "Normal Type:"
+msgstr "法线类型:"
+
+msgid "Choose bake destination:"
+msgstr "选择烘焙目标:"
+
+msgid "Enter the path"
+msgstr "输入路径"
+
+msgid "Press Ok to start the bake"
+msgstr "按 OK 开始烘焙"
+
+msgid "Operation canceled"
+msgstr "操作已取消"
+
+msgid "Finished !"
+msgstr "完成！"
+
+msgid "No objects selected, please select at least one object to bake"
+msgstr "未选择任何对象，请至少选择一个对象进行烘焙"
+
+msgid "Please Check one of the following two options: Direct or Indirect (Under Lighting label)"
+msgstr "请在“照明”标签下选择以下两个选项之一：直接或间接"
+
+msgid "Please save the project before proceeding to Bake, the name of the folder that will contain the texture files will take the name of the project"
+msgstr "在继续烘焙之前请先保存项目，存放纹理文件的文件夹将使用项目名称作为名称"
+
+msgid "Please enter a correct path, it is used to save the bake textures"
+msgstr "请输入正确的路径，该路径用于保存烘焙的纹理文件"
+
+msgid "Attention no valid object selected"
+msgstr "警告：未选择有效对象"
+
+msgid "Attention, it is not possible to bake on the following objects, as some materials are not compatible with the Bake of Extreme PBR. To bake correctly, make sure you have materials actually applied to the selected objects. Also make sure the materials have been applied with Extreme PBR Nexus 4.0.100+. Also make sure that you have not disabled 'use nodes' in any material. Please follow the instructions in the web menu, there is the link to the online manual."
+msgstr "警告，无法对以下对象进行烘焙，因为某些材质与 Extreme PBR 烘焙不兼容。要正确烘焙，请确保已为所选对象应用了材质。同时请确保材质已通过 Extreme PBR Nexus 4.0.100+ 应用。请按照网页菜单中的说明操作，其中包含在线手册的链接。"
+
+msgid "It was not possible to export FBX, the {} addon was not found in the list of default Blender addons,make sure you are using an official version of Blender, if the problem persists, contact the addon author"
+msgstr "无法导出 FBX，{} 插件未找到默认 Blender 插件列表中，请确保使用的是官方版本的 Blender，如果问题仍然存在，请联系插件作者"
+
+msgid "Color Ramp Tools"
+msgstr "颜色渐变工具"
+
+msgid "Extreme PBR"
+msgstr "Extreme PBR"
+
+msgid "Color Ramp Manager"
+msgstr "颜色渐变管理器"
+
+msgctxt "Operator"
+msgid "Save"
+msgstr "保存"
+
+msgctxt "Operator"
+msgid "Rename"
+msgstr "重命名"
+
+msgid "Choose the coloring system"
+msgstr "选择着色系统"
+
+msgid "Choose the type of manufacturer"
+msgstr "选择制造商类型"
+
+msgid "Choose the color by name"
+msgstr "按名称选择颜色"
+
+msgid "Color System:"
+msgstr "着色系统:"
+
+msgid "System"
+msgstr "系统"
+
+msgid "Category"
+msgstr "类别"
+
+msgctxt "Operator"
+msgid "Search color name"
+msgstr "搜索颜色名称"
+
+msgid "Color Sample: {colabProp.color_lab_show_name}"
+msgstr "颜色样本：{colabProp.color_lab_show_name}"
+
+msgid "%02x%02x%02x"
+msgstr "%02x%02x%02x"
+
+msgctxt "Operator"
+msgid "Save Color Ramp Preset"
+msgstr "保存颜色渐变预设"
+
+msgid "Save Color Ramp Preset"
+msgstr "保存颜色渐变预设"
+
+msgid "No"
+msgstr "否"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "Insert the name of the preset"
+msgstr "输入预设名称"
+
+msgid "Preset Name"
+msgstr "预设名称"
+
+msgid "Are you sure you want to save the color ramp preset?"
+msgstr "您确定要保存此颜色渐变预设吗？"
+
+msgid "Preset name cannot be empty"
+msgstr "预设名称不能为空"
+
+msgid "Cannot create color_lab folder, error: {str(e)}"
+msgstr "无法创建 color_lab 文件夹，错误：{str(e)}"
+
+msgid "Preset name already exists"
+msgstr "预设名称已存在"
+
+msgctxt "Operator"
+msgid "Remove Color Ramp Preset"
+msgstr "移除颜色渐变预设"
+
+msgid "Remove Color Ramp Preset"
+msgstr "移除颜色渐变预设"
+
+msgid "Insert the name of the category"
+msgstr "输入类别名称"
+
+msgid "The preset {} will be removed from the list"
+msgstr "将从列表中删除预设 {}"
+
+msgid "Are you sure you want to remove the color ramp preset?"
+msgstr "您确定要删除该颜色渐变预设吗？"
+
+msgid "You can't remove Default presets, you can only remove the ones you created (The ones with the icon next to the name)"
+msgstr "无法删除默认预设，只能删除您创建的预设（带有名称旁边的图标的预设）"
+
+msgid "No color_ramp_presets.json file found"
+msgstr "未找到 color_ramp_presets.json 文件"
+
+msgid "No default_preset found in color_ramp_presets.json file"
+msgstr "color_ramp_presets.json 文件中未找到默认预设"
+
+msgid "Preset name ({}) not found"
+msgstr "预设名称 ({}) 未找到"
+
+msgctxt "Operator"
+msgid "Search Color Ramp"
+msgstr "搜索颜色渐变"
+
+msgid "Search Color Ramp"
+msgstr "搜索颜色渐变"
+
+msgctxt "Operator"
+msgid "Assign Color to Ramp Element"
+msgstr "将颜色分配给渐变的元素"
+
+msgid "Assign Color to Ramp Element"
+msgstr "将颜色分配给渐变的元素"
+
+msgid "Assign to single element"
+msgstr "分配给单个元素"
+
+msgid "Assign to all elements"
+msgstr "分配给所有元素"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Assign color to the element"
+msgstr "将颜色分配给该元素"
+
+msgid "Assign color to all elements with this same color"
+msgstr "将此相同颜色分配给所有元素"
+
+msgctxt "Operator"
+msgid "Scroll Color Ramp Preset"
+msgstr "滚动颜色渐变预设"
+
+msgid "Scroll Color Ramp Preset"
+msgstr "滚动颜色渐变预设"
+
+msgid "Up"
+msgstr "向上"
+
+msgid "Down"
+msgstr "向下"
+
+msgid "Scroll Up"
+msgstr "向上滚动"
+
+msgid "Scroll Down"
+msgstr "向下滚动"
+
+msgctxt "Operator"
+msgid "Rename Color Ramp Preset"
+msgstr "重命名颜色渐变预设"
+
+msgid "Rename Color Ramp Preset"
+msgstr "重命名颜色渐变预设"
+
+msgid "You can't rename Default presets, you can only rename the ones you created (The ones with the icon next to the name)"
+msgstr "您无法重命名默认预设，只能重命名您创建的预设（名称旁边的图标表示该预设是您创建的）"
+
+msgid "Current Preset Name: {}"
+msgstr "当前预设名称：{}"
+
+msgid "New Name"
+msgstr "新名称"
+
+msgid "Preset name already exists in the default presets. Please choose another name (the upper and lower case are not considered)"
+msgstr "预设名称已在默认预设中存在。请选择另一个名称（不区分大小写）"
+
+msgid "Preset name already exists in the user presets. Please choose another name (the upper and lower case are not considered)"
+msgstr "预设名称已在用户预设中存在。请选择另一个名称（不区分大小写）"
+
+msgid "No valid color_ramp_presets.json file found"
+msgstr "未找到有效的 color_ramp_presets.json 文件"
+
+msgctxt "Operator"
+msgid "Randomize Color Ramp"
+msgstr "随机化颜色渐变"
+
+msgid "Randomize Color Ramp"
+msgstr "随机化颜色渐变"
+
+msgid "Number of elements, min 2, max 32"
+msgstr "元素数量，最小值 2，最大值 32"
+
+msgid "Same distance between elements"
+msgstr "元素之间等距分布"
+
+msgid "Keep the first element at 0.0 and the last at 1.0"
+msgstr "将第一个元素保持在 0.0，最后一个元素保持在 1.0"
+
+msgid "Type of interpolation"
+msgstr "插值类型"
+
+msgid "Randomize interpolation (Skip the selected interpolation)"
+msgstr "随机化插值（跳过选定的插值）"
+
+msgid "Type of hue interpolation"
+msgstr "色相插值类型"
+
+msgid "Randomize hue interpolation (Skip the selected hue interpolation)"
+msgstr "随机化色相插值（跳过选定的色相插值）"
+
+msgid "Type of color mode"
+msgstr "颜色模式类型"
+
+msgid "Randomize color mode (Skip the selected color mode)"
+msgstr "随机化颜色模式（跳过选定的颜色模式）"
+
+msgid "Randomize color ramp elements"
+msgstr "随机化颜色渐变元素"
+
+msgid "Number of elements"
+msgstr "元素数量"
+
+msgid "Fix Range"
+msgstr "固定范围"
+
+msgid "Equidistant"
+msgstr "等距"
+
+msgid "Interpolation"
+msgstr "插值"
+
+msgid "Hue Interpolation"
+msgstr "色相插值"
+
+msgid "Color Mode"
+msgstr "颜色模式"
+
+msgctxt "Operator"
+msgid "Image to Ramp Samples"
+msgstr "图像到渐变采样"
+
+msgid "Image to Ramp Samples"
+msgstr "图像到渐变采样"
+
+msgid "Number of Colors"
+msgstr "颜色数量"
+
+msgid "Grab the number of most used colors from the image"
+msgstr "从图像中抓取最常用颜色的数量"
+
+msgid "Precision"
+msgstr "精度"
+
+msgid "Precision of the color grab"
+msgstr "颜色抓取的精度"
+
+msgctxt "Operator"
+msgid "Previous color"
+msgstr "上一个颜色"
+
+msgctxt "Operator"
+msgid "Search Hex"
+msgstr "搜索十六进制"
+
+msgid "search_hex"
+msgstr "搜索十六进制颜色"
+
+msgctxt "Operator"
+msgid "Color Utility"
+msgstr "色彩工具"
+
+msgid "Replace color A with color B and color B with color A"
+msgstr "用颜色 B 替换颜色 A，并用颜色 A 替换颜色 B"
+
+msgid "Assign color A to color B as well"
+msgstr "将颜色 A 分配给颜色 B"
+
+msgctxt "Operator"
+msgid "Color Lab"
+msgstr "色彩实验室"
+
+msgid "Assign to socket"
+msgstr "分配至插口"
+
+msgid "Assign to paint"
+msgstr "分配至着色器"
+
+msgid "Assign to color ramp"
+msgstr "分配至渐变"
+
+msgid "Unable to create Fake Material"
+msgstr "无法创建假材质"
+
+msgid "Transparent Subtract"
+msgstr "透明减去"
+
+msgid "Subsurface Scale"
+msgstr "次表面散射缩放"
+
+msgid "Subsurface IOR"
+msgstr "次表面散射 IOR"
+
+msgid "Subsurface Anisotropy"
+msgstr "次表面散射各向异性"
+
+msgid "Coat IOR"
+msgstr "涂层 IOR"
+
+msgid "No Material and no Node Group, Impossible to convert the material"
+msgstr "没有材质和节点组，无法转换材质"
+
+msgid "No Material and no Node Group in the input, Impossible to convert the material"
+msgstr "没有输入中的材质和节点组，无法转换材质"
+
+msgid "No images found in the material, Impossible to convert the material"
+msgstr "在材质中未找到图像，无法转换该材质。"
+
+msgctxt "Operator"
+msgid "Convert Old Library"
+msgstr "转换旧图书馆"
+
+msgid "Convert Default Library to new library"
+msgstr "将默认库转换为新库"
+
+msgid "Convert User Library to new library"
+msgstr "将用户库转换为新库"
+
+msgid "This operation, if you agree, will convert your old {} library to the new one. This is necessary to make the old libraries work with the new version of the addon. This process can take a long time, it depends on the amount of files Alternatively, you can download the new libraries from the site where you purchased the addon. If you are not sure, do nothing and decide whether to keep the old library or download the new one."
+msgstr "此操作，如果您同意，将把您的旧 {} 库转换为新库。这是为了使旧库能够在新版本的插件中正常工作。该过程可能需要很长时间，具体取决于文件数量。或者，您可以从购买插件的网站下载新库。如果您不确定，请什么都不做，并决定是保留旧库还是下载新库。"
+
+msgid "Press Ok to start the conversion, or Esc to abort"
+msgstr "按 Enter 键开始转换，或按 Esc 取消操作"
+
+msgid "Please choose a valid DESTINATION path for the default library conversion"
+msgstr "请选择有效的默认库转换目标路径"
+
+msgid "Please choose a valid DESTINATION path for the user library conversion"
+msgstr "请选择有效的用户库转换目标路径"
+
+msgid "ConvertLibraryUtils"
+msgstr "转换库工具类"
+
+msgid "01k"
+msgstr "01k"
+
+msgid "02k"
+msgstr "02k"
+
+msgid "04k"
+msgstr "04k"
+
+msgid "08k"
+msgstr "08k"
+
+msgid "It was not possible to apply the anti tile in this node group {}"
+msgstr "无法在此节点组中应用平铺纹理{}"
+
+msgid "Use displacement"
+msgstr "使用置换贴图"
+
+msgid "Scale the UVs Map"
+msgstr "缩放 UV 贴图"
+
+msgid "Move the UVs Map on X Axis"
+msgstr "沿 X 轴移动 UV 贴图"
+
+msgid "Move the UVs Map on Y Axis"
+msgstr "沿 Y 轴移动 UV 贴图"
+
+msgid "Rotate the UVs Map, pivot point is in the center of the Face selected"
+msgstr "旋转 UV 贴图，枢轴点为所选面的中心"
+
+msgid "Texture Paint"
+msgstr "纹理绘制"
+
+msgid "All types of painting will be of the 'Texture Paint' type, much more accurate"
+msgstr "所有类型的绘画都将是“纹理绘制”类型，更加精确"
+
+msgid "Pixel size of the masks used for texture painting. The higher the number of pixels, the more defined the texture paint will be, but you will drastically lose computer performance with the risk of very long freezes"
+msgstr "用于纹理绘制的遮罩的像素大小。像素数量越多，纹理绘画越清晰，但会严重降低计算机性能，并可能导致长时间卡顿"
+
+msgid "Ultra fast, but very low quality"
+msgstr "超快，但质量很低"
+
+msgid "Fast,but low quality"
+msgstr "快速，但质量较低"
+
+msgid "Good compromise but still low quality"
+msgstr "这是一个很好的妥协，但质量仍然不高"
+
+msgid "2k quality, but the paint speed will begin to decrease"
+msgstr "2k 质量，但油漆速度会开始下降"
+
+msgid "4k quality, great, but painting will be slow"
+msgstr "4k 质量，很好，但绘画会很慢"
+
+msgid "8k, very good quality, but very slow painting"
+msgstr "8k，质量非常好，但绘画非常缓慢"
+
+msgid "Show Paint Editor"
+msgstr "显示油漆编辑器"
+
+msgid "Hide the displacement without deleting it"
+msgstr "在不删除的情况下隐藏位移"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Unknown material type"
+msgstr "未知材质类型"
+
+msgid "Nexus material type"
+msgstr "Nexus 材质类型"
+
+msgid "Nexus Simplified"
+msgstr "Nexus 简化版"
+
+msgid "Nexus material type simplified, the start module is simplified"
+msgstr "Nexus 材质类型简化，起始模块已简化"
+
+msgid "Simple pbr material without Nexus Groups"
+msgstr "不含 Nexus Groups 的简单 PBR 材质"
+
+msgid "Keep track of the Extreme PBR selector about the material version, so it stores the version name, so that it can be compared with the applied material version, so that for example the 1k material can be replaced with the 2k material while keeping the properties of the 1k material, this to avoid that if you only want to change the resolution of the textures you lose the material settings"
+msgstr "跟踪关于材质的 Extreme PBR 选择器版本信息，因此它存储版本号，以便与应用的材质版本进行比较。例如，可以将 1k 材质替换为 2k 材质，同时保留 1k 材质的属性，这样可以避免如果您只想更改纹理分辨率时丢失材质设置的情况。"
+
+msgid "No Mapping"
+msgstr "无映射"
+
+msgid "No presets found"
+msgstr "未找到预设"
+
+msgid "Tag nodes of type TEX_IMAGE to make the workflow on this addon easier. The whole interface, especially the functions, will recognize these tags, and will be fundamental for many operations"
+msgstr "将 TEX_IMAGE 类型的节点标记为标签，以便使此附加组件的工作流程更简单。整个界面，尤其是函数，都将识别这些标签，这对于许多操作至关重要。"
+
+msgid "If active, this node will be considered by the \"Mapping Editor\" menu. Only for node type Texture Image"
+msgstr "如果启用，该节点将被“映射编辑器”菜单考虑。仅适用于 Texture Image 节点类型。"
+
+msgid "Choose the type of mapping to use for this material-node group"
+msgstr "选择用于此材质节点组的映射类型。"
+
+msgid "Identifier, to put all effects on line from the module. Module have ever 0 idx"
+msgstr "标识符，用于将所有效果按行从模块中排列。模块始终有 0 索引。"
+
+msgid "Identifier, for which 1,2,3,4 maximum. Where 1 is the first line of Modules / Fxs and 4 is the last"
+msgstr "标识符，最大值为 1、2、3、4。其中 1 是第一个模块/FX 行，4 是最后一行。"
+
+msgid "This property works in symbiosis with the operator that assigns the color ramp to the socket, so that the socket is associated with the number 'node_color_ramp_id_number' of the color ramp node"
+msgstr "该属性与将颜色渐变分配给插孔的操作符协同工作，使插孔与颜色渐变节点的编号“node_color_ramp_id_number\"相关联。"
+
+msgid "This property is used to store the color ramp properties, in order to be able to restore them with the restore function of the addon interface"
+msgstr "该属性用于存储颜色渐变属性，以便能够通过插件界面的恢复功能进行还原。"
+
+msgid "For Box projection, amount of blend to use between sides (Update all Texture images contained in the Extreme PBR nodes or Nexus Module"
+msgstr "对于盒投影，用于侧面之间混合的混合量（更新所有包含在极端 PBR 节点或 Nexus 模块中的纹理图像）"
+
+msgid "projection"
+msgstr "投影"
+
+msgid "Projection type (Update all Texture images contained in the Extreme PBR nodes or Nexus Module)"
+msgstr "投影类型（更新所有包含在极端 PBR 节点或 Nexus 模块中的纹理图像）"
+
+msgid "List of all texture nodes present in Blender"
+msgstr "Blender 中所有纹理节点的列表"
+
+msgid "Change the link of the single socket"
+msgstr "更改单个插座的链接"
+
+msgid "Show Color Ramp Tools"
+msgstr "显示颜色渐变工具"
+
+msgid "Close Panel"
+msgstr "关闭面板"
+
+msgid "Open and close the Panel items_tree"
+msgstr "打开和关闭面板 items_tree"
+
+msgid "You can choose this texture ( {image.name} ) which is available in the node of the {tag_title} map To simulate the normal map."
+msgstr "您可以选择此纹理（{image.name}），该纹理在 {tag_title} 映射的节点中可用，用于模拟法线贴图。"
+
+msgid "Hand painting"
+msgstr "手绘"
+
+msgid "It was not possible to apply the anti tile in this node group because {}"
+msgstr "无法在此节点组中应用反瓦片，因为{}"
+
+msgid "Tiene traccia della categoria del nodo gruppo"
+msgstr "Tiene traccia della categoria del nodo gruppo"
+
+msgid "Nome del nodo gruppo"
+msgstr "组节点名称"
+
+msgid "Enter the key of the documentation page. Example: YOUR_NODE_GROUP_NAME-->https://docs/your-doc-page, the key is into the online documentation json"
+msgstr "输入文档页面的键。示例：YOUR_NODE_GROUP_NAME-->https://docs/your-doc-page，键位于在线文档的 JSON 中。"
+
+msgid "Replaces the normal map, with a generated map. Useful for saving the use of textures."
+msgstr "用生成的贴图替换正常贴图。可用于节省纹理的使用量。"
+
+msgid "Check if the image node is turned off or why it has been simplified"
+msgstr "检查图像节点是否已关闭，或为何已被简化"
+
+msgid "Enter a description if you want, a button will be shown to show it in a popup. Useful to help the user. Enter a minimum of 10 characters to show the description"
+msgstr "输入描述（可选），将显示一个按钮以在弹出窗口中显示它。这有助于帮助用户。至少输入 10 个字符才能显示描述。"
+
+msgid "Show tips next to values if tips exist"
+msgstr "在值旁边显示提示（如果存在的话）"
+
+msgid "Use the image's alpha channel as transparent (If the image has the alpha channel)"
+msgstr "使用图像的 Alpha 通道作为透明（如果图像有 Alpha 通道）"
+
+msgid "Show Lock Property, useful for lock the properties if you need to reset the node at the Default Value, but you don't want to lose some properties"
+msgstr "显示锁定属性，在需要重置节点为默认值但不想丢失某些属性时非常有用。"
+
+msgid "Keep Track of the Nexus Modular Version"
+msgstr "记录 Nexus 模块化版本信息"
+
+msgid "If enabled, the Subsurface will be used"
+msgstr "如果启用，将使用次表面散射。"
+
+msgid "If enabled, the Anisotropic will be used"
+msgstr "如果启用，将使用各向异性"
+
+msgid "If enabled, the Coat will be used"
+msgstr "如果启用，将使用涂层"
+
+msgid "If enabled, the Sheen will be used"
+msgstr "如果启用，将使用高光"
+
+msgid "If enabled, the Emission will be used"
+msgstr "如果启用，将使用发光"
+
+msgid "If enabled, the Transmission will be used"
+msgstr "如果启用，将使用传输协议"
+
+msgid "If enabled, the Alpha will be used"
+msgstr "如果启用，将使用 Alpha 通道"
+
+msgid "If enabled, the Anti Tile will be used if possible"
+msgstr "如果启用，将尽可能使用抗锯齿贴图"
+
+msgid "Show Mapping Menu"
+msgstr "显示映射菜单"
+
+msgid "Mark temporary objects created by the X-PBR system"
+msgstr "标记由 X-PBR 系统创建的临时对象"
+
+msgid "It keeps track of the baked objects"
+msgstr "它跟踪烘焙对象"
+
+msgid "Modifier"
+msgstr "修改器"
+
+msgid "Microdisplacement"
+msgstr "微位移"
+
+msgid "Microdisplacement, works only on Cycles, and in render mode"
+msgstr "微位移，仅适用于 Cycles 渲染器，且仅在渲染模式下生效。"
+
+msgid "This property is used to store the COORDINATE_HANDLER object_id_name, need to be converted to a dictionary"
+msgstr "该属性用于存储 COORDINATE_HANDLER 的 object_id_name，需要转换为字典。"
+
+msgid "Add vertex group for displace modifier if exist,when assigning a material"
+msgstr "为置换修改器添加顶点组（如果存在），在分配材质时执行。"
+
+msgid "Material settings"
+msgstr "材质设置"
+
+msgid "Displacement map options"
+msgstr "位移贴图选项"
+
+msgid "Use for 'Copy link material': toggle on to apply a copy of the displace modifier to the selected target objects (If modifier exist in source object)"
+msgstr "用于“复制链接材质”：切换以将所选目标对象应用副本的置换修改器（如果源对象存在修改器）"
+
+msgid "Glass settings (Only for objects with 'Easy glass inside')"
+msgstr "玻璃设置（仅适用于带有“简易玻璃内部”的对象）"
+
+msgid "Management of storage materials"
+msgstr "存储材质的管理"
+
+msgid "Add new category"
+msgstr "添加新类别"
+
+msgid "You can choose the type of preview with which your material will be displayed"
+msgstr "您可以选择您的材质将以哪种类型的预览进行显示"
+
+msgid "Plane"
+msgstr "平面"
+
+msgid "Uv Sphere"
+msgstr "UV 球体"
+
+msgid "Cube"
+msgstr "立方体"
+
+msgid "Shader ball"
+msgstr "着色器球"
+
+msgid "Monkey"
+msgstr "猴子"
+
+msgid "Road"
+msgstr "道路"
+
+msgid "Car shape"
+msgstr "汽车形状"
+
+msgid "Square"
+msgstr "方形"
+
+msgid "Low poly Sphere"
+msgstr "低多边形球体"
+
+msgid "Cone"
+msgstr "圆锥体"
+
+msgid "SPHERE###XTM_SHADER###"
+msgstr "SPHERE###XTM_SHADER###"
+
+msgid "PLANE###XTM_SHADER###"
+msgstr "PLANE###XTM_SHADER###"
+
+msgid "UV_SPHERE###XTM_SHADER###"
+msgstr "UV_SPHERE###XTM_SHADER###"
+
+msgid "CUBE###XTM_SHADER###"
+msgstr "CUBE###XTM_SHADER###"
+
+msgid "SHADER_BALL###XTM_SHADER###"
+msgstr "SHADER_BALL###XTM_SHADER###"
+
+msgid "MONKEY###XTM_SHADER###"
+msgstr "MONKEY###XTM_SHADER###"
+
+msgid "ROAD###XTM_SHADER###"
+msgstr "ROAD###XTM_SHADER###"
+
+msgid "CAR###XTM_SHADER###"
+msgstr "CAR###XTM_SHADER###"
+
+msgid "FX_TABLE###XTM_SHADER###"
+msgstr "FX_TABLE###XTM_SHADER###"
+
+msgid "UV_SPHERE_LowPoly###XTM_SHADER###"
+msgstr "UV_SPHERE_LowPoly###XTM_SHADER###"
+
+msgid "CONE###XTM_SHADER###"
+msgstr "CONE###XTM_SHADER###"
+
+msgid "Show the material name in the icon preview"
+msgstr "在图标预览中显示材质名称"
+
+msgid "Choose the quality of the preview render icon, 32 = Fast Render but lose quality, 500 = Slow render HQ image preview"
+msgstr "选择预览渲染图标的质量，32 = 快速渲染但会损失质量，500 = 慢速渲染高画质图片预览"
+
+msgid "This is to resize the texture to your liking for saving render icon"
+msgstr "这是为了将纹理调整为您喜欢的尺寸以保存渲染图标"
+
+msgid "This rotates the texture in the save rendering, of 0-90-180 used to orient the direction, if necessary."
+msgstr "这会在保存渲染时旋转纹理，0-90-180 用于定向方向，如有需要。"
+
+msgid "0°"
+msgstr "0°"
+
+msgid "90°"
+msgstr "90°"
+
+msgid "180°"
+msgstr "180°"
+
+msgid "Lock the X axis of the UVs map"
+msgstr "锁定 UV 映射的 X 轴"
+
+msgid "Lock the Y axis of the UVs map"
+msgstr "锁定 UV 映射的 Y 轴"
+
+msgid "Choose which hardware to use for rendering, currently it is faster to render via GPU, but if you have little ram video memory it could cause crashes, in this case use the Cpu engine"
+msgstr "选择用于渲染的硬件，目前通过 GPU 渲染更快，但如果您的视频内存很小可能会导致崩溃，在这种情况下请使用 CPU 引擎"
+
+msgid "Gpu"
+msgstr "GPU"
+
+msgid "Cpu"
+msgstr "CPU"
+
+msgid "Choose the version of the material"
+msgstr "选择材质的版本"
+
+msgid "Dots"
+msgstr "点"
+
+msgid "Apply paint on each mouse move step"
+msgstr "在每次鼠标移动时应用油漆"
+
+msgid "Airbrush"
+msgstr "喷枪"
+
+msgid "Keep apply paint effect while holding mouse (spray)"
+msgstr "按住鼠标时保持油漆效果（喷洒）"
+
+msgid "Line"
+msgstr "线条"
+
+msgid "Draw line with dabs separated according to spacing"
+msgstr "根据间距绘制由点组成的线条"
+
+msgid "It takes into account the change of bpy.data.images number"
+msgstr "它考虑了 bpy.data.images 数量的变化"
+
+msgid "activates the adaptive subdivision, automatically sets the \"Experimental Features\" of cycles."
+msgstr "启用自适应细分，自动设置 Cycles 的“实验性功能”。"
+
+msgid "This is a kind of Password, it allows you to put any string, to make it difficult for a user to modify these json files. For example, the Extreme PBR library has Permission: Andrew_D, if you use Andrew_D, you will be able to edit the data_info.json files (Practice that should not be done). So use your name, or something similar. So users won't modify your mat_info.json"
+msgstr "这是一种密码，允许您输入任何字符串，以增加用户修改这些 JSON 文件的难度。例如，Extreme PBR 库具有权限：Andrew_D，如果您使用 Andrew_D，您将能够编辑 data_info.json 文件（本不应执行的操作）。因此请使用您的名字或类似内容，这样用户就不会修改您的 mat_info.json"
+
+msgid "Use existing images if it exists. Useful for not reloading the same image several times."
+msgstr "如果存在则使用现有图像。对于避免重复加载同一张图像很有用。"
+
+msgid "Shows a compact menu for searching the Extreme PBR library materials"
+msgstr "显示用于搜索 Extreme PBR 库材质的紧凑菜单"
+
+msgid "Enter the tags you want to search for, keep the tags separated by a space"
+msgstr "输入您想要搜索的标签，用空格分隔各个标签"
+
+msgid "Enter the tags you want to exclude, keep the tags separated by a space"
+msgstr "输入您要排除的标签，用空格分隔各个标签"
+
+msgid "Show tag search box, keep search box open if you are using a search. Close the search box and you will return to view all materials."
+msgstr "显示标签搜索框，如果您正在使用搜索功能则保持搜索框打开。关闭搜索框后您将返回查看所有材质。"
+
+msgid "Shows the tools for editing the tags of this material"
+msgstr "显示编辑此材质标签的工具"
+
+msgid "Switch to USER library"
+msgstr "切换到用户库"
+
+msgid "Restore Paint Instrument"
+msgstr "恢复画笔工具"
+
+msgid "Space between one node and another"
+msgstr "节点之间的间距"
+
+msgid "If active, the alpha channel will be separated into a dedicated texture"
+msgstr "如果启用，alpha 通道将被分离为专用的纹理"
+
+msgid "Add direct lighting contribution"
+msgstr "添加直接光照贡献"
+
+msgid "Add indirect lighting contribution"
+msgstr "添加间接光照贡献"
+
+msgid "Choose a path to save a new folder containing the baked textures"
+msgstr "选择路径以保存包含烘焙纹理的新文件夹"
+
+msgid "PNG"
+msgstr "PNG"
+
+msgid "JPEG"
+msgstr "JPEG"
+
+msgid "EXR"
+msgstr "EXR"
+
+msgid "TIFF"
+msgstr "TIFF"
+
+msgid "TGA"
+msgstr "TGA"
+
+msgid "OpenGL (+Y)"
+msgstr "OpenGL (+Y)"
+
+msgid "For engines similar to Unity 3D"
+msgstr "适用于类似 Unity 3D 的游戏引擎"
+
+msgid "DirectX (-Y)"
+msgstr "DirectX (-Y)"
+
+msgid "For engines similar to Unreal"
+msgstr "适用于类似虚幻引擎的游戏引擎"
+
+msgid "Margin between UV islands in pixels, useful for avoiding artifacts close to the edges of the UV islands, Low values can cause artifacts in the bake, increase the value if you notice artifacts in the bake"
+msgstr "UV 岛屿之间的像素边距，可用于避免靠近 UV 岛屿边缘的伪影。低值可能导致烘焙出现伪影，如发现问题请增加该数值。"
+
+msgid "Bsdf"
+msgstr "BSDF"
+
+msgid "This mode necessarily requires to have a Principled BSDF node connected directly to the Output node in all the materials on which you want to bake"
+msgstr "此模式需要将所有要烘焙的材质中的 Principled BSDF 节点直接连接到输出节点"
+
+msgid "Cycles Standard"
+msgstr "Cycles 标准"
+
+msgid "Classic Mode of Cycles for Bake. Accept any material."
+msgstr "Cycles 烘焙的经典模式。接受任何材质。"
+
+msgid "Combined"
+msgstr "组合"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "After Bake, move the created objects to a new scene"
+msgstr "烘焙后，将创建的物体移动到新的场景中"
+
+msgid "The object is exported in FBX format in the folder together with the material images"
+msgstr "该对象以 FBX 格式导出到文件夹中，与材质图像一同存放。"
+
+msgid "Engines like Unreal and Unity 3D, have Global X-Y-Z axes different from Blender, so the X axis is usually reversed. If you check this box, the addon will try to invert your model on the X axis. For any problem, if you encounter any problems, please uncheck this box."
+msgstr "Unreal 引擎和 Unity3D 的 X-Y-Z 全局坐标轴与 Blender 不同，因此 X 轴通常是反向的。如果勾选此选项，该插件将尝试在 X 轴上翻转您的模型。如果您遇到任何问题，请取消勾选此选项。"
+
+msgid "List of mixers available for mixing Shader Overlay material"
+msgstr "可用于混合 Shader Overlay 材质的混色器列表"
+
+msgid "Library"
+msgstr "库"
+
+msgid "Use the Extreme PBR material, the one currently in the preview will be used"
+msgstr "使用 Extreme PBR 材质（预览中当前使用的材质）"
+
+msgid "Data Material"
+msgstr "数据材质"
+
+msgid "Choose and use a material, from the material list in this project"
+msgstr "从本项目的材质列表中选择一个并应用该材质"
+
+msgid "List of the data Materials"
+msgstr "数据材质列表"
+
+msgid "Use Data Materials"
+msgstr "使用数据材质"
+
+msgid "Show override menu"
+msgstr "显示覆盖菜单"
+
+msgid "Prefix name for the zip file"
+msgstr "zip 文件的名称前缀"
+
+msgid "Suffix number for the zip file"
+msgstr "Zip 文件的后缀名"
+
+msgid "Pause the process zipping process"
+msgstr "暂停压缩过程"
+
+msgid "Terminate the process zipping process (Waiting for finish the current files)"
+msgstr "终止压缩进程（等待当前文件完成）"
+
+msgid "Ignore the material version, (Make the library without 1k, 2k, 4k, etc)"
+msgstr "忽略材质版本（使库不包含 1k、2k、4k 等）"
+
+msgid "Number of cores to use in the process zipping process"
+msgstr "压缩过程中使用的核心数量"
+
+msgid "Type of library to create, depending on the type of library, the process of the installation will be different"
+msgstr "创建的库类型，根据库类型不同，安装过程会有所不同"
+
+msgid "default_library"
+msgstr "默认库"
+
+msgid "expansion_library"
+msgstr "扩展库"
+
+msgid "Name of the library"
+msgstr "库的名称"
+
+msgid "Name of the random button"
+msgstr "随机按钮名称"
+
+msgid "Mark this socket as random"
+msgstr "将此插座标记为随机"
+
+msgid "Minimum value for random"
+msgstr "随机的最小值"
+
+msgid "Maximum value for random"
+msgstr "随机的最大值"
+
+msgid "The property will be the first of the Row (The others must be indicated with Row2)"
+msgstr "该属性将是行的第一个（其他必须用 Row2 标明）"
+
+msgid "This property will be after Row1"
+msgstr "此属性将在 Row1 之后"
+
+msgid "This property will be after Row2"
+msgstr "此属性将在 Row2 之后"
+
+msgid "This property will be after Row3"
+msgstr "此属性将在 Row3 之后"
+
+msgid "Transform a property of type Value into a Boolean button"
+msgstr "将 Value 类型的属性转换为布尔按钮"
+
+msgid "Scale x dimension in panel 1 = Default"
+msgstr "面板 1 中的 x 轴缩放 = 默认值"
+
+msgid "Scale y dimension in panel 1 = Default"
+msgstr "面板 1 中的 y 轴缩放 = 默认值"
+
+msgid "Hide the property text"
+msgstr "隐藏属性文本"
+
+msgid "Color lab is an operator used to show a color catalog, it will be placed side by side to the right of the RGB type property"
+msgstr "颜色实验室是一个用于显示颜色目录的操作器，它将放置在 RGB 类型属性的右侧"
+
+msgid "The property text is shown at the top"
+msgstr "属性文本显示在顶部"
+
+msgid "If the next property is of type 'RGB', 2 operators will be added to flip the colors below or above"
+msgstr "如果下一个属性是 'RGB' 类型，将添加两个操作器来翻转下方或上方的颜色"
+
+msgid "Separate the column"
+msgstr "分隔列"
+
+msgid "Separate the row (If the row exist"
+msgstr "分隔行（如果存在）"
+
+msgid "If enabled, this will not be shown in the Extreme PBR panel"
+msgstr "如果启用，则不会在极端 PBR 面板中显示"
+
+msgid "Hide Min List"
+msgstr "隐藏最小列表"
+
+msgid "Indicates, a list of integers, separated by commas (,)The numbers refer to the Input (Socket) number"
+msgstr "表示一个整数列表，用逗号 (,) 分隔。数字指的是输入（Socket）编号"
+
+msgid "Hide Max List"
+msgstr "隐藏最大列表"
+
+msgid "Adds an operator used to choose the type of transparency. Useful for managing materials in Eevee"
+msgstr "添加一个用于选择透明度类型的操作器。在 Eevee 中管理材质时有用。"
+
+msgid "Adds a button to the right, useful in Eevee to activate Subsurface Translucency"
+msgstr "在右侧添加一个按钮，在 Eevee 中可用于激活次表面散射透明效果。"
+
+msgid "Adds a button to the right, useful in Eevee to activate Screen Space Refraction"
+msgstr "在右侧添加一个按钮，在 Eevee 中可用于激活屏幕空间折射效果。"
+
+msgid "Enter a description, it will be shown to Tips button, or when the user move over with the cursor on the Boolean Button"
+msgstr "输入描述，它将显示在 Tips 按钮上，或者当用户将光标悬停在布尔按钮上时显示。"
+
+msgid "Invert the On Off button in the user panel"
+msgstr "反转用户面板中的开/关按钮。"
+
+msgid "Enter a list of node names, separated by \"//\" that you want to mute if the Bool property is True"
+msgstr "输入一个节点名称列表，用 \"//\" 分隔，如果布尔属性为 True 则静音这些节点。"
+
+msgid "Enter a list of node names, separated by \"//\" that you want to mute if the Bool property is False"
+msgstr "输入一个节点名称列表，用 \"//\" 分隔，如果布尔属性为 False 则静音这些节点。"
+
+msgid "If enabled, it transforms the socket into an Integer type Socket, any number can be an option."
+msgstr "如果启用，它将插座转换为整数类型 Socket，任何数字都可选。"
+
+msgid "Horizontal"
+msgstr "水平方向"
+
+msgid "Vertical"
+msgstr "垂直方向"
+
+msgid "This is the id number of the color ramp, work in accordance with node_color_ramp_id_number"
+msgstr "这是颜色渐变（Color Ramp）的 ID 编号，请按照节点颜色渐变 ID 编号进行操作"
+
+msgid "If enabled, it will show the displacement control into the Microdisplacement Panel"
+msgstr "如果启用此选项，将显示位移控制到微位移面板中"
+
+msgid "Default"
+msgstr "默认值"
+
+msgid "Subsurface"
+msgstr "次表面散射 (Subsurface)"
+
+msgid "Anisotropic"
+msgstr "各向异性 (Anisotropic)"
+
+msgid "Coat"
+msgstr "涂层 (Coat)"
+
+msgid "Sheen"
+msgstr "光泽 (Sheen)"
+
+msgid "If disabled: (If input, it is not shown in the Nexus panel), (If output, the output socket is not connected)"
+msgstr "如果禁用：（如果是输入，则不会在 Nexus 面板中显示），（如果是输出，则输出插座未连接）"
+
+msgid "Questo è interno, per dare un ordine e riconoscere nel callback l'idx del socket inputs"
+msgstr "这是内部设置，用于排序并在回调函数中识别输入插座的索引 ID"
+
+msgid "Socket Idx"
+msgstr "插座索引"
+
+msgid "Used to show properties in the Panel builder Helper menu"
+msgstr "用于在面板构建器辅助菜单中显示属性"
+
+msgid "This property is only to exclude the sockets that are needed by modules, mixers, etc to connect to each other. They will not be shown in the panels as they must not be modified by anyone"
+msgstr "此属性仅用于排除模块、混音器等所需的插口，以便它们能够相互连接。这些插口不会在面板上显示，因为它们不能被任何人修改"
+
+msgid "If displace is active, and this value is not the default value, Show the alert button next to the button displaced in the object's materials panel. If the Displacement is in modifier mode. User alert useful for not breaking the displacement view."
+msgstr "如果位移已激活且该值不是默认值，则在对象的材质面板的“被置换”按钮旁边显示警告按钮。如果置换处于修饰器模式。用户警报对于不破坏置换视图很有用"
+
+msgid "Paint Color"
+msgstr "绘制颜色"
+
+msgid "If checked, record this property in the json file, so that the material, when used, will be set exactly as you saved it. (Only for textures-type materials)"
+msgstr "如果选中，则将此属性记录在 json 文件中，以便材质在使用时按您保存的方式设置。（仅适用于纹理类型材质）"
+
+msgid "It only shows the texture manager/paint, without showing any sliders in the Extreme PBR panel, you can leave, you can leave this socket disconnected, only the button will be shown."
+msgstr "它只显示纹理管理器/绘画，而不显示极端 PBR 面板中的任何滑块。您可以将其留空，也可以将插口断开连接，只会显示按钮"
+
+msgid "If use api_label_on_top, You can add this extra text, leave blank if you want to use the socket name as the label on top"
+msgstr "如果启用 api_label_on_top，则可以将此额外文本添加进去，如果您想使用插口名称作为顶部的标签，则可以留空"
+
+msgid "If enabled, the socket label will be kept, otherwise it will be hidden, work in accordance with api_label_on_top"
+msgstr "如果启用，插口标签将保留；否则将被隐藏。根据 api_label_on_top 工作"
+
+msgid "Show or Hide the Interface Panel"
+msgstr "显示或隐藏界面面板"
+
+msgid "If True draw a BSDF Subsurface Method on the top of the socket"
+msgstr "如果为 True，则在插口的顶部绘制 BSDF 次表面散射方法"
+
+msgid "If True draw a BSDF Specular Method on the top of the socket"
+msgstr "如果为真，则在上层绘制 BSDF 高光方法"
+
+msgid "Draw this socket if the subsurface method of the principled BSDF is set to 'Random Walk'"
+msgstr "当 Principled BSDF 的次表面散射方法设置为“随机游走”时，绘制此插座"
+
+msgid "Draw this socket if the subsurface method of the principled BSDF is set to 'Random Walk (Skin)'"
+msgstr "当 Principled BSDF 的次表面散射方法设置为“随机游走（皮肤）”时，绘制此插座"
+
+msgid "Choose the type of paint enum in: SOLID_COLOR, EXTREME_PBR_TEXTURES, IMPORT_TEXTURE"
+msgstr "在 SOLID_COLOR、EXTREME_PBR_TEXTURES、IMPORT_TEXTURE 中选择油漆枚举类型"
+
+msgid "Solid Color"
+msgstr "纯色"
+
+msgid "Paint Solid Color"
+msgstr "油漆纯色"
+
+msgid "Textures"
+msgstr "纹理"
+
+msgid "Paint Extreme PBR Material (Only Texture Based)"
+msgstr "油漆极 PBR 材质（仅基于纹理）"
+
+msgid "Import Texture"
+msgstr "导入纹理"
+
+msgid "Load and Paint Texture"
+msgstr "加载并绘制纹理"
+
+msgid "Lock Property"
+msgstr "锁定属性"
+
+msgid "If enabled, the property will be locked, and the Restore To default ignore it"
+msgstr "如果启用，该属性将被锁定，并且“恢复默认值”将忽略它"
+
+msgid "Aprire e chiudere il Panel items_tree"
+msgstr "显示/隐藏面板 items_tree 中的项"
+
+msgid "Show Mute/Un-mute Button"
+msgstr "显示静音/取消静音按钮"
+
+msgid "If True, this socket will show the button to mute or unmute the node connected to this socket"
+msgstr "如果为真，此插座将显示用于静音或取消静音连接到此插座的节点的按钮"
+
+msgid "Transparent"
+msgstr "透明"
+
+msgid "Base Color"
+msgstr "基础颜色"
+
+msgid "Subsurface Radius"
+msgstr "次表面散射半径"
+
+msgid "Subsurface Color"
+msgstr "次表面散射颜色"
+
+msgid "Specular Tint"
+msgstr "高光着色"
+
+msgid "Anisotropic Rotation"
+msgstr "各向异性旋转"
+
+msgid "Sheen Tint"
+msgstr "光泽色调"
+
+msgid "Clearcoat"
+msgstr "清漆层"
+
+msgid "Clearcoat Roughness"
+msgstr "清漆粗糙度"
+
+msgid "IOR"
+msgstr "折射率"
+
+msgid "Transmission Roughness"
+msgstr "透射粗糙度"
+
+msgid "Emission Strength"
+msgstr "发射强度"
+
+msgid "Bump Strength"
+msgstr "凹凸强度"
+
+msgid "Bump Distance"
+msgstr "凹凸距离"
+
+msgid "Bump Height"
+msgstr "凹凸高度"
+
+msgid "Normal Strength"
+msgstr "普通强度"
+
+msgid "Normal Color"
+msgstr "普通颜色"
+
+msgid "Clearcoat Bump Strength"
+msgstr "清漆凹凸强度"
+
+msgid "Clearcoat Bump Distance"
+msgstr "清漆凹凸距离"
+
+msgid "Clearcoat Bump Height"
+msgstr "清漆凹凸高度"
+
+msgid "Clearcoat Normal Strength"
+msgstr "清漆法线强度"
+
+msgid "Clearcoat Normal Color"
+msgstr "清漆法线颜色"
+
+msgid "Tangent"
+msgstr "切向"
+
+msgid "Volume"
+msgstr "体积"
+
+msgid "Subsurface Weight"
+msgstr "次表面权重"
+
+msgid "Specular IOR Level"
+msgstr "高光 IOR 级别"
+
+msgid "Transmission Weight"
+msgstr "透射权重"
+
+msgid "Coat Weight"
+msgstr "涂层权重"
+
+msgid "Coat Roughness"
+msgstr "涂层粗糙度"
+
+msgid "Coat Tint"
+msgstr "涂层色调"
+
+msgid "Sheen Weight"
+msgstr "光泽权重"
+
+msgid "Sheen Roughness"
+msgstr "光泽粗糙度"
+
+msgid "Attention, the selected object is not of the mesh type, therefore it is not possible to use the Displacement of the Modifier type, but the button will remain active, as the material is applied to other objects that are of the mesh type, therefore the displacement will be active on they."
+msgstr "注意，所选对象不是网格类型，因此无法使用置换修改器类型的置换功能，但按钮将保持激活状态，因为材质已应用于其他网格类型的对象，因此置换将在它们上生效。"
+
+msgid "It is not possible to apply the displacement of type Modifier, to this type of object: ({ob.type.upper()}) you can however use the Microdisplacement, under the menu 'Material Editor' (It only works with the Cycles engine and in render mode)"
+msgstr "无法将此类型的对象 ({ob.type.upper()}) 应用置换修改器类型的置换功能，不过您可以在“材质编辑器”菜单下使用微位移（它仅适用于 Cycles 引擎和渲染模式）"
+
+msgid "Displacement"
+msgstr "置换"
+
+msgid "MICRODISPLACE"
+msgstr "微位移"
+
+msgid "#xtm_pbr#"
+msgstr "#xtm_pbr#"
+
+msgctxt "Operator"
+msgid "Smart separator of vertex groups"
+msgstr "顶点组智能分离器"
+
+msgctxt "Operator"
+msgid "Bake Displace modifier"
+msgstr "烘焙置换修改器"
+
+msgctxt "Operator"
+msgid "Info"
+msgstr "信息"
+
+msgid "Attention, the displacement \"Modifier\" needs to be aligned with the \"UV\" type mapping to work. To manipulate \"UV\" maps use the \"Mapping\" menu and select 'UV'. Press this button to solve the problem"
+msgstr "注意，置换“修改器”需要与\"UV\"类型的映射对齐才能正常工作。要操作\"UV\"贴图，请使用“映射”菜单并选择'UV'。点击此按钮以解决问题"
+
+msgid "Group Input"
+msgstr "组输入"
+
+msgid "Replace_{str(idx + 1)}"
+msgstr "替换_{str(idx + 1)}"
+
+msgid "Group Output"
+msgstr "组输出"
+
+msgctxt "Operator"
+msgid "Load Geonode"
+msgstr "加载 Geonode"
+
+msgid "Load a geonode from the library"
+msgstr "从库中加载一个几何节点组"
+
+msgid "Load"
+msgstr "加载"
+
+msgid "Load and add to object the geonode group from blend file"
+msgstr "从blend文件中加载并添加到对象的几何节点组"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove Geonode From object"
+msgstr "从对象中移除几何节点"
+
+msgid "Blend Path"
+msgstr "混合路径"
+
+msgid "Node Group Name"
+msgstr "节点组名称"
+
+msgid "Load and add to object the geonode group ({}) from blend file"
+msgstr "从blend文件中加载并添加到对象的几何节点组 ({})"
+
+msgid "Remove Geonode ({}) From object"
+msgstr "从对象中移除几何节点 ({})"
+
+msgid "Select a valid object"
+msgstr "选择有效的对象"
+
+msgid "Blend file ({}) not found"
+msgstr "未找到混合文件（{}）"
+
+msgid "{self.node_group_name} xtm_pbr_geonode"
+msgstr "{self.node_group_name} xtm_pbr_geonode"
+
+msgctxt "Operator"
+msgid "Text To Image"
+msgstr "图像生成"
+
+msgid "Converts a text file to an image"
+msgstr "将文本文件转换为图像"
+
+msgid "Full Library installed:  {str(LibraryUtility.lib_percentage_bar)}%"
+msgstr "已安装完整库：{str(LibraryUtility.lib_percentage_bar)}%"
+
+msgid "I am analyzing the files on the disk, Please Wait"
+msgstr "我正在分析磁盘上的文件，请稍候。"
+
+msgid "Download and installation progress"
+msgstr "下载和安装进度"
+
+msgid "INSTALLATION_PROGRESS"
+msgstr "安装进度"
+
+msgid "! Do not close this window during the download !"
+msgstr "！下载期间请勿关闭窗口！"
+
+msgid "Bytes Completed: {:.2f}%"
+msgstr "已完成的字节：{:.2f}%"
+
+msgid "Files Completed: {:.2f}%"
+msgstr "已完成文件：{:.2f}%"
+
+msgid "Downloading: {:.2f}%"
+msgstr "正在下载：{:.2f}%"
+
+msgid "File Size: {current_file_size}"
+msgstr "文件大小：{current_file_size}"
+
+msgid "Installation Successfully completed, press 'Close'"
+msgstr "安装已成功完成，按“关闭”按钮退出"
+
+msgid "The installation process was canceled as there are connection problems Please check your internet connection and try again (Press Close To Exit)"
+msgstr "安装过程已取消，因为存在连接问题。请检查您的网络连接并重试（按“关闭”退出）"
+
+msgid "Time Passed: {human_time_passed}"
+msgstr "已用时间：{human_time_passed}"
+
+msgid "Calculating approximate time..."
+msgstr "正在估算预计时间..."
+
+msgid "Approx Time: {human_estimate_time}"
+msgstr "预计时间：{human_estimate_time}"
+
+msgid "Lost Download: {str(ProgressBarProp.lost_connection_count)}"
+msgstr "下载丢失：{str(ProgressBarProp.lost_connection_count)}"
+
+msgid "(The download will be retryed soon)"
+msgstr "(下载将很快重试)"
+
+msgid "Respose time: Min: {ProgressBarProp.min_respose} Max: {ProgressBarProp.max_respose} Mean: {ProgressBarProp.average_respose} Total: {str(ProgressBarProp.requests_count)}"
+msgstr "响应时间：最小值：{ProgressBarProp.min_respose} 最大值：{ProgressBarProp.max_respose} 平均值：{ProgressBarProp.average_respose} 总计：{str(ProgressBarProp.requests_count)}"
+
+msgid "All materials that have been downloaded have already been installed. You can resume the download whenever you want."
+msgstr "所有已下载的材质均已安装。您随时可以恢复下载。"
+
+msgctxt "Operator"
+msgid "Compare with Exapack"
+msgstr "与 Exapack 进行对比"
+
+msgid "Compare this snippet with the one in Exapack"
+msgstr "将此片段与 Exapack 中的片段进行比较"
+
+msgid "Compare the installed files only for the default library with those in the Exapack online files, and compile the list of exapack completely installed, it also works if you come from an update from Extreme PBR with libraries installed via the Extreme-Addons.com website"
+msgstr "仅比较默认库中安装的文件与 Exapack 在线文件，并生成完全安装的 exapack 列表；如果您是从通过 Extreme-Addons.com 网站安装库的 Extreme PBR 更新而来，此功能同样有效。"
+
+msgid "You must install the default library to use this function"
+msgstr "您必须安装默认库才能使用此功能"
+
+msgid "Press Check library updates, and try again"
+msgstr "点击“检查库更新”，然后重试"
+
+msgid "Failed to create the ._data folder, please check the permissions, try to execute Blender as administrator"
+msgstr "无法创建 ._data 文件夹，请检查权限，尝试以管理员身份运行 Blender"
+
+msgid "Failed to create the ._volumes_installed folder, please check the permissions, try to execute Blender as administrator"
+msgstr "无法创建 ._volumes_installed 文件夹，请检查权限，尝试以管理员身份运行 Blender"
+
+msgctxt "Operator"
+msgid "Create Library Info"
+msgstr "创建库信息"
+
+msgid "Create a new library info file"
+msgstr "创建新库信息文件|||~|||无法创建库信息文件，请确保已输入有效的路径指向您之前保存材质的'用户库'。"
+
+msgid "It was not possible to create the library info file, make sure you have entered a valid path to your 'User library' library where you previously saved your materials. TIPS: Unlink The User Library and Press the 'Create User Library' nested button to create a new one"
+msgstr "无法创建库信息文件。请确保已输入有效的路径，指向您之前保存材质的“用户库”。提示：取消链接用户库，然后按嵌套按钮“创建用户库”以创建一个新库。"
+
+msgid "The path of the user library is not valid ( {} ), make sure you have entered a valid path to your 'User library' library where you previously saved your materials"
+msgstr "用户库的路径无效（{}），请确保您输入了保存材质库的正确路径。"
+
+msgctxt "Operator"
+msgid "Generate Zips Json"
+msgstr "生成 Zip 文件 JSON"
+
+msgid "Generate Zips Json"
+msgstr "生成 Zip 文件 JSON"
+
+msgid "Generate a json file in ._data with the dimensions of all zipped files, it zips the files and calculates the size of the zipped file, so that when exapack are created, they are all calculated based on the actual size of the zipped packages. Useful to keep the dimensions of the exapack files as close as possible to the size of 2 GB per package, because some users may have timeout problems with too large files. Especially on Blendermarket."
+msgstr "生成一个名为 ._data 的 json 文件，包含所有压缩文件的尺寸。该脚本会压缩文件并计算压缩后的大小，以便在创建 exapack 时，它们都基于实际压缩后的文件大小进行计算。这有助于将 exapack 文件的尺寸尽可能接近每个包 2 GB 的大小，因为某些用户可能会遇到过大文件导致的超时问题。特别是在 Blendermarket 上。"
+
+msgctxt "Operator"
+msgid "Create Zip"
+msgstr "创建压缩包"
+
+msgid "Create a zip file from a library"
+msgstr "从库创建 zip 文件"
+
+msgid "File not found: {json_register_file}"
+msgstr "未找到文件：{json_register_file}"
+
+msgid "No data in json file: {json_register_file}"
+msgstr "JSON 文件中没有数据：{json_register_file}"
+
+msgid "No files to archive"
+msgstr "没有要归档的文件"
+
+msgid "The material {} has no version, check the console"
+msgstr "材料{}没有版本，请检查控制台"
+
+msgid "Exapacked finished!"
+msgstr "打包完成！"
+
+msgid "Avoid extracting files manually, use Extreme PBR addon to extract files, in the preferences of Extreme PBR there is a dedicated section for installing via .exapack files"
+msgstr "避免手动提取文件，请使用 Extreme PBR 插件来提取文件。在 Extreme PBR 的首选项中有一个专门用于通过 .exapack 文件安装的独立部分"
+
+msgctxt "Operator"
+msgid "Make Json Exa collection"
+msgstr "创建 Json Exa 集合"
+
+msgid "Make Json Exa collection"
+msgstr "创建 Json Exa 集合"
+
+msgid "Crea un file json nella cartella dove sono presenti i file.exapack. Il registro va caricato poi sul repositorio in maniera che l'addon possa scaricare il file json"
+msgstr "在存放.exapack 文件的文件夹中创建一个 json 文件。然后将其注册到仓库，以便插件可以下载该 json 文件"
+
+msgid "No valid json files (Exapack) found in the directory {}"
+msgstr "未在目录{}中找到有效的 json 文件（Exapack）"
+
+msgid "This is the list of all exapacks available for Extreme PBR addon"
+msgstr "这是为 Extreme PBR 插件提供的所有 exapacks 的列表"
+
+msgid "Exa collection json file created successfully"
+msgstr "成功创建 Exa 集合 json 文件"
+
+msgctxt "Operator"
+msgid "Create Tag And Mat Info"
+msgstr "创建标签和材质信息"
+
+msgid "Create Tag And Mat Info"
+msgstr "创建标签和材质信息"
+
+msgid "Crea un mini pacchetto dedicato ai vecchi utenti, cosi da avere i nuovi tag e le nuove info materiali sulle librerie convertite"
+msgstr "Creare un piccolo pacchetto dedicato agli utenti precedenti, in modo da avere le nuove tag e le nuove informazioni sui materiali per le librerie convertite."
+
+msgctxt "Operator"
+msgid "Remove Volumes"
+msgstr "移除体积"
+
+msgid "Remove selected volumes from the list"
+msgstr "从列表中移除选定的体积"
+
+msgid "Are you sure you want to remove selected volume?"
+msgstr "确定要删除选定的体积吗？"
+
+msgid "All files in the library from this volume will be deleted!"
+msgstr "该卷库中的所有文件将被删除！"
+
+msgid "Choose 'Yes' and press 'Ok' to remove the selected volumes. Or choose 'No' or pres 'Esc' to cancel this operation."
+msgstr "选择“是”并按“确定”以删除选定的体积。或者选择“否”或按“Esc”取消此操作。"
+
+msgid "Error reading json file"
+msgstr "读取 JSON 文件出错"
+
+msgid "Error reading json file, no files_dict found"
+msgstr "读取 JSON 文件出错，未找到 files_dict。"
+
+msgid "Error removing file: {} {str(e)}"
+msgstr "删除文件出错：{} {str(e)}"
+
+msgctxt "Operator"
+msgid "Choose ExaPacks"
+msgstr "选择 ExaPacks"
+
+msgid "Open Browser"
+msgstr "打开浏览器"
+
+msgid "No ExaPack(s) selected"
+msgstr "未选择任何 ExaPack(s)"
+
+msgctxt "Operator"
+msgid "Install Exapack library"
+msgstr "安装 Exapack 库"
+
+msgid "Choose the path where are contained the .exapack library files"
+msgstr "选择包含 .exapack 库文件的目录路径"
+
+msgid "The path {} is not valid"
+msgstr "路径 {} 无效"
+
+msgid "Please do not use the path of the addon directory, is not a good idea, choose another path and try again"
+msgstr "请勿使用插件目录的路径，这不是一个好主意，请选择其他路径并重试"
+
+msgid "The path chosen ( {} )for the Default Library is the same of the User Library, please choose another path"
+msgstr "为默认库选择的目录 ( {}) 与用户库相同，请选择另一个路径"
+
+msgid "No file to install from the list"
+msgstr "列表中没有可安装的文件"
+
+msgid "UNZIP"
+msgstr "解压失败"
+
+msgid "The free space on the disk is not enough to install the files,the free space on the disk is: {str(round(free_space / 1024 / 1024 / 1024, 2))} GB, the total size of the files is: {tot_size_str} If you want to save space, check the box 'Remove exapack after install' and try again"
+msgstr "磁盘空间不足，无法安装文件。可用空间：{str(round(free_space / 1024 / 1024 / 1024, 2))} GB，文件大小总计：{tot_size_str}。如需节省空间，请勾选“安装后删除 exapack\"并重新尝试"
+
+msgid "The free space on the disk is not enough to install the files, please free some space and try again, the free space on the disk is: {str(round(free_space / 1024 / 1024 / 1024, 2))} GB, the total size of the files is: {tot_size_str}"
+msgstr "磁盘空间不足，无法安装文件。请释放部分空间并重试。可用空间：{str(round(free_space / 1024 / 1024 / 1024, 2))} GB，文件大小总计：{tot_size_str}"
+
+msgid "The following .exapack files are not valid: {', '.join(bad_zips)}"
+msgstr "以下 .exapack 文件无效：{', '.join(bad_zips)}"
+
+msgid "README.txt"
+msgstr "README.txt"
+
+msgctxt "Operator"
+msgid "Abort Exapack Install"
+msgstr "取消 Exapack 安装"
+
+msgid "Are you sure you want to abort the installation?"
+msgstr "您确定要取消安装吗？"
+
+msgid "( All installed files will remain as such, you can resume at a later time )"
+msgstr "(所有已安装的文件将保持原样，稍后仍可继续)"
+
+msgid "Press Ok To Confirm or Esc to continue the installation"
+msgstr "按“确定”确认或按“Esc”继续安装"
+
+msgctxt "Operator"
+msgid "Exapack Finish Confirm"
+msgstr "Exapack 安装完成"
+
+msgid "Create a user library"
+msgstr "创建用户库"
+
+msgid "Make The User Library Folder"
+msgstr "建立用户库文件夹"
+
+msgid "Default Library not found, please first create a default library, if you are not sure what to do, check the documentation, use the question marks you find in the interface to access the detailed documentation"
+msgstr "未找到默认库，请先创建一个默认库。如果您不确定该怎么做，请查阅文档，在界面中使用问号访问详细文档"
+
+msgctxt "Operator"
+msgid "Choose path"
+msgstr "选择路径"
+
+msgid "Choose a path"
+msgstr "选择一个路径"
+
+msgid "No library path found, unable to complete the operation, if this is the first installation, this is normal"
+msgstr "未找到库路径，无法完成操作，如果是首次安装，这是正常的"
+
+msgid "Automatic relink of the libraries completed successfully"
+msgstr "库的自动重新链接已成功完成"
+
+msgid "No full_exa_library_repo.json as Found"
+msgstr "未找到 full_exa_library_repo.json"
+
+msgid "No full_exa_library_repo data as Found"
+msgstr "未找到 full_exa_library_repo 数据"
+
+msgid "Please link the default library folder: {get_user_library_folder_name()}"
+msgstr "请链接默认库文件夹：{get_user_library_folder_name()}"
+
+msgid "Some problem in the getAllLibraries, unable to find 'files' dict"
+msgstr "getAllLibraries 中出现问题，无法找到 'files' 字典"
+
+msgid "create_library_structure"
+msgstr "创建库结构"
+
+msgctxt "Operator"
+msgid "Smart Installer"
+msgstr "智能安装器"
+
+msgid "Check if the process is ok"
+msgstr "检查进程是否正常"
+
+msgid "Create the Library Structure"
+msgstr "创建库结构"
+
+msgid "GetAllLibraries"
+msgstr "获取所有库"
+
+msgid "Respose is None!"
+msgstr "响应为 None！"
+
+msgid "The Json from the response, does not contain a date"
+msgstr "从响应中获取的 JSON 不包含日期信息"
+
+msgctxt "Operator"
+msgid "Get Json Materials Online"
+msgstr "在线获取 JSON 材质数据"
+
+msgctxt "Operator"
+msgid "Modal Installer"
+msgstr "模态安装器"
+
+msgid "String in ['SINGLE', 'ESSENTIAL', 'ALL', '1k', '2k', '4k']"
+msgstr "String in ['SINGLE', 'ESSENTIAL', 'ALL', '1k', '2k', '4k']"
+
+msgid "Current Options"
+msgstr "当前选项"
+
+msgid "Download only current material version"
+msgstr "仅下载当前材质版本"
+
+msgid "Full Version"
+msgstr "完整版本"
+
+msgid "Download all available versions of this material"
+msgstr "下载该材质的所有可用版本"
+
+msgid "Download only essential files, (Preview, Data, 1/2k and procedural)"
+msgstr "仅下载必需文件（预览、数据、1/2k 和程序化）"
+
+msgid "Download all files up to the maximum size of 1k"
+msgstr "下载最大尺寸为 1k 的所有文件"
+
+msgid "Download all files up to the maximum size of 2k"
+msgstr "下载最大尺寸为 2k 的所有文件"
+
+msgid "Download all files up to the maximum size of 4k"
+msgstr "下载最大尺寸为 4k 的所有文件"
+
+msgid "Download all files up to the maximum size of 8k"
+msgstr "下载最大尺寸为 8k 的所有文件"
+
+msgid "Install all the libraries that are online, it can take a long time."
+msgstr "安装所有在线库，可能需要很长时间。"
+
+msgid "Download only this version of the material"
+msgstr "仅下载此版本的材质"
+
+msgid "Please check your credentials and license, something appears to be entered incorrectly. If the problem persists, contact us on the channel where you purchased Extreme PBR"
+msgstr "请检查您的凭据和许可证，似乎输入有误。如果问题持续存在，请在您购买 Extreme PBR 的渠道联系我们。"
+
+msgid "Your version is already up to date. Do you want to reinstall the addon anyway?"
+msgstr "您的版本已是最新版本。您仍然想重新安装插件吗？"
+
+msgid "Are you sure you want to upgrade? After the update, please restart Blender"
+msgstr "确定要升级吗？更新后，请重启 Blender。"
+
+msgid "Choose what you want to download:"
+msgstr "选择您要下载的内容："
+
+msgid "Download only current material version:"
+msgstr "仅下载当前材质版本："
+
+msgid "Only version: {mat_v_list}"
+msgstr "仅版本：{mat_v_list}"
+
+msgid "Download all available versions of this material:"
+msgstr "下载此材质的所有可用版本："
+
+msgid "All version: {mat_v_list}"
+msgstr "所有版本：{mat_v_list}"
+
+msgid "Total files to download: {str(file_count)}"
+msgstr "要下载的总文件数：{str(file_count)}"
+
+msgid "Total size to download: {bytes_to_human(total_size)}"
+msgstr "要下载的总大小：{bytes_to_human(total_size)}"
+
+msgid "If you want to download the entire library, go to the \"Updates\" section of the preferences menu:"
+msgstr "如果您想下载整个库，请前往首选项菜单中的“更新”部分。"
+
+msgid "Installer INFO"
+msgstr "安装程序信息"
+
+msgid "This operation may take a long time, but you can abort it whenever you want, all downloaded materials will be installed correctly and working. So don't worry, feel free to stop the installation whenever you want."
+msgstr "此操作可能需要很长时间，但您可以随时中止它，所有已下载的材料都会正确安装并正常工作。所以不用担心，随时可以停止安装。"
+
+msgid "Keep in mind that the speed will not always match your internet speed, as this is a Download + Install, so the times are added together, it will never match a speed test."
+msgstr "请注意，速度并不总是与您的互联网速度相匹配，因为这是“下载 + 安装”，因此时间会累加，永远不会匹配速度测试的结果。"
+
+msgid "Installation blocked. The memory available on the disk you indicated is less than 2 GB. It is suggested to move the libraries to a larger disk, or to delete any unnecessary files on the disk."
+msgstr "安装被阻止。您指定的磁盘上可用的内存少于 2 GB。建议将库移动到更大的磁盘，或删除磁盘上的任何不必要的文件。"
+
+msgid "Attention, the paths on your computer to the libraries have not been assigned"
+msgstr "注意：您的计算机中尚未分配库的路径"
+
+msgid "DownloadLibrary"
+msgstr "下载库"
+
+msgid "There is no new material to download in your registry. Try updating the library"
+msgstr "您的注册表中没有需要下载的新材料。尝试更新库"
+
+msgid "This file is only to keep track of the installed files, it is used to see if the creation dates are old and need to be replaced"
+msgstr "本文件仅用于跟踪已安装的文件，可用于查看创建日期是否过旧需要替换。"
+
+msgid "Connection problem: Exceeded the maximum number of consecutive lost downloads (10)"
+msgstr "连接问题：超过最大连续下载丢失次数（10 次）"
+
+msgctxt "Operator"
+msgid "Reset libraries Path"
+msgstr "重置库路径"
+
+msgid "Network error while streaming, please check your internet connection and try again.  If the problem persists, contact us on the channel where you purchased Extreme PBR"
+msgstr "流媒体期间发生网络错误，请检查您的网络连接并重新尝试。如果问题持续存在，请在您购买 Extreme PBR 的渠道联系我们。"
+
+msgid "Unable to Create file from file temp"
+msgstr "无法从文件临时文件创建文件"
+
+msgctxt "Operator"
+msgid "Remind me later"
+msgstr "稍后提醒我"
+
+msgid "Remind me later"
+msgstr "稍后提醒我"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "1 day"
+msgstr "1 天"
+
+msgid "3 days"
+msgstr "3 天"
+
+msgid "7 days"
+msgstr "7 天"
+
+msgid "15 days"
+msgstr "15 天"
+
+msgid "Choose when to be reminded to update the addon"
+msgstr "选择何时收到更新插件的提醒"
+
+msgid "Choose when to be reminded to update the addon:"
+msgstr "选择何时收到更新插件的提醒:"
+
+msgid "Press Ok to confirm, or Esc to cancel"
+msgstr "按 Enter 确认，或按 Esc 取消"
+
+msgid "When alg = \"none\", key value must be None."
+msgstr "当 alg = \"none\"时，键值必须为 None。"
+
+msgid "The specified key is an asymmetric key or x509 certificate and should not be used as an HMAC secret."
+msgstr "指定的密钥是不对称密钥或 x509 证书，不应用作 HMAC 密钥。"
+
+msgid "Key is not valid JSON"
+msgstr "无效的 JSON 格式"
+
+msgid "Not an HMAC key"
+msgstr "不是 HMAC 密钥"
+
+msgid "Expecting a PEM-formatted key."
+msgstr "预期是 PEM 格式的密钥。"
+
+msgid "Not a public or private key"
+msgstr "不是公钥也不是私钥"
+
+msgid "Not an RSA key"
+msgstr "不是 RSA 密钥"
+
+msgid "Unsupported RSA private key: > 2 primes not supported"
+msgstr "不支持的 RSA 私钥：不支持超过 2 个素数"
+
+msgid "RSA key must include all parameters if any are present besides d"
+msgstr "RSA 密钥必须包含所有参数，如果存在除 d 以外的任何参数"
+
+msgid "Expecting a EllipticCurvePrivateKey/EllipticCurvePublicKey. Wrong key provided for ECDSA algorithms"
+msgstr "期望一个 EllipticCurvePrivateKey/EllipticCurvePublicKey。为 ECDSA 算法提供了错误的密钥"
+
+msgid "Invalid curve: {key_obj.curve}"
+msgstr "无效的曲线：{key_obj.curve}"
+
+msgid "Not an Elliptic curve key"
+msgstr "不是椭圆曲线密钥"
+
+msgid "Coords should be 32 bytes for curve P-256"
+msgstr "P-256 曲线的坐标应为 32 字节"
+
+msgid "Coords should be 48 bytes for curve P-384"
+msgstr "P-384 曲线的坐标应为 48 字节"
+
+msgid "Coords should be 66 bytes for curve P-521"
+msgstr "P-521 曲线的坐标应为 66 字节"
+
+msgid "Coords should be 32 bytes for curve secp256k1"
+msgstr "坐标应为 32 字节（secp256k1 曲线）"
+
+msgid "Invalid curve: {curve}"
+msgstr "无效曲线：{curve}"
+
+msgid "D should be {} bytes for curve {}"
+msgstr "D 应为 {} 字节，对应曲线为 {}"
+
+msgid "Expecting a EllipticCurvePrivateKey/EllipticCurvePublicKey. Wrong key provided for EdDSA algorithms"
+msgstr "预期为 EllipticCurvePrivateKey/EllipticCurvePublicKey。提供的密钥不适用于 EdDSA 算法"
+
+msgid "Not an Octet Key Pair"
+msgstr "不是 Octet Key Pair"
+
+msgid "OKP should have \"x\" parameter"
+msgstr "OKP 缺少 \"x\" 参数"
+
+msgid "Invalid key parameter"
+msgstr "无效密钥参数"
+
+msgid "kty is not found: {_jwk_data}"
+msgstr "未找到 kty：{_jwk_data}"
+
+msgid "Unsupported crv: {crv}"
+msgstr "不支持的 crv：{crv}"
+
+msgid "crv is not found: {_jwk_data}"
+msgstr "未找到 crv：{_jwk_data}"
+
+msgid "Unsupported kty: {kty}"
+msgstr "不支持的 kty：{kty}"
+
+msgid "Unable to find a algorithm for key: {_jwk_data}"
+msgstr "无法找到密钥的算法：{_jwk_data}"
+
+msgid "Invalid JWK Set value"
+msgstr "无效的 JWK 集值"
+
+msgid "The JWK Set did not contain any keys"
+msgstr "JWK 集中不包含任何密钥"
+
+msgid "The JWK Set did not contain any usable keys"
+msgstr "JWK 集中不包含任何可用的密钥"
+
+msgid "keyset has no key for kid: {kid}"
+msgstr "keyset 没有 kid: {kid} 对应的密钥"
+
+msgid "Algorithm already has a handler."
+msgstr "算法已有处理器。"
+
+msgid "Object is not of type `Algorithm`"
+msgstr "对象类型不是 `Algorithm`"
+
+msgid "The specified algorithm could not be removed because it is not registered."
+msgstr "指定的算法无法移除，因为它未注册。"
+
+msgid "Algorithm '{algorithm}' could not be found. Do you have cryptography installed?"
+msgstr "算法 '{algorithm}' 不存在。您已安装加密库吗？"
+
+msgid "Algorithm not supported"
+msgstr "算法不支持"
+
+msgid "It is required that you pass in a value for the \"algorithms\" argument when calling decode()."
+msgstr "调用 decode() 时，必须为 \"algorithms\" 参数传递一个值。"
+
+msgid "It is required that you pass in a value for the \"detached_payload\" argument to decode a message having the b64 header set to false."
+msgstr "解码具有 b64 header 设置为 false 的消息时，必须为 \"detached_payload\" 参数传递一个值。"
+
+msgid "Invalid token type. Token must be a {bytes}"
+msgstr "无效的令牌类型。令牌必须是 {bytes}。"
+
+msgid "Not enough segments"
+msgstr "段数不足"
+
+msgid "Invalid header padding"
+msgstr "无效的头部填充"
+
+msgid "Invalid header string: {e}"
+msgstr "无效的头部字符串：{e}"
+
+msgid "Invalid header string: must be a json object"
+msgstr "无效的头部字符串：必须是 JSON 对象"
+
+msgid "Invalid payload padding"
+msgstr "无效的负载填充"
+
+msgid "Invalid crypto padding"
+msgstr "无效的加密填充"
+
+msgid "The specified alg value is not allowed"
+msgstr "指定的 alg 值不被允许"
+
+msgid "Signature verification failed"
+msgstr "签名验证失败"
+
+msgid "Key ID header parameter must be a string"
+msgstr "Key ID header 参数必须是字符串"
+
+msgid "Expecting a mapping object, as JWT only supports JSON objects as payloads."
+msgstr "预期是一个映射对象，因为 JWT 仅支持 JSON 对象作为负载。"
+
+msgid "Invalid payload string: {e}"
+msgstr "无效的负载字符串：{e}"
+
+msgid "Invalid payload string: must be a json object"
+msgstr "无效的负载字符串：必须是 JSON 对象"
+
+msgid "audience must be a string, iterable, or None"
+msgstr "受众必须是一个字符串、可迭代对象或 None"
+
+msgid "Issued At claim (iat) must be an integer."
+msgstr "出票时间（issuance at time）必须是整数。"
+
+msgid "Not Before claim (nbf) must be an integer."
+msgstr "声明生效日期（nbf）必须是整数。"
+
+msgid "The token is not yet valid (nbf)"
+msgstr "该令牌尚未有效（nbf）"
+
+msgid "Expiration Time claim (exp) must be an integer."
+msgstr "过期时间声明（exp）必须是整数。"
+
+msgid "Signature has expired"
+msgstr "签名已过期"
+
+msgid "Invalid audience"
+msgstr "无效的受众"
+
+msgid "aud"
+msgstr "音频"
+
+msgid "Invalid claim format in token"
+msgstr "Token 中的声明格式无效"
+
+msgid "iss"
+msgstr "错误信息：未找到模块 'iss'。请检查拼写或路径是否正确。"
+
+msgid "Invalid issuer"
+msgstr "无效的发行者"
+
+msgid "Token is missing the \"{claim}\" claim"
+msgstr "缺少“{claim}”声明"
+
+msgid "The JWKS endpoint did not contain any signing keys"
+msgstr "JWKS 端点不包含任何签名密钥"
+
+msgid "Unable to find a signing key that matches: \"{kid}\""
+msgstr "无法找到匹配的签名密钥：“{kid}”"
+
+msgid "Expected a string value"
+msgstr "期望一个字符串值"
+
+msgid "Must be a positive integer"
+msgstr "必须是正整数"
+
+msgid "Invalid signature"
+msgstr "无效的签名"
+
+msgid "PyJWT"
+msgstr "PyJWT"
+
+msgid "JSON Web Token implementation in Python"
+msgstr "Python 中的 JSON Web Token 实现"
+
+msgid "Empty Collection..."
+msgstr "空集合..."
+
+msgid "Please, do not modify or delete anything contained in the ._data folder, otherwise the addon may not work properly.If you intend to move the libraries manually from one computer to another, you can do it safely, just make sure that it contains the ._data folder"
+msgstr "请勿修改或删除 ._data 文件夹中的任何内容，否则插件可能无法正常工作。如果您打算手动将库从一个计算机复制到另一个计算机，您可以安全地执行此操作，只需确保其中包含 ._data 文件夹即可"
+
+msgid "½k"
+msgstr "½k"
+
+msgid "Extreme PBR Library"
+msgstr "Extreme PBR 库"
+
+msgid "Default Library"
+msgstr "默认库"
+
+msgid "User Personal Library"
+msgstr "用户个人库"
+
+msgid "Empty....jpg"
+msgstr "Empty....jpg"
+
+msgid "Shader Maker"
+msgstr "着色器制作器"
+
+msgid "Select by click"
+msgstr "点击选择"
+
+msgctxt "Operator"
+msgid "Make Asset Browser"
+msgstr "创建资产浏览器"
+
+msgid "Make a new asset browser"
+msgstr "创建新的资产浏览器"
+
+msgid "Confirm the action"
+msgstr "确认操作"
+
+msgid "Confirm"
+msgstr "确认"
+
+msgid "Cancel the action"
+msgstr "取消操作"
+
+msgid "Create Only 512px x 512px Materials {}"
+msgstr "仅生成 512px x 512px 材质 {}"
+
+msgid "Create Only 1024px x 1024px Materials {}"
+msgstr "仅创建 1024x1024 像素的材质{}"
+
+msgid "Create Only 2048px x 2048px Materials {}"
+msgstr "仅创建 2048x2048 像素的材质{}"
+
+msgid "Create Only 4096px x 4096px Materials {}"
+msgstr "仅创建 4096px × 4096px 材质{}"
+
+msgid "8k"
+msgstr "8K"
+
+msgid "Create Only 8192px x 8192px Materials {}"
+msgstr "仅创建 8192px x 8192px 材质 {}"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Create All Materials in all resolution"
+msgstr "创建所有分辨率的所有材质"
+
+msgid "Make/Update a new asset browser"
+msgstr "创建/更新新的资产浏览器"
+
+msgid "Select the resolution of the materials to create:"
+msgstr "选择要创建的材质分辨率："
+
+msgid "This operation will create and/or update a new asset browser into the current Library ( {} ) Continue?"
+msgstr "此操作将在当前库（{}）中创建/更新一个新的资产浏览器。继续？"
+
+msgid "Operation cancelled"
+msgstr "操作已取消"
+
+msgid "Please run this operation in a new Blender project that has not been saved yet."
+msgstr "请在尚未保存的新 Blender 项目中运行此操作。"
+
+msgid "To avoid altering your project, I invite you to use a new and unsaved Blender project and try again"
+msgstr "为避免修改您的项目，我建议您使用一个新的未保存的 Blender 项目并再次尝试。"
+
+msgid "Default Library is not ok, make sure it is a version 3.0 or higher library"
+msgstr "默认库无效，请确保它是一个 3.0 或更高版本的库。"
+
+msgid "empty..."
+msgstr "空..."
+
+msgid "shader maker"
+msgstr "着色器制作器"
+
+msgid "3k"
+msgstr "3k"
+
+msgid "5k"
+msgstr "5k"
+
+msgid "6k"
+msgstr "6k"
+
+msgid "7k"
+msgstr "7k"
+
+msgid "The chosen library to create the asset browser seems to be empty, empty libraries cannot be available for the asset browser."
+msgstr "选择用于创建资产浏览器的库似乎是空的，空库无法供资产浏览器使用。"
+
+msgid "Extreme PBR {library_name.title()}"
+msgstr "Extreme PBR {library_name.title()}"
+
+msgctxt "Operator"
+msgid "Abort"
+msgstr "取消"
+
+msgid "Abort the process"
+msgstr "取消该过程"
+
+msgctxt "Operator"
+msgid "Library utils"
+msgstr "库工具"
+
+msgid "Add New category to save new materials"
+msgstr "添加新类别以保存新材料"
+
+msgid "Rename the active category (It is only possible for the user category)"
+msgstr "重命名当前类别（仅用户类别可操作）"
+
+msgid "Are you sure to: {self.options.title().replace('_', ' ')} ?"
+msgstr "确定要：{self.options.title().replace('_', ' ')} 吗？"
+
+msgid "Enter a name please"
+msgstr "请输入名称"
+
+msgid "Warning, the category already exists in your library, try another name"
+msgstr "警告，该类别已存在于您的库中，请尝试其他名称"
+
+msgctxt "Operator"
+msgid "Expansion Manager"
+msgstr "扩展管理器"
+
+msgid "Add a path to another library (Only if you have third party libraries)"
+msgstr "添加路径到另一个库（仅当您拥有第三方库时）"
+
+msgid "Remove the path to this library"
+msgstr "移除此库的路径"
+
+msgctxt "Operator"
+msgid "Search Missing Files"
+msgstr "搜索缺失的文件"
+
+msgid "Try to find this image through targeted research"
+msgstr "尝试通过针对性研究查找该图像"
+
+msgid "Try to find ALL lost images through targeted research"
+msgstr "尝试通过针对性研究查找所有丢失的图像"
+
+msgctxt "Operator"
+msgid "Set preview from material"
+msgstr "从材质中设置预览"
+
+msgid "Data from the material preview system"
+msgstr "来自材质预览系统的数据"
+
+msgid "Set the material preview from this material (If possible)"
+msgstr "从此材质中设置材质预览（如果可能）"
+
+msgid "No preview data found"
+msgstr "未找到预览数据"
+
+msgid "Press Ok to set the preview from the material"
+msgstr "按确定设置材质预览"
+
+msgid "Something seems to have gone wrong, the library selector was not found ({})."
+msgstr "似乎出错了，未找到库选择器（{}）。"
+
+msgid "Something seems to have gone wrong, the category was not found ({})."
+msgstr "似乎出错了，未找到类别（{}）。"
+
+msgid "Something seems to have gone wrong, the size was not found ({})."
+msgstr "似乎出错了，未找到尺寸（{}）。"
+
+msgid "Something seems to have gone wrong, the material name was not found ({})."
+msgstr "似乎出错了，未找到材质名称（{}）。"
+
+msgid "The library selector could not be set, it seems that the library name is not valid ({})."
+msgstr "无法设置库选择器，库名称似乎无效（{}）。"
+
+msgid "The category could not be set, it seems that the category name is not valid ({})."
+msgstr "无法设置类别，类别名称似乎无效（{}）。"
+
+msgid "The material preview could not be set, it seems that the material name is not valid ({})."
+msgstr "无法设置材质预览，材质名称似乎无效（{}）。"
+
+msgid "The size could not be set, it seems that the size name is not valid ({})."
+msgstr "无法设置尺寸，尺寸名称似乎无效（{}）。"
+
+msgctxt "Operator"
+msgid "Material info and Tag"
+msgstr "材质信息和标签"
+
+msgid "Show Material Info"
+msgstr "显示材质信息"
+
+msgid "Show Library Info"
+msgstr "显示库信息"
+
+msgid "Library name: {library_name.title()}"
+msgstr "库名称：{library_name.title()}"
+
+msgid "Library name: {library_product.title()}"
+msgstr "库名称：{library_product.title()}"
+
+msgid "Library type: {library_type.title()}"
+msgstr "库类型：{library_type.title()}"
+
+msgid "Library version: {str(library_version)}"
+msgstr "库版本：{str(library_version)}"
+
+msgid "Show Info"
+msgstr "显示信息"
+
+msgid "Show"
+msgstr "显示"
+
+msgctxt "Operator"
+msgid "Check license"
+msgstr "检查许可证"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Edit Tags"
+msgstr "编辑标签"
+
+msgctxt "Operator"
+msgid "Paste"
+msgstr "粘贴"
+
+msgctxt "Operator"
+msgid "Copy"
+msgstr "复制"
+
+msgctxt "Operator"
+msgid "Add tag"
+msgstr "添加标签"
+
+msgctxt "Operator"
+msgid "Tag Manager"
+msgstr "标签管理器"
+
+msgid "Add a new tag"
+msgstr "添加新标签"
+
+msgid "Remove this tag: {properties.tag_name}"
+msgstr "移除此标签：{properties.tag_name}"
+
+msgid "Copy all tags in memory"
+msgstr "将内存中的所有标签复制到剪贴板"
+
+msgid "Paste all these tags:    {', '.join(tag_copied)}"
+msgstr "粘贴这些标签：    {', '.join(tag_copied)}"
+
+msgid "Reset the copied tags, it is just a security not to run into unwanted pastes"
+msgstr "重置已复制的标签，这只是一个安全机制，防止意外粘贴"
+
+msgid "Are you sure?"
+msgstr "确定吗？"
+
+msgid "Are you sure you want to remove this tag? the operation cannot be undone"
+msgstr "您确定要删除此标签吗？该操作无法撤销。"
+
+msgid "Are you sure you want to paste all these tags in this material here?"
+msgstr "您确定要将这些标签粘贴到此材质中吗？"
+
+msgid "The structure of this material folder does not allow you to save the tag"
+msgstr "此材质文件夹的结构不允许保存标签。"
+
+msgid "Attention, this tag is already present in the tag list, remember that it is not case sensitive, all tags will be made lowercase."
+msgstr "注意，此标签已在标签列表中存在，记住它是不区分大小写的，所有标签都会转换为小写。"
+
+msgid "Please enter a valid name for the tag, in the box on the left side"
+msgstr "请在左侧的框中输入有效的标签名称。"
+
+msgid "Tag added: {scnProp.temp_tag}"
+msgstr "已添加标签：{scnProp.temp_tag}"
+
+msgctxt "Operator"
+msgid "Delete options"
+msgstr "删除选项"
+
+msgid "It 'DEFINITIVELY' and irreversibly removes the currently selected category from the User library. Attention, all materials contained in it will be deleted."
+msgstr "它将“彻底”且不可逆地移除当前选中的类别自用户库中。注意，其中包含的所有材质也将被删除。"
+
+msgid "It 'DEFINITIVELY' and irreversibly removes the material from the User library."
+msgstr "它将“彻底”且不可逆地从用户库中移除该材质。"
+
+msgid "Are you sure you want to completely remove {get_winman_main_preview()} material from {scnProp.up_category} category?"
+msgstr "确定要完全从 {get_winman_main_preview()} 材质中移除 {scnProp.up_category} 类别吗？"
+
+msgid "Are you sure you want to completely delete this category? {scnProp.up_category} All materials contained in it (if any) will be deleted!"
+msgstr "确定要完全删除此类别吗？{scnProp.up_category} 其中包含的所有材质（如果有）将被删除！"
+
+msgid "Press Esc to abort, or choose 'No' and Press 'Ok'"
+msgstr "按 Esc 键取消，或选择“否”然后按\"Ok\""
+
+msgctxt "Operator"
+msgid "Rename Material Files"
+msgstr "重命名材质文件"
+
+msgid "Are you sure to rename?"
+msgstr "确定要重命名吗？"
+
+msgid "The text must have at least 3 characters"
+msgstr "文本必须至少包含 3 个字符"
+
+msgid "Unable to rename the folder, please close them"
+msgstr "无法重命名文件夹，请关闭它们"
+
+msgctxt "Operator"
+msgid "Smart Arrows"
+msgstr "智能箭头"
+
+msgid "Scroll the categories towards the beginning"
+msgstr "向类别开头滚动"
+
+msgid "Scroll through the categories towards the end"
+msgstr "滚动到类别的末尾"
+
+msgid "Scroll the materials towards the beginning"
+msgstr "向材料列表的开头滚动"
+
+msgid "Scroll the materials towards the end"
+msgstr "滚动到材质末尾"
+
+msgid "Scroll the image towards the beginning"
+msgstr "向图像开头滚动"
+
+msgid "Scroll the image towards the end"
+msgstr "向图像末尾滚动"
+
+msgctxt "Operator"
+msgid "Search:"
+msgstr "搜索："
+
+msgid "search_cat"
+msgstr "搜索类别"
+
+msgid "search_mat"
+msgstr "搜索材质"
+
+msgid "the category {mats_categories['categories'][cat_index][0]}"
+msgstr "类别：{mats_categories['categories'][cat_index][0]}"
+
+msgid "the material {mat_name}"
+msgstr "材质 {mat_name}"
+
+msgid "I could not find"
+msgstr "我无法找到"
+
+msgid "No library"
+msgstr "没有库"
+
+msgctxt "Operator"
+msgid "Search Tags:"
+msgstr "搜索标签:"
+
+msgid "search_all_tags"
+msgstr "搜索所有标签"
+
+msgid "Module Creator"
+msgstr "模块创建器"
+
+msgid "Normal Map"
+msgstr "法线贴图"
+
+msgid "Bump Map"
+msgstr "凹凸贴图"
+
+msgid "Clearcoat Normal Map"
+msgstr "清漆法线贴图"
+
+msgid "Clearcoat Bump Map"
+msgstr "清漆凹凸贴图"
+
+msgid "( This material is not based on image textures, so it does not need Anti Tile and it is not possible to create it )"
+msgstr "(此材质不是基于图像纹理，因此不需要抗锯齿，也无法创建它 )"
+
+msgid "( No Coordinate and Mapping nodes found in this material, so it is not possible to create Anti Tile )"
+msgstr "( 在此材质中未找到坐标和映射节点，因此无法创建抗锯齿)"
+
+msgid "Empty Material, please select a valid material from the preview."
+msgstr "空材质，请从预览中选择有效材质。"
+
+msgid "Attention, this material version has yet to be downloaded from extreme-addons, to download this material version, use the button below the size selector. or install everything via the material installation buttons in the addon options. If not see the download button and you had an account on extreme-addons.com, go to options and activate the button 'I Have an account on Extreme Addons'"
+msgstr "注意：此材质版本尚未从 extreme-addons 下载。要下载此材质版本，请使用尺寸选择器下方的按钮。或者通过插件选项中的材质安装按钮安装所有内容。如果没有看到下载按钮并且您在 extreme-addons.com 上有账户，请访问选项并激活\"I Have an account on Extreme Addons\"按钮。"
+
+msgid "Warning, this material does not contain any useful files, or, the library has been manipulated. Make sure you haven't manually tapped anything inside the library folders"
+msgstr "警告：此材质不包含任何有用文件，或库已被篡改。请确保您没有手动在库文件夹中点击任何东西。"
+
+msgid "This material has been saved as FX, so it cannot be used as a Material or Module Material"
+msgstr "此材质已保存为 FX，因此无法用作材质或模块材质。"
+
+msgid "This material ( {preview_mat_name} ) has been saved as complete Node Tree Material, so it cannot be used as Module Material"
+msgstr "此材质（{preview_mat_name}）已保存为完整节点树材质，因此无法用作模块材质。"
+
+msgid "Attention, you cannot sum to this material: ( {ob.active_material.name} ) as it is not a material created with Extreme PBR (4,0,10) or later"
+msgstr "注意：您不能将此材质与 ( {ob.active_material.name} ) 相加，因为它不是使用 Extreme PBR (4,0,10) 或更高版本创建的材质。"
+
+msgid "The missing file is also part of the Exapack library: {} try to reinstall this exapack library"
+msgstr "缺失的文件也是 Exapack 库的一部分：{} 尝试重新安装此 exapack 库。"
+
+msgid "No valid file found in the selected library, the file may have been moved or deleted {}"
+msgstr "在选定的库中未找到有效文件，该文件可能已被移动或删除 {}。"
+
+msgid "Please select or add a valid object to use this button"
+msgstr "请选择或添加一个有效的对象以使用此按钮。"
+
+msgid "This material was not saved as fx, so it cannot be used as such."
+msgstr "此材质未保存为 fx，因此无法用作此类材质。"
+
+msgid "Attention, This material ({preview_mat_name}) cannot be an Fx Layer, for more details see the manual"
+msgstr "注意，此材质（{preview_mat_name}）不能用作 Fx 层。有关详细信息，请参阅手册"
+
+msgid "This material cannot be used as Fx."
+msgstr "此材质无法用作 Fx。"
+
+msgid "Warning, the material chosen for the FX cannot be used, the source does not seem to contain any image files"
+msgstr "警告：选择的 FX 材质不可用，源文件似乎不包含任何图像文件"
+
+msgid "{module_fx_node.node_tree.name}_DynBake"
+msgstr "{module_fx_node.node_tree.name}_DynBake"
+
+msgid "TEMP_XTM"
+msgstr "TEMP_XTM"
+
+msgid "Something seems to have gone wrong with this material. No support found with this material in the source file."
+msgstr "此材质似乎出现了问题。在源文件中未找到对该材质的支持。"
+
+msgid "No material found."
+msgstr "未找到材质。"
+
+msgid "Something went wrong, this material doesn't seem to work. The .blend file containing the material appears to have been handled manually. Avoid manually manipulating the .blend files in the 'User Library' folder, we do not give assistance in handling these files as they are automatically written by Extreme PBR"
+msgstr "出错了，该材质似乎无法使用。包含该材质的.blend 文件似乎是手动处理的。请勿手动处理'User Library'文件夹中的.blend 文件，我们不协助处理这些文件，因为它们是由 Extreme PBR 自动生成的。"
+
+msgid "{mat_name}_Overlay"
+msgstr "{mat_name}_Overlay"
+
+msgid "Information regarding the material could not be found. No problem. If you are a creator of materials, remember to enter information when saving a material, especially of type \"Texture PBR\""
+msgstr "无法找到有关该材质的信息。没关系。如果您是材质创作者，请记得在保存材质时输入相关信息，尤其是类型为“纹理 PBR”的材质。"
+
+msgid "Information regarding the node input property could not be found. No problem. If you are a creator of materials, remember to enter information when saving a material, especially of type \"Texture PBR\""
+msgstr "找不到节点输入属性的信息。没关系。如果您是材质创建者，请记得在保存材质时输入相关信息，尤其是\"PBR 纹理”类型的材质。"
+
+msgid "X_PBR_Module_{str(i + 1)}"
+msgstr "X_PBR_Module_{i+1}"
+
+msgid "Slot_{str(idx)}_XTMS"
+msgstr "插槽_{str(idx)}_XTMS"
+
+msgid "No images are lost"
+msgstr "不会丢失图像"
+
+msgid "These images were not found: {lost_images_name} Try searching in another location"
+msgstr "未找到这些图像：{lost_images_name} 请在其他位置搜索"
+
+msgid "All images have been found"
+msgstr "所有图片均已找到"
+
+msgid "Attention, the maximum limit of UV Slots in Blender is 8, to proceed, you must free a UV Slot"
+msgstr "注意：Blender 中 UV 槽的最大限制为 8，要继续操作，您必须释放一个 UV 槽。"
+
+msgid "Reset successfully"
+msgstr "重置成功"
+
+msgid "Warning, this material ({ob.active_material.name}) is not currently applied on any face! select the right material from the list of materials of this object!"
+msgstr "警告，该材质（{ob.active_material.name}）当前未应用于任何面！请从该对象的材质列表中选择正确的材质！"
+
+msgctxt "Operator"
+msgid "Extreme PBR"
+msgstr "Extreme PBR"
+
+msgid ""
+"Add an fx layer to the Module above. Almost all the materials of the Default Library can be an Fx.\n"
+"To create an Fx, consult the manual{short_cut}{shift_note}"
+msgstr ""
+"在上方模块中添加一个 FX 层。默认库中几乎所有材质都可以是 FX。\n"
+"要创建 FX，请查阅手册{short_cut}{shift_note}"
+
+msgid ""
+"Replace context fx layer. Almost all the materials of the Default Library can be an Fx.\n"
+"To create an Fx, consult the manual{short_cut}{shift_note}"
+msgstr ""
+"替换上下文中的 FX 层。默认库中几乎所有材质都可以是 FX。\n"
+"要创建 FX，请查阅手册{short_cut}{shift_note}"
+
+msgid "Creation of a Empty fx layer node, for the creation of custom fx nodes, dedicated to the expansion of Extreme PBR (A new material will be created)"
+msgstr "创建一个空的 FX 节点，用于创建自定义 FX 节点，专门用于扩展 Extreme PBR（将创建一个新的材质）"
+
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+msgid "Load Media"
+msgstr "加载媒体"
+
+msgid "Try to create automatic PBR material"
+msgstr "尝试自动创建 PBR 材质"
+
+msgid "No valid image selected"
+msgstr "未选择有效的图像"
+
+msgctxt "Operator"
+msgid "Material operator"
+msgstr "材质操作器"
+
+msgid "Add and mix the preview material to the active one in the list{short_cut}{shift_note}"
+msgstr "将预览材质添加到列表中的当前材质，并进行混合{short_cut}{shift_note}"
+
+msgid "Replace the active material with the new one you have chosen.{short_cut}{alt_note_replace}{shift_note}"
+msgstr "用您选择的新的材质替换当前材质。{short_cut}{alt_note_replace}{shift_note}"
+
+msgid ""
+"Add material from the preview to active object and selected objects\n"
+"(Selected objects must have no material in order to be added) {short_cut}{alt_note_add}{shift_note}"
+msgstr ""
+"将预览中的材质添加到活动对象和选定对象中\n"
+"(选定的对象必须没有材质才能被添加) {short_cut}{alt_note_add}{shift_note}"
+
+msgid "Replace this module{short_cut}{shift_note}"
+msgstr "替换此模块{short_cut}{shift_note}"
+
+msgid "Creation of a empty module node, for the creation of custom module nodes, dedicated to the expansion of Extreme PBR (A new material will be created)"
+msgstr "创建一个空的模块节点，用于创建自定义模块节点，专门用于扩展 Extreme PBR（将创建一个新的材质）"
+
+msgctxt "Operator"
+msgid "Paint module material"
+msgstr "绘制模块材质"
+
+msgid "Paint the selected module with the brush"
+msgstr "用画笔为选定的模块上色"
+
+msgid "Fill with the selected module"
+msgstr "用选定的模块填充"
+
+msgid "End the painting mode, and return to the Object mode"
+msgstr "结束绘画模式，返回到对象模式"
+
+msgid "Recreate the UV Projection for painting, useful in case the object is modified (Do not use if your object is already painted and without problems)"
+msgstr "重新创建 UV 投影以进行绘画，适用于对象被修改的情况（如果对象已经上漆且没有问题，请勿使用）"
+
+msgid "Want to proceed with the fill?"
+msgstr "想继续填充吗？"
+
+msgid "builtin.Brush"
+msgstr "builtin.Brush"
+
+msgid "builtin_brush.Draw"
+msgstr "内置画笔。绘制"
+
+msgid "Attention, you cannot paint on an object of type {ob.type}, to paint you must use an object of type MESH, you can convert your object into a mesh using 'Convert to' from the Blender Object menu"
+msgstr "注意，您无法在类型为 {ob.type} 的对象上进行绘画。要绘画，必须使用类型为 MESH 的对象。您可以从 Blender 对象菜单中选择“转换为”将您的对象转换为网格"
+
+msgctxt "Operator"
+msgid "Set Brush Properties"
+msgstr "设置画笔属性"
+
+msgid "Blend"
+msgstr "混合"
+
+msgid "Blend the color with the existing color"
+msgstr "与现有颜色混合颜色"
+
+msgid "This property is assigned by the input operator, eumerate in ['MIX', 'ADD', 'SUBTRACT', 'MULTIPLY', 'LIGHTEN', 'DARKEN', 'OVERLAY', 'HARD_LIGHT', 'SOFT_LIGHT', 'COLOR_DODGE', 'COLOR_BURN', 'LINEAR_LIGHT', 'VIVID_LIGHT', 'PIN_LIGHT', 'DIFFERENCE', 'EXCLUSION', 'HUE', 'SATURATION', 'COLOR', 'LUMINOSITY']"
+msgstr "此属性由输入操作符分配，枚举值为 ['MIX', 'ADD', 'SUBTRACT', 'MULTIPLY', 'LIGHTEN', 'DARKEN', 'OVERLAY', 'HARD_LIGHT', 'SOFT_LIGHT', 'COLOR_DODGE', 'COLOR_BURN', 'LINEAR_LIGHT', 'VIVID_LIGHT', 'PIN_LIGHT', 'DIFFERENCE', 'EXCLUSION', 'HUE', 'SATURATION', 'COLOR', 'LUMINOSITY']"
+
+msgid "The name of the bpy.data.brushes to use (Univoque)"
+msgstr "要使用的 bpy.data.brushes 的名称（唯一）"
+
+msgid "Set the brush properties"
+msgstr "设置画笔属性"
+
+msgid "No brush found with the name: {self.brush_name}"
+msgstr "未找到名称为 {self.brush_name} 的画笔"
+
+msgctxt "Operator"
+msgid "Paint Tools"
+msgstr "绘画工具"
+
+msgid "Tip: Vertex Paint, needs the object to be subdivided"
+msgstr "提示：顶点绘制，需要对象进行细分"
+
+msgid "Paint Mask Size"
+msgstr "画笔遮罩大小"
+
+msgid "Restore default"
+msgstr "恢复默认值"
+
+msgid "Brush Settings:"
+msgstr "画笔设置:"
+
+msgid "Brush size"
+msgstr "画笔大小"
+
+msgid "Brush strength"
+msgstr "画笔强度"
+
+msgid "Stroke Method"
+msgstr "描边方法"
+
+msgid "Rate"
+msgstr "速率"
+
+msgid "Spacing"
+msgstr "间距"
+
+msgid "Jitter"
+msgstr "抖动"
+
+msgid "Jitter Unit"
+msgstr "抖动单元"
+
+msgid "Input Samples"
+msgstr "输入样本数"
+
+msgid "Falloff"
+msgstr "衰减"
+
+msgid "search_groups"
+msgstr "搜索组"
+
+msgctxt "Operator"
+msgid "Search Data Images"
+msgstr "搜索数据图像"
+
+msgid "search_images"
+msgstr "search_images"
+
+msgid "Search and replace active material"
+msgstr "搜索并替换当前材质"
+
+msgid "Search and add active material"
+msgstr "搜索并添加当前材质"
+
+msgctxt "Operator"
+msgid "Search"
+msgstr "搜索"
+
+msgctxt "Operator"
+msgid "Convert Material"
+msgstr "转换材质"
+
+msgid "Convert to Nexus"
+msgstr "转换为 Nexus"
+
+msgid "Convert to Simple PBR"
+msgstr "转换为简单 PBR"
+
+msgid "Convert to Nexus Module"
+msgstr "转换为 Nexus 模块"
+
+msgctxt "Operator"
+msgid "Mute/Unmute"
+msgstr "静音/取消静音"
+
+msgid "Mute/Un-mute"
+msgstr "静音/取消静音"
+
+msgctxt "Operator"
+msgid "Make single user"
+msgstr "设为单用户"
+
+msgid "This node is not a group"
+msgstr "此节点不是组"
+
+msgctxt "Operator"
+msgid "Add uv map if not present"
+msgstr "如不存在则添加 UV 贴图"
+
+msgctxt "Operator"
+msgid "Auto Set Video"
+msgstr "自动设置视频"
+
+msgid "Ignore Sharpness"
+msgstr "忽略锐度"
+
+msgctxt "Operator"
+msgid "Smart Shade smooth"
+msgstr "智能阴影平滑"
+
+msgid "Apply Smooth By Angle modifier"
+msgstr "应用角度平滑修饰器"
+
+msgid "Store as Defaults"
+msgstr "存储为默认值"
+
+msgid "Restore Defaults"
+msgstr "恢复默认值"
+
+msgid "Apply the Smooth By Angle modifier to the selected objects (Ignore Object's without it)"
+msgstr "将角度平滑修饰器应用到所选对象（忽略没有该修饰器的对象）"
+
+msgid "Apply the current settings as default, this allows every time you apply a material to an object, to always have these settings automatically"
+msgstr "将当前设置作为默认值，这样每次向对象应用材质时，都能自动拥有这些设置"
+
+msgid "Remove the default settings, when applying a material to an object, no default settings will be applied anymore (The settings already applied in the past to the object, will not be modified)"
+msgstr "移除默认设置。当向对象应用材质时，不再应用任何默认设置（过去已应用到对象的设置不会被修改）"
+
+msgid "You have selected to apply the Smooth By Angle modifier! Pay attention, you are applying the Smooth By Angle modifier, if there were 'Edge Sharp' type data in the mesh, they could be removed and/or new ones added"
+msgstr "您已选择应用角度平滑修饰器！请注意，如果网格中存在“边缘锐利”类型数据，它们可能会被移除和/或新增"
+
+msgid "You have selected to store the current settings as default, this allows every time you apply a material to an object, to always have these settings automatically"
+msgstr "您已选择将当前设置存储为默认值。这样每次向对象应用材质时，都能自动拥有这些设置"
+
+msgctxt "Operator"
+msgid "Dynamic Mask"
+msgstr "动态遮罩"
+
+msgid "Attention, the project must be saved before proceeding with this option. Save your project and try again"
+msgstr "注意，在继续此选项之前必须保存项目。保存您的项目并重新尝试"
+
+msgid "Attention, You need a free UV slot, Blender has a limit of 8 UV layer, please delete 1 layer, otherwise it will not be possible to perform this operation"
+msgstr "注意，您需要一个免费的 UV 槽位，Blender 最多支持 8 个 UV 层，请删除 1 个层，否则无法执行此操作"
+
+msgid "Please re-import the fx, something has been changed in the nodes, perhaps by mistake."
+msgstr "请重新导入 fx，节点中可能发生了更改，可能是由于错误。"
+
+msgid "Attention, this effect is already applied to another object in a scene. To prevent the other object from undergoing unexpected changes as well, you need to duplicate the material, then proceed again. The button (Duplicate Material of Extreme PBR is in the bar, to the left of the Bake button)"
+msgstr "注意，该效果已应用于场景中的另一个对象。为防止其他对象也发生意外变化，您需要复制材质，然后再次继续。按钮（Extreme PBR 的材质复制）位于 Bake 按钮左侧的条上"
+
+msgctxt "Operator"
+msgid "Activate or deactivate"
+msgstr "激活或停用"
+
+msgid "Boolean Operator"
+msgstr "布尔运算符"
+
+msgctxt "Operator"
+msgid "Search Color Name"
+msgstr "搜索颜色名称"
+
+msgid "Search the name of the color"
+msgstr "搜索颜色的名称"
+
+msgid "search_colorspace"
+msgstr "search_colorspace"
+
+msgid "Set the color space for the Texture of type {}"
+msgstr "设置 {} 类型的纹理的颜色空间"
+
+msgctxt "Operator"
+msgid "Reset Color Space to default"
+msgstr "重置颜色空间至默认值"
+
+msgid "Reset the color space to default"
+msgstr "将颜色空间重置为默认值"
+
+msgid "confirm"
+msgstr "确认"
+
+msgid "Are you sure you want to reset the color space to default? All materials will be set with the default sRGB color space and Non-Color if the color spaces are present in the ocio list"
+msgstr "您确定要将颜色空间重置为默认值吗？所有材质都将设置为默认的 sRGB 颜色空间和 Non-Color（如果 OCIO 列表中存在这些颜色空间）"
+
+msgid "The color space 'sRGB' is not present in the OCIO list"
+msgstr "OCIO 列表中不存在 'sRGB' 颜色空间"
+
+msgid "The color space 'Non-Color' is not present in the OCIO list"
+msgstr "OCIO 列表中不存在 'Non-Color' 颜色空间"
+
+msgid "The color space has not been reset to default:"
+msgstr "颜色空间未重置为默认值:"
+
+msgctxt "Operator"
+msgid "Copy material"
+msgstr "复制材质"
+
+msgctxt "Operator"
+msgid "Copy Paste Image"
+msgstr "复制粘贴图像"
+
+msgid "Copy image, useful for pasting it into another map"
+msgstr "复制图像，可用于将其粘贴到另一个贴图"
+
+msgid "Paste image{image_name}"
+msgstr "粘贴图像{image_name}"
+
+msgid "The image does not exist"
+msgstr "该图像不存在"
+
+msgctxt "Operator"
+msgid "Create Brush Texture"
+msgstr "创建笔刷纹理"
+
+msgid "Import"
+msgstr "导入"
+
+msgid "Import a texture"
+msgstr "导入一张纹理"
+
+msgid "Load from Library"
+msgstr "从库中加载"
+
+msgid "Load a texture from the Extreme PBR Library"
+msgstr "从 Extreme PBR 库中加载一张纹理"
+
+msgid "Import a texture from a file"
+msgstr "从文件导入一张纹理"
+
+msgctxt "Operator"
+msgid "Duplicate material"
+msgstr "复制材质"
+
+msgid "Duplicate the active material and all its nodes and images. This is useful when you want make a new material independent from the original one"
+msgstr "复制当前活动材质及其所有节点和图像。这很有用，当你想要创建一个独立于原始材质的新材质时"
+
+msgid "Correctly copied material. Now everything is independent including FX and masks"
+msgstr "正确复制的材质。现在包括 FX 和遮罩在内的所有内容都是独立的"
+
+msgctxt "Operator"
+msgid "Extend"
+msgstr "扩展"
+
+msgid "No Extreme PBR Module was found in this material"
+msgstr "在此材质中未找到 Extreme PBR 模块"
+
+msgctxt "Operator"
+msgid "Extreme PBR Utility"
+msgstr "Extreme PBR 工具"
+
+msgid "Choose What the operator has to do"
+msgstr "选择操作器需要执行的操作"
+
+msgid "Removes unused material slots from all selected objects"
+msgstr "从所有选定对象中移除未使用的材质槽位"
+
+msgid "Try to adjust broken/ unlink node tree or update"
+msgstr "尝试调整损坏/断开的节点树或更新"
+
+msgid "Try to adjust broken/ unlink node tree or update on all Data Materials"
+msgstr "在所有数据材质上尝试调整损坏/断开的节点树或更新"
+
+msgid "Purge data from the objects, and all unused Extreme PBR materials / group / images"
+msgstr "清除对象中的数据，以及所有未使用的 Extreme PBR 材质 / 组 / 图像"
+
+msgid "Clear all fields (Except material name)"
+msgstr "清空所有字段（除材质名称外）"
+
+msgid "Mute this texture, in order to save space to add other materials and consequently other textures."
+msgstr "静音此纹理，以节省空间添加其他材质，从而可以添加其他纹理。"
+
+msgid "The maps shown in this preview on the right, are the material maps available in the Extreme PBR preview, to search for other maps, simply change the preview material in the material search."
+msgstr "右侧预览中显示的贴图是 Extreme PBR 预览中可用的材质贴图。若要搜索其他贴图，只需在材质搜索中更改预览材质即可。"
+
+msgid "For some reason, this scene hasn't been deleted, hit this button to fix things."
+msgstr "不知何故，该场景未被删除，点击此按钮以修复问题。"
+
+msgid "{str(count)} unused item(s), deleted from the data"
+msgstr "{str(count)} 个未使用的项已从数据中删除"
+
+msgid "No unused items found on the data"
+msgstr "未在数据中找到任何未使用的项"
+
+msgctxt "Operator"
+msgid "Texture Manager"
+msgstr "纹理管理器"
+
+msgid "If true, it will show the controls for texture nodes and the ability to change the type of Texture node"
+msgstr "如果启用，将显示纹理节点的控件以及更改 Texture 节点类型的功能"
+
+msgid "Accept RGB color images"
+msgstr "接受 RGB 颜色图像"
+
+msgid "Accept all videos supported by Blender"
+msgstr "接受 Blender 支持的所有视频格式"
+
+msgid "Accept Black & White images"
+msgstr "接受黑白图像"
+
+msgid "{get_ndprop(tex_node).node_tag.title()} Node:    {text}"
+msgstr "{get_ndprop(tex_node).node_tag.title()} 节点：    {text}"
+
+msgid "Recycle if it exists"
+msgstr "如果存在则回收"
+
+msgid "Use Normal Generated"
+msgstr "使用生成的法线"
+
+msgid "Generated from:"
+msgstr "生成自:"
+
+msgid "Mute Texture"
+msgstr "静音纹理"
+
+msgid "Use Alpha channel"
+msgstr "使用 Alpha 通道"
+
+msgid "This image ({image.name} {ntpath.basename(image.filepath)}) is not packed, so if it has been moved from your hard drive or deleted, you need to find it again. Try to recover it using the button above \"Find Lost Image\" To avoid this in the future, go to the File menu -> External Data -> Automatically Pack into.blend This will create a copy of the image in the .blend file. Warning, it requires extra memory on your disk. It will be a copy of your source image. Also useful if you need to move the .blend file to another computer."
+msgstr "此图像 ({image.name} {ntpath.basename(image.filepath)}) 未打包，因此如果它已从您的硬盘移动或删除，您需要再次找到它。尝试使用上方的按钮“查找丢失的图像”来恢复它。为了避免将来出现这种情况，请转到文件菜单 -> 外部数据 -> 自动打包到.blend 文件中。这将创建一个在.blend 文件中的图像副本。警告，这需要您磁盘上的额外内存。它将是对源图像的副本。如果需要将.blend 文件移动到另一台计算机，也非常有用。"
+
+msgctxt "Operator"
+msgid "Find Lost Image"
+msgstr "查找丢失的图像"
+
+msgid "Image size: {str(image.size[0])} x {str(image.size[1])}"
+msgstr "图像大小：{str(image.size[0])} x {str(image.size[1])}"
+
+msgctxt "Operator"
+msgid "Copy Image"
+msgstr "复制图像"
+
+msgctxt "Operator"
+msgid "Paste Image"
+msgstr "粘贴图像"
+
+msgid "Enable {from_node.label}"
+msgstr "启用 {from_node.label}"
+
+msgctxt "Operator"
+msgid "Reset Values"
+msgstr "重置值"
+
+msgid "Image Name"
+msgstr "图像名称"
+
+msgid "Strength"
+msgstr "强度"
+
+msgctxt "Operator"
+msgid "Fill"
+msgstr "填充"
+
+msgctxt "Operator"
+msgid "Ops"
+msgstr "操作"
+
+msgctxt "Operator"
+msgid "Remove Image"
+msgstr "移除图像"
+
+msgid "Remove the image from this node"
+msgstr "从该节点中移除图像"
+
+msgctxt "Operator"
+msgid "Remove Material"
+msgstr "移除材质"
+
+msgid "Remove all materials from the selected objects?"
+msgstr "从选中的对象中移除所有材质？"
+
+msgid "Remove the FX from this column ({})"
+msgstr "从此列中移除 FX（{})"
+
+msgid "Removes the selected material from the object, and if present, the corresponding displacement is also removed, **Hold Shift** to remove all materials from the selected objects"
+msgstr "移除所选对象的材质，如果存在对应的位移，也会同时移除。按住 Shift 可从选中的对象中移除所有材质"
+
+msgid "Remove this module from the material ({})"
+msgstr "将此模块从材质中移除（{})"
+
+msgctxt "Operator"
+msgid "Restore to default values"
+msgstr "恢复默认值"
+
+msgid "Restore node to default values"
+msgstr "将节点恢复为默认值"
+
+msgctxt "Operator"
+msgid "Save Options:"
+msgstr "保存选项:"
+
+msgid "Module"
+msgstr "模块"
+
+msgid "Fx"
+msgstr "FX"
+
+msgid "module_materials"
+msgstr "模块材质"
+
+msgid "fx_materials"
+msgstr "fx 材质"
+
+msgid "Scale of the glow relative to the size of the original bright pixels"
+msgstr "发光强度相对于原始亮像素大小的比例"
+
+msgid "Mix between non-bloom and bloom (0 = No Bloom)"
+msgstr "混合非发光和发光效果（0=无发光）"
+
+msgid "Adds a bloom effect, useful for emissive materials"
+msgstr "添加一个光晕效果，适用于发光材质。"
+
+msgid "Try to create a preview with the displacement active (If possible)"
+msgstr "尝试在启用位移的情况下创建预览（如果可能的话）"
+
+msgid "Use the Watermark to distinguish materials from modules"
+msgstr "使用水印来区分模块和材料"
+
+msgid "If the material is present in the asset browser, save the author the tags and description"
+msgstr "如果材质存在于资产浏览器中，则保存作者标签和描述"
+
+msgid "This operator saves the complete material with all the nodes, so if you have mixed the modules they will be kept intact. In addition it also saves any type of material, even those not created with Extreme PBR. Note: This type of saved material does not allow it to be mixed with other materials at a later time. If you want to save a single module or single Fx, press 'Esc' and use the 'Save Fx' or 'Save Module' buttons if available. If they are not available, it is because this material does not contain 'Module (s)' or 'Fxs (s)'"
+msgstr "该操作符会保存完整的材质，包含所有节点。因此，如果您混合了模块，它们将保持完整。此外，它还会保存任何类型的材质，即使不是使用 Extreme PBR 创建的材质。注意：这种类型保存的材质不允许在稍后与其他材质进行混合。如果您想单独保存一个模块或单个 Fx，请按 'Esc' 并使用可用的 'Save Fx' 或 'Save Module' 按钮。如果它们不可用，是因为该材质不包含 'Module (s)' 或 'Fxs (s)'。"
+
+msgid "You can save a single FX Module, this is useful if you are a Materials/Fx creator, you will be able to sell those modules in your market."
+msgstr "您可以保存单个 FX 模块，这对于材质/特效创作者来说非常有用，您能够在自己的市场中出售这些模块。"
+
+msgid "You can save a single Module, this is useful if you are a Materials/Fx creator, you will be able to sell those modules in your market."
+msgstr "您可以保存单个模块，这对于材质/特效创作者很有用，您可以在市场中出售这些模块。"
+
+msgid "Preview with Displace ( If exist )"
+msgstr "使用置换（如果存在）"
+
+msgid "Use Watermark"
+msgstr "使用水印"
+
+msgid "Displace strength"
+msgstr "置换强度"
+
+msgid "Preview with bloom"
+msgstr "使用光晕效果预览"
+
+msgid "Use Assets Props"
+msgstr "使用资产属性"
+
+msgid "Bloom Strength"
+msgstr "光晕强度"
+
+msgid "If you are an author of materials, fill in these fields, useful information for users"
+msgstr "如果您是材质作者，请填写这些字段，这对用户很有用"
+
+msgid "The information will be displayed in the 'Material Editor' panel"
+msgstr "这些信息将显示在“材质编辑器”面板中"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Website Name"
+msgstr "网站名称"
+
+msgid "Author Website"
+msgstr "作者网站"
+
+msgid "License"
+msgstr "许可证"
+
+msgid "License Link"
+msgstr "许可证链接"
+
+msgid "In this Material there are {str(len_modules)} module(s)"
+msgstr "本材料中包含 {str(len_modules)} 个模块"
+
+msgid "it is not possible to save more than 1 module at a time"
+msgstr "一次最多只能保存 1 个模块"
+
+msgid "Choose which one you want to save"
+msgstr "选择您想要保存的模块"
+
+msgid "If you want to change the name on the fly, enter the name:"
+msgstr "如果您想现场更改名称，请输入名称："
+
+msgid "In this case the module name will be used as the Material Name"
+msgstr "在这种情况下，模块名称将用作材料名称"
+
+msgid "In this Material there are {str(len_fxs)} Fx(s)"
+msgstr "本材料中包含 {str(len_fxs)} 个 Fx"
+
+msgid "it is not possible to save more than 1 Fx at a time"
+msgstr "一次最多只能保存 1 个 Fx"
+
+msgid "Choose which Fx of this material you want to save:"
+msgstr "选择要保存此材质的 Fx:"
+
+msgid "In this case the Fx name will be used as the Name"
+msgstr "在这种情况下，Fx 名称将用作 Name"
+
+msgid "The material will be saved as is,with all the nodes, so if you have mixed the modules they will be kept intact. In addition it also saves any type of material, even those not created with Extreme PBR."
+msgstr "材质将原样保存，包含所有节点，因此如果混合了模块，它们将被完整保留。此外，它还会保存任何类型的材质，即使不是使用 Extreme PBR 创建的材质也是如此。"
+
+msgid "Material Name"
+msgstr "材质名称"
+
+msgid "xtm_cam_prew_render"
+msgstr "xtm_cam_prew_render"
+
+msgid "Some images in this material are no longer linked. They have probably been moved from the hard drive earlier"
+msgstr "此材质中的某些图像不再链接。它们可能已从硬盘中移动"
+
+msgid "WaterMark"
+msgstr "水印"
+
+msgctxt "Operator"
+msgid "Selection tool"
+msgstr "选择工具"
+
+msgid "Add a Cube projection to all faces based on the active material. (All faces that have this material applied will be automatically selected)"
+msgstr "为所有面添加基于活动材质的立方体投影。（所有应用了该材质的面将被自动选中）"
+
+msgid "Add a Smart projection to all faces based on the active material. (All faces that have this material applied will be automatically selected)"
+msgstr "为所有面添加基于活动材质的智能投影。（所有应用了该材质的面将被自动选中）"
+
+msgid "Select all faces on which the selected material is applied"
+msgstr "选择所有应用了选定材质的面"
+
+msgid "This material is not applied to any face of the object. If you want it to work, you need to select the material that is actually applied to at least one face"
+msgstr "此材质未应用于该对象的任何面。若要使其生效，请选择实际已应用到至少一个面的材质"
+
+msgctxt "Operator"
+msgid "Extreme PBR Online Manual"
+msgstr "Extreme PBR 在线手册"
+
+msgid "Tips"
+msgstr "提示"
+
+msgctxt "Operator"
+msgid "Show Value Tips"
+msgstr "显示值提示"
+
+msgctxt "Operator"
+msgid "Set Start frame"
+msgstr "设置起始帧"
+
+msgid "Start the video to the current frame, the stop will be set automatically at the end point of the video, if you want to shorten it, choose a different point in the Timeline and press 'Set Stop'"
+msgstr "将视频开始于当前帧，结束点将在视频的终点自动设定；若要缩短它，请在时间轴中选择另一个点并按「设置停止」"
+
+msgid "Stop the video to the current frame, Attention, the frame must be greater than the start frame, otherwise it will be set at the same point and the video will not be played"
+msgstr "将视频停止于当前帧。注意：帧必须大于起始帧，否则它将设在同一点且视频不会播放"
+
+msgid "Attention, the frame stop must be after the frame start, use the 'Timeline' slider to advance with the frames of the scene"
+msgstr "注意：帧停止必须在帧开始之后，使用时间轴滑块推进场景的帧"
+
+msgctxt "Operator"
+msgid "Subdivide Mesh"
+msgstr "细分网格"
+
+msgctxt "Operator"
+msgid "Toggleutil"
+msgstr "切换工具"
+
+msgid "TOGGLE_TRANSLUCENCY"
+msgstr "切换透明度"
+
+msgid "TOGGLE_SCREEN_REFRACTION"
+msgstr "切换屏幕折射"
+
+msgid "TOGGLE_TRANSPARENT_MODE"
+msgstr "切换透明模式"
+
+msgid "Enter the unique name of the material"
+msgstr "输入材质的唯一名称"
+
+msgid "Activate or deactivate, the Subsurface Translucency. Eevee only, in Cycles, this is not necessary"
+msgstr "激活或停用次表面透明。仅在 Eevee 中有效，在 Cycles 中不需要此选项"
+
+msgid "Activate or deactivate, the Screen Space Refractions (For the Glass). Eevee only, in Cycles, this is not necessary"
+msgstr "激活或停用屏幕空间折射（玻璃）。仅在 Eevee 中有效，在 Cycles 中不需要此选项"
+
+msgid "Enable material transparency for Eevee, Hashed = Best but needs more render steps. Blend = Fast, but less accurate"
+msgstr "启用 Eevee 的材质透明度。Hashed = 最佳但需要更多渲染步数；Blend = 快速但不准确"
+
+msgctxt "Operator"
+msgid "Reload Extreme PBR Nodes"
+msgstr "重新加载 Extreme PBR 节点"
+
+msgid "Mixer"
+msgstr "混合器"
+
+msgid "Reload Mixer Nodes"
+msgstr "重新加载混合器节点"
+
+msgid "Reload all Extreme PBR Mixer Nodes"
+msgstr "重新加载所有 Extreme PBR 混合器节点"
+
+msgid "Extreme PBR Nodes Reloaded"
+msgstr "Extreme PBR 节点重新加载"
+
+msgctxt "Operator"
+msgid "Smart Collapse"
+msgstr "智能折叠"
+
+msgid "Smart Collapse"
+msgstr "智能折叠"
+
+msgid ""
+"Expand Or Collapse the node\n"
+"Shorcuts:\n"
+"Shift: Collapse/Expand the row\n"
+"Ctrl: Collapse/Expand all Modules and Fxs"
+msgstr ""
+"展开或折叠节点\n"
+"快捷键：\n"
+"Shift: 折叠/展开行\n"
+"Ctrl: 折叠/展开所有模块和特效"
+
+msgid "No Material found"
+msgstr "未找到材质"
+
+msgid "No Node found"
+msgstr "未找到节点"
+
+msgctxt "Operator"
+msgid "Toggle Wireframe"
+msgstr "切换线框模式"
+
+msgid "Toggle Wireframe"
+msgstr "切换线框模式"
+
+msgid "Toggle Wireframe mode on the selected object"
+msgstr "在选定的对象上切换线框模式"
+
+msgctxt "Operator"
+msgid "Master Shader Overlay"
+msgstr "主着色器覆盖层"
+
+msgid "Add this material as a Shader Overlay"
+msgstr "将此材质添加为遮罩层"
+
+msgid "Remove identical Shader Overlays"
+msgstr "移除重复的着色器叠加层"
+
+msgid "Replace only the material of the shader overlay, keep the properties of the mixer"
+msgstr "仅替换遮罩着色器的材质，保留混合器的属性。"
+
+msgid "Replace the Shader Overlay Mixer"
+msgstr "替换遮罩混合器"
+
+msgid "Remove the Shader Overlay from the material selected in the 'Materials' search menu"
+msgstr "从「材质」搜索菜单中选中的材质中移除遮罩层"
+
+msgid "Override all scene materials on objects with the selected material"
+msgstr "为所选材质覆盖场景中所有对象的材质"
+
+msgid "Remove override material from all objects"
+msgstr "从所有对象中移除覆盖材质"
+
+msgid "You must select a material from the list of data materials in this menu"
+msgstr "您必须从本菜单中的材质数据列表中选择一个材质"
+
+msgid "Attention, the material chosen from the list ( {material.name} )contains more than one Extreme PBR module or Fx modules. At the moment it is not allowed to use it as Material Override or Shader Overlay"
+msgstr "注意，从列表中选择的材质（{material.name}）包含多个极端 PBR 模块或 FX 模块。目前不允许将其用作材质覆盖或着色器叠加。"
+
+msgid "This material (  ) cannot be used as an overlay"
+msgstr "该材质（ ）无法用作叠加层"
+
+msgid "To use the shader maker (Then create your material) I suggest you add it to an object in the scene (You can also create a temporary object). Soon after, choose from the \"Data Materials\" from the \"Add From\" menu, you will find it in the material list."
+msgstr "若要使用着色器制作器（然后创建您的材料），建议您将其添加到场景中的某个对象上（您也可以创建一个临时对象）。稍后，从“添加”菜单中选择“数据材质”，您将在材料列表中找到它。"
+
+msgid "Attention, the material you have chosen from the list to be an Overlay already contains an Overlay node, so it cannot be used for this purpose. If you want to use this material for the overlay, remove it by pressing the button below, then you can use it for the purpose."
+msgstr "注意，您已从列表中选择的用作遮罩层的材料已包含一个 Overlay 节点，因此无法用于此目的。如果您想将此材料用作遮罩层，请按下方的按钮将其移除，然后即可使用它进行该用途。"
+
+msgid "The materials of the selected objects now have the value they previously had."
+msgstr "所选对象的材质现在具有其之前的值。"
+
+msgctxt "Operator"
+msgid "Materials Settings"
+msgstr "材质设置"
+
+msgid "The chosen material setting will be applied to all objects with the material containing the same Shader Overlay"
+msgstr "选择的材质设置将应用于所有包含相同 Shader Overlay 的材质对象"
+
+msgid "Imposta il materiale con i settings selezionabili nel pannello popup"
+msgstr "在弹出面板中选择可设置的材质设置"
+
+msgid "This material does not contain any shader overlay"
+msgstr "此材料不包含任何着色器遮罩层"
+
+msgid "Check in the left column, only the attributes you want to change and then press Ok, to exit Press Esc"
+msgstr "在左侧列中勾选您想要更改的项，然后按“确定”退出。按 Esc"
+
+msgid "Restore Materials Settings"
+msgstr "恢复材质设置"
+
+msgid "Backface Culling"
+msgstr "背面剔除"
+
+msgid "Blend Mode"
+msgstr "混合模式"
+
+msgid "Shadow Mode"
+msgstr "阴影模式"
+
+msgid "Clip Threshold"
+msgstr "裁剪阈值"
+
+msgid "Show Backface"
+msgstr "显示背面"
+
+msgid "Screen Space Refraction"
+msgstr "屏幕空间折射"
+
+msgid "Refraction Depth"
+msgstr "折射深度"
+
+msgid "Subsurface Translucency"
+msgstr "次表面透明"
+
+msgid "Pass Index"
+msgstr "通道索引"
+
+msgctxt "Operator"
+msgid "Shader Overlay Utils"
+msgstr "Shader Overlay 工具"
+
+msgid "Select all objects that contain this Shader Overlay"
+msgstr "选择所有包含此 Shader Overlay 的对象"
+
+msgid "Select all objects that contain this Override Material"
+msgstr "选择所有包含此 Override Material 的对象"
+
+msgid "This material does not contain a \"Shader Overlay\" Group. Select the object with the Shader Overlay to ensure that all objects containing it (with the same group), are selected"
+msgstr "该材质不包含 \"Shader Overlay\" 组。请选中带有 Shader Overlay 的对象，以确保所有包含它（具有相同组）的对象都被选中"
+
+msgctxt "Operator"
+msgid "Assign Color Ramp"
+msgstr "分配颜色渐变"
+
+msgid "Set"
+msgstr "设置"
+
+msgid "Set active Color Ramp node to the active Socket"
+msgstr "将活动 Color Ramp 节点设置为活动 Socket"
+
+msgid "Remove active Color Ramp node from the active Socket"
+msgstr "从活动 Socket 中移除活动 Color Ramp 节点"
+
+msgid "No object selected"
+msgstr "未选择对象"
+
+msgid "No material selected"
+msgstr "未选择材质"
+
+msgid "No node tree found"
+msgstr "未找到节点树"
+
+msgid "Select the Color Ramp node and press OK"
+msgstr "选择颜色渐变节点并点击确定"
+
+msgid "No active socket found"
+msgstr "未找到活动插口"
+
+msgid "Color Ramp node removed from the active socket"
+msgstr "已从活动插口中移除颜色渐变节点"
+
+msgid "No active node found"
+msgstr "未找到活动节点"
+
+msgid "Active node is not a Color Ramp!"
+msgstr "活动节点不是颜色渐变！"
+
+msgid "Color Ramp node assigned to the active socket"
+msgstr "已将颜色渐变节点分配给活动插口"
+
+msgctxt "Operator"
+msgid "Create Socket Docs Keys"
+msgstr "创建插口文档键"
+
+msgid "Create Through the prefix you want, for example: 'MY_NODE_NAME', all the keys of the sockets present in the selected group, all the keys will be generated based on the prefix + name of the socket, for example: MY_NODE_NAME_DIFFUSE_COLOR, MY_NODE_NAME_DIFFUSE_STRENGTH, MY_NODE_NAME_NORMAL, MY_NODE_NAME_NORMAL_STRENGTH, This is useful for creating the keys and then accessing the documentation registry."
+msgstr "通过您想要的名称前缀来创建，例如：\"MY_NODE_NAME\"，所选组中所有插口的键都将基于前缀 + 插口名称生成，例如：MY_NODE_NAME_DIFFUSE_COLOR、MY_NODE_NAME_DIFFUSE_STRENGTH、MY_NODE_NAME_NORMAL、MY_NODE_NAME_NORMAL_STRENGTH。这可用于创建键并访问文档注册表。"
+
+msgid "Prefix"
+msgstr "前缀"
+
+msgctxt "Operator"
+msgid "CreatePreview"
+msgstr "创建预览"
+
+msgid "rotates the preview object on the x axis"
+msgstr "绕 x 轴旋转预览对象"
+
+msgid "rotates the preview object on the z axis"
+msgstr "绕 z 轴旋转预览对象"
+
+msgid "Object type"
+msgstr "对象类型"
+
+msgid "Rot X"
+msgstr "旋转 X"
+
+msgid "Rot Z"
+msgstr "旋转 Z"
+
+msgid "Exclude Reflections"
+msgstr "排除反射"
+
+msgid "Use Auto Size (2Meters)"
+msgstr "使用自动大小 (2 米)"
+
+msgid "Only current material"
+msgstr "仅当前材质"
+
+msgid "From Cat"
+msgstr "来自猫"
+
+msgid "To Cat"
+msgstr "给猫看"
+
+msgid "Use shade smooth"
+msgstr "使用平滑着色"
+
+msgid "Use Auto Smooth"
+msgstr "使用自动平滑"
+
+msgid "Angle"
+msgstr "角度"
+
+msgid "Use Displace if exist"
+msgstr "使用置换（如果存在）"
+
+msgid "Max Subdivision (0=Auto)"
+msgstr "最大细分（0=自动）"
+
+msgid "Displace Strength"
+msgstr "位移强度"
+
+msgid "Smooth Factor"
+msgstr "平滑因子"
+
+msgid "Smooth Iterations"
+msgstr "平滑迭代"
+
+msgctxt "Operator"
+msgid "Icon Button"
+msgstr "图标按钮"
+
+msgid "Choose the icon for when the button is True"
+msgstr "选择按钮为真时显示的图标"
+
+msgid "Choose the icon for when the button is False"
+msgstr "选择按钮为 False 时显示的图标"
+
+msgid "Remove the icon for the button True"
+msgstr "移除按钮 True 的图标"
+
+msgid "Remove the icon for the button False"
+msgstr "移除按钮 False 的图标"
+
+msgid "Choose the icon for this Enum Property"
+msgstr "选择此枚举属性的图标"
+
+msgid "Remove icon From this Enum Property"
+msgstr "从此枚举属性中移除图标"
+
+msgctxt "Operator"
+msgid "Import Texture"
+msgstr "导入纹理"
+
+msgid "Import Image into a node"
+msgstr "将图像导入节点"
+
+msgid "No valid object selected"
+msgstr "未选择有效对象"
+
+msgid "No active node selected"
+msgstr "未选择活动节点"
+
+msgid "The selected node is not of type 'Image node'"
+msgstr "选中的节点不是“图像节点”类型"
+
+msgctxt "Operator"
+msgid "Library Manager"
+msgstr "库管理器"
+
+msgid "Please insert a Permission name or key, It will be used to modify the data file, mark this Permission somewhere. You can also check it from the mat_info.json files. To edit these jsons, you will need to have the same key."
+msgstr "请输入权限名称或键，它将用于修改数据文件。请在此处标记此权限。您也可以在 mat_info.json 文件中检查它。要编辑这些 json 文件，您需要相同的键。"
+
+msgid "Please enter a permission longer than 4 characters"
+msgstr "请输入一个长度超过 4 个字符的权限名"
+
+msgid "No json file to edit, create a new one with the button 'Create single mat_info.json"
+msgstr "没有可编辑的 json 文件，请使用“创建单个 mat_info.json\"按钮创建一个新文件"
+
+msgid "Attention, the permission to edit this mat_info.json file is: '{exist_permission}' You are using: '{storage_info['permission']}' as permission, If not you, we advise you not to modify these files! You could ruin the entire library!"
+msgstr "注意：编辑此 mat_info.json 文件的权限是：'{exist_permission}' 您使用的是：'{storage_info['permission']}' 作为权限。如果不是您，我们建议您不要修改这些文件！否则您将毁掉整个库！"
+
+msgid "Are you sure to: {self.descriptions} ?"
+msgstr "确定要执行以下操作吗？{self.descriptions}"
+
+msgctxt "Operator"
+msgid "Move Socket"
+msgstr "移动插口"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Move socket Up"
+msgstr "将插口向上移动"
+
+msgid "Move socket Down"
+msgstr "向下移动插座"
+
+msgid "Move socket Up, This will affect the group node. Be careful if you have put a property of type \"Hide\" with the numbers of the properties to be hidden. These could change their position, therefore their number!"
+msgstr "向上移动插座，这会影响组节点。如果您已将“隐藏”类型的属性及其要隐藏的属性的编号设置好，请小心。这些可能会改变它们的位置，因此它们的编号也会改变！"
+
+msgid "Move socket Down, This will affect the group node. Be careful if you have put a property of type \"Hide\" with the numbers of the properties to be hidden. These could change their position, therefore their number!"
+msgstr "向下移动插座，这会影响组节点。如果您已将“隐藏”类型的属性及其要隐藏的属性的编号设置好，请小心。这些可能会改变它们的位置，因此它们的编号也会改变！"
+
+msgctxt "Operator"
+msgid "Nodes Utility"
+msgstr "节点工具"
+
+msgid "Import this node, directly into this graph of nodes (Node Tree)"
+msgstr "将此节点直接导入到此节点图（节点树）中"
+
+msgid "Explode all selected groups"
+msgstr "炸开所有选中的组"
+
+msgid "Merge all nodes of the input type group into a single input node (Automatically connect all sockets)"
+msgstr "将所有输入类型组的节点合并为一个输入节点（自动连接所有插座）"
+
+msgid "Create a new input, right after this"
+msgstr "在此之后创建一个新的输入"
+
+msgid "Based on the active node, makes the others (Selected) with the same size"
+msgstr "基于活动节点，使其他（选中）的具有相同的大小"
+
+msgid "Vertical align selected nodes"
+msgstr "垂直对齐选中的节点"
+
+msgid "Align the selected nodes horizontally"
+msgstr "水平对齐所选节点"
+
+msgid "Remove unused inputs from the context group"
+msgstr "从上下文组中移除未使用的输入"
+
+msgid "To remove unused sockets inputs, you need to be inside at the Group"
+msgstr "要删除未使用的插座输入，您需要进入组内部"
+
+msgctxt "Operator"
+msgid "Store Nodes Attributes"
+msgstr "存储节点属性"
+
+msgid "Store"
+msgstr "存储"
+
+msgid "Restore"
+msgstr "恢复"
+
+msgid "Are you sure you want to store the nodes attributes?"
+msgstr "您确定要存储节点属性吗？"
+
+msgid "This action will overwrite the previous stored attributes!"
+msgstr "此操作将覆盖之前存储的属性！"
+
+msgctxt "Operator"
+msgid "Copy Node Description to Clipboard"
+msgstr "复制节点描述到剪贴板"
+
+msgctxt "Operator"
+msgid "Icon Manager Panel"
+msgstr "图标管理器面板"
+
+msgid "Icon True"
+msgstr "图标 True"
+
+msgid "Icon False"
+msgstr "图标 False"
+
+msgid "Add Icon to Enum Socket"
+msgstr "将图标添加到枚举插座"
+
+msgid "Search"
+msgstr "搜索"
+
+msgctxt "Operator"
+msgid "Tag Panel"
+msgstr "标签面板"
+
+msgid "Tag For the socket"
+msgstr "为该插座的标签"
+
+msgid "Tags for texture nodes. Useful for handling PBR type materials, Extreme PBR tools will recognize and manage this also to switch to Uv Mapping, Box Mapping Etc."
+msgstr "纹理节点的标签。对于处理 PBR 类型材质很有用，Extreme PBR 工具也将识别并管理此内容以切换到 UV 贴图、盒式贴图等。"
+
+msgid "No node selected"
+msgstr "未选择节点"
+
+msgctxt "Operator"
+msgid "Save Node Group"
+msgstr "保存节点组"
+
+msgid "This path does not exist, please enter a valid path or check into"
+msgstr "此路径不存在，请输入有效路径或检查"
+
+msgctxt "Operator"
+msgid "Socket icon manager"
+msgstr "Socket 图标管理器"
+
+msgid "Remove the current socket"
+msgstr "移除当前 socket"
+
+msgid "Confirm the change of the selected socket"
+msgstr "确认所选 socket 的更改"
+
+msgid "Check and solve that everything is ok"
+msgstr "检查并解决所有问题"
+
+msgid "Close or open all sockets in the panel"
+msgstr "在枚举属性选项的枚举中关闭或打开面板中的所有 socket"
+
+msgid "Check that the list is ok"
+msgstr "检查列表是否正常"
+
+msgid "Use Min and Max value as range in the enumeration of the Enum property options"
+msgstr "使用 Min 和 Max 值作为枚举属性选项的范围"
+
+msgid "Everything is ok"
+msgstr "一切正常"
+
+msgid "Compilation errors have been corrected"
+msgstr "已更正编译错误"
+
+msgid "The Min Value must be set to 1"
+msgstr "Min Value 必须设置为 1"
+
+msgid "The Max Value must be greater than 1"
+msgstr "最大值必须大于 1"
+
+msgid "The Max Value must be less than 10"
+msgstr "最大值必须小于 10"
+
+msgctxt "Operator"
+msgid "Transform to Module"
+msgstr "转换到模块"
+
+msgid "Transform to module"
+msgstr "转换为模块"
+
+msgid "The context Node Tree is not from Node Group"
+msgstr "上下文节点树不是来自节点组"
+
+msgctxt "Operator"
+msgid "Randomize Socket"
+msgstr "随机化插座"
+
+msgid "Randomize Socket"
+msgstr "随机化插座"
+
+msgid "Node Group not found with name: {self.node_groups}"
+msgstr "未找到名称为 {self.node_groups} 的节点组"
+
+msgid "Socket Randomized"
+msgstr "插座已随机化"
+
+msgctxt "Operator"
+msgid "Random Socket"
+msgstr "随机插座"
+
+msgid "Index of the random socket button to remove"
+msgstr "随机插座的索引"
+
+msgid "Name of the random socket to add"
+msgstr "要添加的随机插座名称"
+
+msgid "Old name of the random socket to rename"
+msgstr "要重命名的随机插座旧名称"
+
+msgid "Add Random Socket"
+msgstr "添加随机插座"
+
+msgid "Remove Random Socket"
+msgstr "移除随机插座"
+
+msgid "Rename Random Socket"
+msgstr "重命名随机插座"
+
+msgid "Purge Unused Random Sockets"
+msgstr "清除未使用的随机插座"
+
+msgid "Add Name"
+msgstr "添加名称"
+
+msgid "In order to {} a random socket"
+msgstr "为了{}一个随机插座"
+
+msgid "Confirm the operation by pressing the button below"
+msgstr "按下下面的按钮确认操作"
+
+msgid "Random Socket with name {} already exists"
+msgstr "随机端口名称 {} 已存在"
+
+msgid "Random {} Socket Added"
+msgstr "已添加随机{}端口"
+
+msgid "Random Socket Renamed"
+msgstr "随机端口已重命名"
+
+msgid "Random Socket Removed"
+msgstr "随机端口已移除"
+
+msgid "Unused Random Sockets Purged"
+msgstr "已清理未使用的随机端口"
+
+msgctxt "Operator"
+msgid "Set Default Values"
+msgstr "设置默认值"
+
+msgid "Set default values for the node and its inputs, and for the internal node and its inputs of the internal node GROUP_OUTPUTS"
+msgstr "为节点及其输入以及内部节点和内部节点的 GROUP_OUTPUTS 的输入设置默认值"
+
+msgid "Node is not a group"
+msgstr "该节点不是组"
+
+msgid "Default values set"
+msgstr "默认值已设置"
+
+msgid "Color Creator Utility"
+msgstr "颜色创建工具"
+
+msgid "Library Creator Utility"
+msgstr "库创建工具"
+
+msgctxt "Operator"
+msgid "Open Material Folder"
+msgstr "打开材质文件夹"
+
+msgctxt "Operator"
+msgid "Start Batch Previews"
+msgstr "开始批量预览"
+
+msgctxt "Operator"
+msgid "Change material file name"
+msgstr "更改材质文件名"
+
+msgid "This section is very dangerous if you are not a texture or material manufacturer, you should not use it at all, you could compromise the entire library!"
+msgstr "如果您不是纹理或材质制造商，本部分非常危险，您绝对不应使用它，否则可能会使整个库失效！"
+
+msgid "Attention, these buttons in this box will replace the current json, if you just want to replace single parameters, use the screen below"
+msgstr "注意，此框中的按钮将替换当前的 JSON。如果您只想替换单个参数，请使用下方的屏幕。"
+
+msgctxt "Operator"
+msgid "Create current cat mat_info.json"
+msgstr "创建当前猫 Mat_info.json"
+
+msgid "Batch create the mat_info.json file for current category library"
+msgstr "批量创建当前类别库的 mat_info.json 文件"
+
+msgctxt "Operator"
+msgid "Create entire mat_info.json"
+msgstr "创建完整的 mat_info.json"
+
+msgid "Batch create the mat_info.json file for the entire library"
+msgstr "批量为整个库创建 mat_info.json 文件"
+
+msgctxt "Operator"
+msgid "Create single mat_info.json"
+msgstr "创建单色 mat_info.json"
+
+msgid "Create the mat_info.json file for the current material"
+msgstr "为当前材质创建 mat_info.json 文件"
+
+msgid "Material Info:"
+msgstr "材质信息："
+
+msgid "Storage Method"
+msgstr "存储方法"
+
+msgid "Permission"
+msgstr "权限"
+
+msgid "License Desctiption"
+msgstr "许可证描述"
+
+msgctxt "Operator"
+msgid "Replace into Json"
+msgstr "替换到 JSON"
+
+msgid "Material Settings:"
+msgstr "材质设置："
+
+msgid "Subsurface Translucent"
+msgstr "次表面透明"
+
+msgid "Group Inputs variation:"
+msgstr "组输入变化:"
+
+msgid "(Only for single save, requires the module to be selected)"
+msgstr "(仅用于单次保存，需要选择模块)"
+
+msgid "Node Utility"
+msgstr "节点工具"
+
+msgctxt "Operator"
+msgid "Copy Node Info To Clipboard"
+msgstr "将节点信息复制到剪贴板"
+
+msgctxt "Operator"
+msgid "Node Tag Type"
+msgstr "节点标签类型"
+
+msgid "Mapping Tag"
+msgstr "映射标签"
+
+msgid "Utility Nodes:"
+msgstr "实用节点:"
+
+msgctxt "Operator"
+msgid "Import:"
+msgstr "导入:"
+
+msgctxt "Operator"
+msgid "Purge unused group inputs"
+msgstr "清除未使用的组输入"
+
+msgctxt "Operator"
+msgid "Join Inputs Nodes into 1 node"
+msgstr "将多个输入节点合并为 1 个节点"
+
+msgctxt "Operator"
+msgid "Explode Selected groups"
+msgstr "炸开选中的组"
+
+msgctxt "Operator"
+msgid "Stats"
+msgstr "属性"
+
+msgctxt "Operator"
+msgid "Match nodes size"
+msgstr "匹配节点大小"
+
+msgctxt "Operator"
+msgid "Make Module"
+msgstr "创建模块"
+
+msgctxt "Operator"
+msgid "Align Node Vertically"
+msgstr "垂直对齐节点"
+
+msgctxt "Operator"
+msgid "Connect all modules"
+msgstr "连接所有模块"
+
+msgid "Smooth Noodle"
+msgstr "平滑面条"
+
+msgctxt "Operator"
+msgid "Need to save preferences"
+msgstr "需要保存偏好设置"
+
+msgctxt "Operator"
+msgid "Save Context Node Group"
+msgstr "保存上下文节点组"
+
+msgid "Choose path"
+msgstr "选择路径"
+
+msgctxt "Operator"
+msgid "Store Node Properties"
+msgstr "存储节点属性"
+
+msgid "Docs Key"
+msgstr "文档键"
+
+msgctxt "Operator"
+msgid "All Keys to Clipboard"
+msgstr "全部复制到剪贴板"
+
+msgid "Node ID Name"
+msgstr "节点 ID 名称"
+
+msgid "filter_string"
+msgstr "filter_string"
+
+msgid "Filter string for name"
+msgstr "名称的过滤字符串"
+
+msgid "Filter"
+msgstr "过滤器"
+
+msgctxt "Operator"
+msgid "Change"
+msgstr "更改"
+
+msgid "Socket Type:"
+msgstr "Socket Type:"
+
+msgid "This input is unused"
+msgstr "此输入未使用"
+
+msgid "Row 1"
+msgstr "第 1 行"
+
+msgid "Row 2"
+msgstr "第 2 行"
+
+msgid "Row 3"
+msgstr "第 3 行"
+
+msgid "Row 4"
+msgstr "第 4 行"
+
+msgid "Separate Col"
+msgstr "拆分列"
+
+msgid "Separate Row"
+msgstr "拆分行"
+
+msgid "Switch Double RGB"
+msgstr "切换双 RGB"
+
+msgid "Transparent OPS"
+msgstr "透明 OPS"
+
+msgid "SSS Translucency OPS"
+msgstr "SSS 透光性 OPS"
+
+msgid "Raytracer OPS"
+msgstr "光线追踪器 OPS"
+
+msgid "Hide Text"
+msgstr "隐藏文本"
+
+msgid "Color lab OPS"
+msgstr "颜色实验室操作符"
+
+msgid "Label on top"
+msgstr "顶部标签"
+
+msgid "Displace Alert (for mapping)"
+msgstr "置换警告（用于映射）"
+
+msgid "Hide From Panel"
+msgstr "从面板中隐藏"
+
+msgid "Show Subsurface Method"
+msgstr "显示次表面散射方法"
+
+msgid "Bool OPS"
+msgstr "布尔操作符"
+
+msgid "Show Distribution Prop"
+msgstr "显示分布属性"
+
+msgid "Is Displace Control"
+msgstr "是否为置换控制"
+
+msgid "Enum Int Options"
+msgstr "枚举整数选项"
+
+msgid "Lock Prop"
+msgstr "锁定属性"
+
+msgid "Show Mute/Unmute"
+msgstr "显示静音/取消静音"
+
+msgctxt "Operator"
+msgid "Set Color Ramp"
+msgstr "设置颜色渐变"
+
+msgid "Remove Color Ramp (Id: {})"
+msgstr "移除颜色渐变（ID：{}）"
+
+msgid "Row Scale x"
+msgstr "行缩放 x"
+
+msgid "Row Scale y"
+msgstr "行缩放 y"
+
+msgid "If Bool is False Hide the Input(s) To separate use: \",\" (use the index number of the socket)"
+msgstr "如果布尔值为 False 隐藏输入。要分开使用，请使用 \",\"（使用插孔的索引号）。"
+
+msgctxt "Operator"
+msgid "Rectify"
+msgstr "校正"
+
+msgid "If Bool is True Hide the Input(s) To separate use: \",\" (use the index number of the socket)"
+msgstr "如果布尔值为 True 隐藏输入。要分开使用，请使用 \",\"（使用插孔的索引号）。"
+
+msgid "If Bool is False (Min Value) Mute the Node(s) To separate use: \"//\" (Use the node name)"
+msgstr "如果布尔值为 False（最小值）静音节点。要分开使用，请使用 \"//\"（使用节点名称）。"
+
+msgid "If Bool is True (Min Value) Mute the Node(s) To separate use: \"//\" (Use the node name)"
+msgstr "如果布尔值为 True（最小值）静音节点。要分开使用，请使用 \"//\"（使用节点名称）。"
+
+msgctxt "Operator"
+msgid "Icon If True: {true}"
+msgstr "图标（启用）：{true}"
+
+msgctxt "Operator"
+msgid "Icon If False: {false}"
+msgstr "图标（禁用）：{false}"
+
+msgctxt "Operator"
+msgid "Remove True icon"
+msgstr "移除启用图标"
+
+msgctxt "Operator"
+msgid "Remove False icon"
+msgstr "移除禁用图标"
+
+msgid "Invert checkbox"
+msgstr "反转复选框"
+
+msgid "Text if True"
+msgstr "启用时的文本"
+
+msgid "Text if False"
+msgstr "禁用时的文本"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Additional label"
+msgstr "附加标签"
+
+msgid "Keep Socket Label"
+msgstr "保留插座标签"
+
+msgid "SSS Anisotropy"
+msgstr "SSS 各向异性"
+
+msgid "SSS IOR"
+msgstr "SSS IOR"
+
+msgid "Socket Group"
+msgstr "Socket Group"
+
+msgid "Default Value"
+msgstr "默认值"
+
+msgid "Min Value"
+msgstr "最小值"
+
+msgid "Max Value"
+msgstr "最大值"
+
+msgctxt "Operator"
+msgid "Set/Update this range as Enum Props"
+msgstr "将此范围设置为枚举属性"
+
+msgid "Index:"
+msgstr "索引:"
+
+msgid "Name:"
+msgstr "名称:"
+
+msgid "Description:"
+msgstr "描述:"
+
+msgid "Tab Direction"
+msgstr "标签方向"
+
+msgctxt "Operator"
+msgid "Texture Manager Tag: '{tag}'"
+msgstr "纹理管理器标签：'{tag}'"
+
+msgid "Show only texture manager"
+msgstr "仅显示纹理管理器"
+
+msgid "Docs Key: {}"
+msgstr "文档键：{}"
+
+msgctxt "Operator"
+msgid "To Clipboard"
+msgstr "复制到剪贴板"
+
+msgid "Active randoms:"
+msgstr "活动随机数:"
+
+msgid "Panel Builder Helper"
+msgstr "面板构建器助手"
+
+msgid "Attention, to use this menu, you must be inside an Extreme PBR Module"
+msgstr "注意，要使用此菜单，您必须在 Extreme PBR 模块内部"
+
+msgid "Group Name"
+msgstr "组名称"
+
+msgid "Group Description"
+msgstr "组描述"
+
+msgctxt "Operator"
+msgid "Add new Random"
+msgstr "添加新的随机"
+
+msgctxt "Operator"
+msgid "Extreme PBR Panel Preview"
+msgstr "极端 PBR 面板预览"
+
+msgid "Module Manager"
+msgstr "模块管理器"
+
+msgctxt "Operator"
+msgid "Helps"
+msgstr "帮助"
+
+msgctxt "Operator"
+msgid "Create empty Fx"
+msgstr "创建空 Fx"
+
+msgid "Texture Browser"
+msgstr "纹理浏览器"
+
+msgctxt "Operator"
+msgid "Add Texture"
+msgstr "添加纹理"
+
+msgctxt "Operator"
+msgid "Replace Texture"
+msgstr "替换纹理"
+
+msgctxt "Operator"
+msgid "Clip texture"
+msgstr "裁剪纹理"
+
+msgid "Docs"
+msgstr "文档"
+
+msgid "Please add a video"
+msgstr "请添加视频"
+
+msgid "Please add a video type!"
+msgstr "请添加视频类型！"
+
+msgid "Video Frames: {str(ngProp.stop_video_info - video_node.image_user.frame_start)}"
+msgstr "视频帧：{str(ngProp.stop_video_info - video_node.image_user.frame_start)}"
+
+msgid "Video Time: {str(seconds)}"
+msgstr "视频时间：{str(seconds)}"
+
+msgctxt "Operator"
+msgid "Smart Video Start"
+msgstr "智能视频开始"
+
+msgid "Scene Start"
+msgstr "场景开始"
+
+msgid "Scene Stop"
+msgstr "场景结束"
+
+msgid "Timeline"
+msgstr "时间轴"
+
+msgctxt "Operator"
+msgid "Video Start: {str(video_node.image_user.frame_start)}"
+msgstr "视频开始：{str(video_node.image_user.frame_start)}"
+
+msgctxt "Operator"
+msgid "Video Stop: {str(ngProp.stop_video_info)}"
+msgstr "视频结束：{str(ngProp.stop_video_info)}"
+
+msgid "Video Loop"
+msgstr "视频循环"
+
+msgid "Preview Animated"
+msgstr "预览动画"
+
+msgid "Tex Type"
+msgstr "贴图类型"
+
+msgid "Socket Output:"
+msgstr "Socket 输出:"
+
+msgid "Link"
+msgstr "链接"
+
+msgctxt "Operator"
+msgid "Re-Project"
+msgstr "重投影"
+
+msgid "Maps Size"
+msgstr "贴图尺寸"
+
+msgctxt "Operator"
+msgid "Stop Paint"
+msgstr "停止绘制"
+
+msgid "Activate {}"
+msgstr "激活 {}"
+
+msgid "Deactivate {}"
+msgstr "停用 {}"
+
+msgid "Invalid Socket type ( {n_input.name} )"
+msgstr "无效的 Socket 类型 ( {n_input.name} )"
+
+msgid "Texture Manager: {sckProp.tag_socket}"
+msgstr "纹理管理器：{sckProp.tag_socket}"
+
+msgid "Paint {sckProp.tag_socket.replace('_', ' ').title()}"
+msgstr "绘制 {sckProp.tag_socket.replace('_', ' ').title()}"
+
+msgctxt "Operator"
+msgid "Translucency"
+msgstr "透明度"
+
+msgctxt "Operator"
+msgid "Raytracer"
+msgstr "光线追踪器"
+
+msgctxt "Operator"
+msgid "↑ Flip ↓"
+msgstr "↑ 翻转 ↓"
+
+msgctxt "Operator"
+msgid "↓ Assign ↓"
+msgstr "↓ 分配 ↓"
+
+msgctxt "Operator"
+msgid "Is {mat.blend_method}"
+msgstr "是 {mat.blend_method}"
+
+msgctxt "Operator"
+msgid "Is {mat.surface_render_method}"
+msgstr "是 {mat.surface_render_method}"
+
+msgid "Use Anti Tile"
+msgstr "使用抗锯齿"
+
+msgid "Anti Tile"
+msgstr "反瓦片"
+
+msgid "Projection Settings"
+msgstr "投影设置"
+
+msgid "Coordinate:"
+msgstr "坐标:"
+
+msgid "Projection:"
+msgstr "投影:"
+
+msgid "{n.name} Space:"
+msgstr "{n.name} 空间:"
+
+msgid "This Group or Material does not need projection settings"
+msgstr "此组或材质不需要投影设置"
+
+msgid "No image"
+msgstr "无图像"
+
+msgid "youtube"
+msgstr "youtube"
+
+msgid "twitter"
+msgstr "twitter"
+
+msgid "blender_market"
+msgstr "blender_market"
+
+msgid "gumroad"
+msgstr "gumroad"
+
+msgctxt "Operator"
+msgid "Try converting to nexus"
+msgstr "尝试转换为 nexus"
+
+msgctxt "Operator"
+msgid "Open Help"
+msgstr "打开帮助"
+
+msgid "Libraries are not currently linked or installed"
+msgstr "库当前未链接或未安装"
+
+msgctxt "Operator"
+msgid "Go to install"
+msgstr "前往安装"
+
+msgid "Other options:"
+msgstr "其他选项:"
+
+msgid "Did you already work on Extreme PBR and you already installed the libraries? If so, indicate the paths below"
+msgstr "您是否已经为 Extreme PBR 工作过并且已安装了库？如果是，请在下方指示路径"
+
+msgid "Making/updating the asset browser:"
+msgstr "制作/更新资产浏览器:"
+
+msgid "Press the button (x) to cancel"
+msgstr "按按钮 (x) 取消"
+
+msgid "Please do not close this window during the process. If you need to continue using Blender while you wait, I recommend opening another file during this asset browser creation process (you can open Blender several times)"
+msgstr "请勿在此过程中关闭此窗口。如果您需要等待期间继续使用 Blender，我建议在创建该资产浏览器的同时打开另一个文件（您可以多次打开 Blender）"
+
+msgid "Please restart Blender to make the asset browser library effective"
+msgstr "请重启 Blender 以使资产浏览器库生效"
+
+msgid "Some files seem to be missing, here is the list:"
+msgstr "似乎缺少一些文件，以下是列表:"
+
+msgid "Check why"
+msgstr "检查原因"
+
+msgid "Background name: {preview_name} - Version: {k_size} - From: {exapack}.exapack"
+msgstr "背景名称：{preview_name} - 版本：{k_size} - 来源：{exapack}.exapack"
+
+msgid "Try to install/reinstall the exapack indicated above"
+msgstr "尝试安装/重新安装上述 exapack"
+
+msgid "Subsurface Method:"
+msgstr "次表面散射方法:"
+
+msgid "Distribution:"
+msgstr "发行版:"
+
+msgctxt "Operator"
+msgid "Paint Module {str(idx + 1)}"
+msgstr "画笔模块 {str(idx + 1)}"
+
+msgctxt "Operator"
+msgid "STOP"
+msgstr "停止"
+
+msgctxt "Operator"
+msgid "Fill Module {str(idx + 1)}"
+msgstr "填充模块 {str(idx + 1)}"
+
+msgid "Brush Blend Mode"
+msgstr "画笔混合模式"
+
+msgctxt "Operator"
+msgid "Darken"
+msgstr "变暗"
+
+msgctxt "Operator"
+msgid "Mix"
+msgstr "混合"
+
+msgctxt "Operator"
+msgid "Lighten"
+msgstr "变亮"
+
+msgid "Go to Website"
+msgstr "前往网站"
+
+msgid "Important Change:"
+msgstr "重要变更:"
+
+msgctxt "Operator"
+msgid "OK! I got it"
+msgstr "好的，我明白了"
+
+msgid "( Update is now available )"
+msgstr "(更新现已可用)"
+
+msgctxt "Operator"
+msgid "Go to update menu"
+msgstr "前往更新菜单"
+
+msgid "The free space on your selected disk is less than 2Gb"
+msgstr "您所选磁盘上的可用空间小于 2GB"
+
+msgid "unable to continue with the installation"
+msgstr "无法继续安装"
+
+msgid "Ok"
+msgstr "确定"
+
+msgctxt "Operator"
+msgid "Toggle WireFrame"
+msgstr "切换线框模式"
+
+msgctxt "Operator"
+msgid "Category:"
+msgstr "类别:"
+
+msgid "Exclude"
+msgstr "排除"
+
+msgid "Minimize"
+msgstr "最小化"
+
+msgid "The displacement of type 'Modifier' is not supported on this type of object. It is recommended to convert the object to Mesh and try again. Or use the 'Microdisplacement'"
+msgstr "不支持此类型的对象的“修饰器”类型位移。建议将对象转换为网格并重新尝试，或使用“微位移”。"
+
+msgid "The displacement will always refer to Module 1"
+msgstr "位移将始终指向模块 1"
+
+msgid "Midlevel"
+msgstr "中级"
+
+msgid "Brightness"
+msgstr "亮度"
+
+msgid "Contrast"
+msgstr "对比"
+
+msgctxt "Operator"
+msgid "Bake Displacement"
+msgstr "烘焙位移"
+
+msgid "Smooth Repeat"
+msgstr "平滑重复"
+
+msgid "( Microdisplacement work only in Cycles in Render Mode )"
+msgstr "(仅在渲染模式下支持微位移)"
+
+msgid "Use the material bump to control the Microdisplacement"
+msgstr "使用材质凹凸贴图控制微位移"
+
+msgid "Use adaptive subdivision"
+msgstr "使用自适应细分"
+
+msgid "Subdivision Type:"
+msgstr "细分类型:"
+
+msgid "Viewport Subdivision"
+msgstr "视口细分"
+
+msgid "Render Subdivision"
+msgstr "渲染细分"
+
+msgctxt "Operator"
+msgid "Auto PBR"
+msgstr "自动 PBR"
+
+msgctxt "Operator"
+msgid "Add New"
+msgstr "添加新项"
+
+msgctxt "Operator"
+msgid "Assign Mat"
+msgstr "分配材质"
+
+msgctxt "Operator"
+msgid "Select by material"
+msgstr "按材质选择"
+
+msgid "The object is ready for export the maps have been"
+msgstr "该对象已准备就绪，地图也已导出。"
+
+msgid "baked and are already applied to the object."
+msgstr "已烘焙并已经应用到对象上。"
+
+msgctxt "Operator"
+msgid "Delete current bake scene"
+msgstr "删除当前烘焙场景"
+
+msgid "Baked images:"
+msgstr "已烘焙图像："
+
+msgid "To force the Bake to stop, press and hold the Esc button"
+msgstr "强制停止烘焙，请按住 Esc 键"
+
+msgid "(If you stop, the created images will not be saved)"
+msgstr "（如果停止，创建的图像将不会被保存）"
+
+msgid "Please pay attention, this Blender version is a {experimental.upper()} We cannot guarantee the correct functioning of {Exa.blender_manifest['name']} on this version until the official release. The use of the latest official version of Blender is recommended."
+msgstr "请注意，此 Blender 版本为 {experimental.upper()}。在官方发布之前，我们无法保证 {Exa.blender_manifest['name']} 在此版本的正确运行。建议使用最新的官方 Blender 版本。"
+
+msgid "Extreme PBR Admin Panel"
+msgstr "Extreme PBR 管理面板"
+
+msgid "ExaPack Prefix Name"
+msgstr "ExaPack 前缀名称"
+
+msgid "Incremental Index"
+msgstr "增量索引"
+
+msgid "Ignore Material Version"
+msgstr "忽略材质版本"
+
+msgid "Library Type"
+msgstr "库类型"
+
+msgid "Library Name"
+msgstr "库名称"
+
+msgctxt "Operator"
+msgid "Create ExaPack"
+msgstr "创建 ExaPack"
+
+msgid "ExaPack Pause"
+msgstr "暂停 ExaPack"
+
+msgid "ExaPack Terminate"
+msgstr "终止 ExaPack"
+
+msgid "Cores to use"
+msgstr "使用的核心数"
+
+msgid "Cores active: {str(EXTREMEPBR_OT_create_exapack_library._threads_in_use)}"
+msgstr "核心数：{str(EXTREMEPBR_OT_create_exapack_library._threads_in_use)}"
+
+msgctxt "Operator"
+msgid "Make JSON ExaCollection"
+msgstr "创建 JSON ExaCollection"
+
+msgctxt "Operator"
+msgid "Make JSON Zips register"
+msgstr "注册 JSON Zips"
+
+msgid "Welcome To Extreme PBR"
+msgstr "欢迎使用 Extreme PBR"
+
+msgid "RESTART BLENDER"
+msgstr "重启 Blender"
+
+msgid "UPDATE COMPLETED"
+msgstr "更新完成"
+
+msgid "This version does not have the node dimensions, to compile, press the button below:"
+msgstr "此版本不包含节点尺寸，请按下下方按钮进行编译:"
+
+msgctxt "Operator"
+msgid "Store Node Dimensions Now"
+msgstr "立即存储节点尺寸"
+
+msgid "Something went wrong, press this button:"
+msgstr "出错了，请点击此按钮:"
+
+msgctxt "Operator"
+msgid "Press me"
+msgstr "点击我"
+
+msgid "Restore the hidden objects of the bake"
+msgstr "恢复烘焙的隐藏对象"
+
+msgid "Make Asset Browser"
+msgstr "制作资产浏览器"
+
+msgid "Sockets to use"
+msgstr "使用的插孔"
+
+msgid "Choose the sockets type to use"
+msgstr "选择要使用的插孔类型"
+
+msgid "(This module no need)"
+msgstr "(此模块不需要)"
+
+msgid "Utility Panel"
+msgstr "工具面板"
+
+msgctxt "Operator"
+msgid "Remove Unused Slots"
+msgstr "移除未使用的插槽"
+
+msgctxt "Operator"
+msgid "Purge Data"
+msgstr "清除数据"
+
+msgid "Smart Shade Smooth"
+msgstr "智能平滑着色"
+
+msgid "Shade Smooth"
+msgstr "平滑着色"
+
+msgid "Auto Smooth{note}"
+msgstr "自动平滑{note}"
+
+msgid "Auto Smooth Angle"
+msgstr "自动平滑角度"
+
+msgctxt "Operator"
+msgid "Apply Modifier"
+msgstr "应用修改器"
+
+msgctxt "Operator"
+msgid "Set by default"
+msgstr "默认设置"
+
+msgid "Default Properties:"
+msgstr "默认属性:"
+
+msgid "Shade Smooth: {str(addon_pref.shade_smooth_default)}"
+msgstr "平滑着色： {str(addon_pref.shade_smooth_default)}"
+
+msgid "Auto Smooth: {str(addon_pref.use_auto_smooth_default)}"
+msgstr "自动平滑： {str(addon_pref.use_auto_smooth_default)}"
+
+msgid "Angle: {str(round(degrees(addon_pref.auto_smooth_angle_default), 2))}°"
+msgstr "角度：{str(round(degrees(addon_pref.auto_smooth_angle_default), 2))}°"
+
+msgid "Ignore Sharpness: {str(addon_pref.ignore_sharpness_default)}"
+msgstr "忽略锐度：{str(addon_pref.ignore_sharpness_default)}"
+
+msgctxt "Operator"
+msgid "Remove Default"
+msgstr "移除默认"
+
+msgid "Material Editor"
+msgstr "材质编辑器"
+
+msgid "Select an object"
+msgstr "选择对象"
+
+msgid "No active material in this object"
+msgstr "此对象没有活动材质"
+
+msgctxt "Operator"
+msgid "Add UV map"
+msgstr "添加 UV 贴图"
+
+msgid "You must convert the nexus modules for this version of blender by pressing the button below (Convert module system). If you need more information before continuing, press the 'Docs' button below"
+msgstr "您必须通过按下下方的按钮（转换模块系统）将此版本的 Blender 的 nexus 模块进行转换。如果您需要更多信息再继续，请按下下方的“文档”按钮"
+
+msgctxt "Operator"
+msgid "Convert module system"
+msgstr "转换模块系统"
+
+msgctxt "Operator"
+msgid "Auto PBR to new Module"
+msgstr "自动 PBR 到新模块"
+
+msgctxt "Operator"
+msgid "Add {preview_mat_name} to new Module"
+msgstr "将 {preview_mat_name} 添加到新模块"
+
+msgid "This material does not appear to have been created with the latest version of Extreme PBR, therefore for safety reasons it is not shown in this menu You can always check it from the nodes menu"
+msgstr "此材质似乎不是用 Extreme PBR 的最新版本创建的，因此出于安全原因它不会显示在此菜单中。您始终可以从节点菜单中检查它"
+
+msgctxt "Operator"
+msgid "Try to Fix"
+msgstr "尝试修复"
+
+msgid "Choose Mask:"
+msgstr "选择遮罩:"
+
+msgctxt "Operator"
+msgid "Make {get_ngprop(dyn_mask_node.node_tree).bake_mask_name}"
+msgstr "制作 {get_ngprop(dyn_mask_node.node_tree).bake_mask_name}"
+
+msgctxt "Operator"
+msgid "Make noise {get_ngprop(dyn_mask_node.node_tree).bake_mask_name}"
+msgstr "创建噪声 {get_ngprop(dyn_mask_node.node_tree).bake_mask_name}"
+
+msgctxt "Operator"
+msgid "Paint Fx"
+msgstr "绘制特效"
+
+msgctxt "Operator"
+msgid "Un-Paint Fx"
+msgstr "取消绘制特效"
+
+msgctxt "Operator"
+msgid "Un-Fill"
+msgstr "取消填充"
+
+msgctxt "Operator"
+msgid "Add Fx Layer"
+msgstr "添加特效层"
+
+msgctxt "Operator"
+msgid "Adjust node tree"
+msgstr "调整节点树"
+
+msgid "Material Override"
+msgstr "材质覆盖"
+
+msgid "If enabled, blue icon will appear in the material list next to the material name"
+msgstr "如果启用，蓝色图标将出现在材质列表中的材质名称旁边"
+
+msgid "Add From:"
+msgstr "添加自:"
+
+msgid "Materials"
+msgstr "材质"
+
+msgctxt "Operator"
+msgid "Mat Settings"
+msgstr "材质设置"
+
+msgctxt "Operator"
+msgid "Select objects"
+msgstr "选择对象"
+
+msgctxt "Operator"
+msgid "Add Override"
+msgstr "添加覆盖"
+
+msgctxt "Operator"
+msgid "Remove Override"
+msgstr "移除覆盖"
+
+msgid "Material override: {material_override.name}"
+msgstr "材质覆盖：{material_override.name}"
+
+msgid "UV Mapping Help"
+msgstr "UV 映射帮助"
+
+msgid "- Abort {mode}"
+msgstr "- 取消 {mode}"
+
+msgid "- Exit from uv mapping mode"
+msgstr "- 退出 UV 映射模式"
+
+msgid "- Place Pivot Point"
+msgstr "- 放置枢轴点"
+
+msgid "- Precision Mode {mode}"
+msgstr "- 精度模式 {mode}"
+
+msgid "ON"
+msgstr "开启"
+
+msgid "- Translate"
+msgstr "- 平移"
+
+msgid "- Scale"
+msgstr "- 缩放"
+
+msgid "- Rotate"
+msgstr "- 旋转"
+
+msgid "- Move Uv Map"
+msgstr "- 移动 UV 贴图"
+
+msgid "- Lock on X uv axis"
+msgstr "- X uv 轴锁定"
+
+msgid "- Lock on Y uv axis"
+msgstr "- Y uv 轴锁定"
+
+msgid "- Unlock Y uv axis"
+msgstr "- 解锁 Y uv 轴"
+
+msgid "- Cube Projection"
+msgstr "- 立方体投影"
+
+msgid "- Follow Active Quads"
+msgstr "- 跟随活动四边形"
+
+msgid "Current Rotation Angle: {current_rotation}°"
+msgstr "当前旋转角度：{current_rotation}°"
+
+msgid "Digit the angle and press enter to confirm"
+msgstr "输入角度并按回车确认"
+
+msgid "Digit the scale and press enter to confirm"
+msgstr "输入比例并按回车确认"
+
+msgid "Select the faces you want to modify"
+msgstr "选择要修改的面"
+
+msgid "- Hide Displacement"
+msgstr "- 隐藏位移"
+
+msgid "Displace is Hidden"
+msgstr "位移已隐藏"
+
+msgid "Displace is Visible"
+msgstr "位移可见"
+
+msgid "Save Editor"
+msgstr "保存编辑器"
+
+msgid "To save material,switch to user library"
+msgstr "保存材质，切换到用户库"
+
+msgid "Switch to User Library"
+msgstr "切换到用户库"
+
+msgid "To proceed with the save, you need to create a new category, then you can proceed with the save,Enter a name and press 'Add Cat' ↓"
+msgstr "继续保存前，您需要先创建一个新类别，然后才能继续保存。输入名称并按“添加类别”↓"
+
+msgctxt "Operator"
+msgid "Save Material"
+msgstr "保存材质"
+
+msgctxt "Operator"
+msgid "Save Module"
+msgstr "保存模块"
+
+msgctxt "Operator"
+msgid "Save Material (Need first new category"
+msgstr "保存材质（需要先创建新类别）"
+
+msgid "Render Quality"
+msgstr "渲染质量"
+
+msgid "User category list:"
+msgstr "用户类别列表："
+
+msgctxt "Operator"
+msgid "Add Cat"
+msgstr "添加类别"
+
+msgid "Preview material options:"
+msgstr "预览材质选项："
+
+msgid "Icon type:"
+msgstr "图标类型:"
+
+msgid "Background:"
+msgstr "背景:"
+
+msgid "Preview UV:"
+msgstr "UV 预览:"
+
+msgid "Uv-R"
+msgstr "Uv-R"
+
+msgid "Uv-S"
+msgstr "Uv-S"
+
+msgctxt "Operator"
+msgid "Delete Category"
+msgstr "删除类别"
+
+msgctxt "Operator"
+msgid "Delete Material"
+msgstr "删除材质"
+
+msgid "Shader Overlay"
+msgstr "着色器覆盖层"
+
+msgid "If enabled, green icon will appear in the material list next to the material name"
+msgstr "如果启用，绿色图标将出现在材质列表中的材质名称旁边"
+
+msgid "Mixer node"
+msgstr "混合节点"
+
+msgid "Overlay Group"
+msgstr "叠加组"
+
+msgid "{shader_mixer.node_tree.name} (Mixer)"
+msgstr "{shader_mixer.node_tree.name}（混合器）"
+
+msgctxt "Operator"
+msgid "Replace"
+msgstr "替换"
+
+msgid "Group"
+msgstr "组"
+
+msgid "Empty Slot! Please remove"
+msgstr "空槽！请移除"
+
+msgid "Activate Material Nodes:"
+msgstr "激活材质节点:"
+
+msgctxt "Operator"
+msgid "Close"
+msgstr "关闭"
+
+msgid "Specify the name of the node_groups"
+msgstr "指定节点组的名称"
+
+msgid "Input of the node_group, use Int and spec the node_group"
+msgstr "节点组的输入，使用 Int 并指定节点组"
+
+msgid "Output of the node_group, use Int and spec the node_group"
+msgstr "节点组的输出，使用 Int 并指定节点组"
+
+msgid "Show a preview of how this Node panel will look"
+msgstr "显示此节点面板的预览效果"
+
+msgid "Add and Manage the textures of this map"
+msgstr "添加和管理该地图的纹理"
+
+msgid "Show Node Tree Stats"
+msgstr "显示节点树统计信息"
+
+msgid "Nodes: {str(len(full_nodes))}"
+msgstr "节点数：{str(len(full_nodes))}"
+
+msgid "Node Groups: {str(len(groups))}"
+msgstr "节点组数：{str(len(groups))}"
+
+msgid "Univoque Node Groups: {str(len(univoque_groups))}"
+msgstr "唯一节点组数：{str(len(univoque_groups))}"
+
+msgid "Images Node: {str(len(images))}"
+msgstr "图像节点数：{str(len(images))}"
+
+msgid "Univoque Data Images: {str(len(set(images)))}"
+msgstr "唯一数据图像数：{str(len(set(images)))}"
+
+msgid "Univoque Mute images: {str(len(set(univoque_mute_images)))}"
+msgstr "唯一静音图像数：{str(len(set(univoque_mute_images)))}"
+
+msgid "Invalid set_area value: {set_area}"
+msgstr "无效的 set_area 值：{set_area}"
+
+msgid "Composite Output"
+msgstr "合成输出"
+
+msgid "Render Layers"
+msgstr "渲染层"
+
+msgid "No image to reset color."
+msgstr "没有图像来重置颜色。"
+
+msgid "Socket name is required."
+msgstr "需要插座名称。"
+
+msgid "Socket is required to remove it."
+msgstr "需要插座才能将其删除。"
+
+msgid "Node group is not defined."
+msgstr "节点组未定义。"
+
+msgid "The provided socket does not belong to a node that has an associated node tree."
+msgstr "提供的插座不属于具有关联节点树的节点。"
+
+msgid "Socket is required and must be of type 'SOCKET'."
+msgstr "插座是必需的，且必须是'SOCKET'类型。"
+
+msgid "bl_idname is required to create a node"
+msgstr "创建节点时需要 bl_idname"
+
+msgid "No current node set in BlNode instance"
+msgstr "BlNode 实例中当前没有设置节点"
+
+msgid "from_socket is required to create a link"
+msgstr "from_socket 是创建链接所必需的"
+
+msgid "to_sockets is required to create a link"
+msgstr "to_sockets 是创建链接所必需的"
+
+msgid "At least one of name, in_name, or attrs must be provided to find a socket"
+msgstr "至少需要提供 name、in_name 或 attrs 中的一个来查找套接字"
+
+msgid "nodes_list è richiesto"
+msgstr "nodes_list 是必需的"
+
+msgid "nodes_list deve essere una list"
+msgstr "nodes_list 必须是一个列表"
+
+msgid "No father_tree set in BlNode instance"
+msgstr "BlNode 实例中未设置 father_tree"
+
+msgid "Node group is not initialized. Please create or load a node group first."
+msgstr "节点组尚未初始化。请首先创建或加载一个节点组。"
+
+msgid "Property '{prop}' does not exist in {data_block}"
+msgstr "属性 '{prop}' 不存在于 {data_block} 中"
+
+msgid "Custom Property {} does not exist in {}"
+msgstr "自定义属性 {} 不存在于 {} 中"
+
+msgid "height="
+msgstr "height="
+
+msgid "`%s` and `%s` are the same file"
+msgstr "`%s` 和 `%s` 是同一个文件"
+
+msgid "`%s` is a named pipe"
+msgstr "%s 是一个命名管道"
+
+msgid "%06X"
+msgstr "%06X"
+
+msgid "Linear Rec.709"
+msgstr "线性 Rec.709"
+
+msgid "Unable to set colorspace_settings.name. Colorspace list: {str(colorspace_names)} The error is: {str(e)}"
+msgstr "无法设置 colorspace_settings.name。颜色空间列表：{str(colorspace_names)} 错误信息为：{str(e)}"
+
+msgid "Please save the project before proceeding"
+msgstr "请保存项目后再继续操作"
+
+msgid "This path '{folder_path}' not exist"
+msgstr "路径 '{folder_path}' 不存在"
+
+msgid "The path could not be opened: ({folder_path}) contact the programmer to notify this message"
+msgstr "无法打开该路径：({folder_path})，请联系程序员以通知此消息"
+
+msgid "Try to make multiple dirs problem: Please close all open folders in your operating system, if the problem persists run Blender as administrator"
+msgstr "尝试创建多个目录时出现问题：请在操作系统中关闭所有已打开的文件夹，如果问题仍然存在，请以管理员身份运行 Blender"
+
+msgid "Try to create single dir problem:Please close all open folders in your operating system, if the problem persists run Blender as administrator"
+msgstr "尝试创建单个目录时出现问题：请在操作系统中关闭所有已打开的文件夹，如果问题仍然存在，请以管理员身份运行 Blender"
+
+msgctxt "Operator"
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+msgid "Copy to clipboard: {}"
+msgstr "复制到剪贴板：{}"
+
+msgctxt "Operator"
+msgid "Open Preferences"
+msgstr "打开首选项"
+
+msgid "Open {properties.options.title().replace('_', ' ')}"
+msgstr "打开 {properties.options.title().replace('_', ' ')}"
+
+msgid "REMOVE_FIRST_MESSAGE'"
+msgstr "移除第一条消息"
+
+msgid "RESET_MEX"
+msgstr "RESET_MEX"
+
+msgid "Removes stored data about Library Paths, User Data"
+msgstr "删除关于库路径和用户数据的存储数据"
+
+msgid "Are you sure? Check it well"
+msgstr "确定吗？请仔细检查"
+
+msgid "Press Yes and Ok to confirm, or Esc To Abort"
+msgstr "按“是”和“确定”确认，或按 Esc 取消"
+
+msgctxt "Operator"
+msgid "Previews Patch"
+msgstr "预览补丁"
+
+msgid "This operator solves the problem of previews that are not displayed correctly, do not run it if you have not encountered this problem"
+msgstr "该操作符解决了预览显示不正确的问题，如果您尚未遇到此问题则不要运行它"
+
+msgid "This operator solves the problem of previews that are not displayed correctly, do not run it if you have not encountered this problem This operation can take a few minutes"
+msgstr "此操作可能需要几分钟时间"
+
+msgid "This path does not exist: {current_lib} make sure to select the correct Library and try again"
+msgstr "路径不存在：{current_lib} 请确保选择正确的库并重新尝试"
+
+msgctxt "Operator"
+msgid "Reload Previews"
+msgstr "重新加载预览"
+
+msgid "Force reload of preview icons, Useful in case the preview icons have not been loaded correctly"
+msgstr "强制重新加载预览图标，适用于预览图标未正确加载的情况"
+
+msgctxt "Operator"
+msgid "Remove Scene"
+msgstr "移除场景"
+
+msgctxt "Operator"
+msgid "Store Shader Node Properties"
+msgstr "存储着色器节点属性"
+
+msgctxt "Operator"
+msgid "Modal Mapping"
+msgstr "模态映射"
+
+msgid "Run"
+msgstr "运行"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Run Modal Mapping"
+msgstr "运行模态映射"
+
+msgid "Stop Modal Mapping"
+msgstr "停止模态映射"
+
+msgid "In order to use this operator, you must select a mesh object, you have selected an object of type {obj.type}"
+msgstr "为了使用此操作，您必须选择一个网格对象。您已选择类型为 {obj.type} 的对象。"
+
+msgid "In order to use this operator, you must select a mesh object with a material"
+msgstr "为了使用此操作，您必须选择一个带有材质的网格对象。"
+
+msgid "Select Active face to make a Follow Active Quads"
+msgstr "选择活动面以启用“跟随活动四边形”"
+
+msgctxt "Operator"
+msgid "Mapping Editor"
+msgstr "映射编辑器"
+
+msgid "Attention, you cannot mapping on an object of type {ob.type}, to paint you must use an object of type MESH, you can convert your object into a mesh using 'Convert to' from the Blender Object menu"
+msgstr "注意：您无法在类型为 {ob.type} 的物体上进行映射。若要绘制，请使用类型为 MESH 的物体。您可以使用 Blender 对象的菜单中的“转换为”将您的对象转换为网格。"
+
+msgid "To interact with the maps,"
+msgstr "要与此处的贴图交互，"
+
+msgid "add a material to the object"
+msgstr "请为对象添加材质。"
+
+msgctxt "Operator"
+msgid "Reset all parameter"
+msgstr "重置所有参数"
+
+msgctxt "Operator"
+msgid "Select face"
+msgstr "选择面"
+
+msgid "Lock X"
+msgstr "锁定 X"
+
+msgid "Lock Y"
+msgstr "锁定 Y"
+
+msgid "UVs Size"
+msgstr "UV 尺寸"
+
+msgid "UVs Pos X"
+msgstr "UV 位置 X"
+
+msgid "UVs Pos y"
+msgstr "UV 位置 Y"
+
+msgid "UVs Rot"
+msgstr "UV 旋转"
+
+msgctxt "Operator"
+msgid "Cube Projection"
+msgstr "立方体投影"
+
+msgctxt "Operator"
+msgid "Smart Projection"
+msgstr "智能投影"
+
+msgid "UV map not present in the object"
+msgstr "对象中不存在 UV 贴图"
+
+msgid "to add a UV mapping,"
+msgstr "添加 UV 贴图，"
+
+msgid "press \"Add UV map\" button ↑↑↑"
+msgstr "点击“添加 UV 贴图”按钮 ↑↑↑"
+
+msgid "Mapping control works only on \"Mesh\""
+msgstr "映射控制仅在“网格”上有效"
+
+msgid "type objects to convert objects of type"
+msgstr "转换类型的对象为类型对象"
+
+msgid "\"Text, Curve\" in mesh format you have to"
+msgstr "“文本、曲线”在网格格式中，您需要："
+
+msgid "choose \"Convert to\" from the search menu"
+msgstr "从搜索菜单中选择“转换为”"
+
+msgctxt "Operator"
+msgid "Reset UV Editor"
+msgstr "重置 UV 编辑器"
+
+msgid "For reasons of technical safety, the operator has been blocked at the moment. Sorry for the inconvenience, please try again later"
+msgstr "出于技术安全原因，操作已被暂时阻止。抱歉给您带来不便，请稍后再试。"
+
+msgid "You need to update the addon, For security reasons this Operator has been blocked in this version, be sure to update via the 'Update Addon Core' button"
+msgstr "您需要更新该插件。出于安全原因，此操作符在当前版本中已被阻止，请确保通过“更新插件核心”按钮进行更新。"
+
+msgid "Can't find the online documentation, retry later (Im not able to download the json file)"
+msgstr "无法找到在线文档，稍后重试（我无法下载 JSON 文件）"
+
+msgid "Can't find the online documentation, retry later (Im not able to read the json file)"
+msgstr "找不到在线文档，稍后重试（我无法读取 JSON 文件）"
+
+msgid "Can't find the online documentation, retry later (Im not able to read the json file), the manual_urls key is missing"
+msgstr "找不到在线文档，稍后重试（无法读取 JSON 文件），manual_urls 键缺失"
+
+msgid "Please Check your internet connection."
+msgstr "请检查您的网络连接。"
+
+msgid "Connection Problem:{str(r.status_code)}"
+msgstr "连接问题：{str(r.status_code)}"
+
+msgid "Requests Get Except: {str(e)}   Try to check your Internet Connection         If the problem persists, contact us on the channel where you purchased Extreme PBR"
+msgstr "请求获取异常：{str(e)} 尝试检查您的网络连接。如果问题仍然存在，请向您购买 Extreme PBR 的渠道联系我们。"
+
+msgid "Connection Problem: {str(r.status_code)}"
+msgstr "连接问题：{str(r.status_code)}"
+
+msgid "Requests Get Except: {str(e)}   Try to check your Internet Connection If the problem persists, contact us on the channel where you purchased Extreme PBR"
+msgstr "请求获取异常：{str(e)} 请尝试检查您的网络连接。如果问题仍然存在，请在您购买 Extreme PBR 的频道联系我们。"
+
+msgid "Bad Json Respose from: {url} (See the consolle)"
+msgstr "来自：{url} 的 JSON 响应错误（请查看控制台）"
+
+msgid "BioVision Motion Capture (BVH) format"
+msgstr "生物视觉动作捕捉（BVH）格式"
+
+msgid "FBX format"
+msgstr "FBX 格式"
+
+msgid "STL format"
+msgstr "STL 格式"
+
+msgid "Scalable Vector Graphics (SVG) 1.1 format"
+msgstr "可缩放矢量图形（SVG）1.1 格式"
+
+msgid "Stanford PLY format"
+msgstr "斯坦福 PLY 格式"
+
+msgid "UV Layout"
+msgstr "UV 布局"
+
+msgid "Wavefront OBJ format (legacy)"
+msgstr "Wavefront OBJ 格式（旧版）"
+
+msgid "glTF 2.0 format"
+msgstr "glTF 2.0 格式"
+
+msgid "Cycles Render Engine"
+msgstr "Cycles 渲染引擎"
+
+msgid "Pose Library"
+msgstr "姿势库"
+
+msgid "Web3D X3D/VRML2 format"
+msgstr "Web3D X3D/VRML2 格式"
+
+msgctxt "Operator"
+msgid "Report a Bug on Github"
+msgstr "在 Github 上报告错误"
+
+msgid "Prepare a bug report for github, get system information and open the browser, prefilling the report"
+msgstr "准备一个 GitHub 错误报告，获取系统信息并打开浏览器，预填报告内容。"
+
+msgctxt "Operator"
+msgid "Copy System Information to Clipboard"
+msgstr "复制系统信息到剪贴板"
+
+msgid "Copy system information to clipboard"
+msgstr "复制系统信息到剪贴板"
+
+msgid "System information copied to clipboard, you can now paste it where you need"
+msgstr "系统信息已复制到剪贴板，您现在可以粘贴到需要的位置。"
+
+msgid "Unable to find the online documentation for this property"
+msgstr "无法找到该属性的在线文档"
+
+msgctxt "Operator"
+msgid "Online Documentation"
+msgstr "在线文档"
+
+msgid "Open the online documentation"
+msgstr "打开在线文档"
+
+msgid "Test"
+msgstr "测试"
+
+msgid "Can't find the online documentation, retry later (Im not able to find the manual_urls key)"
+msgstr "找不到在线文档，稍后重试（无法找到 manual_urls 键）"
+
+msgid "Can't find this key ( {} ) of the documentation, please retry, or contact me"
+msgstr "找不到文档中的此键（{}），请重试或联系我"
+
+msgid "Online Documentation"
+msgstr "在线文档"
+
+msgctxt "Operator"
+msgid "Get Library Updates"
+msgstr "获取库更新"
+
+msgid "Get the latest updates for the library"
+msgstr "获取库的最新更新"
+
+msgid "Failed to get the latest updates for the library, please try again later"
+msgstr "无法获取库的最新更新，请稍后再试"
+
+msgid "Check libraries updates done!"
+msgstr "检查库的更新已完成！"
+
+msgctxt "Operator"
+msgid "Get updates"
+msgstr "获取更新"
+
+msgid "Check for updates done !"
+msgstr "检查更新已完成！"
+
+msgid "Version: {update_key}"
+msgstr "版本：{update_key}"
+
+msgctxt "Operator"
+msgid "Browser"
+msgstr "浏览器"
+
+msgid "Visit website: {properties.url}"
+msgstr "访问网站：{properties.url}"
+
+msgid "Online Manual: {properties.docs_key}"
+msgstr "在线手册：{properties.docs_key}"
+
+msgid "It seems that your computer has not set a default Browser. Please add a default browser to correctly view the online page that must be opened via this button"
+msgstr "似乎您的计算机尚未设置默认浏览器。请添加一个默认浏览器以正确查看需要通过此按钮打开的在线页面。"
+
+msgctxt "Operator"
+msgid "Send Mail"
+msgstr "发送邮件"
+
+msgid "Send a mail to: {properties.email}"
+msgstr "向以下地址发送邮件：{properties.email}"
+
+msgctxt "Operator"
+msgid "Refresh Top Addons"
+msgstr "刷新顶部插件列表"
+
+msgid "Top Addons list refreshed"
+msgstr "顶部插件列表已刷新"
